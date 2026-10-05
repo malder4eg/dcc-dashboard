@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#111b2e">
+  <title>Don Cherry Cup — категорийная таблица</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div>
+      <p class="eyebrow">ESPN Fantasy Hockey · 2026/27</p>
+      <h1>Don Cherry Cup</h1>
+      <p id="updated" class="subtitle">Загрузка данных…</p>
+    </div>
+    <div class="hero-mark">DCC</div>
+  </header>
+
+  <main>
+    <section aria-labelledby="table-heading">
+      <div class="section-head">
+        <div>
+          <h2 id="table-heading">Категорийные итоги</h2>
+          <p id="week-note" class="note"></p>
+        </div>
+        <div id="week-tabs" class="tabs" aria-label="Период"></div>
+      </div>
+      <div class="table-card"><table id="league-table"></table></div>
+      <p class="legend">Зеленее — лучше среди 16 команд. Для GAA меньшее значение лучше. Нажмите на заголовок, чтобы отсортировать таблицу.</p>
+    </section>
+
+    <section aria-labelledby="compare-heading" class="compare-section">
+      <div class="section-head">
+        <div>
+          <h2 id="compare-heading">Сравнение команд</h2>
+          <p class="note">Текущая неделя или накопленный сезонный результат.</p>
+        </div>
+        <button id="current-opponent" class="secondary">Соперник этой недели</button>
+      </div>
+      <div class="selectors">
+        <select id="team-a" aria-label="Первая команда"></select>
+        <span>против</span>
+        <select id="team-b" aria-label="Вторая команда"></select>
+      </div>
+      <div id="compare" class="compare-card"></div>
+    </section>
+  </main>
+
+  <footer>Данные ESPN обновляются ежедневно. Секреты авторизации не передаются в браузер.</footer>
+  <script src="app.js"></script>
+</body>
+</html>
+
