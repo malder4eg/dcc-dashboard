@@ -3,7 +3,8 @@ name: Refresh DCC table
 on:
   schedule:
     # 11:00 UTC = 14:00 Moscow time. ESPN stats from the previous night are settled.
-    - cron: "0 11 * * *"
+    - cron: "0 6 * * *"
+    - cron: "0 9 * * *"
   workflow_dispatch:
 
 permissions:
