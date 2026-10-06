@@ -160,19 +160,63 @@ def load_previous() -> dict:
 
 def main() -> None:
     client = session()
-    base = get_json(
-        client,
-        params=[
-            ("view", "mTeam"),
-            ("view", "mSettings"),
-            ("view", "mStandings"),
-            ("view", "mMatchup"),
-        ],
-    )
-    names = {int(team["id"]): team_name(team) for team in base.get("teams", [])}
-    current = int(base.get("status", {}).get("currentMatchupPeriod") or 1)
-    current_scoring = int(base.get("scoringPeriodId") or 1)
-    periods = matchup_periods(base.get("settings", {}))
+base = get_json(
+    client,
+    params=[
+        ("view", "mTeam"),
+        ("view", "mSettings"),
+        ("view", "mStandings"),
+        ("view", "mMatchup"),
+        ("view", "mStatus"),
+    ],
+)
+
+names = {int(team["id"]): team_name(team) for team in base.get("teams", [])}
+
+status = base.get("status", {})
+current = int(status.get("currentMatchupPeriod") or 1)
+
+periods = matchup_periods(base.get("settings", {}))
+current_period_ids = periods.get(current, [])
+
+# ESPN hockey separates matchup periods (weeks)
+# from scoring periods (individual days).
+candidates = [
+    status.get("currentScoringPeriod"),
+    base.get("scoringPeriodId"),
+    status.get("latestScoringPeriod"),
+]
+
+current_scoring = None
+
+for value in candidates:
+    if value is None:
+        continue
+    value = int(value)
+    if not current_period_ids or value in current_period_ids:
+        current_scoring = value
+        break
+
+# Safe fallback: use the latest scoring period belonging
+# to the current matchup instead of silently falling back to 1.
+if current_scoring is None:
+    latest = status.get("latestScoringPeriod")
+
+    if latest is not None:
+        latest = int(latest)
+        valid = [x for x in current_period_ids if x <= latest]
+        if valid:
+            current_scoring = max(valid)
+
+if current_scoring is None:
+    current_scoring = min(current_period_ids) if current_period_ids else current
+
+print(
+    f"ESPN periods: matchup={current}, "
+    f"scoring={current_scoring}, "
+    f"latest={status.get('latestScoringPeriod')}, "
+    f"week_periods={current_period_ids}"
+)
     previous = load_previous()
     weeks = dict(previous.get("weeks", {}))
 
