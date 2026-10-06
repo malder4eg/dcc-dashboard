@@ -26,9 +26,6 @@ API = (
 )
 
 
-# ESPN hockey stat IDs.
-# Hidden goalie components are retained so season GAA and SV%
-# can be recomputed correctly instead of averaging weekly ratios.
 CATEGORIES = [
     {"key": "G", "label": "G", "stat": "13", "lower": False, "format": "int"},
     {"key": "A", "label": "A", "stat": "14", "lower": False, "format": "int"},
@@ -49,9 +46,6 @@ CATEGORIES = [
 ]
 
 
-# These stats are used only to detect whether ESPN has returned
-# real matchup data. GAA is deliberately excluded because an empty
-# goalie stat line may be represented as Infinity.
 REAL_DATA_KEYS = {
     "G",
     "A",
@@ -249,7 +243,6 @@ def fetch_week(
         if len(pair) == 2:
             pairs.append(pair)
 
-    # ESPN can omit untouched teams from an early empty period.
     for team_id, name in names.items():
         teams.setdefault(
             team_id,
@@ -273,8 +266,6 @@ def fetch_week(
 
 
 def has_real_stats(week_data: dict) -> bool:
-    """Return True if ESPN returned any meaningful non-zero matchup stat."""
-
     for team in week_data.get("teams", []):
         stats = team.get("stats", {})
 
@@ -299,13 +290,6 @@ def get_current_scoring_period(
     current_week: int,
     periods: dict[int, list[int]],
 ) -> int:
-    """Determine ESPN's active scoring period.
-
-    Hockey matchup periods are weekly, while scoring periods are daily.
-    mScoreboard is therefore queried separately instead of assuming that
-    scoringPeriodId equals the matchup/week number.
-    """
-
     scoreboard = get_json(
         client,
         params=[
@@ -349,8 +333,6 @@ def get_current_scoring_period(
             latest = None
 
     if week_periods and latest is not None:
-        # latestScoringPeriod can mean the most recently completed day.
-        # The active scoring period can therefore be latest + 1.
         possible = [
             period
             for period in week_periods
@@ -394,8 +376,6 @@ def fetch_current_week(
     scoring_ids: list[int],
     names: dict[int, str],
 ) -> tuple[dict, int]:
-    """Fetch current matchup and fall back to earlier daily periods if needed."""
-
     candidates: list[int] = [scoring_period]
 
     candidates.extend(
@@ -409,20 +389,19 @@ def fetch_current_week(
         )
     )
 
-    # Remove duplicates while preserving order.
     seen: set[int] = set()
-    candidates = [
-        period
-        for period in candidates
-        if not (
-            period in seen
-            or seen.add(period)
-        )
-    ]
+    unique_candidates: list[int] = []
+
+    for period in candidates:
+        if period in seen:
+            continue
+
+        seen.add(period)
+        unique_candidates.append(period)
 
     last_result: dict | None = None
 
-    for candidate in candidates:
+    for candidate in unique_candidates:
         print(
             f"Проверяем matchup {week}, "
             f"scoring period {candidate}"
@@ -459,21 +438,9 @@ def fetch_current_week(
     )
 
 
-def load_previous() -> dict:
-    path = ROOT / "data.json"
-
-    if not path.exists():
-        return {"weeks": {}}
-
-    return json.loads(
-        path.read_text(encoding="utf-8")
-    )
-
-
 def main() -> None:
     client = session()
 
-    # This request is already known to work for the private DCC league.
     base = get_json(
         client,
         params=[
@@ -512,18 +479,11 @@ def main() -> None:
         periods,
     )
 
-    previous = load_previous()
+    weeks: dict[str, dict] = {}
 
-    weeks = dict(
-        previous.get("weeks", {})
-    )
-
-    # Completed weeks are effectively immutable.
-    # Refresh only the current period and backfill missing older periods.
+    # Refresh every played matchup on every run.
+    # ESPN can apply retrospective stat corrections to completed weeks.
     for week in range(1, current + 1):
-        if str(week) in weeks and week < current:
-            continue
-
         scoring_ids = periods.get(
             week,
             [week],
@@ -548,6 +508,11 @@ def main() -> None:
 
         else:
             scoring_period = max(scoring_ids)
+
+            print(
+                f"Обновляем завершённую неделю {week}, "
+                f"scoring period {scoring_period}"
+            )
 
             weeks[str(week)] = fetch_week(
                 client,
