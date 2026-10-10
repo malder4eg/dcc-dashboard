@@ -47,10 +47,35 @@
       </div>
       <div id="compare" class="compare-card"></div>
     </section>
+    <section aria-labelledby="roster-heading" class="compare-section">
+      <div class="section-head">
+        <div>
+          <h2 id="roster-heading">Составы и свободные агенты</h2>
+          <p id="roster-note" class="note">Загрузка составов…</p>
+        </div>
+        <a href="analysis.json" class="note">Данные лиги</a>
+      </div>
+      <div class="selectors player-filters">
+        <select id="roster-team" aria-label="Команда или свободные агенты"></select>
+        <select id="player-position" aria-label="Позиция">
+          <option value="">Все позиции</option>
+          <option>C</option><option>LW</option><option>RW</option><option>D</option><option>G</option>
+        </select>
+        <input id="player-search" type="search" placeholder="Поиск игрока" aria-label="Поиск игрока">
+      </div>
+      <div class="table-card"><table id="roster-table"></table></div>
+      <div class="player-pager">
+        <button id="players-prev" class="secondary">Назад</button>
+        <span id="players-count" class="note"></span>
+        <button id="players-next" class="secondary">Далее</button>
+      </div>
+      <p class="legend">Составы, слоты и статусы ESPN на момент обновления. FA - свободный агент, WAIVERS - вейверы. Нажмите имя для статистики игрока.</p>
+    </section>
   </main>
 
   <footer>Данные ESPN обновляются ежедневно. Секреты авторизации не передаются в браузер.</footer>
   <script src="app.js"></script>
+  <script src="players.js"></script>
 </body>
 </html>
 

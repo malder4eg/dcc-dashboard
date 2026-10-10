@@ -14,6 +14,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 import requests
+from league_export import export_league, write_snapshot
 
 
 LEAGUE_ID = 1798821806
@@ -96,9 +97,10 @@ def get_json(
     *,
     params: list[tuple[str, str]],
     headers: dict | None = None,
+    url: str = API,
 ) -> dict:
     response = client.get(
-        API,
+        url,
         params=params,
         headers=headers or {},
         timeout=45,
@@ -551,6 +553,14 @@ def main() -> None:
     }
 
     output_path = ROOT / "data.json"
+
+    # Build and validate every new dataset before replacing the previous snapshot.
+    export_files = export_league(client, get_json, base, CATEGORIES, SEASON_ID,
+                                 current_scoring, current, payload["updated"])
+    payload["analysis_file"] = "analysis.json"
+    payload["scoring_period_id"] = current_scoring
+    payload["stats_scoring_period_id"] = used_scoring_period
+    write_snapshot(ROOT, export_files)
 
     output_path.write_text(
         json.dumps(

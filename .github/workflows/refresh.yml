@@ -1,6 +1,14 @@
 name: Refresh DCC table
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - scrape.py
+      - league_export.py
+      - test_export.py
+      - requirements.txt
+      - .github/workflows/refresh.yml
   schedule:
     - cron: "54 5 * * *"   # 08:54 МСК
     - cron: "54 8 * * *"   # 11:54 МСК
@@ -8,6 +16,10 @@ on:
 
 permissions:
   contents: write
+
+concurrency:
+  group: dcc-refresh
+  cancel-in-progress: false
 
 jobs:
   refresh:
@@ -23,10 +35,12 @@ jobs:
         env:
           ESPN_S2: ${{ secrets.ESPN_S2 }}
           ESPN_SWID: ${{ secrets.ESPN_SWID }}
-        run: python scrape.py
+        run: |
+          python -m unittest -v test_export
+          python scrape.py
       - name: Commit updated data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update DCC category table"
-          file_pattern: data.json
+          file_pattern: data.json analysis.json nhl_schedule.json players/*.json
 
