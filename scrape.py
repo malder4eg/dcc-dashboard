@@ -139,17 +139,31 @@ def team_name(team: dict) -> str:
     )
 
 
-def matchup_periods(settings: dict) -> dict[int, list[int]]:
+def matchup_periods(settings: dict, schedule: list[dict] | None = None) -> dict[int, list[int]]:
     raw = (
         settings
         .get("scheduleSettings", {})
         .get("matchupPeriods", {})
     )
 
-    return {
+    periods = {
         int(key): [int(x) for x in value]
         for key, value in raw.items()
     }
+    # Hockey settings may list matchup IDs rather than daily scoring IDs.
+    # Played schedule entries provide the actual day IDs for each matchup.
+    actual: dict[int, set[int]] = {}
+    for matchup in schedule or []:
+        week = matchup.get("matchupPeriodId")
+        if week is None:
+            continue
+        for side in ("home", "away"):
+            keys = (matchup.get(side) or {}).get("pointsByScoringPeriod", {})
+            actual.setdefault(int(week), set()).update(int(k) for k in keys)
+    for week, ids in actual.items():
+        if ids:
+            periods[week] = sorted(ids)
+    return periods
 
 
 def side_stats(
@@ -316,7 +330,7 @@ def get_current_scoring_period(
         except (TypeError, ValueError):
             continue
 
-        if not week_periods or scoring_period in week_periods:
+        if scoring_period > 0:
             print(
                 "ESPN periods: "
                 f"matchup={current_week}, "
@@ -471,7 +485,7 @@ def main() -> None:
     )
 
     periods = matchup_periods(
-        base.get("settings", {})
+        base.get("settings", {}), base.get("schedule", [])
     )
 
     current_scoring = get_current_scoring_period(

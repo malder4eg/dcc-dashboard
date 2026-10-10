@@ -3,7 +3,7 @@ import unittest
 from unittest.mock import patch
 
 from league_export import build_snapshot, fetch_available
-from scrape import CATEGORIES
+from scrape import CATEGORIES, get_current_scoring_period, matchup_periods
 
 
 def player(pid, status="ONTEAM"):
@@ -15,6 +15,15 @@ def player(pid, status="ONTEAM"):
 
 
 class SnapshotTests(unittest.TestCase):
+    def test_daily_period_is_not_matchup_id(self):
+        with patch("scrape.get_json", return_value={"scoringPeriodId": 13}):
+            self.assertEqual(get_current_scoring_period(None, {}, 2, {2: [2]}), 13)
+
+    def test_schedule_supplies_played_day_ids(self):
+        periods = matchup_periods({"scheduleSettings": {"matchupPeriods": {"1": [1]}}},
+                                 [{"matchupPeriodId": 1, "home": {"pointsByScoringPeriod": {"1": 0, "7": 0}}}])
+        self.assertEqual(periods[1], [1, 7])
+
     def make(self, available=None, roster=None):
         base = {"teams": [{"id": 12, "name": "Mighty Ducks", "owners": ["PRIVATE-ID"]}],
                 "members": [{"email": "PRIVATE-EMAIL"}],
