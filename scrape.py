@@ -3,6 +3,10 @@
 
 Authentication is supplied only through ESPN_S2 and ESPN_SWID environment
 variables. Secrets are never written to disk or included in output.
+
+data.json is rewritten only when ESPN data actually changes. This prevents
+unnecessary commits and GitHub Pages deployments when an hourly check finds
+no new statistics.
 """
 
 from __future__ import annotations
@@ -14,11 +18,11 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 import requests
-from league_export import export_league, write_snapshot
 
 
 LEAGUE_ID = 1798821806
 SEASON_ID = 2027
+
 ROOT = Path(__file__).resolve().parent
 
 API = (
@@ -68,7 +72,9 @@ def required_env(name: str) -> str:
     value = os.environ.get(name, "").strip()
 
     if not value:
-        raise RuntimeError(f"Не задан обязательный секрет {name}")
+        raise RuntimeError(
+            f"Не задан обязательный секрет {name}"
+        )
 
     return value
 
@@ -97,10 +103,10 @@ def get_json(
     *,
     params: list[tuple[str, str]],
     headers: dict | None = None,
-    url: str = API,
 ) -> dict:
+
     response = client.get(
-        url,
+        API,
         params=params,
         headers=headers or {},
         timeout=45,
@@ -139,31 +145,17 @@ def team_name(team: dict) -> str:
     )
 
 
-def matchup_periods(settings: dict, schedule: list[dict] | None = None) -> dict[int, list[int]]:
+def matchup_periods(settings: dict) -> dict[int, list[int]]:
     raw = (
         settings
         .get("scheduleSettings", {})
         .get("matchupPeriods", {})
     )
 
-    periods = {
+    return {
         int(key): [int(x) for x in value]
         for key, value in raw.items()
     }
-    # Hockey settings may list matchup IDs rather than daily scoring IDs.
-    # Played schedule entries provide the actual day IDs for each matchup.
-    actual: dict[int, set[int]] = {}
-    for matchup in schedule or []:
-        week = matchup.get("matchupPeriodId")
-        if week is None:
-            continue
-        for side in ("home", "away"):
-            keys = (matchup.get(side) or {}).get("pointsByScoringPeriod", {})
-            actual.setdefault(int(week), set()).update(int(k) for k in keys)
-    for week, ids in actual.items():
-        if ids:
-            periods[week] = sorted(ids)
-    return periods
 
 
 def side_stats(
@@ -173,6 +165,7 @@ def side_stats(
     dict[str, float | None],
     bool,
 ]:
+
     cumulative = side.get("cumulativeScore") or {}
     score_by_stat = cumulative.get("scoreByStat") or {}
 
@@ -203,6 +196,7 @@ def fetch_week(
     scoring_period: int,
     names: dict[int, str],
 ) -> dict:
+
     fantasy_filter = {
         "schedule": {
             "filterMatchupPeriodIds": {
@@ -219,7 +213,9 @@ def fetch_week(
             ("scoringPeriodId", str(scoring_period)),
         ],
         headers={
-            "x-fantasy-filter": json.dumps(fantasy_filter)
+            "x-fantasy-filter": json.dumps(
+                fantasy_filter
+            )
         },
     )
 
@@ -227,7 +223,9 @@ def fetch_week(
     pairs: list[list[str]] = []
 
     for matchup in data.get("schedule", []):
-        if int(matchup.get("matchupPeriodId", 0)) != week:
+        if int(
+            matchup.get("matchupPeriodId", 0)
+        ) != week:
             continue
 
         pair: list[str] = []
@@ -254,11 +252,16 @@ def fetch_week(
                 "ineligible_goalies": ineligible,
             }
 
-            pair.append(names[team_id])
+            pair.append(
+                names[team_id]
+            )
 
         if len(pair) == 2:
-            pairs.append(pair)
+            pairs.append(
+                sorted(pair)
+            )
 
+    # ESPN can occasionally omit untouched teams.
     for team_id, name in names.items():
         teams.setdefault(
             team_id,
@@ -274,14 +277,29 @@ def fetch_week(
             },
         )
 
+    # Stable ordering prevents false file changes caused only by
+    # ESPN returning teams or matchups in a different order.
+    sorted_teams = sorted(
+        teams.values(),
+        key=lambda team: int(team["id"]),
+    )
+
+    sorted_pairs = sorted(
+        pairs,
+        key=lambda pair: tuple(pair),
+    )
+
     return {
         "week": week,
-        "teams": list(teams.values()),
-        "pairs": pairs,
+        "teams": sorted_teams,
+        "pairs": sorted_pairs,
     }
 
 
-def has_real_stats(week_data: dict) -> bool:
+def has_real_stats(week_data: dict | None) -> bool:
+    if not week_data:
+        return False
+
     for team in week_data.get("teams", []):
         stats = team.get("stats", {})
 
@@ -306,6 +324,7 @@ def get_current_scoring_period(
     current_week: int,
     periods: dict[int, list[int]],
 ) -> int:
+
     scoreboard = get_json(
         client,
         params=[
@@ -313,12 +332,17 @@ def get_current_scoring_period(
         ],
     )
 
-    week_periods = periods.get(current_week, [])
+    week_periods = periods.get(
+        current_week,
+        [],
+    )
 
     candidates = [
         scoreboard.get("scoringPeriodId"),
         base.get("scoringPeriodId"),
-        base.get("status", {}).get("currentScoringPeriod"),
+        base.get("status", {}).get(
+            "currentScoringPeriod"
+        ),
     ]
 
     for candidate in candidates:
@@ -330,7 +354,10 @@ def get_current_scoring_period(
         except (TypeError, ValueError):
             continue
 
-        if scoring_period > 0:
+        if (
+            not week_periods
+            or scoring_period in week_periods
+        ):
             print(
                 "ESPN periods: "
                 f"matchup={current_week}, "
@@ -340,7 +367,11 @@ def get_current_scoring_period(
 
             return scoring_period
 
-    latest = base.get("status", {}).get("latestScoringPeriod")
+    latest = (
+        base
+        .get("status", {})
+        .get("latestScoringPeriod")
+    )
 
     if latest is not None:
         try:
@@ -369,7 +400,9 @@ def get_current_scoring_period(
             return scoring_period
 
     if week_periods:
-        scoring_period = min(week_periods)
+        scoring_period = min(
+            week_periods
+        )
 
         print(
             "ESPN periods fallback to first day: "
@@ -392,7 +425,10 @@ def fetch_current_week(
     scoring_ids: list[int],
     names: dict[int, str],
 ) -> tuple[dict, int]:
-    candidates: list[int] = [scoring_period]
+
+    candidates: list[int] = [
+        scoring_period
+    ]
 
     candidates.extend(
         sorted(
@@ -442,20 +478,49 @@ def fetch_current_week(
             return result, candidate
 
     if last_result is not None:
-        print(
-            f"ESPN пока вернул нулевую статистику "
-            f"для matchup {week}."
+        return (
+            last_result,
+            scoring_period,
         )
 
-        return last_result, scoring_period
-
     raise RuntimeError(
-        f"Не удалось загрузить данные текущего matchup {week}."
+        f"Не удалось загрузить текущую неделю {week}."
     )
+
+
+def load_previous() -> dict:
+    path = ROOT / "data.json"
+
+    if not path.exists():
+        return {
+            "weeks": {}
+        }
+
+    return json.loads(
+        path.read_text(
+            encoding="utf-8"
+        )
+    )
+
+
+def comparable_payload(payload: dict) -> dict:
+    """Return payload without metadata that changes only because a check ran."""
+
+    return {
+        key: value
+        for key, value in payload.items()
+        if key != "updated"
+    }
 
 
 def main() -> None:
     client = session()
+
+    previous = load_previous()
+
+    previous_weeks = (
+        previous.get("weeks", {})
+    )
 
     base = get_json(
         client,
@@ -469,7 +534,10 @@ def main() -> None:
 
     names = {
         int(team["id"]): team_name(team)
-        for team in base.get("teams", [])
+        for team in base.get(
+            "teams",
+            [],
+        )
     }
 
     if not names:
@@ -477,79 +545,132 @@ def main() -> None:
             "ESPN не вернул список команд лиги."
         )
 
-    status = base.get("status", {})
+    status = base.get(
+        "status",
+        {},
+    )
 
     current = int(
-        status.get("currentMatchupPeriod")
+        status.get(
+            "currentMatchupPeriod"
+        )
         or 1
     )
 
     periods = matchup_periods(
-        base.get("settings", {}), base.get("schedule", [])
+        base.get(
+            "settings",
+            {},
+        )
     )
 
-    current_scoring = get_current_scoring_period(
-        client,
-        base,
-        current,
-        periods,
+    current_scoring = (
+        get_current_scoring_period(
+            client,
+            base,
+            current,
+            periods,
+        )
     )
 
     weeks: dict[str, dict] = {}
 
-    # Refresh every played matchup on every run.
-    # ESPN can apply retrospective stat corrections to completed weeks.
-    for week in range(1, current + 1):
+    # Refresh every played week on every run.
+    # This allows ESPN stat corrections from completed weeks
+    # to flow into the dashboard automatically.
+    for week in range(
+        1,
+        current + 1,
+    ):
+
+        week_key = str(week)
+
         scoring_ids = periods.get(
             week,
             [week],
         )
 
+        previous_week = (
+            previous_weeks.get(
+                week_key
+            )
+        )
+
         if week == current:
-            week_data, used_scoring_period = fetch_current_week(
-                client=client,
-                week=week,
-                scoring_period=current_scoring,
-                scoring_ids=scoring_ids,
-                names=names,
+            week_data, used_period = (
+                fetch_current_week(
+                    client=client,
+                    week=week,
+                    scoring_period=current_scoring,
+                    scoring_ids=scoring_ids,
+                    names=names,
+                )
             )
 
-            weeks[str(week)] = week_data
+            # Do not wipe valid existing stats if ESPN temporarily
+            # returns an empty current-week response.
+            if (
+                not has_real_stats(week_data)
+                and has_real_stats(previous_week)
+            ):
+                print(
+                    f"ESPN вернул пустую текущую неделю {week}. "
+                    "Сохраняем предыдущие данные."
+                )
 
-            print(
-                f"Текущая неделя {week}: "
-                f"использован scoring period "
-                f"{used_scoring_period}"
-            )
+                week_data = previous_week
+
+            else:
+                print(
+                    f"Текущая неделя {week}: "
+                    f"использован scoring period {used_period}"
+                )
+
+            weeks[week_key] = week_data
 
         else:
-            scoring_period = max(scoring_ids)
+            scoring_period = max(
+                scoring_ids
+            )
 
             print(
-                f"Обновляем завершённую неделю {week}, "
+                f"Проверяем завершённую неделю {week}, "
                 f"scoring period {scoring_period}"
             )
 
-            weeks[str(week)] = fetch_week(
+            week_data = fetch_week(
                 client,
                 week,
                 scoring_period,
                 names,
             )
 
-    payload = {
+            # Finished matchups should never suddenly become empty.
+            # Preserve the last valid copy if ESPN has a temporary issue.
+            if (
+                not has_real_stats(week_data)
+                and has_real_stats(previous_week)
+            ):
+                print(
+                    f"ESPN вернул пустую неделю {week}. "
+                    "Сохраняем предыдущие данные."
+                )
+
+                week_data = previous_week
+
+            weeks[week_key] = week_data
+
+    new_payload = {
         "league": (
             base
             .get("settings", {})
-            .get("name", "Don Cherry Cup")
+            .get(
+                "name",
+                "Don Cherry Cup",
+            )
         ),
         "league_id": LEAGUE_ID,
         "season_id": SEASON_ID,
-        "updated": datetime.now(
-            ZoneInfo("Europe/Moscow")
-        ).strftime(
-            "%Y-%m-%d %H:%M МСК"
-        ),
         "current_week": current,
         "categories": [
             {
@@ -566,15 +687,39 @@ def main() -> None:
         "weeks": weeks,
     }
 
-    output_path = ROOT / "data.json"
+    # Compare only meaningful ESPN data.
+    # "updated" itself must not create a new commit every hour.
+    if (
+        comparable_payload(previous)
+        == comparable_payload(new_payload)
+    ):
+        print(
+            "ESPN проверен: изменений данных нет. "
+            "data.json не изменяем."
+        )
 
-    # Build and validate every new dataset before replacing the previous snapshot.
-    export_files = export_league(client, get_json, base, CATEGORIES, SEASON_ID,
-                                 current_scoring, current, payload["updated"])
-    payload["analysis_file"] = "analysis.json"
-    payload["scoring_period_id"] = current_scoring
-    payload["stats_scoring_period_id"] = used_scoring_period
-    write_snapshot(ROOT, export_files)
+        return
+
+    new_payload["updated"] = datetime.now(
+        ZoneInfo("Europe/Moscow")
+    ).strftime(
+        "%Y-%m-%d %H:%M МСК"
+    )
+
+    # Keep a predictable field order in data.json.
+    payload = {
+        "league": new_payload["league"],
+        "league_id": new_payload["league_id"],
+        "season_id": new_payload["season_id"],
+        "updated": new_payload["updated"],
+        "current_week": new_payload["current_week"],
+        "categories": new_payload["categories"],
+        "weeks": new_payload["weeks"],
+    }
+
+    output_path = (
+        ROOT / "data.json"
+    )
 
     output_path.write_text(
         json.dumps(
@@ -587,6 +732,7 @@ def main() -> None:
     )
 
     print(
+        f"Данные ESPN изменились. "
         f"Обновлено: {payload['league']}, "
         f"неделя {current}, "
         f"команд {len(names)}"
