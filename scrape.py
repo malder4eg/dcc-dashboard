@@ -333,17 +333,17 @@ def get_current_scoring_period(
         ],
     )
 
-    week_periods = periods.get(
-        current_week,
-        [],
-    )
+    status = base.get("status", {})
 
+    # In ESPN Fantasy Hockey scoringPeriodId is a daily period, while
+    # currentMatchupPeriod is the weekly H2H matchup number. Do not validate
+    # the daily scoring period against scheduleSettings.matchupPeriods:
+    # those values are not a reliable day mapping for this league.
     candidates = [
         scoreboard.get("scoringPeriodId"),
+        status.get("currentScoringPeriod"),
+        status.get("latestScoringPeriod"),
         base.get("scoringPeriodId"),
-        base.get("status", {}).get(
-            "currentScoringPeriod"
-        ),
     ]
 
     for candidate in candidates:
@@ -355,69 +355,19 @@ def get_current_scoring_period(
         except (TypeError, ValueError):
             continue
 
-        if (
-            not week_periods
-            or scoring_period in week_periods
-        ):
+        if scoring_period > 0:
             print(
                 "ESPN periods: "
                 f"matchup={current_week}, "
                 f"scoring={scoring_period}, "
-                f"week_periods={week_periods}"
+                f"latest={status.get('latestScoringPeriod')}"
             )
 
             return scoring_period
-
-    latest = (
-        base
-        .get("status", {})
-        .get("latestScoringPeriod")
-    )
-
-    if latest is not None:
-        try:
-            latest = int(latest)
-        except (TypeError, ValueError):
-            latest = None
-
-    if week_periods and latest is not None:
-        possible = [
-            period
-            for period in week_periods
-            if period <= latest + 1
-        ]
-
-        if possible:
-            scoring_period = max(possible)
-
-            print(
-                "ESPN periods fallback: "
-                f"matchup={current_week}, "
-                f"scoring={scoring_period}, "
-                f"latest={latest}, "
-                f"week_periods={week_periods}"
-            )
-
-            return scoring_period
-
-    if week_periods:
-        scoring_period = min(
-            week_periods
-        )
-
-        print(
-            "ESPN periods fallback to first day: "
-            f"matchup={current_week}, "
-            f"scoring={scoring_period}, "
-            f"week_periods={week_periods}"
-        )
-
-        return scoring_period
 
     raise RuntimeError(
         "Не удалось определить текущий ESPN scoringPeriodId."
     )
-
 
 def fetch_current_week(
     client: requests.Session,
