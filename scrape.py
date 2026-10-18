@@ -103,10 +103,11 @@ def get_json(
     *,
     params: list[tuple[str, str]],
     headers: dict | None = None,
+    url: str | None = None,
 ) -> dict:
 
     response = client.get(
-        API,
+        url or API,
         params=params,
         headers=headers or {},
         timeout=45,
