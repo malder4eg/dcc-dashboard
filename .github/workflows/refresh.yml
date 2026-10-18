@@ -33,18 +33,24 @@ jobs:
       - name: Install dependencies
         run: python -m pip install -r requirements.txt
 
-      - name: Pull ESPN and rebuild data
+      - name: Pull ESPN category totals
         env:
           ESPN_S2: ${{ secrets.ESPN_S2 }}
           ESPN_SWID: ${{ secrets.ESPN_SWID }}
         run: python scrape.py
 
-      - name: Commit updated data
+      - name: Pull ESPN rosters and free agents
+        env:
+          ESPN_S2: ${{ secrets.ESPN_S2 }}
+          ESPN_SWID: ${{ secrets.ESPN_SWID }}
+        run: python refresh_league.py
+
+      - name: Commit updated ESPN data
         id: commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update DCC category table"
-          file_pattern: data.json
+          commit_message: "Update DCC ESPN data"
+          file_pattern: "data.json analysis.json nhl_schedule.json players/*.json"
 
   deploy:
     needs: refresh
