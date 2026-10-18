@@ -122,7 +122,14 @@ def build_snapshot(base, roster_data, available, *, categories, season, scoring_
                       "waiver_rank": team.get("waiverRank")})
     overlap = roster_ids & {p["id"] for p in available}
     if overlap:
-        raise RuntimeError("Roster and FA pool disagree; league may have changed during refresh")
+        print(
+            "Roster/FA overlap detected for "
+            f"{len(overlap)} player(s); roster assignment wins."
+        )
+        available = [
+            p for p in available
+            if p["id"] not in roster_ids
+        ]
     players.update({p["id"]: p for p in available})
     settings = base.get("settings", {})
     pro_teams = settings.get("proTeams", [])
