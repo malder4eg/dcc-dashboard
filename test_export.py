@@ -19,10 +19,11 @@ class SnapshotTests(unittest.TestCase):
         with patch("scrape.get_json", return_value={"scoringPeriodId": 13}):
             self.assertEqual(get_current_scoring_period(None, {}, 2, {2: [2]}), 13)
 
-    def test_schedule_supplies_played_day_ids(self):
-        periods = matchup_periods({"scheduleSettings": {"matchupPeriods": {"1": [1]}}},
-                                 [{"matchupPeriodId": 1, "home": {"pointsByScoringPeriod": {"1": 0, "7": 0}}}])
-        self.assertEqual(periods[1], [1, 7])
+    def test_matchup_periods_reads_settings(self):
+        periods = matchup_periods(
+            {"scheduleSettings": {"matchupPeriods": {"1": [1], "2": [2]}}}
+        )
+        self.assertEqual(periods, {1: [1], 2: [2]})
 
     def make(self, available=None, roster=None):
         base = {"teams": [{"id": 12, "name": "Mighty Ducks", "owners": ["PRIVATE-ID"]}],
@@ -48,10 +49,11 @@ class SnapshotTests(unittest.TestCase):
         with self.assertRaises(RuntimeError):
             self.make(roster={"teams": []})
 
-    def test_roster_fa_conflict_aborts(self):
+    def test_roster_wins_transient_fa_conflict(self):
         from league_export import normalize_player
-        with self.assertRaises(RuntimeError):
-            self.make(available=[normalize_player(player(1, "FREEAGENT"), CATEGORIES)])
+        files = self.make(available=[normalize_player(player(1, "FREEAGENT"), CATEGORIES)])
+        self.assertEqual(files["analysis.json"]["available_count"], 0)
+        self.assertEqual(files["analysis.json"]["rostered_count"], 1)
 
     def test_pagination_and_waivers(self):
         pages = iter([[player(2, "FREEAGENT"), player(3, "WAIVERS")], [player(4, "FREEAGENT")]])
