@@ -789,9 +789,11 @@ def detect_player_signal(player: dict, mapping: dict | None, roster: dict) -> di
     availability = mapping.get("espn_status") if mapping else "UNMATCHED"
     recommendation = "TRACK ONLY"
     if availability in AVAILABLE_STATUSES:
-        if nhl_roster_status == "IR":
-            recommendation = "WATCH"
-        elif reliability != "LOW" and (
+        # Every available player that clears at least one radar trigger is a
+        # WATCH by default. ADD CANDIDATE is reserved for stronger, repeated
+        # signals; players owned by another DCC team remain TRACK ONLY.
+        recommendation = "WATCH"
+        if nhl_roster_status != "IR" and reliability != "LOW" and (
             score >= 65
             or (
                 toi_strong
@@ -800,8 +802,6 @@ def detect_player_signal(player: dict, mapping: dict | None, roster: dict) -> di
             )
         ):
             recommendation = "ADD CANDIDATE"
-        elif score >= 30:
-            recommendation = "WATCH"
     elif availability == "UNMATCHED":
         recommendation = "WATCH"
 
