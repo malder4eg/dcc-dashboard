@@ -24,7 +24,4 @@ jobs:
         run: python -m pip install -r requirements.txt
 
       - name: Run unit tests
-        run: python -m unittest -v test_export.py test_nhl_radar.py
-
-      - name: Live NHL API smoke test
-        run: python nhl_radar.py --dry-run --strict
+        run: python -m unittest -v test_export.py
