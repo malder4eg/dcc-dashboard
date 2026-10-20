@@ -156,7 +156,10 @@ class NHLClient:
         return self._get(url, params=params).json()
 
     def text(self, url: str) -> str:
-        return self._get(url).text
+        # The official media roster report is UTF-8 plain text, but its
+        # Content-Type does not always provide a charset. Decode explicitly so
+        # accented team/player names (e.g. MONTRÉAL) map correctly.
+        return self._get(url).content.decode("utf-8-sig")
 
 
 def fetch_report(client: NHLClient, report: str, from_date: str | None) -> list[dict]:
@@ -390,13 +393,16 @@ def parse_roster_report(text: str, team_map: dict[str, str]) -> dict[str, dict]:
             section = "ir"
             continue
 
+        # Column header belongs to the current section; do not clear it.
+        if line.startswith("SW#"):
+            continue
+
         if (
             line.startswith("Active -")
             or line.startswith("On IRL -")
             or line.startswith("Total -")
             or line.startswith("Average :")
             or line.startswith("Players by Country:")
-            or line.startswith("SW#")
         ):
             section = None
             continue
@@ -428,8 +434,22 @@ def parse_roster_report(text: str, team_map: dict[str, str]) -> dict[str, dict]:
 
         teams[current_team][section].append(item)
 
-    if len(teams) < 30:
-        raise RuntimeError(f"NHL roster report parser found only {len(teams)} teams")
+    expected_teams = set(team_map.values())
+    missing_teams = sorted(expected_teams - set(teams))
+    if missing_teams:
+        raise RuntimeError(
+            "NHL roster report missing teams: " + ", ".join(missing_teams)
+        )
+
+    bad_active = {
+        team: len(info.get("active", []))
+        for team, info in teams.items()
+        if len(info.get("active", [])) < 15
+    }
+    if bad_active:
+        raise RuntimeError(
+            f"NHL roster report active-roster completeness failed: {bad_active}"
+        )
 
     return {
         "report_updated": report_updated,
@@ -445,9 +465,20 @@ def roster_name_display(history: dict) -> dict[str, str]:
     return out
 
 
+def roster_snapshot_complete(snapshot: dict | None) -> bool:
+    if not snapshot or not snapshot.get("complete"):
+        return False
+    teams = snapshot.get("teams", {})
+    return (
+        len(teams) >= 32
+        and all(len(info.get("active", [])) >= 15 for info in teams.values())
+    )
+
+
 def build_roster_snapshot(parsed: dict, previous: dict | None, history: dict) -> dict:
     detected_at = now_iso()
-    previous_teams = (previous or {}).get("teams", {})
+    previous_valid = roster_snapshot_complete(previous)
+    previous_teams = (previous or {}).get("teams", {}) if previous_valid else {}
     name_display = roster_name_display(history)
     new_events: list[dict] = []
 
@@ -469,7 +500,7 @@ def build_roster_snapshot(parsed: dict, previous: dict | None, history: dict) ->
                     "detected_at": detected_at,
                 })
 
-        if previous:
+        if previous_valid:
             add_events("NEW_IR", cur_ir - old_ir)
             add_events("RETURNED_FROM_IR", (old_ir - cur_ir) & cur_active)
             add_events("ACTIVE_ADDED", (cur_active - old_active) - old_ir)
@@ -477,7 +508,8 @@ def build_roster_snapshot(parsed: dict, previous: dict | None, history: dict) ->
 
     cutoff = datetime.now(timezone.utc) - timedelta(days=RECENT_EVENT_DAYS)
     retained: list[dict] = []
-    for event in (previous or {}).get("events", []):
+    previous_events = (previous or {}).get("events", []) if previous_valid else []
+    for event in previous_events:
         try:
             when = datetime.fromisoformat(event["detected_at"].replace("Z", "+00:00"))
         except Exception:
@@ -496,6 +528,10 @@ def build_roster_snapshot(parsed: dict, previous: dict | None, history: dict) ->
         "updated": now_msk(),
         "source": ROSTER_REPORT_URL,
         "report_updated": parsed.get("report_updated"),
+        "complete": True,
+        "team_count": len(parsed["teams"]),
+        "active_count": sum(len(info.get("active", [])) for info in parsed["teams"].values()),
+        "ir_count": sum(len(info.get("ir", [])) for info in parsed["teams"].values()),
         "teams": parsed["teams"],
         "events": sorted(retained, key=lambda x: x["detected_at"], reverse=True),
     }
@@ -790,6 +826,8 @@ def detect_player_signal(player: dict, mapping: dict | None, roster: dict) -> di
 
     if len(recent) >= 2 and toi_strong:
         role_outlook = "Повышенный TOI держится минимум два завершённых матча подряд."
+    elif len(recent) >= 2:
+        role_outlook = "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать."
     else:
         role_outlook = "Сигнал пока основан на одном завершённом матче; нужна повторная проверка."
 
