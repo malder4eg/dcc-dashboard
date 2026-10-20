@@ -164,31 +164,42 @@ def fetch_report(client: NHLClient, report: str, from_date: str | None) -> list[
     if from_date:
         expression += f" and gameDate>='{from_date}'"
 
-    rows: list[dict] = []
-    start = 0
-    limit = 5000
+    # The NHL Stats REST API documents limit=-1 as "return all results".
+    # One complete response is safer than offset pagination here because the
+    # report has no guaranteed default sort order and can change while pages
+    # are being fetched.
+    payload = client.json(
+        f"{STATS_BASE}/{report}",
+        params={
+            "isAggregate": "false",
+            "isGame": "true",
+            "start": 0,
+            "limit": -1,
+            "cayenneExp": expression,
+        },
+    )
 
-    while True:
-        payload = client.json(
-            f"{STATS_BASE}/{report}",
-            params={
-                "isAggregate": "false",
-                "isGame": "true",
-                "start": start,
-                "limit": limit,
-                "cayenneExp": expression,
-            },
+    rows = payload.get("data")
+    if not isinstance(rows, list):
+        raise RuntimeError(f"NHL stats report {report} returned no data array")
+
+    total = payload.get("total")
+    if total is not None and len(rows) != int(total):
+        raise RuntimeError(
+            f"NHL stats report {report} incomplete: got {len(rows)} of {total}"
         )
-        batch = payload.get("data")
-        if not isinstance(batch, list):
-            raise RuntimeError(f"NHL stats report {report} returned no data array")
-        rows.extend(batch)
-        total = int(payload.get("total") or len(rows))
-        if len(rows) >= total:
-            return rows
-        if not batch:
-            raise RuntimeError(f"NHL stats report {report} pagination stopped early")
-        start += len(batch)
+
+    keys = {
+        (row.get("playerId"), row.get("gameId"))
+        for row in rows
+        if row.get("playerId") is not None and row.get("gameId") is not None
+    }
+    if len(keys) != len(rows):
+        raise RuntimeError(
+            f"NHL stats report {report} contains duplicate player/game rows"
+        )
+
+    return rows
 
 
 def fetch_game_states(client: NHLClient, dates: set[str]) -> dict[int, dict]:
