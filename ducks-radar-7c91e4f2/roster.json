@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-21 00:17 МСК",
+  "updated": "2026-10-21 01:16 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "21:17:22 10/20/2026",
+  "report_updated": "22:16:17 10/20/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 725,
+  "active_count": 724,
   "ir_count": 65,
   "teams": {
     "ANA": {
@@ -58,12 +58,6 @@
           "name": "ANTHONY-JOHN (AJ) GREER",
           "name_key": "anthony john aj greer",
           "position": "L"
-        },
-        {
-          "sweater": 28,
-          "name": "JUDD CAULFIELD",
-          "name_key": "judd caulfield",
-          "position": "R"
         },
         {
           "sweater": 33,
@@ -5035,6 +5029,14 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_REMOVED:ANA:judd caulfield:2026-10-20",
+      "type": "ACTIVE_REMOVED",
+      "team": "ANA",
+      "player": "Judd Caulfield",
+      "player_key": "judd caulfield",
+      "detected_at": "2026-10-20T22:16:17Z"
+    },
     {
       "id": "NEW_IR:UTA:michael carcone:2026-10-20",
       "type": "NEW_IR",
