@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive,nosnippet">
+  <meta name="googlebot" content="noindex,nofollow,noarchive,nosnippet">
+  <meta name="theme-color" content="#111b2e">
+  <title>DCC NHL Fantasy Radar</title>
+  <style>
+    :root{--ink:#172033;--muted:#667085;--line:#e4e7ec;--surface:#fff;--canvas:#f5f7fb;--navy:#111b2e;--red:#bd1f36}
+    *{box-sizing:border-box} body{margin:0;background:var(--canvas);color:var(--ink);font-family:Inter,"Segoe UI",system-ui,sans-serif}
+    header{padding:28px max(20px,calc((100vw - 1450px)/2));background:linear-gradient(120deg,var(--navy),#243b61);color:#fff}
+    header p{margin:6px 0 0;color:#cbd5e1;font-size:13px} h1{margin:0;font-size:34px}
+    main{max-width:1450px;margin:auto;padding:24px 18px 50px}.top{display:flex;justify-content:space-between;gap:16px;align-items:end;margin-bottom:14px}
+    h2{margin:0;font-size:20px}.note{font-size:13px;color:var(--muted);margin:5px 0 0}.controls{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px}
+    select,input{font:inherit;border:1px solid var(--line);border-radius:9px;background:white;padding:8px 12px}
+    input{min-width:220px;flex:1}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin:12px 0 16px}
+    .card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 14px;box-shadow:0 4px 14px rgba(16,24,40,.04)}
+    .card strong{display:block}.card span{display:block;font-size:12px;color:var(--muted);margin-top:4px}.card b{display:block;color:var(--red);font-size:12px;margin-top:5px}
+    .wrap{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:auto;box-shadow:0 6px 22px rgba(16,24,40,.05)}
+    table{width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums}th,td{padding:9px 10px;border-bottom:1px solid #eef1f5;text-align:right;white-space:nowrap}
+    th{position:sticky;top:0;background:#f8fafc;cursor:pointer;z-index:2;font-size:12px}th:first-child,td:first-child{position:sticky;left:0;text-align:left;background:#fff;z-index:1;min-width:175px}
+    th:first-child{background:#f8fafc;z-index:3}.score{font-weight:800;color:var(--red)}.pill{display:inline-block;padding:3px 7px;border-radius:999px;font-size:11px;font-weight:800}
+    .high{background:#dcfce7;color:#166534}.medium{background:#fef3c7;color:#92400e}.low{background:#f3f4f6;color:#4b5563}.add{background:#fee2e2;color:#991b1b}.watch{background:#e0f2fe;color:#075985}
+    footer{padding:0 18px 30px;text-align:center;color:var(--muted);font-size:12px}
+    @media(max-width:760px){header{padding:22px 16px}main{padding:18px 10px 40px}.top{align-items:flex-start;flex-direction:column}.controls{flex-direction:column}.controls>*{width:100%}}
+  </style>
+</head>
+<body>
+<header>
+  <h1>DCC NHL Fantasy Radar</h1>
+  <p>Личная ссылка · не отображается на главной странице и закрыта от поисковой индексации.</p>
+</header>
+<main>
+  <div class="top">
+    <div>
+      <h2>Сигналы по FA / waivers</h2>
+      <p id="note" class="note">Загрузка…</p>
+    </div>
+    <div id="count" class="note"></div>
+  </div>
+
+  <div id="new" class="cards"></div>
+
+  <div class="controls">
+    <select id="availability">
+      <option value="available">FA + WAIVERS</option>
+      <option value="FREEAGENT">Только FA</option>
+      <option value="WAIVERS">Только WAIVERS</option>
+      <option value="all">Все игроки с сигналом</option>
+    </select>
+    <select id="position">
+      <option value="">Все позиции</option>
+      <option value="C">C</option><option value="L">LW</option><option value="R">RW</option><option value="D">D</option>
+    </select>
+    <select id="recommendation">
+      <option value="">Все рекомендации</option>
+      <option value="ADD CANDIDATE">ADD CANDIDATE</option>
+      <option value="WATCH">WATCH</option>
+      <option value="TRACK ONLY">TRACK ONLY</option>
+    </select>
+    <input id="search" type="search" placeholder="Поиск игрока">
+  </div>
+
+  <div class="wrap"><table id="table"></table></div>
+  <p class="note">Радар сравнивает последние завершённые матчи с предыдущими 3-5 играми. TOI, PP/SH TOI, периферия, FOW и результативность - сигналы для проверки, а не доказательство новой роли.</p>
+</main>
+<footer>Ссылка не защищена паролем: не пересылай её участникам лиги.</footer>
+<script>
+(() => {
+  const state={data:null,availability:"available",position:"",recommendation:"",search:"",sort:"score",dir:-1};
+  const $=id=>document.getElementById(id);
+  const esc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
+  const sec=v=>{if(v==null||!Number.isFinite(Number(v)))return "–";const n=Math.round(Number(v));return Math.floor(n/60)+":"+String(n%60).padStart(2,"0")};
+  const num=v=>v==null?"–":Number(v).toFixed(1).replace(/\.0$/,"");
+  const status=v=>v==="FREEAGENT"?"FA":v==="WAIVERS"?"WAIVERS":v==="ONTEAM"?"ONTEAM":(v||"UNKNOWN");
+  function filtered(){
+    let rows=state.data.signals.filter(r=>{
+      const av=state.availability==="all"||state.availability==="available"&&["FREEAGENT","WAIVERS"].includes(r.espn_status)||r.espn_status===state.availability;
+      const pos=!state.position||r.position===state.position;
+      const rec=!state.recommendation||r.recommendation===state.recommendation;
+      const q=!state.search||String(r.name||"").toLowerCase().includes(state.search);
+      return av&&pos&&rec&&q;
+    });
+    const rank={HIGH:3,MEDIUM:2,LOW:1};
+    rows.sort((a,b)=>{let x,y;if(state.sort==="name"){x=a.name;y=b.name}else if(state.sort==="team"){x=a.nhl_team;y=b.nhl_team}else if(state.sort==="reliability"){x=rank[a.reliability]||0;y=rank[b.reliability]||0}else{x=Number(a[state.sort]??0);y=Number(b[state.sort]??0)}return(typeof x==="string"?x.localeCompare(y):(x-y))*state.dir});
+    return rows;
+  }
+  function renderNew(){
+    const items=state.data.new_signals||[];
+    $("new").innerHTML=items.length?items.slice(0,8).map(r=>`<div class="card"><strong>${esc(r.name)}</strong><span>${esc(r.nhl_team||"–")} · ${esc(status(r.espn_status))}</span><span>${esc((r.new_signal_types||[]).join(", "))}</span><b>${esc(r.recommendation)} · ${r.score}</b></div>`).join(""):"";
+  }
+  function render(){
+    const rows=filtered();$("count").textContent=rows.length+" игроков";
+    $("note").textContent=`${state.data.updated} · последняя финальная игра: ${state.data.latest_final_game_date||"–"} · доступных сигналов: ${state.data.counts?.signals_available??0}`;
+    $("table").innerHTML=`<thead><tr>
+      <th data-sort="name">Игрок</th><th data-sort="team">NHL</th><th>Поз.</th><th>ESPN</th><th data-sort="score">Score</th>
+      <th>TOI: было → сейчас</th><th>PP / SH TOI</th><th>SOG / HIT / BLK / FOW</th><th>Сигнал</th>
+      <th data-sort="reliability">Надёжность</th><th>Рекомендация</th><th>Свежесть</th>
+    </tr></thead><tbody>${rows.map(r=>{const m=r.metrics||{};return `<tr>
+      <td><strong>${esc(r.name)}</strong></td><td>${esc(r.nhl_team||"–")}</td><td>${esc(r.position||"–")}</td><td>${esc(status(r.espn_status))}</td>
+      <td class="score">${r.score}</td><td>${sec(m.toi?.baseline)} → <strong>${sec(m.toi?.recent)}</strong></td>
+      <td>PP ${sec(m.pp_toi?.recent)} · SH ${sec(m.sh_toi?.recent)}</td><td>${num(m.sog?.recent)} / ${num(m.hit?.recent)} / ${num(m.blk?.recent)} / ${num(m.fow?.recent)}</td>
+      <td>${esc((r.signals||[]).map(s=>s.label).join(" · "))}</td><td><span class="pill ${String(r.reliability||"").toLowerCase()}">${esc(r.reliability)}</span></td>
+      <td><span class="pill ${r.recommendation==="ADD CANDIDATE"?"add":"watch"}">${esc(r.recommendation)}</span></td><td>${esc(r.latest_final_game_date||"–")}</td>
+    </tr>`}).join("")}</tbody>`;
+    document.querySelectorAll("[data-sort]").forEach(th=>th.onclick=()=>{const k=th.dataset.sort;if(state.sort===k)state.dir*=-1;else{state.sort=k;state.dir=(k==="name"||k==="team")?1:-1}render()});
+  }
+  async function init(){
+    try{
+      const r=await fetch("radar.json?v="+Date.now(),{cache:"no-store"});if(!r.ok)throw new Error("HTTP "+r.status);state.data=await r.json();
+      [["availability","availability"],["position","position"],["recommendation","recommendation"]].forEach(([id,key])=>$(id).onchange=e=>{state[key]=e.target.value;render()});
+      $("search").oninput=e=>{state.search=e.target.value.trim().toLowerCase();render()};
+      renderNew();render();
+    }catch(e){$("note").textContent="Радар пока недоступен: "+e.message}
+  }
+  init();
+})();
+</script>
+</body>
+</html>
