@@ -12,6 +12,7 @@ on:
       - "scrape.py"
       - "refresh_league.py"
       - "league_export.py"
+      - "nhl_radar.py"
       - "requirements.txt"
       - ".github/workflows/refresh.yml"
 
@@ -55,12 +56,15 @@ jobs:
           ESPN_SWID: ${{ secrets.ESPN_SWID }}
         run: python refresh_league.py
 
+      - name: Build personal NHL Fantasy Radar
+        run: python nhl_radar.py
+
       - name: Commit updated dashboard data
         id: commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update DCC ESPN data"
-          file_pattern: "data.json analysis.json nhl_schedule.json players/*.json"
+          file_pattern: "data.json analysis.json nhl_schedule.json players/*.json ducks-radar-7c91e4f2/*.json"
 
   deploy:
     needs: refresh
