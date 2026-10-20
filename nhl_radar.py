@@ -939,7 +939,7 @@ def build_radar(history: dict, roster: dict, mapping: dict, previous: dict | Non
     }
 
 
-def validate_wilsby(history: dict, mapping: dict, radar: dict) -> dict:
+def validate_wilsby(history: dict, mapping: dict, radar: dict, roster: dict) -> dict:
     player = next(
         (p for p in history.get("players", {}).values() if normalize_name(p.get("name")) == "adam wilsby"),
         None,
@@ -964,6 +964,12 @@ def validate_wilsby(history: dict, mapping: dict, radar: dict) -> dict:
     if not mapped:
         raise RuntimeError("Wilsby validation failed: ESPN mapping missing")
 
+    wilsby_roster_status = roster_status_for("adam wilsby", "NSH", roster)
+    if wilsby_roster_status != "ACTIVE":
+        raise RuntimeError(
+            f"Wilsby validation failed: official roster status is {wilsby_roster_status}"
+        )
+
     radar_row = next((x for x in radar.get("signals", []) if x.get("name") == "Adam Wilsby"), None)
     if not radar_row or not any(s["type"] == "TOI_SURGE" for s in radar_row.get("signals", [])):
         raise RuntimeError("Wilsby validation failed: radar did not emit TOI_SURGE")
@@ -975,6 +981,7 @@ def validate_wilsby(history: dict, mapping: dict, radar: dict) -> dict:
         "oct8_10_toi_seconds": round(recent_toi, 1),
         "delta_seconds": round(recent_toi - baseline_toi, 1),
         "radar_recommendation_now": radar_row["recommendation"],
+        "roster_status": wilsby_roster_status,
     }
 
 
@@ -1016,7 +1023,7 @@ def run(*, dry_run: bool, strict: bool) -> int:
         mapping = build_player_map(history, roster, analysis, espn_index)
         radar = build_radar(history, roster, mapping, previous_radar)
 
-        wilsby = validate_wilsby(history, mapping, radar)
+        wilsby = validate_wilsby(history, mapping, radar, roster)
 
         print(
             "NHL radar validation: "
@@ -1030,7 +1037,8 @@ def run(*, dry_run: bool, strict: bool) -> int:
             f"baseline={wilsby['baseline_toi_seconds']}s, "
             f"Oct8-10={wilsby['oct8_10_toi_seconds']}s, "
             f"delta={wilsby['delta_seconds']}s, "
-            f"ESPN={wilsby['espn_player_id']}"
+            f"ESPN={wilsby['espn_player_id']}, "
+            f"roster={wilsby['roster_status']}"
         )
 
         if dry_run:
