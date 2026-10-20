@@ -72,43 +72,12 @@
       <p class="legend">Составы, слоты и статусы ESPN на момент обновления. FA - свободный агент, WAIVERS - вейверы. Нажмите имя для статистики игрока.</p>
     </section>
 
-    <section aria-labelledby="radar-heading" class="compare-section radar-section">
-      <div class="section-head">
-        <div>
-          <h2 id="radar-heading">NHL Fantasy Radar</h2>
-          <p id="radar-note" class="note">Загрузка NHL-сигналов…</p>
-        </div>
-        <a href="nhl/radar.json" class="note">JSON радара</a>
-      </div>
 
-      <div id="radar-new" class="radar-new-grid" aria-label="Новые сигналы"></div>
-
-      <div class="selectors player-filters radar-filters">
-        <select id="radar-availability" aria-label="Доступность ESPN">
-          <option value="available">FA + WAIVERS</option>
-          <option value="FREEAGENT">Только FA</option>
-          <option value="WAIVERS">Только WAIVERS</option>
-          <option value="all">Все игроки с сигналом</option>
-        </select>
-        <select id="radar-position" aria-label="Позиция NHL">
-          <option value="">Все позиции</option>
-          <option value="C">C</option>
-          <option value="L">LW</option>
-          <option value="R">RW</option>
-          <option value="D">D</option>
-        </select>
-        <span id="radar-count" class="note"></span>
-      </div>
-
-      <div class="table-card"><table id="radar-table"></table></div>
-      <p class="legend">Радар сравнивает последние завершённые матчи с предыдущими 3-5 играми. Порог - повод проверить изменение роли, а не доказательство. TOI не используется как подтверждение конкретной пары или звена. ADD CANDIDATE не означает автоматический дроп игрока Mighty Ducks.</p>
-    </section>
   </main>
 
-  <footer>ESPN и публичные данные NHL проверяются примерно раз в час. Секреты ESPN не передаются в браузер.</footer>
+  <footer>Данные ESPN проверяются примерно раз в час. Секреты авторизации не передаются в браузер.</footer>
   <script src="app.js"></script>
   <script src="players.js"></script>
-  <script src="radar.js"></script>
 </body>
 </html>
 

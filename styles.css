@@ -285,25 +285,6 @@ button:disabled { opacity: .45; cursor: default; }
 .player-detail::backdrop { background: rgb(17 27 46 / .6); }
 .close-dialog { float: right; margin-bottom: 14px; }
 
-.radar-section { scroll-margin-top: 20px; }
-.radar-new-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; margin-bottom: 14px; }
-.radar-new-card { display: grid; gap: 4px; padding: 12px 14px; background: #fff; border: 1px solid var(--line); border-radius: 12px; box-shadow: 0 4px 14px rgba(16,24,40,.04); }
-.radar-new-card strong { font-size: 14px; }
-.radar-new-card span { color: var(--muted); font-size: 12px; }
-.radar-new-card b { color: var(--red); font-size: 12px; }
-.radar-empty { margin: 0 0 12px; }
-.radar-filters { justify-content: flex-start; }
-.radar-filters select { min-width: 170px; }
-.radar-score { font-weight: 800; color: var(--red); }
-.radar-signal { max-width: 250px; overflow: hidden; text-overflow: ellipsis; }
-.radar-confidence, .radar-rec { display: inline-block; padding: 3px 7px; border-radius: 999px; font-size: 11px; font-weight: 800; letter-spacing: .02em; }
-.radar-confidence.high { background: #dcfce7; color: #166534; }
-.radar-confidence.medium { background: #fef3c7; color: #92400e; }
-.radar-confidence.low { background: #f3f4f6; color: #4b5563; }
-.radar-rec.add { background: #fee2e2; color: #991b1b; }
-.radar-rec.watch { background: #e0f2fe; color: #075985; }
-#radar-table th:first-child, #radar-table td:first-child { min-width: 175px; }
-
 .error {
   margin: 30px auto;
   max-width: 720px;
