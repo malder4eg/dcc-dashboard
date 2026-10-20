@@ -394,15 +394,12 @@ def parse_roster_report(text: str, team_map: dict[str, str]) -> dict[str, dict]:
             continue
 
         columns = re.split(r"\s{2,}", line)
-        if len(columns) < 2:
-            continue
-        match = re.match(r"^(\d+)\s+(.+)$", columns[0])
-        if not match:
+        if len(columns) < 3 or not columns[0].isdigit():
             continue
 
-        sweater = int(match.group(1))
-        name = match.group(2).strip()
-        position = columns[1].strip()
+        sweater = int(columns[0])
+        name = columns[1].strip()
+        position = columns[2].strip()
         if position not in {"C", "L", "R", "D", "G"}:
             continue
 
@@ -412,7 +409,8 @@ def parse_roster_report(text: str, team_map: dict[str, str]) -> dict[str, dict]:
             "name_key": normalize_name(name),
             "position": position,
         }
-        if section == "ir" and columns:
+
+        if section == "ir":
             possible_date = columns[-1].strip()
             if re.fullmatch(r"\d{4}-\d{2}-\d{2}", possible_date):
                 item["ir_date"] = possible_date
