@@ -143,6 +143,31 @@ class RadarTests(unittest.TestCase):
         self.assertEqual(row["nhl_roster_status"], "IR")
         self.assertEqual(row["recommendation"], "WATCH")
 
+    def test_available_low_score_signal_defaults_to_watch(self):
+        player = {
+            "nhl_player_id": 999,
+            "name": "Available Player",
+            "team": "NSH",
+            "position": "D",
+            "games": [
+                game("10-01", 900, pp=0),
+                game("10-03", 900, pp=0),
+                game("10-06", 900, pp=0),
+                game("10-08", 900, pp=70),
+                game("10-10", 900, pp=70),
+            ],
+        }
+        mapping = {
+            "espn_player_id": 999,
+            "espn_status": "FREEAGENT",
+            "espn_team_id": 0,
+            "percent_owned": 0.0,
+        }
+        row = detect_player_signal(player, mapping, {"teams": {}, "events": []})
+        self.assertIsNotNone(row)
+        self.assertEqual(row["score"], 25)
+        self.assertEqual(row["recommendation"], "WATCH")
+
 
 if __name__ == "__main__":
     unittest.main()
