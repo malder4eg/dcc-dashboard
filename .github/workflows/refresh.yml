@@ -5,6 +5,17 @@ on:
     # Every hour at :54
     - cron: "54 * * * *"
 
+  push:
+    branches:
+      - main
+    paths:
+      - "scrape.py"
+      - "refresh_league.py"
+      - "league_export.py"
+      - "nhl_radar.py"
+      - "requirements.txt"
+      - ".github/workflows/refresh.yml"
+
   workflow_dispatch:
 
 permissions:
