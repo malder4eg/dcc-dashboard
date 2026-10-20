@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-20 23:14 МСК",
+  "updated": "2026-10-21 00:17 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "20:14:41 10/20/2026",
+  "report_updated": "21:17:22 10/20/2026",
   "complete": true,
   "team_count": 32,
   "active_count": 725,
-  "ir_count": 64,
+  "ir_count": 65,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -4355,12 +4355,6 @@
           "position": "D"
         },
         {
-          "sweater": 53,
-          "name": "MICHAEL CARCONE",
-          "name_key": "michael carcone",
-          "position": "L"
-        },
-        {
           "sweater": 56,
           "name": "KAILER YAMAMOTO",
           "name_key": "kailer yamamoto",
@@ -4397,6 +4391,12 @@
           "position": "C"
         },
         {
+          "sweater": 84,
+          "name": "ARTEM DUDA",
+          "name_key": "artem duda",
+          "position": "D"
+        },
+        {
           "sweater": 88,
           "name": "NATE SCHMIDT",
           "name_key": "nate schmidt",
@@ -4422,6 +4422,13 @@
           "name_key": "maveric lamoureux",
           "position": "D",
           "ir_date": "2026-09-28"
+        },
+        {
+          "sweater": 53,
+          "name": "MICHAEL CARCONE",
+          "name_key": "michael carcone",
+          "position": "L",
+          "ir_date": "2026-10-20"
         }
       ]
     },
@@ -5027,5 +5034,22 @@
       ]
     }
   },
-  "events": []
+  "events": [
+    {
+      "id": "NEW_IR:UTA:michael carcone:2026-10-20",
+      "type": "NEW_IR",
+      "team": "UTA",
+      "player": "Michael Carcone",
+      "player_key": "michael carcone",
+      "detected_at": "2026-10-20T21:17:22Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:UTA:artem duda:2026-10-20",
+      "type": "ACTIVE_ADDED",
+      "team": "UTA",
+      "player": "Artem Duda",
+      "player_key": "artem duda",
+      "detected_at": "2026-10-20T21:17:22Z"
+    }
+  ]
 }
