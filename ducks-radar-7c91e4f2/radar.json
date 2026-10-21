@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-21 10:32 МСК",
-  "generated_at": "2026-10-21T07:32:08Z",
+  "updated": "2026-10-21 11:22 МСК",
+  "generated_at": "2026-10-21T08:22:18Z",
   "source": {
     "nhl_stats": "https://api.nhle.com/stats/rest/en/",
     "nhl_game_status": "https://api-web.nhle.com/v1/",
@@ -22,371 +22,12 @@
   },
   "counts": {
     "signals_all": 296,
-    "signals_available": 79,
+    "signals_available": 80,
     "add_candidates": 8,
-    "watch": 71,
-    "new_signals": 132
+    "watch": 72,
+    "new_signals": 0
   },
-  "new_signals": [
-    {
-      "nhl_player_id": 8482731,
-      "name": "Tyson Hinds",
-      "nhl_team": "ANA",
-      "espn_status": "FREEAGENT",
-      "recommendation": "ADD CANDIDATE",
-      "score": 88,
-      "new_signal_types": [
-        "TOI_SURGE",
-        "PERIPHERAL_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8474567,
-      "name": "Zach Bogosian",
-      "nhl_team": "MIN",
-      "espn_status": "FREEAGENT",
-      "recommendation": "ADD CANDIDATE",
-      "score": 88,
-      "new_signal_types": [
-        "TOI_SURGE",
-        "SH_ROLE_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8482094,
-      "name": "Daemon Hunt",
-      "nhl_team": "MIN",
-      "espn_status": "FREEAGENT",
-      "recommendation": "ADD CANDIDATE",
-      "score": 73,
-      "new_signal_types": [
-        "SH_ROLE_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8479442,
-      "name": "Troy Stecher",
-      "nhl_team": "TOR",
-      "espn_status": "FREEAGENT",
-      "recommendation": "ADD CANDIDATE",
-      "score": 73,
-      "new_signal_types": [
-        "TOI_SURGE"
-      ]
-    },
-    {
-      "nhl_player_id": 8481601,
-      "name": "Simon Holmstrom",
-      "nhl_team": "NYI",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 100,
-      "new_signal_types": [
-        "PERIPHERAL_UP",
-        "PPP_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8484471,
-      "name": "Emmitt Finnie",
-      "nhl_team": "DET",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 98,
-      "new_signal_types": [
-        "TOI_SURGE",
-        "PP_ROLE_UP",
-        "FOW_UP",
-        "PRODUCTION_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8476441,
-      "name": "Joel Edmundson",
-      "nhl_team": "LAK",
-      "espn_status": "UNMATCHED",
-      "recommendation": "WATCH",
-      "score": 88,
-      "new_signal_types": [
-        "TOI_SURGE",
-        "SH_ROLE_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8476853,
-      "name": "Morgan Rielly",
-      "nhl_team": "TOR",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 73,
-      "new_signal_types": [
-        "TOI_SURGE",
-        "SH_ROLE_UP",
-        "PERIPHERAL_UP",
-        "PRODUCTION_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8475171,
-      "name": "Oliver Ekman-Larsson",
-      "nhl_team": "TOR",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 66,
-      "new_signal_types": [
-        "PP_ROLE_UP",
-        "SH_ROLE_UP",
-        "PERIPHERAL_UP",
-        "SHP_EVENT"
-      ]
-    },
-    {
-      "nhl_player_id": 8482802,
-      "name": "Carter Mazur",
-      "nhl_team": "DET",
-      "espn_status": "FREEAGENT",
-      "recommendation": "WATCH",
-      "score": 60,
-      "new_signal_types": [
-        "TOI_SURGE",
-        "PERIPHERAL_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8481542,
-      "name": "Moritz Seider",
-      "nhl_team": "DET",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 58,
-      "new_signal_types": [
-        "TOI_SURGE",
-        "PRODUCTION_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8478420,
-      "name": "Mikko Rantanen",
-      "nhl_team": "DAL",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 56,
-      "new_signal_types": [
-        "PERIPHERAL_UP",
-        "PRODUCTION_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8481598,
-      "name": "Philip Broberg",
-      "nhl_team": "STL",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 56,
-      "new_signal_types": [
-        "PERIPHERAL_UP",
-        "PRODUCTION_UP",
-        "PPP_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8482175,
-      "name": "JJ Peterka",
-      "nhl_team": "BOS",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 55,
-      "new_signal_types": [
-        "TOI_SURGE"
-      ]
-    },
-    {
-      "nhl_player_id": 8475768,
-      "name": "Jaden Schwartz",
-      "nhl_team": "COL",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 55,
-      "new_signal_types": [
-        "TOI_SURGE"
-      ]
-    },
-    {
-      "nhl_player_id": 8479705,
-      "name": "Jeff Viel",
-      "nhl_team": "TBL",
-      "espn_status": "UNMATCHED",
-      "recommendation": "WATCH",
-      "score": 55,
-      "new_signal_types": [
-        "TOI_SURGE"
-      ]
-    },
-    {
-      "nhl_player_id": 8482155,
-      "name": "Alex Laferriere",
-      "nhl_team": "LAK",
-      "espn_status": "UNMATCHED",
-      "recommendation": "WATCH",
-      "score": 52,
-      "new_signal_types": [
-        "TOI_SURGE",
-        "FOW_UP",
-        "PRODUCTION_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8476467,
-      "name": "Jamie Oleksiak",
-      "nhl_team": "VAN",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 48,
-      "new_signal_types": [
-        "TOI_SURGE",
-        "SH_ROLE_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8482089,
-      "name": "Jake Neighbours",
-      "nhl_team": "STL",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 46,
-      "new_signal_types": [
-        "PERIPHERAL_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8475753,
-      "name": "Justin Faulk",
-      "nhl_team": "DET",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 46,
-      "new_signal_types": [
-        "PP_ROLE_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8482737,
-      "name": "Zachary Bolduc",
-      "nhl_team": "MTL",
-      "espn_status": "UNMATCHED",
-      "recommendation": "WATCH",
-      "score": 46,
-      "new_signal_types": [
-        "PP_ROLE_UP",
-        "PERIPHERAL_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8484158,
-      "name": "Easton Cowan",
-      "nhl_team": "TOR",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 43,
-      "new_signal_types": [
-        "PP_ROLE_UP",
-        "PRODUCTION_UP",
-        "SHP_EVENT"
-      ]
-    },
-    {
-      "nhl_player_id": 8478401,
-      "name": "Pavel Zacha",
-      "nhl_team": "BOS",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 43,
-      "new_signal_types": [
-        "PP_ROLE_UP",
-        "FOW_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8480027,
-      "name": "Jason Robertson",
-      "nhl_team": "DAL",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 41,
-      "new_signal_types": [
-        "PRODUCTION_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8483516,
-      "name": "Jimmy Snuggerud",
-      "nhl_team": "STL",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 41,
-      "new_signal_types": [
-        "PRODUCTION_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8482858,
-      "name": "Ryker Evans",
-      "nhl_team": "SEA",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 41,
-      "new_signal_types": [
-        "PRODUCTION_UP",
-        "PPP_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8477500,
-      "name": "Bo Horvat",
-      "nhl_team": "NYI",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 40,
-      "new_signal_types": [
-        "PRODUCTION_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8476925,
-      "name": "Colton Sissons",
-      "nhl_team": "TOR",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 40,
-      "new_signal_types": [
-        "SH_ROLE_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8477496,
-      "name": "Elias Lindholm",
-      "nhl_team": "BOS",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 40,
-      "new_signal_types": [
-        "PP_ROLE_UP",
-        "PERIPHERAL_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8476419,
-      "name": "Jean-Gabriel Pageau",
-      "nhl_team": "NYI",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 40,
-      "new_signal_types": [
-        "TOI_SURGE",
-        "PRODUCTION_UP"
-      ]
-    }
-  ],
+  "new_signals": [],
   "signals": [
     {
       "nhl_player_id": 8482731,
@@ -7382,13 +7023,13 @@
       "name": "Joel Farabee",
       "nhl_team": "CGY",
       "position": "L",
-      "espn_status": "ONTEAM",
-      "espn_team_id": 13,
+      "espn_status": "WAIVERS",
+      "espn_team_id": 0,
       "percent_owned": 4.9,
       "nhl_roster_status": "ACTIVE",
       "score": 32,
       "reliability": "HIGH",
-      "recommendation": "TRACK ONLY",
+      "recommendation": "WATCH",
       "categories": [
         "SHP",
         "SOG",
@@ -9306,7 +8947,7 @@
       "name": "Andrew Peeke",
       "nhl_team": "UTA",
       "position": "D",
-      "espn_status": "WAIVERS",
+      "espn_status": "FREEAGENT",
       "espn_team_id": 0,
       "percent_owned": 0.59,
       "nhl_roster_status": "ACTIVE",
@@ -9649,7 +9290,7 @@
       "name": "Wyatt Kaiser",
       "nhl_team": "CHI",
       "position": "D",
-      "espn_status": "WAIVERS",
+      "espn_status": "FREEAGENT",
       "espn_team_id": 0,
       "percent_owned": 0.37,
       "nhl_roster_status": "ACTIVE",
@@ -13984,7 +13625,7 @@
       "name": "Zayne Parekh",
       "nhl_team": "CGY",
       "position": "D",
-      "espn_status": "WAIVERS",
+      "espn_status": "FREEAGENT",
       "espn_team_id": 0,
       "percent_owned": 8.32,
       "nhl_roster_status": "ACTIVE",
@@ -15046,7 +14687,7 @@
       "name": "Mark Jankowski",
       "nhl_team": "CAR",
       "position": "L",
-      "espn_status": "WAIVERS",
+      "espn_status": "FREEAGENT",
       "espn_team_id": 0,
       "percent_owned": 16.49,
       "nhl_roster_status": "ACTIVE",
@@ -16340,7 +15981,7 @@
       "name": "Zach Whitecloud",
       "nhl_team": "CGY",
       "position": "D",
-      "espn_status": "WAIVERS",
+      "espn_status": "FREEAGENT",
       "espn_team_id": 0,
       "percent_owned": 0.4,
       "nhl_roster_status": "ACTIVE",
@@ -23226,7 +22867,7 @@
       "name": "Olli Maatta",
       "nhl_team": "MIN",
       "position": "D",
-      "espn_status": "WAIVERS",
+      "espn_status": "FREEAGENT",
       "espn_team_id": 0,
       "percent_owned": 0.17,
       "nhl_roster_status": "ACTIVE",
