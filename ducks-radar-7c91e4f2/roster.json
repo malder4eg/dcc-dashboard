@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-21 21:16 МСК",
+  "updated": "2026-10-21 22:23 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "18:16:29 10/21/2026",
+  "report_updated": "19:23:02 10/21/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 718,
-  "ir_count": 66,
+  "active_count": 717,
+  "ir_count": 67,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -333,12 +333,6 @@
           "position": "C"
         },
         {
-          "sweater": 10,
-          "name": "SAM CARRICK",
-          "name_key": "sam carrick",
-          "position": "C"
-        },
-        {
           "sweater": 15,
           "name": "JUSTIN DANFORTH",
           "name_key": "justin danforth",
@@ -448,6 +442,13 @@
         }
       ],
       "ir": [
+        {
+          "sweater": 10,
+          "name": "SAM CARRICK",
+          "name_key": "sam carrick",
+          "position": "C",
+          "ir_date": "2026-10-21"
+        },
         {
           "sweater": 21,
           "name": "CONOR TIMMINS",
@@ -691,12 +692,6 @@
           "sweater": 28,
           "name": "WILLIAM CARRIER",
           "name_key": "william carrier",
-          "position": "L"
-        },
-        {
-          "sweater": 29,
-          "name": "BRADLY NADEAU",
-          "name_key": "bradly nadeau",
           "position": "L"
         },
         {
@@ -1923,6 +1918,12 @@
           "name": "SCOTT LAUGHTON",
           "name_key": "scott laughton",
           "position": "C"
+        },
+        {
+          "sweater": 25,
+          "name": "JARED WRIGHT",
+          "name_key": "jared wright",
+          "position": "R"
         },
         {
           "sweater": 31,
@@ -3829,12 +3830,6 @@
           "position": "G"
         },
         {
-          "sweater": 32,
-          "name": "DYLAN PETERSON",
-          "name_key": "dylan peterson",
-          "position": "C"
-        },
-        {
           "sweater": 36,
           "name": "ADAM JIRICEK",
           "name_key": "adam jiricek",
@@ -4582,6 +4577,12 @@
           "position": "C"
         },
         {
+          "sweater": 10,
+          "name": "ALEXANDER HOLTZ",
+          "name_key": "alexander holtz",
+          "position": "R"
+        },
+        {
           "sweater": 15,
           "name": "NOAH HANIFIN",
           "name_key": "noah hanifin",
@@ -5000,6 +5001,46 @@
     }
   },
   "events": [
+    {
+      "id": "NEW_IR:BUF:sam carrick:2026-10-21",
+      "type": "NEW_IR",
+      "team": "BUF",
+      "player": "Sam Carrick",
+      "player_key": "sam carrick",
+      "detected_at": "2026-10-21T19:23:02Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:CAR:bradly nadeau:2026-10-21",
+      "type": "ACTIVE_REMOVED",
+      "team": "CAR",
+      "player": "Bradly Nadeau",
+      "player_key": "bradly nadeau",
+      "detected_at": "2026-10-21T19:23:02Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:LAK:jared wright:2026-10-21",
+      "type": "ACTIVE_ADDED",
+      "team": "LAK",
+      "player": "Jared Wright",
+      "player_key": "jared wright",
+      "detected_at": "2026-10-21T19:23:02Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:STL:dylan peterson:2026-10-21",
+      "type": "ACTIVE_REMOVED",
+      "team": "STL",
+      "player": "Dylan Peterson",
+      "player_key": "dylan peterson",
+      "detected_at": "2026-10-21T19:23:02Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:VGK:alexander holtz:2026-10-21",
+      "type": "ACTIVE_ADDED",
+      "team": "VGK",
+      "player": "Alexander Holtz",
+      "player_key": "alexander holtz",
+      "detected_at": "2026-10-21T19:23:02Z"
+    },
     {
       "id": "ACTIVE_REMOVED:SEA:ty nelson:2026-10-21",
       "type": "ACTIVE_REMOVED",
