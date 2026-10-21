@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-21 22:23 МСК",
+  "updated": "2026-10-21 23:14 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "19:23:02 10/21/2026",
+  "report_updated": "20:14:31 10/21/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 717,
+  "active_count": 718,
   "ir_count": 67,
   "teams": {
     "ANA": {
@@ -337,6 +337,12 @@
           "name": "JUSTIN DANFORTH",
           "name_key": "justin danforth",
           "position": "R"
+        },
+        {
+          "sweater": 17,
+          "name": "JASON ZUCKER",
+          "name_key": "jason zucker",
+          "position": "L"
         },
         {
           "sweater": 19,
@@ -5001,6 +5007,14 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_ADDED:BUF:jason zucker:2026-10-21",
+      "type": "ACTIVE_ADDED",
+      "team": "BUF",
+      "player": "Jason Zucker",
+      "player_key": "jason zucker",
+      "detected_at": "2026-10-21T20:14:31Z"
+    },
     {
       "id": "NEW_IR:BUF:sam carrick:2026-10-21",
       "type": "NEW_IR",
