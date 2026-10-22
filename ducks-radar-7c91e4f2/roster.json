@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-22 17:23 МСК",
+  "updated": "2026-10-22 18:22 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "14:23:15 10/22/2026",
+  "report_updated": "15:22:06 10/22/2026",
   "complete": true,
   "team_count": 32,
   "active_count": 720,
-  "ir_count": 67,
+  "ir_count": 70,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -3057,6 +3057,12 @@
           "position": "G"
         },
         {
+          "sweater": 31,
+          "name": "JONAS JOHANSSON",
+          "name_key": "jonas johansson",
+          "position": "G"
+        },
+        {
           "sweater": 33,
           "name": "NIKOLAS MATINPALO",
           "name_key": "nikolas matinpalo",
@@ -3067,12 +3073,6 @@
           "name": "STEPHEN HALLIDAY",
           "name_key": "stephen halliday",
           "position": "C"
-        },
-        {
-          "sweater": 35,
-          "name": "LINUS ULLMARK",
-          "name_key": "linus ullmark",
-          "position": "G"
         },
         {
           "sweater": 37,
@@ -3124,6 +3124,13 @@
           "name_key": "william eklund",
           "position": "L",
           "ir_date": "2026-10-10"
+        },
+        {
+          "sweater": 35,
+          "name": "LINUS ULLMARK",
+          "name_key": "linus ullmark",
+          "position": "G",
+          "ir_date": "2026-10-22"
         }
       ]
     },
@@ -3317,6 +3324,12 @@
           "position": "G"
         },
         {
+          "sweater": 2,
+          "name": "RUTGER MCGROARTY",
+          "name_key": "rutger mcgroarty",
+          "position": "R"
+        },
+        {
           "sweater": 6,
           "name": "KAEDAN KORCZAK",
           "name_key": "kaedan korczak",
@@ -3333,12 +3346,6 @@
           "name": "NICK ROBERTSON",
           "name_key": "nick robertson",
           "position": "L"
-        },
-        {
-          "sweater": 17,
-          "name": "BRYAN RUST",
-          "name_key": "bryan rust",
-          "position": "R"
         },
         {
           "sweater": 18,
@@ -3381,6 +3388,12 @@
           "name": "VILLE KOIVUNEN",
           "name_key": "ville koivunen",
           "position": "R"
+        },
+        {
+          "sweater": 44,
+          "name": "CHASE PIETILA",
+          "name_key": "chase pietila",
+          "position": "D"
         },
         {
           "sweater": 46,
@@ -3437,12 +3450,6 @@
           "position": "D"
         },
         {
-          "sweater": 81,
-          "name": "BEN KINDEL",
-          "name_key": "ben kindel",
-          "position": "C"
-        },
-        {
           "sweater": 87,
           "name": "SIDNEY CROSBY",
           "name_key": "sidney crosby",
@@ -3458,6 +3465,13 @@
           "ir_date": "2026-09-26"
         },
         {
+          "sweater": 17,
+          "name": "BRYAN RUST",
+          "name_key": "bryan rust",
+          "position": "R",
+          "ir_date": "2026-10-22"
+        },
+        {
           "sweater": 27,
           "name": "RYAN GRAVES",
           "name_key": "ryan graves",
@@ -3470,6 +3484,13 @@
           "name_key": "trevor van riemsdyk",
           "position": "D",
           "ir_date": "2026-10-12"
+        },
+        {
+          "sweater": 81,
+          "name": "BEN KINDEL",
+          "name_key": "ben kindel",
+          "position": "C",
+          "ir_date": "2026-10-22"
         }
       ]
     },
@@ -5019,6 +5040,54 @@
     }
   },
   "events": [
+    {
+      "id": "NEW_IR:OTT:linus ullmark:2026-10-22",
+      "type": "NEW_IR",
+      "team": "OTT",
+      "player": "Linus Ullmark",
+      "player_key": "linus ullmark",
+      "detected_at": "2026-10-22T15:22:06Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:OTT:jonas johansson:2026-10-22",
+      "type": "ACTIVE_ADDED",
+      "team": "OTT",
+      "player": "Jonas Johansson",
+      "player_key": "jonas johansson",
+      "detected_at": "2026-10-22T15:22:06Z"
+    },
+    {
+      "id": "NEW_IR:PIT:ben kindel:2026-10-22",
+      "type": "NEW_IR",
+      "team": "PIT",
+      "player": "Ben Kindel",
+      "player_key": "ben kindel",
+      "detected_at": "2026-10-22T15:22:06Z"
+    },
+    {
+      "id": "NEW_IR:PIT:bryan rust:2026-10-22",
+      "type": "NEW_IR",
+      "team": "PIT",
+      "player": "Bryan Rust",
+      "player_key": "bryan rust",
+      "detected_at": "2026-10-22T15:22:06Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:PIT:chase pietila:2026-10-22",
+      "type": "ACTIVE_ADDED",
+      "team": "PIT",
+      "player": "Chase Pietila",
+      "player_key": "chase pietila",
+      "detected_at": "2026-10-22T15:22:06Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:PIT:rutger mcgroarty:2026-10-22",
+      "type": "ACTIVE_ADDED",
+      "team": "PIT",
+      "player": "Rutger Mcgroarty",
+      "player_key": "rutger mcgroarty",
+      "detected_at": "2026-10-22T15:22:06Z"
+    },
     {
       "id": "ACTIVE_ADDED:ANA:a j greer:2026-10-22",
       "type": "ACTIVE_ADDED",
