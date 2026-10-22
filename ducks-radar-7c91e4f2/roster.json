@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-22 22:23 МСК",
+  "updated": "2026-10-22 23:16 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "19:23:12 10/22/2026",
+  "report_updated": "20:16:21 10/22/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 718,
-  "ir_count": 69,
+  "active_count": 719,
+  "ir_count": 68,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -1398,12 +1398,6 @@
           "position": "D"
         },
         {
-          "sweater": 15,
-          "name": "SHELDON DRIES",
-          "name_key": "sheldon dries",
-          "position": "C"
-        },
-        {
           "sweater": 18,
           "name": "ANDREW COPP",
           "name_key": "andrew copp",
@@ -1452,10 +1446,22 @@
           "position": "L"
         },
         {
+          "sweater": 35,
+          "name": "MICHAL POSTAVA",
+          "name_key": "michal postava",
+          "position": "G"
+        },
+        {
           "sweater": 36,
           "name": "JOHN GIBSON",
           "name_key": "john gibson",
           "position": "G"
+        },
+        {
+          "sweater": 37,
+          "name": "J.T. COMPHER",
+          "name_key": "j t compher",
+          "position": "L"
         },
         {
           "sweater": 42,
@@ -1525,13 +1531,6 @@
           "name_key": "mason appleton",
           "position": "C",
           "ir_date": "2026-10-06"
-        },
-        {
-          "sweater": 37,
-          "name": "J.T. COMPHER",
-          "name_key": "j t compher",
-          "position": "L",
-          "ir_date": "2026-10-08"
         },
         {
           "sweater": 92,
@@ -5021,6 +5020,30 @@
     }
   },
   "events": [
+    {
+      "id": "RETURNED_FROM_IR:DET:j t compher:2026-10-22",
+      "type": "RETURNED_FROM_IR",
+      "team": "DET",
+      "player": "J.T. Compher",
+      "player_key": "j t compher",
+      "detected_at": "2026-10-22T20:16:21Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:DET:michal postava:2026-10-22",
+      "type": "ACTIVE_ADDED",
+      "team": "DET",
+      "player": "Michal Postava",
+      "player_key": "michal postava",
+      "detected_at": "2026-10-22T20:16:21Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:DET:sheldon dries:2026-10-22",
+      "type": "ACTIVE_REMOVED",
+      "team": "DET",
+      "player": "Sheldon Dries",
+      "player_key": "sheldon dries",
+      "detected_at": "2026-10-22T20:16:21Z"
+    },
     {
       "id": "RETURNED_FROM_IR:MIN:jared spurgeon:2026-10-22",
       "type": "RETURNED_FROM_IR",
