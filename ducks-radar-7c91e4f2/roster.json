@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-22 16:32 МСК",
+  "updated": "2026-10-22 17:23 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "13:32:18 10/22/2026",
+  "report_updated": "14:23:15 10/22/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 718,
+  "active_count": 720,
   "ir_count": 67,
   "teams": {
     "ANA": {
@@ -55,8 +55,8 @@
         },
         {
           "sweater": 18,
-          "name": "ANTHONY-JOHN (AJ) GREER",
-          "name_key": "anthony john aj greer",
+          "name": "A.J. GREER",
+          "name_key": "a j greer",
           "position": "L"
         },
         {
@@ -683,6 +683,12 @@
           "position": "C"
         },
         {
+          "sweater": 24,
+          "name": "SETH JARVIS",
+          "name_key": "seth jarvis",
+          "position": "R"
+        },
+        {
           "sweater": 26,
           "name": "SEAN WALKER",
           "name_key": "sean walker",
@@ -753,6 +759,12 @@
           "name": "JACCOB SLAVIN",
           "name_key": "jaccob slavin",
           "position": "D"
+        },
+        {
+          "sweater": 76,
+          "name": "SKYLER BRIND'AMOUR",
+          "name_key": "skyler brind amour",
+          "position": "C"
         },
         {
           "sweater": 77,
@@ -5007,6 +5019,38 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_ADDED:ANA:a j greer:2026-10-22",
+      "type": "ACTIVE_ADDED",
+      "team": "ANA",
+      "player": "A.J. Greer",
+      "player_key": "a j greer",
+      "detected_at": "2026-10-22T14:23:15Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:ANA:anthony john aj greer:2026-10-22",
+      "type": "ACTIVE_REMOVED",
+      "team": "ANA",
+      "player": "Anthony John Aj Greer",
+      "player_key": "anthony john aj greer",
+      "detected_at": "2026-10-22T14:23:15Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:CAR:seth jarvis:2026-10-22",
+      "type": "ACTIVE_ADDED",
+      "team": "CAR",
+      "player": "Seth Jarvis",
+      "player_key": "seth jarvis",
+      "detected_at": "2026-10-22T14:23:15Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:CAR:skyler brind amour:2026-10-22",
+      "type": "ACTIVE_ADDED",
+      "team": "CAR",
+      "player": "Skyler Brind Amour",
+      "player_key": "skyler brind amour",
+      "detected_at": "2026-10-22T14:23:15Z"
+    },
     {
       "id": "NEW_IR:BUF:matt grzelcyk:2026-10-21",
       "type": "NEW_IR",

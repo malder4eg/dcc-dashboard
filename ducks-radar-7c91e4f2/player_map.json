@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-22 16:32 МСК",
+  "updated": "2026-10-22 17:23 МСК",
   "method": "Exact normalized full name with NHL/ESPN team and position validation; no surname-only fuzzy joins.",
   "mapped": [
     {
@@ -2587,6 +2587,19 @@
       "espn_team_id": 2,
       "espn_pro_team_id": 9,
       "percent_owned": 97.21,
+      "method": "exact_normalized_full_name+team+position",
+      "confidence": "HIGH"
+    },
+    {
+      "nhl_player_id": 8478421,
+      "espn_player_id": 3648015,
+      "name": "A.J. Greer",
+      "nhl_team": "ANA",
+      "position": "L",
+      "espn_status": "FREEAGENT",
+      "espn_team_id": 0,
+      "espn_pro_team_id": 25,
+      "percent_owned": 1.12,
       "method": "exact_normalized_full_name+team+position",
       "confidence": "HIGH"
     },
@@ -8176,11 +8189,6 @@
       "filtered_count": 0
     },
     {
-      "nhl_player_id": 8478421,
-      "name": "Anthony-John (AJ) Greer",
-      "reason": "no_exact_name"
-    },
-    {
       "nhl_player_id": 8478424,
       "name": "Jansen Harkins",
       "reason": "ambiguous_or_team_position_mismatch",
@@ -8581,8 +8589,8 @@
     }
   ],
   "coverage": {
-    "mapped": 609,
-    "unmatched": 97,
-    "ratio": 0.8626
+    "mapped": 610,
+    "unmatched": 96,
+    "ratio": 0.864
   }
 }
