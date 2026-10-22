@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-22 21:14 МСК",
+  "updated": "2026-10-22 22:23 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "18:14:33 10/22/2026",
+  "report_updated": "19:23:12 10/22/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 719,
-  "ir_count": 70,
+  "active_count": 718,
+  "ir_count": 69,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -2121,6 +2121,12 @@
           "position": "D"
         },
         {
+          "sweater": 46,
+          "name": "JARED SPURGEON",
+          "name_key": "jared spurgeon",
+          "position": "D"
+        },
+        {
           "sweater": 47,
           "name": "MICHAEL MCCARRON",
           "name_key": "michael mccarron",
@@ -2137,12 +2143,6 @@
           "name": "MAXIM SHABANOV",
           "name_key": "maxim shabanov",
           "position": "R"
-        },
-        {
-          "sweater": 55,
-          "name": "CARSON LAMBOS",
-          "name_key": "carson lambos",
-          "position": "D"
         },
         {
           "sweater": 61,
@@ -2183,13 +2183,6 @@
           "name_key": "marcus foligno",
           "position": "L",
           "ir_date": "2026-10-12"
-        },
-        {
-          "sweater": 46,
-          "name": "JARED SPURGEON",
-          "name_key": "jared spurgeon",
-          "position": "D",
-          "ir_date": "2026-10-18"
         },
         {
           "sweater": 71,
@@ -4682,12 +4675,6 @@
           "position": "L"
         },
         {
-          "sweater": 51,
-          "name": "LUKAS CORMIER",
-          "name_key": "lukas cormier",
-          "position": "D"
-        },
-        {
           "sweater": 52,
           "name": "DYLAN COGHLAN",
           "name_key": "dylan coghlan",
@@ -5034,6 +5021,30 @@
     }
   },
   "events": [
+    {
+      "id": "RETURNED_FROM_IR:MIN:jared spurgeon:2026-10-22",
+      "type": "RETURNED_FROM_IR",
+      "team": "MIN",
+      "player": "Jared Spurgeon",
+      "player_key": "jared spurgeon",
+      "detected_at": "2026-10-22T19:23:12Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:MIN:carson lambos:2026-10-22",
+      "type": "ACTIVE_REMOVED",
+      "team": "MIN",
+      "player": "Carson Lambos",
+      "player_key": "carson lambos",
+      "detected_at": "2026-10-22T19:23:12Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:VGK:lukas cormier:2026-10-22",
+      "type": "ACTIVE_REMOVED",
+      "team": "VGK",
+      "player": "Lukas Cormier",
+      "player_key": "lukas cormier",
+      "detected_at": "2026-10-22T19:23:12Z"
+    },
     {
       "id": "ACTIVE_REMOVED:COL:gavin brindley:2026-10-22",
       "type": "ACTIVE_REMOVED",
