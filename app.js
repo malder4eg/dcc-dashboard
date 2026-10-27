@@ -2,7 +2,9 @@ const state = {
   data: null,
   period: null,
   sortKey: "leaders",
-  sortDir: -1
+  sortDir: -1,
+  rankSortKey: "avg",
+  rankSortDir: 1
 };
 
 function esc(value) {
@@ -94,14 +96,22 @@ function currentView() {
 
   const cats = state.data.categories;
 
-  const names = [
-    ...new Set(
+  const baseTeams = [
+    ...new Map(
       Object.values(state.data.weeks)
-        .flatMap(w => w.teams.map(t => t.name))
-    )
-  ].sort();
+        .flatMap(w => w.teams)
+        .map(team => [
+          Number(team.id),
+          {
+            id: Number(team.id),
+            name: team.name
+          }
+        ])
+    ).values()
+  ].sort((a, b) => a.name.localeCompare(b.name));
 
-  const teams = names.map(name => {
+  const teams = baseTeams.map(baseTeam => {
+    const name = baseTeam.name;
     const stats = Object.fromEntries(
       cats.map(c => [c.key, 0])
     );
@@ -154,6 +164,7 @@ function currentView() {
     }
 
     return {
+      id: baseTeam.id,
       name,
       stats,
       raw,
@@ -196,6 +207,270 @@ function leaderCounts(teams) {
   });
 
   return out;
+}
+
+function teamRankKey(team) {
+  return String(
+    team.id !== null && team.id !== undefined
+      ? team.id
+      : team.name
+  );
+}
+
+function categoryPlaces(teams) {
+  const cats = state.data.categories;
+
+  const places = Object.fromEntries(
+    teams.map(team => [
+      teamRankKey(team),
+      {}
+    ])
+  );
+
+  cats.forEach(cat => {
+    const ranked = [...teams].sort((a, b) => {
+      const av = a.stats[cat.key];
+      const bv = b.stats[cat.key];
+
+      const aMissing =
+        av === null ||
+        av === undefined ||
+        Number.isNaN(Number(av));
+
+      const bMissing =
+        bv === null ||
+        bv === undefined ||
+        Number.isNaN(Number(bv));
+
+      if (aMissing && bMissing) return 0;
+      if (aMissing) return 1;
+      if (bMissing) return -1;
+
+      const an = Number(av);
+      const bn = Number(bv);
+
+      if (an === bn) return 0;
+
+      return cat.lower
+        ? an - bn
+        : bn - an;
+    });
+
+    let place = 0;
+    let lastValue;
+    let hasLastValue = false;
+
+    ranked.forEach((team, index) => {
+      const value = team.stats[cat.key];
+
+      const missing =
+        value === null ||
+        value === undefined ||
+        Number.isNaN(Number(value));
+
+      const key = teamRankKey(team);
+
+      if (missing) {
+        places[key][cat.key] = null;
+        return;
+      }
+
+      const number = Number(value);
+
+      if (
+        !hasLastValue ||
+        number !== lastValue
+      ) {
+        place = index + 1;
+      }
+
+      lastValue = number;
+      hasLastValue = true;
+      places[key][cat.key] = place;
+    });
+  });
+
+  teams.forEach(team => {
+    const key = teamRankKey(team);
+
+    const nums = cats
+      .map(cat => places[key][cat.key])
+      .filter(
+        value =>
+          value !== null &&
+          value !== undefined
+      );
+
+    places[key].avg = nums.length
+      ? nums.reduce(
+          (sum, value) => sum + value,
+          0
+        ) / nums.length
+      : null;
+  });
+
+  return places;
+}
+
+function placeHeat(place, teamCount) {
+  if (
+    place === null ||
+    place === undefined ||
+    !Number.isFinite(Number(place))
+  ) {
+    return "";
+  }
+
+  const maxPlace = Math.max(
+    Number(teamCount),
+    2
+  );
+
+  const strength = Math.max(
+    0,
+    Math.min(
+      1,
+      1 -
+        (Number(place) - 1) /
+          (maxPlace - 1)
+    )
+  );
+
+  const light = 97 - strength * 57;
+  const sat = 18 + strength * 42;
+  const text =
+    strength > 0.64
+      ? "#fff"
+      : "#172033";
+
+  return (
+    `background:hsl(148 ${sat}% ${light}%);` +
+    `color:${text}`
+  );
+}
+
+function renderRanks() {
+  const view = currentView();
+  const cats = state.data.categories;
+  const places = categoryPlaces(view.teams);
+
+  const rows = [...view.teams].sort((a, b) => {
+    const aKey = teamRankKey(a);
+    const bKey = teamRankKey(b);
+
+    let av;
+    let bv;
+
+    if (state.rankSortKey === "name") {
+      [av, bv] = [a.name, b.name];
+    } else if (state.rankSortKey === "avg") {
+      [av, bv] = [
+        places[aKey].avg,
+        places[bKey].avg
+      ];
+    } else {
+      [av, bv] = [
+        places[aKey][state.rankSortKey],
+        places[bKey][state.rankSortKey]
+      ];
+    }
+
+    if (av === null || av === undefined) return 1;
+    if (bv === null || bv === undefined) return -1;
+
+    const result =
+      typeof av === "string"
+        ? av.localeCompare(bv)
+        : Number(av) - Number(bv);
+
+    if (result !== 0) {
+      return result * state.rankSortDir;
+    }
+
+    return a.name.localeCompare(b.name);
+  });
+
+  const table =
+    document.getElementById("ranks-table");
+
+  table.innerHTML =
+    `<thead><tr>` +
+    `<th data-rank-key="name">Команда</th>` +
+    cats
+      .map(
+        cat =>
+          `<th data-rank-key="${cat.key}">` +
+          `${cat.label}${cat.lower ? " ↓" : ""}` +
+          `</th>`
+      )
+      .join("") +
+    `<th data-rank-key="avg">Среднее</th>` +
+    `</tr></thead><tbody>` +
+    rows
+      .map(team => {
+        const key = teamRankKey(team);
+
+        const warning = team.ineligible_goalies
+          ? `<span class="goalie-warning" ` +
+            `title="Не выполнен недельный минимум выходов вратарей"> ⚠</span>`
+          : "";
+
+        return (
+          `<tr>` +
+          `<td>` +
+          `<span class="team-name">${esc(team.name)}</span>` +
+          `${warning}` +
+          `</td>` +
+          cats
+            .map(cat => {
+              const place =
+                places[key][cat.key];
+
+              return (
+                `<td style="${placeHeat(place, view.teams.length)}">` +
+                `${place ?? "–"}` +
+                `</td>`
+              );
+            })
+            .join("") +
+          `<td class="rank-average" style="${placeHeat(places[key].avg, view.teams.length)}">` +
+          `${places[key].avg === null
+            ? "–"
+            : places[key].avg.toFixed(1)}` +
+          `</td>` +
+          `</tr>`
+        );
+      })
+      .join("") +
+    `</tbody>`;
+
+  table
+    .querySelectorAll("th")
+    .forEach(th => {
+      th.addEventListener("click", () => {
+        const key =
+          th.dataset.rankKey;
+
+        if (
+          state.rankSortKey === key
+        ) {
+          state.rankSortDir *= -1;
+        } else {
+          state.rankSortKey = key;
+          state.rankSortDir =
+            key === "name"
+              ? 1
+              : 1;
+        }
+
+        renderRanks();
+      });
+    });
+
+  document.getElementById("ranks-note").textContent =
+    `1 — лучшее место, ${view.teams.length} — худшее. ` +
+    `При равенстве команды получают одинаковое место; GAA ранжируется наоборот. ` +
+    `«Среднее» считается по доступным категориям.`;
 }
 
 function renderTabs() {
@@ -570,6 +845,7 @@ function setOpponent() {
 function renderAll(refreshOptions = true) {
   renderTabs();
   renderTable();
+  renderRanks();
 
   if (refreshOptions) {
     teamOptions();
