@@ -4,7 +4,8 @@ const state = {
   sortKey: "leaders",
   sortDir: -1,
   rankSortKey: "avg",
-  rankSortDir: 1
+  rankSortDir: 1,
+  rankScope: "season"
 };
 
 function esc(value) {
@@ -89,12 +90,18 @@ function heat(cat, value, values) {
   return `background:hsl(148 ${sat}% ${light}%);color:${text}`;
 }
 
-function currentView() {
-  if (state.period !== "season") {
-    return state.data.weeks[state.period];
-  }
-
+function buildSeasonView(includeCurrent = true) {
   const cats = state.data.categories;
+
+  const selectedWeeks = Object.entries(
+    state.data.weeks
+  )
+    .filter(([weekNumber]) =>
+      includeCurrent ||
+      Number(weekNumber) <
+        Number(state.data.current_week)
+    )
+    .map(([, week]) => week);
 
   const baseTeams = [
     ...new Map(
@@ -108,54 +115,80 @@ function currentView() {
           }
         ])
     ).values()
-  ].sort((a, b) => a.name.localeCompare(b.name));
+  ].sort(
+    (a, b) =>
+      a.name.localeCompare(b.name)
+  );
 
   const teams = baseTeams.map(baseTeam => {
-    const name = baseTeam.name;
     const stats = Object.fromEntries(
-      cats.map(c => [c.key, 0])
+      cats.map(cat => [cat.key, 0])
     );
 
     const raw = {};
     let hasData = false;
 
-    Object.values(state.data.weeks).forEach(week => {
-      const team = week.teams.find(t => t.name === name);
+    selectedWeeks.forEach(week => {
+      const team = week.teams.find(
+        item =>
+          Number(item.id) ===
+          Number(baseTeam.id)
+      );
 
       if (!team) return;
 
       cats.forEach(cat => {
-        const value = team.stats[cat.key];
+        const value =
+          team.stats[cat.key];
 
         if (
           value !== null &&
           value !== undefined &&
-          Number.isFinite(Number(value)) &&
-          !["GAA", "SV%"].includes(cat.key)
+          Number.isFinite(
+            Number(value)
+          ) &&
+          !["GAA", "SV%"].includes(
+            cat.key
+          )
         ) {
-          stats[cat.key] += Number(value);
+          stats[cat.key] +=
+            Number(value);
+
           hasData = true;
         }
       });
 
-      Object.entries(team.raw || {}).forEach(([key, value]) => {
+      Object.entries(
+        team.raw || {}
+      ).forEach(([key, value]) => {
         if (
           value !== null &&
           value !== undefined &&
-          Number.isFinite(Number(value))
+          Number.isFinite(
+            Number(value)
+          )
         ) {
-          raw[key] = (raw[key] || 0) + Number(value);
+          raw[key] =
+            (raw[key] || 0) +
+            Number(value);
         }
       });
     });
 
     stats.GAA = raw[8]
-      ? (raw[4] || 0) * 3600 / raw[8]
+      ? (raw[4] || 0) *
+        3600 /
+        raw[8]
       : null;
 
-    stats["SV%"] = (raw[6] || raw[4])
-      ? (raw[6] || 0) / ((raw[6] || 0) + (raw[4] || 0))
-      : null;
+    stats["SV%"] =
+      (raw[6] || raw[4])
+        ? (raw[6] || 0) /
+          (
+            (raw[6] || 0) +
+            (raw[4] || 0)
+          )
+        : null;
 
     if (!hasData) {
       cats.forEach(cat => {
@@ -165,7 +198,7 @@ function currentView() {
 
     return {
       id: baseTeam.id,
-      name,
+      name: baseTeam.name,
       stats,
       raw,
       ineligible_goalies: false
@@ -174,8 +207,28 @@ function currentView() {
 
   return {
     teams,
-    pairs: []
+    pairs: [],
+    included_weeks:
+      selectedWeeks.map(
+        week => Number(week.week)
+      )
   };
+}
+
+function currentView() {
+  if (state.period !== "season") {
+    return state.data.weeks[
+      state.period
+    ];
+  }
+
+  return buildSeasonView(true);
+}
+
+function rankView() {
+  return buildSeasonView(
+    state.rankScope === "season"
+  );
 }
 
 function leaderCounts(teams) {
@@ -349,8 +402,51 @@ function placeHeat(place, teamCount) {
   );
 }
 
+function renderRankTabs() {
+  const el =
+    document.getElementById(
+      "rank-tabs"
+    );
+
+  const buttons = [
+    {
+      key: "season",
+      label: "Сезон ESPN"
+    },
+    {
+      key: "completed",
+      label: "Только завершённые"
+    }
+  ];
+
+  el.innerHTML = buttons
+    .map(
+      item =>
+        `<button data-rank-scope="${item.key}" ` +
+        `class="${state.rankScope === item.key ? "active" : ""}">` +
+        `${item.label}</button>`
+    )
+    .join("");
+
+  el
+    .querySelectorAll("button")
+    .forEach(button => {
+      button.addEventListener(
+        "click",
+        () => {
+          state.rankScope =
+            button.dataset.rankScope;
+
+          renderRanks();
+        }
+      );
+    });
+}
+
 function renderRanks() {
-  const view = currentView();
+  renderRankTabs();
+
+  const view = rankView();
   const cats = state.data.categories;
   const places = categoryPlaces(view.teams);
 
@@ -467,10 +563,22 @@ function renderRanks() {
       });
     });
 
+  const weeksText =
+    view.included_weeks.length
+      ? view.included_weeks.join(", ")
+      : "—";
+
   document.getElementById("ranks-note").textContent =
-    `1 — лучшее место, ${view.teams.length} — худшее. ` +
-    `При равенстве команды получают одинаковое место; GAA ранжируется наоборот. ` +
-    `«Среднее» считается по доступным категориям.`;
+    state.rankScope === "season"
+      ? (
+          `Сезон ESPN: недели ${weeksText}, включая текущий матчап. ` +
+          `Эти исходные цифры должны совпадать с ESPN Season Stats. ` +
+          `1 — лучшее место, GAA ранжируется наоборот.`
+        )
+      : (
+          `Только завершённые недели: ${weeksText}. Текущий матчап не учитывается. ` +
+          `1 — лучшее место, GAA ранжируется наоборот.`
+        );
 }
 
 function renderTabs() {
