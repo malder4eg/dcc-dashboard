@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-28 19:35 МСК",
+  "updated": "2026-10-28 20:31 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "16:35:49 10/28/2026",
+  "report_updated": "17:31:45 10/28/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 721,
-  "ir_count": 74,
+  "active_count": 719,
+  "ir_count": 75,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -3532,12 +3532,6 @@
           "position": "C"
         },
         {
-          "sweater": 21,
-          "name": "ALEXANDER WENNBERG",
-          "name_key": "alexander wennberg",
-          "position": "C"
-        },
-        {
           "sweater": 23,
           "name": "BARCLAY GOODROW",
           "name_key": "barclay goodrow",
@@ -3626,21 +3620,29 @@
           "name": "ADAM GAUDETTE",
           "name_key": "adam gaudette",
           "position": "R"
-        },
-        {
-          "sweater": 92,
-          "name": "IGOR CHERNYSHOV",
-          "name_key": "igor chernyshov",
-          "position": "L"
         }
       ],
       "ir": [
+        {
+          "sweater": 21,
+          "name": "ALEXANDER WENNBERG",
+          "name_key": "alexander wennberg",
+          "position": "C",
+          "ir_date": "2026-10-28"
+        },
         {
           "sweater": 39,
           "name": "LOGAN COUTURE",
           "name_key": "logan couture",
           "position": "C",
           "ir_date": "2024-02-19"
+        },
+        {
+          "sweater": 92,
+          "name": "IGOR CHERNYSHOV",
+          "name_key": "igor chernyshov",
+          "position": "L",
+          "ir_date": "2026-10-28"
         }
       ]
     },
@@ -4841,6 +4843,12 @@
           "position": "D"
         },
         {
+          "sweater": 48,
+          "name": "LOGAN THOMPSON",
+          "name_key": "logan thompson",
+          "position": "G"
+        },
+        {
           "sweater": 52,
           "name": "DYLAN MCILRATH",
           "name_key": "dylan mcilrath",
@@ -4871,12 +4879,6 @@
           "position": "R"
         },
         {
-          "sweater": 78,
-          "name": "MITCHELL GIBSON",
-          "name_key": "mitchell gibson",
-          "position": "G"
-        },
-        {
           "sweater": 79,
           "name": "CHARLIE LINDGREN",
           "name_key": "charlie lindgren",
@@ -4896,13 +4898,6 @@
         }
       ],
       "ir": [
-        {
-          "sweater": 48,
-          "name": "LOGAN THOMPSON",
-          "name_key": "logan thompson",
-          "position": "G",
-          "ir_date": "2026-10-24"
-        },
         {
           "sweater": 73,
           "name": "VINCENT DESHARNAIS",
@@ -5073,6 +5068,38 @@
     }
   },
   "events": [
+    {
+      "id": "NEW_IR:SJS:alexander wennberg:2026-10-28",
+      "type": "NEW_IR",
+      "team": "SJS",
+      "player": "Alexander Wennberg",
+      "player_key": "alexander wennberg",
+      "detected_at": "2026-10-28T17:31:45Z"
+    },
+    {
+      "id": "NEW_IR:SJS:igor chernyshov:2026-10-28",
+      "type": "NEW_IR",
+      "team": "SJS",
+      "player": "Igor Chernyshov",
+      "player_key": "igor chernyshov",
+      "detected_at": "2026-10-28T17:31:45Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:WSH:logan thompson:2026-10-28",
+      "type": "RETURNED_FROM_IR",
+      "team": "WSH",
+      "player": "Logan Thompson",
+      "player_key": "logan thompson",
+      "detected_at": "2026-10-28T17:31:45Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:WSH:mitchell gibson:2026-10-28",
+      "type": "ACTIVE_REMOVED",
+      "team": "WSH",
+      "player": "Mitchell Gibson",
+      "player_key": "mitchell gibson",
+      "detected_at": "2026-10-28T17:31:45Z"
+    },
     {
       "id": "ACTIVE_ADDED:VGK:cameron whitehead:2026-10-28",
       "type": "ACTIVE_ADDED",
@@ -5792,22 +5819,6 @@
       "player": "Alexander Holtz",
       "player_key": "alexander holtz",
       "detected_at": "2026-10-21T19:23:02Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:SEA:ty nelson:2026-10-21",
-      "type": "ACTIVE_REMOVED",
-      "team": "SEA",
-      "player": "Ty Nelson",
-      "player_key": "ty nelson",
-      "detected_at": "2026-10-21T17:18:19Z"
-    },
-    {
-      "id": "NEW_IR:VGK:parker wotherspoon:2026-10-21",
-      "type": "NEW_IR",
-      "team": "VGK",
-      "player": "Parker Wotherspoon",
-      "player_key": "parker wotherspoon",
-      "detected_at": "2026-10-21T17:18:19Z"
     }
   ]
 }
