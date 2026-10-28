@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-28 23:26 МСК",
+  "updated": "2026-10-29 00:24 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "20:26:16 10/28/2026",
+  "report_updated": "21:24:40 10/28/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 717,
+  "active_count": 718,
   "ir_count": 75,
   "teams": {
     "ANA": {
@@ -4205,6 +4205,12 @@
           "position": "C"
         },
         {
+          "sweater": 81,
+          "name": "DAKOTA JOSHUA",
+          "name_key": "dakota joshua",
+          "position": "C"
+        },
+        {
           "sweater": 82,
           "name": "COLE MCWARD",
           "name_key": "cole mcward",
@@ -5057,6 +5063,14 @@
   },
   "events": [
     {
+      "id": "ACTIVE_ADDED:TOR:dakota joshua:2026-10-28",
+      "type": "ACTIVE_ADDED",
+      "team": "TOR",
+      "player": "Dakota Joshua",
+      "player_key": "dakota joshua",
+      "detected_at": "2026-10-28T21:24:41Z"
+    },
+    {
       "id": "NEW_IR:EDM:zach hyman:2026-10-28",
       "type": "NEW_IR",
       "team": "EDM",
@@ -5831,14 +5845,6 @@
       "player": "Skyler Brind Amour",
       "player_key": "skyler brind amour",
       "detected_at": "2026-10-22T14:23:15Z"
-    },
-    {
-      "id": "NEW_IR:BUF:matt grzelcyk:2026-10-21",
-      "type": "NEW_IR",
-      "team": "BUF",
-      "player": "Matt Grzelcyk",
-      "player_key": "matt grzelcyk",
-      "detected_at": "2026-10-21T21:16:51Z"
     }
   ]
 }
