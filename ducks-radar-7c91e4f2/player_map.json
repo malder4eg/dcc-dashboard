@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-28 04:42 МСК",
+  "updated": "2026-10-28 05:30 МСК",
   "method": "Exact normalized full name with NHL/ESPN team and position validation; no surname-only fuzzy joins.",
   "mapped": [
     {
@@ -3328,6 +3328,19 @@
       "espn_team_id": 0,
       "espn_pro_team_id": 129764,
       "percent_owned": 0.48,
+      "method": "exact_normalized_full_name+team+position",
+      "confidence": "HIGH"
+    },
+    {
+      "nhl_player_id": 8479371,
+      "espn_player_id": 4024959,
+      "name": "Dante Fabbro",
+      "nhl_team": "CBJ",
+      "position": "D",
+      "espn_status": "FREEAGENT",
+      "espn_team_id": 0,
+      "espn_pro_team_id": 29,
+      "percent_owned": 0.07,
       "method": "exact_normalized_full_name+team+position",
       "confidence": "HIGH"
     },
@@ -8816,8 +8829,8 @@
     }
   ],
   "coverage": {
-    "mapped": 626,
+    "mapped": 627,
     "unmatched": 99,
-    "ratio": 0.8634
+    "ratio": 0.8636
   }
 }
