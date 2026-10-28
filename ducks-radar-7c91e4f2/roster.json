@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-28 02:18 МСК",
+  "updated": "2026-10-28 03:18 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "23:18:04 10/27/2026",
+  "report_updated": "00:18:24 10/28/2026",
   "complete": true,
   "team_count": 32,
   "active_count": 721,
@@ -4682,15 +4682,15 @@
           "position": "C"
         },
         {
+          "sweater": 39,
+          "name": "CAMERON WHITEHEAD",
+          "name_key": "cameron whitehead",
+          "position": "G"
+        },
+        {
           "sweater": 42,
           "name": "BRAEDEN BOWMAN",
           "name_key": "braeden bowman",
-          "position": "R"
-        },
-        {
-          "sweater": 46,
-          "name": "JONAS RONDBJERG",
-          "name_key": "jonas rondbjerg",
           "position": "R"
         },
         {
@@ -5073,6 +5073,22 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_ADDED:VGK:cameron whitehead:2026-10-28",
+      "type": "ACTIVE_ADDED",
+      "team": "VGK",
+      "player": "Cameron Whitehead",
+      "player_key": "cameron whitehead",
+      "detected_at": "2026-10-28T00:18:24Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:VGK:jonas rondbjerg:2026-10-28",
+      "type": "ACTIVE_REMOVED",
+      "team": "VGK",
+      "player": "Jonas Rondbjerg",
+      "player_key": "jonas rondbjerg",
+      "detected_at": "2026-10-28T00:18:24Z"
+    },
     {
       "id": "NEW_IR:ANA:pavel mintyukov:2026-10-27",
       "type": "NEW_IR",
