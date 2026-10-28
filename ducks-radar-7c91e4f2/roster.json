@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-28 21:25 МСК",
+  "updated": "2026-10-28 22:33 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "18:25:37 10/28/2026",
+  "report_updated": "19:33:36 10/28/2026",
   "complete": true,
   "team_count": 32,
   "active_count": 719,
@@ -1329,12 +1329,6 @@
           "sweater": 43,
           "name": "MATTHEW SEMINOFF",
           "name_key": "matthew seminoff",
-          "position": "R"
-        },
-        {
-          "sweater": 46,
-          "name": "DYLAN HRYCKOWIAN",
-          "name_key": "dylan hryckowian",
           "position": "R"
         },
         {
@@ -3544,6 +3538,12 @@
           "position": "C"
         },
         {
+          "sweater": 24,
+          "name": "LIBOR HAJEK",
+          "name_key": "libor hajek",
+          "position": "D"
+        },
+        {
           "sweater": 25,
           "name": "DARNELL NURSE",
           "name_key": "darnell nurse",
@@ -5069,6 +5069,22 @@
   },
   "events": [
     {
+      "id": "ACTIVE_REMOVED:DAL:dylan hryckowian:2026-10-28",
+      "type": "ACTIVE_REMOVED",
+      "team": "DAL",
+      "player": "Dylan Hryckowian",
+      "player_key": "dylan hryckowian",
+      "detected_at": "2026-10-28T19:33:36Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:SJS:libor hajek:2026-10-28",
+      "type": "ACTIVE_ADDED",
+      "team": "SJS",
+      "player": "Libor Hajek",
+      "player_key": "libor hajek",
+      "detected_at": "2026-10-28T19:33:36Z"
+    },
+    {
       "id": "ACTIVE_ADDED:SJS:filip bystedt:2026-10-28",
       "type": "ACTIVE_ADDED",
       "team": "SJS",
@@ -5795,46 +5811,6 @@
       "player": "Jason Zucker",
       "player_key": "jason zucker",
       "detected_at": "2026-10-21T20:14:31Z"
-    },
-    {
-      "id": "NEW_IR:BUF:sam carrick:2026-10-21",
-      "type": "NEW_IR",
-      "team": "BUF",
-      "player": "Sam Carrick",
-      "player_key": "sam carrick",
-      "detected_at": "2026-10-21T19:23:02Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:CAR:bradly nadeau:2026-10-21",
-      "type": "ACTIVE_REMOVED",
-      "team": "CAR",
-      "player": "Bradly Nadeau",
-      "player_key": "bradly nadeau",
-      "detected_at": "2026-10-21T19:23:02Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:LAK:jared wright:2026-10-21",
-      "type": "ACTIVE_ADDED",
-      "team": "LAK",
-      "player": "Jared Wright",
-      "player_key": "jared wright",
-      "detected_at": "2026-10-21T19:23:02Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:STL:dylan peterson:2026-10-21",
-      "type": "ACTIVE_REMOVED",
-      "team": "STL",
-      "player": "Dylan Peterson",
-      "player_key": "dylan peterson",
-      "detected_at": "2026-10-21T19:23:02Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:VGK:alexander holtz:2026-10-21",
-      "type": "ACTIVE_ADDED",
-      "team": "VGK",
-      "player": "Alexander Holtz",
-      "player_key": "alexander holtz",
-      "detected_at": "2026-10-21T19:23:02Z"
     }
   ]
 }
