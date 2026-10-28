@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-28 20:31 МСК",
+  "updated": "2026-10-28 21:25 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "17:31:45 10/28/2026",
+  "report_updated": "18:25:37 10/28/2026",
   "complete": true,
   "team_count": 32,
   "active_count": 719,
@@ -3532,6 +3532,12 @@
           "position": "C"
         },
         {
+          "sweater": 18,
+          "name": "FILIP BYSTEDT",
+          "name_key": "filip bystedt",
+          "position": "C"
+        },
+        {
           "sweater": 23,
           "name": "BARCLAY GOODROW",
           "name_key": "barclay goodrow",
@@ -3566,12 +3572,6 @@
           "name": "IVAR STENBERG",
           "name_key": "ivar stenberg",
           "position": "L"
-        },
-        {
-          "sweater": 42,
-          "name": "LUCA CAGNONI",
-          "name_key": "luca cagnoni",
-          "position": "D"
         },
         {
           "sweater": 44,
@@ -5068,6 +5068,22 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_ADDED:SJS:filip bystedt:2026-10-28",
+      "type": "ACTIVE_ADDED",
+      "team": "SJS",
+      "player": "Filip Bystedt",
+      "player_key": "filip bystedt",
+      "detected_at": "2026-10-28T18:25:38Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:SJS:luca cagnoni:2026-10-28",
+      "type": "ACTIVE_REMOVED",
+      "team": "SJS",
+      "player": "Luca Cagnoni",
+      "player_key": "luca cagnoni",
+      "detected_at": "2026-10-28T18:25:38Z"
+    },
     {
       "id": "NEW_IR:SJS:alexander wennberg:2026-10-28",
       "type": "NEW_IR",
