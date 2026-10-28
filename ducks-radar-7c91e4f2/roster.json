@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-28 22:33 МСК",
+  "updated": "2026-10-28 23:26 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "19:33:36 10/28/2026",
+  "report_updated": "20:26:16 10/28/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 719,
+  "active_count": 717,
   "ir_count": 75,
   "teams": {
     "ANA": {
@@ -1579,10 +1579,10 @@
           "position": "D"
         },
         {
-          "sweater": 18,
-          "name": "ZACH HYMAN",
-          "name_key": "zach hyman",
-          "position": "L"
+          "sweater": 16,
+          "name": "JASON DICKINSON",
+          "name_key": "jason dickinson",
+          "position": "C"
         },
         {
           "sweater": 19,
@@ -1696,11 +1696,11 @@
           "ir_date": "2026-03-02"
         },
         {
-          "sweater": 16,
-          "name": "JASON DICKINSON",
-          "name_key": "jason dickinson",
-          "position": "C",
-          "ir_date": "2026-10-22"
+          "sweater": 18,
+          "name": "ZACH HYMAN",
+          "name_key": "zach hyman",
+          "position": "L",
+          "ir_date": "2026-10-28"
         },
         {
           "sweater": 27,
@@ -3333,6 +3333,12 @@
           "position": "L"
         },
         {
+          "sweater": 16,
+          "name": "JUSTIN BRAZEAU",
+          "name_key": "justin brazeau",
+          "position": "R"
+        },
+        {
           "sweater": 18,
           "name": "TOMMY NOVAK",
           "name_key": "tommy novak",
@@ -3357,12 +3363,6 @@
           "position": "D"
         },
         {
-          "sweater": 25,
-          "name": "ELMER SODERBLOM",
-          "name_key": "elmer soderblom",
-          "position": "L"
-        },
-        {
           "sweater": 37,
           "name": "ARTURS SILOVS",
           "name_key": "arturs silovs",
@@ -3373,12 +3373,6 @@
           "name": "VILLE KOIVUNEN",
           "name_key": "ville koivunen",
           "position": "R"
-        },
-        {
-          "sweater": 44,
-          "name": "CHASE PIETILA",
-          "name_key": "chase pietila",
-          "position": "D"
         },
         {
           "sweater": 46,
@@ -3429,12 +3423,6 @@
           "position": "D"
         },
         {
-          "sweater": 85,
-          "name": "AVERY HAYES",
-          "name_key": "avery hayes",
-          "position": "R"
-        },
-        {
           "sweater": 87,
           "name": "SIDNEY CROSBY",
           "name_key": "sidney crosby",
@@ -3443,18 +3431,18 @@
       ],
       "ir": [
         {
-          "sweater": 16,
-          "name": "JUSTIN BRAZEAU",
-          "name_key": "justin brazeau",
-          "position": "R",
-          "ir_date": "2026-09-26"
-        },
-        {
           "sweater": 17,
           "name": "BRYAN RUST",
           "name_key": "bryan rust",
           "position": "R",
           "ir_date": "2026-10-22"
+        },
+        {
+          "sweater": 25,
+          "name": "ELMER SODERBLOM",
+          "name_key": "elmer soderblom",
+          "position": "L",
+          "ir_date": "2026-10-28"
         },
         {
           "sweater": 27,
@@ -5069,6 +5057,54 @@
   },
   "events": [
     {
+      "id": "NEW_IR:EDM:zach hyman:2026-10-28",
+      "type": "NEW_IR",
+      "team": "EDM",
+      "player": "Zach Hyman",
+      "player_key": "zach hyman",
+      "detected_at": "2026-10-28T20:26:16Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:EDM:jason dickinson:2026-10-28",
+      "type": "RETURNED_FROM_IR",
+      "team": "EDM",
+      "player": "Jason Dickinson",
+      "player_key": "jason dickinson",
+      "detected_at": "2026-10-28T20:26:16Z"
+    },
+    {
+      "id": "NEW_IR:PIT:elmer soderblom:2026-10-28",
+      "type": "NEW_IR",
+      "team": "PIT",
+      "player": "Elmer Soderblom",
+      "player_key": "elmer soderblom",
+      "detected_at": "2026-10-28T20:26:16Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:PIT:justin brazeau:2026-10-28",
+      "type": "RETURNED_FROM_IR",
+      "team": "PIT",
+      "player": "Justin Brazeau",
+      "player_key": "justin brazeau",
+      "detected_at": "2026-10-28T20:26:16Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:PIT:avery hayes:2026-10-28",
+      "type": "ACTIVE_REMOVED",
+      "team": "PIT",
+      "player": "Avery Hayes",
+      "player_key": "avery hayes",
+      "detected_at": "2026-10-28T20:26:16Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:PIT:chase pietila:2026-10-28",
+      "type": "ACTIVE_REMOVED",
+      "team": "PIT",
+      "player": "Chase Pietila",
+      "player_key": "chase pietila",
+      "detected_at": "2026-10-28T20:26:16Z"
+    },
+    {
       "id": "ACTIVE_REMOVED:DAL:dylan hryckowian:2026-10-28",
       "type": "ACTIVE_REMOVED",
       "team": "DAL",
@@ -5803,14 +5839,6 @@
       "player": "Matt Grzelcyk",
       "player_key": "matt grzelcyk",
       "detected_at": "2026-10-21T21:16:51Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:BUF:jason zucker:2026-10-21",
-      "type": "ACTIVE_ADDED",
-      "team": "BUF",
-      "player": "Jason Zucker",
-      "player_key": "jason zucker",
-      "detected_at": "2026-10-21T20:14:31Z"
     }
   ]
 }
