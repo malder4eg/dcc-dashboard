@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-29 23:27 МСК",
+  "updated": "2026-10-30 00:25 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "20:27:47 10/29/2026",
+  "report_updated": "21:25:59 10/29/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 718,
+  "active_count": 717,
   "ir_count": 75,
   "teams": {
     "ANA": {
@@ -346,10 +346,10 @@
           "position": "C"
         },
         {
-          "sweater": 15,
-          "name": "JUSTIN DANFORTH",
-          "name_key": "justin danforth",
-          "position": "R"
+          "sweater": 10,
+          "name": "SAM CARRICK",
+          "name_key": "sam carrick",
+          "position": "C"
         },
         {
           "sweater": 17,
@@ -462,11 +462,11 @@
       ],
       "ir": [
         {
-          "sweater": 10,
-          "name": "SAM CARRICK",
-          "name_key": "sam carrick",
-          "position": "C",
-          "ir_date": "2026-10-21"
+          "sweater": 15,
+          "name": "JUSTIN DANFORTH",
+          "name_key": "justin danforth",
+          "position": "R",
+          "ir_date": "2026-10-29"
         },
         {
           "sweater": 21,
@@ -1402,6 +1402,12 @@
           "position": "D"
         },
         {
+          "sweater": 15,
+          "name": "SHELDON DRIES",
+          "name_key": "sheldon dries",
+          "position": "C"
+        },
+        {
           "sweater": 18,
           "name": "ANDREW COPP",
           "name_key": "andrew copp",
@@ -1450,12 +1456,6 @@
           "position": "L"
         },
         {
-          "sweater": 35,
-          "name": "MICHAL POSTAVA",
-          "name_key": "michal postava",
-          "position": "G"
-        },
-        {
           "sweater": 36,
           "name": "JOHN GIBSON",
           "name_key": "john gibson",
@@ -1501,12 +1501,6 @@
           "sweater": 58,
           "name": "EMMITT FINNIE",
           "name_key": "emmitt finnie",
-          "position": "C"
-        },
-        {
-          "sweater": 71,
-          "name": "DYLAN LARKIN",
-          "name_key": "dylan larkin",
           "position": "C"
         },
         {
@@ -5063,6 +5057,46 @@
   },
   "events": [
     {
+      "id": "NEW_IR:BUF:justin danforth:2026-10-29",
+      "type": "NEW_IR",
+      "team": "BUF",
+      "player": "Justin Danforth",
+      "player_key": "justin danforth",
+      "detected_at": "2026-10-29T21:25:59Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:BUF:sam carrick:2026-10-29",
+      "type": "RETURNED_FROM_IR",
+      "team": "BUF",
+      "player": "Sam Carrick",
+      "player_key": "sam carrick",
+      "detected_at": "2026-10-29T21:25:59Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:DET:sheldon dries:2026-10-29",
+      "type": "ACTIVE_ADDED",
+      "team": "DET",
+      "player": "Sheldon Dries",
+      "player_key": "sheldon dries",
+      "detected_at": "2026-10-29T21:25:59Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:DET:dylan larkin:2026-10-29",
+      "type": "ACTIVE_REMOVED",
+      "team": "DET",
+      "player": "Dylan Larkin",
+      "player_key": "dylan larkin",
+      "detected_at": "2026-10-29T21:25:59Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:DET:michal postava:2026-10-29",
+      "type": "ACTIVE_REMOVED",
+      "team": "DET",
+      "player": "Michal Postava",
+      "player_key": "michal postava",
+      "detected_at": "2026-10-29T21:25:59Z"
+    },
+    {
       "id": "ACTIVE_REMOVED:CBJ:carson soucy:2026-10-29",
       "type": "ACTIVE_REMOVED",
       "team": "CBJ",
@@ -5781,30 +5815,6 @@
       "player": "Owen Beck",
       "player_key": "owen beck",
       "detected_at": "2026-10-22T23:15:32Z"
-    },
-    {
-      "id": "NEW_IR:EDM:jason dickinson:2026-10-22",
-      "type": "NEW_IR",
-      "team": "EDM",
-      "player": "Jason Dickinson",
-      "player_key": "jason dickinson",
-      "detected_at": "2026-10-22T21:18:25Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:EDM:ryan nugent hopkins:2026-10-22",
-      "type": "RETURNED_FROM_IR",
-      "team": "EDM",
-      "player": "Ryan Nugent Hopkins",
-      "player_key": "ryan nugent hopkins",
-      "detected_at": "2026-10-22T21:18:25Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:VGK:ville heinola:2026-10-22",
-      "type": "ACTIVE_ADDED",
-      "team": "VGK",
-      "player": "Ville Heinola",
-      "player_key": "ville heinola",
-      "detected_at": "2026-10-22T21:18:25Z"
     }
   ]
 }
