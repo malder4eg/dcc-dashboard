@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-29 19:37 МСК",
+  "updated": "2026-10-29 20:33 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "16:37:05 10/29/2026",
+  "report_updated": "17:33:53 10/29/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 718,
-  "ir_count": 76,
+  "active_count": 717,
+  "ir_count": 77,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -1947,12 +1947,6 @@
           "position": "C"
         },
         {
-          "sweater": 25,
-          "name": "JARED WRIGHT",
-          "name_key": "jared wright",
-          "position": "R"
-        },
-        {
           "sweater": 31,
           "name": "ANTON FORSBERG",
           "name_key": "anton forsberg",
@@ -1968,6 +1962,12 @@
           "sweater": 40,
           "name": "JOEL ARMIA",
           "name_key": "joel armia",
+          "position": "R"
+        },
+        {
+          "sweater": 42,
+          "name": "MARTIN CHROMIAK",
+          "name_key": "martin chromiak",
           "position": "R"
         },
         {
@@ -2143,12 +2143,6 @@
           "position": "D"
         },
         {
-          "sweater": 46,
-          "name": "JARED SPURGEON",
-          "name_key": "jared spurgeon",
-          "position": "D"
-        },
-        {
           "sweater": 47,
           "name": "MICHAEL MCCARRON",
           "name_key": "michael mccarron",
@@ -2199,6 +2193,13 @@
           "name_key": "marcus foligno",
           "position": "L",
           "ir_date": "2026-10-12"
+        },
+        {
+          "sweater": 46,
+          "name": "JARED SPURGEON",
+          "name_key": "jared spurgeon",
+          "position": "D",
+          "ir_date": "2026-10-29"
         },
         {
           "sweater": 71,
@@ -5069,6 +5070,30 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_ADDED:LAK:martin chromiak:2026-10-29",
+      "type": "ACTIVE_ADDED",
+      "team": "LAK",
+      "player": "Martin Chromiak",
+      "player_key": "martin chromiak",
+      "detected_at": "2026-10-29T17:33:53Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:LAK:jared wright:2026-10-29",
+      "type": "ACTIVE_REMOVED",
+      "team": "LAK",
+      "player": "Jared Wright",
+      "player_key": "jared wright",
+      "detected_at": "2026-10-29T17:33:53Z"
+    },
+    {
+      "id": "NEW_IR:MIN:jared spurgeon:2026-10-29",
+      "type": "NEW_IR",
+      "team": "MIN",
+      "player": "Jared Spurgeon",
+      "player_key": "jared spurgeon",
+      "detected_at": "2026-10-29T17:33:53Z"
+    },
     {
       "id": "ACTIVE_ADDED:MIN:carson lambos:2026-10-29",
       "type": "ACTIVE_ADDED",
