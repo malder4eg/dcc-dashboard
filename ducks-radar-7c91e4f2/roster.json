@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-29 20:33 МСК",
+  "updated": "2026-10-29 21:28 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "17:33:53 10/29/2026",
+  "report_updated": "18:28:12 10/29/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 717,
-  "ir_count": 77,
+  "active_count": 718,
+  "ir_count": 75,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -1108,12 +1108,6 @@
           "position": "D"
         },
         {
-          "sweater": 7,
-          "name": "CARSON SOUCY",
-          "name_key": "carson soucy",
-          "position": "D"
-        },
-        {
           "sweater": 8,
           "name": "ZACH WERENSKI",
           "name_key": "zach werenski",
@@ -2050,6 +2044,12 @@
           "sweater": 3,
           "name": "OLLI MAATTA",
           "name_key": "olli maatta",
+          "position": "D"
+        },
+        {
+          "sweater": 5,
+          "name": "CAMERON CROTTY",
+          "name_key": "cameron crotty",
           "position": "D"
         },
         {
@@ -2990,12 +2990,6 @@
           "position": "D"
         },
         {
-          "sweater": 5,
-          "name": "CAMERON CROTTY",
-          "name_key": "cameron crotty",
-          "position": "D"
-        },
-        {
           "sweater": 10,
           "name": "JORDAN SPENCE",
           "name_key": "jordan spence",
@@ -3388,6 +3382,12 @@
           "position": "C"
         },
         {
+          "sweater": 49,
+          "name": "SAMUEL GIRARD",
+          "name_key": "samuel girard",
+          "position": "D"
+        },
+        {
           "sweater": 58,
           "name": "KRIS LETANG",
           "name_key": "kris letang",
@@ -3430,6 +3430,12 @@
           "position": "D"
         },
         {
+          "sweater": 81,
+          "name": "BEN KINDEL",
+          "name_key": "ben kindel",
+          "position": "C"
+        },
+        {
           "sweater": 87,
           "name": "SIDNEY CROSBY",
           "name_key": "sidney crosby",
@@ -3459,25 +3465,11 @@
           "ir_date": "2026-09-27"
         },
         {
-          "sweater": 49,
-          "name": "SAMUEL GIRARD",
-          "name_key": "samuel girard",
-          "position": "D",
-          "ir_date": "2026-10-24"
-        },
-        {
           "sweater": 57,
           "name": "TREVOR VAN RIEMSDYK",
           "name_key": "trevor van riemsdyk",
           "position": "D",
           "ir_date": "2026-10-12"
-        },
-        {
-          "sweater": 81,
-          "name": "BEN KINDEL",
-          "name_key": "ben kindel",
-          "position": "C",
-          "ir_date": "2026-10-22"
         }
       ]
     },
@@ -5070,6 +5062,46 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_REMOVED:CBJ:carson soucy:2026-10-29",
+      "type": "ACTIVE_REMOVED",
+      "team": "CBJ",
+      "player": "Carson Soucy",
+      "player_key": "carson soucy",
+      "detected_at": "2026-10-29T18:28:12Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:MIN:cameron crotty:2026-10-29",
+      "type": "ACTIVE_ADDED",
+      "team": "MIN",
+      "player": "Cameron Crotty",
+      "player_key": "cameron crotty",
+      "detected_at": "2026-10-29T18:28:12Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:OTT:cameron crotty:2026-10-29",
+      "type": "ACTIVE_REMOVED",
+      "team": "OTT",
+      "player": "Cameron Crotty",
+      "player_key": "cameron crotty",
+      "detected_at": "2026-10-29T18:28:12Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:PIT:ben kindel:2026-10-29",
+      "type": "RETURNED_FROM_IR",
+      "team": "PIT",
+      "player": "Ben Kindel",
+      "player_key": "ben kindel",
+      "detected_at": "2026-10-29T18:28:12Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:PIT:samuel girard:2026-10-29",
+      "type": "RETURNED_FROM_IR",
+      "team": "PIT",
+      "player": "Samuel Girard",
+      "player_key": "samuel girard",
+      "detected_at": "2026-10-29T18:28:12Z"
+    },
     {
       "id": "ACTIVE_ADDED:LAK:martin chromiak:2026-10-29",
       "type": "ACTIVE_ADDED",

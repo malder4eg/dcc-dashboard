@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-29 20:33 МСК",
-  "generated_at": "2026-10-29T17:33:53Z",
+  "updated": "2026-10-29 21:28 МСК",
+  "generated_at": "2026-10-29T18:28:12Z",
   "source": {
     "nhl_stats": "https://api.nhle.com/stats/rest/en/",
     "nhl_game_status": "https://api-web.nhle.com/v1/",
@@ -146,6 +146,22 @@
       "role_outlook": "Повышенный TOI держится минимум два завершённых матча подряд.",
       "team_context": [
         {
+          "id": "RETURNED_FROM_IR:PIT:ben kindel:2026-10-29",
+          "type": "RETURNED_FROM_IR",
+          "team": "PIT",
+          "player": "Ben Kindel",
+          "player_key": "ben kindel",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:PIT:samuel girard:2026-10-29",
+          "type": "RETURNED_FROM_IR",
+          "team": "PIT",
+          "player": "Samuel Girard",
+          "player_key": "samuel girard",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
           "id": "NEW_IR:PIT:elmer soderblom:2026-10-28",
           "type": "NEW_IR",
           "team": "PIT",
@@ -176,22 +192,6 @@
           "player": "Chase Pietila",
           "player_key": "chase pietila",
           "detected_at": "2026-10-28T20:26:16Z"
-        },
-        {
-          "id": "NEW_IR:PIT:samuel girard:2026-10-27",
-          "type": "NEW_IR",
-          "team": "PIT",
-          "player": "Samuel Girard",
-          "player_key": "samuel girard",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:PIT:avery hayes:2026-10-27",
-          "type": "ACTIVE_ADDED",
-          "team": "PIT",
-          "player": "Avery Hayes",
-          "player_key": "avery hayes",
-          "detected_at": "2026-10-27T18:54:20Z"
         }
       ],
       "latest_final_game_date": "2026-10-24",
@@ -1152,7 +1152,16 @@
       "baseline_games": 3,
       "recent_games": 2,
       "role_outlook": "Повышенный TOI держится минимум два завершённых матча подряд.",
-      "team_context": [],
+      "team_context": [
+        {
+          "id": "ACTIVE_REMOVED:OTT:cameron crotty:2026-10-29",
+          "type": "ACTIVE_REMOVED",
+          "team": "OTT",
+          "player": "Cameron Crotty",
+          "player_key": "cameron crotty",
+          "detected_at": "2026-10-29T18:28:12Z"
+        }
+      ],
       "latest_final_game_date": "2026-10-27",
       "latest_final_game_id": 2026020196
     },
@@ -5013,6 +5022,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:MIN:cameron crotty:2026-10-29",
+          "type": "ACTIVE_ADDED",
+          "team": "MIN",
+          "player": "Cameron Crotty",
+          "player_key": "cameron crotty",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
           "id": "NEW_IR:MIN:jared spurgeon:2026-10-29",
           "type": "NEW_IR",
           "team": "MIN",
@@ -5051,14 +5068,6 @@
           "player": "Rieger Lorenz",
           "player_key": "rieger lorenz",
           "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:MIN:jared spurgeon:2026-10-22",
-          "type": "RETURNED_FROM_IR",
-          "team": "MIN",
-          "player": "Jared Spurgeon",
-          "player_key": "jared spurgeon",
-          "detected_at": "2026-10-22T19:23:12Z"
         }
       ],
       "latest_final_game_date": "2026-10-27",
@@ -5180,6 +5189,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:MIN:cameron crotty:2026-10-29",
+          "type": "ACTIVE_ADDED",
+          "team": "MIN",
+          "player": "Cameron Crotty",
+          "player_key": "cameron crotty",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
           "id": "NEW_IR:MIN:jared spurgeon:2026-10-29",
           "type": "NEW_IR",
           "team": "MIN",
@@ -5218,14 +5235,6 @@
           "player": "Rieger Lorenz",
           "player_key": "rieger lorenz",
           "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:MIN:jared spurgeon:2026-10-22",
-          "type": "RETURNED_FROM_IR",
-          "team": "MIN",
-          "player": "Jared Spurgeon",
-          "player_key": "jared spurgeon",
-          "detected_at": "2026-10-22T19:23:12Z"
         }
       ],
       "latest_final_game_date": "2026-10-27",
@@ -6998,6 +7007,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "RETURNED_FROM_IR:PIT:ben kindel:2026-10-29",
+          "type": "RETURNED_FROM_IR",
+          "team": "PIT",
+          "player": "Ben Kindel",
+          "player_key": "ben kindel",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:PIT:samuel girard:2026-10-29",
+          "type": "RETURNED_FROM_IR",
+          "team": "PIT",
+          "player": "Samuel Girard",
+          "player_key": "samuel girard",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
           "id": "NEW_IR:PIT:elmer soderblom:2026-10-28",
           "type": "NEW_IR",
           "team": "PIT",
@@ -7028,22 +7053,6 @@
           "player": "Chase Pietila",
           "player_key": "chase pietila",
           "detected_at": "2026-10-28T20:26:16Z"
-        },
-        {
-          "id": "NEW_IR:PIT:samuel girard:2026-10-27",
-          "type": "NEW_IR",
-          "team": "PIT",
-          "player": "Samuel Girard",
-          "player_key": "samuel girard",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:PIT:avery hayes:2026-10-27",
-          "type": "ACTIVE_ADDED",
-          "team": "PIT",
-          "player": "Avery Hayes",
-          "player_key": "avery hayes",
-          "detected_at": "2026-10-27T18:54:20Z"
         }
       ],
       "latest_final_game_date": "2026-10-24",
@@ -7410,6 +7419,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "RETURNED_FROM_IR:PIT:ben kindel:2026-10-29",
+          "type": "RETURNED_FROM_IR",
+          "team": "PIT",
+          "player": "Ben Kindel",
+          "player_key": "ben kindel",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:PIT:samuel girard:2026-10-29",
+          "type": "RETURNED_FROM_IR",
+          "team": "PIT",
+          "player": "Samuel Girard",
+          "player_key": "samuel girard",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
           "id": "NEW_IR:PIT:elmer soderblom:2026-10-28",
           "type": "NEW_IR",
           "team": "PIT",
@@ -7440,22 +7465,6 @@
           "player": "Chase Pietila",
           "player_key": "chase pietila",
           "detected_at": "2026-10-28T20:26:16Z"
-        },
-        {
-          "id": "NEW_IR:PIT:samuel girard:2026-10-27",
-          "type": "NEW_IR",
-          "team": "PIT",
-          "player": "Samuel Girard",
-          "player_key": "samuel girard",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:PIT:avery hayes:2026-10-27",
-          "type": "ACTIVE_ADDED",
-          "team": "PIT",
-          "player": "Avery Hayes",
-          "player_key": "avery hayes",
-          "detected_at": "2026-10-27T18:54:20Z"
         }
       ],
       "latest_final_game_date": "2026-10-24",
@@ -7712,6 +7721,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "RETURNED_FROM_IR:PIT:ben kindel:2026-10-29",
+          "type": "RETURNED_FROM_IR",
+          "team": "PIT",
+          "player": "Ben Kindel",
+          "player_key": "ben kindel",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:PIT:samuel girard:2026-10-29",
+          "type": "RETURNED_FROM_IR",
+          "team": "PIT",
+          "player": "Samuel Girard",
+          "player_key": "samuel girard",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
           "id": "NEW_IR:PIT:elmer soderblom:2026-10-28",
           "type": "NEW_IR",
           "team": "PIT",
@@ -7742,22 +7767,6 @@
           "player": "Chase Pietila",
           "player_key": "chase pietila",
           "detected_at": "2026-10-28T20:26:16Z"
-        },
-        {
-          "id": "NEW_IR:PIT:samuel girard:2026-10-27",
-          "type": "NEW_IR",
-          "team": "PIT",
-          "player": "Samuel Girard",
-          "player_key": "samuel girard",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:PIT:avery hayes:2026-10-27",
-          "type": "ACTIVE_ADDED",
-          "team": "PIT",
-          "player": "Avery Hayes",
-          "player_key": "avery hayes",
-          "detected_at": "2026-10-27T18:54:20Z"
         }
       ],
       "latest_final_game_date": "2026-10-24",
@@ -9345,7 +9354,16 @@
       "baseline_games": 5,
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [],
+      "team_context": [
+        {
+          "id": "ACTIVE_REMOVED:OTT:cameron crotty:2026-10-29",
+          "type": "ACTIVE_REMOVED",
+          "team": "OTT",
+          "player": "Cameron Crotty",
+          "player_key": "cameron crotty",
+          "detected_at": "2026-10-29T18:28:12Z"
+        }
+      ],
       "latest_final_game_date": "2026-10-27",
       "latest_final_game_id": 2026020196
     },
@@ -9876,6 +9894,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:MIN:cameron crotty:2026-10-29",
+          "type": "ACTIVE_ADDED",
+          "team": "MIN",
+          "player": "Cameron Crotty",
+          "player_key": "cameron crotty",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
           "id": "NEW_IR:MIN:jared spurgeon:2026-10-29",
           "type": "NEW_IR",
           "team": "MIN",
@@ -9914,14 +9940,6 @@
           "player": "Rieger Lorenz",
           "player_key": "rieger lorenz",
           "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:MIN:jared spurgeon:2026-10-22",
-          "type": "RETURNED_FROM_IR",
-          "team": "MIN",
-          "player": "Jared Spurgeon",
-          "player_key": "jared spurgeon",
-          "detected_at": "2026-10-22T19:23:12Z"
         }
       ],
       "latest_final_game_date": "2026-10-27",
@@ -10038,6 +10056,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:MIN:cameron crotty:2026-10-29",
+          "type": "ACTIVE_ADDED",
+          "team": "MIN",
+          "player": "Cameron Crotty",
+          "player_key": "cameron crotty",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
           "id": "NEW_IR:MIN:jared spurgeon:2026-10-29",
           "type": "NEW_IR",
           "team": "MIN",
@@ -10076,14 +10102,6 @@
           "player": "Rieger Lorenz",
           "player_key": "rieger lorenz",
           "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:MIN:jared spurgeon:2026-10-22",
-          "type": "RETURNED_FROM_IR",
-          "team": "MIN",
-          "player": "Jared Spurgeon",
-          "player_key": "jared spurgeon",
-          "detected_at": "2026-10-22T19:23:12Z"
         }
       ],
       "latest_final_game_date": "2026-10-27",
@@ -10350,6 +10368,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:MIN:cameron crotty:2026-10-29",
+          "type": "ACTIVE_ADDED",
+          "team": "MIN",
+          "player": "Cameron Crotty",
+          "player_key": "cameron crotty",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
           "id": "NEW_IR:MIN:jared spurgeon:2026-10-29",
           "type": "NEW_IR",
           "team": "MIN",
@@ -10388,14 +10414,6 @@
           "player": "Rieger Lorenz",
           "player_key": "rieger lorenz",
           "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:MIN:jared spurgeon:2026-10-22",
-          "type": "RETURNED_FROM_IR",
-          "team": "MIN",
-          "player": "Jared Spurgeon",
-          "player_key": "jared spurgeon",
-          "detected_at": "2026-10-22T19:23:12Z"
         }
       ],
       "latest_final_game_date": "2026-10-27",
@@ -11548,6 +11566,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "RETURNED_FROM_IR:PIT:ben kindel:2026-10-29",
+          "type": "RETURNED_FROM_IR",
+          "team": "PIT",
+          "player": "Ben Kindel",
+          "player_key": "ben kindel",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:PIT:samuel girard:2026-10-29",
+          "type": "RETURNED_FROM_IR",
+          "team": "PIT",
+          "player": "Samuel Girard",
+          "player_key": "samuel girard",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
           "id": "NEW_IR:PIT:elmer soderblom:2026-10-28",
           "type": "NEW_IR",
           "team": "PIT",
@@ -11578,22 +11612,6 @@
           "player": "Chase Pietila",
           "player_key": "chase pietila",
           "detected_at": "2026-10-28T20:26:16Z"
-        },
-        {
-          "id": "NEW_IR:PIT:samuel girard:2026-10-27",
-          "type": "NEW_IR",
-          "team": "PIT",
-          "player": "Samuel Girard",
-          "player_key": "samuel girard",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:PIT:avery hayes:2026-10-27",
-          "type": "ACTIVE_ADDED",
-          "team": "PIT",
-          "player": "Avery Hayes",
-          "player_key": "avery hayes",
-          "detected_at": "2026-10-27T18:54:20Z"
         }
       ],
       "latest_final_game_date": "2026-10-24",
@@ -12817,6 +12835,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_REMOVED:CBJ:carson soucy:2026-10-29",
+          "type": "ACTIVE_REMOVED",
+          "team": "CBJ",
+          "player": "Carson Soucy",
+          "player_key": "carson soucy",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
           "id": "RETURNED_FROM_IR:CBJ:dante fabbro:2026-10-27",
           "type": "RETURNED_FROM_IR",
           "team": "CBJ",
@@ -12938,6 +12964,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_REMOVED:CBJ:carson soucy:2026-10-29",
+          "type": "ACTIVE_REMOVED",
+          "team": "CBJ",
+          "player": "Carson Soucy",
+          "player_key": "carson soucy",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
           "id": "RETURNED_FROM_IR:CBJ:dante fabbro:2026-10-27",
           "type": "RETURNED_FROM_IR",
           "team": "CBJ",
@@ -13058,7 +13092,16 @@
       "baseline_games": 5,
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [],
+      "team_context": [
+        {
+          "id": "ACTIVE_REMOVED:OTT:cameron crotty:2026-10-29",
+          "type": "ACTIVE_REMOVED",
+          "team": "OTT",
+          "player": "Cameron Crotty",
+          "player_key": "cameron crotty",
+          "detected_at": "2026-10-29T18:28:12Z"
+        }
+      ],
       "latest_final_game_date": "2026-10-27",
       "latest_final_game_id": 2026020196
     },
@@ -14604,7 +14647,16 @@
       "baseline_games": 5,
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [],
+      "team_context": [
+        {
+          "id": "ACTIVE_REMOVED:OTT:cameron crotty:2026-10-29",
+          "type": "ACTIVE_REMOVED",
+          "team": "OTT",
+          "player": "Cameron Crotty",
+          "player_key": "cameron crotty",
+          "detected_at": "2026-10-29T18:28:12Z"
+        }
+      ],
       "latest_final_game_date": "2026-10-27",
       "latest_final_game_id": 2026020196
     },
@@ -19485,6 +19537,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "RETURNED_FROM_IR:PIT:ben kindel:2026-10-29",
+          "type": "RETURNED_FROM_IR",
+          "team": "PIT",
+          "player": "Ben Kindel",
+          "player_key": "ben kindel",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:PIT:samuel girard:2026-10-29",
+          "type": "RETURNED_FROM_IR",
+          "team": "PIT",
+          "player": "Samuel Girard",
+          "player_key": "samuel girard",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
           "id": "NEW_IR:PIT:elmer soderblom:2026-10-28",
           "type": "NEW_IR",
           "team": "PIT",
@@ -19515,22 +19583,6 @@
           "player": "Chase Pietila",
           "player_key": "chase pietila",
           "detected_at": "2026-10-28T20:26:16Z"
-        },
-        {
-          "id": "NEW_IR:PIT:samuel girard:2026-10-27",
-          "type": "NEW_IR",
-          "team": "PIT",
-          "player": "Samuel Girard",
-          "player_key": "samuel girard",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:PIT:avery hayes:2026-10-27",
-          "type": "ACTIVE_ADDED",
-          "team": "PIT",
-          "player": "Avery Hayes",
-          "player_key": "avery hayes",
-          "detected_at": "2026-10-27T18:54:20Z"
         }
       ],
       "latest_final_game_date": "2026-10-24",
@@ -20188,6 +20240,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "RETURNED_FROM_IR:PIT:ben kindel:2026-10-29",
+          "type": "RETURNED_FROM_IR",
+          "team": "PIT",
+          "player": "Ben Kindel",
+          "player_key": "ben kindel",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:PIT:samuel girard:2026-10-29",
+          "type": "RETURNED_FROM_IR",
+          "team": "PIT",
+          "player": "Samuel Girard",
+          "player_key": "samuel girard",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
           "id": "NEW_IR:PIT:elmer soderblom:2026-10-28",
           "type": "NEW_IR",
           "team": "PIT",
@@ -20218,22 +20286,6 @@
           "player": "Chase Pietila",
           "player_key": "chase pietila",
           "detected_at": "2026-10-28T20:26:16Z"
-        },
-        {
-          "id": "NEW_IR:PIT:samuel girard:2026-10-27",
-          "type": "NEW_IR",
-          "team": "PIT",
-          "player": "Samuel Girard",
-          "player_key": "samuel girard",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:PIT:avery hayes:2026-10-27",
-          "type": "ACTIVE_ADDED",
-          "team": "PIT",
-          "player": "Avery Hayes",
-          "player_key": "avery hayes",
-          "detected_at": "2026-10-27T18:54:20Z"
         }
       ],
       "latest_final_game_date": "2026-10-09",
@@ -20746,6 +20798,14 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "ACTIVE_REMOVED:CBJ:carson soucy:2026-10-29",
+          "type": "ACTIVE_REMOVED",
+          "team": "CBJ",
+          "player": "Carson Soucy",
+          "player_key": "carson soucy",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
         {
           "id": "RETURNED_FROM_IR:CBJ:dante fabbro:2026-10-27",
           "type": "RETURNED_FROM_IR",
@@ -23094,6 +23154,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_REMOVED:CBJ:carson soucy:2026-10-29",
+          "type": "ACTIVE_REMOVED",
+          "team": "CBJ",
+          "player": "Carson Soucy",
+          "player_key": "carson soucy",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
           "id": "RETURNED_FROM_IR:CBJ:dante fabbro:2026-10-27",
           "type": "RETURNED_FROM_IR",
           "team": "CBJ",
@@ -24794,7 +24862,7 @@
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
       "percent_owned": 7.93,
-      "nhl_roster_status": "IR",
+      "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
       "recommendation": "TRACK ONLY",
@@ -24887,6 +24955,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "RETURNED_FROM_IR:PIT:ben kindel:2026-10-29",
+          "type": "RETURNED_FROM_IR",
+          "team": "PIT",
+          "player": "Ben Kindel",
+          "player_key": "ben kindel",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:PIT:samuel girard:2026-10-29",
+          "type": "RETURNED_FROM_IR",
+          "team": "PIT",
+          "player": "Samuel Girard",
+          "player_key": "samuel girard",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
           "id": "NEW_IR:PIT:elmer soderblom:2026-10-28",
           "type": "NEW_IR",
           "team": "PIT",
@@ -24917,22 +25001,6 @@
           "player": "Chase Pietila",
           "player_key": "chase pietila",
           "detected_at": "2026-10-28T20:26:16Z"
-        },
-        {
-          "id": "NEW_IR:PIT:samuel girard:2026-10-27",
-          "type": "NEW_IR",
-          "team": "PIT",
-          "player": "Samuel Girard",
-          "player_key": "samuel girard",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:PIT:avery hayes:2026-10-27",
-          "type": "ACTIVE_ADDED",
-          "team": "PIT",
-          "player": "Avery Hayes",
-          "player_key": "avery hayes",
-          "detected_at": "2026-10-27T18:54:20Z"
         }
       ],
       "latest_final_game_date": "2026-10-19",
@@ -25040,6 +25108,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:MIN:cameron crotty:2026-10-29",
+          "type": "ACTIVE_ADDED",
+          "team": "MIN",
+          "player": "Cameron Crotty",
+          "player_key": "cameron crotty",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
           "id": "NEW_IR:MIN:jared spurgeon:2026-10-29",
           "type": "NEW_IR",
           "team": "MIN",
@@ -25078,14 +25154,6 @@
           "player": "Rieger Lorenz",
           "player_key": "rieger lorenz",
           "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:MIN:jared spurgeon:2026-10-22",
-          "type": "RETURNED_FROM_IR",
-          "team": "MIN",
-          "player": "Jared Spurgeon",
-          "player_key": "jared spurgeon",
-          "detected_at": "2026-10-22T19:23:12Z"
         }
       ],
       "latest_final_game_date": "2026-10-27",
@@ -26150,6 +26218,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "RETURNED_FROM_IR:PIT:ben kindel:2026-10-29",
+          "type": "RETURNED_FROM_IR",
+          "team": "PIT",
+          "player": "Ben Kindel",
+          "player_key": "ben kindel",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:PIT:samuel girard:2026-10-29",
+          "type": "RETURNED_FROM_IR",
+          "team": "PIT",
+          "player": "Samuel Girard",
+          "player_key": "samuel girard",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
           "id": "NEW_IR:PIT:elmer soderblom:2026-10-28",
           "type": "NEW_IR",
           "team": "PIT",
@@ -26180,22 +26264,6 @@
           "player": "Chase Pietila",
           "player_key": "chase pietila",
           "detected_at": "2026-10-28T20:26:16Z"
-        },
-        {
-          "id": "NEW_IR:PIT:samuel girard:2026-10-27",
-          "type": "NEW_IR",
-          "team": "PIT",
-          "player": "Samuel Girard",
-          "player_key": "samuel girard",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:PIT:avery hayes:2026-10-27",
-          "type": "ACTIVE_ADDED",
-          "team": "PIT",
-          "player": "Avery Hayes",
-          "player_key": "avery hayes",
-          "detected_at": "2026-10-27T18:54:20Z"
         }
       ],
       "latest_final_game_date": "2026-10-24",
@@ -26457,6 +26525,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "RETURNED_FROM_IR:PIT:ben kindel:2026-10-29",
+          "type": "RETURNED_FROM_IR",
+          "team": "PIT",
+          "player": "Ben Kindel",
+          "player_key": "ben kindel",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:PIT:samuel girard:2026-10-29",
+          "type": "RETURNED_FROM_IR",
+          "team": "PIT",
+          "player": "Samuel Girard",
+          "player_key": "samuel girard",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
           "id": "NEW_IR:PIT:elmer soderblom:2026-10-28",
           "type": "NEW_IR",
           "team": "PIT",
@@ -26487,22 +26571,6 @@
           "player": "Chase Pietila",
           "player_key": "chase pietila",
           "detected_at": "2026-10-28T20:26:16Z"
-        },
-        {
-          "id": "NEW_IR:PIT:samuel girard:2026-10-27",
-          "type": "NEW_IR",
-          "team": "PIT",
-          "player": "Samuel Girard",
-          "player_key": "samuel girard",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:PIT:avery hayes:2026-10-27",
-          "type": "ACTIVE_ADDED",
-          "team": "PIT",
-          "player": "Avery Hayes",
-          "player_key": "avery hayes",
-          "detected_at": "2026-10-27T18:54:20Z"
         }
       ],
       "latest_final_game_date": "2026-10-24",
@@ -26892,7 +26960,16 @@
       "baseline_games": 5,
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [],
+      "team_context": [
+        {
+          "id": "ACTIVE_REMOVED:OTT:cameron crotty:2026-10-29",
+          "type": "ACTIVE_REMOVED",
+          "team": "OTT",
+          "player": "Cameron Crotty",
+          "player_key": "cameron crotty",
+          "detected_at": "2026-10-29T18:28:12Z"
+        }
+      ],
       "latest_final_game_date": "2026-10-27",
       "latest_final_game_id": 2026020196
     },
@@ -29341,6 +29418,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:MIN:cameron crotty:2026-10-29",
+          "type": "ACTIVE_ADDED",
+          "team": "MIN",
+          "player": "Cameron Crotty",
+          "player_key": "cameron crotty",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
           "id": "NEW_IR:MIN:jared spurgeon:2026-10-29",
           "type": "NEW_IR",
           "team": "MIN",
@@ -29379,14 +29464,6 @@
           "player": "Rieger Lorenz",
           "player_key": "rieger lorenz",
           "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:MIN:jared spurgeon:2026-10-22",
-          "type": "RETURNED_FROM_IR",
-          "team": "MIN",
-          "player": "Jared Spurgeon",
-          "player_key": "jared spurgeon",
-          "detected_at": "2026-10-22T19:23:12Z"
         }
       ],
       "latest_final_game_date": "2026-10-27",
@@ -29598,6 +29675,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:MIN:cameron crotty:2026-10-29",
+          "type": "ACTIVE_ADDED",
+          "team": "MIN",
+          "player": "Cameron Crotty",
+          "player_key": "cameron crotty",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
           "id": "NEW_IR:MIN:jared spurgeon:2026-10-29",
           "type": "NEW_IR",
           "team": "MIN",
@@ -29636,14 +29721,6 @@
           "player": "Rieger Lorenz",
           "player_key": "rieger lorenz",
           "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:MIN:jared spurgeon:2026-10-22",
-          "type": "RETURNED_FROM_IR",
-          "team": "MIN",
-          "player": "Jared Spurgeon",
-          "player_key": "jared spurgeon",
-          "detected_at": "2026-10-22T19:23:12Z"
         }
       ],
       "latest_final_game_date": "2026-10-27",
@@ -30580,7 +30657,16 @@
       "baseline_games": 5,
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [],
+      "team_context": [
+        {
+          "id": "ACTIVE_REMOVED:OTT:cameron crotty:2026-10-29",
+          "type": "ACTIVE_REMOVED",
+          "team": "OTT",
+          "player": "Cameron Crotty",
+          "player_key": "cameron crotty",
+          "detected_at": "2026-10-29T18:28:12Z"
+        }
+      ],
       "latest_final_game_date": "2026-10-27",
       "latest_final_game_id": 2026020196
     },
@@ -31084,7 +31170,7 @@
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
       "percent_owned": 4.45,
-      "nhl_roster_status": "IR",
+      "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
       "recommendation": "TRACK ONLY",
@@ -31177,6 +31263,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "RETURNED_FROM_IR:PIT:ben kindel:2026-10-29",
+          "type": "RETURNED_FROM_IR",
+          "team": "PIT",
+          "player": "Ben Kindel",
+          "player_key": "ben kindel",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:PIT:samuel girard:2026-10-29",
+          "type": "RETURNED_FROM_IR",
+          "team": "PIT",
+          "player": "Samuel Girard",
+          "player_key": "samuel girard",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
           "id": "NEW_IR:PIT:elmer soderblom:2026-10-28",
           "type": "NEW_IR",
           "team": "PIT",
@@ -31207,22 +31309,6 @@
           "player": "Chase Pietila",
           "player_key": "chase pietila",
           "detected_at": "2026-10-28T20:26:16Z"
-        },
-        {
-          "id": "NEW_IR:PIT:samuel girard:2026-10-27",
-          "type": "NEW_IR",
-          "team": "PIT",
-          "player": "Samuel Girard",
-          "player_key": "samuel girard",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:PIT:avery hayes:2026-10-27",
-          "type": "ACTIVE_ADDED",
-          "team": "PIT",
-          "player": "Avery Hayes",
-          "player_key": "avery hayes",
-          "detected_at": "2026-10-27T18:54:20Z"
         }
       ],
       "latest_final_game_date": "2026-10-17",
@@ -32101,7 +32187,16 @@
       "baseline_games": 5,
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [],
+      "team_context": [
+        {
+          "id": "ACTIVE_REMOVED:OTT:cameron crotty:2026-10-29",
+          "type": "ACTIVE_REMOVED",
+          "team": "OTT",
+          "player": "Cameron Crotty",
+          "player_key": "cameron crotty",
+          "detected_at": "2026-10-29T18:28:12Z"
+        }
+      ],
       "latest_final_game_date": "2026-10-27",
       "latest_final_game_id": 2026020196
     },
@@ -32328,6 +32423,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:MIN:cameron crotty:2026-10-29",
+          "type": "ACTIVE_ADDED",
+          "team": "MIN",
+          "player": "Cameron Crotty",
+          "player_key": "cameron crotty",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
           "id": "NEW_IR:MIN:jared spurgeon:2026-10-29",
           "type": "NEW_IR",
           "team": "MIN",
@@ -32366,14 +32469,6 @@
           "player": "Rieger Lorenz",
           "player_key": "rieger lorenz",
           "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:MIN:jared spurgeon:2026-10-22",
-          "type": "RETURNED_FROM_IR",
-          "team": "MIN",
-          "player": "Jared Spurgeon",
-          "player_key": "jared spurgeon",
-          "detected_at": "2026-10-22T19:23:12Z"
         }
       ],
       "latest_final_game_date": "2026-10-27",
@@ -32733,6 +32828,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "RETURNED_FROM_IR:PIT:ben kindel:2026-10-29",
+          "type": "RETURNED_FROM_IR",
+          "team": "PIT",
+          "player": "Ben Kindel",
+          "player_key": "ben kindel",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:PIT:samuel girard:2026-10-29",
+          "type": "RETURNED_FROM_IR",
+          "team": "PIT",
+          "player": "Samuel Girard",
+          "player_key": "samuel girard",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
           "id": "NEW_IR:PIT:elmer soderblom:2026-10-28",
           "type": "NEW_IR",
           "team": "PIT",
@@ -32763,22 +32874,6 @@
           "player": "Chase Pietila",
           "player_key": "chase pietila",
           "detected_at": "2026-10-28T20:26:16Z"
-        },
-        {
-          "id": "NEW_IR:PIT:samuel girard:2026-10-27",
-          "type": "NEW_IR",
-          "team": "PIT",
-          "player": "Samuel Girard",
-          "player_key": "samuel girard",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:PIT:avery hayes:2026-10-27",
-          "type": "ACTIVE_ADDED",
-          "team": "PIT",
-          "player": "Avery Hayes",
-          "player_key": "avery hayes",
-          "detected_at": "2026-10-27T18:54:20Z"
         }
       ],
       "latest_final_game_date": "2026-10-24",
@@ -33678,6 +33773,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_REMOVED:CBJ:carson soucy:2026-10-29",
+          "type": "ACTIVE_REMOVED",
+          "team": "CBJ",
+          "player": "Carson Soucy",
+          "player_key": "carson soucy",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
           "id": "RETURNED_FROM_IR:CBJ:dante fabbro:2026-10-27",
           "type": "RETURNED_FROM_IR",
           "team": "CBJ",
@@ -34175,6 +34278,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "RETURNED_FROM_IR:PIT:ben kindel:2026-10-29",
+          "type": "RETURNED_FROM_IR",
+          "team": "PIT",
+          "player": "Ben Kindel",
+          "player_key": "ben kindel",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:PIT:samuel girard:2026-10-29",
+          "type": "RETURNED_FROM_IR",
+          "team": "PIT",
+          "player": "Samuel Girard",
+          "player_key": "samuel girard",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
           "id": "NEW_IR:PIT:elmer soderblom:2026-10-28",
           "type": "NEW_IR",
           "team": "PIT",
@@ -34205,22 +34324,6 @@
           "player": "Chase Pietila",
           "player_key": "chase pietila",
           "detected_at": "2026-10-28T20:26:16Z"
-        },
-        {
-          "id": "NEW_IR:PIT:samuel girard:2026-10-27",
-          "type": "NEW_IR",
-          "team": "PIT",
-          "player": "Samuel Girard",
-          "player_key": "samuel girard",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:PIT:avery hayes:2026-10-27",
-          "type": "ACTIVE_ADDED",
-          "team": "PIT",
-          "player": "Avery Hayes",
-          "player_key": "avery hayes",
-          "detected_at": "2026-10-27T18:54:20Z"
         }
       ],
       "latest_final_game_date": "2026-10-24",
@@ -35588,6 +35691,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "RETURNED_FROM_IR:PIT:ben kindel:2026-10-29",
+          "type": "RETURNED_FROM_IR",
+          "team": "PIT",
+          "player": "Ben Kindel",
+          "player_key": "ben kindel",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:PIT:samuel girard:2026-10-29",
+          "type": "RETURNED_FROM_IR",
+          "team": "PIT",
+          "player": "Samuel Girard",
+          "player_key": "samuel girard",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
           "id": "NEW_IR:PIT:elmer soderblom:2026-10-28",
           "type": "NEW_IR",
           "team": "PIT",
@@ -35618,22 +35737,6 @@
           "player": "Chase Pietila",
           "player_key": "chase pietila",
           "detected_at": "2026-10-28T20:26:16Z"
-        },
-        {
-          "id": "NEW_IR:PIT:samuel girard:2026-10-27",
-          "type": "NEW_IR",
-          "team": "PIT",
-          "player": "Samuel Girard",
-          "player_key": "samuel girard",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:PIT:avery hayes:2026-10-27",
-          "type": "ACTIVE_ADDED",
-          "team": "PIT",
-          "player": "Avery Hayes",
-          "player_key": "avery hayes",
-          "detected_at": "2026-10-27T18:54:20Z"
         }
       ],
       "latest_final_game_date": "2026-10-24",
@@ -37326,6 +37429,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "RETURNED_FROM_IR:PIT:ben kindel:2026-10-29",
+          "type": "RETURNED_FROM_IR",
+          "team": "PIT",
+          "player": "Ben Kindel",
+          "player_key": "ben kindel",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:PIT:samuel girard:2026-10-29",
+          "type": "RETURNED_FROM_IR",
+          "team": "PIT",
+          "player": "Samuel Girard",
+          "player_key": "samuel girard",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
           "id": "NEW_IR:PIT:elmer soderblom:2026-10-28",
           "type": "NEW_IR",
           "team": "PIT",
@@ -37356,22 +37475,6 @@
           "player": "Chase Pietila",
           "player_key": "chase pietila",
           "detected_at": "2026-10-28T20:26:16Z"
-        },
-        {
-          "id": "NEW_IR:PIT:samuel girard:2026-10-27",
-          "type": "NEW_IR",
-          "team": "PIT",
-          "player": "Samuel Girard",
-          "player_key": "samuel girard",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:PIT:avery hayes:2026-10-27",
-          "type": "ACTIVE_ADDED",
-          "team": "PIT",
-          "player": "Avery Hayes",
-          "player_key": "avery hayes",
-          "detected_at": "2026-10-27T18:54:20Z"
         }
       ],
       "latest_final_game_date": "2026-10-19",
@@ -37709,6 +37812,14 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "ACTIVE_REMOVED:CBJ:carson soucy:2026-10-29",
+          "type": "ACTIVE_REMOVED",
+          "team": "CBJ",
+          "player": "Carson Soucy",
+          "player_key": "carson soucy",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
         {
           "id": "RETURNED_FROM_IR:CBJ:dante fabbro:2026-10-27",
           "type": "RETURNED_FROM_IR",
@@ -39456,7 +39567,16 @@
       "baseline_games": 5,
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [],
+      "team_context": [
+        {
+          "id": "ACTIVE_REMOVED:OTT:cameron crotty:2026-10-29",
+          "type": "ACTIVE_REMOVED",
+          "team": "OTT",
+          "player": "Cameron Crotty",
+          "player_key": "cameron crotty",
+          "detected_at": "2026-10-29T18:28:12Z"
+        }
+      ],
       "latest_final_game_date": "2026-10-27",
       "latest_final_game_id": 2026020196
     },
@@ -40284,6 +40404,46 @@
   ],
   "recent_roster_events": [
     {
+      "id": "ACTIVE_REMOVED:CBJ:carson soucy:2026-10-29",
+      "type": "ACTIVE_REMOVED",
+      "team": "CBJ",
+      "player": "Carson Soucy",
+      "player_key": "carson soucy",
+      "detected_at": "2026-10-29T18:28:12Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:MIN:cameron crotty:2026-10-29",
+      "type": "ACTIVE_ADDED",
+      "team": "MIN",
+      "player": "Cameron Crotty",
+      "player_key": "cameron crotty",
+      "detected_at": "2026-10-29T18:28:12Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:OTT:cameron crotty:2026-10-29",
+      "type": "ACTIVE_REMOVED",
+      "team": "OTT",
+      "player": "Cameron Crotty",
+      "player_key": "cameron crotty",
+      "detected_at": "2026-10-29T18:28:12Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:PIT:ben kindel:2026-10-29",
+      "type": "RETURNED_FROM_IR",
+      "team": "PIT",
+      "player": "Ben Kindel",
+      "player_key": "ben kindel",
+      "detected_at": "2026-10-29T18:28:12Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:PIT:samuel girard:2026-10-29",
+      "type": "RETURNED_FROM_IR",
+      "team": "PIT",
+      "player": "Samuel Girard",
+      "player_key": "samuel girard",
+      "detected_at": "2026-10-29T18:28:12Z"
+    },
+    {
       "id": "ACTIVE_ADDED:LAK:martin chromiak:2026-10-29",
       "type": "ACTIVE_ADDED",
       "team": "LAK",
@@ -40641,46 +40801,6 @@
       "team": "MIN",
       "player": "Rieger Lorenz",
       "player_key": "rieger lorenz",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:MTL:florian xhekaj:2026-10-27",
-      "type": "RETURNED_FROM_IR",
-      "team": "MTL",
-      "player": "Florian Xhekaj",
-      "player_key": "florian xhekaj",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:NSH:daemon hunt:2026-10-27",
-      "type": "ACTIVE_ADDED",
-      "team": "NSH",
-      "player": "Daemon Hunt",
-      "player_key": "daemon hunt",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:NSH:jack ahcan:2026-10-27",
-      "type": "ACTIVE_REMOVED",
-      "team": "NSH",
-      "player": "Jack Ahcan",
-      "player_key": "jack ahcan",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:NJD:connor hellebuyck:2026-10-27",
-      "type": "ACTIVE_ADDED",
-      "team": "NJD",
-      "player": "Connor Hellebuyck",
-      "player_key": "connor hellebuyck",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:NJD:dawson mercer:2026-10-27",
-      "type": "ACTIVE_REMOVED",
-      "team": "NJD",
-      "player": "Dawson Mercer",
-      "player_key": "dawson mercer",
       "detected_at": "2026-10-27T18:54:20Z"
     }
   ]
