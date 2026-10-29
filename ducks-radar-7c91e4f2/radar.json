@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-29 05:33 МСК",
-  "generated_at": "2026-10-29T02:33:26Z",
+  "updated": "2026-10-29 06:29 МСК",
+  "generated_at": "2026-10-29T03:29:40Z",
   "source": {
     "nhl_stats": "https://api.nhle.com/stats/rest/en/",
     "nhl_game_status": "https://api-web.nhle.com/v1/",
@@ -9,7 +9,7 @@
     "espn_availability": "analysis.json + players/index.json"
   },
   "complete": true,
-  "latest_final_game_date": "2026-10-27",
+  "latest_final_game_date": "2026-10-28",
   "mapping_coverage": {
     "mapped": 629,
     "unmatched": 99,
@@ -21,13 +21,125 @@
     "note": "Thresholds are screening triggers, not proof of a permanent role change. Line combinations are not inferred from NHL API TOI."
   },
   "counts": {
-    "signals_all": 308,
-    "signals_available": 80,
+    "signals_all": 306,
+    "signals_available": 83,
     "add_candidates": 3,
-    "watch": 77,
-    "new_signals": 0
+    "watch": 80,
+    "new_signals": 10
   },
-  "new_signals": [],
+  "new_signals": [
+    {
+      "nhl_player_id": 8483760,
+      "name": "Hunter McDonald",
+      "nhl_team": "PHI",
+      "espn_status": "FREEAGENT",
+      "recommendation": "WATCH",
+      "score": 55,
+      "new_signal_types": [
+        "TOI_SURGE"
+      ]
+    },
+    {
+      "nhl_player_id": 8478911,
+      "name": "Matt Roy",
+      "nhl_team": "WSH",
+      "espn_status": "ONTEAM",
+      "recommendation": "TRACK ONLY",
+      "score": 45,
+      "new_signal_types": [
+        "PERIPHERAL_UP"
+      ]
+    },
+    {
+      "nhl_player_id": 8477949,
+      "name": "Alex Tuch",
+      "nhl_team": "WSH",
+      "espn_status": "ONTEAM",
+      "recommendation": "TRACK ONLY",
+      "score": 25,
+      "new_signal_types": [
+        "PERIPHERAL_UP",
+        "PRODUCTION_UP"
+      ]
+    },
+    {
+      "nhl_player_id": 8478440,
+      "name": "Dylan Strome",
+      "nhl_team": "WSH",
+      "espn_status": "ONTEAM",
+      "recommendation": "TRACK ONLY",
+      "score": 16,
+      "new_signal_types": [
+        "PPP_UP"
+      ]
+    },
+    {
+      "nhl_player_id": 8478463,
+      "name": "Anthony Beauvillier",
+      "nhl_team": "WSH",
+      "espn_status": "FREEAGENT",
+      "recommendation": "WATCH",
+      "score": 15,
+      "new_signal_types": [
+        "PERIPHERAL_UP"
+      ]
+    },
+    {
+      "nhl_player_id": 8480796,
+      "name": "Martin Fehervary",
+      "nhl_team": "WSH",
+      "espn_status": "ONTEAM",
+      "recommendation": "TRACK ONLY",
+      "score": 15,
+      "new_signal_types": [
+        "PERIPHERAL_UP"
+      ]
+    },
+    {
+      "nhl_player_id": 8484186,
+      "name": "Ryan Leonard",
+      "nhl_team": "WSH",
+      "espn_status": "ONTEAM",
+      "recommendation": "TRACK ONLY",
+      "score": 15,
+      "new_signal_types": [
+        "PERIPHERAL_UP"
+      ]
+    },
+    {
+      "nhl_player_id": 8477989,
+      "name": "Christian Dvorak",
+      "nhl_team": "PHI",
+      "espn_status": "ONTEAM",
+      "recommendation": "TRACK ONLY",
+      "score": 12,
+      "new_signal_types": [
+        "FOW_UP"
+      ]
+    },
+    {
+      "nhl_player_id": 8481030,
+      "name": "Jack St. Ivany",
+      "nhl_team": "WSH",
+      "espn_status": "FREEAGENT",
+      "recommendation": "WATCH",
+      "score": 10,
+      "new_signal_types": [
+        "PRODUCTION_UP"
+      ]
+    },
+    {
+      "nhl_player_id": 8484142,
+      "name": "Denver Barkey",
+      "nhl_team": "PHI",
+      "espn_status": "FREEAGENT",
+      "recommendation": "WATCH",
+      "score": 6,
+      "new_signal_types": [
+        "PPP_UP"
+      ]
+    }
+  ],
   "signals": [
     {
       "nhl_player_id": 8481582,
@@ -616,278 +728,6 @@
       "team_context": [],
       "latest_final_game_date": "2026-10-24",
       "latest_final_game_id": 2026020177
-    },
-    {
-      "nhl_player_id": 8485406,
-      "espn_player_id": 5291941,
-      "name": "Porter Martone",
-      "nhl_team": "PHI",
-      "position": "R",
-      "espn_status": "ONTEAM",
-      "espn_team_id": 15,
-      "percent_owned": 27.12,
-      "nhl_roster_status": "ACTIVE",
-      "score": 86,
-      "reliability": "HIGH",
-      "recommendation": "TRACK ONLY",
-      "categories": [
-        "TOI",
-        "PPP",
-        "HIT",
-        "G",
-        "A",
-        "PTS"
-      ],
-      "signals": [
-        {
-          "type": "TOI_SURGE",
-          "label": "Рост TOI",
-          "strong": true
-        },
-        {
-          "type": "PP_ROLE_UP",
-          "label": "Рост PP TOI",
-          "strong": true
-        },
-        {
-          "type": "PRODUCTION_UP",
-          "label": "Рост результативности",
-          "strong": true
-        },
-        {
-          "type": "PPP_UP",
-          "label": "Рост PPP",
-          "strong": false
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 808.0,
-          "recent": 1014.0,
-          "delta": 206.0,
-          "ratio": 1.255
-        },
-        "ev_toi": {
-          "baseline": 652.4,
-          "recent": 724.5,
-          "delta": 72.1,
-          "ratio": 1.111
-        },
-        "pp_toi": {
-          "baseline": 155.0,
-          "recent": 289.5,
-          "delta": 134.5,
-          "ratio": 1.868
-        },
-        "sh_toi": {
-          "baseline": 0.6,
-          "recent": 0.0,
-          "delta": -0.6,
-          "ratio": 0.0
-        },
-        "sog": {
-          "baseline": 1.8,
-          "recent": 1.5,
-          "delta": -0.3,
-          "ratio": 0.833
-        },
-        "hit": {
-          "baseline": 1.8,
-          "recent": 2.5,
-          "delta": 0.7,
-          "ratio": 1.389
-        },
-        "blk": {
-          "baseline": 0.2,
-          "recent": 0.0,
-          "delta": -0.2,
-          "ratio": 0.0
-        },
-        "fow": {
-          "baseline": 2.0,
-          "recent": 1.0,
-          "delta": -1.0,
-          "ratio": 0.5
-        },
-        "fo": {
-          "baseline": 0.4,
-          "recent": 0.5,
-          "delta": 0.1,
-          "ratio": 1.25
-        },
-        "pts": {
-          "baseline": 0.4,
-          "recent": 1.5,
-          "delta": 1.1,
-          "ratio": 3.75
-        },
-        "ppp": {
-          "baseline": 0.2,
-          "recent": 0.5,
-          "delta": 0.3,
-          "ratio": 2.5
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Повышенный TOI держится минимум два завершённых матча подряд.",
-      "team_context": [
-        {
-          "id": "RETURNED_FROM_IR:PHI:cam york:2026-10-27",
-          "type": "RETURNED_FROM_IR",
-          "team": "PHI",
-          "player": "Cam York",
-          "player_key": "cam york",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:PHI:garrett wilson:2026-10-27",
-          "type": "ACTIVE_REMOVED",
-          "team": "PHI",
-          "player": "Garrett Wilson",
-          "player_key": "garrett wilson",
-          "detected_at": "2026-10-27T18:54:20Z"
-        }
-      ],
-      "latest_final_game_date": "2026-10-27",
-      "latest_final_game_id": 2026020188
-    },
-    {
-      "nhl_player_id": 8484387,
-      "espn_player_id": 5149170,
-      "name": "Matvei Michkov",
-      "nhl_team": "PHI",
-      "position": "R",
-      "espn_status": "ONTEAM",
-      "espn_team_id": 15,
-      "percent_owned": 73.48,
-      "nhl_roster_status": "ACTIVE",
-      "score": 80,
-      "reliability": "HIGH",
-      "recommendation": "TRACK ONLY",
-      "categories": [
-        "TOI",
-        "PPP",
-        "SOG",
-        "G",
-        "A",
-        "PTS"
-      ],
-      "signals": [
-        {
-          "type": "TOI_SURGE",
-          "label": "Рост TOI",
-          "strong": true
-        },
-        {
-          "type": "PP_ROLE_UP",
-          "label": "Рост PP TOI",
-          "strong": true
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 906.8,
-          "recent": 1195.0,
-          "delta": 288.2,
-          "ratio": 1.318
-        },
-        "ev_toi": {
-          "baseline": 731.0,
-          "recent": 919.0,
-          "delta": 188.0,
-          "ratio": 1.257
-        },
-        "pp_toi": {
-          "baseline": 175.8,
-          "recent": 276.0,
-          "delta": 100.2,
-          "ratio": 1.57
-        },
-        "sh_toi": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "sog": {
-          "baseline": 1.6,
-          "recent": 2.0,
-          "delta": 0.4,
-          "ratio": 1.25
-        },
-        "hit": {
-          "baseline": 0.4,
-          "recent": 1.5,
-          "delta": 1.1,
-          "ratio": 3.75
-        },
-        "blk": {
-          "baseline": 0.4,
-          "recent": 0.0,
-          "delta": -0.4,
-          "ratio": 0.0
-        },
-        "fow": {
-          "baseline": 1.0,
-          "recent": 1.0,
-          "delta": 0.0,
-          "ratio": 1.0
-        },
-        "fo": {
-          "baseline": 0.8,
-          "recent": 2.0,
-          "delta": 1.2,
-          "ratio": 2.5
-        },
-        "pts": {
-          "baseline": 1.2,
-          "recent": 1.0,
-          "delta": -0.2,
-          "ratio": 0.833
-        },
-        "ppp": {
-          "baseline": 0.6,
-          "recent": 0.5,
-          "delta": -0.1,
-          "ratio": 0.833
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Повышенный TOI держится минимум два завершённых матча подряд.",
-      "team_context": [
-        {
-          "id": "RETURNED_FROM_IR:PHI:cam york:2026-10-27",
-          "type": "RETURNED_FROM_IR",
-          "team": "PHI",
-          "player": "Cam York",
-          "player_key": "cam york",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:PHI:garrett wilson:2026-10-27",
-          "type": "ACTIVE_REMOVED",
-          "team": "PHI",
-          "player": "Garrett Wilson",
-          "player_key": "garrett wilson",
-          "detected_at": "2026-10-27T18:54:20Z"
-        }
-      ],
-      "latest_final_game_date": "2026-10-27",
-      "latest_final_game_id": 2026020188
     },
     {
       "nhl_player_id": 8485512,
@@ -2039,6 +1879,128 @@
       "team_context": [],
       "latest_final_game_date": "2026-10-27",
       "latest_final_game_id": 2026020198
+    },
+    {
+      "nhl_player_id": 8483760,
+      "espn_player_id": 5103725,
+      "name": "Hunter McDonald",
+      "nhl_team": "PHI",
+      "position": "D",
+      "espn_status": "FREEAGENT",
+      "espn_team_id": 0,
+      "percent_owned": 0.19,
+      "nhl_roster_status": "ACTIVE",
+      "score": 55,
+      "reliability": "MEDIUM",
+      "recommendation": "WATCH",
+      "categories": [
+        "TOI",
+        "HIT"
+      ],
+      "signals": [
+        {
+          "type": "TOI_SURGE",
+          "label": "Рост TOI",
+          "strong": true
+        }
+      ],
+      "metrics": {
+        "toi": {
+          "baseline": 667.33,
+          "recent": 892.0,
+          "delta": 224.67,
+          "ratio": 1.337
+        },
+        "ev_toi": {
+          "baseline": 633.0,
+          "recent": 892.0,
+          "delta": 259.0,
+          "ratio": 1.409
+        },
+        "pp_toi": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "sh_toi": {
+          "baseline": 34.33,
+          "recent": 0.0,
+          "delta": -34.33,
+          "ratio": 0.0
+        },
+        "sog": {
+          "baseline": 0.33,
+          "recent": 1.0,
+          "delta": 0.67,
+          "ratio": 3.0
+        },
+        "hit": {
+          "baseline": 4.0,
+          "recent": 4.5,
+          "delta": 0.5,
+          "ratio": 1.125
+        },
+        "blk": {
+          "baseline": 1.33,
+          "recent": 1.0,
+          "delta": -0.33,
+          "ratio": 0.75
+        },
+        "fow": {
+          "baseline": null,
+          "recent": null,
+          "delta": null,
+          "ratio": null
+        },
+        "fo": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "pts": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "ppp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "shp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        }
+      },
+      "baseline_games": 3,
+      "recent_games": 2,
+      "role_outlook": "Повышенный TOI держится минимум два завершённых матча подряд.",
+      "team_context": [
+        {
+          "id": "RETURNED_FROM_IR:PHI:cam york:2026-10-27",
+          "type": "RETURNED_FROM_IR",
+          "team": "PHI",
+          "player": "Cam York",
+          "player_key": "cam york",
+          "detected_at": "2026-10-27T18:54:20Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:PHI:garrett wilson:2026-10-27",
+          "type": "ACTIVE_REMOVED",
+          "team": "PHI",
+          "player": "Garrett Wilson",
+          "player_key": "garrett wilson",
+          "detected_at": "2026-10-27T18:54:20Z"
+        }
+      ],
+      "latest_final_game_date": "2026-10-28",
+      "latest_final_game_id": 2026020199
     },
     {
       "nhl_player_id": 8475913,
@@ -3813,7 +3775,7 @@
       "percent_owned": 0.46,
       "nhl_roster_status": "ACTIVE",
       "score": 45,
-      "reliability": "LOW",
+      "reliability": "MEDIUM",
       "recommendation": "TRACK ONLY",
       "categories": [
         "TOI",
@@ -3823,21 +3785,26 @@
         {
           "type": "TOI_SURGE",
           "label": "Рост TOI",
-          "strong": true
+          "strong": false
+        },
+        {
+          "type": "PERIPHERAL_UP",
+          "label": "Рост SOG/HIT/BLK",
+          "strong": false
         }
       ],
       "metrics": {
         "toi": {
           "baseline": 1087.0,
-          "recent": 1444.0,
-          "delta": 357.0,
-          "ratio": 1.328
+          "recent": 1340.5,
+          "delta": 253.5,
+          "ratio": 1.233
         },
         "ev_toi": {
           "baseline": 855.0,
-          "recent": 1312.0,
-          "delta": 457.0,
-          "ratio": 1.535
+          "recent": 1203.5,
+          "delta": 348.5,
+          "ratio": 1.408
         },
         "pp_toi": {
           "baseline": 0.0,
@@ -3847,27 +3814,27 @@
         },
         "sh_toi": {
           "baseline": 232.0,
-          "recent": 132.0,
-          "delta": -100.0,
-          "ratio": 0.569
+          "recent": 137.0,
+          "delta": -95.0,
+          "ratio": 0.591
         },
         "sog": {
           "baseline": 0.67,
-          "recent": 0.0,
-          "delta": -0.67,
-          "ratio": 0.0
+          "recent": 0.5,
+          "delta": -0.17,
+          "ratio": 0.75
         },
         "hit": {
           "baseline": 2.33,
-          "recent": 2.0,
-          "delta": -0.33,
-          "ratio": 0.857
+          "recent": 5.5,
+          "delta": 3.17,
+          "ratio": 2.357
         },
         "blk": {
           "baseline": 1.67,
-          "recent": 1.0,
-          "delta": -0.67,
-          "ratio": 0.6
+          "recent": 1.5,
+          "delta": -0.17,
+          "ratio": 0.9
         },
         "fow": {
           "baseline": null,
@@ -3883,8 +3850,8 @@
         },
         "pts": {
           "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
+          "recent": 0.5,
+          "delta": 0.5,
           "ratio": null
         },
         "ppp": {
@@ -3901,8 +3868,8 @@
         }
       },
       "baseline_games": 3,
-      "recent_games": 1,
-      "role_outlook": "Сигнал пока основан на одном завершённом матче; нужна повторная проверка.",
+      "recent_games": 2,
+      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
           "id": "RETURNED_FROM_IR:WSH:logan thompson:2026-10-28",
@@ -3953,8 +3920,8 @@
           "detected_at": "2026-10-27T18:54:20Z"
         }
       ],
-      "latest_final_game_date": "2026-10-24",
-      "latest_final_game_id": 2026020173
+      "latest_final_game_date": "2026-10-28",
+      "latest_final_game_id": 2026020199
     },
     {
       "nhl_player_id": 8484185,
@@ -4691,141 +4658,6 @@
       "latest_final_game_id": 2026020192
     },
     {
-      "nhl_player_id": 8482142,
-      "espn_player_id": 4697387,
-      "name": "Jamie Drysdale",
-      "nhl_team": "PHI",
-      "position": "D",
-      "espn_status": "ONTEAM",
-      "espn_team_id": 15,
-      "percent_owned": 7.68,
-      "nhl_roster_status": "ACTIVE",
-      "score": 41,
-      "reliability": "HIGH",
-      "recommendation": "TRACK ONLY",
-      "categories": [
-        "PPP",
-        "SOG",
-        "G",
-        "A",
-        "PTS"
-      ],
-      "signals": [
-        {
-          "type": "PP_ROLE_UP",
-          "label": "Рост PP TOI",
-          "strong": true
-        },
-        {
-          "type": "PRODUCTION_UP",
-          "label": "Рост результативности",
-          "strong": false
-        },
-        {
-          "type": "PPP_UP",
-          "label": "Рост PPP",
-          "strong": false
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 1378.2,
-          "recent": 1526.0,
-          "delta": 147.8,
-          "ratio": 1.107
-        },
-        "ev_toi": {
-          "baseline": 1116.6,
-          "recent": 1205.0,
-          "delta": 88.4,
-          "ratio": 1.079
-        },
-        "pp_toi": {
-          "baseline": 154.2,
-          "recent": 261.5,
-          "delta": 107.3,
-          "ratio": 1.696
-        },
-        "sh_toi": {
-          "baseline": 107.4,
-          "recent": 59.5,
-          "delta": -47.9,
-          "ratio": 0.554
-        },
-        "sog": {
-          "baseline": 1.8,
-          "recent": 2.0,
-          "delta": 0.2,
-          "ratio": 1.111
-        },
-        "hit": {
-          "baseline": 0.4,
-          "recent": 0.0,
-          "delta": -0.4,
-          "ratio": 0.0
-        },
-        "blk": {
-          "baseline": 1.8,
-          "recent": 0.5,
-          "delta": -1.3,
-          "ratio": 0.278
-        },
-        "fow": {
-          "baseline": null,
-          "recent": null,
-          "delta": null,
-          "ratio": null
-        },
-        "fo": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "pts": {
-          "baseline": 0.2,
-          "recent": 1.0,
-          "delta": 0.8,
-          "ratio": 5.0
-        },
-        "ppp": {
-          "baseline": 0.2,
-          "recent": 0.5,
-          "delta": 0.3,
-          "ratio": 2.5
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "RETURNED_FROM_IR:PHI:cam york:2026-10-27",
-          "type": "RETURNED_FROM_IR",
-          "team": "PHI",
-          "player": "Cam York",
-          "player_key": "cam york",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:PHI:garrett wilson:2026-10-27",
-          "type": "ACTIVE_REMOVED",
-          "team": "PHI",
-          "player": "Garrett Wilson",
-          "player_key": "garrett wilson",
-          "detected_at": "2026-10-27T18:54:20Z"
-        }
-      ],
-      "latest_final_game_date": "2026-10-27",
-      "latest_final_game_id": 2026020188
-    },
-    {
       "nhl_player_id": 8476539,
       "espn_player_id": 2967072,
       "name": "Jonathan Marchessault",
@@ -5548,277 +5380,6 @@
       ],
       "latest_final_game_date": "2026-10-27",
       "latest_final_game_id": 2026020192
-    },
-    {
-      "nhl_player_id": 8477948,
-      "espn_player_id": 3114757,
-      "name": "Travis Sanheim",
-      "nhl_team": "PHI",
-      "position": "D",
-      "espn_status": "ONTEAM",
-      "espn_team_id": 11,
-      "percent_owned": 71.56,
-      "nhl_roster_status": "ACTIVE",
-      "score": 41,
-      "reliability": "HIGH",
-      "recommendation": "TRACK ONLY",
-      "categories": [
-        "PPP",
-        "SOG",
-        "BLK",
-        "G",
-        "A",
-        "PTS"
-      ],
-      "signals": [
-        {
-          "type": "PP_ROLE_UP",
-          "label": "Рост PP TOI",
-          "strong": false
-        },
-        {
-          "type": "PRODUCTION_UP",
-          "label": "Рост результативности",
-          "strong": false
-        },
-        {
-          "type": "PPP_UP",
-          "label": "Рост PPP",
-          "strong": false
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 1647.6,
-          "recent": 1559.0,
-          "delta": -88.6,
-          "ratio": 0.946
-        },
-        "ev_toi": {
-          "baseline": 1391.6,
-          "recent": 1251.5,
-          "delta": -140.1,
-          "ratio": 0.899
-        },
-        "pp_toi": {
-          "baseline": 42.4,
-          "recent": 106.0,
-          "delta": 63.6,
-          "ratio": 2.5
-        },
-        "sh_toi": {
-          "baseline": 213.6,
-          "recent": 201.5,
-          "delta": -12.1,
-          "ratio": 0.943
-        },
-        "sog": {
-          "baseline": 2.0,
-          "recent": 3.0,
-          "delta": 1.0,
-          "ratio": 1.5
-        },
-        "hit": {
-          "baseline": 1.4,
-          "recent": 0.5,
-          "delta": -0.9,
-          "ratio": 0.357
-        },
-        "blk": {
-          "baseline": 2.8,
-          "recent": 2.0,
-          "delta": -0.8,
-          "ratio": 0.714
-        },
-        "fow": {
-          "baseline": null,
-          "recent": null,
-          "delta": null,
-          "ratio": null
-        },
-        "fo": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "pts": {
-          "baseline": 0.2,
-          "recent": 1.0,
-          "delta": 0.8,
-          "ratio": 5.0
-        },
-        "ppp": {
-          "baseline": 0.0,
-          "recent": 0.5,
-          "delta": 0.5,
-          "ratio": null
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "RETURNED_FROM_IR:PHI:cam york:2026-10-27",
-          "type": "RETURNED_FROM_IR",
-          "team": "PHI",
-          "player": "Cam York",
-          "player_key": "cam york",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:PHI:garrett wilson:2026-10-27",
-          "type": "ACTIVE_REMOVED",
-          "team": "PHI",
-          "player": "Garrett Wilson",
-          "player_key": "garrett wilson",
-          "detected_at": "2026-10-27T18:54:20Z"
-        }
-      ],
-      "latest_final_game_date": "2026-10-27",
-      "latest_final_game_id": 2026020188
-    },
-    {
-      "nhl_player_id": 8481533,
-      "espn_player_id": 4565230,
-      "name": "Trevor Zegras",
-      "nhl_team": "PHI",
-      "position": "C",
-      "espn_status": "ONTEAM",
-      "espn_team_id": 9,
-      "percent_owned": 64.47,
-      "nhl_roster_status": "ACTIVE",
-      "score": 41,
-      "reliability": "HIGH",
-      "recommendation": "TRACK ONLY",
-      "categories": [
-        "PPP",
-        "SOG",
-        "G",
-        "A",
-        "PTS"
-      ],
-      "signals": [
-        {
-          "type": "PP_ROLE_UP",
-          "label": "Рост PP TOI",
-          "strong": true
-        },
-        {
-          "type": "PRODUCTION_UP",
-          "label": "Рост результативности",
-          "strong": true
-        },
-        {
-          "type": "PPP_UP",
-          "label": "Рост PPP",
-          "strong": false
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 1119.4,
-          "recent": 1269.5,
-          "delta": 150.1,
-          "ratio": 1.134
-        },
-        "ev_toi": {
-          "baseline": 934.6,
-          "recent": 970.5,
-          "delta": 35.9,
-          "ratio": 1.038
-        },
-        "pp_toi": {
-          "baseline": 179.2,
-          "recent": 299.0,
-          "delta": 119.8,
-          "ratio": 1.669
-        },
-        "sh_toi": {
-          "baseline": 5.6,
-          "recent": 0.0,
-          "delta": -5.6,
-          "ratio": 0.0
-        },
-        "sog": {
-          "baseline": 3.6,
-          "recent": 3.0,
-          "delta": -0.6,
-          "ratio": 0.833
-        },
-        "hit": {
-          "baseline": 0.4,
-          "recent": 0.5,
-          "delta": 0.1,
-          "ratio": 1.25
-        },
-        "blk": {
-          "baseline": 0.8,
-          "recent": 0.5,
-          "delta": -0.3,
-          "ratio": 0.625
-        },
-        "fow": {
-          "baseline": 1.8,
-          "recent": 2.0,
-          "delta": 0.2,
-          "ratio": 1.111
-        },
-        "fo": {
-          "baseline": 3.4,
-          "recent": 5.0,
-          "delta": 1.6,
-          "ratio": 1.471
-        },
-        "pts": {
-          "baseline": 1.2,
-          "recent": 2.0,
-          "delta": 0.8,
-          "ratio": 1.667
-        },
-        "ppp": {
-          "baseline": 0.4,
-          "recent": 1.0,
-          "delta": 0.6,
-          "ratio": 2.5
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "RETURNED_FROM_IR:PHI:cam york:2026-10-27",
-          "type": "RETURNED_FROM_IR",
-          "team": "PHI",
-          "player": "Cam York",
-          "player_key": "cam york",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:PHI:garrett wilson:2026-10-27",
-          "type": "ACTIVE_REMOVED",
-          "team": "PHI",
-          "player": "Garrett Wilson",
-          "player_key": "garrett wilson",
-          "detected_at": "2026-10-27T18:54:20Z"
-        }
-      ],
-      "latest_final_game_date": "2026-10-27",
-      "latest_final_game_id": 2026020188
     },
     {
       "nhl_player_id": 8482149,
@@ -7132,165 +6693,6 @@
       ],
       "latest_final_game_date": "2026-10-24",
       "latest_final_game_id": 2026020172
-    },
-    {
-      "nhl_player_id": 8484873,
-      "espn_player_id": 5216918,
-      "name": "Cole Hutson",
-      "nhl_team": "WSH",
-      "position": "D",
-      "espn_status": "ONTEAM",
-      "espn_team_id": 16,
-      "percent_owned": 45.82,
-      "nhl_roster_status": "ACTIVE",
-      "score": 36,
-      "reliability": "HIGH",
-      "recommendation": "TRACK ONLY",
-      "categories": [
-        "TOI",
-        "HIT"
-      ],
-      "signals": [
-        {
-          "type": "TOI_SURGE",
-          "label": "Рост TOI",
-          "strong": false
-        },
-        {
-          "type": "PPP_UP",
-          "label": "Рост PPP",
-          "strong": false
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 1117.6,
-          "recent": 1328.0,
-          "delta": 210.4,
-          "ratio": 1.188
-        },
-        "ev_toi": {
-          "baseline": 988.6,
-          "recent": 1188.5,
-          "delta": 199.9,
-          "ratio": 1.202
-        },
-        "pp_toi": {
-          "baseline": 129.0,
-          "recent": 137.5,
-          "delta": 8.5,
-          "ratio": 1.066
-        },
-        "sh_toi": {
-          "baseline": 0.0,
-          "recent": 2.0,
-          "delta": 2.0,
-          "ratio": null
-        },
-        "sog": {
-          "baseline": 2.4,
-          "recent": 1.5,
-          "delta": -0.9,
-          "ratio": 0.625
-        },
-        "hit": {
-          "baseline": 1.0,
-          "recent": 2.0,
-          "delta": 1.0,
-          "ratio": 2.0
-        },
-        "blk": {
-          "baseline": 0.4,
-          "recent": 0.0,
-          "delta": -0.4,
-          "ratio": 0.0
-        },
-        "fow": {
-          "baseline": null,
-          "recent": null,
-          "delta": null,
-          "ratio": null
-        },
-        "fo": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "pts": {
-          "baseline": 0.4,
-          "recent": 0.5,
-          "delta": 0.1,
-          "ratio": 1.25
-        },
-        "ppp": {
-          "baseline": 0.0,
-          "recent": 0.5,
-          "delta": 0.5,
-          "ratio": null
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "RETURNED_FROM_IR:WSH:logan thompson:2026-10-28",
-          "type": "RETURNED_FROM_IR",
-          "team": "WSH",
-          "player": "Logan Thompson",
-          "player_key": "logan thompson",
-          "detected_at": "2026-10-28T17:31:45Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:WSH:mitchell gibson:2026-10-28",
-          "type": "ACTIVE_REMOVED",
-          "team": "WSH",
-          "player": "Mitchell Gibson",
-          "player_key": "mitchell gibson",
-          "detected_at": "2026-10-28T17:31:45Z"
-        },
-        {
-          "id": "NEW_IR:WSH:logan thompson:2026-10-27",
-          "type": "NEW_IR",
-          "team": "WSH",
-          "player": "Logan Thompson",
-          "player_key": "logan thompson",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "NEW_IR:WSH:vincent desharnais:2026-10-27",
-          "type": "NEW_IR",
-          "team": "WSH",
-          "player": "Vincent Desharnais",
-          "player_key": "vincent desharnais",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:WSH:pierre luc dubois:2026-10-27",
-          "type": "RETURNED_FROM_IR",
-          "team": "WSH",
-          "player": "Pierre-Luc Dubois",
-          "player_key": "pierre luc dubois",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:WSH:jack st ivany:2026-10-27",
-          "type": "ACTIVE_ADDED",
-          "team": "WSH",
-          "player": "Jack St. Ivany",
-          "player_key": "jack st ivany",
-          "detected_at": "2026-10-27T18:54:20Z"
-        }
-      ],
-      "latest_final_game_date": "2026-10-24",
-      "latest_final_game_id": 2026020173
     },
     {
       "nhl_player_id": 8477496,
@@ -9661,7 +9063,7 @@
         {
           "type": "PERIPHERAL_UP",
           "label": "Рост SOG/HIT/BLK",
-          "strong": true
+          "strong": false
         },
         {
           "type": "PRODUCTION_UP",
@@ -9676,46 +9078,46 @@
       ],
       "metrics": {
         "toi": {
-          "baseline": 1484.0,
-          "recent": 1549.5,
-          "delta": 65.5,
-          "ratio": 1.044
+          "baseline": 1481.0,
+          "recent": 1414.5,
+          "delta": -66.5,
+          "ratio": 0.955
         },
         "ev_toi": {
-          "baseline": 1205.6,
-          "recent": 1258.0,
-          "delta": 52.4,
-          "ratio": 1.043
+          "baseline": 1218.4,
+          "recent": 1106.5,
+          "delta": -111.9,
+          "ratio": 0.908
         },
         "pp_toi": {
-          "baseline": 172.0,
-          "recent": 206.5,
-          "delta": 34.5,
-          "ratio": 1.201
+          "baseline": 169.6,
+          "recent": 180.5,
+          "delta": 10.9,
+          "ratio": 1.064
         },
         "sh_toi": {
-          "baseline": 106.4,
-          "recent": 85.0,
-          "delta": -21.4,
-          "ratio": 0.799
+          "baseline": 93.0,
+          "recent": 127.5,
+          "delta": 34.5,
+          "ratio": 1.371
         },
         "sog": {
-          "baseline": 3.2,
-          "recent": 4.5,
-          "delta": 1.3,
-          "ratio": 1.406
+          "baseline": 3.6,
+          "recent": 2.5,
+          "delta": -1.1,
+          "ratio": 0.694
         },
         "hit": {
           "baseline": 0.2,
-          "recent": 0.5,
-          "delta": 0.3,
-          "ratio": 2.5
+          "recent": 0.0,
+          "delta": -0.2,
+          "ratio": 0.0
         },
         "blk": {
           "baseline": 1.2,
-          "recent": 3.0,
-          "delta": 1.8,
-          "ratio": 2.5
+          "recent": 4.0,
+          "delta": 2.8,
+          "ratio": 3.333
         },
         "fow": {
           "baseline": null,
@@ -9730,16 +9132,16 @@
           "ratio": null
         },
         "pts": {
-          "baseline": 0.2,
+          "baseline": 0.4,
           "recent": 1.5,
-          "delta": 1.3,
-          "ratio": 7.5
+          "delta": 1.1,
+          "ratio": 3.75
         },
         "ppp": {
-          "baseline": 0.2,
+          "baseline": 0.4,
           "recent": 0.5,
-          "delta": 0.3,
-          "ratio": 2.5
+          "delta": 0.1,
+          "ratio": 1.25
         },
         "shp": {
           "baseline": 0.0,
@@ -9801,8 +9203,8 @@
           "detected_at": "2026-10-27T18:54:20Z"
         }
       ],
-      "latest_final_game_date": "2026-10-24",
-      "latest_final_game_id": 2026020173
+      "latest_final_game_date": "2026-10-28",
+      "latest_final_game_id": 2026020199
     },
     {
       "nhl_player_id": 8478493,
@@ -11221,6 +10623,127 @@
       "latest_final_game_id": 2026020193
     },
     {
+      "nhl_player_id": 8484387,
+      "espn_player_id": 5149170,
+      "name": "Matvei Michkov",
+      "nhl_team": "PHI",
+      "position": "R",
+      "espn_status": "ONTEAM",
+      "espn_team_id": 15,
+      "percent_owned": 73.48,
+      "nhl_roster_status": "ACTIVE",
+      "score": 30,
+      "reliability": "HIGH",
+      "recommendation": "TRACK ONLY",
+      "categories": [
+        "TOI"
+      ],
+      "signals": [
+        {
+          "type": "TOI_SURGE",
+          "label": "Рост TOI",
+          "strong": false
+        }
+      ],
+      "metrics": {
+        "toi": {
+          "baseline": 948.6,
+          "recent": 1160.5,
+          "delta": 211.9,
+          "ratio": 1.223
+        },
+        "ev_toi": {
+          "baseline": 728.8,
+          "recent": 905.5,
+          "delta": 176.7,
+          "ratio": 1.242
+        },
+        "pp_toi": {
+          "baseline": 219.8,
+          "recent": 255.0,
+          "delta": 35.2,
+          "ratio": 1.16
+        },
+        "sh_toi": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "sog": {
+          "baseline": 2.2,
+          "recent": 1.0,
+          "delta": -1.2,
+          "ratio": 0.455
+        },
+        "hit": {
+          "baseline": 0.4,
+          "recent": 1.5,
+          "delta": 1.1,
+          "ratio": 3.75
+        },
+        "blk": {
+          "baseline": 0.4,
+          "recent": 0.0,
+          "delta": -0.4,
+          "ratio": 0.0
+        },
+        "fow": {
+          "baseline": 1.0,
+          "recent": 0.5,
+          "delta": -0.5,
+          "ratio": 0.5
+        },
+        "fo": {
+          "baseline": 1.4,
+          "recent": 1.0,
+          "delta": -0.4,
+          "ratio": 0.714
+        },
+        "pts": {
+          "baseline": 1.6,
+          "recent": 0.5,
+          "delta": -1.1,
+          "ratio": 0.312
+        },
+        "ppp": {
+          "baseline": 0.8,
+          "recent": 0.5,
+          "delta": -0.3,
+          "ratio": 0.625
+        },
+        "shp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        }
+      },
+      "baseline_games": 5,
+      "recent_games": 2,
+      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
+      "team_context": [
+        {
+          "id": "RETURNED_FROM_IR:PHI:cam york:2026-10-27",
+          "type": "RETURNED_FROM_IR",
+          "team": "PHI",
+          "player": "Cam York",
+          "player_key": "cam york",
+          "detected_at": "2026-10-27T18:54:20Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:PHI:garrett wilson:2026-10-27",
+          "type": "ACTIVE_REMOVED",
+          "team": "PHI",
+          "player": "Garrett Wilson",
+          "player_key": "garrett wilson",
+          "detected_at": "2026-10-27T18:54:20Z"
+        }
+      ],
+      "latest_final_game_date": "2026-10-28",
+      "latest_final_game_id": 2026020199
+    },
+    {
       "nhl_player_id": 8476374,
       "espn_player_id": 2564154,
       "name": "Sean Kuraly",
@@ -12155,6 +11678,167 @@
       ],
       "latest_final_game_date": "2026-10-27",
       "latest_final_game_id": 2026020190
+    },
+    {
+      "nhl_player_id": 8477949,
+      "espn_player_id": 3114766,
+      "name": "Alex Tuch",
+      "nhl_team": "WSH",
+      "position": "R",
+      "espn_status": "ONTEAM",
+      "espn_team_id": 17,
+      "percent_owned": 98.24,
+      "nhl_roster_status": "ACTIVE",
+      "score": 25,
+      "reliability": "HIGH",
+      "recommendation": "TRACK ONLY",
+      "categories": [
+        "SOG",
+        "G",
+        "A",
+        "PTS"
+      ],
+      "signals": [
+        {
+          "type": "PERIPHERAL_UP",
+          "label": "Рост SOG/HIT/BLK",
+          "strong": false
+        },
+        {
+          "type": "PRODUCTION_UP",
+          "label": "Рост результативности",
+          "strong": true
+        }
+      ],
+      "metrics": {
+        "toi": {
+          "baseline": 1147.6,
+          "recent": 1236.5,
+          "delta": 88.9,
+          "ratio": 1.077
+        },
+        "ev_toi": {
+          "baseline": 870.0,
+          "recent": 952.0,
+          "delta": 82.0,
+          "ratio": 1.094
+        },
+        "pp_toi": {
+          "baseline": 143.0,
+          "recent": 132.5,
+          "delta": -10.5,
+          "ratio": 0.927
+        },
+        "sh_toi": {
+          "baseline": 134.6,
+          "recent": 152.0,
+          "delta": 17.4,
+          "ratio": 1.129
+        },
+        "sog": {
+          "baseline": 2.2,
+          "recent": 4.0,
+          "delta": 1.8,
+          "ratio": 1.818
+        },
+        "hit": {
+          "baseline": 1.2,
+          "recent": 1.5,
+          "delta": 0.3,
+          "ratio": 1.25
+        },
+        "blk": {
+          "baseline": 0.8,
+          "recent": 0.5,
+          "delta": -0.3,
+          "ratio": 0.625
+        },
+        "fow": {
+          "baseline": 1.5,
+          "recent": 2.0,
+          "delta": 0.5,
+          "ratio": 1.333
+        },
+        "fo": {
+          "baseline": 1.6,
+          "recent": 1.0,
+          "delta": -0.6,
+          "ratio": 0.625
+        },
+        "pts": {
+          "baseline": 0.8,
+          "recent": 2.0,
+          "delta": 1.2,
+          "ratio": 2.5
+        },
+        "ppp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "shp": {
+          "baseline": 0.2,
+          "recent": 0.0,
+          "delta": -0.2,
+          "ratio": 0.0
+        }
+      },
+      "baseline_games": 5,
+      "recent_games": 2,
+      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
+      "team_context": [
+        {
+          "id": "RETURNED_FROM_IR:WSH:logan thompson:2026-10-28",
+          "type": "RETURNED_FROM_IR",
+          "team": "WSH",
+          "player": "Logan Thompson",
+          "player_key": "logan thompson",
+          "detected_at": "2026-10-28T17:31:45Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:WSH:mitchell gibson:2026-10-28",
+          "type": "ACTIVE_REMOVED",
+          "team": "WSH",
+          "player": "Mitchell Gibson",
+          "player_key": "mitchell gibson",
+          "detected_at": "2026-10-28T17:31:45Z"
+        },
+        {
+          "id": "NEW_IR:WSH:logan thompson:2026-10-27",
+          "type": "NEW_IR",
+          "team": "WSH",
+          "player": "Logan Thompson",
+          "player_key": "logan thompson",
+          "detected_at": "2026-10-27T18:54:20Z"
+        },
+        {
+          "id": "NEW_IR:WSH:vincent desharnais:2026-10-27",
+          "type": "NEW_IR",
+          "team": "WSH",
+          "player": "Vincent Desharnais",
+          "player_key": "vincent desharnais",
+          "detected_at": "2026-10-27T18:54:20Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:WSH:pierre luc dubois:2026-10-27",
+          "type": "RETURNED_FROM_IR",
+          "team": "WSH",
+          "player": "Pierre-Luc Dubois",
+          "player_key": "pierre luc dubois",
+          "detected_at": "2026-10-27T18:54:20Z"
+        },
+        {
+          "id": "ACTIVE_ADDED:WSH:jack st ivany:2026-10-27",
+          "type": "ACTIVE_ADDED",
+          "team": "WSH",
+          "player": "Jack St. Ivany",
+          "player_key": "jack st ivany",
+          "detected_at": "2026-10-27T18:54:20Z"
+        }
+      ],
+      "latest_final_game_date": "2026-10-28",
+      "latest_final_game_id": 2026020199
     },
     {
       "nhl_player_id": 8484783,
@@ -13122,127 +12806,6 @@
           "team": "CBJ",
           "player": "Dante Fabbro",
           "player_key": "dante fabbro",
-          "detected_at": "2026-10-27T18:54:20Z"
-        }
-      ],
-      "latest_final_game_date": "2026-10-27",
-      "latest_final_game_id": 2026020188
-    },
-    {
-      "nhl_player_id": 8484142,
-      "espn_player_id": 5173105,
-      "name": "Denver Barkey",
-      "nhl_team": "PHI",
-      "position": "C",
-      "espn_status": "FREEAGENT",
-      "espn_team_id": 0,
-      "percent_owned": 0.39,
-      "nhl_roster_status": "ACTIVE",
-      "score": 25,
-      "reliability": "HIGH",
-      "recommendation": "WATCH",
-      "categories": [
-        "PPP"
-      ],
-      "signals": [
-        {
-          "type": "PP_ROLE_UP",
-          "label": "Рост PP TOI",
-          "strong": true
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 907.8,
-          "recent": 918.5,
-          "delta": 10.7,
-          "ratio": 1.012
-        },
-        "ev_toi": {
-          "baseline": 748.4,
-          "recent": 644.0,
-          "delta": -104.4,
-          "ratio": 0.861
-        },
-        "pp_toi": {
-          "baseline": 151.2,
-          "recent": 274.5,
-          "delta": 123.3,
-          "ratio": 1.815
-        },
-        "sh_toi": {
-          "baseline": 8.2,
-          "recent": 0.0,
-          "delta": -8.2,
-          "ratio": 0.0
-        },
-        "sog": {
-          "baseline": 1.0,
-          "recent": 0.5,
-          "delta": -0.5,
-          "ratio": 0.5
-        },
-        "hit": {
-          "baseline": 0.8,
-          "recent": 0.0,
-          "delta": -0.8,
-          "ratio": 0.0
-        },
-        "blk": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "fow": {
-          "baseline": 1.25,
-          "recent": 1.0,
-          "delta": -0.25,
-          "ratio": 0.8
-        },
-        "fo": {
-          "baseline": 1.8,
-          "recent": 6.0,
-          "delta": 4.2,
-          "ratio": 3.333
-        },
-        "pts": {
-          "baseline": 0.4,
-          "recent": 0.0,
-          "delta": -0.4,
-          "ratio": 0.0
-        },
-        "ppp": {
-          "baseline": 0.2,
-          "recent": 0.0,
-          "delta": -0.2,
-          "ratio": 0.0
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "RETURNED_FROM_IR:PHI:cam york:2026-10-27",
-          "type": "RETURNED_FROM_IR",
-          "team": "PHI",
-          "player": "Cam York",
-          "player_key": "cam york",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:PHI:garrett wilson:2026-10-27",
-          "type": "ACTIVE_REMOVED",
-          "team": "PHI",
-          "player": "Garrett Wilson",
-          "player_key": "garrett wilson",
           "detected_at": "2026-10-27T18:54:20Z"
         }
       ],
@@ -21123,136 +20686,6 @@
       "latest_final_game_id": 2026020068
     },
     {
-      "nhl_player_id": 8482159,
-      "espn_player_id": 4697406,
-      "name": "Tyson Foerster",
-      "nhl_team": "PHI",
-      "position": "R",
-      "espn_status": "ONTEAM",
-      "espn_team_id": 12,
-      "percent_owned": 2.21,
-      "nhl_roster_status": "ACTIVE",
-      "score": 18,
-      "reliability": "HIGH",
-      "recommendation": "TRACK ONLY",
-      "categories": [
-        "SHP",
-        "SOG",
-        "G",
-        "A",
-        "PTS"
-      ],
-      "signals": [
-        {
-          "type": "PRODUCTION_UP",
-          "label": "Рост результативности",
-          "strong": false
-        },
-        {
-          "type": "SHP_EVENT",
-          "label": "SHP в последних матчах",
-          "strong": false
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 1035.6,
-          "recent": 1065.5,
-          "delta": 29.9,
-          "ratio": 1.029
-        },
-        "ev_toi": {
-          "baseline": 809.2,
-          "recent": 888.0,
-          "delta": 78.8,
-          "ratio": 1.097
-        },
-        "pp_toi": {
-          "baseline": 164.6,
-          "recent": 121.5,
-          "delta": -43.1,
-          "ratio": 0.738
-        },
-        "sh_toi": {
-          "baseline": 61.8,
-          "recent": 56.0,
-          "delta": -5.8,
-          "ratio": 0.906
-        },
-        "sog": {
-          "baseline": 2.2,
-          "recent": 3.0,
-          "delta": 0.8,
-          "ratio": 1.364
-        },
-        "hit": {
-          "baseline": 2.0,
-          "recent": 0.0,
-          "delta": -2.0,
-          "ratio": 0.0
-        },
-        "blk": {
-          "baseline": 1.2,
-          "recent": 1.5,
-          "delta": 0.3,
-          "ratio": 1.25
-        },
-        "fow": {
-          "baseline": null,
-          "recent": null,
-          "delta": null,
-          "ratio": null
-        },
-        "fo": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "pts": {
-          "baseline": 0.0,
-          "recent": 1.0,
-          "delta": 1.0,
-          "ratio": null
-        },
-        "ppp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.5,
-          "delta": 0.5,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "RETURNED_FROM_IR:PHI:cam york:2026-10-27",
-          "type": "RETURNED_FROM_IR",
-          "team": "PHI",
-          "player": "Cam York",
-          "player_key": "cam york",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:PHI:garrett wilson:2026-10-27",
-          "type": "ACTIVE_REMOVED",
-          "team": "PHI",
-          "player": "Garrett Wilson",
-          "player_key": "garrett wilson",
-          "detected_at": "2026-10-27T18:54:20Z"
-        }
-      ],
-      "latest_final_game_date": "2026-10-27",
-      "latest_final_game_id": 2026020188
-    },
-    {
       "nhl_player_id": 8482157,
       "espn_player_id": 4697468,
       "name": "Will Cuylle",
@@ -22399,6 +21832,168 @@
       "latest_final_game_id": 2026020197
     },
     {
+      "nhl_player_id": 8478440,
+      "espn_player_id": 3899933,
+      "name": "Dylan Strome",
+      "nhl_team": "WSH",
+      "position": "C",
+      "espn_status": "ONTEAM",
+      "espn_team_id": 2,
+      "percent_owned": 68.03,
+      "nhl_roster_status": "ACTIVE",
+      "score": 16,
+      "reliability": "HIGH",
+      "recommendation": "TRACK ONLY",
+      "categories": [
+        "SOG",
+        "FOW",
+        "G",
+        "A",
+        "PTS"
+      ],
+      "signals": [
+        {
+          "type": "PRODUCTION_UP",
+          "label": "Рост результативности",
+          "strong": true
+        },
+        {
+          "type": "PPP_UP",
+          "label": "Рост PPP",
+          "strong": false
+        }
+      ],
+      "metrics": {
+        "toi": {
+          "baseline": 1125.8,
+          "recent": 1103.5,
+          "delta": -22.3,
+          "ratio": 0.98
+        },
+        "ev_toi": {
+          "baseline": 951.4,
+          "recent": 927.5,
+          "delta": -23.9,
+          "ratio": 0.975
+        },
+        "pp_toi": {
+          "baseline": 168.8,
+          "recent": 176.0,
+          "delta": 7.2,
+          "ratio": 1.043
+        },
+        "sh_toi": {
+          "baseline": 5.6,
+          "recent": 0.0,
+          "delta": -5.6,
+          "ratio": 0.0
+        },
+        "sog": {
+          "baseline": 2.2,
+          "recent": 3.5,
+          "delta": 1.3,
+          "ratio": 1.591
+        },
+        "hit": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "blk": {
+          "baseline": 1.4,
+          "recent": 1.0,
+          "delta": -0.4,
+          "ratio": 0.714
+        },
+        "fow": {
+          "baseline": 10.2,
+          "recent": 8.0,
+          "delta": -2.2,
+          "ratio": 0.784
+        },
+        "fo": {
+          "baseline": 19.4,
+          "recent": 15.0,
+          "delta": -4.4,
+          "ratio": 0.773
+        },
+        "pts": {
+          "baseline": 0.4,
+          "recent": 3.0,
+          "delta": 2.6,
+          "ratio": 7.5
+        },
+        "ppp": {
+          "baseline": 0.0,
+          "recent": 0.5,
+          "delta": 0.5,
+          "ratio": null
+        },
+        "shp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        }
+      },
+      "baseline_games": 5,
+      "recent_games": 2,
+      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
+      "team_context": [
+        {
+          "id": "RETURNED_FROM_IR:WSH:logan thompson:2026-10-28",
+          "type": "RETURNED_FROM_IR",
+          "team": "WSH",
+          "player": "Logan Thompson",
+          "player_key": "logan thompson",
+          "detected_at": "2026-10-28T17:31:45Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:WSH:mitchell gibson:2026-10-28",
+          "type": "ACTIVE_REMOVED",
+          "team": "WSH",
+          "player": "Mitchell Gibson",
+          "player_key": "mitchell gibson",
+          "detected_at": "2026-10-28T17:31:45Z"
+        },
+        {
+          "id": "NEW_IR:WSH:logan thompson:2026-10-27",
+          "type": "NEW_IR",
+          "team": "WSH",
+          "player": "Logan Thompson",
+          "player_key": "logan thompson",
+          "detected_at": "2026-10-27T18:54:20Z"
+        },
+        {
+          "id": "NEW_IR:WSH:vincent desharnais:2026-10-27",
+          "type": "NEW_IR",
+          "team": "WSH",
+          "player": "Vincent Desharnais",
+          "player_key": "vincent desharnais",
+          "detected_at": "2026-10-27T18:54:20Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:WSH:pierre luc dubois:2026-10-27",
+          "type": "RETURNED_FROM_IR",
+          "team": "WSH",
+          "player": "Pierre-Luc Dubois",
+          "player_key": "pierre luc dubois",
+          "detected_at": "2026-10-27T18:54:20Z"
+        },
+        {
+          "id": "ACTIVE_ADDED:WSH:jack st ivany:2026-10-27",
+          "type": "ACTIVE_ADDED",
+          "team": "WSH",
+          "player": "Jack St. Ivany",
+          "player_key": "jack st ivany",
+          "detected_at": "2026-10-27T18:54:20Z"
+        }
+      ],
+      "latest_final_game_date": "2026-10-28",
+      "latest_final_game_id": 2026020199
+    },
+    {
       "nhl_player_id": 8479425,
       "espn_player_id": 4063607,
       "name": "Filip Hronek",
@@ -22927,22 +22522,22 @@
       ],
       "metrics": {
         "toi": {
-          "baseline": 828.6,
-          "recent": 950.5,
-          "delta": 121.9,
-          "ratio": 1.147
+          "baseline": 861.6,
+          "recent": 972.5,
+          "delta": 110.9,
+          "ratio": 1.129
         },
         "ev_toi": {
-          "baseline": 706.8,
-          "recent": 785.5,
-          "delta": 78.7,
-          "ratio": 1.111
+          "baseline": 739.0,
+          "recent": 802.5,
+          "delta": 63.5,
+          "ratio": 1.086
         },
         "pp_toi": {
-          "baseline": 121.8,
-          "recent": 165.0,
-          "delta": 43.2,
-          "ratio": 1.355
+          "baseline": 122.6,
+          "recent": 170.0,
+          "delta": 47.4,
+          "ratio": 1.387
         },
         "sh_toi": {
           "baseline": 0.0,
@@ -22951,22 +22546,22 @@
           "ratio": null
         },
         "sog": {
-          "baseline": 1.2,
-          "recent": 2.5,
-          "delta": 1.3,
-          "ratio": 2.083
+          "baseline": 1.6,
+          "recent": 3.0,
+          "delta": 1.4,
+          "ratio": 1.875
         },
         "hit": {
-          "baseline": 0.4,
-          "recent": 0.0,
-          "delta": -0.4,
-          "ratio": 0.0
-        },
-        "blk": {
           "baseline": 0.4,
           "recent": 0.5,
           "delta": 0.1,
           "ratio": 1.25
+        },
+        "blk": {
+          "baseline": 0.6,
+          "recent": 0.5,
+          "delta": -0.1,
+          "ratio": 0.833
         },
         "fow": {
           "baseline": 0.5,
@@ -22981,16 +22576,16 @@
           "ratio": 0.0
         },
         "pts": {
-          "baseline": 0.8,
-          "recent": 1.5,
-          "delta": 0.7,
-          "ratio": 1.875
+          "baseline": 1.0,
+          "recent": 2.0,
+          "delta": 1.0,
+          "ratio": 2.0
         },
         "ppp": {
-          "baseline": 0.2,
+          "baseline": 0.4,
           "recent": 0.5,
-          "delta": 0.3,
-          "ratio": 2.5
+          "delta": 0.1,
+          "ratio": 1.25
         },
         "shp": {
           "baseline": 0.0,
@@ -23052,8 +22647,8 @@
           "detected_at": "2026-10-27T18:54:20Z"
         }
       ],
-      "latest_final_game_date": "2026-10-24",
-      "latest_final_game_id": 2026020173
+      "latest_final_game_date": "2026-10-28",
+      "latest_final_game_id": 2026020199
     },
     {
       "nhl_player_id": 8484829,
@@ -24271,33 +23866,34 @@
       "reliability": "HIGH",
       "recommendation": "TRACK ONLY",
       "categories": [
-        "SOG"
+        "SOG",
+        "HIT"
       ],
       "signals": [
         {
           "type": "PERIPHERAL_UP",
           "label": "Рост SOG/HIT/BLK",
-          "strong": false
+          "strong": true
         }
       ],
       "metrics": {
         "toi": {
           "baseline": 756.8,
-          "recent": 805.0,
-          "delta": 48.2,
-          "ratio": 1.064
+          "recent": 809.0,
+          "delta": 52.2,
+          "ratio": 1.069
         },
         "ev_toi": {
-          "baseline": 669.8,
-          "recent": 718.0,
-          "delta": 48.2,
-          "ratio": 1.072
+          "baseline": 681.6,
+          "recent": 738.5,
+          "delta": 56.9,
+          "ratio": 1.083
         },
         "pp_toi": {
-          "baseline": 87.0,
-          "recent": 87.0,
-          "delta": 0.0,
-          "ratio": 1.0
+          "baseline": 75.2,
+          "recent": 70.5,
+          "delta": -4.7,
+          "ratio": 0.938
         },
         "sh_toi": {
           "baseline": 0.0,
@@ -24306,34 +23902,34 @@
           "ratio": null
         },
         "sog": {
-          "baseline": 1.6,
+          "baseline": 2.0,
           "recent": 4.0,
-          "delta": 2.4,
-          "ratio": 2.5
+          "delta": 2.0,
+          "ratio": 2.0
         },
         "hit": {
-          "baseline": 2.0,
-          "recent": 1.5,
-          "delta": -0.5,
-          "ratio": 0.75
+          "baseline": 1.6,
+          "recent": 3.0,
+          "delta": 1.4,
+          "ratio": 1.875
         },
         "blk": {
           "baseline": 0.0,
-          "recent": 0.5,
-          "delta": 0.5,
+          "recent": 1.0,
+          "delta": 1.0,
           "ratio": null
         },
         "fow": {
-          "baseline": 1.0,
-          "recent": 0.5,
-          "delta": -0.5,
-          "ratio": 0.5
+          "baseline": 0.5,
+          "recent": 1.0,
+          "delta": 0.5,
+          "ratio": 2.0
         },
         "fo": {
-          "baseline": 0.2,
-          "recent": 1.0,
-          "delta": 0.8,
-          "ratio": 5.0
+          "baseline": 0.4,
+          "recent": 0.5,
+          "delta": 0.1,
+          "ratio": 1.25
         },
         "pts": {
           "baseline": 0.0,
@@ -24375,8 +23971,8 @@
           "detected_at": "2026-10-27T18:54:20Z"
         }
       ],
-      "latest_final_game_date": "2026-10-27",
-      "latest_final_game_id": 2026020188
+      "latest_final_game_date": "2026-10-28",
+      "latest_final_game_id": 2026020199
     },
     {
       "nhl_player_id": 8477021,
@@ -24499,6 +24095,159 @@
       ],
       "latest_final_game_date": "2026-10-27",
       "latest_final_game_id": 2026020192
+    },
+    {
+      "nhl_player_id": 8478463,
+      "espn_player_id": 3904107,
+      "name": "Anthony Beauvillier",
+      "nhl_team": "WSH",
+      "position": "R",
+      "espn_status": "FREEAGENT",
+      "espn_team_id": 0,
+      "percent_owned": 0.22,
+      "nhl_roster_status": "ACTIVE",
+      "score": 15,
+      "reliability": "HIGH",
+      "recommendation": "WATCH",
+      "categories": [
+        "HIT"
+      ],
+      "signals": [
+        {
+          "type": "PERIPHERAL_UP",
+          "label": "Рост SOG/HIT/BLK",
+          "strong": false
+        }
+      ],
+      "metrics": {
+        "toi": {
+          "baseline": 721.2,
+          "recent": 574.0,
+          "delta": -147.2,
+          "ratio": 0.796
+        },
+        "ev_toi": {
+          "baseline": 682.0,
+          "recent": 574.0,
+          "delta": -108.0,
+          "ratio": 0.842
+        },
+        "pp_toi": {
+          "baseline": 15.8,
+          "recent": 0.0,
+          "delta": -15.8,
+          "ratio": 0.0
+        },
+        "sh_toi": {
+          "baseline": 23.4,
+          "recent": 0.0,
+          "delta": -23.4,
+          "ratio": 0.0
+        },
+        "sog": {
+          "baseline": 0.6,
+          "recent": 1.0,
+          "delta": 0.4,
+          "ratio": 1.667
+        },
+        "hit": {
+          "baseline": 1.2,
+          "recent": 3.0,
+          "delta": 1.8,
+          "ratio": 2.5
+        },
+        "blk": {
+          "baseline": 0.4,
+          "recent": 0.0,
+          "delta": -0.4,
+          "ratio": 0.0
+        },
+        "fow": {
+          "baseline": 0.8,
+          "recent": 0.0,
+          "delta": -0.8,
+          "ratio": 0.0
+        },
+        "fo": {
+          "baseline": 1.4,
+          "recent": 1.0,
+          "delta": -0.4,
+          "ratio": 0.714
+        },
+        "pts": {
+          "baseline": 0.2,
+          "recent": 0.0,
+          "delta": -0.2,
+          "ratio": 0.0
+        },
+        "ppp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "shp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        }
+      },
+      "baseline_games": 5,
+      "recent_games": 2,
+      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
+      "team_context": [
+        {
+          "id": "RETURNED_FROM_IR:WSH:logan thompson:2026-10-28",
+          "type": "RETURNED_FROM_IR",
+          "team": "WSH",
+          "player": "Logan Thompson",
+          "player_key": "logan thompson",
+          "detected_at": "2026-10-28T17:31:45Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:WSH:mitchell gibson:2026-10-28",
+          "type": "ACTIVE_REMOVED",
+          "team": "WSH",
+          "player": "Mitchell Gibson",
+          "player_key": "mitchell gibson",
+          "detected_at": "2026-10-28T17:31:45Z"
+        },
+        {
+          "id": "NEW_IR:WSH:logan thompson:2026-10-27",
+          "type": "NEW_IR",
+          "team": "WSH",
+          "player": "Logan Thompson",
+          "player_key": "logan thompson",
+          "detected_at": "2026-10-27T18:54:20Z"
+        },
+        {
+          "id": "NEW_IR:WSH:vincent desharnais:2026-10-27",
+          "type": "NEW_IR",
+          "team": "WSH",
+          "player": "Vincent Desharnais",
+          "player_key": "vincent desharnais",
+          "detected_at": "2026-10-27T18:54:20Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:WSH:pierre luc dubois:2026-10-27",
+          "type": "RETURNED_FROM_IR",
+          "team": "WSH",
+          "player": "Pierre-Luc Dubois",
+          "player_key": "pierre luc dubois",
+          "detected_at": "2026-10-27T18:54:20Z"
+        },
+        {
+          "id": "ACTIVE_ADDED:WSH:jack st ivany:2026-10-27",
+          "type": "ACTIVE_ADDED",
+          "team": "WSH",
+          "player": "Jack St. Ivany",
+          "player_key": "jack st ivany",
+          "detected_at": "2026-10-27T18:54:20Z"
+        }
+      ],
+      "latest_final_game_date": "2026-10-28",
+      "latest_final_game_id": 2026020199
     },
     {
       "nhl_player_id": 8485391,
@@ -28480,6 +28229,160 @@
       "latest_final_game_id": 2026020197
     },
     {
+      "nhl_player_id": 8480796,
+      "espn_player_id": 4378677,
+      "name": "Martin Fehervary",
+      "nhl_team": "WSH",
+      "position": "D",
+      "espn_status": "ONTEAM",
+      "espn_team_id": 3,
+      "percent_owned": 29.5,
+      "nhl_roster_status": "ACTIVE",
+      "score": 15,
+      "reliability": "HIGH",
+      "recommendation": "TRACK ONLY",
+      "categories": [
+        "HIT",
+        "BLK"
+      ],
+      "signals": [
+        {
+          "type": "PERIPHERAL_UP",
+          "label": "Рост SOG/HIT/BLK",
+          "strong": false
+        }
+      ],
+      "metrics": {
+        "toi": {
+          "baseline": 1345.6,
+          "recent": 1379.0,
+          "delta": 33.4,
+          "ratio": 1.025
+        },
+        "ev_toi": {
+          "baseline": 1130.4,
+          "recent": 1164.0,
+          "delta": 33.6,
+          "ratio": 1.03
+        },
+        "pp_toi": {
+          "baseline": 13.0,
+          "recent": 0.0,
+          "delta": -13.0,
+          "ratio": 0.0
+        },
+        "sh_toi": {
+          "baseline": 202.2,
+          "recent": 215.0,
+          "delta": 12.8,
+          "ratio": 1.063
+        },
+        "sog": {
+          "baseline": 0.2,
+          "recent": 1.5,
+          "delta": 1.3,
+          "ratio": 7.5
+        },
+        "hit": {
+          "baseline": 1.8,
+          "recent": 2.5,
+          "delta": 0.7,
+          "ratio": 1.389
+        },
+        "blk": {
+          "baseline": 3.0,
+          "recent": 2.5,
+          "delta": -0.5,
+          "ratio": 0.833
+        },
+        "fow": {
+          "baseline": null,
+          "recent": null,
+          "delta": null,
+          "ratio": null
+        },
+        "fo": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "pts": {
+          "baseline": 0.2,
+          "recent": 0.5,
+          "delta": 0.3,
+          "ratio": 2.5
+        },
+        "ppp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "shp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        }
+      },
+      "baseline_games": 5,
+      "recent_games": 2,
+      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
+      "team_context": [
+        {
+          "id": "RETURNED_FROM_IR:WSH:logan thompson:2026-10-28",
+          "type": "RETURNED_FROM_IR",
+          "team": "WSH",
+          "player": "Logan Thompson",
+          "player_key": "logan thompson",
+          "detected_at": "2026-10-28T17:31:45Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:WSH:mitchell gibson:2026-10-28",
+          "type": "ACTIVE_REMOVED",
+          "team": "WSH",
+          "player": "Mitchell Gibson",
+          "player_key": "mitchell gibson",
+          "detected_at": "2026-10-28T17:31:45Z"
+        },
+        {
+          "id": "NEW_IR:WSH:logan thompson:2026-10-27",
+          "type": "NEW_IR",
+          "team": "WSH",
+          "player": "Logan Thompson",
+          "player_key": "logan thompson",
+          "detected_at": "2026-10-27T18:54:20Z"
+        },
+        {
+          "id": "NEW_IR:WSH:vincent desharnais:2026-10-27",
+          "type": "NEW_IR",
+          "team": "WSH",
+          "player": "Vincent Desharnais",
+          "player_key": "vincent desharnais",
+          "detected_at": "2026-10-27T18:54:20Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:WSH:pierre luc dubois:2026-10-27",
+          "type": "RETURNED_FROM_IR",
+          "team": "WSH",
+          "player": "Pierre-Luc Dubois",
+          "player_key": "pierre luc dubois",
+          "detected_at": "2026-10-27T18:54:20Z"
+        },
+        {
+          "id": "ACTIVE_ADDED:WSH:jack st ivany:2026-10-27",
+          "type": "ACTIVE_ADDED",
+          "team": "WSH",
+          "player": "Jack St. Ivany",
+          "player_key": "jack st ivany",
+          "detected_at": "2026-10-27T18:54:20Z"
+        }
+      ],
+      "latest_final_game_date": "2026-10-28",
+      "latest_final_game_id": 2026020199
+    },
+    {
       "nhl_player_id": 8482745,
       "espn_player_id": 4874718,
       "name": "Mason McTavish",
@@ -30086,159 +29989,6 @@
       "latest_final_game_id": 2026020198
     },
     {
-      "nhl_player_id": 8479400,
-      "espn_player_id": 4024833,
-      "name": "Pierre-Luc Dubois",
-      "nhl_team": "WSH",
-      "position": "C",
-      "espn_status": "ONTEAM",
-      "espn_team_id": 14,
-      "percent_owned": 11.8,
-      "nhl_roster_status": "ACTIVE",
-      "score": 15,
-      "reliability": "MEDIUM",
-      "recommendation": "TRACK ONLY",
-      "categories": [
-        "FOW"
-      ],
-      "signals": [
-        {
-          "type": "PERIPHERAL_UP",
-          "label": "Рост SOG/HIT/BLK",
-          "strong": false
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 967.67,
-          "recent": 1145.0,
-          "delta": 177.33,
-          "ratio": 1.183
-        },
-        "ev_toi": {
-          "baseline": 803.0,
-          "recent": 950.0,
-          "delta": 147.0,
-          "ratio": 1.183
-        },
-        "pp_toi": {
-          "baseline": 163.67,
-          "recent": 193.5,
-          "delta": 29.83,
-          "ratio": 1.182
-        },
-        "sh_toi": {
-          "baseline": 1.0,
-          "recent": 1.5,
-          "delta": 0.5,
-          "ratio": 1.5
-        },
-        "sog": {
-          "baseline": 1.67,
-          "recent": 1.5,
-          "delta": -0.17,
-          "ratio": 0.9
-        },
-        "hit": {
-          "baseline": 1.0,
-          "recent": 1.5,
-          "delta": 0.5,
-          "ratio": 1.5
-        },
-        "blk": {
-          "baseline": 0.33,
-          "recent": 1.5,
-          "delta": 1.17,
-          "ratio": 4.5
-        },
-        "fow": {
-          "baseline": 6.0,
-          "recent": 6.5,
-          "delta": 0.5,
-          "ratio": 1.083
-        },
-        "fo": {
-          "baseline": 13.67,
-          "recent": 17.5,
-          "delta": 3.83,
-          "ratio": 1.28
-        },
-        "pts": {
-          "baseline": 1.33,
-          "recent": 0.0,
-          "delta": -1.33,
-          "ratio": 0.0
-        },
-        "ppp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 3,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "RETURNED_FROM_IR:WSH:logan thompson:2026-10-28",
-          "type": "RETURNED_FROM_IR",
-          "team": "WSH",
-          "player": "Logan Thompson",
-          "player_key": "logan thompson",
-          "detected_at": "2026-10-28T17:31:45Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:WSH:mitchell gibson:2026-10-28",
-          "type": "ACTIVE_REMOVED",
-          "team": "WSH",
-          "player": "Mitchell Gibson",
-          "player_key": "mitchell gibson",
-          "detected_at": "2026-10-28T17:31:45Z"
-        },
-        {
-          "id": "NEW_IR:WSH:logan thompson:2026-10-27",
-          "type": "NEW_IR",
-          "team": "WSH",
-          "player": "Logan Thompson",
-          "player_key": "logan thompson",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "NEW_IR:WSH:vincent desharnais:2026-10-27",
-          "type": "NEW_IR",
-          "team": "WSH",
-          "player": "Vincent Desharnais",
-          "player_key": "vincent desharnais",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:WSH:pierre luc dubois:2026-10-27",
-          "type": "RETURNED_FROM_IR",
-          "team": "WSH",
-          "player": "Pierre-Luc Dubois",
-          "player_key": "pierre luc dubois",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:WSH:jack st ivany:2026-10-27",
-          "type": "ACTIVE_ADDED",
-          "team": "WSH",
-          "player": "Jack St. Ivany",
-          "player_key": "jack st ivany",
-          "detected_at": "2026-10-27T18:54:20Z"
-        }
-      ],
-      "latest_final_game_date": "2026-10-24",
-      "latest_final_game_id": 2026020173
-    },
-    {
       "nhl_player_id": 8482124,
       "espn_player_id": null,
       "name": "Quinton Byfield",
@@ -30626,6 +30376,159 @@
       ],
       "latest_final_game_date": "2026-10-27",
       "latest_final_game_id": 2026020196
+    },
+    {
+      "nhl_player_id": 8484186,
+      "espn_player_id": 5149172,
+      "name": "Ryan Leonard",
+      "nhl_team": "WSH",
+      "position": "R",
+      "espn_status": "ONTEAM",
+      "espn_team_id": 19,
+      "percent_owned": 35.61,
+      "nhl_roster_status": "ACTIVE",
+      "score": 15,
+      "reliability": "HIGH",
+      "recommendation": "TRACK ONLY",
+      "categories": [
+        "SOG"
+      ],
+      "signals": [
+        {
+          "type": "PERIPHERAL_UP",
+          "label": "Рост SOG/HIT/BLK",
+          "strong": false
+        }
+      ],
+      "metrics": {
+        "toi": {
+          "baseline": 891.8,
+          "recent": 883.0,
+          "delta": -8.8,
+          "ratio": 0.99
+        },
+        "ev_toi": {
+          "baseline": 717.6,
+          "recent": 755.0,
+          "delta": 37.4,
+          "ratio": 1.052
+        },
+        "pp_toi": {
+          "baseline": 169.2,
+          "recent": 128.0,
+          "delta": -41.2,
+          "ratio": 0.757
+        },
+        "sh_toi": {
+          "baseline": 5.0,
+          "recent": 0.0,
+          "delta": -5.0,
+          "ratio": 0.0
+        },
+        "sog": {
+          "baseline": 2.4,
+          "recent": 3.5,
+          "delta": 1.1,
+          "ratio": 1.458
+        },
+        "hit": {
+          "baseline": 1.0,
+          "recent": 1.5,
+          "delta": 0.5,
+          "ratio": 1.5
+        },
+        "blk": {
+          "baseline": 0.2,
+          "recent": 1.5,
+          "delta": 1.3,
+          "ratio": 7.5
+        },
+        "fow": {
+          "baseline": 1.0,
+          "recent": null,
+          "delta": null,
+          "ratio": null
+        },
+        "fo": {
+          "baseline": 0.2,
+          "recent": 0.0,
+          "delta": -0.2,
+          "ratio": 0.0
+        },
+        "pts": {
+          "baseline": 1.0,
+          "recent": 0.0,
+          "delta": -1.0,
+          "ratio": 0.0
+        },
+        "ppp": {
+          "baseline": 0.2,
+          "recent": 0.0,
+          "delta": -0.2,
+          "ratio": 0.0
+        },
+        "shp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        }
+      },
+      "baseline_games": 5,
+      "recent_games": 2,
+      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
+      "team_context": [
+        {
+          "id": "RETURNED_FROM_IR:WSH:logan thompson:2026-10-28",
+          "type": "RETURNED_FROM_IR",
+          "team": "WSH",
+          "player": "Logan Thompson",
+          "player_key": "logan thompson",
+          "detected_at": "2026-10-28T17:31:45Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:WSH:mitchell gibson:2026-10-28",
+          "type": "ACTIVE_REMOVED",
+          "team": "WSH",
+          "player": "Mitchell Gibson",
+          "player_key": "mitchell gibson",
+          "detected_at": "2026-10-28T17:31:45Z"
+        },
+        {
+          "id": "NEW_IR:WSH:logan thompson:2026-10-27",
+          "type": "NEW_IR",
+          "team": "WSH",
+          "player": "Logan Thompson",
+          "player_key": "logan thompson",
+          "detected_at": "2026-10-27T18:54:20Z"
+        },
+        {
+          "id": "NEW_IR:WSH:vincent desharnais:2026-10-27",
+          "type": "NEW_IR",
+          "team": "WSH",
+          "player": "Vincent Desharnais",
+          "player_key": "vincent desharnais",
+          "detected_at": "2026-10-27T18:54:20Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:WSH:pierre luc dubois:2026-10-27",
+          "type": "RETURNED_FROM_IR",
+          "team": "WSH",
+          "player": "Pierre-Luc Dubois",
+          "player_key": "pierre luc dubois",
+          "detected_at": "2026-10-27T18:54:20Z"
+        },
+        {
+          "id": "ACTIVE_ADDED:WSH:jack st ivany:2026-10-27",
+          "type": "ACTIVE_ADDED",
+          "team": "WSH",
+          "player": "Jack St. Ivany",
+          "player_key": "jack st ivany",
+          "detected_at": "2026-10-27T18:54:20Z"
+        }
+      ],
+      "latest_final_game_date": "2026-10-28",
+      "latest_final_game_id": 2026020199
     },
     {
       "nhl_player_id": 8477506,
@@ -32313,6 +32216,128 @@
       "latest_final_game_id": 2026020172
     },
     {
+      "nhl_player_id": 8477989,
+      "espn_player_id": 3115035,
+      "name": "Christian Dvorak",
+      "nhl_team": "PHI",
+      "position": "C",
+      "espn_status": "ONTEAM",
+      "espn_team_id": 13,
+      "percent_owned": 2.93,
+      "nhl_roster_status": "ACTIVE",
+      "score": 12,
+      "reliability": "HIGH",
+      "recommendation": "TRACK ONLY",
+      "categories": [
+        "SOG",
+        "FOW"
+      ],
+      "signals": [
+        {
+          "type": "FOW_UP",
+          "label": "Рост FOW",
+          "strong": true
+        }
+      ],
+      "metrics": {
+        "toi": {
+          "baseline": 1154.2,
+          "recent": 1067.0,
+          "delta": -87.2,
+          "ratio": 0.924
+        },
+        "ev_toi": {
+          "baseline": 902.8,
+          "recent": 961.5,
+          "delta": 58.7,
+          "ratio": 1.065
+        },
+        "pp_toi": {
+          "baseline": 104.4,
+          "recent": 52.5,
+          "delta": -51.9,
+          "ratio": 0.503
+        },
+        "sh_toi": {
+          "baseline": 147.0,
+          "recent": 53.0,
+          "delta": -94.0,
+          "ratio": 0.361
+        },
+        "sog": {
+          "baseline": 1.0,
+          "recent": 2.5,
+          "delta": 1.5,
+          "ratio": 2.5
+        },
+        "hit": {
+          "baseline": 1.0,
+          "recent": 0.0,
+          "delta": -1.0,
+          "ratio": 0.0
+        },
+        "blk": {
+          "baseline": 0.6,
+          "recent": 0.0,
+          "delta": -0.6,
+          "ratio": 0.0
+        },
+        "fow": {
+          "baseline": 6.0,
+          "recent": 9.0,
+          "delta": 3.0,
+          "ratio": 1.5
+        },
+        "fo": {
+          "baseline": 11.8,
+          "recent": 13.5,
+          "delta": 1.7,
+          "ratio": 1.144
+        },
+        "pts": {
+          "baseline": 0.2,
+          "recent": 0.5,
+          "delta": 0.3,
+          "ratio": 2.5
+        },
+        "ppp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "shp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        }
+      },
+      "baseline_games": 5,
+      "recent_games": 2,
+      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
+      "team_context": [
+        {
+          "id": "RETURNED_FROM_IR:PHI:cam york:2026-10-27",
+          "type": "RETURNED_FROM_IR",
+          "team": "PHI",
+          "player": "Cam York",
+          "player_key": "cam york",
+          "detected_at": "2026-10-27T18:54:20Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:PHI:garrett wilson:2026-10-27",
+          "type": "ACTIVE_REMOVED",
+          "team": "PHI",
+          "player": "Garrett Wilson",
+          "player_key": "garrett wilson",
+          "detected_at": "2026-10-27T18:54:20Z"
+        }
+      ],
+      "latest_final_game_date": "2026-10-28",
+      "latest_final_game_id": 2026020199
+    },
+    {
       "nhl_player_id": 8475287,
       "espn_player_id": null,
       "name": "Erik Haula",
@@ -33987,163 +34012,6 @@
       "latest_final_game_id": 2026020185
     },
     {
-      "nhl_player_id": 8478440,
-      "espn_player_id": 3899933,
-      "name": "Dylan Strome",
-      "nhl_team": "WSH",
-      "position": "C",
-      "espn_status": "ONTEAM",
-      "espn_team_id": 2,
-      "percent_owned": 68.03,
-      "nhl_roster_status": "ACTIVE",
-      "score": 10,
-      "reliability": "HIGH",
-      "recommendation": "TRACK ONLY",
-      "categories": [
-        "SOG",
-        "FOW",
-        "G",
-        "A",
-        "PTS"
-      ],
-      "signals": [
-        {
-          "type": "PRODUCTION_UP",
-          "label": "Рост результативности",
-          "strong": true
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 1070.0,
-          "recent": 1199.0,
-          "delta": 129.0,
-          "ratio": 1.121
-        },
-        "ev_toi": {
-          "baseline": 897.6,
-          "recent": 987.5,
-          "delta": 89.9,
-          "ratio": 1.1
-        },
-        "pp_toi": {
-          "baseline": 172.4,
-          "recent": 197.5,
-          "delta": 25.1,
-          "ratio": 1.146
-        },
-        "sh_toi": {
-          "baseline": 0.0,
-          "recent": 14.0,
-          "delta": 14.0,
-          "ratio": null
-        },
-        "sog": {
-          "baseline": 2.2,
-          "recent": 4.5,
-          "delta": 2.3,
-          "ratio": 2.045
-        },
-        "hit": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "blk": {
-          "baseline": 1.4,
-          "recent": 0.5,
-          "delta": -0.9,
-          "ratio": 0.357
-        },
-        "fow": {
-          "baseline": 9.0,
-          "recent": 10.0,
-          "delta": 1.0,
-          "ratio": 1.111
-        },
-        "fo": {
-          "baseline": 18.0,
-          "recent": 16.5,
-          "delta": -1.5,
-          "ratio": 0.917
-        },
-        "pts": {
-          "baseline": 0.6,
-          "recent": 1.5,
-          "delta": 0.9,
-          "ratio": 2.5
-        },
-        "ppp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "RETURNED_FROM_IR:WSH:logan thompson:2026-10-28",
-          "type": "RETURNED_FROM_IR",
-          "team": "WSH",
-          "player": "Logan Thompson",
-          "player_key": "logan thompson",
-          "detected_at": "2026-10-28T17:31:45Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:WSH:mitchell gibson:2026-10-28",
-          "type": "ACTIVE_REMOVED",
-          "team": "WSH",
-          "player": "Mitchell Gibson",
-          "player_key": "mitchell gibson",
-          "detected_at": "2026-10-28T17:31:45Z"
-        },
-        {
-          "id": "NEW_IR:WSH:logan thompson:2026-10-27",
-          "type": "NEW_IR",
-          "team": "WSH",
-          "player": "Logan Thompson",
-          "player_key": "logan thompson",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "NEW_IR:WSH:vincent desharnais:2026-10-27",
-          "type": "NEW_IR",
-          "team": "WSH",
-          "player": "Vincent Desharnais",
-          "player_key": "vincent desharnais",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:WSH:pierre luc dubois:2026-10-27",
-          "type": "RETURNED_FROM_IR",
-          "team": "WSH",
-          "player": "Pierre-Luc Dubois",
-          "player_key": "pierre luc dubois",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:WSH:jack st ivany:2026-10-27",
-          "type": "ACTIVE_ADDED",
-          "team": "WSH",
-          "player": "Jack St. Ivany",
-          "player_key": "jack st ivany",
-          "detected_at": "2026-10-27T18:54:20Z"
-        }
-      ],
-      "latest_final_game_date": "2026-10-24",
-      "latest_final_game_id": 2026020173
-    },
-    {
       "nhl_player_id": 8480012,
       "espn_player_id": 4233566,
       "name": "Elias Pettersson",
@@ -34651,6 +34519,161 @@
       ],
       "latest_final_game_date": "2026-10-26",
       "latest_final_game_id": 2026020186
+    },
+    {
+      "nhl_player_id": 8481030,
+      "espn_player_id": 4755690,
+      "name": "Jack St. Ivany",
+      "nhl_team": "WSH",
+      "position": "D",
+      "espn_status": "FREEAGENT",
+      "espn_team_id": 0,
+      "percent_owned": 0.04,
+      "nhl_roster_status": "ACTIVE",
+      "score": 10,
+      "reliability": "MEDIUM",
+      "recommendation": "WATCH",
+      "categories": [
+        "G",
+        "A",
+        "PTS"
+      ],
+      "signals": [
+        {
+          "type": "PRODUCTION_UP",
+          "label": "Рост результативности",
+          "strong": false
+        }
+      ],
+      "metrics": {
+        "toi": {
+          "baseline": 834.33,
+          "recent": 813.0,
+          "delta": -21.33,
+          "ratio": 0.974
+        },
+        "ev_toi": {
+          "baseline": 834.0,
+          "recent": 813.0,
+          "delta": -21.0,
+          "ratio": 0.975
+        },
+        "pp_toi": {
+          "baseline": 0.33,
+          "recent": 0.0,
+          "delta": -0.33,
+          "ratio": 0.0
+        },
+        "sh_toi": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "sog": {
+          "baseline": 0.33,
+          "recent": 0.5,
+          "delta": 0.17,
+          "ratio": 1.5
+        },
+        "hit": {
+          "baseline": 1.67,
+          "recent": 0.5,
+          "delta": -1.17,
+          "ratio": 0.3
+        },
+        "blk": {
+          "baseline": 1.33,
+          "recent": 1.5,
+          "delta": 0.17,
+          "ratio": 1.125
+        },
+        "fow": {
+          "baseline": null,
+          "recent": null,
+          "delta": null,
+          "ratio": null
+        },
+        "fo": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "pts": {
+          "baseline": 0.0,
+          "recent": 1.0,
+          "delta": 1.0,
+          "ratio": null
+        },
+        "ppp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "shp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        }
+      },
+      "baseline_games": 3,
+      "recent_games": 2,
+      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
+      "team_context": [
+        {
+          "id": "RETURNED_FROM_IR:WSH:logan thompson:2026-10-28",
+          "type": "RETURNED_FROM_IR",
+          "team": "WSH",
+          "player": "Logan Thompson",
+          "player_key": "logan thompson",
+          "detected_at": "2026-10-28T17:31:45Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:WSH:mitchell gibson:2026-10-28",
+          "type": "ACTIVE_REMOVED",
+          "team": "WSH",
+          "player": "Mitchell Gibson",
+          "player_key": "mitchell gibson",
+          "detected_at": "2026-10-28T17:31:45Z"
+        },
+        {
+          "id": "NEW_IR:WSH:logan thompson:2026-10-27",
+          "type": "NEW_IR",
+          "team": "WSH",
+          "player": "Logan Thompson",
+          "player_key": "logan thompson",
+          "detected_at": "2026-10-27T18:54:20Z"
+        },
+        {
+          "id": "NEW_IR:WSH:vincent desharnais:2026-10-27",
+          "type": "NEW_IR",
+          "team": "WSH",
+          "player": "Vincent Desharnais",
+          "player_key": "vincent desharnais",
+          "detected_at": "2026-10-27T18:54:20Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:WSH:pierre luc dubois:2026-10-27",
+          "type": "RETURNED_FROM_IR",
+          "team": "WSH",
+          "player": "Pierre-Luc Dubois",
+          "player_key": "pierre luc dubois",
+          "detected_at": "2026-10-27T18:54:20Z"
+        },
+        {
+          "id": "ACTIVE_ADDED:WSH:jack st ivany:2026-10-27",
+          "type": "ACTIVE_ADDED",
+          "team": "WSH",
+          "player": "Jack St. Ivany",
+          "player_key": "jack st ivany",
+          "detected_at": "2026-10-27T18:54:20Z"
+        }
+      ],
+      "latest_final_game_date": "2026-10-28",
+      "latest_final_game_id": 2026020199
     },
     {
       "nhl_player_id": 8483756,
@@ -35787,129 +35810,6 @@
       "latest_final_game_id": 2026020191
     },
     {
-      "nhl_player_id": 8480220,
-      "espn_player_id": 4419682,
-      "name": "Noah Cates",
-      "nhl_team": "PHI",
-      "position": "L",
-      "espn_status": "ONTEAM",
-      "espn_team_id": 16,
-      "percent_owned": 2.05,
-      "nhl_roster_status": "ACTIVE",
-      "score": 10,
-      "reliability": "HIGH",
-      "recommendation": "TRACK ONLY",
-      "categories": [
-        "G",
-        "A",
-        "PTS"
-      ],
-      "signals": [
-        {
-          "type": "PRODUCTION_UP",
-          "label": "Рост результативности",
-          "strong": false
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 835.0,
-          "recent": 819.0,
-          "delta": -16.0,
-          "ratio": 0.981
-        },
-        "ev_toi": {
-          "baseline": 715.0,
-          "recent": 722.5,
-          "delta": 7.5,
-          "ratio": 1.01
-        },
-        "pp_toi": {
-          "baseline": 2.4,
-          "recent": 15.5,
-          "delta": 13.1,
-          "ratio": 6.458
-        },
-        "sh_toi": {
-          "baseline": 117.6,
-          "recent": 81.0,
-          "delta": -36.6,
-          "ratio": 0.689
-        },
-        "sog": {
-          "baseline": 0.6,
-          "recent": 1.0,
-          "delta": 0.4,
-          "ratio": 1.667
-        },
-        "hit": {
-          "baseline": 0.8,
-          "recent": 1.0,
-          "delta": 0.2,
-          "ratio": 1.25
-        },
-        "blk": {
-          "baseline": 0.6,
-          "recent": 1.0,
-          "delta": 0.4,
-          "ratio": 1.667
-        },
-        "fow": {
-          "baseline": 3.2,
-          "recent": 3.5,
-          "delta": 0.3,
-          "ratio": 1.094
-        },
-        "fo": {
-          "baseline": 8.2,
-          "recent": 8.5,
-          "delta": 0.3,
-          "ratio": 1.037
-        },
-        "pts": {
-          "baseline": 0.2,
-          "recent": 1.0,
-          "delta": 0.8,
-          "ratio": 5.0
-        },
-        "ppp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "RETURNED_FROM_IR:PHI:cam york:2026-10-27",
-          "type": "RETURNED_FROM_IR",
-          "team": "PHI",
-          "player": "Cam York",
-          "player_key": "cam york",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:PHI:garrett wilson:2026-10-27",
-          "type": "ACTIVE_REMOVED",
-          "team": "PHI",
-          "player": "Garrett Wilson",
-          "player_key": "garrett wilson",
-          "detected_at": "2026-10-27T18:54:20Z"
-        }
-      ],
-      "latest_final_game_date": "2026-10-27",
-      "latest_final_game_id": 2026020188
-    },
-    {
       "nhl_player_id": 8482118,
       "espn_player_id": 4697441,
       "name": "Sam Colangelo",
@@ -36654,127 +36554,6 @@
       ],
       "latest_final_game_date": "2026-10-27",
       "latest_final_game_id": 2026020194
-    },
-    {
-      "nhl_player_id": 8476372,
-      "espn_player_id": 2564164,
-      "name": "Nick Seeler",
-      "nhl_team": "PHI",
-      "position": "D",
-      "espn_status": "ONTEAM",
-      "espn_team_id": 18,
-      "percent_owned": 17.01,
-      "nhl_roster_status": "ACTIVE",
-      "score": 8,
-      "reliability": "HIGH",
-      "recommendation": "TRACK ONLY",
-      "categories": [
-        "SHP"
-      ],
-      "signals": [
-        {
-          "type": "SHP_EVENT",
-          "label": "SHP в последних матчах",
-          "strong": false
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 1269.0,
-          "recent": 1045.0,
-          "delta": -224.0,
-          "ratio": 0.823
-        },
-        "ev_toi": {
-          "baseline": 1038.2,
-          "recent": 920.5,
-          "delta": -117.7,
-          "ratio": 0.887
-        },
-        "pp_toi": {
-          "baseline": 2.6,
-          "recent": 0.0,
-          "delta": -2.6,
-          "ratio": 0.0
-        },
-        "sh_toi": {
-          "baseline": 228.2,
-          "recent": 124.5,
-          "delta": -103.7,
-          "ratio": 0.546
-        },
-        "sog": {
-          "baseline": 0.8,
-          "recent": 0.0,
-          "delta": -0.8,
-          "ratio": 0.0
-        },
-        "hit": {
-          "baseline": 2.0,
-          "recent": 0.5,
-          "delta": -1.5,
-          "ratio": 0.25
-        },
-        "blk": {
-          "baseline": 2.2,
-          "recent": 0.5,
-          "delta": -1.7,
-          "ratio": 0.227
-        },
-        "fow": {
-          "baseline": null,
-          "recent": null,
-          "delta": null,
-          "ratio": null
-        },
-        "fo": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "pts": {
-          "baseline": 0.0,
-          "recent": 0.5,
-          "delta": 0.5,
-          "ratio": null
-        },
-        "ppp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.5,
-          "delta": 0.5,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "RETURNED_FROM_IR:PHI:cam york:2026-10-27",
-          "type": "RETURNED_FROM_IR",
-          "team": "PHI",
-          "player": "Cam York",
-          "player_key": "cam york",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:PHI:garrett wilson:2026-10-27",
-          "type": "ACTIVE_REMOVED",
-          "team": "PHI",
-          "player": "Garrett Wilson",
-          "player_key": "garrett wilson",
-          "detected_at": "2026-10-27T18:54:20Z"
-        }
-      ],
-      "latest_final_game_date": "2026-10-27",
-      "latest_final_game_id": 2026020188
     },
     {
       "nhl_player_id": 8482109,
@@ -37933,6 +37712,125 @@
       ],
       "latest_final_game_date": "2026-10-26",
       "latest_final_game_id": 2026020186
+    },
+    {
+      "nhl_player_id": 8484142,
+      "espn_player_id": 5173105,
+      "name": "Denver Barkey",
+      "nhl_team": "PHI",
+      "position": "C",
+      "espn_status": "FREEAGENT",
+      "espn_team_id": 0,
+      "percent_owned": 0.39,
+      "nhl_roster_status": "ACTIVE",
+      "score": 6,
+      "reliability": "HIGH",
+      "recommendation": "WATCH",
+      "categories": [],
+      "signals": [
+        {
+          "type": "PPP_UP",
+          "label": "Рост PPP",
+          "strong": false
+        }
+      ],
+      "metrics": {
+        "toi": {
+          "baseline": 903.4,
+          "recent": 904.5,
+          "delta": 1.1,
+          "ratio": 1.001
+        },
+        "ev_toi": {
+          "baseline": 697.6,
+          "recent": 678.0,
+          "delta": -19.6,
+          "ratio": 0.972
+        },
+        "pp_toi": {
+          "baseline": 197.6,
+          "recent": 226.5,
+          "delta": 28.9,
+          "ratio": 1.146
+        },
+        "sh_toi": {
+          "baseline": 8.2,
+          "recent": 0.0,
+          "delta": -8.2,
+          "ratio": 0.0
+        },
+        "sog": {
+          "baseline": 1.2,
+          "recent": 0.5,
+          "delta": -0.7,
+          "ratio": 0.417
+        },
+        "hit": {
+          "baseline": 0.8,
+          "recent": 0.0,
+          "delta": -0.8,
+          "ratio": 0.0
+        },
+        "blk": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "fow": {
+          "baseline": 1.2,
+          "recent": 1.0,
+          "delta": -0.2,
+          "ratio": 0.833
+        },
+        "fo": {
+          "baseline": 2.4,
+          "recent": 4.5,
+          "delta": 2.1,
+          "ratio": 1.875
+        },
+        "pts": {
+          "baseline": 0.4,
+          "recent": 0.5,
+          "delta": 0.1,
+          "ratio": 1.25
+        },
+        "ppp": {
+          "baseline": 0.2,
+          "recent": 0.5,
+          "delta": 0.3,
+          "ratio": 2.5
+        },
+        "shp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        }
+      },
+      "baseline_games": 5,
+      "recent_games": 2,
+      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
+      "team_context": [
+        {
+          "id": "RETURNED_FROM_IR:PHI:cam york:2026-10-27",
+          "type": "RETURNED_FROM_IR",
+          "team": "PHI",
+          "player": "Cam York",
+          "player_key": "cam york",
+          "detected_at": "2026-10-27T18:54:20Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:PHI:garrett wilson:2026-10-27",
+          "type": "ACTIVE_REMOVED",
+          "team": "PHI",
+          "player": "Garrett Wilson",
+          "player_key": "garrett wilson",
+          "detected_at": "2026-10-27T18:54:20Z"
+        }
+      ],
+      "latest_final_game_date": "2026-10-28",
+      "latest_final_game_id": 2026020199
     },
     {
       "nhl_player_id": 8475200,
