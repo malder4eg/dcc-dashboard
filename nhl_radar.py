@@ -951,7 +951,14 @@ def validate_wilsby(history: dict, mapping: dict, radar: dict, roster: dict) -> 
     required = ["2026-10-01", "2026-10-03", "2026-10-06", "2026-10-08", "2026-10-10", "2026-10-17"]
     missing = [d for d in required if d not in by_date]
     if missing:
-        raise RuntimeError(f"Wilsby validation failed: missing games {missing}")
+        # This is a rolling 12-game history. The October regression fixtures
+        # naturally age out; do not block live NHL updates when they do.
+        return {
+            "nhl_player_id": int(player["nhl_player_id"]),
+            "validation": "SKIPPED_HISTORY_WINDOW",
+            "missing_dates": missing,
+            "roster_status": roster_status_for("adam wilsby", "NSH", roster),
+        }
 
     first3 = [by_date[d] for d in required[:3]]
     next2 = [by_date[d] for d in required[3:5]]
@@ -1036,14 +1043,20 @@ def run(*, dry_run: bool, strict: bool) -> int:
             f"signals={radar['counts']['signals_all']}, "
             f"available={radar['counts']['signals_available']}"
         )
-        print(
-            "Wilsby control: "
-            f"baseline={wilsby['baseline_toi_seconds']}s, "
-            f"Oct8-10={wilsby['oct8_10_toi_seconds']}s, "
-            f"delta={wilsby['delta_seconds']}s, "
-            f"ESPN={wilsby['espn_player_id']}, "
-            f"roster={wilsby['roster_status']}"
-        )
+        if wilsby.get("validation") == "SKIPPED_HISTORY_WINDOW":
+            print(
+                "Wilsby historical control skipped (rolling history aged out): "
+                + ", ".join(wilsby["missing_dates"])
+            )
+        else:
+            print(
+                "Wilsby control: "
+                f"baseline={wilsby['baseline_toi_seconds']}s, "
+                f"Oct8-10={wilsby['oct8_10_toi_seconds']}s, "
+                f"delta={wilsby['delta_seconds']}s, "
+                f"ESPN={wilsby['espn_player_id']}, "
+                f"roster={wilsby['roster_status']}"
+            )
 
         if dry_run:
             return 0
