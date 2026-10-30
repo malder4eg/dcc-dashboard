@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-30 23:23 МСК",
+  "updated": "2026-10-31 00:22 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "20:23:38 10/30/2026",
+  "report_updated": "21:22:45 10/30/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 711,
-  "ir_count": 77,
+  "active_count": 710,
+  "ir_count": 78,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -4528,12 +4528,6 @@
           "position": "L"
         },
         {
-          "sweater": 77,
-          "name": "FILIP CHYTIL",
-          "name_key": "filip chytil",
-          "position": "C"
-        },
-        {
           "sweater": 88,
           "name": "JONATHAN LEKKERIMAKI",
           "name_key": "jonathan lekkerimaki",
@@ -4565,6 +4559,13 @@
           "name_key": "thatcher demko",
           "position": "G",
           "ir_date": "2026-01-11"
+        },
+        {
+          "sweater": 77,
+          "name": "FILIP CHYTIL",
+          "name_key": "filip chytil",
+          "position": "C",
+          "ir_date": "2026-10-30"
         }
       ]
     },
@@ -5034,6 +5035,14 @@
     }
   },
   "events": [
+    {
+      "id": "NEW_IR:VAN:filip chytil:2026-10-30",
+      "type": "NEW_IR",
+      "team": "VAN",
+      "player": "Filip Chytil",
+      "player_key": "filip chytil",
+      "detected_at": "2026-10-30T21:22:45Z"
+    },
     {
       "id": "ACTIVE_REMOVED:ANA:nikita klepov:2026-10-30",
       "type": "ACTIVE_REMOVED",
