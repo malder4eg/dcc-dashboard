@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-30 17:42 МСК",
+  "updated": "2026-10-30 18:36 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "14:42:47 10/30/2026",
+  "report_updated": "15:36:28 10/30/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 717,
+  "active_count": 713,
   "ir_count": 75,
   "teams": {
     "ANA": {
@@ -1326,12 +1326,6 @@
           "position": "G"
         },
         {
-          "sweater": 43,
-          "name": "MATTHEW SEMINOFF",
-          "name_key": "matthew seminoff",
-          "position": "R"
-        },
-        {
           "sweater": 49,
           "name": "JUSTIN HRYCKOWIAN",
           "name_key": "justin hryckowian",
@@ -2071,12 +2065,6 @@
           "position": "C"
         },
         {
-          "sweater": 18,
-          "name": "MASON SHAW",
-          "name_key": "mason shaw",
-          "position": "C"
-        },
-        {
           "sweater": 19,
           "name": "TYLER PITLICK",
           "name_key": "tyler pitlick",
@@ -2147,12 +2135,6 @@
           "name": "MAXIM SHABANOV",
           "name_key": "maxim shabanov",
           "position": "R"
-        },
-        {
-          "sweater": 55,
-          "name": "CARSON LAMBOS",
-          "name_key": "carson lambos",
-          "position": "D"
         },
         {
           "sweater": 78,
@@ -3839,12 +3821,6 @@
           "position": "D"
         },
         {
-          "sweater": 28,
-          "name": "OTTO STENBERG",
-          "name_key": "otto stenberg",
-          "position": "C"
-        },
-        {
           "sweater": 29,
           "name": "JONATAN BERGGREN",
           "name_key": "jonatan berggren",
@@ -5056,6 +5032,38 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_REMOVED:DAL:matthew seminoff:2026-10-30",
+      "type": "ACTIVE_REMOVED",
+      "team": "DAL",
+      "player": "Matthew Seminoff",
+      "player_key": "matthew seminoff",
+      "detected_at": "2026-10-30T15:36:28Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:MIN:carson lambos:2026-10-30",
+      "type": "ACTIVE_REMOVED",
+      "team": "MIN",
+      "player": "Carson Lambos",
+      "player_key": "carson lambos",
+      "detected_at": "2026-10-30T15:36:28Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:MIN:mason shaw:2026-10-30",
+      "type": "ACTIVE_REMOVED",
+      "team": "MIN",
+      "player": "Mason Shaw",
+      "player_key": "mason shaw",
+      "detected_at": "2026-10-30T15:36:28Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:STL:otto stenberg:2026-10-30",
+      "type": "ACTIVE_REMOVED",
+      "team": "STL",
+      "player": "Otto Stenberg",
+      "player_key": "otto stenberg",
+      "detected_at": "2026-10-30T15:36:28Z"
+    },
     {
       "id": "NEW_IR:BUF:justin danforth:2026-10-29",
       "type": "NEW_IR",
