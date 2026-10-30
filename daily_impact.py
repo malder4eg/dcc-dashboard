@@ -120,7 +120,7 @@ def build(date_string: str, history: dict, mapping: dict, index: dict,
             espn = by_espn_id.get(int(mapped.get("espn_player_id") or 0), {})
             status = espn.get("availability", "UNVERIFIED")
             owner_id = espn.get("on_team_id")
-            owner = owners.get(int(owner_id), "UNKNOWN") if owner_id is not None else None
+            owner = owners.get(int(owner_id)) if owner_id else None
             stats = {key: game.get(key) for key in CATEGORIES}
             stats.update({
                 "ev_toi": game.get("ev_toi"),
