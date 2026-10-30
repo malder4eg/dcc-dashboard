@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-30 22:33 МСК",
+  "updated": "2026-10-30 23:23 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "19:33:23 10/30/2026",
+  "report_updated": "20:23:38 10/30/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 713,
-  "ir_count": 76,
+  "active_count": 711,
+  "ir_count": 77,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -82,12 +82,6 @@
           "name": "JEFF MALOTT",
           "name_key": "jeff malott",
           "position": "L"
-        },
-        {
-          "sweater": 40,
-          "name": "NIKITA KLEPOV",
-          "name_key": "nikita klepov",
-          "position": "R"
         },
         {
           "sweater": 42,
@@ -3057,12 +3051,6 @@
           "position": "C"
         },
         {
-          "sweater": 37,
-          "name": "WARREN FOEGELE",
-          "name_key": "warren foegele",
-          "position": "L"
-        },
-        {
           "sweater": 42,
           "name": "HAYDEN HODGSON",
           "name_key": "hayden hodgson",
@@ -3113,6 +3101,13 @@
           "name_key": "linus ullmark",
           "position": "G",
           "ir_date": "2026-10-22"
+        },
+        {
+          "sweater": 37,
+          "name": "WARREN FOEGELE",
+          "name_key": "warren foegele",
+          "position": "L",
+          "ir_date": "2026-10-30"
         }
       ]
     },
@@ -4655,15 +4650,15 @@
           "position": "C"
         },
         {
-          "sweater": 39,
-          "name": "CAMERON WHITEHEAD",
-          "name_key": "cameron whitehead",
-          "position": "G"
-        },
-        {
           "sweater": 42,
           "name": "BRAEDEN BOWMAN",
           "name_key": "braeden bowman",
+          "position": "R"
+        },
+        {
+          "sweater": 46,
+          "name": "JONAS RONDBJERG",
+          "name_key": "jonas rondbjerg",
           "position": "R"
         },
         {
@@ -5039,6 +5034,38 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_REMOVED:ANA:nikita klepov:2026-10-30",
+      "type": "ACTIVE_REMOVED",
+      "team": "ANA",
+      "player": "Nikita Klepov",
+      "player_key": "nikita klepov",
+      "detected_at": "2026-10-30T20:23:38Z"
+    },
+    {
+      "id": "NEW_IR:OTT:warren foegele:2026-10-30",
+      "type": "NEW_IR",
+      "team": "OTT",
+      "player": "Warren Foegele",
+      "player_key": "warren foegele",
+      "detected_at": "2026-10-30T20:23:38Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:VGK:jonas rondbjerg:2026-10-30",
+      "type": "ACTIVE_ADDED",
+      "team": "VGK",
+      "player": "Jonas Rondbjerg",
+      "player_key": "jonas rondbjerg",
+      "detected_at": "2026-10-30T20:23:38Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:VGK:cameron whitehead:2026-10-30",
+      "type": "ACTIVE_REMOVED",
+      "team": "VGK",
+      "player": "Cameron Whitehead",
+      "player_key": "cameron whitehead",
+      "detected_at": "2026-10-30T20:23:38Z"
+    },
     {
       "id": "ACTIVE_REMOVED:DET:axel sandin pellikka:2026-10-30",
       "type": "ACTIVE_REMOVED",
