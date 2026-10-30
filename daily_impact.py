@@ -133,11 +133,25 @@ def build(date_string: str, history: dict, mapping: dict, index: dict,
         pro_team_id = player.get("espn_pro_team_id")
         if nhl_team and pro_team_id is not None:
             team_votes[nhl_team][int(pro_team_id)] += 1
+    # The machine NHL/ESPN map can omit entire NHL teams. Infer their
+    # ESPN pro-team ID from multiple UNIQUE-name skaters in tonight's games,
+    # then validate the individual candidate's team before using ownership.
+    for player in history.get("players", {}).values():
+        for game in player.get("games", []):
+            if (game.get("game_date") != date_string
+                    or int(game.get("game_id") or 0) not in finals):
+                continue
+            candidates = index_by_name.get(normalize_name(
+                game.get("name") or player.get("name")), [])
+            if len(candidates) == 1 and candidates[0].get("pro_team_id") is not None:
+                team_votes[game.get("team")][int(candidates[0]["pro_team_id"])] += 1
+            break
     # Do not infer a team when the evidence is ambiguous.
     team_ids = {
         team: counts.most_common(1)[0][0]
         for team, counts in team_votes.items()
-        if len(counts) == 1 or (
+        if sum(counts.values()) >= 5 and (
+            len(counts) == 1 or
             counts.most_common(1)[0][1] > 2 * counts.most_common(2)[1][1]
         )
     }
