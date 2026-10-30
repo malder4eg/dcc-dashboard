@@ -1,0 +1,44 @@
+name: DCC daily fantasy impact
+
+on:
+  schedule:
+    # 09:05 Moscow (UTC+3); allow time before the 09:30 ChatGPT briefing.
+    - cron: "5 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "daily_impact.py"
+      - ".github/workflows/daily_impact.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  impact:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: dcc-refresh
+      cancel-in-progress: false
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Refresh NHL skater statistics
+        run: python nhl_radar.py
+
+      - name: Rank all completed NHL games for DCC
+        run: python daily_impact.py
+
+      - name: Publish personal daily impact snapshot
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update DCC daily fantasy impact"
+          file_pattern: "ducks-radar-7c91e4f2/*.json"
