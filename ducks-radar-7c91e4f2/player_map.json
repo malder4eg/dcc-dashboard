@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-30 05:31 МСК",
+  "updated": "2026-10-30 06:29 МСК",
   "method": "Exact normalized full name with NHL/ESPN team and position validation; no surname-only fuzzy joins.",
   "mapped": [
     {
@@ -8752,6 +8752,11 @@
       "filtered_count": 0
     },
     {
+      "nhl_player_id": 8483436,
+      "name": "Artem Duda",
+      "reason": "no_exact_name"
+    },
+    {
       "nhl_player_id": 8483447,
       "name": "Conor Geekie",
       "reason": "ambiguous_or_team_position_mismatch",
@@ -8848,6 +8853,11 @@
       "filtered_count": 0
     },
     {
+      "nhl_player_id": 8485468,
+      "name": "Trey Taylor",
+      "reason": "no_exact_name"
+    },
+    {
       "nhl_player_id": 8486103,
       "name": "Ivar Stenberg",
       "reason": "ambiguous_or_team_position_mismatch",
@@ -8857,7 +8867,7 @@
   ],
   "coverage": {
     "mapped": 628,
-    "unmatched": 101,
-    "ratio": 0.8615
+    "unmatched": 103,
+    "ratio": 0.8591
   }
 }
