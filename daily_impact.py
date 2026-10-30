@@ -2,14 +2,18 @@
 """Daily DCC skater impact ranking. Uses the NHL collector's verified game history.
 
 Every DCC category contributes separately. Scores are relative to the 90th
-percentile of recent NHL skater-games, capped per category so a single stat
-cannot swamp broad multi-category value. ESPN files are the ownership authority.
+percentile of recent NHL skater-games, with no category caps: every
+additional goal, assist, faceoff win, hit and block counts. ESPN files are the
+ownership authority.
 """
 from __future__ import annotations
 
 import argparse
 import json
 import math
+import re
+import unicodedata
+from collections import Counter, defaultdict
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -57,22 +61,45 @@ def benchmarks_from_history(history: dict) -> dict[str, float]:
 
 
 def calculate_impact(game: dict, benchmarks: dict[str, float]) -> tuple[float, dict, int]:
+    # No upper cap, including for negative +/-: every additional category unit
+    # has the same normalized value. Preserve the existing category weights.
     components = {}
     for category in CATEGORIES:
         value = float(game.get(category) or 0)
-        ratio = value / benchmarks[category]
-        if category == "plus_minus" and ratio < 0:
-            contribution = -min(2.0, abs(ratio))
-        else:
-            contribution = min(2.0, max(0.0, ratio))
+        contribution = value / benchmarks[category]
+        if category != "plus_minus":
+            contribution = max(0.0, contribution)
         components[category] = round(contribution, 3)
     breadth = sum(
         components[key] >= 0.5
         for key in CATEGORIES if key not in ("toi", "plus_minus")
     )
-    # Small breadth bonus; all 11 real DCC categories remain in the base score.
-    score = sum(components.values()) + min(0.7, 0.10 * breadth)
+    # Small breadth bonus, with no arbitrary cap.
+    score = sum(components.values()) + 0.10 * breadth
     return round(score, 3), components, breadth
+
+
+def normalize_name(name: str) -> str:
+    name = unicodedata.normalize("NFKD", name or "")
+    name = "".join(c for c in name if not unicodedata.combining(c))
+    return re.sub(r"[^a-z0-9]", "", name.lower())
+
+
+def safe_espn_fallback(nhl_name: str, nhl_team: str,
+                       index_by_name: dict, team_ids: dict) -> dict:
+    """Resolve unmapped skaters only by UNIQUE full name and matching NHL team.
+
+    Uses team IDs inferred from already verified NHL/ESPN mappings. A name
+    collision, missing team, or mismatched team remains UNVERIFIED.
+    """
+    candidates = index_by_name.get(normalize_name(nhl_name), [])
+    expected_team = team_ids.get(nhl_team)
+    if len(candidates) != 1 or expected_team is None:
+        return {}
+    candidate = candidates[0]
+    if int(candidate.get("pro_team_id") or -1) != expected_team:
+        return {}
+    return candidate
 
 
 def scoreboard(date_string: str) -> list[dict]:
@@ -97,6 +124,23 @@ def build(date_string: str, history: dict, mapping: dict, index: dict,
         for p in mapping.get("mapped", []) if p.get("nhl_player_id") is not None
     }
     by_espn_id = {int(p["id"]): p for p in index.get("players", [])}
+    index_by_name = defaultdict(list)
+    for player in index.get("players", []):
+        index_by_name[normalize_name(player.get("name"))].append(player)
+    team_votes = defaultdict(Counter)
+    for player in mapping.get("mapped", []):
+        nhl_team = player.get("nhl_team")
+        pro_team_id = player.get("espn_pro_team_id")
+        if nhl_team and pro_team_id is not None:
+            team_votes[nhl_team][int(pro_team_id)] += 1
+    # Do not infer a team when the evidence is ambiguous.
+    team_ids = {
+        team: counts.most_common(1)[0][0]
+        for team, counts in team_votes.items()
+        if len(counts) == 1 or (
+            counts.most_common(1)[0][1] > 2 * counts.most_common(2)[1][1]
+        )
+    }
     owners = {int(t["id"]): t.get("name", "") for t in analysis.get("teams", [])}
     benchmarks = benchmarks_from_history(history)
     rankings = []
@@ -118,6 +162,11 @@ def build(date_string: str, history: dict, mapping: dict, index: dict,
             score, components, breadth = calculate_impact(game, benchmarks)
             mapped = by_nhl_id.get(int(player_id), {})
             espn = by_espn_id.get(int(mapped.get("espn_player_id") or 0), {})
+            if not espn:
+                espn = safe_espn_fallback(
+                    game.get("name") or player.get("name"), game.get("team"),
+                    index_by_name, team_ids,
+                )
             status = espn.get("availability", "UNVERIFIED")
             owner_id = espn.get("on_team_id")
             owner = owners.get(int(owner_id)) if owner_id else None
@@ -180,7 +229,7 @@ def build(date_string: str, history: dict, mapping: dict, index: dict,
         and (not finals or bool(rankings))
     )
     return {
-        "schema_version": 1,
+        "schema_version": 2,
         "game_date": date_string,
         "generated_at": now.replace(microsecond=0).isoformat().replace("+00:00", "Z"),
         "updated": now.astimezone(MSK).strftime("%Y-%m-%d %H:%M МСК"),
@@ -194,10 +243,10 @@ def build(date_string: str, history: dict, mapping: dict, index: dict,
             "espn": "players/index.json + analysis.json",
         },
         "method": {
-            "description": "Sum of capped per-category results / recent NHL skater-game p90; plus-minus penalizes negative values; small breadth bonus. All 11 DCC categories scored separately.",
+            "description": "Uncapped sum of per-category results / recent NHL skater-game p90; negative plus-minus subtracts points; small breadth bonus. All 11 DCC categories scored separately.",
             "categories": list(CATEGORIES),
-            "category_cap": 2.0,
-            "breadth_bonus": "0.1 for each non-TOI, non-plus-minus category with impact >= 0.5; max 0.7",
+            "category_cap": None,
+            "breadth_bonus": "0.1 for each non-TOI, non-plus-minus category with impact >= 0.5; no cap",
             "benchmarks_p90": {k: round(v, 2) for k, v in benchmarks.items()},
             "not_included": ["goalies", "xG", "line combinations"],
         },
