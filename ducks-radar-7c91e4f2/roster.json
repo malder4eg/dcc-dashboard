@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-30 18:36 МСК",
+  "updated": "2026-10-30 19:33 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "15:36:28 10/30/2026",
+  "report_updated": "16:33:29 10/30/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 713,
-  "ir_count": 75,
+  "active_count": 714,
+  "ir_count": 76,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -495,12 +495,6 @@
       "name": "Calgary Flames",
       "active": [
         {
-          "sweater": 1,
-          "name": "DEVIN COOLEY",
-          "name_key": "devin cooley",
-          "position": "G"
-        },
-        {
           "sweater": 7,
           "name": "KEVIN BAHL",
           "name_key": "kevin bahl",
@@ -555,6 +549,12 @@
           "position": "G"
         },
         {
+          "sweater": 35,
+          "name": "ARSENII SERGEEV",
+          "name_key": "arsenii sergeev",
+          "position": "G"
+        },
+        {
           "sweater": 37,
           "name": "YAN KUZNETSOV",
           "name_key": "yan kuznetsov",
@@ -588,6 +588,12 @@
           "sweater": 61,
           "name": "AYDAR SUNIEV",
           "name_key": "aydar suniev",
+          "position": "L"
+        },
+        {
+          "sweater": 65,
+          "name": "WILLIAM STROMGREN",
+          "name_key": "william stromgren",
           "position": "L"
         },
         {
@@ -628,6 +634,13 @@
         }
       ],
       "ir": [
+        {
+          "sweater": 1,
+          "name": "DEVIN COOLEY",
+          "name_key": "devin cooley",
+          "position": "G",
+          "ir_date": "2026-10-30"
+        },
         {
           "sweater": 10,
           "name": "JONATHAN HUBERDEAU",
@@ -5032,6 +5045,30 @@
     }
   },
   "events": [
+    {
+      "id": "NEW_IR:CGY:devin cooley:2026-10-30",
+      "type": "NEW_IR",
+      "team": "CGY",
+      "player": "Devin Cooley",
+      "player_key": "devin cooley",
+      "detected_at": "2026-10-30T16:33:29Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:CGY:arsenii sergeev:2026-10-30",
+      "type": "ACTIVE_ADDED",
+      "team": "CGY",
+      "player": "Arsenii Sergeev",
+      "player_key": "arsenii sergeev",
+      "detected_at": "2026-10-30T16:33:29Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:CGY:william stromgren:2026-10-30",
+      "type": "ACTIVE_ADDED",
+      "team": "CGY",
+      "player": "William Stromgren",
+      "player_key": "william stromgren",
+      "detected_at": "2026-10-30T16:33:29Z"
+    },
     {
       "id": "ACTIVE_REMOVED:DAL:matthew seminoff:2026-10-30",
       "type": "ACTIVE_REMOVED",
