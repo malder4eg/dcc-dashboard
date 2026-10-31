@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-31 16:34 МСК",
+  "updated": "2026-10-31 17:24 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "13:34:17 10/31/2026",
+  "report_updated": "14:24:03 10/31/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 710,
+  "active_count": 715,
   "ir_count": 78,
   "teams": {
     "ANA": {
@@ -1430,6 +1430,12 @@
           "sweater": 24,
           "name": "ANDREAS ENGLUND",
           "name_key": "andreas englund",
+          "position": "D"
+        },
+        {
+          "sweater": 25,
+          "name": "JACOB BERNARD-DOCKER",
+          "name_key": "jacob bernard docker",
           "position": "D"
         },
         {
@@ -3063,6 +3069,18 @@
           "position": "D"
         },
         {
+          "sweater": 53,
+          "name": "XAVIER BOURGAULT",
+          "name_key": "xavier bourgault",
+          "position": "R"
+        },
+        {
+          "sweater": 62,
+          "name": "PHILIP TOMASINO",
+          "name_key": "philip tomasino",
+          "position": "R"
+        },
+        {
           "sweater": 71,
           "name": "RIDLY GREIG",
           "name_key": "ridly greig",
@@ -3774,6 +3792,12 @@
     "STL": {
       "name": "St. Louis Blues",
       "active": [
+        {
+          "sweater": 4,
+          "name": "THEO LINDSTEIN",
+          "name_key": "theo lindstein",
+          "position": "D"
+        },
         {
           "sweater": 6,
           "name": "PHILIP BROBERG",
@@ -4516,6 +4540,12 @@
           "position": "D"
         },
         {
+          "sweater": 62,
+          "name": "JACOB QUILLAN",
+          "name_key": "jacob quillan",
+          "position": "C"
+        },
+        {
           "sweater": 63,
           "name": "MAX SASSON",
           "name_key": "max sasson",
@@ -5035,6 +5065,46 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_ADDED:DET:jacob bernard docker:2026-10-31",
+      "type": "ACTIVE_ADDED",
+      "team": "DET",
+      "player": "Jacob Bernard Docker",
+      "player_key": "jacob bernard docker",
+      "detected_at": "2026-10-31T14:24:03Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:OTT:philip tomasino:2026-10-31",
+      "type": "ACTIVE_ADDED",
+      "team": "OTT",
+      "player": "Philip Tomasino",
+      "player_key": "philip tomasino",
+      "detected_at": "2026-10-31T14:24:03Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:OTT:xavier bourgault:2026-10-31",
+      "type": "ACTIVE_ADDED",
+      "team": "OTT",
+      "player": "Xavier Bourgault",
+      "player_key": "xavier bourgault",
+      "detected_at": "2026-10-31T14:24:03Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:STL:theo lindstein:2026-10-31",
+      "type": "ACTIVE_ADDED",
+      "team": "STL",
+      "player": "Theo Lindstein",
+      "player_key": "theo lindstein",
+      "detected_at": "2026-10-31T14:24:03Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:VAN:jacob quillan:2026-10-31",
+      "type": "ACTIVE_ADDED",
+      "team": "VAN",
+      "player": "Jacob Quillan",
+      "player_key": "jacob quillan",
+      "detected_at": "2026-10-31T14:24:03Z"
+    },
     {
       "id": "NEW_IR:VAN:filip chytil:2026-10-30",
       "type": "NEW_IR",
