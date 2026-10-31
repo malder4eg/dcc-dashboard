@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-31 20:18 МСК",
+  "updated": "2026-10-31 21:20 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "17:18:21 10/31/2026",
+  "report_updated": "18:20:58 10/31/2026",
   "complete": true,
   "team_count": 32,
   "active_count": 717,
-  "ir_count": 78,
+  "ir_count": 77,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -1127,6 +1127,12 @@
           "position": "D"
         },
         {
+          "sweater": 9,
+          "name": "IVAN PROVOROV",
+          "name_key": "ivan provorov",
+          "position": "D"
+        },
+        {
           "sweater": 10,
           "name": "DMITRI VORONKOV",
           "name_key": "dmitri voronkov",
@@ -1229,15 +1235,7 @@
           "position": "L"
         }
       ],
-      "ir": [
-        {
-          "sweater": 9,
-          "name": "IVAN PROVOROV",
-          "name_key": "ivan provorov",
-          "position": "D",
-          "ir_date": "2026-10-01"
-        }
-      ]
+      "ir": []
     },
     "DAL": {
       "name": "Dallas Stars",
@@ -1297,12 +1295,6 @@
           "position": "C"
         },
         {
-          "sweater": 20,
-          "name": "KYLE CAPOBIANCO",
-          "name_key": "kyle capobianco",
-          "position": "D"
-        },
-        {
           "sweater": 21,
           "name": "JASON ROBERTSON",
           "name_key": "jason robertson",
@@ -1313,6 +1305,12 @@
           "name": "JOEL KIVIRANTA",
           "name_key": "joel kiviranta",
           "position": "L"
+        },
+        {
+          "sweater": 23,
+          "name": "ESA LINDELL",
+          "name_key": "esa lindell",
+          "position": "D"
         },
         {
           "sweater": 24,
@@ -1384,11 +1382,11 @@
           "ir_date": "2026-10-16"
         },
         {
-          "sweater": 23,
-          "name": "ESA LINDELL",
-          "name_key": "esa lindell",
+          "sweater": 20,
+          "name": "KYLE CAPOBIANCO",
+          "name_key": "kyle capobianco",
           "position": "D",
-          "ir_date": "2026-10-24"
+          "ir_date": "2026-10-31"
         },
         {
           "sweater": 95,
@@ -3180,12 +3178,6 @@
           "name": "SEAN COUTURIER",
           "name_key": "sean couturier",
           "position": "C"
-        },
-        {
-          "sweater": 19,
-          "name": "HUNTER MCDONALD",
-          "name_key": "hunter mcdonald",
-          "position": "D"
         },
         {
           "sweater": 20,
@@ -5077,6 +5069,38 @@
     }
   },
   "events": [
+    {
+      "id": "RETURNED_FROM_IR:CBJ:ivan provorov:2026-10-31",
+      "type": "RETURNED_FROM_IR",
+      "team": "CBJ",
+      "player": "Ivan Provorov",
+      "player_key": "ivan provorov",
+      "detected_at": "2026-10-31T18:20:58Z"
+    },
+    {
+      "id": "NEW_IR:DAL:kyle capobianco:2026-10-31",
+      "type": "NEW_IR",
+      "team": "DAL",
+      "player": "Kyle Capobianco",
+      "player_key": "kyle capobianco",
+      "detected_at": "2026-10-31T18:20:58Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:DAL:esa lindell:2026-10-31",
+      "type": "RETURNED_FROM_IR",
+      "team": "DAL",
+      "player": "Esa Lindell",
+      "player_key": "esa lindell",
+      "detected_at": "2026-10-31T18:20:58Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:PHI:hunter mcdonald:2026-10-31",
+      "type": "ACTIVE_REMOVED",
+      "team": "PHI",
+      "player": "Hunter McDonald",
+      "player_key": "hunter mcdonald",
+      "detected_at": "2026-10-31T18:20:58Z"
+    },
     {
       "id": "ACTIVE_ADDED:MIN:mason shaw:2026-10-31",
       "type": "ACTIVE_ADDED",
