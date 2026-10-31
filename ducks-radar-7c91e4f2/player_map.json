@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-31 05:31 МСК",
+  "updated": "2026-10-31 06:28 МСК",
   "method": "Exact normalized full name with NHL/ESPN team and position validation; no surname-only fuzzy joins.",
   "mapped": [
     {
@@ -8612,9 +8612,7 @@
     {
       "nhl_player_id": 8480995,
       "name": "Pontus Holmberg",
-      "reason": "ambiguous_or_team_position_mismatch",
-      "candidate_count": 1,
-      "filtered_count": 0
+      "reason": "no_exact_name"
     },
     {
       "nhl_player_id": 8481532,
