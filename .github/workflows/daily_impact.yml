@@ -2,8 +2,8 @@ name: DCC daily fantasy impact
 
 on:
   schedule:
-    # 09:05 Moscow (UTC+3); allow time before the 09:30 ChatGPT briefing.
-    - cron: "5 6 * * *"
+    # 08:45 Moscow (UTC+3); extra time for GitHub schedule delays before 09:30 briefing.
+    - cron: "45 5 * * *"
   workflow_dispatch:
   push:
     branches: [main]
