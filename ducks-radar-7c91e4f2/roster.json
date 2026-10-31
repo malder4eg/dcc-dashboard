@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-31 21:20 МСК",
+  "updated": "2026-10-31 22:26 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "18:20:58 10/31/2026",
+  "report_updated": "19:26:43 10/31/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 717,
+  "active_count": 718,
   "ir_count": 77,
   "teams": {
     "ANA": {
@@ -64,6 +64,12 @@
           "name": "JUDD CAULFIELD",
           "name_key": "judd caulfield",
           "position": "R"
+        },
+        {
+          "sweater": 31,
+          "name": "LAURENT BROSSOIT",
+          "name_key": "laurent brossoit",
+          "position": "G"
         },
         {
           "sweater": 33,
@@ -5069,6 +5075,14 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_ADDED:ANA:laurent brossoit:2026-10-31",
+      "type": "ACTIVE_ADDED",
+      "team": "ANA",
+      "player": "Laurent Brossoit",
+      "player_key": "laurent brossoit",
+      "detected_at": "2026-10-31T19:26:43Z"
+    },
     {
       "id": "RETURNED_FROM_IR:CBJ:ivan provorov:2026-10-31",
       "type": "RETURNED_FROM_IR",
