@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-31 17:24 МСК",
-  "generated_at": "2026-10-31T14:24:03Z",
+  "updated": "2026-10-31 18:19 МСК",
+  "generated_at": "2026-10-31T15:19:36Z",
   "source": {
     "nhl_stats": "https://api.nhle.com/stats/rest/en/",
     "nhl_game_status": "https://api-web.nhle.com/v1/",
@@ -22,9 +22,9 @@
   },
   "counts": {
     "signals_all": 315,
-    "signals_available": 87,
-    "add_candidates": 3,
-    "watch": 84,
+    "signals_available": 85,
+    "add_candidates": 2,
+    "watch": 83,
     "new_signals": 0
   },
   "new_signals": [],
@@ -276,120 +276,6 @@
       "latest_final_game_id": 2026020203
     },
     {
-      "nhl_player_id": 8474013,
-      "espn_player_id": 4991,
-      "name": "Ian Cole",
-      "nhl_team": "CHI",
-      "position": "D",
-      "espn_status": "FREEAGENT",
-      "espn_team_id": 0,
-      "percent_owned": 0.3,
-      "nhl_roster_status": "ACTIVE",
-      "score": 55,
-      "reliability": "HIGH",
-      "recommendation": "ADD CANDIDATE",
-      "categories": [
-        "TOI",
-        "HIT"
-      ],
-      "signals": [
-        {
-          "type": "TOI_SURGE",
-          "label": "Рост TOI",
-          "strong": true
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 1030.4,
-          "recent": 1402.5,
-          "delta": 372.1,
-          "ratio": 1.361
-        },
-        "ev_toi": {
-          "baseline": 845.4,
-          "recent": 1205.5,
-          "delta": 360.1,
-          "ratio": 1.426
-        },
-        "pp_toi": {
-          "baseline": 1.6,
-          "recent": 6.5,
-          "delta": 4.9,
-          "ratio": 4.062
-        },
-        "sh_toi": {
-          "baseline": 183.4,
-          "recent": 190.5,
-          "delta": 7.1,
-          "ratio": 1.039
-        },
-        "sog": {
-          "baseline": 0.4,
-          "recent": 0.0,
-          "delta": -0.4,
-          "ratio": 0.0
-        },
-        "hit": {
-          "baseline": 1.2,
-          "recent": 2.0,
-          "delta": 0.8,
-          "ratio": 1.667
-        },
-        "blk": {
-          "baseline": 2.0,
-          "recent": 1.0,
-          "delta": -1.0,
-          "ratio": 0.5
-        },
-        "fow": {
-          "baseline": null,
-          "recent": null,
-          "delta": null,
-          "ratio": null
-        },
-        "fo": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "pts": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "ppp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Повышенный TOI держится минимум два завершённых матча подряд.",
-      "team_context": [
-        {
-          "id": "RETURNED_FROM_IR:CHI:andrew mangiapane:2026-10-27",
-          "type": "RETURNED_FROM_IR",
-          "team": "CHI",
-          "player": "Andrew Mangiapane",
-          "player_key": "andrew mangiapane",
-          "detected_at": "2026-10-27T18:54:20Z"
-        }
-      ],
-      "latest_final_game_date": "2026-10-29",
-      "latest_final_game_id": 2026020203
-    },
-    {
       "nhl_player_id": 8482124,
       "espn_player_id": null,
       "name": "Quinton Byfield",
@@ -552,7 +438,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 92.38,
+      "percent_owned": 92.39,
       "nhl_roster_status": "ACTIVE",
       "score": 88,
       "reliability": "MEDIUM",
@@ -659,6 +545,14 @@
       "role_outlook": "Повышенный TOI держится минимум два завершённых матча подряд.",
       "team_context": [
         {
+          "id": "NEW_IR:OTT:andre burakovsky:2026-10-31",
+          "type": "NEW_IR",
+          "team": "OTT",
+          "player": "Andre Burakovsky",
+          "player_key": "andre burakovsky",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
+        {
           "id": "ACTIVE_ADDED:OTT:philip tomasino:2026-10-31",
           "type": "ACTIVE_ADDED",
           "team": "OTT",
@@ -702,7 +596,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 14.41,
+      "percent_owned": 14.43,
       "nhl_roster_status": "ACTIVE",
       "score": 83,
       "reliability": "HIGH",
@@ -810,6 +704,14 @@
       "role_outlook": "Повышенный TOI держится минимум два завершённых матча подряд.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:COL:gavin brindley:2026-10-31",
+          "type": "ACTIVE_ADDED",
+          "team": "COL",
+          "player": "Gavin Brindley",
+          "player_key": "gavin brindley",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
+        {
           "id": "NEW_IR:COL:zachary l heureux:2026-10-27",
           "type": "NEW_IR",
           "team": "COL",
@@ -837,7 +739,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 9.14,
+      "percent_owned": 9.12,
       "nhl_roster_status": "ACTIVE",
       "score": 75,
       "reliability": "HIGH",
@@ -1124,7 +1026,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 15.77,
+      "percent_owned": 15.83,
       "nhl_roster_status": "ACTIVE",
       "score": 65,
       "reliability": "HIGH",
@@ -1260,7 +1162,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 19.75,
+      "percent_owned": 19.84,
       "nhl_roster_status": "ACTIVE",
       "score": 64,
       "reliability": "HIGH",
@@ -1373,6 +1275,14 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "NEW_IR:OTT:andre burakovsky:2026-10-31",
+          "type": "NEW_IR",
+          "team": "OTT",
+          "player": "Andre Burakovsky",
+          "player_key": "andre burakovsky",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
         {
           "id": "ACTIVE_ADDED:OTT:philip tomasino:2026-10-31",
           "type": "ACTIVE_ADDED",
@@ -1516,6 +1426,14 @@
       "recent_games": 1,
       "role_outlook": "Сигнал пока основан на одном завершённом матче; нужна повторная проверка.",
       "team_context": [
+        {
+          "id": "ACTIVE_ADDED:NYI:isaiah george:2026-10-31",
+          "type": "ACTIVE_ADDED",
+          "team": "NYI",
+          "player": "Isaiah George",
+          "player_key": "isaiah george",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
         {
           "id": "NEW_IR:NYI:calum ritchie:2026-10-27",
           "type": "NEW_IR",
@@ -1827,7 +1745,7 @@
       "position": "C",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.42,
+      "percent_owned": 0.43,
       "nhl_roster_status": "ACTIVE",
       "score": 60,
       "reliability": "HIGH",
@@ -1986,7 +1904,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 66.43,
+      "percent_owned": 66.45,
       "nhl_roster_status": "ACTIVE",
       "score": 56,
       "reliability": "HIGH",
@@ -2127,7 +2045,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 97.89,
+      "percent_owned": 97.91,
       "nhl_roster_status": "ACTIVE",
       "score": 56,
       "reliability": "HIGH",
@@ -2526,6 +2444,120 @@
       "latest_final_game_id": 2026020199
     },
     {
+      "nhl_player_id": 8474013,
+      "espn_player_id": 4991,
+      "name": "Ian Cole",
+      "nhl_team": "CHI",
+      "position": "D",
+      "espn_status": "ONTEAM",
+      "espn_team_id": 1,
+      "percent_owned": 0.3,
+      "nhl_roster_status": "ACTIVE",
+      "score": 55,
+      "reliability": "HIGH",
+      "recommendation": "TRACK ONLY",
+      "categories": [
+        "TOI",
+        "HIT"
+      ],
+      "signals": [
+        {
+          "type": "TOI_SURGE",
+          "label": "Рост TOI",
+          "strong": true
+        }
+      ],
+      "metrics": {
+        "toi": {
+          "baseline": 1030.4,
+          "recent": 1402.5,
+          "delta": 372.1,
+          "ratio": 1.361
+        },
+        "ev_toi": {
+          "baseline": 845.4,
+          "recent": 1205.5,
+          "delta": 360.1,
+          "ratio": 1.426
+        },
+        "pp_toi": {
+          "baseline": 1.6,
+          "recent": 6.5,
+          "delta": 4.9,
+          "ratio": 4.062
+        },
+        "sh_toi": {
+          "baseline": 183.4,
+          "recent": 190.5,
+          "delta": 7.1,
+          "ratio": 1.039
+        },
+        "sog": {
+          "baseline": 0.4,
+          "recent": 0.0,
+          "delta": -0.4,
+          "ratio": 0.0
+        },
+        "hit": {
+          "baseline": 1.2,
+          "recent": 2.0,
+          "delta": 0.8,
+          "ratio": 1.667
+        },
+        "blk": {
+          "baseline": 2.0,
+          "recent": 1.0,
+          "delta": -1.0,
+          "ratio": 0.5
+        },
+        "fow": {
+          "baseline": null,
+          "recent": null,
+          "delta": null,
+          "ratio": null
+        },
+        "fo": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "pts": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "ppp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "shp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        }
+      },
+      "baseline_games": 5,
+      "recent_games": 2,
+      "role_outlook": "Повышенный TOI держится минимум два завершённых матча подряд.",
+      "team_context": [
+        {
+          "id": "RETURNED_FROM_IR:CHI:andrew mangiapane:2026-10-27",
+          "type": "RETURNED_FROM_IR",
+          "team": "CHI",
+          "player": "Andrew Mangiapane",
+          "player_key": "andrew mangiapane",
+          "detected_at": "2026-10-27T18:54:20Z"
+        }
+      ],
+      "latest_final_game_date": "2026-10-29",
+      "latest_final_game_id": 2026020203
+    },
+    {
       "nhl_player_id": 8478498,
       "espn_player_id": 3900240,
       "name": "Jake DeBrusk",
@@ -2533,7 +2565,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 60.99,
+      "percent_owned": 60.98,
       "nhl_roster_status": "ACTIVE",
       "score": 55,
       "reliability": "HIGH",
@@ -2661,7 +2693,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 18,
-      "percent_owned": 85.29,
+      "percent_owned": 85.31,
       "nhl_roster_status": "ACTIVE",
       "score": 55,
       "reliability": "HIGH",
@@ -2930,7 +2962,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 2.13,
+      "percent_owned": 2.14,
       "nhl_roster_status": "ACTIVE",
       "score": 54,
       "reliability": "HIGH",
@@ -3038,6 +3070,14 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "ACTIVE_ADDED:NYI:isaiah george:2026-10-31",
+          "type": "ACTIVE_ADDED",
+          "team": "NYI",
+          "player": "Isaiah George",
+          "player_key": "isaiah george",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
         {
           "id": "NEW_IR:NYI:calum ritchie:2026-10-27",
           "type": "NEW_IR",
@@ -3222,7 +3262,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 2.03,
+      "percent_owned": 2.02,
       "nhl_roster_status": "ACTIVE",
       "score": 48,
       "reliability": "HIGH",
@@ -3322,6 +3362,14 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "ACTIVE_ADDED:COL:gavin brindley:2026-10-31",
+          "type": "ACTIVE_ADDED",
+          "team": "COL",
+          "player": "Gavin Brindley",
+          "player_key": "gavin brindley",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
         {
           "id": "NEW_IR:COL:zachary l heureux:2026-10-27",
           "type": "NEW_IR",
@@ -4167,7 +4215,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 69.28,
+      "percent_owned": 69.25,
       "nhl_roster_status": "ACTIVE",
       "score": 45,
       "reliability": "HIGH",
@@ -4578,7 +4626,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 1.65,
+      "percent_owned": 1.64,
       "nhl_roster_status": "ACTIVE",
       "score": 43,
       "reliability": "HIGH",
@@ -4746,7 +4794,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 76.6,
+      "percent_owned": 76.58,
       "nhl_roster_status": "ACTIVE",
       "score": 41,
       "reliability": "HIGH",
@@ -4864,7 +4912,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 8.17,
+      "percent_owned": 8.13,
       "nhl_roster_status": "ACTIVE",
       "score": 41,
       "reliability": "HIGH",
@@ -5427,7 +5475,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 38.66,
+      "percent_owned": 38.6,
       "nhl_roster_status": "ACTIVE",
       "score": 41,
       "reliability": "HIGH",
@@ -5562,7 +5610,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 18,
-      "percent_owned": 84.46,
+      "percent_owned": 84.49,
       "nhl_roster_status": "ACTIVE",
       "score": 41,
       "reliability": "HIGH",
@@ -5817,7 +5865,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
-      "percent_owned": 38.01,
+      "percent_owned": 37.89,
       "nhl_roster_status": "ACTIVE",
       "score": 40,
       "reliability": "HIGH",
@@ -6045,6 +6093,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:NYI:isaiah george:2026-10-31",
+          "type": "ACTIVE_ADDED",
+          "team": "NYI",
+          "player": "Isaiah George",
+          "player_key": "isaiah george",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
+        {
           "id": "NEW_IR:NYI:calum ritchie:2026-10-27",
           "type": "NEW_IR",
           "team": "NYI",
@@ -6072,7 +6128,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 10.01,
+      "percent_owned": 10.06,
       "nhl_roster_status": "ACTIVE",
       "score": 40,
       "reliability": "HIGH",
@@ -6228,7 +6284,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 1.46,
+      "percent_owned": 1.47,
       "nhl_roster_status": "ACTIVE",
       "score": 40,
       "reliability": "HIGH",
@@ -6356,7 +6412,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 74.96,
+      "percent_owned": 74.99,
       "nhl_roster_status": "ACTIVE",
       "score": 39,
       "reliability": "HIGH",
@@ -6463,6 +6519,14 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "ACTIVE_ADDED:COL:gavin brindley:2026-10-31",
+          "type": "ACTIVE_ADDED",
+          "team": "COL",
+          "player": "Gavin Brindley",
+          "player_key": "gavin brindley",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
         {
           "id": "NEW_IR:COL:zachary l heureux:2026-10-27",
           "type": "NEW_IR",
@@ -6609,7 +6673,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 61.11,
+      "percent_owned": 61.07,
       "nhl_roster_status": "ACTIVE",
       "score": 36,
       "reliability": "HIGH",
@@ -6753,7 +6817,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 2.93,
+      "percent_owned": 2.94,
       "nhl_roster_status": "ACTIVE",
       "score": 35,
       "reliability": "HIGH",
@@ -7394,7 +7458,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 56.51,
+      "percent_owned": 56.56,
       "nhl_roster_status": "ACTIVE",
       "score": 33,
       "reliability": "HIGH",
@@ -7561,7 +7625,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 1.23,
+      "percent_owned": 1.24,
       "nhl_roster_status": "ACTIVE",
       "score": 33,
       "reliability": "HIGH",
@@ -7665,6 +7729,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "RETURNED_FROM_IR:TOR:chris tanev:2026-10-31",
+          "type": "RETURNED_FROM_IR",
+          "team": "TOR",
+          "player": "Chris Tanev",
+          "player_key": "chris tanev",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
+        {
           "id": "NEW_IR:TOR:kirill marchenko:2026-10-29",
           "type": "NEW_IR",
           "team": "TOR",
@@ -7702,14 +7774,6 @@
           "team": "TOR",
           "player": "Cole Mcward",
           "player_key": "cole mcward",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:TOR:dakota mermis:2026-10-27",
-          "type": "ACTIVE_ADDED",
-          "team": "TOR",
-          "player": "Dakota Mermis",
-          "player_key": "dakota mermis",
           "detected_at": "2026-10-27T18:54:20Z"
         }
       ],
@@ -7825,6 +7889,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "RETURNED_FROM_IR:TOR:chris tanev:2026-10-31",
+          "type": "RETURNED_FROM_IR",
+          "team": "TOR",
+          "player": "Chris Tanev",
+          "player_key": "chris tanev",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
+        {
           "id": "NEW_IR:TOR:kirill marchenko:2026-10-29",
           "type": "NEW_IR",
           "team": "TOR",
@@ -7862,14 +7934,6 @@
           "team": "TOR",
           "player": "Cole Mcward",
           "player_key": "cole mcward",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:TOR:dakota mermis:2026-10-27",
-          "type": "ACTIVE_ADDED",
-          "team": "TOR",
-          "player": "Dakota Mermis",
-          "player_key": "dakota mermis",
           "detected_at": "2026-10-27T18:54:20Z"
         }
       ],
@@ -8287,7 +8351,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 93.08,
+      "percent_owned": 93.09,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -8437,7 +8501,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 25.35,
+      "percent_owned": 25.58,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -8841,6 +8905,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:NYI:isaiah george:2026-10-31",
+          "type": "ACTIVE_ADDED",
+          "team": "NYI",
+          "player": "Isaiah George",
+          "player_key": "isaiah george",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
+        {
           "id": "NEW_IR:NYI:calum ritchie:2026-10-27",
           "type": "NEW_IR",
           "team": "NYI",
@@ -8868,7 +8940,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 54.11,
+      "percent_owned": 54.17,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -9298,7 +9370,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 46.85,
+      "percent_owned": 47.38,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -9456,7 +9528,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 15.07,
+      "percent_owned": 15.27,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -9886,13 +9958,13 @@
       "name": "Jamie Oleksiak",
       "nhl_team": "VAN",
       "position": "D",
-      "espn_status": "FREEAGENT",
-      "espn_team_id": 0,
+      "espn_status": "ONTEAM",
+      "espn_team_id": 9,
       "percent_owned": 5.75,
       "nhl_roster_status": "ACTIVE",
       "score": 30,
       "reliability": "HIGH",
-      "recommendation": "WATCH",
+      "recommendation": "TRACK ONLY",
       "categories": [
         "TOI"
       ],
@@ -10162,7 +10234,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 9.55,
+      "percent_owned": 9.69,
       "nhl_roster_status": "ACTIVE",
       "score": 30,
       "reliability": "HIGH",
@@ -10303,7 +10375,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 73.71,
+      "percent_owned": 73.7,
       "nhl_roster_status": "ACTIVE",
       "score": 30,
       "reliability": "HIGH",
@@ -10544,7 +10616,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 15.45,
+      "percent_owned": 15.41,
       "nhl_roster_status": "ACTIVE",
       "score": 30,
       "reliability": "HIGH",
@@ -10790,6 +10862,14 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "ACTIVE_ADDED:NYI:isaiah george:2026-10-31",
+          "type": "ACTIVE_ADDED",
+          "team": "NYI",
+          "player": "Isaiah George",
+          "player_key": "isaiah george",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
         {
           "id": "NEW_IR:NYI:calum ritchie:2026-10-27",
           "type": "NEW_IR",
@@ -11091,7 +11171,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 82.03,
+      "percent_owned": 82.04,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -11979,6 +12059,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:COL:gavin brindley:2026-10-31",
+          "type": "ACTIVE_ADDED",
+          "team": "COL",
+          "player": "Gavin Brindley",
+          "player_key": "gavin brindley",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
+        {
           "id": "NEW_IR:COL:zachary l heureux:2026-10-27",
           "type": "NEW_IR",
           "team": "COL",
@@ -12006,7 +12094,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 25.17,
+      "percent_owned": 25.16,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -12488,7 +12576,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 80.74,
+      "percent_owned": 80.73,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -12634,7 +12722,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 40.67,
+      "percent_owned": 40.66,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -12998,7 +13086,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.28,
+      "percent_owned": 0.27,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "MEDIUM",
@@ -13491,7 +13579,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 86.47,
+      "percent_owned": 86.49,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -13591,7 +13679,16 @@
       "baseline_games": 5,
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [],
+      "team_context": [
+        {
+          "id": "ACTIVE_REMOVED:UTA:daniil but:2026-10-31",
+          "type": "ACTIVE_REMOVED",
+          "team": "UTA",
+          "player": "Daniil But",
+          "player_key": "daniil but",
+          "detected_at": "2026-10-31T15:19:36Z"
+        }
+      ],
       "latest_final_game_date": "2026-10-29",
       "latest_final_game_id": 2026020205
     },
@@ -13603,7 +13700,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 2.99,
+      "percent_owned": 2.98,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -13707,7 +13804,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 5.69,
+      "percent_owned": 5.68,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -13953,7 +14050,16 @@
       "baseline_games": 3,
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [],
+      "team_context": [
+        {
+          "id": "ACTIVE_REMOVED:UTA:daniil but:2026-10-31",
+          "type": "ACTIVE_REMOVED",
+          "team": "UTA",
+          "player": "Daniil But",
+          "player_key": "daniil but",
+          "detected_at": "2026-10-31T15:19:36Z"
+        }
+      ],
       "latest_final_game_date": "2026-10-08",
       "latest_final_game_id": 2026020056
     },
@@ -14318,6 +14424,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:NYI:isaiah george:2026-10-31",
+          "type": "ACTIVE_ADDED",
+          "team": "NYI",
+          "player": "Isaiah George",
+          "player_key": "isaiah george",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
+        {
           "id": "NEW_IR:NYI:calum ritchie:2026-10-27",
           "type": "NEW_IR",
           "team": "NYI",
@@ -14345,7 +14459,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 50.52,
+      "percent_owned": 50.56,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -14474,7 +14588,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 9,
-      "percent_owned": 27.28,
+      "percent_owned": 27.24,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -15090,7 +15204,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 9,
-      "percent_owned": 7.68,
+      "percent_owned": 7.67,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -15211,7 +15325,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 92.22,
+      "percent_owned": 92.23,
       "nhl_roster_status": "ACTIVE",
       "score": 24,
       "reliability": "HIGH",
@@ -15316,6 +15430,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:NYI:isaiah george:2026-10-31",
+          "type": "ACTIVE_ADDED",
+          "team": "NYI",
+          "player": "Isaiah George",
+          "player_key": "isaiah george",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
+        {
           "id": "NEW_IR:NYI:calum ritchie:2026-10-27",
           "type": "NEW_IR",
           "team": "NYI",
@@ -15343,7 +15465,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 9,
-      "percent_owned": 65.13,
+      "percent_owned": 65.06,
       "nhl_roster_status": "ACTIVE",
       "score": 24,
       "reliability": "HIGH",
@@ -15502,7 +15624,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 8.12,
+      "percent_owned": 8.14,
       "nhl_roster_status": "ACTIVE",
       "score": 22,
       "reliability": "HIGH",
@@ -15663,7 +15785,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 34.42,
+      "percent_owned": 34.38,
       "nhl_roster_status": "ACTIVE",
       "score": 21,
       "reliability": "HIGH",
@@ -16310,7 +16432,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 3.55,
+      "percent_owned": 3.57,
       "nhl_roster_status": "ACTIVE",
       "score": 21,
       "reliability": "HIGH",
@@ -16436,7 +16558,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 1.81,
+      "percent_owned": 1.8,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -16880,7 +17002,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 19.36,
+      "percent_owned": 19.33,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -17463,7 +17585,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 66.45,
+      "percent_owned": 66.47,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -17561,6 +17683,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "RETURNED_FROM_IR:TOR:chris tanev:2026-10-31",
+          "type": "RETURNED_FROM_IR",
+          "team": "TOR",
+          "player": "Chris Tanev",
+          "player_key": "chris tanev",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
+        {
           "id": "NEW_IR:TOR:kirill marchenko:2026-10-29",
           "type": "NEW_IR",
           "team": "TOR",
@@ -17599,14 +17729,6 @@
           "player": "Cole Mcward",
           "player_key": "cole mcward",
           "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:TOR:dakota mermis:2026-10-27",
-          "type": "ACTIVE_ADDED",
-          "team": "TOR",
-          "player": "Dakota Mermis",
-          "player_key": "dakota mermis",
-          "detected_at": "2026-10-27T18:54:20Z"
         }
       ],
       "latest_final_game_date": "2026-10-28",
@@ -17620,7 +17742,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
-      "percent_owned": 37.18,
+      "percent_owned": 37.16,
       "nhl_roster_status": "IR",
       "score": 18,
       "reliability": "HIGH",
@@ -17774,7 +17896,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 30.79,
+      "percent_owned": 30.74,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -18007,6 +18129,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "RETURNED_FROM_IR:TOR:chris tanev:2026-10-31",
+          "type": "RETURNED_FROM_IR",
+          "team": "TOR",
+          "player": "Chris Tanev",
+          "player_key": "chris tanev",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
+        {
           "id": "NEW_IR:TOR:kirill marchenko:2026-10-29",
           "type": "NEW_IR",
           "team": "TOR",
@@ -18044,14 +18174,6 @@
           "team": "TOR",
           "player": "Cole Mcward",
           "player_key": "cole mcward",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:TOR:dakota mermis:2026-10-27",
-          "type": "ACTIVE_ADDED",
-          "team": "TOR",
-          "player": "Dakota Mermis",
-          "player_key": "dakota mermis",
           "detected_at": "2026-10-27T18:54:20Z"
         }
       ],
@@ -18220,7 +18342,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 30.26,
+      "percent_owned": 30.22,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -18450,7 +18572,16 @@
       "baseline_games": 5,
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [],
+      "team_context": [
+        {
+          "id": "ACTIVE_REMOVED:UTA:daniil but:2026-10-31",
+          "type": "ACTIVE_REMOVED",
+          "team": "UTA",
+          "player": "Daniil But",
+          "player_key": "daniil but",
+          "detected_at": "2026-10-31T15:19:36Z"
+        }
+      ],
       "latest_final_game_date": "2026-10-29",
       "latest_final_game_id": 2026020205
     },
@@ -18462,7 +18593,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 15.92,
+      "percent_owned": 15.91,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -18555,7 +18686,16 @@
       "baseline_games": 5,
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [],
+      "team_context": [
+        {
+          "id": "ACTIVE_REMOVED:UTA:daniil but:2026-10-31",
+          "type": "ACTIVE_REMOVED",
+          "team": "UTA",
+          "player": "Daniil But",
+          "player_key": "daniil but",
+          "detected_at": "2026-10-31T15:19:36Z"
+        }
+      ],
       "latest_final_game_date": "2026-10-29",
       "latest_final_game_id": 2026020205
     },
@@ -18662,6 +18802,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:NYI:isaiah george:2026-10-31",
+          "type": "ACTIVE_ADDED",
+          "team": "NYI",
+          "player": "Isaiah George",
+          "player_key": "isaiah george",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
+        {
           "id": "NEW_IR:NYI:calum ritchie:2026-10-27",
           "type": "NEW_IR",
           "team": "NYI",
@@ -18689,7 +18837,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 12.21,
+      "percent_owned": 12.19,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -18923,7 +19071,16 @@
       "baseline_games": 5,
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [],
+      "team_context": [
+        {
+          "id": "ACTIVE_REMOVED:UTA:daniil but:2026-10-31",
+          "type": "ACTIVE_REMOVED",
+          "team": "UTA",
+          "player": "Daniil But",
+          "player_key": "daniil but",
+          "detected_at": "2026-10-31T15:19:36Z"
+        }
+      ],
       "latest_final_game_date": "2026-10-29",
       "latest_final_game_id": 2026020205
     },
@@ -19028,6 +19185,14 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "NEW_IR:OTT:andre burakovsky:2026-10-31",
+          "type": "NEW_IR",
+          "team": "OTT",
+          "player": "Andre Burakovsky",
+          "player_key": "andre burakovsky",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
         {
           "id": "ACTIVE_ADDED:OTT:philip tomasino:2026-10-31",
           "type": "ACTIVE_ADDED",
@@ -19313,6 +19478,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:COL:gavin brindley:2026-10-31",
+          "type": "ACTIVE_ADDED",
+          "team": "COL",
+          "player": "Gavin Brindley",
+          "player_key": "gavin brindley",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
+        {
           "id": "NEW_IR:COL:zachary l heureux:2026-10-27",
           "type": "NEW_IR",
           "team": "COL",
@@ -19581,6 +19754,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "RETURNED_FROM_IR:TOR:chris tanev:2026-10-31",
+          "type": "RETURNED_FROM_IR",
+          "team": "TOR",
+          "player": "Chris Tanev",
+          "player_key": "chris tanev",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
+        {
           "id": "NEW_IR:TOR:kirill marchenko:2026-10-29",
           "type": "NEW_IR",
           "team": "TOR",
@@ -19618,14 +19799,6 @@
           "team": "TOR",
           "player": "Cole Mcward",
           "player_key": "cole mcward",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:TOR:dakota mermis:2026-10-27",
-          "type": "ACTIVE_ADDED",
-          "team": "TOR",
-          "player": "Dakota Mermis",
-          "player_key": "dakota mermis",
           "detected_at": "2026-10-27T18:54:20Z"
         }
       ],
@@ -19946,7 +20119,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 64.13,
+      "percent_owned": 64.1,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -20093,7 +20266,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 5.14,
+      "percent_owned": 5.12,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -20495,6 +20668,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "RETURNED_FROM_IR:TOR:chris tanev:2026-10-31",
+          "type": "RETURNED_FROM_IR",
+          "team": "TOR",
+          "player": "Chris Tanev",
+          "player_key": "chris tanev",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
+        {
           "id": "NEW_IR:TOR:kirill marchenko:2026-10-29",
           "type": "NEW_IR",
           "team": "TOR",
@@ -20532,14 +20713,6 @@
           "team": "TOR",
           "player": "Cole Mcward",
           "player_key": "cole mcward",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:TOR:dakota mermis:2026-10-27",
-          "type": "ACTIVE_ADDED",
-          "team": "TOR",
-          "player": "Dakota Mermis",
-          "player_key": "dakota mermis",
           "detected_at": "2026-10-27T18:54:20Z"
         }
       ],
@@ -20843,7 +21016,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 95.12,
+      "percent_owned": 95.13,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -20945,6 +21118,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "RETURNED_FROM_IR:TOR:chris tanev:2026-10-31",
+          "type": "RETURNED_FROM_IR",
+          "team": "TOR",
+          "player": "Chris Tanev",
+          "player_key": "chris tanev",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
+        {
           "id": "NEW_IR:TOR:kirill marchenko:2026-10-29",
           "type": "NEW_IR",
           "team": "TOR",
@@ -20983,14 +21164,6 @@
           "player": "Cole Mcward",
           "player_key": "cole mcward",
           "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:TOR:dakota mermis:2026-10-27",
-          "type": "ACTIVE_ADDED",
-          "team": "TOR",
-          "player": "Dakota Mermis",
-          "player_key": "dakota mermis",
-          "detected_at": "2026-10-27T18:54:20Z"
         }
       ],
       "latest_final_game_date": "2026-10-28",
@@ -21004,7 +21177,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 89.98,
+      "percent_owned": 90.01,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -21106,6 +21279,14 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "NEW_IR:OTT:andre burakovsky:2026-10-31",
+          "type": "NEW_IR",
+          "team": "OTT",
+          "player": "Andre Burakovsky",
+          "player_key": "andre burakovsky",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
         {
           "id": "ACTIVE_ADDED:OTT:philip tomasino:2026-10-31",
           "type": "ACTIVE_ADDED",
@@ -21286,7 +21467,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
-      "percent_owned": 73.51,
+      "percent_owned": 73.58,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -21389,6 +21570,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "NEW_IR:OTT:andre burakovsky:2026-10-31",
+          "type": "NEW_IR",
+          "team": "OTT",
+          "player": "Andre Burakovsky",
+          "player_key": "andre burakovsky",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
+        {
           "id": "ACTIVE_ADDED:OTT:philip tomasino:2026-10-31",
           "type": "ACTIVE_ADDED",
           "team": "OTT",
@@ -21432,7 +21621,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
-      "percent_owned": 69.42,
+      "percent_owned": 69.41,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -21593,7 +21782,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 75.35,
+      "percent_owned": 75.39,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -21695,6 +21884,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "RETURNED_FROM_IR:TOR:chris tanev:2026-10-31",
+          "type": "RETURNED_FROM_IR",
+          "team": "TOR",
+          "player": "Chris Tanev",
+          "player_key": "chris tanev",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
+        {
           "id": "NEW_IR:TOR:kirill marchenko:2026-10-29",
           "type": "NEW_IR",
           "team": "TOR",
@@ -21732,14 +21929,6 @@
           "team": "TOR",
           "player": "Cole Mcward",
           "player_key": "cole mcward",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:TOR:dakota mermis:2026-10-27",
-          "type": "ACTIVE_ADDED",
-          "team": "TOR",
-          "player": "Dakota Mermis",
-          "player_key": "dakota mermis",
           "detected_at": "2026-10-27T18:54:20Z"
         }
       ],
@@ -21855,6 +22044,14 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "ACTIVE_ADDED:COL:gavin brindley:2026-10-31",
+          "type": "ACTIVE_ADDED",
+          "team": "COL",
+          "player": "Gavin Brindley",
+          "player_key": "gavin brindley",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
         {
           "id": "NEW_IR:COL:zachary l heureux:2026-10-27",
           "type": "NEW_IR",
@@ -21982,7 +22179,16 @@
       "baseline_games": 5,
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [],
+      "team_context": [
+        {
+          "id": "ACTIVE_REMOVED:UTA:daniil but:2026-10-31",
+          "type": "ACTIVE_REMOVED",
+          "team": "UTA",
+          "player": "Daniil But",
+          "player_key": "daniil but",
+          "detected_at": "2026-10-31T15:19:36Z"
+        }
+      ],
       "latest_final_game_date": "2026-10-17",
       "latest_final_game_id": 2026020133
     },
@@ -21994,7 +22200,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 78.26,
+      "percent_owned": 78.24,
       "nhl_roster_status": "IR",
       "score": 16,
       "reliability": "HIGH",
@@ -22096,6 +22302,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "RETURNED_FROM_IR:TOR:chris tanev:2026-10-31",
+          "type": "RETURNED_FROM_IR",
+          "team": "TOR",
+          "player": "Chris Tanev",
+          "player_key": "chris tanev",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
+        {
           "id": "NEW_IR:TOR:kirill marchenko:2026-10-29",
           "type": "NEW_IR",
           "team": "TOR",
@@ -22134,14 +22348,6 @@
           "player": "Cole Mcward",
           "player_key": "cole mcward",
           "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:TOR:dakota mermis:2026-10-27",
-          "type": "ACTIVE_ADDED",
-          "team": "TOR",
-          "player": "Dakota Mermis",
-          "player_key": "dakota mermis",
-          "detected_at": "2026-10-27T18:54:20Z"
         }
       ],
       "latest_final_game_date": "2026-10-15",
@@ -22155,7 +22361,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 5.47,
+      "percent_owned": 5.55,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -22607,7 +22813,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 9,
-      "percent_owned": 82.07,
+      "percent_owned": 82.09,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -22760,7 +22966,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 94.63,
+      "percent_owned": 94.62,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -22922,7 +23128,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 32.14,
+      "percent_owned": 32.3,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -23331,7 +23537,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 97.65,
+      "percent_owned": 97.64,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -23453,7 +23659,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 25.21,
+      "percent_owned": 25.61,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -23726,7 +23932,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 52.85,
+      "percent_owned": 52.89,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -23888,7 +24094,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 67.42,
+      "percent_owned": 67.47,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "LOW",
@@ -24252,6 +24458,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "NEW_IR:OTT:andre burakovsky:2026-10-31",
+          "type": "NEW_IR",
+          "team": "OTT",
+          "player": "Andre Burakovsky",
+          "player_key": "andre burakovsky",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
+        {
           "id": "ACTIVE_ADDED:OTT:philip tomasino:2026-10-31",
           "type": "ACTIVE_ADDED",
           "team": "OTT",
@@ -24424,7 +24638,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 1.73,
+      "percent_owned": 1.74,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -24694,7 +24908,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 80.67,
+      "percent_owned": 80.59,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -25061,7 +25275,16 @@
       "baseline_games": 5,
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [],
+      "team_context": [
+        {
+          "id": "ACTIVE_REMOVED:UTA:daniil but:2026-10-31",
+          "type": "ACTIVE_REMOVED",
+          "team": "UTA",
+          "player": "Daniil But",
+          "player_key": "daniil but",
+          "detected_at": "2026-10-31T15:19:36Z"
+        }
+      ],
       "latest_final_game_date": "2026-10-29",
       "latest_final_game_id": 2026020205
     },
@@ -25205,7 +25428,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 83.77,
+      "percent_owned": 83.78,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -25301,6 +25524,14 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "ACTIVE_ADDED:COL:gavin brindley:2026-10-31",
+          "type": "ACTIVE_ADDED",
+          "team": "COL",
+          "player": "Gavin Brindley",
+          "player_key": "gavin brindley",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
         {
           "id": "NEW_IR:COL:zachary l heureux:2026-10-27",
           "type": "NEW_IR",
@@ -25475,7 +25706,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 52.29,
+      "percent_owned": 52.24,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -25783,7 +26014,7 @@
       "position": "L",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.28,
+      "percent_owned": 0.29,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -25877,6 +26108,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "RETURNED_FROM_IR:TOR:chris tanev:2026-10-31",
+          "type": "RETURNED_FROM_IR",
+          "team": "TOR",
+          "player": "Chris Tanev",
+          "player_key": "chris tanev",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
+        {
           "id": "NEW_IR:TOR:kirill marchenko:2026-10-29",
           "type": "NEW_IR",
           "team": "TOR",
@@ -25914,14 +26153,6 @@
           "team": "TOR",
           "player": "Cole Mcward",
           "player_key": "cole mcward",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:TOR:dakota mermis:2026-10-27",
-          "type": "ACTIVE_ADDED",
-          "team": "TOR",
-          "player": "Dakota Mermis",
-          "player_key": "dakota mermis",
           "detected_at": "2026-10-27T18:54:20Z"
         }
       ],
@@ -26028,7 +26259,16 @@
       "baseline_games": 5,
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [],
+      "team_context": [
+        {
+          "id": "ACTIVE_REMOVED:UTA:daniil but:2026-10-31",
+          "type": "ACTIVE_REMOVED",
+          "team": "UTA",
+          "player": "Daniil But",
+          "player_key": "daniil but",
+          "detected_at": "2026-10-31T15:19:36Z"
+        }
+      ],
       "latest_final_game_date": "2026-10-29",
       "latest_final_game_id": 2026020205
     },
@@ -26144,7 +26384,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 5.86,
+      "percent_owned": 5.85,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -26298,7 +26538,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 6.03,
+      "percent_owned": 6.09,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -26705,7 +26945,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 96.35,
+      "percent_owned": 96.33,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -26798,7 +27038,16 @@
       "baseline_games": 5,
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [],
+      "team_context": [
+        {
+          "id": "ACTIVE_REMOVED:UTA:daniil but:2026-10-31",
+          "type": "ACTIVE_REMOVED",
+          "team": "UTA",
+          "player": "Daniil But",
+          "player_key": "daniil but",
+          "detected_at": "2026-10-31T15:19:36Z"
+        }
+      ],
       "latest_final_game_date": "2026-10-29",
       "latest_final_game_id": 2026020205
     },
@@ -27376,7 +27625,7 @@
       "position": "R",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.78,
+      "percent_owned": 0.77,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -27481,7 +27730,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 18.87,
+      "percent_owned": 18.85,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -28265,7 +28514,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 4.44,
+      "percent_owned": 4.43,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -28885,6 +29134,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:NYI:isaiah george:2026-10-31",
+          "type": "ACTIVE_ADDED",
+          "team": "NYI",
+          "player": "Isaiah George",
+          "player_key": "isaiah george",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
+        {
           "id": "NEW_IR:NYI:calum ritchie:2026-10-27",
           "type": "NEW_IR",
           "team": "NYI",
@@ -28912,7 +29169,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 9,
-      "percent_owned": 30.7,
+      "percent_owned": 30.68,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -29033,7 +29290,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 2.63,
+      "percent_owned": 2.65,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -29172,7 +29429,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 58.49,
+      "percent_owned": 58.45,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -29479,7 +29736,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 61.59,
+      "percent_owned": 61.61,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -29815,6 +30072,14 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "NEW_IR:OTT:andre burakovsky:2026-10-31",
+          "type": "NEW_IR",
+          "team": "OTT",
+          "player": "Andre Burakovsky",
+          "player_key": "andre burakovsky",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
         {
           "id": "ACTIVE_ADDED:OTT:philip tomasino:2026-10-31",
           "type": "ACTIVE_ADDED",
@@ -30432,7 +30697,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 78.49,
+      "percent_owned": 78.48,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -30782,7 +31047,16 @@
       "baseline_games": 3,
       "recent_games": 1,
       "role_outlook": "Сигнал пока основан на одном завершённом матче; нужна повторная проверка.",
-      "team_context": [],
+      "team_context": [
+        {
+          "id": "ACTIVE_REMOVED:UTA:daniil but:2026-10-31",
+          "type": "ACTIVE_REMOVED",
+          "team": "UTA",
+          "player": "Daniil But",
+          "player_key": "daniil but",
+          "detected_at": "2026-10-31T15:19:36Z"
+        }
+      ],
       "latest_final_game_date": "2026-10-27",
       "latest_final_game_id": 2026020195
     },
@@ -31084,7 +31358,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 24.68,
+      "percent_owned": 24.69,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -31495,7 +31769,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 88.93,
+      "percent_owned": 88.89,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -31648,7 +31922,7 @@
       "position": "R",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 32.67,
+      "percent_owned": 32.63,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -31803,7 +32077,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 34.17,
+      "percent_owned": 34.11,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -31957,7 +32231,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 13.95,
+      "percent_owned": 13.88,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -32442,7 +32716,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 76.58,
+      "percent_owned": 76.57,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -32734,7 +33008,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 18,
-      "percent_owned": 1.19,
+      "percent_owned": 1.18,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -32827,6 +33101,14 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "ACTIVE_ADDED:COL:gavin brindley:2026-10-31",
+          "type": "ACTIVE_ADDED",
+          "team": "COL",
+          "player": "Gavin Brindley",
+          "player_key": "gavin brindley",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
         {
           "id": "NEW_IR:COL:zachary l heureux:2026-10-27",
           "type": "NEW_IR",
@@ -32992,7 +33274,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 2.63,
+      "percent_owned": 2.64,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -33394,7 +33676,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 85.55,
+      "percent_owned": 85.54,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -33488,7 +33770,16 @@
       "baseline_games": 5,
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [],
+      "team_context": [
+        {
+          "id": "ACTIVE_REMOVED:UTA:daniil but:2026-10-31",
+          "type": "ACTIVE_REMOVED",
+          "team": "UTA",
+          "player": "Daniil But",
+          "player_key": "daniil but",
+          "detected_at": "2026-10-31T15:19:36Z"
+        }
+      ],
       "latest_final_game_date": "2026-10-29",
       "latest_final_game_id": 2026020205
     },
@@ -33935,7 +34226,7 @@
       "position": "R",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.85,
+      "percent_owned": 0.84,
       "nhl_roster_status": "ACTIVE",
       "score": 12,
       "reliability": "HIGH",
@@ -34444,7 +34735,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 97.62,
+      "percent_owned": 97.6,
       "nhl_roster_status": "ACTIVE",
       "score": 12,
       "reliability": "HIGH",
@@ -34676,6 +34967,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "RETURNED_FROM_IR:TOR:chris tanev:2026-10-31",
+          "type": "RETURNED_FROM_IR",
+          "team": "TOR",
+          "player": "Chris Tanev",
+          "player_key": "chris tanev",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
+        {
           "id": "NEW_IR:TOR:kirill marchenko:2026-10-29",
           "type": "NEW_IR",
           "team": "TOR",
@@ -34713,14 +35012,6 @@
           "team": "TOR",
           "player": "Cole Mcward",
           "player_key": "cole mcward",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:TOR:dakota mermis:2026-10-27",
-          "type": "ACTIVE_ADDED",
-          "team": "TOR",
-          "player": "Dakota Mermis",
-          "player_key": "dakota mermis",
           "detected_at": "2026-10-27T18:54:20Z"
         }
       ],
@@ -34884,7 +35175,7 @@
       "position": "L",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 10.25,
+      "percent_owned": 10.24,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -35039,7 +35330,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 45.72,
+      "percent_owned": 45.7,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -35194,7 +35485,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 72.12,
+      "percent_owned": 72.05,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -35458,7 +35749,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 4.96,
+      "percent_owned": 4.94,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -35614,7 +35905,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 6.35,
+      "percent_owned": 6.48,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -35844,7 +36135,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 1.8,
+      "percent_owned": 1.79,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -36105,7 +36396,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 68.37,
+      "percent_owned": 68.4,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -36262,7 +36553,7 @@
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
       "percent_owned": 0.11,
-      "nhl_roster_status": "UNKNOWN",
+      "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "LOW",
       "recommendation": "WATCH",
@@ -36357,6 +36648,14 @@
       "role_outlook": "Сигнал пока основан на одном завершённом матче; нужна повторная проверка.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:COL:gavin brindley:2026-10-31",
+          "type": "ACTIVE_ADDED",
+          "team": "COL",
+          "player": "Gavin Brindley",
+          "player_key": "gavin brindley",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
+        {
           "id": "NEW_IR:COL:zachary l heureux:2026-10-27",
           "type": "NEW_IR",
           "team": "COL",
@@ -36384,7 +36683,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.12,
+      "percent_owned": 0.13,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "MEDIUM",
@@ -36793,7 +37092,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 4.29,
+      "percent_owned": 4.31,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -36890,6 +37189,14 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "ACTIVE_ADDED:NYI:isaiah george:2026-10-31",
+          "type": "ACTIVE_ADDED",
+          "team": "NYI",
+          "player": "Isaiah George",
+          "player_key": "isaiah george",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
         {
           "id": "NEW_IR:NYI:calum ritchie:2026-10-27",
           "type": "NEW_IR",
@@ -37198,7 +37505,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 76.48,
+      "percent_owned": 76.44,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -37536,7 +37843,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 12.05,
+      "percent_owned": 12.04,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -37830,7 +38137,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 90.99,
+      "percent_owned": 90.98,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "LOW",
@@ -38102,7 +38409,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 8.66,
+      "percent_owned": 8.68,
       "nhl_roster_status": "IR",
       "score": 10,
       "reliability": "LOW",
@@ -38413,7 +38720,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 3.65,
+      "percent_owned": 3.64,
       "nhl_roster_status": "ACTIVE",
       "score": 8,
       "reliability": "HIGH",
@@ -38706,7 +39013,7 @@
       "position": "C",
       "espn_status": "WAIVERS",
       "espn_team_id": 0,
-      "percent_owned": 4.22,
+      "percent_owned": 4.2,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -38830,7 +39137,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 65.43,
+      "percent_owned": 65.41,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "MEDIUM",
@@ -38941,7 +39248,7 @@
       "position": "R",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.23,
+      "percent_owned": 0.22,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -39331,7 +39638,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 61.89,
+      "percent_owned": 61.84,
       "nhl_roster_status": "IR",
       "score": 6,
       "reliability": "HIGH",
@@ -40100,7 +40407,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 32.11,
+      "percent_owned": 32.13,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -40193,6 +40500,14 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "ACTIVE_ADDED:COL:gavin brindley:2026-10-31",
+          "type": "ACTIVE_ADDED",
+          "team": "COL",
+          "player": "Gavin Brindley",
+          "player_key": "gavin brindley",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
         {
           "id": "NEW_IR:COL:zachary l heureux:2026-10-27",
           "type": "NEW_IR",
@@ -40460,7 +40775,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 65.08,
+      "percent_owned": 65.1,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -40581,7 +40896,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 18,
-      "percent_owned": 49.35,
+      "percent_owned": 49.47,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -40677,6 +40992,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "RETURNED_FROM_IR:TOR:chris tanev:2026-10-31",
+          "type": "RETURNED_FROM_IR",
+          "team": "TOR",
+          "player": "Chris Tanev",
+          "player_key": "chris tanev",
+          "detected_at": "2026-10-31T15:19:36Z"
+        },
+        {
           "id": "NEW_IR:TOR:kirill marchenko:2026-10-29",
           "type": "NEW_IR",
           "team": "TOR",
@@ -40715,14 +41038,6 @@
           "player": "Cole Mcward",
           "player_key": "cole mcward",
           "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:TOR:dakota mermis:2026-10-27",
-          "type": "ACTIVE_ADDED",
-          "team": "TOR",
-          "player": "Dakota Mermis",
-          "player_key": "dakota mermis",
-          "detected_at": "2026-10-27T18:54:20Z"
         }
       ],
       "latest_final_game_date": "2026-10-28",
@@ -40736,7 +41051,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 32.46,
+      "percent_owned": 32.49,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -40889,7 +41204,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 74.32,
+      "percent_owned": 74.29,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -41046,7 +41361,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 43.14,
+      "percent_owned": 43.4,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -41186,7 +41501,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 3.87,
+      "percent_owned": 3.86,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -41873,7 +42188,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 18,
-      "percent_owned": 83.76,
+      "percent_owned": 83.73,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -42254,7 +42569,7 @@
       "position": "C",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 2.92,
+      "percent_owned": 2.93,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -42365,7 +42680,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 62.51,
+      "percent_owned": 62.49,
       "nhl_roster_status": "IR",
       "score": 6,
       "reliability": "MEDIUM",
@@ -42494,7 +42809,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 83.01,
+      "percent_owned": 82.97,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -42761,7 +43076,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 9,
-      "percent_owned": 96.21,
+      "percent_owned": 96.22,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -42910,6 +43225,46 @@
     }
   ],
   "recent_roster_events": [
+    {
+      "id": "ACTIVE_ADDED:COL:gavin brindley:2026-10-31",
+      "type": "ACTIVE_ADDED",
+      "team": "COL",
+      "player": "Gavin Brindley",
+      "player_key": "gavin brindley",
+      "detected_at": "2026-10-31T15:19:36Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:NYI:isaiah george:2026-10-31",
+      "type": "ACTIVE_ADDED",
+      "team": "NYI",
+      "player": "Isaiah George",
+      "player_key": "isaiah george",
+      "detected_at": "2026-10-31T15:19:36Z"
+    },
+    {
+      "id": "NEW_IR:OTT:andre burakovsky:2026-10-31",
+      "type": "NEW_IR",
+      "team": "OTT",
+      "player": "Andre Burakovsky",
+      "player_key": "andre burakovsky",
+      "detected_at": "2026-10-31T15:19:36Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:TOR:chris tanev:2026-10-31",
+      "type": "RETURNED_FROM_IR",
+      "team": "TOR",
+      "player": "Chris Tanev",
+      "player_key": "chris tanev",
+      "detected_at": "2026-10-31T15:19:36Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:UTA:daniil but:2026-10-31",
+      "type": "ACTIVE_REMOVED",
+      "team": "UTA",
+      "player": "Daniil But",
+      "player_key": "daniil but",
+      "detected_at": "2026-10-31T15:19:36Z"
+    },
     {
       "id": "ACTIVE_ADDED:DET:jacob bernard docker:2026-10-31",
       "type": "ACTIVE_ADDED",
@@ -43269,46 +43624,6 @@
       "player": "Filip Bystedt",
       "player_key": "filip bystedt",
       "detected_at": "2026-10-28T18:25:38Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:SJS:luca cagnoni:2026-10-28",
-      "type": "ACTIVE_REMOVED",
-      "team": "SJS",
-      "player": "Luca Cagnoni",
-      "player_key": "luca cagnoni",
-      "detected_at": "2026-10-28T18:25:38Z"
-    },
-    {
-      "id": "NEW_IR:SJS:alexander wennberg:2026-10-28",
-      "type": "NEW_IR",
-      "team": "SJS",
-      "player": "Alexander Wennberg",
-      "player_key": "alexander wennberg",
-      "detected_at": "2026-10-28T17:31:45Z"
-    },
-    {
-      "id": "NEW_IR:SJS:igor chernyshov:2026-10-28",
-      "type": "NEW_IR",
-      "team": "SJS",
-      "player": "Igor Chernyshov",
-      "player_key": "igor chernyshov",
-      "detected_at": "2026-10-28T17:31:45Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:WSH:logan thompson:2026-10-28",
-      "type": "RETURNED_FROM_IR",
-      "team": "WSH",
-      "player": "Logan Thompson",
-      "player_key": "logan thompson",
-      "detected_at": "2026-10-28T17:31:45Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:WSH:mitchell gibson:2026-10-28",
-      "type": "ACTIVE_REMOVED",
-      "team": "WSH",
-      "player": "Mitchell Gibson",
-      "player_key": "mitchell gibson",
-      "detected_at": "2026-10-28T17:31:45Z"
     }
   ]
 }

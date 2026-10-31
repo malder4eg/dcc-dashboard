@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-31 17:24 МСК",
+  "updated": "2026-10-31 18:19 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "14:24:03 10/31/2026",
+  "report_updated": "15:19:36 10/31/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 715,
+  "active_count": 716,
   "ir_count": 78,
   "teams": {
     "ANA": {
@@ -1033,6 +1033,12 @@
           "name": "NOAH JUULSEN",
           "name_key": "noah juulsen",
           "position": "D"
+        },
+        {
+          "sweater": 54,
+          "name": "GAVIN BRINDLEY",
+          "name_key": "gavin brindley",
+          "position": "C"
         },
         {
           "sweater": 62,
@@ -2718,6 +2724,12 @@
           "position": "C"
         },
         {
+          "sweater": 36,
+          "name": "ISAIAH GEORGE",
+          "name_key": "isaiah george",
+          "position": "D"
+        },
+        {
           "sweater": 38,
           "name": "VICTOR EKLUND",
           "name_key": "victor eklund",
@@ -3097,12 +3109,6 @@
           "name": "JAKE SANDERSON",
           "name_key": "jake sanderson",
           "position": "D"
-        },
-        {
-          "sweater": 95,
-          "name": "ANDRE BURAKOVSKY",
-          "name_key": "andre burakovsky",
-          "position": "L"
         }
       ],
       "ir": [
@@ -3126,6 +3132,13 @@
           "name_key": "warren foegele",
           "position": "L",
           "ir_date": "2026-10-30"
+        },
+        {
+          "sweater": 95,
+          "name": "ANDRE BURAKOVSKY",
+          "name_key": "andre burakovsky",
+          "position": "L",
+          "ir_date": "2026-10-31"
         }
       ]
     },
@@ -4110,6 +4123,12 @@
           "position": "D"
         },
         {
+          "sweater": 8,
+          "name": "CHRIS TANEV",
+          "name_key": "chris tanev",
+          "position": "D"
+        },
+        {
           "sweater": 15,
           "name": "COLTON SISSONS",
           "name_key": "colton sissons",
@@ -4245,13 +4264,6 @@
           "ir_date": "2026-10-23"
         },
         {
-          "sweater": 8,
-          "name": "CHRIS TANEV",
-          "name_key": "chris tanev",
-          "position": "D",
-          "ir_date": "2026-10-11"
-        },
-        {
           "sweater": 18,
           "name": "MILES WOOD",
           "name_key": "miles wood",
@@ -4349,12 +4361,6 @@
           "name": "LIAM O'BRIEN",
           "name_key": "liam o brien",
           "position": "C"
-        },
-        {
-          "sweater": 50,
-          "name": "DANIIL BUT",
-          "name_key": "daniil but",
-          "position": "L"
         },
         {
           "sweater": 52,
@@ -5065,6 +5071,46 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_ADDED:COL:gavin brindley:2026-10-31",
+      "type": "ACTIVE_ADDED",
+      "team": "COL",
+      "player": "Gavin Brindley",
+      "player_key": "gavin brindley",
+      "detected_at": "2026-10-31T15:19:36Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:NYI:isaiah george:2026-10-31",
+      "type": "ACTIVE_ADDED",
+      "team": "NYI",
+      "player": "Isaiah George",
+      "player_key": "isaiah george",
+      "detected_at": "2026-10-31T15:19:36Z"
+    },
+    {
+      "id": "NEW_IR:OTT:andre burakovsky:2026-10-31",
+      "type": "NEW_IR",
+      "team": "OTT",
+      "player": "Andre Burakovsky",
+      "player_key": "andre burakovsky",
+      "detected_at": "2026-10-31T15:19:36Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:TOR:chris tanev:2026-10-31",
+      "type": "RETURNED_FROM_IR",
+      "team": "TOR",
+      "player": "Chris Tanev",
+      "player_key": "chris tanev",
+      "detected_at": "2026-10-31T15:19:36Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:UTA:daniil but:2026-10-31",
+      "type": "ACTIVE_REMOVED",
+      "team": "UTA",
+      "player": "Daniil But",
+      "player_key": "daniil but",
+      "detected_at": "2026-10-31T15:19:36Z"
+    },
     {
       "id": "ACTIVE_ADDED:DET:jacob bernard docker:2026-10-31",
       "type": "ACTIVE_ADDED",
