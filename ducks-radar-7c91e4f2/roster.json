@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-01 23:17 МСК",
+  "updated": "2026-11-02 00:22 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "20:17:50 11/01/2026",
+  "report_updated": "21:22:12 11/01/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 716,
+  "active_count": 715,
   "ir_count": 74,
   "teams": {
     "ANA": {
@@ -4190,12 +4190,6 @@
           "position": "C"
         },
         {
-          "sweater": 82,
-          "name": "COLE MCWARD",
-          "name_key": "cole mcward",
-          "position": "D"
-        },
-        {
           "sweater": 88,
           "name": "WILLIAM NYLANDER",
           "name_key": "william nylander",
@@ -5042,6 +5036,14 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_REMOVED:TOR:cole mcward:2026-11-01",
+      "type": "ACTIVE_REMOVED",
+      "team": "TOR",
+      "player": "Cole Mcward",
+      "player_key": "cole mcward",
+      "detected_at": "2026-11-01T21:22:12Z"
+    },
     {
       "id": "RETURNED_FROM_IR:ANA:pavel mintyukov:2026-11-01",
       "type": "RETURNED_FROM_IR",
