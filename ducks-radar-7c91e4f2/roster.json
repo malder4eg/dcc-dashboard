@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-01 20:18 МСК",
+  "updated": "2026-11-01 21:20 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "17:18:58 11/01/2026",
+  "report_updated": "18:20:45 11/01/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 713,
+  "active_count": 714,
   "ir_count": 77,
   "teams": {
     "ANA": {
@@ -4355,6 +4355,12 @@
           "position": "D"
         },
         {
+          "sweater": 62,
+          "name": "BEN MCCARTNEY",
+          "name_key": "ben mccartney",
+          "position": "L"
+        },
+        {
           "sweater": 67,
           "name": "LAWSON CROUSE",
           "name_key": "lawson crouse",
@@ -4607,12 +4613,6 @@
           "position": "C"
         },
         {
-          "sweater": 14,
-          "name": "VILLE HEINOLA",
-          "name_key": "ville heinola",
-          "position": "D"
-        },
-        {
           "sweater": 15,
           "name": "NOAH HANIFIN",
           "name_key": "noah hanifin",
@@ -4701,6 +4701,12 @@
           "name": "WILLIAM KARLSSON",
           "name_key": "william karlsson",
           "position": "C"
+        },
+        {
+          "sweater": 74,
+          "name": "VILIAM KMEC",
+          "name_key": "viliam kmec",
+          "position": "D"
         },
         {
           "sweater": 79,
@@ -5045,6 +5051,30 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_ADDED:UTA:ben mccartney:2026-11-01",
+      "type": "ACTIVE_ADDED",
+      "team": "UTA",
+      "player": "Ben Mccartney",
+      "player_key": "ben mccartney",
+      "detected_at": "2026-11-01T18:20:46Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:VGK:viliam kmec:2026-11-01",
+      "type": "ACTIVE_ADDED",
+      "team": "VGK",
+      "player": "Viliam Kmec",
+      "player_key": "viliam kmec",
+      "detected_at": "2026-11-01T18:20:46Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:VGK:ville heinola:2026-11-01",
+      "type": "ACTIVE_REMOVED",
+      "team": "VGK",
+      "player": "Ville Heinola",
+      "player_key": "ville heinola",
+      "detected_at": "2026-11-01T18:20:46Z"
+    },
     {
       "id": "ACTIVE_REMOVED:BUF:dennis gilbert:2026-11-01",
       "type": "ACTIVE_REMOVED",
