@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-02 01:20 МСК",
+  "updated": "2026-11-02 02:20 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "22:20:45 11/01/2026",
+  "report_updated": "23:20:52 11/01/2026",
   "complete": true,
   "team_count": 32,
   "active_count": 715,
@@ -2426,6 +2426,12 @@
         },
         {
           "sweater": 51,
+          "name": "SHANE WRIGHT",
+          "name_key": "shane wright",
+          "position": "C"
+        },
+        {
+          "sweater": 51,
           "name": "VITALI PINCHUK",
           "name_key": "vitali pinchuk",
           "position": "C"
@@ -2441,12 +2447,6 @@
           "name": "ROMAN JOSI",
           "name_key": "roman josi",
           "position": "D"
-        },
-        {
-          "sweater": 71,
-          "name": "MATTHEW WOOD",
-          "name_key": "matthew wood",
-          "position": "R"
         },
         {
           "sweater": 74,
@@ -3713,12 +3713,6 @@
           "position": "D"
         },
         {
-          "sweater": 51,
-          "name": "SHANE WRIGHT",
-          "name_key": "shane wright",
-          "position": "C"
-        },
-        {
           "sweater": 59,
           "name": "BEN MEYERS",
           "name_key": "ben meyers",
@@ -3729,6 +3723,12 @@
           "name": "BRANDON MONTOUR",
           "name_key": "brandon montour",
           "position": "D"
+        },
+        {
+          "sweater": 71,
+          "name": "MATTHEW WOOD",
+          "name_key": "matthew wood",
+          "position": "R"
         },
         {
           "sweater": 74,
@@ -5036,6 +5036,38 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_ADDED:NSH:shane wright:2026-11-01",
+      "type": "ACTIVE_ADDED",
+      "team": "NSH",
+      "player": "Shane Wright",
+      "player_key": "shane wright",
+      "detected_at": "2026-11-01T23:20:52Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:NSH:matthew wood:2026-11-01",
+      "type": "ACTIVE_REMOVED",
+      "team": "NSH",
+      "player": "Matthew Wood",
+      "player_key": "matthew wood",
+      "detected_at": "2026-11-01T23:20:52Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:SEA:matthew wood:2026-11-01",
+      "type": "ACTIVE_ADDED",
+      "team": "SEA",
+      "player": "Matthew Wood",
+      "player_key": "matthew wood",
+      "detected_at": "2026-11-01T23:20:52Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:SEA:shane wright:2026-11-01",
+      "type": "ACTIVE_REMOVED",
+      "team": "SEA",
+      "player": "Shane Wright",
+      "player_key": "shane wright",
+      "detected_at": "2026-11-01T23:20:52Z"
+    },
     {
       "id": "ACTIVE_REMOVED:TOR:cole mcward:2026-11-01",
       "type": "ACTIVE_REMOVED",

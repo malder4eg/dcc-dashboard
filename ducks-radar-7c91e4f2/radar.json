@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-02 01:20 МСК",
-  "generated_at": "2026-11-01T22:20:45Z",
+  "updated": "2026-11-02 02:20 МСК",
+  "generated_at": "2026-11-01T23:20:52Z",
   "source": {
     "nhl_stats": "https://api.nhle.com/stats/rest/en/",
     "nhl_game_status": "https://api-web.nhle.com/v1/",
@@ -11,9 +11,9 @@
   "complete": true,
   "latest_final_game_date": "2026-11-01",
   "mapping_coverage": {
-    "mapped": 623,
-    "unmatched": 117,
-    "ratio": 0.8419
+    "mapped": 625,
+    "unmatched": 115,
+    "ratio": 0.8446
   },
   "signal_method": {
     "baseline": "Previous 3-5 finalized games",
@@ -22,8 +22,8 @@
   },
   "counts": {
     "signals_all": 320,
-    "signals_available": 74,
-    "add_candidates": 6,
+    "signals_available": 73,
+    "add_candidates": 5,
     "watch": 68,
     "new_signals": 0
   },
@@ -187,133 +187,6 @@
       ],
       "latest_final_game_date": "2026-10-31",
       "latest_final_game_id": 2026020218
-    },
-    {
-      "nhl_player_id": 8483524,
-      "espn_player_id": 5080144,
-      "name": "Shane Wright",
-      "nhl_team": "SEA",
-      "position": "C",
-      "espn_status": "FREEAGENT",
-      "espn_team_id": 0,
-      "percent_owned": 0.78,
-      "nhl_roster_status": "ACTIVE",
-      "score": 80,
-      "reliability": "HIGH",
-      "recommendation": "ADD CANDIDATE",
-      "categories": [
-        "TOI",
-        "PPP"
-      ],
-      "signals": [
-        {
-          "type": "TOI_SURGE",
-          "label": "Рост TOI",
-          "strong": true
-        },
-        {
-          "type": "PP_ROLE_UP",
-          "label": "Рост PP TOI",
-          "strong": true
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 808.2,
-          "recent": 1020.5,
-          "delta": 212.3,
-          "ratio": 1.263
-        },
-        "ev_toi": {
-          "baseline": 687.8,
-          "recent": 814.5,
-          "delta": 126.7,
-          "ratio": 1.184
-        },
-        "pp_toi": {
-          "baseline": 120.4,
-          "recent": 206.0,
-          "delta": 85.6,
-          "ratio": 1.711
-        },
-        "sh_toi": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "sog": {
-          "baseline": 1.4,
-          "recent": 1.0,
-          "delta": -0.4,
-          "ratio": 0.714
-        },
-        "hit": {
-          "baseline": 0.6,
-          "recent": 1.0,
-          "delta": 0.4,
-          "ratio": 1.667
-        },
-        "blk": {
-          "baseline": 1.0,
-          "recent": 0.0,
-          "delta": -1.0,
-          "ratio": 0.0
-        },
-        "fow": {
-          "baseline": 2.2,
-          "recent": 2.5,
-          "delta": 0.3,
-          "ratio": 1.136
-        },
-        "fo": {
-          "baseline": 3.2,
-          "recent": 4.0,
-          "delta": 0.8,
-          "ratio": 1.25
-        },
-        "pts": {
-          "baseline": 0.2,
-          "recent": 0.0,
-          "delta": -0.2,
-          "ratio": 0.0
-        },
-        "ppp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Повышенный TOI держится минимум два завершённых матча подряд.",
-      "team_context": [
-        {
-          "id": "NEW_IR:SEA:jared mccann:2026-10-27",
-          "type": "NEW_IR",
-          "team": "SEA",
-          "player": "Jared McCann",
-          "player_key": "jared mccann",
-          "detected_at": "2026-10-27T18:54:20Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:SEA:jani nyman:2026-10-27",
-          "type": "ACTIVE_ADDED",
-          "team": "SEA",
-          "player": "Jani Nyman",
-          "player_key": "jani nyman",
-          "detected_at": "2026-10-27T18:54:20Z"
-        }
-      ],
-      "latest_final_game_date": "2026-10-30",
-      "latest_final_game_id": 2026020216
     },
     {
       "nhl_player_id": 8482062,
@@ -1508,7 +1381,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 92.7,
+      "percent_owned": 92.71,
       "nhl_roster_status": "ACTIVE",
       "score": 83,
       "reliability": "HIGH",
@@ -1659,6 +1532,149 @@
       ],
       "latest_final_game_date": "2026-10-31",
       "latest_final_game_id": 2026020222
+    },
+    {
+      "nhl_player_id": 8483524,
+      "espn_player_id": null,
+      "name": "Shane Wright",
+      "nhl_team": "SEA",
+      "position": "C",
+      "espn_status": "UNMATCHED",
+      "espn_team_id": null,
+      "percent_owned": null,
+      "nhl_roster_status": "UNKNOWN",
+      "score": 80,
+      "reliability": "HIGH",
+      "recommendation": "WATCH",
+      "categories": [
+        "TOI",
+        "PPP"
+      ],
+      "signals": [
+        {
+          "type": "TOI_SURGE",
+          "label": "Рост TOI",
+          "strong": true
+        },
+        {
+          "type": "PP_ROLE_UP",
+          "label": "Рост PP TOI",
+          "strong": true
+        }
+      ],
+      "metrics": {
+        "toi": {
+          "baseline": 808.2,
+          "recent": 1020.5,
+          "delta": 212.3,
+          "ratio": 1.263
+        },
+        "ev_toi": {
+          "baseline": 687.8,
+          "recent": 814.5,
+          "delta": 126.7,
+          "ratio": 1.184
+        },
+        "pp_toi": {
+          "baseline": 120.4,
+          "recent": 206.0,
+          "delta": 85.6,
+          "ratio": 1.711
+        },
+        "sh_toi": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "sog": {
+          "baseline": 1.4,
+          "recent": 1.0,
+          "delta": -0.4,
+          "ratio": 0.714
+        },
+        "hit": {
+          "baseline": 0.6,
+          "recent": 1.0,
+          "delta": 0.4,
+          "ratio": 1.667
+        },
+        "blk": {
+          "baseline": 1.0,
+          "recent": 0.0,
+          "delta": -1.0,
+          "ratio": 0.0
+        },
+        "fow": {
+          "baseline": 2.2,
+          "recent": 2.5,
+          "delta": 0.3,
+          "ratio": 1.136
+        },
+        "fo": {
+          "baseline": 3.2,
+          "recent": 4.0,
+          "delta": 0.8,
+          "ratio": 1.25
+        },
+        "pts": {
+          "baseline": 0.2,
+          "recent": 0.0,
+          "delta": -0.2,
+          "ratio": 0.0
+        },
+        "ppp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "shp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        }
+      },
+      "baseline_games": 5,
+      "recent_games": 2,
+      "role_outlook": "Повышенный TOI держится минимум два завершённых матча подряд.",
+      "team_context": [
+        {
+          "id": "ACTIVE_ADDED:SEA:matthew wood:2026-11-01",
+          "type": "ACTIVE_ADDED",
+          "team": "SEA",
+          "player": "Matthew Wood",
+          "player_key": "matthew wood",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:SEA:shane wright:2026-11-01",
+          "type": "ACTIVE_REMOVED",
+          "team": "SEA",
+          "player": "Shane Wright",
+          "player_key": "shane wright",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
+        {
+          "id": "NEW_IR:SEA:jared mccann:2026-10-27",
+          "type": "NEW_IR",
+          "team": "SEA",
+          "player": "Jared McCann",
+          "player_key": "jared mccann",
+          "detected_at": "2026-10-27T18:54:20Z"
+        },
+        {
+          "id": "ACTIVE_ADDED:SEA:jani nyman:2026-10-27",
+          "type": "ACTIVE_ADDED",
+          "team": "SEA",
+          "player": "Jani Nyman",
+          "player_key": "jani nyman",
+          "detected_at": "2026-10-27T18:54:20Z"
+        }
+      ],
+      "latest_final_game_date": "2026-10-30",
+      "latest_final_game_id": 2026020216
     },
     {
       "nhl_player_id": 8478550,
@@ -1983,7 +1999,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 30.56,
+      "percent_owned": 30.55,
       "nhl_roster_status": "ACTIVE",
       "score": 73,
       "reliability": "HIGH",
@@ -2262,7 +2278,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 75.41,
+      "percent_owned": 75.45,
       "nhl_roster_status": "ACTIVE",
       "score": 61,
       "reliability": "HIGH",
@@ -2852,7 +2868,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 9,
-      "percent_owned": 3.6,
+      "percent_owned": 3.59,
       "nhl_roster_status": "ACTIVE",
       "score": 55,
       "reliability": "HIGH",
@@ -3265,7 +3281,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 10.65,
+      "percent_owned": 10.64,
       "nhl_roster_status": "ACTIVE",
       "score": 48,
       "reliability": "HIGH",
@@ -3551,7 +3567,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 27.86,
+      "percent_owned": 27.95,
       "nhl_roster_status": "ACTIVE",
       "score": 48,
       "reliability": "HIGH",
@@ -4807,7 +4823,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 16.09,
+      "percent_owned": 16.08,
       "nhl_roster_status": "ACTIVE",
       "score": 45,
       "reliability": "HIGH",
@@ -5367,7 +5383,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 76.58,
+      "percent_owned": 76.6,
       "nhl_roster_status": "ACTIVE",
       "score": 41,
       "reliability": "HIGH",
@@ -5593,6 +5609,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:SEA:matthew wood:2026-11-01",
+          "type": "ACTIVE_ADDED",
+          "team": "SEA",
+          "player": "Matthew Wood",
+          "player_key": "matthew wood",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:SEA:shane wright:2026-11-01",
+          "type": "ACTIVE_REMOVED",
+          "team": "SEA",
+          "player": "Shane Wright",
+          "player_key": "shane wright",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
+        {
           "id": "NEW_IR:SEA:jared mccann:2026-10-27",
           "type": "NEW_IR",
           "team": "SEA",
@@ -5762,7 +5794,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 8.76,
+      "percent_owned": 8.8,
       "nhl_roster_status": "ACTIVE",
       "score": 41,
       "reliability": "HIGH",
@@ -5914,7 +5946,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 3.23,
+      "percent_owned": 3.25,
       "nhl_roster_status": "ACTIVE",
       "score": 41,
       "reliability": "HIGH",
@@ -6021,6 +6053,22 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "ACTIVE_ADDED:SEA:matthew wood:2026-11-01",
+          "type": "ACTIVE_ADDED",
+          "team": "SEA",
+          "player": "Matthew Wood",
+          "player_key": "matthew wood",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:SEA:shane wright:2026-11-01",
+          "type": "ACTIVE_REMOVED",
+          "team": "SEA",
+          "player": "Shane Wright",
+          "player_key": "shane wright",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
         {
           "id": "NEW_IR:SEA:jared mccann:2026-10-27",
           "type": "NEW_IR",
@@ -6208,7 +6256,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 37.81,
+      "percent_owned": 37.8,
       "nhl_roster_status": "ACTIVE",
       "score": 41,
       "reliability": "HIGH",
@@ -6316,6 +6364,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:SEA:matthew wood:2026-11-01",
+          "type": "ACTIVE_ADDED",
+          "team": "SEA",
+          "player": "Matthew Wood",
+          "player_key": "matthew wood",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:SEA:shane wright:2026-11-01",
+          "type": "ACTIVE_REMOVED",
+          "team": "SEA",
+          "player": "Shane Wright",
+          "player_key": "shane wright",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
+        {
           "id": "NEW_IR:SEA:jared mccann:2026-10-27",
           "type": "NEW_IR",
           "team": "SEA",
@@ -6343,7 +6407,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 1.94,
+      "percent_owned": 1.95,
       "nhl_roster_status": "ACTIVE",
       "score": 41,
       "reliability": "HIGH",
@@ -6499,7 +6563,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 18,
-      "percent_owned": 85.12,
+      "percent_owned": 85.15,
       "nhl_roster_status": "ACTIVE",
       "score": 41,
       "reliability": "HIGH",
@@ -7055,7 +7119,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
-      "percent_owned": 36.48,
+      "percent_owned": 36.45,
       "nhl_roster_status": "ACTIVE",
       "score": 40,
       "reliability": "HIGH",
@@ -7154,6 +7218,22 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "ACTIVE_ADDED:SEA:matthew wood:2026-11-01",
+          "type": "ACTIVE_ADDED",
+          "team": "SEA",
+          "player": "Matthew Wood",
+          "player_key": "matthew wood",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:SEA:shane wright:2026-11-01",
+          "type": "ACTIVE_REMOVED",
+          "team": "SEA",
+          "player": "Shane Wright",
+          "player_key": "shane wright",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
         {
           "id": "NEW_IR:SEA:jared mccann:2026-10-27",
           "type": "NEW_IR",
@@ -7335,7 +7415,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 15.88,
+      "percent_owned": 15.89,
       "nhl_roster_status": "ACTIVE",
       "score": 40,
       "reliability": "HIGH",
@@ -7743,7 +7823,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 14.46,
+      "percent_owned": 14.47,
       "nhl_roster_status": "ACTIVE",
       "score": 40,
       "reliability": "HIGH",
@@ -7889,7 +7969,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 10.46,
+      "percent_owned": 10.47,
       "nhl_roster_status": "ACTIVE",
       "score": 37,
       "reliability": "HIGH",
@@ -8007,7 +8087,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 61.44,
+      "percent_owned": 61.42,
       "nhl_roster_status": "ACTIVE",
       "score": 36,
       "reliability": "HIGH",
@@ -8289,7 +8369,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 24.77,
+      "percent_owned": 24.76,
       "nhl_roster_status": "ACTIVE",
       "score": 35,
       "reliability": "HIGH",
@@ -8411,7 +8491,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
-      "percent_owned": 97.86,
+      "percent_owned": 97.85,
       "nhl_roster_status": "ACTIVE",
       "score": 35,
       "reliability": "HIGH",
@@ -8533,7 +8613,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 99.32,
+      "percent_owned": 99.31,
       "nhl_roster_status": "ACTIVE",
       "score": 34,
       "reliability": "HIGH",
@@ -8837,7 +8917,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 97.08,
+      "percent_owned": 97.07,
       "nhl_roster_status": "ACTIVE",
       "score": 33,
       "reliability": "HIGH",
@@ -9127,7 +9207,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 91.2,
+      "percent_owned": 91.21,
       "nhl_roster_status": "ACTIVE",
       "score": 33,
       "reliability": "MEDIUM",
@@ -9565,7 +9645,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 12.04,
+      "percent_owned": 12.06,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -10248,7 +10328,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
-      "percent_owned": 76.35,
+      "percent_owned": 76.38,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -10537,7 +10617,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 75.13,
+      "percent_owned": 75.11,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -10864,7 +10944,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 7.52,
+      "percent_owned": 7.51,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -11615,7 +11695,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 51.59,
+      "percent_owned": 51.69,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -11781,7 +11861,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 19.62,
+      "percent_owned": 19.84,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -11923,7 +12003,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 74.23,
+      "percent_owned": 74.24,
       "nhl_roster_status": "ACTIVE",
       "score": 30,
       "reliability": "HIGH",
@@ -12243,7 +12323,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 77.03,
+      "percent_owned": 77.04,
       "nhl_roster_status": "ACTIVE",
       "score": 28,
       "reliability": "HIGH",
@@ -13795,7 +13875,7 @@
       "position": "C",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.18,
+      "percent_owned": 0.19,
       "nhl_roster_status": "IR",
       "score": 25,
       "reliability": "HIGH",
@@ -14063,7 +14143,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 80.93,
+      "percent_owned": 80.92,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -14474,7 +14554,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 93.24,
+      "percent_owned": 93.21,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -14845,7 +14925,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 3.16,
+      "percent_owned": 3.2,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -14990,7 +15070,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 6.6,
+      "percent_owned": 6.57,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -15827,6 +15907,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:NSH:shane wright:2026-11-01",
+          "type": "ACTIVE_ADDED",
+          "team": "NSH",
+          "player": "Shane Wright",
+          "player_key": "shane wright",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:NSH:matthew wood:2026-11-01",
+          "type": "ACTIVE_REMOVED",
+          "team": "NSH",
+          "player": "Matthew Wood",
+          "player_key": "matthew wood",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
+        {
           "id": "ACTIVE_ADDED:NSH:daemon hunt:2026-10-27",
           "type": "ACTIVE_ADDED",
           "team": "NSH",
@@ -15854,7 +15950,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 76.81,
+      "percent_owned": 76.77,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -16403,7 +16499,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 9,
-      "percent_owned": 63.98,
+      "percent_owned": 63.97,
       "nhl_roster_status": "ACTIVE",
       "score": 24,
       "reliability": "HIGH",
@@ -16705,7 +16801,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 45.81,
+      "percent_owned": 45.78,
       "nhl_roster_status": "ACTIVE",
       "score": 21,
       "reliability": "HIGH",
@@ -16841,7 +16937,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 12.6,
+      "percent_owned": 12.79,
       "nhl_roster_status": "ACTIVE",
       "score": 21,
       "reliability": "HIGH",
@@ -17165,7 +17261,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 97.74,
+      "percent_owned": 97.73,
       "nhl_roster_status": "ACTIVE",
       "score": 21,
       "reliability": "HIGH",
@@ -17327,7 +17423,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 66.96,
+      "percent_owned": 66.93,
       "nhl_roster_status": "ACTIVE",
       "score": 21,
       "reliability": "HIGH",
@@ -17650,7 +17746,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 57.09,
+      "percent_owned": 57.07,
       "nhl_roster_status": "ACTIVE",
       "score": 21,
       "reliability": "HIGH",
@@ -17809,7 +17905,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 3.46,
+      "percent_owned": 3.45,
       "nhl_roster_status": "ACTIVE",
       "score": 21,
       "reliability": "HIGH",
@@ -17943,7 +18039,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 18,
-      "percent_owned": 0.55,
+      "percent_owned": 0.56,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -18678,7 +18774,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 6.9,
+      "percent_owned": 6.87,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -18972,7 +19068,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 2.26,
+      "percent_owned": 2.24,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -19498,7 +19594,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 15.83,
+      "percent_owned": 15.82,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -20062,7 +20158,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 50.48,
+      "percent_owned": 50.47,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -20192,7 +20288,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 57.16,
+      "percent_owned": 57.19,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -20516,7 +20612,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 4.5,
+      "percent_owned": 4.49,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -20791,7 +20887,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 77.09,
+      "percent_owned": 77.1,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -21091,7 +21187,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 64.39,
+      "percent_owned": 64.37,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -21649,7 +21745,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 85.16,
+      "percent_owned": 85.15,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -21969,7 +22065,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
-      "percent_owned": 69.98,
+      "percent_owned": 69.96,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -22130,7 +22226,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 98.0,
+      "percent_owned": 98.01,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -22232,6 +22328,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:NSH:shane wright:2026-11-01",
+          "type": "ACTIVE_ADDED",
+          "team": "NSH",
+          "player": "Shane Wright",
+          "player_key": "shane wright",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:NSH:matthew wood:2026-11-01",
+          "type": "ACTIVE_REMOVED",
+          "team": "NSH",
+          "player": "Matthew Wood",
+          "player_key": "matthew wood",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
+        {
           "id": "ACTIVE_ADDED:NSH:daemon hunt:2026-10-27",
           "type": "ACTIVE_ADDED",
           "team": "NSH",
@@ -22259,7 +22371,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 32.96,
+      "percent_owned": 32.97,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -22419,7 +22531,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 47.75,
+      "percent_owned": 48.04,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -22564,7 +22676,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 3.32,
+      "percent_owned": 3.31,
       "nhl_roster_status": "IR",
       "score": 16,
       "reliability": "HIGH",
@@ -22869,7 +22981,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 90.21,
+      "percent_owned": 90.2,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -23031,7 +23143,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 33.46,
+      "percent_owned": 33.53,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -23175,7 +23287,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 98.97,
+      "percent_owned": 98.96,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -23286,7 +23398,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
-      "percent_owned": 96.2,
+      "percent_owned": 96.19,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -23447,7 +23559,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 97.55,
+      "percent_owned": 97.54,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -23569,7 +23681,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 30.59,
+      "percent_owned": 30.72,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -24140,7 +24252,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 70.04,
+      "percent_owned": 70.09,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "MEDIUM",
@@ -24286,7 +24398,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 97.65,
+      "percent_owned": 97.66,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -24879,7 +24991,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 81.86,
+      "percent_owned": 81.85,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -25010,7 +25122,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.36,
+      "percent_owned": 0.35,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -25104,6 +25216,22 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "ACTIVE_ADDED:NSH:shane wright:2026-11-01",
+          "type": "ACTIVE_ADDED",
+          "team": "NSH",
+          "player": "Shane Wright",
+          "player_key": "shane wright",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:NSH:matthew wood:2026-11-01",
+          "type": "ACTIVE_REMOVED",
+          "team": "NSH",
+          "player": "Matthew Wood",
+          "player_key": "matthew wood",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
         {
           "id": "ACTIVE_ADDED:NSH:daemon hunt:2026-10-27",
           "type": "ACTIVE_ADDED",
@@ -25443,7 +25571,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 80.18,
+      "percent_owned": 80.15,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -26579,7 +26707,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 92.68,
+      "percent_owned": 92.67,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -26823,7 +26951,7 @@
       "position": "C",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 3.34,
+      "percent_owned": 3.33,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -28059,7 +28187,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 4.46,
+      "percent_owned": 4.47,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -28574,6 +28702,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:NSH:shane wright:2026-11-01",
+          "type": "ACTIVE_ADDED",
+          "team": "NSH",
+          "player": "Shane Wright",
+          "player_key": "shane wright",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:NSH:matthew wood:2026-11-01",
+          "type": "ACTIVE_REMOVED",
+          "team": "NSH",
+          "player": "Matthew Wood",
+          "player_key": "matthew wood",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
+        {
           "id": "ACTIVE_ADDED:NSH:daemon hunt:2026-10-27",
           "type": "ACTIVE_ADDED",
           "team": "NSH",
@@ -28850,7 +28994,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 9,
-      "percent_owned": 29.87,
+      "percent_owned": 29.85,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -29124,7 +29268,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 62.0,
+      "percent_owned": 62.02,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -29351,6 +29495,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:NSH:shane wright:2026-11-01",
+          "type": "ACTIVE_ADDED",
+          "team": "NSH",
+          "player": "Shane Wright",
+          "player_key": "shane wright",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:NSH:matthew wood:2026-11-01",
+          "type": "ACTIVE_REMOVED",
+          "team": "NSH",
+          "player": "Matthew Wood",
+          "player_key": "matthew wood",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
+        {
           "id": "ACTIVE_ADDED:NSH:daemon hunt:2026-10-27",
           "type": "ACTIVE_ADDED",
           "team": "NSH",
@@ -29378,7 +29538,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 77.85,
+      "percent_owned": 77.84,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -29774,7 +29934,7 @@
       "position": "L",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 7.43,
+      "percent_owned": 7.42,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -30924,6 +31084,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:NSH:shane wright:2026-11-01",
+          "type": "ACTIVE_ADDED",
+          "team": "NSH",
+          "player": "Shane Wright",
+          "player_key": "shane wright",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:NSH:matthew wood:2026-11-01",
+          "type": "ACTIVE_REMOVED",
+          "team": "NSH",
+          "player": "Matthew Wood",
+          "player_key": "matthew wood",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
+        {
           "id": "ACTIVE_ADDED:NSH:daemon hunt:2026-10-27",
           "type": "ACTIVE_ADDED",
           "team": "NSH",
@@ -30951,7 +31127,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 32.59,
+      "percent_owned": 32.58,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -31106,7 +31282,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 33.84,
+      "percent_owned": 33.78,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -31354,6 +31530,22 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "ACTIVE_ADDED:SEA:matthew wood:2026-11-01",
+          "type": "ACTIVE_ADDED",
+          "team": "SEA",
+          "player": "Matthew Wood",
+          "player_key": "matthew wood",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:SEA:shane wright:2026-11-01",
+          "type": "ACTIVE_REMOVED",
+          "team": "SEA",
+          "player": "Shane Wright",
+          "player_key": "shane wright",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
         {
           "id": "NEW_IR:SEA:jared mccann:2026-10-27",
           "type": "NEW_IR",
@@ -32155,6 +32347,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:NSH:shane wright:2026-11-01",
+          "type": "ACTIVE_ADDED",
+          "team": "NSH",
+          "player": "Shane Wright",
+          "player_key": "shane wright",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:NSH:matthew wood:2026-11-01",
+          "type": "ACTIVE_REMOVED",
+          "team": "NSH",
+          "player": "Matthew Wood",
+          "player_key": "matthew wood",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
+        {
           "id": "ACTIVE_ADDED:NSH:daemon hunt:2026-10-27",
           "type": "ACTIVE_ADDED",
           "team": "NSH",
@@ -32567,7 +32775,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 4.68,
+      "percent_owned": 4.71,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -33171,7 +33379,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
-      "percent_owned": 41.83,
+      "percent_owned": 41.81,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -33394,6 +33602,22 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "ACTIVE_ADDED:SEA:matthew wood:2026-11-01",
+          "type": "ACTIVE_ADDED",
+          "team": "SEA",
+          "player": "Matthew Wood",
+          "player_key": "matthew wood",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:SEA:shane wright:2026-11-01",
+          "type": "ACTIVE_REMOVED",
+          "team": "SEA",
+          "player": "Shane Wright",
+          "player_key": "shane wright",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
         {
           "id": "NEW_IR:SEA:jared mccann:2026-10-27",
           "type": "NEW_IR",
@@ -33717,7 +33941,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.31,
+      "percent_owned": 0.32,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -34832,7 +35056,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 21.84,
+      "percent_owned": 21.83,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -34929,6 +35153,22 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "ACTIVE_ADDED:NSH:shane wright:2026-11-01",
+          "type": "ACTIVE_ADDED",
+          "team": "NSH",
+          "player": "Shane Wright",
+          "player_key": "shane wright",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:NSH:matthew wood:2026-11-01",
+          "type": "ACTIVE_REMOVED",
+          "team": "NSH",
+          "player": "Matthew Wood",
+          "player_key": "matthew wood",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
         {
           "id": "ACTIVE_ADDED:NSH:daemon hunt:2026-10-27",
           "type": "ACTIVE_ADDED",
@@ -35515,7 +35755,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 46.76,
+      "percent_owned": 46.75,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -35777,7 +36017,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 1.77,
+      "percent_owned": 1.78,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -35883,7 +36123,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 18,
-      "percent_owned": 95.48,
+      "percent_owned": 95.49,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -37147,7 +37387,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 1.01,
+      "percent_owned": 1.02,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -37730,7 +37970,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 73.76,
+      "percent_owned": 73.72,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -37941,6 +38181,22 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "ACTIVE_ADDED:NSH:shane wright:2026-11-01",
+          "type": "ACTIVE_ADDED",
+          "team": "NSH",
+          "player": "Shane Wright",
+          "player_key": "shane wright",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:NSH:matthew wood:2026-11-01",
+          "type": "ACTIVE_REMOVED",
+          "team": "NSH",
+          "player": "Matthew Wood",
+          "player_key": "matthew wood",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
         {
           "id": "ACTIVE_ADDED:NSH:daemon hunt:2026-10-27",
           "type": "ACTIVE_ADDED",
@@ -38183,7 +38439,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 90.21,
+      "percent_owned": 90.2,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -38531,7 +38787,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 12.85,
+      "percent_owned": 12.83,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -39095,7 +39351,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 18,
-      "percent_owned": 80.79,
+      "percent_owned": 80.78,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -39841,7 +40097,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 3.47,
+      "percent_owned": 3.46,
       "nhl_roster_status": "ACTIVE",
       "score": 8,
       "reliability": "HIGH",
@@ -39994,7 +40250,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 87.52,
+      "percent_owned": 87.51,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -40142,7 +40398,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 92.97,
+      "percent_owned": 92.96,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -40377,6 +40633,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:SEA:matthew wood:2026-11-01",
+          "type": "ACTIVE_ADDED",
+          "team": "SEA",
+          "player": "Matthew Wood",
+          "player_key": "matthew wood",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:SEA:shane wright:2026-11-01",
+          "type": "ACTIVE_REMOVED",
+          "team": "SEA",
+          "player": "Shane Wright",
+          "player_key": "shane wright",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
+        {
           "id": "NEW_IR:SEA:jared mccann:2026-10-27",
           "type": "NEW_IR",
           "team": "SEA",
@@ -40404,7 +40676,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 64.6,
+      "percent_owned": 64.59,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "MEDIUM",
@@ -40799,7 +41071,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 61.23,
+      "percent_owned": 61.22,
       "nhl_roster_status": "IR",
       "score": 6,
       "reliability": "HIGH",
@@ -41105,7 +41377,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 90.69,
+      "percent_owned": 90.7,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -41253,7 +41525,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 31.73,
+      "percent_owned": 31.75,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -41496,7 +41768,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 65.79,
+      "percent_owned": 65.81,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -41628,7 +41900,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 99.38,
+      "percent_owned": 99.37,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -41781,7 +42053,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 75.12,
+      "percent_owned": 75.11,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -42030,6 +42302,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:SEA:matthew wood:2026-11-01",
+          "type": "ACTIVE_ADDED",
+          "team": "SEA",
+          "player": "Matthew Wood",
+          "player_key": "matthew wood",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:SEA:shane wright:2026-11-01",
+          "type": "ACTIVE_REMOVED",
+          "team": "SEA",
+          "player": "Shane Wright",
+          "player_key": "shane wright",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
+        {
           "id": "NEW_IR:SEA:jared mccann:2026-10-27",
           "type": "NEW_IR",
           "team": "SEA",
@@ -42057,7 +42345,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 27.38,
+      "percent_owned": 27.4,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -42341,7 +42629,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 9,
-      "percent_owned": 82.65,
+      "percent_owned": 82.67,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -42497,7 +42785,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 14.14,
+      "percent_owned": 14.18,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -42638,7 +42926,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 94.77,
+      "percent_owned": 94.76,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -42792,7 +43080,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 10.41,
+      "percent_owned": 10.44,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -42932,7 +43220,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
-      "percent_owned": 97.8,
+      "percent_owned": 97.81,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -43243,7 +43531,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
-      "percent_owned": 8.73,
+      "percent_owned": 8.74,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -43820,7 +44108,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 70.78,
+      "percent_owned": 70.77,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -44176,6 +44464,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:NSH:shane wright:2026-11-01",
+          "type": "ACTIVE_ADDED",
+          "team": "NSH",
+          "player": "Shane Wright",
+          "player_key": "shane wright",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:NSH:matthew wood:2026-11-01",
+          "type": "ACTIVE_REMOVED",
+          "team": "NSH",
+          "player": "Matthew Wood",
+          "player_key": "matthew wood",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
+        {
           "id": "ACTIVE_ADDED:NSH:daemon hunt:2026-10-27",
           "type": "ACTIVE_ADDED",
           "team": "NSH",
@@ -44470,7 +44774,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 62.25,
+      "percent_owned": 62.35,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "MEDIUM",
@@ -44623,7 +44927,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 82.38,
+      "percent_owned": 82.37,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -44714,6 +45018,22 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "ACTIVE_ADDED:SEA:matthew wood:2026-11-01",
+          "type": "ACTIVE_ADDED",
+          "team": "SEA",
+          "player": "Matthew Wood",
+          "player_key": "matthew wood",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:SEA:shane wright:2026-11-01",
+          "type": "ACTIVE_REMOVED",
+          "team": "SEA",
+          "player": "Shane Wright",
+          "player_key": "shane wright",
+          "detected_at": "2026-11-01T23:20:52Z"
+        },
         {
           "id": "NEW_IR:SEA:jared mccann:2026-10-27",
           "type": "NEW_IR",
@@ -44869,6 +45189,38 @@
     }
   ],
   "recent_roster_events": [
+    {
+      "id": "ACTIVE_ADDED:NSH:shane wright:2026-11-01",
+      "type": "ACTIVE_ADDED",
+      "team": "NSH",
+      "player": "Shane Wright",
+      "player_key": "shane wright",
+      "detected_at": "2026-11-01T23:20:52Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:NSH:matthew wood:2026-11-01",
+      "type": "ACTIVE_REMOVED",
+      "team": "NSH",
+      "player": "Matthew Wood",
+      "player_key": "matthew wood",
+      "detected_at": "2026-11-01T23:20:52Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:SEA:matthew wood:2026-11-01",
+      "type": "ACTIVE_ADDED",
+      "team": "SEA",
+      "player": "Matthew Wood",
+      "player_key": "matthew wood",
+      "detected_at": "2026-11-01T23:20:52Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:SEA:shane wright:2026-11-01",
+      "type": "ACTIVE_REMOVED",
+      "team": "SEA",
+      "player": "Shane Wright",
+      "player_key": "shane wright",
+      "detected_at": "2026-11-01T23:20:52Z"
+    },
     {
       "id": "ACTIVE_REMOVED:TOR:cole mcward:2026-11-01",
       "type": "ACTIVE_REMOVED",
@@ -45236,38 +45588,6 @@
       "player": "William Stromgren",
       "player_key": "william stromgren",
       "detected_at": "2026-10-30T16:33:29Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:DAL:matthew seminoff:2026-10-30",
-      "type": "ACTIVE_REMOVED",
-      "team": "DAL",
-      "player": "Matthew Seminoff",
-      "player_key": "matthew seminoff",
-      "detected_at": "2026-10-30T15:36:28Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:MIN:carson lambos:2026-10-30",
-      "type": "ACTIVE_REMOVED",
-      "team": "MIN",
-      "player": "Carson Lambos",
-      "player_key": "carson lambos",
-      "detected_at": "2026-10-30T15:36:28Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:MIN:mason shaw:2026-10-30",
-      "type": "ACTIVE_REMOVED",
-      "team": "MIN",
-      "player": "Mason Shaw",
-      "player_key": "mason shaw",
-      "detected_at": "2026-10-30T15:36:28Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:STL:otto stenberg:2026-10-30",
-      "type": "ACTIVE_REMOVED",
-      "team": "STL",
-      "player": "Otto Stenberg",
-      "player_key": "otto stenberg",
-      "detected_at": "2026-10-30T15:36:28Z"
     }
   ]
 }
