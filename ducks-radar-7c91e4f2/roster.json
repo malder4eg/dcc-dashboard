@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-01 18:20 МСК",
+  "updated": "2026-11-01 19:22 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "15:20:52 11/01/2026",
+  "report_updated": "16:22:14 11/01/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 717,
+  "active_count": 713,
   "ir_count": 77,
   "teams": {
     "ANA": {
@@ -398,12 +398,6 @@
           "name": "BECK MALENSTYN",
           "name_key": "beck malenstyn",
           "position": "L"
-        },
-        {
-          "sweater": 44,
-          "name": "DENNIS GILBERT",
-          "name_key": "dennis gilbert",
-          "position": "D"
         },
         {
           "sweater": 46,
@@ -1041,12 +1035,6 @@
           "position": "D"
         },
         {
-          "sweater": 54,
-          "name": "GAVIN BRINDLEY",
-          "name_key": "gavin brindley",
-          "position": "C"
-        },
-        {
           "sweater": 62,
           "name": "ARTTURI LEHKONEN",
           "name_key": "artturi lehkonen",
@@ -1331,12 +1319,6 @@
           "position": "R"
         },
         {
-          "sweater": 27,
-          "name": "TREY TAYLOR",
-          "name_key": "trey taylor",
-          "position": "D"
-        },
-        {
           "sweater": 29,
           "name": "JAKE OETTINGER",
           "name_key": "jake oettinger",
@@ -1489,6 +1471,12 @@
           "name": "ANTON JOHANSSON",
           "name_key": "anton johansson",
           "position": "D"
+        },
+        {
+          "sweater": 43,
+          "name": "JOHN LEONARD",
+          "name_key": "john leonard",
+          "position": "L"
         },
         {
           "sweater": 53,
@@ -2524,12 +2512,6 @@
       "name": "New Jersey Devils",
       "active": [
         {
-          "sweater": 1,
-          "name": "REMI POIRIER",
-          "name_key": "remi poirier",
-          "position": "G"
-        },
-        {
           "sweater": 5,
           "name": "BRENDEN DILLON",
           "name_key": "brenden dillon",
@@ -2734,12 +2716,6 @@
           "position": "C"
         },
         {
-          "sweater": 36,
-          "name": "ISAIAH GEORGE",
-          "name_key": "isaiah george",
-          "position": "D"
-        },
-        {
           "sweater": 38,
           "name": "VICTOR EKLUND",
           "name_key": "victor eklund",
@@ -2892,6 +2868,12 @@
           "name": "OLIVER BJORKSTRAND",
           "name_key": "oliver bjorkstrand",
           "position": "R"
+        },
+        {
+          "sweater": 29,
+          "name": "MATTHEW ROBERTSON",
+          "name_key": "matthew robertson",
+          "position": "D"
         },
         {
           "sweater": 33,
@@ -3321,12 +3303,6 @@
           "name": "SERGEI MURASHOV",
           "name_key": "sergei murashov",
           "position": "G"
-        },
-        {
-          "sweater": 2,
-          "name": "RUTGER MCGROARTY",
-          "name_key": "rutger mcgroarty",
-          "position": "R"
         },
         {
           "sweater": 6,
@@ -4295,12 +4271,6 @@
       "name": "Utah Mammoth",
       "active": [
         {
-          "sweater": 6,
-          "name": "JOHN MARINO",
-          "name_key": "john marino",
-          "position": "D"
-        },
-        {
           "sweater": 8,
           "name": "NICK SCHMALTZ",
           "name_key": "nick schmaltz",
@@ -4367,6 +4337,12 @@
           "position": "D"
         },
         {
+          "sweater": 53,
+          "name": "MICHAEL CARCONE",
+          "name_key": "michael carcone",
+          "position": "L"
+        },
+        {
           "sweater": 56,
           "name": "KAILER YAMAMOTO",
           "name_key": "kailer yamamoto",
@@ -4429,18 +4405,17 @@
       ],
       "ir": [
         {
+          "sweater": 6,
+          "name": "JOHN MARINO",
+          "name_key": "john marino",
+          "position": "D"
+        },
+        {
           "sweater": 10,
           "name": "MAVERIC LAMOUREUX",
           "name_key": "maveric lamoureux",
           "position": "D",
           "ir_date": "2026-09-28"
-        },
-        {
-          "sweater": 53,
-          "name": "MICHAEL CARCONE",
-          "name_key": "michael carcone",
-          "position": "L",
-          "ir_date": "2026-10-20"
         }
       ]
     },
@@ -4760,6 +4735,12 @@
       "name": "Washington Capitals",
       "active": [
         {
+          "sweater": 1,
+          "name": "REMI POIRIER",
+          "name_key": "remi poirier",
+          "position": "G"
+        },
+        {
           "sweater": 3,
           "name": "MATT ROY",
           "name_key": "matt roy",
@@ -4848,12 +4829,6 @@
           "name": "LOGAN THOMPSON",
           "name_key": "logan thompson",
           "position": "G"
-        },
-        {
-          "sweater": 52,
-          "name": "DYLAN MCILRATH",
-          "name_key": "dylan mcilrath",
-          "position": "D"
         },
         {
           "sweater": 53,
@@ -5069,6 +5044,102 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_REMOVED:BUF:dennis gilbert:2026-11-01",
+      "type": "ACTIVE_REMOVED",
+      "team": "BUF",
+      "player": "Dennis Gilbert",
+      "player_key": "dennis gilbert",
+      "detected_at": "2026-11-01T16:22:14Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:COL:gavin brindley:2026-11-01",
+      "type": "ACTIVE_REMOVED",
+      "team": "COL",
+      "player": "Gavin Brindley",
+      "player_key": "gavin brindley",
+      "detected_at": "2026-11-01T16:22:14Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:DAL:trey taylor:2026-11-01",
+      "type": "ACTIVE_REMOVED",
+      "team": "DAL",
+      "player": "Trey Taylor",
+      "player_key": "trey taylor",
+      "detected_at": "2026-11-01T16:22:14Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:DET:john leonard:2026-11-01",
+      "type": "ACTIVE_ADDED",
+      "team": "DET",
+      "player": "John Leonard",
+      "player_key": "john leonard",
+      "detected_at": "2026-11-01T16:22:14Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:NJD:remi poirier:2026-11-01",
+      "type": "ACTIVE_REMOVED",
+      "team": "NJD",
+      "player": "Remi Poirier",
+      "player_key": "remi poirier",
+      "detected_at": "2026-11-01T16:22:14Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:NYI:isaiah george:2026-11-01",
+      "type": "ACTIVE_REMOVED",
+      "team": "NYI",
+      "player": "Isaiah George",
+      "player_key": "isaiah george",
+      "detected_at": "2026-11-01T16:22:14Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:NYR:matthew robertson:2026-11-01",
+      "type": "ACTIVE_ADDED",
+      "team": "NYR",
+      "player": "Matthew Robertson",
+      "player_key": "matthew robertson",
+      "detected_at": "2026-11-01T16:22:14Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:PIT:rutger mcgroarty:2026-11-01",
+      "type": "ACTIVE_REMOVED",
+      "team": "PIT",
+      "player": "Rutger McGroarty",
+      "player_key": "rutger mcgroarty",
+      "detected_at": "2026-11-01T16:22:14Z"
+    },
+    {
+      "id": "NEW_IR:UTA:john marino:2026-11-01",
+      "type": "NEW_IR",
+      "team": "UTA",
+      "player": "John Marino",
+      "player_key": "john marino",
+      "detected_at": "2026-11-01T16:22:14Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:UTA:michael carcone:2026-11-01",
+      "type": "RETURNED_FROM_IR",
+      "team": "UTA",
+      "player": "Michael Carcone",
+      "player_key": "michael carcone",
+      "detected_at": "2026-11-01T16:22:14Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:WSH:remi poirier:2026-11-01",
+      "type": "ACTIVE_ADDED",
+      "team": "WSH",
+      "player": "Remi Poirier",
+      "player_key": "remi poirier",
+      "detected_at": "2026-11-01T16:22:14Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:WSH:dylan mcilrath:2026-11-01",
+      "type": "ACTIVE_REMOVED",
+      "team": "WSH",
+      "player": "Dylan McIlrath",
+      "player_key": "dylan mcilrath",
+      "detected_at": "2026-11-01T16:22:14Z"
+    },
     {
       "id": "ACTIVE_REMOVED:STL:quinton burns:2026-10-31",
       "type": "ACTIVE_REMOVED",
