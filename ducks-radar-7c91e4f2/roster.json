@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-01 22:26 МСК",
+  "updated": "2026-11-01 23:17 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "19:26:22 11/01/2026",
+  "report_updated": "20:17:50 11/01/2026",
   "complete": true,
   "team_count": 32,
   "active_count": 716,
-  "ir_count": 75,
+  "ir_count": 74,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -21,12 +21,6 @@
           "sweater": 2,
           "name": "JACKSON LACOMBE",
           "name_key": "jackson lacombe",
-          "position": "D"
-        },
-        {
-          "sweater": 4,
-          "name": "NICK JENSEN",
-          "name_key": "nick jensen",
           "position": "D"
         },
         {
@@ -148,6 +142,12 @@
           "name": "ROGER MCQUEEN",
           "name_key": "roger mcqueen",
           "position": "C"
+        },
+        {
+          "sweater": 98,
+          "name": "PAVEL MINTYUKOV",
+          "name_key": "pavel mintyukov",
+          "position": "D"
         }
       ],
       "ir": [
@@ -164,13 +164,6 @@
           "name_key": "ryan poehling",
           "position": "C",
           "ir_date": "2026-10-13"
-        },
-        {
-          "sweater": 98,
-          "name": "PAVEL MINTYUKOV",
-          "name_key": "pavel mintyukov",
-          "position": "D",
-          "ir_date": "2026-10-23"
         }
       ]
     },
@@ -5049,6 +5042,22 @@
     }
   },
   "events": [
+    {
+      "id": "RETURNED_FROM_IR:ANA:pavel mintyukov:2026-11-01",
+      "type": "RETURNED_FROM_IR",
+      "team": "ANA",
+      "player": "Pavel Mintyukov",
+      "player_key": "pavel mintyukov",
+      "detected_at": "2026-11-01T20:17:50Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:ANA:nick jensen:2026-11-01",
+      "type": "ACTIVE_REMOVED",
+      "team": "ANA",
+      "player": "Nick Jensen",
+      "player_key": "nick jensen",
+      "detected_at": "2026-11-01T20:17:50Z"
+    },
     {
       "id": "RETURNED_FROM_IR:PHI:owen tippett:2026-11-01",
       "type": "RETURNED_FROM_IR",
