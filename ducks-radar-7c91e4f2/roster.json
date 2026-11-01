@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-01 21:20 МСК",
+  "updated": "2026-11-01 22:26 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "18:20:45 11/01/2026",
+  "report_updated": "19:26:22 11/01/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 714,
-  "ir_count": 77,
+  "active_count": 716,
+  "ir_count": 75,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -3162,6 +3162,12 @@
           "position": "D"
         },
         {
+          "sweater": 11,
+          "name": "TRAVIS KONECNY",
+          "name_key": "travis konecny",
+          "position": "R"
+        },
+        {
           "sweater": 14,
           "name": "SEAN COUTURIER",
           "name_key": "sean couturier",
@@ -3246,6 +3252,12 @@
           "position": "R"
         },
         {
+          "sweater": 74,
+          "name": "OWEN TIPPETT",
+          "name_key": "owen tippett",
+          "position": "R"
+        },
+        {
           "sweater": 80,
           "name": "DAN VLADAR",
           "name_key": "dan vladar",
@@ -3266,13 +3278,6 @@
       ],
       "ir": [
         {
-          "sweater": 11,
-          "name": "TRAVIS KONECNY",
-          "name_key": "travis konecny",
-          "position": "R",
-          "ir_date": "2026-10-11"
-        },
-        {
           "sweater": 17,
           "name": "NIKITA GREBENKIN",
           "name_key": "nikita grebenkin",
@@ -3285,13 +3290,6 @@
           "name_key": "rasmus ristolainen",
           "position": "D",
           "ir_date": "2026-10-27"
-        },
-        {
-          "sweater": 74,
-          "name": "OWEN TIPPETT",
-          "name_key": "owen tippett",
-          "position": "R",
-          "ir_date": "2026-10-19"
         }
       ]
     },
@@ -5051,6 +5049,22 @@
     }
   },
   "events": [
+    {
+      "id": "RETURNED_FROM_IR:PHI:owen tippett:2026-11-01",
+      "type": "RETURNED_FROM_IR",
+      "team": "PHI",
+      "player": "Owen Tippett",
+      "player_key": "owen tippett",
+      "detected_at": "2026-11-01T19:26:22Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:PHI:travis konecny:2026-11-01",
+      "type": "RETURNED_FROM_IR",
+      "team": "PHI",
+      "player": "Travis Konecny",
+      "player_key": "travis konecny",
+      "detected_at": "2026-11-01T19:26:22Z"
+    },
     {
       "id": "ACTIVE_ADDED:UTA:ben mccartney:2026-11-01",
       "type": "ACTIVE_ADDED",
