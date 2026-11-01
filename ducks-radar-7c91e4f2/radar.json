@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-01 05:33 МСК",
-  "generated_at": "2026-11-01T02:33:06Z",
+  "updated": "2026-11-01 06:34 МСК",
+  "generated_at": "2026-11-01T03:34:08Z",
   "source": {
     "nhl_stats": "https://api.nhle.com/stats/rest/en/",
     "nhl_game_status": "https://api-web.nhle.com/v1/",
@@ -11,9 +11,9 @@
   "complete": true,
   "latest_final_game_date": "2026-10-31",
   "mapping_coverage": {
-    "mapped": 629,
+    "mapped": 631,
     "unmatched": 109,
-    "ratio": 0.8523
+    "ratio": 0.8527
   },
   "signal_method": {
     "baseline": "Previous 3-5 finalized games",
@@ -21,151 +21,73 @@
     "note": "Thresholds are screening triggers, not proof of a permanent role change. Line combinations are not inferred from NHL API TOI."
   },
   "counts": {
-    "signals_all": 319,
-    "signals_available": 88,
+    "signals_all": 315,
+    "signals_available": 83,
     "add_candidates": 5,
-    "watch": 83,
-    "new_signals": 18
+    "watch": 78,
+    "new_signals": 9
   },
   "new_signals": [
     {
-      "nhl_player_id": 8476931,
-      "name": "Jake McCabe",
-      "nhl_team": "TOR",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 73,
-      "new_signal_types": [
-        "TOI_SURGE"
-      ]
-    },
-    {
-      "nhl_player_id": 8483476,
-      "name": "Jonathan Lekkerimaki",
-      "nhl_team": "VAN",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 40,
-      "new_signal_types": [
-        "PERIPHERAL_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8483499,
-      "name": "Liam Ohgren",
-      "nhl_team": "VAN",
+      "nhl_player_id": 8484938,
+      "name": "Arttu Hyry",
+      "nhl_team": "DAL",
       "espn_status": "FREEAGENT",
       "recommendation": "WATCH",
-      "score": 40,
+      "score": 25,
       "new_signal_types": [
-        "PP_ROLE_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8475184,
-      "name": "Chris Kreider",
-      "nhl_team": "MTL",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 35,
-      "new_signal_types": [
+        "PERIPHERAL_UP",
         "PRODUCTION_UP"
       ]
     },
     {
-      "nhl_player_id": 8483457,
-      "name": "Lane Hutson",
-      "nhl_team": "MTL",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 35,
-      "new_signal_types": [
-        "PRODUCTION_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8480012,
-      "name": "Elias Pettersson",
-      "nhl_team": "VAN",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 33,
-      "new_signal_types": [
-        "SH_ROLE_UP",
-        "PERIPHERAL_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8486067,
-      "name": "Gavin McKenna",
-      "nhl_team": "TOR",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 31,
-      "new_signal_types": [
-        "PERIPHERAL_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8478458,
-      "name": "Jack Roslovic",
-      "nhl_team": "TOR",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 31,
-      "new_signal_types": [
-        "PP_ROLE_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8479318,
-      "name": "Auston Matthews",
-      "nhl_team": "TOR",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 28,
-      "new_signal_types": [
-        "FOW_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8485414,
-      "name": "Ben Kindel",
-      "nhl_team": "PIT",
+      "nhl_player_id": 8478449,
+      "name": "Roope Hintz",
+      "nhl_team": "DAL",
       "espn_status": "ONTEAM",
       "recommendation": "TRACK ONLY",
       "score": 25,
       "new_signal_types": [
+        "PP_ROLE_UP"
+      ]
+    },
+    {
+      "nhl_player_id": 8475745,
+      "name": "Charlie Coyle",
+      "nhl_team": "CBJ",
+      "espn_status": "ONTEAM",
+      "recommendation": "TRACK ONLY",
+      "score": 21,
+      "new_signal_types": [
         "PERIPHERAL_UP"
       ]
     },
     {
-      "nhl_player_id": 8483678,
-      "name": "Elias Pettersson",
-      "nhl_team": "VAN",
-      "espn_status": "UNMATCHED",
-      "recommendation": "WATCH",
-      "score": 18,
-      "new_signal_types": [
-        "SH_ROLE_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8471675,
-      "name": "Sidney Crosby",
-      "nhl_team": "PIT",
+      "nhl_player_id": 8480036,
+      "name": "Miro Heiskanen",
+      "nhl_team": "DAL",
       "espn_status": "ONTEAM",
       "recommendation": "TRACK ONLY",
       "score": 16,
       "new_signal_types": [
-        "PRODUCTION_UP",
-        "PPP_UP"
+        "PRODUCTION_UP"
       ]
     },
     {
-      "nhl_player_id": 8484240,
-      "name": "Tom Willander",
-      "nhl_team": "VAN",
+      "nhl_player_id": 8482740,
+      "name": "Wyatt Johnston",
+      "nhl_team": "DAL",
+      "espn_status": "ONTEAM",
+      "recommendation": "TRACK ONLY",
+      "score": 16,
+      "new_signal_types": [
+        "PRODUCTION_UP"
+      ]
+    },
+    {
+      "nhl_player_id": 8482705,
+      "name": "Cole Sillinger",
+      "nhl_team": "CBJ",
       "espn_status": "FREEAGENT",
       "recommendation": "WATCH",
       "score": 15,
@@ -174,31 +96,20 @@
       ]
     },
     {
-      "nhl_player_id": 8474578,
-      "name": "Erik Karlsson",
-      "nhl_team": "PIT",
+      "nhl_player_id": 8477501,
+      "name": "Valeri Nichushkin",
+      "nhl_team": "CBJ",
       "espn_status": "ONTEAM",
       "recommendation": "TRACK ONLY",
-      "score": 10,
+      "score": 15,
       "new_signal_types": [
-        "PRODUCTION_UP"
+        "PERIPHERAL_UP"
       ]
     },
     {
-      "nhl_player_id": 8476981,
-      "name": "Josh Anderson",
-      "nhl_team": "MTL",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 10,
-      "new_signal_types": [
-        "PRODUCTION_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8483424,
-      "name": "Owen Beck",
-      "nhl_team": "MTL",
+      "nhl_player_id": 8473994,
+      "name": "Jamie Benn",
+      "nhl_team": "DAL",
       "espn_status": "FREEAGENT",
       "recommendation": "WATCH",
       "score": 10,
@@ -207,20 +118,9 @@
       ]
     },
     {
-      "nhl_player_id": 8476927,
-      "name": "Teddy Blueger",
-      "nhl_team": "TOR",
-      "espn_status": "FREEAGENT",
-      "recommendation": "WATCH",
-      "score": 10,
-      "new_signal_types": [
-        "PRODUCTION_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8478438,
-      "name": "Tommy Novak",
-      "nhl_team": "PIT",
+      "nhl_player_id": 8480027,
+      "name": "Jason Robertson",
+      "nhl_team": "DAL",
       "espn_status": "ONTEAM",
       "recommendation": "TRACK ONLY",
       "score": 6,
@@ -1550,7 +1450,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 92.52,
+      "percent_owned": 92.53,
       "nhl_roster_status": "ACTIVE",
       "score": 83,
       "reliability": "HIGH",
@@ -2002,7 +1902,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 9.27,
+      "percent_owned": 9.32,
       "nhl_roster_status": "ACTIVE",
       "score": 75,
       "reliability": "HIGH",
@@ -3253,7 +3153,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 1.99,
+      "percent_owned": 1.98,
       "nhl_roster_status": "ACTIVE",
       "score": 48,
       "reliability": "HIGH",
@@ -3389,7 +3289,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 11.32,
+      "percent_owned": 11.27,
       "nhl_roster_status": "ACTIVE",
       "score": 48,
       "reliability": "HIGH",
@@ -3667,7 +3567,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 21.7,
+      "percent_owned": 22.08,
       "nhl_roster_status": "ACTIVE",
       "score": 48,
       "reliability": "HIGH",
@@ -4763,7 +4663,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 69.01,
+      "percent_owned": 69.0,
       "nhl_roster_status": "ACTIVE",
       "score": 45,
       "reliability": "HIGH",
@@ -5180,7 +5080,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 1.78,
+      "percent_owned": 1.81,
       "nhl_roster_status": "ACTIVE",
       "score": 43,
       "reliability": "HIGH",
@@ -5348,7 +5248,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 4.27,
+      "percent_owned": 4.25,
       "nhl_roster_status": "ACTIVE",
       "score": 43,
       "reliability": "HIGH",
@@ -5484,7 +5384,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 1.07,
+      "percent_owned": 1.09,
       "nhl_roster_status": "ACTIVE",
       "score": 43,
       "reliability": "HIGH",
@@ -5635,7 +5535,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 76.5,
+      "percent_owned": 76.49,
       "nhl_roster_status": "ACTIVE",
       "score": 41,
       "reliability": "HIGH",
@@ -5753,7 +5653,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 7.94,
+      "percent_owned": 7.93,
       "nhl_roster_status": "ACTIVE",
       "score": 41,
       "reliability": "HIGH",
@@ -6030,7 +5930,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 6.38,
+      "percent_owned": 6.5,
       "nhl_roster_status": "ACTIVE",
       "score": 41,
       "reliability": "HIGH",
@@ -6182,7 +6082,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 2.94,
+      "percent_owned": 2.96,
       "nhl_roster_status": "ACTIVE",
       "score": 41,
       "reliability": "HIGH",
@@ -6476,7 +6376,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 38.24,
+      "percent_owned": 38.22,
       "nhl_roster_status": "ACTIVE",
       "score": 41,
       "reliability": "HIGH",
@@ -6611,7 +6511,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 1.76,
+      "percent_owned": 1.77,
       "nhl_roster_status": "ACTIVE",
       "score": 41,
       "reliability": "HIGH",
@@ -6767,7 +6667,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 18,
-      "percent_owned": 84.77,
+      "percent_owned": 84.78,
       "nhl_roster_status": "ACTIVE",
       "score": 41,
       "reliability": "HIGH",
@@ -7323,7 +7223,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
-      "percent_owned": 37.27,
+      "percent_owned": 37.24,
       "nhl_roster_status": "ACTIVE",
       "score": 40,
       "reliability": "HIGH",
@@ -8011,7 +7911,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 75.08,
+      "percent_owned": 75.07,
       "nhl_roster_status": "ACTIVE",
       "score": 39,
       "reliability": "HIGH",
@@ -8424,7 +8324,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 2.96,
+      "percent_owned": 2.95,
       "nhl_roster_status": "ACTIVE",
       "score": 35,
       "reliability": "HIGH",
@@ -8546,7 +8446,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 25.02,
+      "percent_owned": 25.01,
       "nhl_roster_status": "ACTIVE",
       "score": 35,
       "reliability": "HIGH",
@@ -8790,7 +8690,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 99.29,
+      "percent_owned": 99.3,
       "nhl_roster_status": "ACTIVE",
       "score": 34,
       "reliability": "HIGH",
@@ -9494,7 +9394,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 11.73,
+      "percent_owned": 11.74,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -9735,7 +9635,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 95.39,
+      "percent_owned": 95.38,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -9861,7 +9761,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 93.25,
+      "percent_owned": 93.26,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -10169,7 +10069,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
-      "percent_owned": 74.59,
+      "percent_owned": 74.71,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -10458,7 +10358,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 75.52,
+      "percent_owned": 75.48,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -10624,7 +10524,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 18,
-      "percent_owned": 50.07,
+      "percent_owned": 50.06,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -10776,148 +10676,6 @@
       ],
       "latest_final_game_date": "2026-10-31",
       "latest_final_game_id": 2026020224
-    },
-    {
-      "nhl_player_id": 8482660,
-      "espn_player_id": 4781553,
-      "name": "Kent Johnson",
-      "nhl_team": "CBJ",
-      "position": "C",
-      "espn_status": "ONTEAM",
-      "espn_team_id": 12,
-      "percent_owned": 26.95,
-      "nhl_roster_status": "ACTIVE",
-      "score": 31,
-      "reliability": "HIGH",
-      "recommendation": "TRACK ONLY",
-      "categories": [
-        "SOG",
-        "G",
-        "A",
-        "PTS"
-      ],
-      "signals": [
-        {
-          "type": "PERIPHERAL_UP",
-          "label": "Рост SOG/HIT/BLK",
-          "strong": false
-        },
-        {
-          "type": "PRODUCTION_UP",
-          "label": "Рост результативности",
-          "strong": true
-        },
-        {
-          "type": "PPP_UP",
-          "label": "Рост PPP",
-          "strong": false
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 1078.4,
-          "recent": 1064.0,
-          "delta": -14.4,
-          "ratio": 0.987
-        },
-        "ev_toi": {
-          "baseline": 843.0,
-          "recent": 938.0,
-          "delta": 95.0,
-          "ratio": 1.113
-        },
-        "pp_toi": {
-          "baseline": 235.0,
-          "recent": 126.0,
-          "delta": -109.0,
-          "ratio": 0.536
-        },
-        "sh_toi": {
-          "baseline": 0.4,
-          "recent": 0.0,
-          "delta": -0.4,
-          "ratio": 0.0
-        },
-        "sog": {
-          "baseline": 1.8,
-          "recent": 2.0,
-          "delta": 0.2,
-          "ratio": 1.111
-        },
-        "hit": {
-          "baseline": 0.6,
-          "recent": 1.5,
-          "delta": 0.9,
-          "ratio": 2.5
-        },
-        "blk": {
-          "baseline": 0.2,
-          "recent": 1.0,
-          "delta": 0.8,
-          "ratio": 5.0
-        },
-        "fow": {
-          "baseline": null,
-          "recent": null,
-          "delta": null,
-          "ratio": null
-        },
-        "fo": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "pts": {
-          "baseline": 0.8,
-          "recent": 2.0,
-          "delta": 1.2,
-          "ratio": 2.5
-        },
-        "ppp": {
-          "baseline": 0.2,
-          "recent": 0.5,
-          "delta": 0.3,
-          "ratio": 2.5
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "RETURNED_FROM_IR:CBJ:ivan provorov:2026-10-31",
-          "type": "RETURNED_FROM_IR",
-          "team": "CBJ",
-          "player": "Ivan Provorov",
-          "player_key": "ivan provorov",
-          "detected_at": "2026-10-31T18:20:58Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:CBJ:carson soucy:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "CBJ",
-          "player": "Carson Soucy",
-          "player_key": "carson soucy",
-          "detected_at": "2026-10-29T18:28:12Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:CBJ:dante fabbro:2026-10-27",
-          "type": "RETURNED_FROM_IR",
-          "team": "CBJ",
-          "player": "Dante Fabbro",
-          "player_key": "dante fabbro",
-          "detected_at": "2026-10-27T18:54:20Z"
-        }
-      ],
-      "latest_final_game_date": "2026-10-29",
-      "latest_final_game_id": 2026020206
     },
     {
       "nhl_player_id": 8481557,
@@ -11232,7 +10990,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 55.28,
+      "percent_owned": 55.39,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -11533,7 +11291,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 50.09,
+      "percent_owned": 50.17,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -11691,7 +11449,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 17.1,
+      "percent_owned": 17.28,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -11825,7 +11583,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 10.47,
+      "percent_owned": 10.46,
       "nhl_roster_status": "ACTIVE",
       "score": 30,
       "reliability": "HIGH",
@@ -11966,7 +11724,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 73.82,
+      "percent_owned": 73.83,
       "nhl_roster_status": "ACTIVE",
       "score": 30,
       "reliability": "HIGH",
@@ -12261,145 +12019,6 @@
       ],
       "latest_final_game_date": "2026-10-31",
       "latest_final_game_id": 2026020224
-    },
-    {
-      "nhl_player_id": 8484166,
-      "espn_player_id": 5136617,
-      "name": "Adam Fantilli",
-      "nhl_team": "CBJ",
-      "position": "C",
-      "espn_status": "ONTEAM",
-      "espn_team_id": 15,
-      "percent_owned": 82.04,
-      "nhl_roster_status": "ACTIVE",
-      "score": 25,
-      "reliability": "HIGH",
-      "recommendation": "TRACK ONLY",
-      "categories": [
-        "SOG",
-        "HIT",
-        "FOW",
-        "G",
-        "A",
-        "PTS"
-      ],
-      "signals": [
-        {
-          "type": "PERIPHERAL_UP",
-          "label": "Рост SOG/HIT/BLK",
-          "strong": false
-        },
-        {
-          "type": "PRODUCTION_UP",
-          "label": "Рост результативности",
-          "strong": false
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 1269.4,
-          "recent": 1291.0,
-          "delta": 21.6,
-          "ratio": 1.017
-        },
-        "ev_toi": {
-          "baseline": 967.0,
-          "recent": 1146.5,
-          "delta": 179.5,
-          "ratio": 1.186
-        },
-        "pp_toi": {
-          "baseline": 252.8,
-          "recent": 132.0,
-          "delta": -120.8,
-          "ratio": 0.522
-        },
-        "sh_toi": {
-          "baseline": 49.6,
-          "recent": 12.5,
-          "delta": -37.1,
-          "ratio": 0.252
-        },
-        "sog": {
-          "baseline": 3.4,
-          "recent": 3.0,
-          "delta": -0.4,
-          "ratio": 0.882
-        },
-        "hit": {
-          "baseline": 1.4,
-          "recent": 4.0,
-          "delta": 2.6,
-          "ratio": 2.857
-        },
-        "blk": {
-          "baseline": 0.8,
-          "recent": 0.5,
-          "delta": -0.3,
-          "ratio": 0.625
-        },
-        "fow": {
-          "baseline": 9.2,
-          "recent": 6.0,
-          "delta": -3.2,
-          "ratio": 0.652
-        },
-        "fo": {
-          "baseline": 17.6,
-          "recent": 13.0,
-          "delta": -4.6,
-          "ratio": 0.739
-        },
-        "pts": {
-          "baseline": 0.4,
-          "recent": 1.0,
-          "delta": 0.6,
-          "ratio": 2.5
-        },
-        "ppp": {
-          "baseline": 0.2,
-          "recent": 0.0,
-          "delta": -0.2,
-          "ratio": 0.0
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "RETURNED_FROM_IR:CBJ:ivan provorov:2026-10-31",
-          "type": "RETURNED_FROM_IR",
-          "team": "CBJ",
-          "player": "Ivan Provorov",
-          "player_key": "ivan provorov",
-          "detected_at": "2026-10-31T18:20:58Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:CBJ:carson soucy:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "CBJ",
-          "player": "Carson Soucy",
-          "player_key": "carson soucy",
-          "detected_at": "2026-10-29T18:28:12Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:CBJ:dante fabbro:2026-10-27",
-          "type": "RETURNED_FROM_IR",
-          "team": "CBJ",
-          "player": "Dante Fabbro",
-          "player_key": "dante fabbro",
-          "detected_at": "2026-10-27T18:54:20Z"
-        }
-      ],
-      "latest_final_game_date": "2026-10-29",
-      "latest_final_game_id": 2026020206
     },
     {
       "nhl_player_id": 8477960,
@@ -12775,6 +12394,169 @@
       "latest_final_game_id": 2026020220
     },
     {
+      "nhl_player_id": 8484938,
+      "espn_player_id": 5209793,
+      "name": "Arttu Hyry",
+      "nhl_team": "DAL",
+      "position": "R",
+      "espn_status": "FREEAGENT",
+      "espn_team_id": 0,
+      "percent_owned": 0.85,
+      "nhl_roster_status": "ACTIVE",
+      "score": 25,
+      "reliability": "HIGH",
+      "recommendation": "WATCH",
+      "categories": [
+        "SOG",
+        "HIT",
+        "FOW",
+        "G",
+        "A",
+        "PTS"
+      ],
+      "signals": [
+        {
+          "type": "PERIPHERAL_UP",
+          "label": "Рост SOG/HIT/BLK",
+          "strong": false
+        },
+        {
+          "type": "PRODUCTION_UP",
+          "label": "Рост результативности",
+          "strong": false
+        }
+      ],
+      "metrics": {
+        "toi": {
+          "baseline": 921.2,
+          "recent": 862.0,
+          "delta": -59.2,
+          "ratio": 0.936
+        },
+        "ev_toi": {
+          "baseline": 771.6,
+          "recent": 700.0,
+          "delta": -71.6,
+          "ratio": 0.907
+        },
+        "pp_toi": {
+          "baseline": 0.0,
+          "recent": 2.5,
+          "delta": 2.5,
+          "ratio": null
+        },
+        "sh_toi": {
+          "baseline": 149.6,
+          "recent": 159.5,
+          "delta": 9.9,
+          "ratio": 1.066
+        },
+        "sog": {
+          "baseline": 2.2,
+          "recent": 3.5,
+          "delta": 1.3,
+          "ratio": 1.591
+        },
+        "hit": {
+          "baseline": 1.4,
+          "recent": 2.0,
+          "delta": 0.6,
+          "ratio": 1.429
+        },
+        "blk": {
+          "baseline": 0.2,
+          "recent": 0.5,
+          "delta": 0.3,
+          "ratio": 2.5
+        },
+        "fow": {
+          "baseline": 8.0,
+          "recent": 9.0,
+          "delta": 1.0,
+          "ratio": 1.125
+        },
+        "fo": {
+          "baseline": 13.0,
+          "recent": 15.5,
+          "delta": 2.5,
+          "ratio": 1.192
+        },
+        "pts": {
+          "baseline": 0.4,
+          "recent": 1.0,
+          "delta": 0.6,
+          "ratio": 2.5
+        },
+        "ppp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "shp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        }
+      },
+      "baseline_games": 5,
+      "recent_games": 2,
+      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
+      "team_context": [
+        {
+          "id": "NEW_IR:DAL:kyle capobianco:2026-10-31",
+          "type": "NEW_IR",
+          "team": "DAL",
+          "player": "Kyle Capobianco",
+          "player_key": "kyle capobianco",
+          "detected_at": "2026-10-31T18:20:58Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:DAL:esa lindell:2026-10-31",
+          "type": "RETURNED_FROM_IR",
+          "team": "DAL",
+          "player": "Esa Lindell",
+          "player_key": "esa lindell",
+          "detected_at": "2026-10-31T18:20:58Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:DAL:matthew seminoff:2026-10-30",
+          "type": "ACTIVE_REMOVED",
+          "team": "DAL",
+          "player": "Matthew Seminoff",
+          "player_key": "matthew seminoff",
+          "detected_at": "2026-10-30T15:36:28Z"
+        },
+        {
+          "id": "ACTIVE_ADDED:DAL:trey taylor:2026-10-29",
+          "type": "ACTIVE_ADDED",
+          "team": "DAL",
+          "player": "Trey Taylor",
+          "player_key": "trey taylor",
+          "detected_at": "2026-10-29T14:40:45Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:DAL:dylan hryckowian:2026-10-28",
+          "type": "ACTIVE_REMOVED",
+          "team": "DAL",
+          "player": "Dylan Hryckowian",
+          "player_key": "dylan hryckowian",
+          "detected_at": "2026-10-28T19:33:36Z"
+        },
+        {
+          "id": "NEW_IR:DAL:esa lindell:2026-10-27",
+          "type": "NEW_IR",
+          "team": "DAL",
+          "player": "Esa Lindell",
+          "player_key": "esa lindell",
+          "detected_at": "2026-10-27T18:54:20Z"
+        }
+      ],
+      "latest_final_game_date": "2026-10-31",
+      "latest_final_game_id": 2026020225
+    },
+    {
       "nhl_player_id": 8485414,
       "espn_player_id": 5291947,
       "name": "Ben Kindel",
@@ -13096,7 +12878,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 49.06,
+      "percent_owned": 49.05,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -13894,7 +13676,7 @@
       "position": "C",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.17,
+      "percent_owned": 0.18,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "MEDIUM",
@@ -14151,7 +13933,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 93.66,
+      "percent_owned": 93.64,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -14264,7 +14046,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.27,
+      "percent_owned": 0.26,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "MEDIUM",
@@ -14514,7 +14296,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 86.68,
+      "percent_owned": 86.71,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -14635,7 +14417,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 5.83,
+      "percent_owned": 5.88,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -15299,6 +15081,160 @@
       "latest_final_game_id": 2026020219
     },
     {
+      "nhl_player_id": 8478449,
+      "espn_player_id": 3904183,
+      "name": "Roope Hintz",
+      "nhl_team": "DAL",
+      "position": "C",
+      "espn_status": "ONTEAM",
+      "espn_team_id": 17,
+      "percent_owned": 77.31,
+      "nhl_roster_status": "ACTIVE",
+      "score": 25,
+      "reliability": "HIGH",
+      "recommendation": "TRACK ONLY",
+      "categories": [
+        "PPP",
+        "FOW"
+      ],
+      "signals": [
+        {
+          "type": "PP_ROLE_UP",
+          "label": "Рост PP TOI",
+          "strong": true
+        }
+      ],
+      "metrics": {
+        "toi": {
+          "baseline": 954.8,
+          "recent": 1091.0,
+          "delta": 136.2,
+          "ratio": 1.143
+        },
+        "ev_toi": {
+          "baseline": 805.8,
+          "recent": 886.5,
+          "delta": 80.7,
+          "ratio": 1.1
+        },
+        "pp_toi": {
+          "baseline": 130.2,
+          "recent": 200.0,
+          "delta": 69.8,
+          "ratio": 1.536
+        },
+        "sh_toi": {
+          "baseline": 18.8,
+          "recent": 4.5,
+          "delta": -14.3,
+          "ratio": 0.239
+        },
+        "sog": {
+          "baseline": 2.4,
+          "recent": 0.5,
+          "delta": -1.9,
+          "ratio": 0.208
+        },
+        "hit": {
+          "baseline": 1.4,
+          "recent": 1.0,
+          "delta": -0.4,
+          "ratio": 0.714
+        },
+        "blk": {
+          "baseline": 0.8,
+          "recent": 0.5,
+          "delta": -0.3,
+          "ratio": 0.625
+        },
+        "fow": {
+          "baseline": 4.2,
+          "recent": 5.5,
+          "delta": 1.3,
+          "ratio": 1.31
+        },
+        "fo": {
+          "baseline": 8.4,
+          "recent": 8.0,
+          "delta": -0.4,
+          "ratio": 0.952
+        },
+        "pts": {
+          "baseline": 1.2,
+          "recent": 0.0,
+          "delta": -1.2,
+          "ratio": 0.0
+        },
+        "ppp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "shp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        }
+      },
+      "baseline_games": 5,
+      "recent_games": 2,
+      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
+      "team_context": [
+        {
+          "id": "NEW_IR:DAL:kyle capobianco:2026-10-31",
+          "type": "NEW_IR",
+          "team": "DAL",
+          "player": "Kyle Capobianco",
+          "player_key": "kyle capobianco",
+          "detected_at": "2026-10-31T18:20:58Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:DAL:esa lindell:2026-10-31",
+          "type": "RETURNED_FROM_IR",
+          "team": "DAL",
+          "player": "Esa Lindell",
+          "player_key": "esa lindell",
+          "detected_at": "2026-10-31T18:20:58Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:DAL:matthew seminoff:2026-10-30",
+          "type": "ACTIVE_REMOVED",
+          "team": "DAL",
+          "player": "Matthew Seminoff",
+          "player_key": "matthew seminoff",
+          "detected_at": "2026-10-30T15:36:28Z"
+        },
+        {
+          "id": "ACTIVE_ADDED:DAL:trey taylor:2026-10-29",
+          "type": "ACTIVE_ADDED",
+          "team": "DAL",
+          "player": "Trey Taylor",
+          "player_key": "trey taylor",
+          "detected_at": "2026-10-29T14:40:45Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:DAL:dylan hryckowian:2026-10-28",
+          "type": "ACTIVE_REMOVED",
+          "team": "DAL",
+          "player": "Dylan Hryckowian",
+          "player_key": "dylan hryckowian",
+          "detected_at": "2026-10-28T19:33:36Z"
+        },
+        {
+          "id": "NEW_IR:DAL:esa lindell:2026-10-27",
+          "type": "NEW_IR",
+          "team": "DAL",
+          "player": "Esa Lindell",
+          "player_key": "esa lindell",
+          "detected_at": "2026-10-27T18:54:20Z"
+        }
+      ],
+      "latest_final_game_date": "2026-10-31",
+      "latest_final_game_id": 2026020225
+    },
+    {
       "nhl_player_id": 8485388,
       "espn_player_id": 5291952,
       "name": "Victor Eklund",
@@ -15549,7 +15485,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 92.25,
+      "percent_owned": 92.24,
       "nhl_roster_status": "ACTIVE",
       "score": 24,
       "reliability": "HIGH",
@@ -15685,7 +15621,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 9,
-      "percent_owned": 64.53,
+      "percent_owned": 64.49,
       "nhl_roster_status": "ACTIVE",
       "score": 24,
       "reliability": "HIGH",
@@ -15972,6 +15908,142 @@
       "latest_final_game_id": 2026020220
     },
     {
+      "nhl_player_id": 8475745,
+      "espn_player_id": 2555315,
+      "name": "Charlie Coyle",
+      "nhl_team": "CBJ",
+      "position": "C",
+      "espn_status": "ONTEAM",
+      "espn_team_id": 16,
+      "percent_owned": 46.36,
+      "nhl_roster_status": "ACTIVE",
+      "score": 21,
+      "reliability": "HIGH",
+      "recommendation": "TRACK ONLY",
+      "categories": [
+        "SOG",
+        "HIT",
+        "FOW"
+      ],
+      "signals": [
+        {
+          "type": "PERIPHERAL_UP",
+          "label": "Рост SOG/HIT/BLK",
+          "strong": true
+        },
+        {
+          "type": "PPP_UP",
+          "label": "Рост PPP",
+          "strong": false
+        }
+      ],
+      "metrics": {
+        "toi": {
+          "baseline": 1237.8,
+          "recent": 1259.5,
+          "delta": 21.7,
+          "ratio": 1.018
+        },
+        "ev_toi": {
+          "baseline": 882.6,
+          "recent": 998.0,
+          "delta": 115.4,
+          "ratio": 1.131
+        },
+        "pp_toi": {
+          "baseline": 222.2,
+          "recent": 157.0,
+          "delta": -65.2,
+          "ratio": 0.707
+        },
+        "sh_toi": {
+          "baseline": 133.0,
+          "recent": 104.5,
+          "delta": -28.5,
+          "ratio": 0.786
+        },
+        "sog": {
+          "baseline": 1.4,
+          "recent": 2.5,
+          "delta": 1.1,
+          "ratio": 1.786
+        },
+        "hit": {
+          "baseline": 0.8,
+          "recent": 3.0,
+          "delta": 2.2,
+          "ratio": 3.75
+        },
+        "blk": {
+          "baseline": 0.6,
+          "recent": 0.5,
+          "delta": -0.1,
+          "ratio": 0.833
+        },
+        "fow": {
+          "baseline": 10.2,
+          "recent": 10.5,
+          "delta": 0.3,
+          "ratio": 1.029
+        },
+        "fo": {
+          "baseline": 19.4,
+          "recent": 22.5,
+          "delta": 3.1,
+          "ratio": 1.16
+        },
+        "pts": {
+          "baseline": 0.6,
+          "recent": 0.5,
+          "delta": -0.1,
+          "ratio": 0.833
+        },
+        "ppp": {
+          "baseline": 0.2,
+          "recent": 0.5,
+          "delta": 0.3,
+          "ratio": 2.5
+        },
+        "shp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        }
+      },
+      "baseline_games": 5,
+      "recent_games": 2,
+      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
+      "team_context": [
+        {
+          "id": "RETURNED_FROM_IR:CBJ:ivan provorov:2026-10-31",
+          "type": "RETURNED_FROM_IR",
+          "team": "CBJ",
+          "player": "Ivan Provorov",
+          "player_key": "ivan provorov",
+          "detected_at": "2026-10-31T18:20:58Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:CBJ:carson soucy:2026-10-29",
+          "type": "ACTIVE_REMOVED",
+          "team": "CBJ",
+          "player": "Carson Soucy",
+          "player_key": "carson soucy",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:CBJ:dante fabbro:2026-10-27",
+          "type": "RETURNED_FROM_IR",
+          "team": "CBJ",
+          "player": "Dante Fabbro",
+          "player_key": "dante fabbro",
+          "detected_at": "2026-10-27T18:54:20Z"
+        }
+      ],
+      "latest_final_game_date": "2026-10-31",
+      "latest_final_game_id": 2026020225
+    },
+    {
       "nhl_player_id": 8484471,
       "espn_player_id": 5188599,
       "name": "Emmitt Finnie",
@@ -15979,7 +16051,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 10.79,
+      "percent_owned": 10.85,
       "nhl_roster_status": "ACTIVE",
       "score": 21,
       "reliability": "HIGH",
@@ -16295,7 +16367,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 97.66,
+      "percent_owned": 97.67,
       "nhl_roster_status": "ACTIVE",
       "score": 21,
       "reliability": "HIGH",
@@ -16457,7 +16529,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 65.8,
+      "percent_owned": 65.88,
       "nhl_roster_status": "ACTIVE",
       "score": 21,
       "reliability": "HIGH",
@@ -16906,7 +16978,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 1.76,
+      "percent_owned": 1.77,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -17480,7 +17552,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 19.16,
+      "percent_owned": 19.14,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -17627,159 +17699,6 @@
       "latest_final_game_id": 2026020214
     },
     {
-      "nhl_player_id": 8476278,
-      "espn_player_id": 2590857,
-      "name": "Colin Blackwell",
-      "nhl_team": "DAL",
-      "position": "C",
-      "espn_status": "FREEAGENT",
-      "espn_team_id": 0,
-      "percent_owned": 0.1,
-      "nhl_roster_status": "ACTIVE",
-      "score": 18,
-      "reliability": "HIGH",
-      "recommendation": "WATCH",
-      "categories": [
-        "SHP"
-      ],
-      "signals": [
-        {
-          "type": "SH_ROLE_UP",
-          "label": "Рост SH TOI",
-          "strong": true
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 617.0,
-          "recent": 603.0,
-          "delta": -14.0,
-          "ratio": 0.977
-        },
-        "ev_toi": {
-          "baseline": 543.4,
-          "recent": 423.0,
-          "delta": -120.4,
-          "ratio": 0.778
-        },
-        "pp_toi": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "sh_toi": {
-          "baseline": 73.6,
-          "recent": 180.0,
-          "delta": 106.4,
-          "ratio": 2.446
-        },
-        "sog": {
-          "baseline": 1.6,
-          "recent": 0.0,
-          "delta": -1.6,
-          "ratio": 0.0
-        },
-        "hit": {
-          "baseline": 2.0,
-          "recent": 0.0,
-          "delta": -2.0,
-          "ratio": 0.0
-        },
-        "blk": {
-          "baseline": 0.0,
-          "recent": 0.5,
-          "delta": 0.5,
-          "ratio": null
-        },
-        "fow": {
-          "baseline": 1.4,
-          "recent": 2.0,
-          "delta": 0.6,
-          "ratio": 1.429
-        },
-        "fo": {
-          "baseline": 2.6,
-          "recent": 2.0,
-          "delta": -0.6,
-          "ratio": 0.769
-        },
-        "pts": {
-          "baseline": 0.0,
-          "recent": 0.5,
-          "delta": 0.5,
-          "ratio": null
-        },
-        "ppp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "NEW_IR:DAL:kyle capobianco:2026-10-31",
-          "type": "NEW_IR",
-          "team": "DAL",
-          "player": "Kyle Capobianco",
-          "player_key": "kyle capobianco",
-          "detected_at": "2026-10-31T18:20:58Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:DAL:esa lindell:2026-10-31",
-          "type": "RETURNED_FROM_IR",
-          "team": "DAL",
-          "player": "Esa Lindell",
-          "player_key": "esa lindell",
-          "detected_at": "2026-10-31T18:20:58Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DAL:matthew seminoff:2026-10-30",
-          "type": "ACTIVE_REMOVED",
-          "team": "DAL",
-          "player": "Matthew Seminoff",
-          "player_key": "matthew seminoff",
-          "detected_at": "2026-10-30T15:36:28Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:DAL:trey taylor:2026-10-29",
-          "type": "ACTIVE_ADDED",
-          "team": "DAL",
-          "player": "Trey Taylor",
-          "player_key": "trey taylor",
-          "detected_at": "2026-10-29T14:40:45Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DAL:dylan hryckowian:2026-10-28",
-          "type": "ACTIVE_REMOVED",
-          "team": "DAL",
-          "player": "Dylan Hryckowian",
-          "player_key": "dylan hryckowian",
-          "detected_at": "2026-10-28T19:33:36Z"
-        },
-        {
-          "id": "NEW_IR:DAL:esa lindell:2026-10-27",
-          "type": "NEW_IR",
-          "team": "DAL",
-          "player": "Esa Lindell",
-          "player_key": "esa lindell",
-          "detected_at": "2026-10-27T18:54:20Z"
-        }
-      ],
-      "latest_final_game_date": "2026-10-29",
-      "latest_final_game_id": 2026020209
-    },
-    {
       "nhl_player_id": 8477015,
       "espn_player_id": null,
       "name": "Connor Brown",
@@ -17924,7 +17843,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 6.48,
+      "percent_owned": 6.52,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -18324,160 +18243,6 @@
       "latest_final_game_id": 2026020224
     },
     {
-      "nhl_player_id": 8476902,
-      "espn_player_id": 3069352,
-      "name": "Esa Lindell",
-      "nhl_team": "DAL",
-      "position": "D",
-      "espn_status": "ONTEAM",
-      "espn_team_id": 2,
-      "percent_owned": 36.95,
-      "nhl_roster_status": "ACTIVE",
-      "score": 18,
-      "reliability": "HIGH",
-      "recommendation": "TRACK ONLY",
-      "categories": [
-        "SHP",
-        "BLK"
-      ],
-      "signals": [
-        {
-          "type": "SH_ROLE_UP",
-          "label": "Рост SH TOI",
-          "strong": true
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 1235.6,
-          "recent": 1344.5,
-          "delta": 108.9,
-          "ratio": 1.088
-        },
-        "ev_toi": {
-          "baseline": 1007.2,
-          "recent": 1006.0,
-          "delta": -1.2,
-          "ratio": 0.999
-        },
-        "pp_toi": {
-          "baseline": 13.6,
-          "recent": 38.5,
-          "delta": 24.9,
-          "ratio": 2.831
-        },
-        "sh_toi": {
-          "baseline": 214.8,
-          "recent": 300.0,
-          "delta": 85.2,
-          "ratio": 1.397
-        },
-        "sog": {
-          "baseline": 0.4,
-          "recent": 0.5,
-          "delta": 0.1,
-          "ratio": 1.25
-        },
-        "hit": {
-          "baseline": 0.2,
-          "recent": 0.5,
-          "delta": 0.3,
-          "ratio": 2.5
-        },
-        "blk": {
-          "baseline": 2.0,
-          "recent": 2.5,
-          "delta": 0.5,
-          "ratio": 1.25
-        },
-        "fow": {
-          "baseline": null,
-          "recent": null,
-          "delta": null,
-          "ratio": null
-        },
-        "fo": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "pts": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "ppp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "NEW_IR:DAL:kyle capobianco:2026-10-31",
-          "type": "NEW_IR",
-          "team": "DAL",
-          "player": "Kyle Capobianco",
-          "player_key": "kyle capobianco",
-          "detected_at": "2026-10-31T18:20:58Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:DAL:esa lindell:2026-10-31",
-          "type": "RETURNED_FROM_IR",
-          "team": "DAL",
-          "player": "Esa Lindell",
-          "player_key": "esa lindell",
-          "detected_at": "2026-10-31T18:20:58Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DAL:matthew seminoff:2026-10-30",
-          "type": "ACTIVE_REMOVED",
-          "team": "DAL",
-          "player": "Matthew Seminoff",
-          "player_key": "matthew seminoff",
-          "detected_at": "2026-10-30T15:36:28Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:DAL:trey taylor:2026-10-29",
-          "type": "ACTIVE_ADDED",
-          "team": "DAL",
-          "player": "Trey Taylor",
-          "player_key": "trey taylor",
-          "detected_at": "2026-10-29T14:40:45Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DAL:dylan hryckowian:2026-10-28",
-          "type": "ACTIVE_REMOVED",
-          "team": "DAL",
-          "player": "Dylan Hryckowian",
-          "player_key": "dylan hryckowian",
-          "detected_at": "2026-10-28T19:33:36Z"
-        },
-        {
-          "id": "NEW_IR:DAL:esa lindell:2026-10-27",
-          "type": "NEW_IR",
-          "team": "DAL",
-          "player": "Esa Lindell",
-          "player_key": "esa lindell",
-          "detected_at": "2026-10-27T18:54:20Z"
-        }
-      ],
-      "latest_final_game_date": "2026-10-17",
-      "latest_final_game_id": 2026020130
-    },
-    {
       "nhl_player_id": 8476958,
       "espn_player_id": 3069836,
       "name": "Jaccob Slavin",
@@ -18485,7 +18250,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 30.7,
+      "percent_owned": 30.73,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -18729,160 +18494,6 @@
       "latest_final_game_id": 2026020217
     },
     {
-      "nhl_player_id": 8484829,
-      "espn_player_id": 5229176,
-      "name": "Justin Hryckowian",
-      "nhl_team": "DAL",
-      "position": "C",
-      "espn_status": "FREEAGENT",
-      "espn_team_id": 0,
-      "percent_owned": 0.42,
-      "nhl_roster_status": "ACTIVE",
-      "score": 18,
-      "reliability": "HIGH",
-      "recommendation": "WATCH",
-      "categories": [
-        "SHP",
-        "FOW"
-      ],
-      "signals": [
-        {
-          "type": "SH_ROLE_UP",
-          "label": "Рост SH TOI",
-          "strong": true
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 916.4,
-          "recent": 848.0,
-          "delta": -68.4,
-          "ratio": 0.925
-        },
-        "ev_toi": {
-          "baseline": 709.0,
-          "recent": 647.5,
-          "delta": -61.5,
-          "ratio": 0.913
-        },
-        "pp_toi": {
-          "baseline": 92.4,
-          "recent": 19.0,
-          "delta": -73.4,
-          "ratio": 0.206
-        },
-        "sh_toi": {
-          "baseline": 115.0,
-          "recent": 181.5,
-          "delta": 66.5,
-          "ratio": 1.578
-        },
-        "sog": {
-          "baseline": 1.4,
-          "recent": 1.0,
-          "delta": -0.4,
-          "ratio": 0.714
-        },
-        "hit": {
-          "baseline": 2.2,
-          "recent": 1.0,
-          "delta": -1.2,
-          "ratio": 0.455
-        },
-        "blk": {
-          "baseline": 0.0,
-          "recent": 1.5,
-          "delta": 1.5,
-          "ratio": null
-        },
-        "fow": {
-          "baseline": 3.4,
-          "recent": 5.0,
-          "delta": 1.6,
-          "ratio": 1.471
-        },
-        "fo": {
-          "baseline": 6.0,
-          "recent": 8.0,
-          "delta": 2.0,
-          "ratio": 1.333
-        },
-        "pts": {
-          "baseline": 0.2,
-          "recent": 0.5,
-          "delta": 0.3,
-          "ratio": 2.5
-        },
-        "ppp": {
-          "baseline": 0.2,
-          "recent": 0.0,
-          "delta": -0.2,
-          "ratio": 0.0
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "NEW_IR:DAL:kyle capobianco:2026-10-31",
-          "type": "NEW_IR",
-          "team": "DAL",
-          "player": "Kyle Capobianco",
-          "player_key": "kyle capobianco",
-          "detected_at": "2026-10-31T18:20:58Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:DAL:esa lindell:2026-10-31",
-          "type": "RETURNED_FROM_IR",
-          "team": "DAL",
-          "player": "Esa Lindell",
-          "player_key": "esa lindell",
-          "detected_at": "2026-10-31T18:20:58Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DAL:matthew seminoff:2026-10-30",
-          "type": "ACTIVE_REMOVED",
-          "team": "DAL",
-          "player": "Matthew Seminoff",
-          "player_key": "matthew seminoff",
-          "detected_at": "2026-10-30T15:36:28Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:DAL:trey taylor:2026-10-29",
-          "type": "ACTIVE_ADDED",
-          "team": "DAL",
-          "player": "Trey Taylor",
-          "player_key": "trey taylor",
-          "detected_at": "2026-10-29T14:40:45Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DAL:dylan hryckowian:2026-10-28",
-          "type": "ACTIVE_REMOVED",
-          "team": "DAL",
-          "player": "Dylan Hryckowian",
-          "player_key": "dylan hryckowian",
-          "detected_at": "2026-10-28T19:33:36Z"
-        },
-        {
-          "id": "NEW_IR:DAL:esa lindell:2026-10-27",
-          "type": "NEW_IR",
-          "team": "DAL",
-          "player": "Esa Lindell",
-          "player_key": "esa lindell",
-          "detected_at": "2026-10-27T18:54:20Z"
-        }
-      ],
-      "latest_final_game_date": "2026-10-29",
-      "latest_final_game_id": 2026020209
-    },
-    {
       "nhl_player_id": 8480817,
       "espn_player_id": 4352770,
       "name": "K'Andre Miller",
@@ -18890,7 +18501,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 30.0,
+      "percent_owned": 29.99,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -19255,7 +18866,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 12.59,
+      "percent_owned": 12.67,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -19393,7 +19004,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 97.82,
+      "percent_owned": 97.81,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -19510,7 +19121,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 0.5,
+      "percent_owned": 0.51,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -19779,7 +19390,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 50.69,
+      "percent_owned": 50.67,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -20030,7 +19641,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 56.76,
+      "percent_owned": 56.78,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -20759,159 +20370,6 @@
       "latest_final_game_id": 2026020068
     },
     {
-      "nhl_player_id": 8474574,
-      "espn_player_id": 5052,
-      "name": "Tyler Myers",
-      "nhl_team": "DAL",
-      "position": "D",
-      "espn_status": "FREEAGENT",
-      "espn_team_id": 0,
-      "percent_owned": 0.25,
-      "nhl_roster_status": "ACTIVE",
-      "score": 18,
-      "reliability": "HIGH",
-      "recommendation": "WATCH",
-      "categories": [
-        "SHP"
-      ],
-      "signals": [
-        {
-          "type": "SH_ROLE_UP",
-          "label": "Рост SH TOI",
-          "strong": true
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 980.2,
-          "recent": 1009.0,
-          "delta": 28.8,
-          "ratio": 1.029
-        },
-        "ev_toi": {
-          "baseline": 851.4,
-          "recent": 809.5,
-          "delta": -41.9,
-          "ratio": 0.951
-        },
-        "pp_toi": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "sh_toi": {
-          "baseline": 128.8,
-          "recent": 199.5,
-          "delta": 70.7,
-          "ratio": 1.549
-        },
-        "sog": {
-          "baseline": 0.8,
-          "recent": 0.0,
-          "delta": -0.8,
-          "ratio": 0.0
-        },
-        "hit": {
-          "baseline": 0.2,
-          "recent": 0.0,
-          "delta": -0.2,
-          "ratio": 0.0
-        },
-        "blk": {
-          "baseline": 1.8,
-          "recent": 1.0,
-          "delta": -0.8,
-          "ratio": 0.556
-        },
-        "fow": {
-          "baseline": null,
-          "recent": null,
-          "delta": null,
-          "ratio": null
-        },
-        "fo": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "pts": {
-          "baseline": 0.0,
-          "recent": 0.5,
-          "delta": 0.5,
-          "ratio": null
-        },
-        "ppp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "NEW_IR:DAL:kyle capobianco:2026-10-31",
-          "type": "NEW_IR",
-          "team": "DAL",
-          "player": "Kyle Capobianco",
-          "player_key": "kyle capobianco",
-          "detected_at": "2026-10-31T18:20:58Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:DAL:esa lindell:2026-10-31",
-          "type": "RETURNED_FROM_IR",
-          "team": "DAL",
-          "player": "Esa Lindell",
-          "player_key": "esa lindell",
-          "detected_at": "2026-10-31T18:20:58Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DAL:matthew seminoff:2026-10-30",
-          "type": "ACTIVE_REMOVED",
-          "team": "DAL",
-          "player": "Matthew Seminoff",
-          "player_key": "matthew seminoff",
-          "detected_at": "2026-10-30T15:36:28Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:DAL:trey taylor:2026-10-29",
-          "type": "ACTIVE_ADDED",
-          "team": "DAL",
-          "player": "Trey Taylor",
-          "player_key": "trey taylor",
-          "detected_at": "2026-10-29T14:40:45Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DAL:dylan hryckowian:2026-10-28",
-          "type": "ACTIVE_REMOVED",
-          "team": "DAL",
-          "player": "Dylan Hryckowian",
-          "player_key": "dylan hryckowian",
-          "detected_at": "2026-10-28T19:33:36Z"
-        },
-        {
-          "id": "NEW_IR:DAL:esa lindell:2026-10-27",
-          "type": "NEW_IR",
-          "team": "DAL",
-          "player": "Esa Lindell",
-          "player_key": "esa lindell",
-          "detected_at": "2026-10-27T18:54:20Z"
-        }
-      ],
-      "latest_final_game_date": "2026-10-29",
-      "latest_final_game_id": 2026020209
-    },
-    {
       "nhl_player_id": 8482157,
       "espn_player_id": 4697468,
       "name": "Will Cuylle",
@@ -20919,7 +20377,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 64.1,
+      "percent_owned": 64.12,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -21332,7 +20790,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 84.95,
+      "percent_owned": 84.96,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -21484,7 +20942,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 95.09,
+      "percent_owned": 95.08,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -21644,7 +21102,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
-      "percent_owned": 69.49,
+      "percent_owned": 69.51,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -21934,7 +21392,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 7.77,
+      "percent_owned": 7.75,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -22071,7 +21529,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 32.71,
+      "percent_owned": 32.72,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -22351,7 +21809,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 78.05,
+      "percent_owned": 78.04,
       "nhl_roster_status": "IR",
       "score": 16,
       "reliability": "HIGH",
@@ -22673,7 +22131,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 90.02,
+      "percent_owned": 90.03,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -22827,7 +22285,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 94.65,
+      "percent_owned": 94.66,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -22989,7 +22447,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 33.27,
+      "percent_owned": 33.26,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -23238,6 +22696,167 @@
       "latest_final_game_id": 2026020215
     },
     {
+      "nhl_player_id": 8480036,
+      "espn_player_id": 4233536,
+      "name": "Miro Heiskanen",
+      "nhl_team": "DAL",
+      "position": "D",
+      "espn_status": "ONTEAM",
+      "espn_team_id": 2,
+      "percent_owned": 96.21,
+      "nhl_roster_status": "ACTIVE",
+      "score": 16,
+      "reliability": "HIGH",
+      "recommendation": "TRACK ONLY",
+      "categories": [
+        "SOG",
+        "G",
+        "A",
+        "PTS"
+      ],
+      "signals": [
+        {
+          "type": "PRODUCTION_UP",
+          "label": "Рост результативности",
+          "strong": true
+        },
+        {
+          "type": "PPP_UP",
+          "label": "Рост PPP",
+          "strong": false
+        }
+      ],
+      "metrics": {
+        "toi": {
+          "baseline": 1565.4,
+          "recent": 1679.5,
+          "delta": 114.1,
+          "ratio": 1.073
+        },
+        "ev_toi": {
+          "baseline": 1172.0,
+          "recent": 1249.0,
+          "delta": 77.0,
+          "ratio": 1.066
+        },
+        "pp_toi": {
+          "baseline": 166.2,
+          "recent": 208.0,
+          "delta": 41.8,
+          "ratio": 1.252
+        },
+        "sh_toi": {
+          "baseline": 227.2,
+          "recent": 222.5,
+          "delta": -4.7,
+          "ratio": 0.979
+        },
+        "sog": {
+          "baseline": 2.0,
+          "recent": 2.0,
+          "delta": 0.0,
+          "ratio": 1.0
+        },
+        "hit": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "blk": {
+          "baseline": 1.2,
+          "recent": 1.0,
+          "delta": -0.2,
+          "ratio": 0.833
+        },
+        "fow": {
+          "baseline": null,
+          "recent": null,
+          "delta": null,
+          "ratio": null
+        },
+        "fo": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "pts": {
+          "baseline": 0.4,
+          "recent": 1.5,
+          "delta": 1.1,
+          "ratio": 3.75
+        },
+        "ppp": {
+          "baseline": 0.2,
+          "recent": 0.5,
+          "delta": 0.3,
+          "ratio": 2.5
+        },
+        "shp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        }
+      },
+      "baseline_games": 5,
+      "recent_games": 2,
+      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
+      "team_context": [
+        {
+          "id": "NEW_IR:DAL:kyle capobianco:2026-10-31",
+          "type": "NEW_IR",
+          "team": "DAL",
+          "player": "Kyle Capobianco",
+          "player_key": "kyle capobianco",
+          "detected_at": "2026-10-31T18:20:58Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:DAL:esa lindell:2026-10-31",
+          "type": "RETURNED_FROM_IR",
+          "team": "DAL",
+          "player": "Esa Lindell",
+          "player_key": "esa lindell",
+          "detected_at": "2026-10-31T18:20:58Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:DAL:matthew seminoff:2026-10-30",
+          "type": "ACTIVE_REMOVED",
+          "team": "DAL",
+          "player": "Matthew Seminoff",
+          "player_key": "matthew seminoff",
+          "detected_at": "2026-10-30T15:36:28Z"
+        },
+        {
+          "id": "ACTIVE_ADDED:DAL:trey taylor:2026-10-29",
+          "type": "ACTIVE_ADDED",
+          "team": "DAL",
+          "player": "Trey Taylor",
+          "player_key": "trey taylor",
+          "detected_at": "2026-10-29T14:40:45Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:DAL:dylan hryckowian:2026-10-28",
+          "type": "ACTIVE_REMOVED",
+          "team": "DAL",
+          "player": "Dylan Hryckowian",
+          "player_key": "dylan hryckowian",
+          "detected_at": "2026-10-28T19:33:36Z"
+        },
+        {
+          "id": "NEW_IR:DAL:esa lindell:2026-10-27",
+          "type": "NEW_IR",
+          "team": "DAL",
+          "player": "Esa Lindell",
+          "player_key": "esa lindell",
+          "detected_at": "2026-10-27T18:54:20Z"
+        }
+      ],
+      "latest_final_game_date": "2026-10-31",
+      "latest_final_game_id": 2026020225
+    },
+    {
       "nhl_player_id": 8480018,
       "espn_player_id": 4233594,
       "name": "Nick Suzuki",
@@ -23367,7 +22986,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 28.32,
+      "percent_owned": 28.46,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -23639,7 +23258,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 98.73,
+      "percent_owned": 98.74,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -23768,7 +23387,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 53.02,
+      "percent_owned": 53.0,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -23930,7 +23549,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 68.51,
+      "percent_owned": 68.61,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "MEDIUM",
@@ -24076,7 +23695,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 97.65,
+      "percent_owned": 97.64,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -24190,7 +23809,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 94.83,
+      "percent_owned": 94.84,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -24345,20 +23964,20 @@
       "latest_final_game_id": 2026020223
     },
     {
-      "nhl_player_id": 8478460,
-      "espn_player_id": 3899972,
-      "name": "Zach Werenski",
-      "nhl_team": "CBJ",
-      "position": "D",
+      "nhl_player_id": 8482740,
+      "espn_player_id": 4874740,
+      "name": "Wyatt Johnston",
+      "nhl_team": "DAL",
+      "position": "C",
       "espn_status": "ONTEAM",
-      "espn_team_id": 11,
-      "percent_owned": 99.61,
+      "espn_team_id": 9,
+      "percent_owned": 96.28,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
       "recommendation": "TRACK ONLY",
       "categories": [
-        "BLK",
+        "SOG",
         "G",
         "A",
         "PTS"
@@ -24377,70 +23996,70 @@
       ],
       "metrics": {
         "toi": {
-          "baseline": 1712.6,
-          "recent": 1708.0,
-          "delta": -4.6,
-          "ratio": 0.997
+          "baseline": 1224.0,
+          "recent": 1244.5,
+          "delta": 20.5,
+          "ratio": 1.017
         },
         "ev_toi": {
-          "baseline": 1274.8,
-          "recent": 1444.5,
-          "delta": 169.7,
-          "ratio": 1.133
+          "baseline": 1032.2,
+          "recent": 1032.5,
+          "delta": 0.3,
+          "ratio": 1.0
         },
         "pp_toi": {
-          "baseline": 269.4,
-          "recent": 160.5,
-          "delta": -108.9,
-          "ratio": 0.596
+          "baseline": 173.2,
+          "recent": 205.5,
+          "delta": 32.3,
+          "ratio": 1.186
         },
         "sh_toi": {
-          "baseline": 168.4,
-          "recent": 103.0,
-          "delta": -65.4,
-          "ratio": 0.612
+          "baseline": 18.6,
+          "recent": 6.5,
+          "delta": -12.1,
+          "ratio": 0.349
         },
         "sog": {
-          "baseline": 3.8,
-          "recent": 1.0,
-          "delta": -2.8,
-          "ratio": 0.263
+          "baseline": 3.2,
+          "recent": 2.5,
+          "delta": -0.7,
+          "ratio": 0.781
         },
         "hit": {
-          "baseline": 1.0,
+          "baseline": 1.4,
           "recent": 0.5,
-          "delta": -0.5,
-          "ratio": 0.5
+          "delta": -0.9,
+          "ratio": 0.357
         },
         "blk": {
-          "baseline": 2.0,
-          "recent": 2.5,
-          "delta": 0.5,
-          "ratio": 1.25
+          "baseline": 0.6,
+          "recent": 1.0,
+          "delta": 0.4,
+          "ratio": 1.667
         },
         "fow": {
-          "baseline": null,
-          "recent": null,
-          "delta": null,
-          "ratio": null
+          "baseline": 5.4,
+          "recent": 1.5,
+          "delta": -3.9,
+          "ratio": 0.278
         },
         "fo": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
+          "baseline": 9.0,
+          "recent": 5.5,
+          "delta": -3.5,
+          "ratio": 0.611
         },
         "pts": {
-          "baseline": 0.4,
+          "baseline": 0.8,
           "recent": 1.5,
-          "delta": 1.1,
-          "ratio": 3.75
+          "delta": 0.7,
+          "ratio": 1.875
         },
         "ppp": {
-          "baseline": 0.0,
-          "recent": 0.5,
-          "delta": 0.5,
-          "ratio": null
+          "baseline": 0.2,
+          "recent": 1.0,
+          "delta": 0.8,
+          "ratio": 5.0
         },
         "shp": {
           "baseline": 0.0,
@@ -24454,32 +24073,56 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
-          "id": "RETURNED_FROM_IR:CBJ:ivan provorov:2026-10-31",
-          "type": "RETURNED_FROM_IR",
-          "team": "CBJ",
-          "player": "Ivan Provorov",
-          "player_key": "ivan provorov",
+          "id": "NEW_IR:DAL:kyle capobianco:2026-10-31",
+          "type": "NEW_IR",
+          "team": "DAL",
+          "player": "Kyle Capobianco",
+          "player_key": "kyle capobianco",
           "detected_at": "2026-10-31T18:20:58Z"
         },
         {
-          "id": "ACTIVE_REMOVED:CBJ:carson soucy:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "CBJ",
-          "player": "Carson Soucy",
-          "player_key": "carson soucy",
-          "detected_at": "2026-10-29T18:28:12Z"
+          "id": "RETURNED_FROM_IR:DAL:esa lindell:2026-10-31",
+          "type": "RETURNED_FROM_IR",
+          "team": "DAL",
+          "player": "Esa Lindell",
+          "player_key": "esa lindell",
+          "detected_at": "2026-10-31T18:20:58Z"
         },
         {
-          "id": "RETURNED_FROM_IR:CBJ:dante fabbro:2026-10-27",
-          "type": "RETURNED_FROM_IR",
-          "team": "CBJ",
-          "player": "Dante Fabbro",
-          "player_key": "dante fabbro",
+          "id": "ACTIVE_REMOVED:DAL:matthew seminoff:2026-10-30",
+          "type": "ACTIVE_REMOVED",
+          "team": "DAL",
+          "player": "Matthew Seminoff",
+          "player_key": "matthew seminoff",
+          "detected_at": "2026-10-30T15:36:28Z"
+        },
+        {
+          "id": "ACTIVE_ADDED:DAL:trey taylor:2026-10-29",
+          "type": "ACTIVE_ADDED",
+          "team": "DAL",
+          "player": "Trey Taylor",
+          "player_key": "trey taylor",
+          "detected_at": "2026-10-29T14:40:45Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:DAL:dylan hryckowian:2026-10-28",
+          "type": "ACTIVE_REMOVED",
+          "team": "DAL",
+          "player": "Dylan Hryckowian",
+          "player_key": "dylan hryckowian",
+          "detected_at": "2026-10-28T19:33:36Z"
+        },
+        {
+          "id": "NEW_IR:DAL:esa lindell:2026-10-27",
+          "type": "NEW_IR",
+          "team": "DAL",
+          "player": "Esa Lindell",
+          "player_key": "esa lindell",
           "detected_at": "2026-10-27T18:54:20Z"
         }
       ],
-      "latest_final_game_date": "2026-10-29",
-      "latest_final_game_id": 2026020206
+      "latest_final_game_date": "2026-10-31",
+      "latest_final_game_id": 2026020225
     },
     {
       "nhl_player_id": 8478421,
@@ -24489,7 +24132,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 1.92,
+      "percent_owned": 1.95,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -24630,6 +24273,137 @@
       "latest_final_game_id": 2026020211
     },
     {
+      "nhl_player_id": 8484166,
+      "espn_player_id": 5136617,
+      "name": "Adam Fantilli",
+      "nhl_team": "CBJ",
+      "position": "C",
+      "espn_status": "ONTEAM",
+      "espn_team_id": 15,
+      "percent_owned": 82.02,
+      "nhl_roster_status": "ACTIVE",
+      "score": 15,
+      "reliability": "HIGH",
+      "recommendation": "TRACK ONLY",
+      "categories": [
+        "SOG",
+        "HIT",
+        "FOW"
+      ],
+      "signals": [
+        {
+          "type": "PERIPHERAL_UP",
+          "label": "Рост SOG/HIT/BLK",
+          "strong": true
+        }
+      ],
+      "metrics": {
+        "toi": {
+          "baseline": 1273.0,
+          "recent": 1415.5,
+          "delta": 142.5,
+          "ratio": 1.112
+        },
+        "ev_toi": {
+          "baseline": 1017.6,
+          "recent": 1249.5,
+          "delta": 231.9,
+          "ratio": 1.228
+        },
+        "pp_toi": {
+          "baseline": 235.6,
+          "recent": 157.0,
+          "delta": -78.6,
+          "ratio": 0.666
+        },
+        "sh_toi": {
+          "baseline": 19.8,
+          "recent": 9.0,
+          "delta": -10.8,
+          "ratio": 0.455
+        },
+        "sog": {
+          "baseline": 3.4,
+          "recent": 3.5,
+          "delta": 0.1,
+          "ratio": 1.029
+        },
+        "hit": {
+          "baseline": 1.8,
+          "recent": 5.0,
+          "delta": 3.2,
+          "ratio": 2.778
+        },
+        "blk": {
+          "baseline": 0.6,
+          "recent": 0.5,
+          "delta": -0.1,
+          "ratio": 0.833
+        },
+        "fow": {
+          "baseline": 7.2,
+          "recent": 8.0,
+          "delta": 0.8,
+          "ratio": 1.111
+        },
+        "fo": {
+          "baseline": 14.4,
+          "recent": 15.5,
+          "delta": 1.1,
+          "ratio": 1.076
+        },
+        "pts": {
+          "baseline": 0.8,
+          "recent": 0.0,
+          "delta": -0.8,
+          "ratio": 0.0
+        },
+        "ppp": {
+          "baseline": 0.2,
+          "recent": 0.0,
+          "delta": -0.2,
+          "ratio": 0.0
+        },
+        "shp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        }
+      },
+      "baseline_games": 5,
+      "recent_games": 2,
+      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
+      "team_context": [
+        {
+          "id": "RETURNED_FROM_IR:CBJ:ivan provorov:2026-10-31",
+          "type": "RETURNED_FROM_IR",
+          "team": "CBJ",
+          "player": "Ivan Provorov",
+          "player_key": "ivan provorov",
+          "detected_at": "2026-10-31T18:20:58Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:CBJ:carson soucy:2026-10-29",
+          "type": "ACTIVE_REMOVED",
+          "team": "CBJ",
+          "player": "Carson Soucy",
+          "player_key": "carson soucy",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:CBJ:dante fabbro:2026-10-27",
+          "type": "RETURNED_FROM_IR",
+          "team": "CBJ",
+          "player": "Dante Fabbro",
+          "player_key": "dante fabbro",
+          "detected_at": "2026-10-27T18:54:20Z"
+        }
+      ],
+      "latest_final_game_date": "2026-10-31",
+      "latest_final_game_id": 2026020225
+    },
+    {
       "nhl_player_id": 8482482,
       "espn_player_id": 4697765,
       "name": "Adam Wilsby",
@@ -24759,7 +24533,7 @@
       "position": "L",
       "espn_status": "WAIVERS",
       "espn_team_id": 0,
-      "percent_owned": 0.2,
+      "percent_owned": 0.19,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -25313,7 +25087,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.47,
+      "percent_owned": 0.48,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -25982,7 +25756,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 52.22,
+      "percent_owned": 52.23,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -26243,7 +26017,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 18,
-      "percent_owned": 98.96,
+      "percent_owned": 98.95,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -26347,6 +26121,136 @@
       ],
       "latest_final_game_date": "2026-10-29",
       "latest_final_game_id": 2026020205
+    },
+    {
+      "nhl_player_id": 8482705,
+      "espn_player_id": 4874725,
+      "name": "Cole Sillinger",
+      "nhl_team": "CBJ",
+      "position": "C",
+      "espn_status": "FREEAGENT",
+      "espn_team_id": 0,
+      "percent_owned": 3.54,
+      "nhl_roster_status": "ACTIVE",
+      "score": 15,
+      "reliability": "HIGH",
+      "recommendation": "WATCH",
+      "categories": [
+        "SOG",
+        "HIT"
+      ],
+      "signals": [
+        {
+          "type": "PERIPHERAL_UP",
+          "label": "Рост SOG/HIT/BLK",
+          "strong": false
+        }
+      ],
+      "metrics": {
+        "toi": {
+          "baseline": 896.2,
+          "recent": 932.0,
+          "delta": 35.8,
+          "ratio": 1.04
+        },
+        "ev_toi": {
+          "baseline": 829.4,
+          "recent": 920.0,
+          "delta": 90.6,
+          "ratio": 1.109
+        },
+        "pp_toi": {
+          "baseline": 35.4,
+          "recent": 0.0,
+          "delta": -35.4,
+          "ratio": 0.0
+        },
+        "sh_toi": {
+          "baseline": 31.4,
+          "recent": 12.0,
+          "delta": -19.4,
+          "ratio": 0.382
+        },
+        "sog": {
+          "baseline": 1.2,
+          "recent": 2.0,
+          "delta": 0.8,
+          "ratio": 1.667
+        },
+        "hit": {
+          "baseline": 2.6,
+          "recent": 3.5,
+          "delta": 0.9,
+          "ratio": 1.346
+        },
+        "blk": {
+          "baseline": 0.2,
+          "recent": 0.5,
+          "delta": 0.3,
+          "ratio": 2.5
+        },
+        "fow": {
+          "baseline": 1.75,
+          "recent": 2.0,
+          "delta": 0.25,
+          "ratio": 1.143
+        },
+        "fo": {
+          "baseline": 2.2,
+          "recent": 3.5,
+          "delta": 1.3,
+          "ratio": 1.591
+        },
+        "pts": {
+          "baseline": 0.2,
+          "recent": 0.0,
+          "delta": -0.2,
+          "ratio": 0.0
+        },
+        "ppp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "shp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        }
+      },
+      "baseline_games": 5,
+      "recent_games": 2,
+      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
+      "team_context": [
+        {
+          "id": "RETURNED_FROM_IR:CBJ:ivan provorov:2026-10-31",
+          "type": "RETURNED_FROM_IR",
+          "team": "CBJ",
+          "player": "Ivan Provorov",
+          "player_key": "ivan provorov",
+          "detected_at": "2026-10-31T18:20:58Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:CBJ:carson soucy:2026-10-29",
+          "type": "ACTIVE_REMOVED",
+          "team": "CBJ",
+          "player": "Carson Soucy",
+          "player_key": "carson soucy",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:CBJ:dante fabbro:2026-10-27",
+          "type": "RETURNED_FROM_IR",
+          "team": "CBJ",
+          "player": "Dante Fabbro",
+          "player_key": "dante fabbro",
+          "detected_at": "2026-10-27T18:54:20Z"
+        }
+      ],
+      "latest_final_game_date": "2026-10-31",
+      "latest_final_game_id": 2026020225
     },
     {
       "nhl_player_id": 8477365,
@@ -26978,135 +26882,6 @@
       "latest_final_game_id": 2026020172
     },
     {
-      "nhl_player_id": 8475790,
-      "espn_player_id": 5503,
-      "name": "Erik Gudbranson",
-      "nhl_team": "CBJ",
-      "position": "D",
-      "espn_status": "FREEAGENT",
-      "espn_team_id": 0,
-      "percent_owned": 0.26,
-      "nhl_roster_status": "ACTIVE",
-      "score": 15,
-      "reliability": "HIGH",
-      "recommendation": "WATCH",
-      "categories": [
-        "BLK"
-      ],
-      "signals": [
-        {
-          "type": "PERIPHERAL_UP",
-          "label": "Рост SOG/HIT/BLK",
-          "strong": false
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 932.0,
-          "recent": 996.5,
-          "delta": 64.5,
-          "ratio": 1.069
-        },
-        "ev_toi": {
-          "baseline": 787.6,
-          "recent": 880.0,
-          "delta": 92.4,
-          "ratio": 1.117
-        },
-        "pp_toi": {
-          "baseline": 2.2,
-          "recent": 0.0,
-          "delta": -2.2,
-          "ratio": 0.0
-        },
-        "sh_toi": {
-          "baseline": 142.2,
-          "recent": 116.5,
-          "delta": -25.7,
-          "ratio": 0.819
-        },
-        "sog": {
-          "baseline": 1.2,
-          "recent": 1.0,
-          "delta": -0.2,
-          "ratio": 0.833
-        },
-        "hit": {
-          "baseline": 0.6,
-          "recent": 1.0,
-          "delta": 0.4,
-          "ratio": 1.667
-        },
-        "blk": {
-          "baseline": 1.4,
-          "recent": 3.0,
-          "delta": 1.6,
-          "ratio": 2.143
-        },
-        "fow": {
-          "baseline": null,
-          "recent": null,
-          "delta": null,
-          "ratio": null
-        },
-        "fo": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "pts": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "ppp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "RETURNED_FROM_IR:CBJ:ivan provorov:2026-10-31",
-          "type": "RETURNED_FROM_IR",
-          "team": "CBJ",
-          "player": "Ivan Provorov",
-          "player_key": "ivan provorov",
-          "detected_at": "2026-10-31T18:20:58Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:CBJ:carson soucy:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "CBJ",
-          "player": "Carson Soucy",
-          "player_key": "carson soucy",
-          "detected_at": "2026-10-29T18:28:12Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:CBJ:dante fabbro:2026-10-27",
-          "type": "RETURNED_FROM_IR",
-          "team": "CBJ",
-          "player": "Dante Fabbro",
-          "player_key": "dante fabbro",
-          "detected_at": "2026-10-27T18:54:20Z"
-        }
-      ],
-      "latest_final_game_date": "2026-10-29",
-      "latest_final_game_id": 2026020206
-    },
-    {
       "nhl_player_id": 8477903,
       "espn_player_id": 3149633,
       "name": "Garnet Hathaway",
@@ -27114,7 +26889,7 @@
       "position": "R",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.76,
+      "percent_owned": 0.75,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -27219,7 +26994,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 18.7,
+      "percent_owned": 18.69,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -27550,159 +27325,6 @@
       ],
       "latest_final_game_date": "2026-10-30",
       "latest_final_game_id": 2026020214
-    },
-    {
-      "nhl_player_id": 8473994,
-      "espn_player_id": 3998,
-      "name": "Jamie Benn",
-      "nhl_team": "DAL",
-      "position": "L",
-      "espn_status": "FREEAGENT",
-      "espn_team_id": 0,
-      "percent_owned": 2.27,
-      "nhl_roster_status": "ACTIVE",
-      "score": 15,
-      "reliability": "HIGH",
-      "recommendation": "WATCH",
-      "categories": [
-        "HIT"
-      ],
-      "signals": [
-        {
-          "type": "PERIPHERAL_UP",
-          "label": "Рост SOG/HIT/BLK",
-          "strong": false
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 768.4,
-          "recent": 652.0,
-          "delta": -116.4,
-          "ratio": 0.849
-        },
-        "ev_toi": {
-          "baseline": 733.0,
-          "recent": 649.5,
-          "delta": -83.5,
-          "ratio": 0.886
-        },
-        "pp_toi": {
-          "baseline": 35.4,
-          "recent": 2.5,
-          "delta": -32.9,
-          "ratio": 0.071
-        },
-        "sh_toi": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "sog": {
-          "baseline": 1.4,
-          "recent": 1.0,
-          "delta": -0.4,
-          "ratio": 0.714
-        },
-        "hit": {
-          "baseline": 0.2,
-          "recent": 2.5,
-          "delta": 2.3,
-          "ratio": 12.5
-        },
-        "blk": {
-          "baseline": 0.0,
-          "recent": 0.5,
-          "delta": 0.5,
-          "ratio": null
-        },
-        "fow": {
-          "baseline": 0.5,
-          "recent": 1.0,
-          "delta": 0.5,
-          "ratio": 2.0
-        },
-        "fo": {
-          "baseline": 0.6,
-          "recent": 2.0,
-          "delta": 1.4,
-          "ratio": 3.333
-        },
-        "pts": {
-          "baseline": 0.2,
-          "recent": 0.5,
-          "delta": 0.3,
-          "ratio": 2.5
-        },
-        "ppp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "NEW_IR:DAL:kyle capobianco:2026-10-31",
-          "type": "NEW_IR",
-          "team": "DAL",
-          "player": "Kyle Capobianco",
-          "player_key": "kyle capobianco",
-          "detected_at": "2026-10-31T18:20:58Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:DAL:esa lindell:2026-10-31",
-          "type": "RETURNED_FROM_IR",
-          "team": "DAL",
-          "player": "Esa Lindell",
-          "player_key": "esa lindell",
-          "detected_at": "2026-10-31T18:20:58Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DAL:matthew seminoff:2026-10-30",
-          "type": "ACTIVE_REMOVED",
-          "team": "DAL",
-          "player": "Matthew Seminoff",
-          "player_key": "matthew seminoff",
-          "detected_at": "2026-10-30T15:36:28Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:DAL:trey taylor:2026-10-29",
-          "type": "ACTIVE_ADDED",
-          "team": "DAL",
-          "player": "Trey Taylor",
-          "player_key": "trey taylor",
-          "detected_at": "2026-10-29T14:40:45Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DAL:dylan hryckowian:2026-10-28",
-          "type": "ACTIVE_REMOVED",
-          "team": "DAL",
-          "player": "Dylan Hryckowian",
-          "player_key": "dylan hryckowian",
-          "detected_at": "2026-10-28T19:33:36Z"
-        },
-        {
-          "id": "NEW_IR:DAL:esa lindell:2026-10-27",
-          "type": "NEW_IR",
-          "team": "DAL",
-          "player": "Esa Lindell",
-          "player_key": "esa lindell",
-          "detected_at": "2026-10-27T18:54:20Z"
-        }
-      ],
-      "latest_final_game_date": "2026-10-29",
-      "latest_final_game_id": 2026020209
     },
     {
       "nhl_player_id": 8478468,
@@ -28125,7 +27747,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 32.38,
+      "percent_owned": 32.37,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -28357,7 +27979,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 5.86,
+      "percent_owned": 5.85,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -28487,7 +28109,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 9,
-      "percent_owned": 30.43,
+      "percent_owned": 30.39,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -28900,7 +28522,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 61.73,
+      "percent_owned": 61.74,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -29025,7 +28647,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 1.83,
+      "percent_owned": 1.82,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -29300,7 +28922,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 78.19,
+      "percent_owned": 78.17,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -29672,7 +29294,7 @@
       "position": "L",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 7.64,
+      "percent_owned": 7.62,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -29690,15 +29312,15 @@
       "metrics": {
         "toi": {
           "baseline": 833.0,
-          "recent": 665.5,
-          "delta": -167.5,
-          "ratio": 0.799
+          "recent": 665.0,
+          "delta": -168.0,
+          "ratio": 0.798
         },
         "ev_toi": {
           "baseline": 734.8,
-          "recent": 604.5,
-          "delta": -130.3,
-          "ratio": 0.823
+          "recent": 604.0,
+          "delta": -130.8,
+          "ratio": 0.822
         },
         "pp_toi": {
           "baseline": 10.0,
@@ -29825,7 +29447,7 @@
       "position": "L",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.21,
+      "percent_owned": 0.22,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -29962,7 +29584,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 24.67,
+      "percent_owned": 24.66,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -30058,159 +29680,6 @@
       "team_context": [],
       "latest_final_game_date": "2026-10-31",
       "latest_final_game_id": 2026020217
-    },
-    {
-      "nhl_player_id": 8480878,
-      "espn_player_id": 4352800,
-      "name": "Nils Lundkvist",
-      "nhl_team": "DAL",
-      "position": "D",
-      "espn_status": "FREEAGENT",
-      "espn_team_id": 0,
-      "percent_owned": 0.16,
-      "nhl_roster_status": "ACTIVE",
-      "score": 15,
-      "reliability": "HIGH",
-      "recommendation": "WATCH",
-      "categories": [
-        "BLK"
-      ],
-      "signals": [
-        {
-          "type": "PERIPHERAL_UP",
-          "label": "Рост SOG/HIT/BLK",
-          "strong": false
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 1031.2,
-          "recent": 1070.5,
-          "delta": 39.3,
-          "ratio": 1.038
-        },
-        "ev_toi": {
-          "baseline": 990.0,
-          "recent": 1045.0,
-          "delta": 55.0,
-          "ratio": 1.056
-        },
-        "pp_toi": {
-          "baseline": 2.0,
-          "recent": 2.5,
-          "delta": 0.5,
-          "ratio": 1.25
-        },
-        "sh_toi": {
-          "baseline": 39.2,
-          "recent": 23.0,
-          "delta": -16.2,
-          "ratio": 0.587
-        },
-        "sog": {
-          "baseline": 0.6,
-          "recent": 1.0,
-          "delta": 0.4,
-          "ratio": 1.667
-        },
-        "hit": {
-          "baseline": 0.6,
-          "recent": 1.0,
-          "delta": 0.4,
-          "ratio": 1.667
-        },
-        "blk": {
-          "baseline": 1.4,
-          "recent": 2.5,
-          "delta": 1.1,
-          "ratio": 1.786
-        },
-        "fow": {
-          "baseline": null,
-          "recent": null,
-          "delta": null,
-          "ratio": null
-        },
-        "fo": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "pts": {
-          "baseline": 0.4,
-          "recent": 0.0,
-          "delta": -0.4,
-          "ratio": 0.0
-        },
-        "ppp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "NEW_IR:DAL:kyle capobianco:2026-10-31",
-          "type": "NEW_IR",
-          "team": "DAL",
-          "player": "Kyle Capobianco",
-          "player_key": "kyle capobianco",
-          "detected_at": "2026-10-31T18:20:58Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:DAL:esa lindell:2026-10-31",
-          "type": "RETURNED_FROM_IR",
-          "team": "DAL",
-          "player": "Esa Lindell",
-          "player_key": "esa lindell",
-          "detected_at": "2026-10-31T18:20:58Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DAL:matthew seminoff:2026-10-30",
-          "type": "ACTIVE_REMOVED",
-          "team": "DAL",
-          "player": "Matthew Seminoff",
-          "player_key": "matthew seminoff",
-          "detected_at": "2026-10-30T15:36:28Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:DAL:trey taylor:2026-10-29",
-          "type": "ACTIVE_ADDED",
-          "team": "DAL",
-          "player": "Trey Taylor",
-          "player_key": "trey taylor",
-          "detected_at": "2026-10-29T14:40:45Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DAL:dylan hryckowian:2026-10-28",
-          "type": "ACTIVE_REMOVED",
-          "team": "DAL",
-          "player": "Dylan Hryckowian",
-          "player_key": "dylan hryckowian",
-          "detected_at": "2026-10-28T19:33:36Z"
-        },
-        {
-          "id": "NEW_IR:DAL:esa lindell:2026-10-27",
-          "type": "NEW_IR",
-          "team": "DAL",
-          "player": "Esa Lindell",
-          "player_key": "esa lindell",
-          "detected_at": "2026-10-27T18:54:20Z"
-        }
-      ],
-      "latest_final_game_date": "2026-10-29",
-      "latest_final_game_id": 2026020209
     },
     {
       "nhl_player_id": 8484197,
@@ -30486,7 +29955,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 46.26,
+      "percent_owned": 46.23,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -30591,7 +30060,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 88.61,
+      "percent_owned": 88.59,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -31174,7 +30643,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 13.66,
+      "percent_owned": 13.65,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -31660,7 +31129,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 76.62,
+      "percent_owned": 76.63,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -31962,14 +31431,14 @@
       "metrics": {
         "toi": {
           "baseline": 1136.0,
-          "recent": 957.5,
-          "delta": -178.5,
+          "recent": 958.0,
+          "delta": -178.0,
           "ratio": 0.843
         },
         "ev_toi": {
           "baseline": 1121.8,
-          "recent": 954.5,
-          "delta": -167.3,
+          "recent": 955.0,
+          "delta": -166.8,
           "ratio": 0.851
         },
         "pp_toi": {
@@ -32733,7 +32202,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 3.21,
+      "percent_owned": 3.29,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -33180,7 +32649,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 4.41,
+      "percent_owned": 4.48,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -33314,6 +32783,136 @@
       "latest_final_game_id": 2026020185
     },
     {
+      "nhl_player_id": 8477501,
+      "espn_player_id": 3042003,
+      "name": "Valeri Nichushkin",
+      "nhl_team": "CBJ",
+      "position": "R",
+      "espn_status": "ONTEAM",
+      "espn_team_id": 2,
+      "percent_owned": 42.24,
+      "nhl_roster_status": "ACTIVE",
+      "score": 15,
+      "reliability": "HIGH",
+      "recommendation": "TRACK ONLY",
+      "categories": [
+        "SOG",
+        "HIT"
+      ],
+      "signals": [
+        {
+          "type": "PERIPHERAL_UP",
+          "label": "Рост SOG/HIT/BLK",
+          "strong": false
+        }
+      ],
+      "metrics": {
+        "toi": {
+          "baseline": 969.4,
+          "recent": 1064.0,
+          "delta": 94.6,
+          "ratio": 1.098
+        },
+        "ev_toi": {
+          "baseline": 800.6,
+          "recent": 989.5,
+          "delta": 188.9,
+          "ratio": 1.236
+        },
+        "pp_toi": {
+          "baseline": 82.0,
+          "recent": 6.0,
+          "delta": -76.0,
+          "ratio": 0.073
+        },
+        "sh_toi": {
+          "baseline": 86.8,
+          "recent": 68.5,
+          "delta": -18.3,
+          "ratio": 0.789
+        },
+        "sog": {
+          "baseline": 0.8,
+          "recent": 2.0,
+          "delta": 1.2,
+          "ratio": 2.5
+        },
+        "hit": {
+          "baseline": 1.6,
+          "recent": 3.0,
+          "delta": 1.4,
+          "ratio": 1.875
+        },
+        "blk": {
+          "baseline": 1.0,
+          "recent": 0.5,
+          "delta": -0.5,
+          "ratio": 0.5
+        },
+        "fow": {
+          "baseline": 0.0,
+          "recent": null,
+          "delta": null,
+          "ratio": null
+        },
+        "fo": {
+          "baseline": 0.4,
+          "recent": 0.0,
+          "delta": -0.4,
+          "ratio": 0.0
+        },
+        "pts": {
+          "baseline": 0.6,
+          "recent": 0.0,
+          "delta": -0.6,
+          "ratio": 0.0
+        },
+        "ppp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "shp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        }
+      },
+      "baseline_games": 5,
+      "recent_games": 2,
+      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
+      "team_context": [
+        {
+          "id": "RETURNED_FROM_IR:CBJ:ivan provorov:2026-10-31",
+          "type": "RETURNED_FROM_IR",
+          "team": "CBJ",
+          "player": "Ivan Provorov",
+          "player_key": "ivan provorov",
+          "detected_at": "2026-10-31T18:20:58Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:CBJ:carson soucy:2026-10-29",
+          "type": "ACTIVE_REMOVED",
+          "team": "CBJ",
+          "player": "Carson Soucy",
+          "player_key": "carson soucy",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:CBJ:dante fabbro:2026-10-27",
+          "type": "RETURNED_FROM_IR",
+          "team": "CBJ",
+          "player": "Dante Fabbro",
+          "player_key": "dante fabbro",
+          "detected_at": "2026-10-27T18:54:20Z"
+        }
+      ],
+      "latest_final_game_date": "2026-10-31",
+      "latest_final_game_id": 2026020225
+    },
+    {
       "nhl_player_id": 8482866,
       "espn_player_id": 5103811,
       "name": "Ville Ottavainen",
@@ -33442,7 +33041,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 85.61,
+      "percent_owned": 85.65,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -34286,160 +33885,6 @@
       "latest_final_game_id": 2026020218
     },
     {
-      "nhl_player_id": 8484938,
-      "espn_player_id": 5209793,
-      "name": "Arttu Hyry",
-      "nhl_team": "DAL",
-      "position": "R",
-      "espn_status": "FREEAGENT",
-      "espn_team_id": 0,
-      "percent_owned": 0.85,
-      "nhl_roster_status": "ACTIVE",
-      "score": 12,
-      "reliability": "HIGH",
-      "recommendation": "WATCH",
-      "categories": [
-        "SOG",
-        "FOW"
-      ],
-      "signals": [
-        {
-          "type": "FOW_UP",
-          "label": "Рост FOW",
-          "strong": true
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 902.8,
-          "recent": 886.5,
-          "delta": -16.3,
-          "ratio": 0.982
-        },
-        "ev_toi": {
-          "baseline": 753.6,
-          "recent": 677.5,
-          "delta": -76.1,
-          "ratio": 0.899
-        },
-        "pp_toi": {
-          "baseline": 0.0,
-          "recent": 2.5,
-          "delta": 2.5,
-          "ratio": null
-        },
-        "sh_toi": {
-          "baseline": 149.2,
-          "recent": 206.5,
-          "delta": 57.3,
-          "ratio": 1.384
-        },
-        "sog": {
-          "baseline": 2.4,
-          "recent": 2.0,
-          "delta": -0.4,
-          "ratio": 0.833
-        },
-        "hit": {
-          "baseline": 1.4,
-          "recent": 1.5,
-          "delta": 0.1,
-          "ratio": 1.071
-        },
-        "blk": {
-          "baseline": 0.0,
-          "recent": 1.0,
-          "delta": 1.0,
-          "ratio": null
-        },
-        "fow": {
-          "baseline": 6.4,
-          "recent": 11.0,
-          "delta": 4.6,
-          "ratio": 1.719
-        },
-        "fo": {
-          "baseline": 11.2,
-          "recent": 17.0,
-          "delta": 5.8,
-          "ratio": 1.518
-        },
-        "pts": {
-          "baseline": 0.6,
-          "recent": 0.0,
-          "delta": -0.6,
-          "ratio": 0.0
-        },
-        "ppp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "shp": {
-          "baseline": 0.2,
-          "recent": 0.0,
-          "delta": -0.2,
-          "ratio": 0.0
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "NEW_IR:DAL:kyle capobianco:2026-10-31",
-          "type": "NEW_IR",
-          "team": "DAL",
-          "player": "Kyle Capobianco",
-          "player_key": "kyle capobianco",
-          "detected_at": "2026-10-31T18:20:58Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:DAL:esa lindell:2026-10-31",
-          "type": "RETURNED_FROM_IR",
-          "team": "DAL",
-          "player": "Esa Lindell",
-          "player_key": "esa lindell",
-          "detected_at": "2026-10-31T18:20:58Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DAL:matthew seminoff:2026-10-30",
-          "type": "ACTIVE_REMOVED",
-          "team": "DAL",
-          "player": "Matthew Seminoff",
-          "player_key": "matthew seminoff",
-          "detected_at": "2026-10-30T15:36:28Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:DAL:trey taylor:2026-10-29",
-          "type": "ACTIVE_ADDED",
-          "team": "DAL",
-          "player": "Trey Taylor",
-          "player_key": "trey taylor",
-          "detected_at": "2026-10-29T14:40:45Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DAL:dylan hryckowian:2026-10-28",
-          "type": "ACTIVE_REMOVED",
-          "team": "DAL",
-          "player": "Dylan Hryckowian",
-          "player_key": "dylan hryckowian",
-          "detected_at": "2026-10-28T19:33:36Z"
-        },
-        {
-          "id": "NEW_IR:DAL:esa lindell:2026-10-27",
-          "type": "NEW_IR",
-          "team": "DAL",
-          "player": "Esa Lindell",
-          "player_key": "esa lindell",
-          "detected_at": "2026-10-27T18:54:20Z"
-        }
-      ],
-      "latest_final_game_date": "2026-10-29",
-      "latest_final_game_id": 2026020209
-    },
-    {
       "nhl_player_id": 8481655,
       "espn_player_id": 4845286,
       "name": "Cole Schwindt",
@@ -34939,7 +34384,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 22.11,
+      "percent_owned": 22.09,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -35482,7 +34927,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 45.96,
+      "percent_owned": 46.0,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -35637,7 +35082,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 71.74,
+      "percent_owned": 71.73,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -35900,7 +35345,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 4.92,
+      "percent_owned": 4.93,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -36047,137 +35492,6 @@
       ],
       "latest_final_game_date": "2026-10-30",
       "latest_final_game_id": 2026020215
-    },
-    {
-      "nhl_player_id": 8483485,
-      "espn_player_id": 5080156,
-      "name": "Denton Mateychuk",
-      "nhl_team": "CBJ",
-      "position": "D",
-      "espn_status": "ONTEAM",
-      "espn_team_id": 1,
-      "percent_owned": 7.25,
-      "nhl_roster_status": "ACTIVE",
-      "score": 10,
-      "reliability": "HIGH",
-      "recommendation": "TRACK ONLY",
-      "categories": [
-        "G",
-        "A",
-        "PTS"
-      ],
-      "signals": [
-        {
-          "type": "PRODUCTION_UP",
-          "label": "Рост результативности",
-          "strong": false
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 1274.2,
-          "recent": 1386.5,
-          "delta": 112.3,
-          "ratio": 1.088
-        },
-        "ev_toi": {
-          "baseline": 1090.2,
-          "recent": 1267.0,
-          "delta": 176.8,
-          "ratio": 1.162
-        },
-        "pp_toi": {
-          "baseline": 69.0,
-          "recent": 4.0,
-          "delta": -65.0,
-          "ratio": 0.058
-        },
-        "sh_toi": {
-          "baseline": 115.0,
-          "recent": 115.5,
-          "delta": 0.5,
-          "ratio": 1.004
-        },
-        "sog": {
-          "baseline": 2.4,
-          "recent": 1.5,
-          "delta": -0.9,
-          "ratio": 0.625
-        },
-        "hit": {
-          "baseline": 0.2,
-          "recent": 0.5,
-          "delta": 0.3,
-          "ratio": 2.5
-        },
-        "blk": {
-          "baseline": 2.0,
-          "recent": 1.0,
-          "delta": -1.0,
-          "ratio": 0.5
-        },
-        "fow": {
-          "baseline": null,
-          "recent": null,
-          "delta": null,
-          "ratio": null
-        },
-        "fo": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "pts": {
-          "baseline": 0.4,
-          "recent": 1.0,
-          "delta": 0.6,
-          "ratio": 2.5
-        },
-        "ppp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "RETURNED_FROM_IR:CBJ:ivan provorov:2026-10-31",
-          "type": "RETURNED_FROM_IR",
-          "team": "CBJ",
-          "player": "Ivan Provorov",
-          "player_key": "ivan provorov",
-          "detected_at": "2026-10-31T18:20:58Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:CBJ:carson soucy:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "CBJ",
-          "player": "Carson Soucy",
-          "player_key": "carson soucy",
-          "detected_at": "2026-10-29T18:28:12Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:CBJ:dante fabbro:2026-10-27",
-          "type": "RETURNED_FROM_IR",
-          "team": "CBJ",
-          "player": "Dante Fabbro",
-          "player_key": "dante fabbro",
-          "detected_at": "2026-10-27T18:54:20Z"
-        }
-      ],
-      "latest_final_game_date": "2026-10-29",
-      "latest_final_game_id": 2026020206
     },
     {
       "nhl_player_id": 8480185,
@@ -36729,7 +36043,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.17,
+      "percent_owned": 0.18,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "MEDIUM",
@@ -36877,14 +36191,14 @@
       "latest_final_game_id": 2026020208
     },
     {
-      "nhl_player_id": 8481161,
-      "espn_player_id": 4392782,
-      "name": "Jake Christiansen",
-      "nhl_team": "CBJ",
-      "position": "D",
+      "nhl_player_id": 8473994,
+      "espn_player_id": 3998,
+      "name": "Jamie Benn",
+      "nhl_team": "DAL",
+      "position": "L",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.07,
+      "percent_owned": 2.27,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -36903,58 +36217,58 @@
       ],
       "metrics": {
         "toi": {
-          "baseline": 976.0,
-          "recent": 885.0,
-          "delta": -91.0,
-          "ratio": 0.907
+          "baseline": 730.0,
+          "recent": 831.5,
+          "delta": 101.5,
+          "ratio": 1.139
         },
         "ev_toi": {
-          "baseline": 882.6,
-          "recent": 882.5,
-          "delta": -0.1,
-          "ratio": 1.0
+          "baseline": 709.0,
+          "recent": 829.0,
+          "delta": 120.0,
+          "ratio": 1.169
         },
         "pp_toi": {
+          "baseline": 21.0,
+          "recent": 2.5,
+          "delta": -18.5,
+          "ratio": 0.119
+        },
+        "sh_toi": {
           "baseline": 0.0,
           "recent": 0.0,
           "delta": 0.0,
           "ratio": null
         },
-        "sh_toi": {
-          "baseline": 93.4,
-          "recent": 2.5,
-          "delta": -90.9,
-          "ratio": 0.027
-        },
         "sog": {
-          "baseline": 0.6,
-          "recent": 1.5,
-          "delta": 0.9,
-          "ratio": 2.5
+          "baseline": 1.0,
+          "recent": 1.0,
+          "delta": 0.0,
+          "ratio": 1.0
         },
         "hit": {
-          "baseline": 1.4,
-          "recent": 1.5,
-          "delta": 0.1,
-          "ratio": 1.071
+          "baseline": 0.8,
+          "recent": 1.0,
+          "delta": 0.2,
+          "ratio": 1.25
         },
         "blk": {
-          "baseline": 1.0,
+          "baseline": 0.0,
           "recent": 0.5,
-          "delta": -0.5,
-          "ratio": 0.5
+          "delta": 0.5,
+          "ratio": null
         },
         "fow": {
-          "baseline": null,
-          "recent": null,
-          "delta": null,
+          "baseline": 0.0,
+          "recent": 0.5,
+          "delta": 0.5,
           "ratio": null
         },
         "fo": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
+          "baseline": 0.4,
+          "recent": 2.5,
+          "delta": 2.1,
+          "ratio": 6.25
         },
         "pts": {
           "baseline": 0.2,
@@ -36980,32 +36294,56 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
-          "id": "RETURNED_FROM_IR:CBJ:ivan provorov:2026-10-31",
-          "type": "RETURNED_FROM_IR",
-          "team": "CBJ",
-          "player": "Ivan Provorov",
-          "player_key": "ivan provorov",
+          "id": "NEW_IR:DAL:kyle capobianco:2026-10-31",
+          "type": "NEW_IR",
+          "team": "DAL",
+          "player": "Kyle Capobianco",
+          "player_key": "kyle capobianco",
           "detected_at": "2026-10-31T18:20:58Z"
         },
         {
-          "id": "ACTIVE_REMOVED:CBJ:carson soucy:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "CBJ",
-          "player": "Carson Soucy",
-          "player_key": "carson soucy",
-          "detected_at": "2026-10-29T18:28:12Z"
+          "id": "RETURNED_FROM_IR:DAL:esa lindell:2026-10-31",
+          "type": "RETURNED_FROM_IR",
+          "team": "DAL",
+          "player": "Esa Lindell",
+          "player_key": "esa lindell",
+          "detected_at": "2026-10-31T18:20:58Z"
         },
         {
-          "id": "RETURNED_FROM_IR:CBJ:dante fabbro:2026-10-27",
-          "type": "RETURNED_FROM_IR",
-          "team": "CBJ",
-          "player": "Dante Fabbro",
-          "player_key": "dante fabbro",
+          "id": "ACTIVE_REMOVED:DAL:matthew seminoff:2026-10-30",
+          "type": "ACTIVE_REMOVED",
+          "team": "DAL",
+          "player": "Matthew Seminoff",
+          "player_key": "matthew seminoff",
+          "detected_at": "2026-10-30T15:36:28Z"
+        },
+        {
+          "id": "ACTIVE_ADDED:DAL:trey taylor:2026-10-29",
+          "type": "ACTIVE_ADDED",
+          "team": "DAL",
+          "player": "Trey Taylor",
+          "player_key": "trey taylor",
+          "detected_at": "2026-10-29T14:40:45Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:DAL:dylan hryckowian:2026-10-28",
+          "type": "ACTIVE_REMOVED",
+          "team": "DAL",
+          "player": "Dylan Hryckowian",
+          "player_key": "dylan hryckowian",
+          "detected_at": "2026-10-28T19:33:36Z"
+        },
+        {
+          "id": "NEW_IR:DAL:esa lindell:2026-10-27",
+          "type": "NEW_IR",
+          "team": "DAL",
+          "player": "Esa Lindell",
+          "player_key": "esa lindell",
           "detected_at": "2026-10-27T18:54:20Z"
         }
       ],
-      "latest_final_game_date": "2026-10-29",
-      "latest_final_game_id": 2026020206
+      "latest_final_game_date": "2026-10-31",
+      "latest_final_game_id": 2026020225
     },
     {
       "nhl_player_id": 8483756,
@@ -37648,7 +36986,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.8,
+      "percent_owned": 0.81,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -37943,7 +37281,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 48.13,
+      "percent_owned": 48.14,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -38082,7 +37420,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 75.01,
+      "percent_owned": 74.95,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -38535,7 +37873,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 90.53,
+      "percent_owned": 90.51,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -38883,7 +38221,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 12.21,
+      "percent_owned": 12.25,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -39038,7 +38376,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 7.32,
+      "percent_owned": 7.31,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -39300,7 +38638,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 91.01,
+      "percent_owned": 91.02,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "LOW",
@@ -40039,7 +39377,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 3.59,
+      "percent_owned": 3.58,
       "nhl_roster_status": "ACTIVE",
       "score": 8,
       "reliability": "HIGH",
@@ -40192,7 +39530,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 87.39,
+      "percent_owned": 87.38,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -40456,7 +39794,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 64.98,
+      "percent_owned": 64.95,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "MEDIUM",
@@ -40851,7 +40189,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 61.51,
+      "percent_owned": 61.5,
       "nhl_roster_status": "IR",
       "score": 6,
       "reliability": "HIGH",
@@ -40999,135 +40337,6 @@
       "latest_final_game_id": 2026020140
     },
     {
-      "nhl_player_id": 8475745,
-      "espn_player_id": 2555315,
-      "name": "Charlie Coyle",
-      "nhl_team": "CBJ",
-      "position": "C",
-      "espn_status": "ONTEAM",
-      "espn_team_id": 16,
-      "percent_owned": 46.4,
-      "nhl_roster_status": "ACTIVE",
-      "score": 6,
-      "reliability": "HIGH",
-      "recommendation": "TRACK ONLY",
-      "categories": [
-        "FOW"
-      ],
-      "signals": [
-        {
-          "type": "PPP_UP",
-          "label": "Рост PPP",
-          "strong": false
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 1200.8,
-          "recent": 1129.0,
-          "delta": -71.8,
-          "ratio": 0.94
-        },
-        "ev_toi": {
-          "baseline": 815.6,
-          "recent": 883.5,
-          "delta": 67.9,
-          "ratio": 1.083
-        },
-        "pp_toi": {
-          "baseline": 227.2,
-          "recent": 127.5,
-          "delta": -99.7,
-          "ratio": 0.561
-        },
-        "sh_toi": {
-          "baseline": 158.0,
-          "recent": 118.0,
-          "delta": -40.0,
-          "ratio": 0.747
-        },
-        "sog": {
-          "baseline": 1.6,
-          "recent": 1.5,
-          "delta": -0.1,
-          "ratio": 0.938
-        },
-        "hit": {
-          "baseline": 1.2,
-          "recent": 1.5,
-          "delta": 0.3,
-          "ratio": 1.25
-        },
-        "blk": {
-          "baseline": 0.6,
-          "recent": 0.0,
-          "delta": -0.6,
-          "ratio": 0.0
-        },
-        "fow": {
-          "baseline": 9.6,
-          "recent": 9.5,
-          "delta": -0.1,
-          "ratio": 0.99
-        },
-        "fo": {
-          "baseline": 18.4,
-          "recent": 19.5,
-          "delta": 1.1,
-          "ratio": 1.06
-        },
-        "pts": {
-          "baseline": 0.8,
-          "recent": 0.5,
-          "delta": -0.3,
-          "ratio": 0.625
-        },
-        "ppp": {
-          "baseline": 0.2,
-          "recent": 0.5,
-          "delta": 0.3,
-          "ratio": 2.5
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "RETURNED_FROM_IR:CBJ:ivan provorov:2026-10-31",
-          "type": "RETURNED_FROM_IR",
-          "team": "CBJ",
-          "player": "Ivan Provorov",
-          "player_key": "ivan provorov",
-          "detected_at": "2026-10-31T18:20:58Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:CBJ:carson soucy:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "CBJ",
-          "player": "Carson Soucy",
-          "player_key": "carson soucy",
-          "detected_at": "2026-10-29T18:28:12Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:CBJ:dante fabbro:2026-10-27",
-          "type": "RETURNED_FROM_IR",
-          "team": "CBJ",
-          "player": "Dante Fabbro",
-          "player_key": "dante fabbro",
-          "detected_at": "2026-10-27T18:54:20Z"
-        }
-      ],
-      "latest_final_game_date": "2026-10-29",
-      "latest_final_game_id": 2026020206
-    },
-    {
       "nhl_player_id": 8484142,
       "espn_player_id": 5173105,
       "name": "Denver Barkey",
@@ -41270,7 +40479,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 90.31,
+      "percent_owned": 90.32,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -41418,7 +40627,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 32.09,
+      "percent_owned": 32.06,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -41651,7 +40860,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 65.33,
+      "percent_owned": 65.37,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -41768,6 +40977,159 @@
       "latest_final_game_id": 2026020221
     },
     {
+      "nhl_player_id": 8480027,
+      "espn_player_id": 4233875,
+      "name": "Jason Robertson",
+      "nhl_team": "DAL",
+      "position": "L",
+      "espn_status": "ONTEAM",
+      "espn_team_id": 6,
+      "percent_owned": 99.39,
+      "nhl_roster_status": "ACTIVE",
+      "score": 6,
+      "reliability": "HIGH",
+      "recommendation": "TRACK ONLY",
+      "categories": [
+        "SOG"
+      ],
+      "signals": [
+        {
+          "type": "PPP_UP",
+          "label": "Рост PPP",
+          "strong": false
+        }
+      ],
+      "metrics": {
+        "toi": {
+          "baseline": 1232.0,
+          "recent": 1145.0,
+          "delta": -87.0,
+          "ratio": 0.929
+        },
+        "ev_toi": {
+          "baseline": 1032.0,
+          "recent": 921.5,
+          "delta": -110.5,
+          "ratio": 0.893
+        },
+        "pp_toi": {
+          "baseline": 197.8,
+          "recent": 223.5,
+          "delta": 25.7,
+          "ratio": 1.13
+        },
+        "sh_toi": {
+          "baseline": 2.2,
+          "recent": 0.0,
+          "delta": -2.2,
+          "ratio": 0.0
+        },
+        "sog": {
+          "baseline": 4.0,
+          "recent": 2.5,
+          "delta": -1.5,
+          "ratio": 0.625
+        },
+        "hit": {
+          "baseline": 0.0,
+          "recent": 0.5,
+          "delta": 0.5,
+          "ratio": null
+        },
+        "blk": {
+          "baseline": 0.8,
+          "recent": 1.0,
+          "delta": 0.2,
+          "ratio": 1.25
+        },
+        "fow": {
+          "baseline": 0.0,
+          "recent": null,
+          "delta": null,
+          "ratio": null
+        },
+        "fo": {
+          "baseline": 0.2,
+          "recent": 0.0,
+          "delta": -0.2,
+          "ratio": 0.0
+        },
+        "pts": {
+          "baseline": 1.6,
+          "recent": 0.5,
+          "delta": -1.1,
+          "ratio": 0.312
+        },
+        "ppp": {
+          "baseline": 0.4,
+          "recent": 0.5,
+          "delta": 0.1,
+          "ratio": 1.25
+        },
+        "shp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        }
+      },
+      "baseline_games": 5,
+      "recent_games": 2,
+      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
+      "team_context": [
+        {
+          "id": "NEW_IR:DAL:kyle capobianco:2026-10-31",
+          "type": "NEW_IR",
+          "team": "DAL",
+          "player": "Kyle Capobianco",
+          "player_key": "kyle capobianco",
+          "detected_at": "2026-10-31T18:20:58Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:DAL:esa lindell:2026-10-31",
+          "type": "RETURNED_FROM_IR",
+          "team": "DAL",
+          "player": "Esa Lindell",
+          "player_key": "esa lindell",
+          "detected_at": "2026-10-31T18:20:58Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:DAL:matthew seminoff:2026-10-30",
+          "type": "ACTIVE_REMOVED",
+          "team": "DAL",
+          "player": "Matthew Seminoff",
+          "player_key": "matthew seminoff",
+          "detected_at": "2026-10-30T15:36:28Z"
+        },
+        {
+          "id": "ACTIVE_ADDED:DAL:trey taylor:2026-10-29",
+          "type": "ACTIVE_ADDED",
+          "team": "DAL",
+          "player": "Trey Taylor",
+          "player_key": "trey taylor",
+          "detected_at": "2026-10-29T14:40:45Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:DAL:dylan hryckowian:2026-10-28",
+          "type": "ACTIVE_REMOVED",
+          "team": "DAL",
+          "player": "Dylan Hryckowian",
+          "player_key": "dylan hryckowian",
+          "detected_at": "2026-10-28T19:33:36Z"
+        },
+        {
+          "id": "NEW_IR:DAL:esa lindell:2026-10-27",
+          "type": "NEW_IR",
+          "team": "DAL",
+          "player": "Esa Lindell",
+          "player_key": "esa lindell",
+          "detected_at": "2026-10-27T18:54:20Z"
+        }
+      ],
+      "latest_final_game_date": "2026-10-31",
+      "latest_final_game_id": 2026020225
+    },
+    {
       "nhl_player_id": 8478493,
       "espn_player_id": 3904091,
       "name": "Joel Eriksson Ek",
@@ -41775,7 +41137,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 74.42,
+      "percent_owned": 74.45,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -41932,7 +41294,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 45.02,
+      "percent_owned": 45.08,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -42184,6 +41546,137 @@
       "latest_final_game_id": 2026020216
     },
     {
+      "nhl_player_id": 8482660,
+      "espn_player_id": 4781553,
+      "name": "Kent Johnson",
+      "nhl_team": "CBJ",
+      "position": "C",
+      "espn_status": "ONTEAM",
+      "espn_team_id": 12,
+      "percent_owned": 26.98,
+      "nhl_roster_status": "ACTIVE",
+      "score": 6,
+      "reliability": "HIGH",
+      "recommendation": "TRACK ONLY",
+      "categories": [
+        "G",
+        "A",
+        "PTS"
+      ],
+      "signals": [
+        {
+          "type": "PPP_UP",
+          "label": "Рост PPP",
+          "strong": false
+        }
+      ],
+      "metrics": {
+        "toi": {
+          "baseline": 1072.8,
+          "recent": 1202.5,
+          "delta": 129.7,
+          "ratio": 1.121
+        },
+        "ev_toi": {
+          "baseline": 857.0,
+          "recent": 1045.0,
+          "delta": 188.0,
+          "ratio": 1.219
+        },
+        "pp_toi": {
+          "baseline": 215.4,
+          "recent": 157.5,
+          "delta": -57.9,
+          "ratio": 0.731
+        },
+        "sh_toi": {
+          "baseline": 0.4,
+          "recent": 0.0,
+          "delta": -0.4,
+          "ratio": 0.0
+        },
+        "sog": {
+          "baseline": 1.6,
+          "recent": 1.5,
+          "delta": -0.1,
+          "ratio": 0.938
+        },
+        "hit": {
+          "baseline": 1.0,
+          "recent": 1.0,
+          "delta": 0.0,
+          "ratio": 1.0
+        },
+        "blk": {
+          "baseline": 0.2,
+          "recent": 0.5,
+          "delta": 0.3,
+          "ratio": 2.5
+        },
+        "fow": {
+          "baseline": null,
+          "recent": null,
+          "delta": null,
+          "ratio": null
+        },
+        "fo": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "pts": {
+          "baseline": 1.2,
+          "recent": 1.0,
+          "delta": -0.2,
+          "ratio": 0.833
+        },
+        "ppp": {
+          "baseline": 0.2,
+          "recent": 0.5,
+          "delta": 0.3,
+          "ratio": 2.5
+        },
+        "shp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        }
+      },
+      "baseline_games": 5,
+      "recent_games": 2,
+      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
+      "team_context": [
+        {
+          "id": "RETURNED_FROM_IR:CBJ:ivan provorov:2026-10-31",
+          "type": "RETURNED_FROM_IR",
+          "team": "CBJ",
+          "player": "Ivan Provorov",
+          "player_key": "ivan provorov",
+          "detected_at": "2026-10-31T18:20:58Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:CBJ:carson soucy:2026-10-29",
+          "type": "ACTIVE_REMOVED",
+          "team": "CBJ",
+          "player": "Carson Soucy",
+          "player_key": "carson soucy",
+          "detected_at": "2026-10-29T18:28:12Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:CBJ:dante fabbro:2026-10-27",
+          "type": "RETURNED_FROM_IR",
+          "team": "CBJ",
+          "player": "Dante Fabbro",
+          "player_key": "dante fabbro",
+          "detected_at": "2026-10-27T18:54:20Z"
+        }
+      ],
+      "latest_final_game_date": "2026-10-31",
+      "latest_final_game_id": 2026020225
+    },
+    {
       "nhl_player_id": 8482078,
       "espn_player_id": 4697385,
       "name": "Lucas Raymond",
@@ -42191,7 +41684,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 9,
-      "percent_owned": 82.3,
+      "percent_owned": 82.31,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -42339,12 +41832,13 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
-      "percent_owned": 97.78,
+      "percent_owned": 97.79,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
       "recommendation": "TRACK ONLY",
       "categories": [
+        "SOG",
         "G",
         "A",
         "PTS"
@@ -42358,220 +41852,69 @@
       ],
       "metrics": {
         "toi": {
-          "baseline": 1237.0,
-          "recent": 1216.5,
-          "delta": -20.5,
-          "ratio": 0.983
+          "baseline": 1169.6,
+          "recent": 1257.0,
+          "delta": 87.4,
+          "ratio": 1.075
         },
         "ev_toi": {
-          "baseline": 983.6,
-          "recent": 1069.5,
-          "delta": 85.9,
-          "ratio": 1.087
+          "baseline": 964.2,
+          "recent": 1031.5,
+          "delta": 67.3,
+          "ratio": 1.07
         },
         "pp_toi": {
-          "baseline": 251.4,
-          "recent": 147.0,
-          "delta": -104.4,
-          "ratio": 0.585
+          "baseline": 203.4,
+          "recent": 223.5,
+          "delta": 20.1,
+          "ratio": 1.099
         },
         "sh_toi": {
           "baseline": 2.0,
-          "recent": 0.0,
-          "delta": -2.0,
-          "ratio": 0.0
-        },
-        "sog": {
-          "baseline": 2.2,
-          "recent": 0.5,
-          "delta": -1.7,
-          "ratio": 0.227
-        },
-        "hit": {
-          "baseline": 0.8,
-          "recent": 1.5,
-          "delta": 0.7,
-          "ratio": 1.875
-        },
-        "blk": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "fow": {
-          "baseline": 1.0,
-          "recent": 1.0,
+          "recent": 2.0,
           "delta": 0.0,
           "ratio": 1.0
         },
-        "fo": {
-          "baseline": 2.0,
-          "recent": 3.0,
-          "delta": 1.0,
-          "ratio": 1.5
-        },
-        "pts": {
-          "baseline": 1.6,
-          "recent": 1.0,
-          "delta": -0.6,
-          "ratio": 0.625
-        },
-        "ppp": {
-          "baseline": 0.4,
-          "recent": 0.5,
-          "delta": 0.1,
-          "ratio": 1.25
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "NEW_IR:DAL:kyle capobianco:2026-10-31",
-          "type": "NEW_IR",
-          "team": "DAL",
-          "player": "Kyle Capobianco",
-          "player_key": "kyle capobianco",
-          "detected_at": "2026-10-31T18:20:58Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:DAL:esa lindell:2026-10-31",
-          "type": "RETURNED_FROM_IR",
-          "team": "DAL",
-          "player": "Esa Lindell",
-          "player_key": "esa lindell",
-          "detected_at": "2026-10-31T18:20:58Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DAL:matthew seminoff:2026-10-30",
-          "type": "ACTIVE_REMOVED",
-          "team": "DAL",
-          "player": "Matthew Seminoff",
-          "player_key": "matthew seminoff",
-          "detected_at": "2026-10-30T15:36:28Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:DAL:trey taylor:2026-10-29",
-          "type": "ACTIVE_ADDED",
-          "team": "DAL",
-          "player": "Trey Taylor",
-          "player_key": "trey taylor",
-          "detected_at": "2026-10-29T14:40:45Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DAL:dylan hryckowian:2026-10-28",
-          "type": "ACTIVE_REMOVED",
-          "team": "DAL",
-          "player": "Dylan Hryckowian",
-          "player_key": "dylan hryckowian",
-          "detected_at": "2026-10-28T19:33:36Z"
-        },
-        {
-          "id": "NEW_IR:DAL:esa lindell:2026-10-27",
-          "type": "NEW_IR",
-          "team": "DAL",
-          "player": "Esa Lindell",
-          "player_key": "esa lindell",
-          "detected_at": "2026-10-27T18:54:20Z"
-        }
-      ],
-      "latest_final_game_date": "2026-10-29",
-      "latest_final_game_id": 2026020209
-    },
-    {
-      "nhl_player_id": 8480036,
-      "espn_player_id": 4233536,
-      "name": "Miro Heiskanen",
-      "nhl_team": "DAL",
-      "position": "D",
-      "espn_status": "ONTEAM",
-      "espn_team_id": 2,
-      "percent_owned": 96.22,
-      "nhl_roster_status": "ACTIVE",
-      "score": 6,
-      "reliability": "HIGH",
-      "recommendation": "TRACK ONLY",
-      "categories": [],
-      "signals": [
-        {
-          "type": "PPP_UP",
-          "label": "Рост PPP",
-          "strong": false
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 1620.2,
-          "recent": 1658.0,
-          "delta": 37.8,
-          "ratio": 1.023
-        },
-        "ev_toi": {
-          "baseline": 1185.0,
-          "recent": 1242.0,
-          "delta": 57.0,
-          "ratio": 1.048
-        },
-        "pp_toi": {
-          "baseline": 196.2,
-          "recent": 140.0,
-          "delta": -56.2,
-          "ratio": 0.714
-        },
-        "sh_toi": {
-          "baseline": 239.0,
-          "recent": 276.0,
-          "delta": 37.0,
-          "ratio": 1.155
-        },
         "sog": {
-          "baseline": 2.4,
-          "recent": 1.5,
-          "delta": -0.9,
-          "ratio": 0.625
+          "baseline": 2.0,
+          "recent": 2.0,
+          "delta": 0.0,
+          "ratio": 1.0
         },
         "hit": {
-          "baseline": 0.2,
-          "recent": 0.0,
-          "delta": -0.2,
-          "ratio": 0.0
-        },
-        "blk": {
           "baseline": 1.0,
           "recent": 0.5,
           "delta": -0.5,
           "ratio": 0.5
         },
-        "fow": {
-          "baseline": null,
-          "recent": null,
-          "delta": null,
-          "ratio": null
-        },
-        "fo": {
+        "blk": {
           "baseline": 0.0,
           "recent": 0.0,
           "delta": 0.0,
           "ratio": null
         },
-        "pts": {
-          "baseline": 0.6,
+        "fow": {
+          "baseline": 1.2,
           "recent": 0.5,
+          "delta": -0.7,
+          "ratio": 0.417
+        },
+        "fo": {
+          "baseline": 2.6,
+          "recent": 2.5,
           "delta": -0.1,
-          "ratio": 0.833
+          "ratio": 0.962
+        },
+        "pts": {
+          "baseline": 1.4,
+          "recent": 1.5,
+          "delta": 0.1,
+          "ratio": 1.071
         },
         "ppp": {
-          "baseline": 0.2,
-          "recent": 0.5,
-          "delta": 0.3,
+          "baseline": 0.4,
+          "recent": 1.0,
+          "delta": 0.6,
           "ratio": 2.5
         },
         "shp": {
@@ -42634,8 +41977,8 @@
           "detected_at": "2026-10-27T18:54:20Z"
         }
       ],
-      "latest_final_game_date": "2026-10-29",
-      "latest_final_game_id": 2026020209
+      "latest_final_game_date": "2026-10-31",
+      "latest_final_game_id": 2026020225
     },
     {
       "nhl_player_id": 8478483,
@@ -42948,7 +42291,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 71.21,
+      "percent_owned": 71.19,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -43323,7 +42666,7 @@
       "position": "C",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 2.89,
+      "percent_owned": 2.88,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -43434,7 +42777,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 15.22,
+      "percent_owned": 15.21,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -43590,7 +42933,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 62.26,
+      "percent_owned": 62.25,
       "nhl_roster_status": "IR",
       "score": 6,
       "reliability": "MEDIUM",
@@ -43727,7 +43070,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 82.75,
+      "percent_owned": 82.73,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -43839,19 +43182,21 @@
       "latest_final_game_id": 2026020216
     },
     {
-      "nhl_player_id": 8482740,
-      "espn_player_id": 4874740,
-      "name": "Wyatt Johnston",
-      "nhl_team": "DAL",
-      "position": "C",
+      "nhl_player_id": 8478460,
+      "espn_player_id": 3899972,
+      "name": "Zach Werenski",
+      "nhl_team": "CBJ",
+      "position": "D",
       "espn_status": "ONTEAM",
-      "espn_team_id": 9,
-      "percent_owned": 96.28,
+      "espn_team_id": 11,
+      "percent_owned": 99.61,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
       "recommendation": "TRACK ONLY",
       "categories": [
+        "SOG",
+        "BLK",
         "G",
         "A",
         "PTS"
@@ -43865,58 +43210,58 @@
       ],
       "metrics": {
         "toi": {
-          "baseline": 1236.6,
-          "recent": 1272.5,
-          "delta": 35.9,
-          "ratio": 1.029
+          "baseline": 1735.2,
+          "recent": 1704.0,
+          "delta": -31.2,
+          "ratio": 0.982
         },
         "ev_toi": {
-          "baseline": 987.2,
-          "recent": 1141.0,
-          "delta": 153.8,
-          "ratio": 1.156
+          "baseline": 1335.0,
+          "recent": 1434.5,
+          "delta": 99.5,
+          "ratio": 1.075
         },
         "pp_toi": {
-          "baseline": 229.2,
-          "recent": 129.0,
-          "delta": -100.2,
-          "ratio": 0.563
+          "baseline": 259.8,
+          "recent": 160.5,
+          "delta": -99.3,
+          "ratio": 0.618
         },
         "sh_toi": {
-          "baseline": 20.2,
-          "recent": 2.5,
-          "delta": -17.7,
-          "ratio": 0.124
+          "baseline": 140.4,
+          "recent": 109.0,
+          "delta": -31.4,
+          "ratio": 0.776
         },
         "sog": {
-          "baseline": 3.2,
-          "recent": 1.5,
-          "delta": -1.7,
-          "ratio": 0.469
+          "baseline": 3.4,
+          "recent": 2.5,
+          "delta": -0.9,
+          "ratio": 0.735
         },
         "hit": {
           "baseline": 1.2,
-          "recent": 1.5,
-          "delta": 0.3,
-          "ratio": 1.25
+          "recent": 0.5,
+          "delta": -0.7,
+          "ratio": 0.417
         },
         "blk": {
-          "baseline": 0.4,
-          "recent": 0.5,
-          "delta": 0.1,
-          "ratio": 1.25
+          "baseline": 1.8,
+          "recent": 2.5,
+          "delta": 0.7,
+          "ratio": 1.389
         },
         "fow": {
-          "baseline": 5.8,
-          "recent": 3.5,
-          "delta": -2.3,
-          "ratio": 0.603
+          "baseline": null,
+          "recent": null,
+          "delta": null,
+          "ratio": null
         },
         "fo": {
-          "baseline": 9.2,
-          "recent": 6.5,
-          "delta": -2.7,
-          "ratio": 0.707
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
         },
         "pts": {
           "baseline": 0.8,
@@ -43925,10 +43270,10 @@
           "ratio": 1.25
         },
         "ppp": {
-          "baseline": 0.2,
+          "baseline": 0.0,
           "recent": 0.5,
-          "delta": 0.3,
-          "ratio": 2.5
+          "delta": 0.5,
+          "ratio": null
         },
         "shp": {
           "baseline": 0.0,
@@ -43942,56 +43287,32 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
-          "id": "NEW_IR:DAL:kyle capobianco:2026-10-31",
-          "type": "NEW_IR",
-          "team": "DAL",
-          "player": "Kyle Capobianco",
-          "player_key": "kyle capobianco",
-          "detected_at": "2026-10-31T18:20:58Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:DAL:esa lindell:2026-10-31",
+          "id": "RETURNED_FROM_IR:CBJ:ivan provorov:2026-10-31",
           "type": "RETURNED_FROM_IR",
-          "team": "DAL",
-          "player": "Esa Lindell",
-          "player_key": "esa lindell",
+          "team": "CBJ",
+          "player": "Ivan Provorov",
+          "player_key": "ivan provorov",
           "detected_at": "2026-10-31T18:20:58Z"
         },
         {
-          "id": "ACTIVE_REMOVED:DAL:matthew seminoff:2026-10-30",
+          "id": "ACTIVE_REMOVED:CBJ:carson soucy:2026-10-29",
           "type": "ACTIVE_REMOVED",
-          "team": "DAL",
-          "player": "Matthew Seminoff",
-          "player_key": "matthew seminoff",
-          "detected_at": "2026-10-30T15:36:28Z"
+          "team": "CBJ",
+          "player": "Carson Soucy",
+          "player_key": "carson soucy",
+          "detected_at": "2026-10-29T18:28:12Z"
         },
         {
-          "id": "ACTIVE_ADDED:DAL:trey taylor:2026-10-29",
-          "type": "ACTIVE_ADDED",
-          "team": "DAL",
-          "player": "Trey Taylor",
-          "player_key": "trey taylor",
-          "detected_at": "2026-10-29T14:40:45Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DAL:dylan hryckowian:2026-10-28",
-          "type": "ACTIVE_REMOVED",
-          "team": "DAL",
-          "player": "Dylan Hryckowian",
-          "player_key": "dylan hryckowian",
-          "detected_at": "2026-10-28T19:33:36Z"
-        },
-        {
-          "id": "NEW_IR:DAL:esa lindell:2026-10-27",
-          "type": "NEW_IR",
-          "team": "DAL",
-          "player": "Esa Lindell",
-          "player_key": "esa lindell",
+          "id": "RETURNED_FROM_IR:CBJ:dante fabbro:2026-10-27",
+          "type": "RETURNED_FROM_IR",
+          "team": "CBJ",
+          "player": "Dante Fabbro",
+          "player_key": "dante fabbro",
           "detected_at": "2026-10-27T18:54:20Z"
         }
       ],
-      "latest_final_game_date": "2026-10-29",
-      "latest_final_game_id": 2026020209
+      "latest_final_game_date": "2026-10-31",
+      "latest_final_game_id": 2026020225
     }
   ],
   "recent_roster_events": [
