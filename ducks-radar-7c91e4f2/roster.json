@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-02 18:42 МСК",
+  "updated": "2026-11-02 19:46 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "15:42:12 11/02/2026",
+  "report_updated": "16:46:18 11/02/2026",
   "complete": true,
   "team_count": 32,
   "active_count": 715,
@@ -1032,6 +1032,12 @@
           "name": "ARTTURI LEHKONEN",
           "name_key": "artturi lehkonen",
           "position": "L"
+        },
+        {
+          "sweater": 67,
+          "name": "KEATON MIDDLETON",
+          "name_key": "keaton middleton",
+          "position": "D"
         },
         {
           "sweater": 70,
@@ -3167,12 +3173,6 @@
           "position": "C"
         },
         {
-          "sweater": 20,
-          "name": "ALEX BUMP",
-          "name_key": "alex bump",
-          "position": "L"
-        },
-        {
           "sweater": 22,
           "name": "CHRISTIAN DVORAK",
           "name_key": "christian dvorak",
@@ -5036,6 +5036,22 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_ADDED:COL:keaton middleton:2026-11-02",
+      "type": "ACTIVE_ADDED",
+      "team": "COL",
+      "player": "Keaton Middleton",
+      "player_key": "keaton middleton",
+      "detected_at": "2026-11-02T16:46:18Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:PHI:alex bump:2026-11-02",
+      "type": "ACTIVE_REMOVED",
+      "team": "PHI",
+      "player": "Alex Bump",
+      "player_key": "alex bump",
+      "detected_at": "2026-11-02T16:46:18Z"
+    },
     {
       "id": "ACTIVE_ADDED:NSH:shane wright:2026-11-01",
       "type": "ACTIVE_ADDED",
