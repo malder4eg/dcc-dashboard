@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-02 20:42 МСК",
+  "updated": "2026-11-02 21:38 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "17:42:38 11/02/2026",
+  "report_updated": "18:38:58 11/02/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 715,
+  "active_count": 714,
   "ir_count": 74,
   "teams": {
     "ANA": {
@@ -45,12 +45,6 @@
           "sweater": 17,
           "name": "ALEX KILLORN",
           "name_key": "alex killorn",
-          "position": "L"
-        },
-        {
-          "sweater": 18,
-          "name": "A.J. GREER",
-          "name_key": "a j greer",
           "position": "L"
         },
         {
@@ -157,6 +151,13 @@
           "name_key": "ian moore",
           "position": "D",
           "ir_date": "2026-09-28"
+        },
+        {
+          "sweater": 18,
+          "name": "A.J. GREER",
+          "name_key": "a j greer",
+          "position": "L",
+          "ir_date": "2026-11-02"
         },
         {
           "sweater": 25,
@@ -1784,6 +1785,12 @@
           "position": "C"
         },
         {
+          "sweater": 25,
+          "name": "JACOB MARKSTROM",
+          "name_key": "jacob markstrom",
+          "position": "G"
+        },
+        {
           "sweater": 26,
           "name": "UVIS BALINSKIS",
           "name_key": "uvis balinskis",
@@ -1852,13 +1859,6 @@
           "name_key": "aleksander barkov",
           "position": "C",
           "ir_date": "2026-10-03"
-        },
-        {
-          "sweater": 25,
-          "name": "JACOB MARKSTROM",
-          "name_key": "jacob markstrom",
-          "position": "G",
-          "ir_date": "2026-10-20"
         },
         {
           "sweater": 63,
@@ -3070,12 +3070,6 @@
           "name": "TYLER KLEVEN",
           "name_key": "tyler kleven",
           "position": "D"
-        },
-        {
-          "sweater": 53,
-          "name": "XAVIER BOURGAULT",
-          "name_key": "xavier bourgault",
-          "position": "R"
         },
         {
           "sweater": 62,
@@ -5036,6 +5030,30 @@
     }
   },
   "events": [
+    {
+      "id": "NEW_IR:ANA:a j greer:2026-11-02",
+      "type": "NEW_IR",
+      "team": "ANA",
+      "player": "A.J. Greer",
+      "player_key": "a j greer",
+      "detected_at": "2026-11-02T18:38:58Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:FLA:jacob markstrom:2026-11-02",
+      "type": "RETURNED_FROM_IR",
+      "team": "FLA",
+      "player": "Jacob Markstrom",
+      "player_key": "jacob markstrom",
+      "detected_at": "2026-11-02T18:38:58Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:OTT:xavier bourgault:2026-11-02",
+      "type": "ACTIVE_REMOVED",
+      "team": "OTT",
+      "player": "Xavier Bourgault",
+      "player_key": "xavier bourgault",
+      "detected_at": "2026-11-02T18:38:58Z"
+    },
     {
       "id": "ACTIVE_ADDED:COL:keaton middleton:2026-11-02",
       "type": "ACTIVE_ADDED",
