@@ -38,7 +38,24 @@ jobs:
         run: python daily_impact.py
 
       - name: Publish personal daily impact snapshot
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Update DCC daily fantasy impact"
-          file_pattern: "ducks-radar-7c91e4f2/*.json"
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ducks-radar-7c91e4f2/*.json
+          if git diff --cached --quiet; then
+            echo "No changes to publish"
+            exit 0
+          fi
+          git commit -m "Update DCC daily fantasy impact"
+          # The hourly DCC refresh can push while this job calculates.
+          # Rebase the finished snapshot on the latest main before pushing.
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push race on attempt $attempt; retrying"
+            sleep 3
+          done
+          exit 1
