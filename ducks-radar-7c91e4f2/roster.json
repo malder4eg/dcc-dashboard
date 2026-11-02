@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-02 23:30 МСК",
+  "updated": "2026-11-03 00:29 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "20:30:44 11/02/2026",
+  "report_updated": "21:29:02 11/02/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 715,
+  "active_count": 714,
   "ir_count": 74,
   "teams": {
     "ANA": {
@@ -1813,12 +1813,6 @@
           "name": "COLE REINHARDT",
           "name_key": "cole reinhardt",
           "position": "L"
-        },
-        {
-          "sweater": 31,
-          "name": "COOPER BLACK",
-          "name_key": "cooper black",
-          "position": "G"
         },
         {
           "sweater": 40,
@@ -5036,6 +5030,14 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_REMOVED:FLA:cooper black:2026-11-02",
+      "type": "ACTIVE_REMOVED",
+      "team": "FLA",
+      "player": "Cooper Black",
+      "player_key": "cooper black",
+      "detected_at": "2026-11-02T21:29:02Z"
+    },
     {
       "id": "ACTIVE_ADDED:ANA:nico myatovic:2026-11-02",
       "type": "ACTIVE_ADDED",

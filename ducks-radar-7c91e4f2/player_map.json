@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-02 23:30 МСК",
+  "updated": "2026-11-03 00:29 МСК",
   "method": "Exact normalized full name with NHL/ESPN team and position validation; no surname-only fuzzy joins.",
   "mapped": [
     {
@@ -4502,19 +4502,6 @@
       "confidence": "HIGH"
     },
     {
-      "nhl_player_id": 8480870,
-      "espn_player_id": 4378685,
-      "name": "Bo Groulx",
-      "nhl_team": "TOR",
-      "position": "C",
-      "espn_status": "FREEAGENT",
-      "espn_team_id": 0,
-      "espn_pro_team_id": 21,
-      "percent_owned": 0.05,
-      "method": "exact_normalized_full_name+team+position",
-      "confidence": "HIGH"
-    },
-    {
       "nhl_player_id": 8480876,
       "espn_player_id": 4331586,
       "name": "Curtis Douglas",
@@ -8700,6 +8687,13 @@
       "filtered_count": 0
     },
     {
+      "nhl_player_id": 8480870,
+      "name": "Bo Groulx",
+      "reason": "ambiguous_or_team_position_mismatch",
+      "candidate_count": 1,
+      "filtered_count": 0
+    },
+    {
       "nhl_player_id": 8480891,
       "name": "Michael Kesselring",
       "reason": "ambiguous_or_team_position_mismatch",
@@ -8990,8 +8984,8 @@
     }
   ],
   "coverage": {
-    "mapped": 637,
-    "unmatched": 104,
-    "ratio": 0.8596
+    "mapped": 636,
+    "unmatched": 105,
+    "ratio": 0.8583
   }
 }
