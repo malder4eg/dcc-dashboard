@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-03 23:30 МСК",
+  "updated": "2026-11-04 00:27 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "20:30:08 11/03/2026",
+  "report_updated": "21:27:49 11/03/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 717,
+  "active_count": 718,
   "ir_count": 74,
   "teams": {
     "ANA": {
@@ -3567,6 +3567,12 @@
           "position": "L"
         },
         {
+          "sweater": 48,
+          "name": "ERIC POHLKAMP",
+          "name_key": "eric pohlkamp",
+          "position": "D"
+        },
+        {
           "sweater": 51,
           "name": "COLLIN GRAF",
           "name_key": "collin graf",
@@ -5049,6 +5055,14 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_ADDED:SJS:eric pohlkamp:2026-11-03",
+      "type": "ACTIVE_ADDED",
+      "team": "SJS",
+      "player": "Eric Pohlkamp",
+      "player_key": "eric pohlkamp",
+      "detected_at": "2026-11-03T21:27:49Z"
+    },
     {
       "id": "RETURNED_FROM_IR:STL:ross johnston:2026-11-03",
       "type": "RETURNED_FROM_IR",
