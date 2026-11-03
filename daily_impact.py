@@ -25,6 +25,9 @@ RADAR_DIR = ROOT / "ducks-radar-7c91e4f2"
 OUTPUT = RADAR_DIR / "daily_impact.json"
 CATEGORIES = ("g", "a", "pts", "plus_minus", "ppp", "shp", "fow", "toi", "sog", "hit", "blk")
 FINAL = {"OFF", "FINAL"}
+# Agreed DCC Fantasy Impact weights; all other categories retain weight 1.0.
+WEIGHTS = {category: 1.0 for category in CATEGORIES}
+WEIGHTS.update({"g": 1.5, "shp": 2.0})
 MSK = ZoneInfo("Europe/Moscow")
 
 
@@ -61,12 +64,12 @@ def benchmarks_from_history(history: dict) -> dict[str, float]:
 
 
 def calculate_impact(game: dict, benchmarks: dict[str, float]) -> tuple[float, dict, int]:
-    # No upper cap, including for negative +/-: every additional category unit
-    # has the same normalized value. Preserve the existing category weights.
+    # No category caps, including for negative +/-.
+    # Agreed G = 1.5 and SHP = 2.0; all remaining categories = 1.0.
     components = {}
     for category in CATEGORIES:
         value = float(game.get(category) or 0)
-        contribution = value / benchmarks[category]
+        contribution = value / benchmarks[category] * WEIGHTS[category]
         if category != "plus_minus":
             contribution = max(0.0, contribution)
         components[category] = round(contribution, 3)
@@ -260,6 +263,7 @@ def build(date_string: str, history: dict, mapping: dict, index: dict,
             "description": "Uncapped sum of per-category results / recent NHL skater-game p90; negative plus-minus subtracts points; small breadth bonus. All 11 DCC categories scored separately.",
             "categories": list(CATEGORIES),
             "category_cap": None,
+            "weights": WEIGHTS,
             "breadth_bonus": "0.1 for each non-TOI, non-plus-minus category with impact >= 0.5; no cap",
             "benchmarks_p90": {k: round(v, 2) for k, v in benchmarks.items()},
             "not_included": ["goalies", "xG", "line combinations"],
