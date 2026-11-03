@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-03 16:56 МСК",
+  "updated": "2026-11-03 18:30 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "13:56:37 11/03/2026",
+  "report_updated": "15:30:39 11/03/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 714,
+  "active_count": 716,
   "ir_count": 74,
   "teams": {
     "ANA": {
@@ -1325,6 +1325,12 @@
           "position": "R"
         },
         {
+          "sweater": 27,
+          "name": "TREY TAYLOR",
+          "name_key": "trey taylor",
+          "position": "D"
+        },
+        {
           "sweater": 29,
           "name": "JAKE OETTINGER",
           "name_key": "jake oettinger",
@@ -1918,12 +1924,6 @@
           "sweater": 14,
           "name": "ALEX LAFERRIERE",
           "name_key": "alex laferriere",
-          "position": "R"
-        },
-        {
-          "sweater": 17,
-          "name": "TAYLOR WARD",
-          "name_key": "taylor ward",
           "position": "R"
         },
         {
@@ -2827,12 +2827,6 @@
           "position": "L"
         },
         {
-          "sweater": 14,
-          "name": "TAYLOR RADDYSH",
-          "name_key": "taylor raddysh",
-          "position": "R"
-        },
-        {
           "sweater": 16,
           "name": "PAVEL DOROFEYEV",
           "name_key": "pavel dorofeyev",
@@ -2903,6 +2897,12 @@
           "name": "JAMES REIMER",
           "name_key": "james reimer",
           "position": "G"
+        },
+        {
+          "sweater": 49,
+          "name": "JAROSLAV CHMELAR",
+          "name_key": "jaroslav chmelar",
+          "position": "R"
         },
         {
           "sweater": 50,
@@ -3088,6 +3088,12 @@
           "name": "THOMAS CHABOT",
           "name_key": "thomas chabot",
           "position": "D"
+        },
+        {
+          "sweater": 79,
+          "name": "SAMUEL BLAIS",
+          "name_key": "samuel blais",
+          "position": "L"
         },
         {
           "sweater": 85,
@@ -3288,6 +3294,12 @@
           "name": "SERGEI MURASHOV",
           "name_key": "sergei murashov",
           "position": "G"
+        },
+        {
+          "sweater": 4,
+          "name": "JAKE LIVANAVAGE",
+          "name_key": "jake livanavage",
+          "position": "D"
         },
         {
           "sweater": 6,
@@ -5030,6 +5042,54 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_ADDED:DAL:trey taylor:2026-11-03",
+      "type": "ACTIVE_ADDED",
+      "team": "DAL",
+      "player": "Trey Taylor",
+      "player_key": "trey taylor",
+      "detected_at": "2026-11-03T15:30:39Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:LAK:taylor ward:2026-11-03",
+      "type": "ACTIVE_REMOVED",
+      "team": "LAK",
+      "player": "Taylor Ward",
+      "player_key": "taylor ward",
+      "detected_at": "2026-11-03T15:30:39Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:NYR:jaroslav chmelar:2026-11-03",
+      "type": "ACTIVE_ADDED",
+      "team": "NYR",
+      "player": "Jaroslav Chmelar",
+      "player_key": "jaroslav chmelar",
+      "detected_at": "2026-11-03T15:30:39Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:NYR:taylor raddysh:2026-11-03",
+      "type": "ACTIVE_REMOVED",
+      "team": "NYR",
+      "player": "Taylor Raddysh",
+      "player_key": "taylor raddysh",
+      "detected_at": "2026-11-03T15:30:39Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:OTT:samuel blais:2026-11-03",
+      "type": "ACTIVE_ADDED",
+      "team": "OTT",
+      "player": "Samuel Blais",
+      "player_key": "samuel blais",
+      "detected_at": "2026-11-03T15:30:39Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:PIT:jake livanavage:2026-11-03",
+      "type": "ACTIVE_ADDED",
+      "team": "PIT",
+      "player": "Jake Livanavage",
+      "player_key": "jake livanavage",
+      "detected_at": "2026-11-03T15:30:39Z"
+    },
     {
       "id": "ACTIVE_REMOVED:FLA:cooper black:2026-11-02",
       "type": "ACTIVE_REMOVED",
