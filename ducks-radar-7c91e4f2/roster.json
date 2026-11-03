@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-03 21:30 МСК",
+  "updated": "2026-11-03 22:37 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "18:30:13 11/03/2026",
+  "report_updated": "19:37:20 11/03/2026",
   "complete": true,
   "team_count": 32,
   "active_count": 717,
-  "ir_count": 75,
+  "ir_count": 74,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -3875,6 +3875,12 @@
           "position": "C"
         },
         {
+          "sweater": 49,
+          "name": "ROSS JOHNSTON",
+          "name_key": "ross johnston",
+          "position": "L"
+        },
+        {
           "sweater": 50,
           "name": "JORDAN BINNINGTON",
           "name_key": "jordan binnington",
@@ -3930,13 +3936,6 @@
           "name_key": "logan mailloux",
           "position": "D",
           "ir_date": "2026-09-27"
-        },
-        {
-          "sweater": 49,
-          "name": "ROSS JOHNSTON",
-          "name_key": "ross johnston",
-          "position": "L",
-          "ir_date": "2026-10-18"
         },
         {
           "sweater": 65,
@@ -4148,12 +4147,6 @@
           "name": "TROY STECHER",
           "name_key": "troy stecher",
           "position": "D"
-        },
-        {
-          "sweater": 29,
-          "name": "BO GROULX",
-          "name_key": "bo groulx",
-          "position": "C"
         },
         {
           "sweater": 34,
@@ -5057,6 +5050,22 @@
   },
   "events": [
     {
+      "id": "RETURNED_FROM_IR:STL:ross johnston:2026-11-03",
+      "type": "RETURNED_FROM_IR",
+      "team": "STL",
+      "player": "Ross Johnston",
+      "player_key": "ross johnston",
+      "detected_at": "2026-11-03T19:37:20Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:TOR:bo groulx:2026-11-03",
+      "type": "ACTIVE_REMOVED",
+      "team": "TOR",
+      "player": "Bo Groulx",
+      "player_key": "bo groulx",
+      "detected_at": "2026-11-03T19:37:20Z"
+    },
+    {
       "id": "ACTIVE_ADDED:CHI:dillon boucher:2026-11-03",
       "type": "ACTIVE_ADDED",
       "team": "CHI",
@@ -5887,486 +5896,6 @@
       "player": "Jonas Rondbjerg",
       "player_key": "jonas rondbjerg",
       "detected_at": "2026-10-28T00:18:24Z"
-    },
-    {
-      "id": "NEW_IR:ANA:pavel mintyukov:2026-10-27",
-      "type": "NEW_IR",
-      "team": "ANA",
-      "player": "Pavel Mintyukov",
-      "player_key": "pavel mintyukov",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:ANA:judd caulfield:2026-10-27",
-      "type": "ACTIVE_ADDED",
-      "team": "ANA",
-      "player": "Judd Caulfield",
-      "player_key": "judd caulfield",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:ANA:travis mitchell:2026-10-27",
-      "type": "ACTIVE_ADDED",
-      "team": "ANA",
-      "player": "Travis Mitchell",
-      "player_key": "travis mitchell",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:CGY:ben jones:2026-10-27",
-      "type": "ACTIVE_REMOVED",
-      "team": "CGY",
-      "player": "Ben Jones",
-      "player_key": "ben jones",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:CAR:taylor hall:2026-10-27",
-      "type": "RETURNED_FROM_IR",
-      "team": "CAR",
-      "player": "Taylor Hall",
-      "player_key": "taylor hall",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:CAR:alexander nikishin:2026-10-27",
-      "type": "ACTIVE_ADDED",
-      "team": "CAR",
-      "player": "Alexander Nikishin",
-      "player_key": "alexander nikishin",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:CAR:felix unger sorum:2026-10-27",
-      "type": "ACTIVE_REMOVED",
-      "team": "CAR",
-      "player": "Felix Unger Sörum",
-      "player_key": "felix unger sorum",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:CAR:skyler brind amour:2026-10-27",
-      "type": "ACTIVE_REMOVED",
-      "team": "CAR",
-      "player": "Skyler Brind'Amour",
-      "player_key": "skyler brind amour",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:CHI:andrew mangiapane:2026-10-27",
-      "type": "RETURNED_FROM_IR",
-      "team": "CHI",
-      "player": "Andrew Mangiapane",
-      "player_key": "andrew mangiapane",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "NEW_IR:COL:zachary l heureux:2026-10-27",
-      "type": "NEW_IR",
-      "team": "COL",
-      "player": "Zachary L'Heureux",
-      "player_key": "zachary l heureux",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:COL:logan o connor:2026-10-27",
-      "type": "RETURNED_FROM_IR",
-      "team": "COL",
-      "player": "Logan O'Connor",
-      "player_key": "logan o connor",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:CBJ:dante fabbro:2026-10-27",
-      "type": "RETURNED_FROM_IR",
-      "team": "CBJ",
-      "player": "Dante Fabbro",
-      "player_key": "dante fabbro",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "NEW_IR:DAL:esa lindell:2026-10-27",
-      "type": "NEW_IR",
-      "team": "DAL",
-      "player": "Esa Lindell",
-      "player_key": "esa lindell",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:DAL:dylan hryckowian:2026-10-27",
-      "type": "ACTIVE_ADDED",
-      "team": "DAL",
-      "player": "Dylan Hryckowian",
-      "player_key": "dylan hryckowian",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:DAL:matthew seminoff:2026-10-27",
-      "type": "ACTIVE_ADDED",
-      "team": "DAL",
-      "player": "Matthew Seminoff",
-      "player_key": "matthew seminoff",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "NEW_IR:EDM:devon levi:2026-10-27",
-      "type": "NEW_IR",
-      "team": "EDM",
-      "player": "Devon Levi",
-      "player_key": "devon levi",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:EDM:matt tomkins:2026-10-27",
-      "type": "ACTIVE_ADDED",
-      "team": "EDM",
-      "player": "Matt Tomkins",
-      "player_key": "matt tomkins",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "NEW_IR:LAK:mats zuccarello:2026-10-27",
-      "type": "NEW_IR",
-      "team": "LAK",
-      "player": "Mats Zuccarello",
-      "player_key": "mats zuccarello",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:MIN:mason shaw:2026-10-27",
-      "type": "ACTIVE_ADDED",
-      "team": "MIN",
-      "player": "Mason Shaw",
-      "player_key": "mason shaw",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:MIN:daemon hunt:2026-10-27",
-      "type": "ACTIVE_REMOVED",
-      "team": "MIN",
-      "player": "Daemon Hunt",
-      "player_key": "daemon hunt",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:MIN:rieger lorenz:2026-10-27",
-      "type": "ACTIVE_REMOVED",
-      "team": "MIN",
-      "player": "Rieger Lorenz",
-      "player_key": "rieger lorenz",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:MTL:florian xhekaj:2026-10-27",
-      "type": "RETURNED_FROM_IR",
-      "team": "MTL",
-      "player": "Florian Xhekaj",
-      "player_key": "florian xhekaj",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:NSH:daemon hunt:2026-10-27",
-      "type": "ACTIVE_ADDED",
-      "team": "NSH",
-      "player": "Daemon Hunt",
-      "player_key": "daemon hunt",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:NSH:jack ahcan:2026-10-27",
-      "type": "ACTIVE_REMOVED",
-      "team": "NSH",
-      "player": "Jack Ahcan",
-      "player_key": "jack ahcan",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:NJD:connor hellebuyck:2026-10-27",
-      "type": "ACTIVE_ADDED",
-      "team": "NJD",
-      "player": "Connor Hellebuyck",
-      "player_key": "connor hellebuyck",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:NJD:dawson mercer:2026-10-27",
-      "type": "ACTIVE_REMOVED",
-      "team": "NJD",
-      "player": "Dawson Mercer",
-      "player_key": "dawson mercer",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:NJD:nico daws:2026-10-27",
-      "type": "ACTIVE_REMOVED",
-      "team": "NJD",
-      "player": "Nico Daws",
-      "player_key": "nico daws",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "NEW_IR:NYI:calum ritchie:2026-10-27",
-      "type": "NEW_IR",
-      "team": "NYI",
-      "player": "Calum Ritchie",
-      "player_key": "calum ritchie",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "NEW_IR:NYI:matias maccelli:2026-10-27",
-      "type": "NEW_IR",
-      "team": "NYI",
-      "player": "Matias Maccelli",
-      "player_key": "matias maccelli",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:NYR:james reimer:2026-10-27",
-      "type": "ACTIVE_ADDED",
-      "team": "NYR",
-      "player": "James Reimer",
-      "player_key": "james reimer",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:NYR:luke glendening:2026-10-27",
-      "type": "ACTIVE_ADDED",
-      "team": "NYR",
-      "player": "Luke Glendening",
-      "player_key": "luke glendening",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:NYR:justin dowling:2026-10-27",
-      "type": "ACTIVE_REMOVED",
-      "team": "NYR",
-      "player": "Justin Dowling",
-      "player_key": "justin dowling",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:NYR:spencer martin:2026-10-27",
-      "type": "ACTIVE_REMOVED",
-      "team": "NYR",
-      "player": "Spencer Martin",
-      "player_key": "spencer martin",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:PHI:cam york:2026-10-27",
-      "type": "RETURNED_FROM_IR",
-      "team": "PHI",
-      "player": "Cam York",
-      "player_key": "cam york",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:PHI:garrett wilson:2026-10-27",
-      "type": "ACTIVE_REMOVED",
-      "team": "PHI",
-      "player": "Garrett Wilson",
-      "player_key": "garrett wilson",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "NEW_IR:PIT:samuel girard:2026-10-27",
-      "type": "NEW_IR",
-      "team": "PIT",
-      "player": "Samuel Girard",
-      "player_key": "samuel girard",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:PIT:avery hayes:2026-10-27",
-      "type": "ACTIVE_ADDED",
-      "team": "PIT",
-      "player": "Avery Hayes",
-      "player_key": "avery hayes",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "NEW_IR:SEA:jared mccann:2026-10-27",
-      "type": "NEW_IR",
-      "team": "SEA",
-      "player": "Jared McCann",
-      "player_key": "jared mccann",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:SEA:jani nyman:2026-10-27",
-      "type": "ACTIVE_ADDED",
-      "team": "SEA",
-      "player": "Jani Nyman",
-      "player_key": "jani nyman",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:STL:alexey toropchenko:2026-10-27",
-      "type": "RETURNED_FROM_IR",
-      "team": "STL",
-      "player": "Alexey Toropchenko",
-      "player_key": "alexey toropchenko",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:STL:quinton burns:2026-10-27",
-      "type": "ACTIVE_ADDED",
-      "team": "STL",
-      "player": "Quinton Burns",
-      "player_key": "quinton burns",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:STL:theo lindstein:2026-10-27",
-      "type": "ACTIVE_REMOVED",
-      "team": "STL",
-      "player": "Theo Lindstein",
-      "player_key": "theo lindstein",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:STL:zach dean:2026-10-27",
-      "type": "ACTIVE_REMOVED",
-      "team": "STL",
-      "player": "Zach Dean",
-      "player_key": "zach dean",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "NEW_IR:TOR:marshall rifai:2026-10-27",
-      "type": "NEW_IR",
-      "team": "TOR",
-      "player": "Marshall Rifai",
-      "player_key": "marshall rifai",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "NEW_IR:TOR:nick blankenburg:2026-10-27",
-      "type": "NEW_IR",
-      "team": "TOR",
-      "player": "Nick Blankenburg",
-      "player_key": "nick blankenburg",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:TOR:cole mcward:2026-10-27",
-      "type": "ACTIVE_ADDED",
-      "team": "TOR",
-      "player": "Cole Mcward",
-      "player_key": "cole mcward",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:TOR:dakota mermis:2026-10-27",
-      "type": "ACTIVE_ADDED",
-      "team": "TOR",
-      "player": "Dakota Mermis",
-      "player_key": "dakota mermis",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:VGK:jonas rondbjerg:2026-10-27",
-      "type": "ACTIVE_ADDED",
-      "team": "VGK",
-      "player": "Jonas Rondbjerg",
-      "player_key": "jonas rondbjerg",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:VGK:alexander holtz:2026-10-27",
-      "type": "ACTIVE_REMOVED",
-      "team": "VGK",
-      "player": "Alexander Holtz",
-      "player_key": "alexander holtz",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "NEW_IR:WSH:logan thompson:2026-10-27",
-      "type": "NEW_IR",
-      "team": "WSH",
-      "player": "Logan Thompson",
-      "player_key": "logan thompson",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "NEW_IR:WSH:vincent desharnais:2026-10-27",
-      "type": "NEW_IR",
-      "team": "WSH",
-      "player": "Vincent Desharnais",
-      "player_key": "vincent desharnais",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:WSH:pierre luc dubois:2026-10-27",
-      "type": "RETURNED_FROM_IR",
-      "team": "WSH",
-      "player": "Pierre-Luc Dubois",
-      "player_key": "pierre luc dubois",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:WSH:jack st ivany:2026-10-27",
-      "type": "ACTIVE_ADDED",
-      "team": "WSH",
-      "player": "Jack St. Ivany",
-      "player_key": "jack st ivany",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:WSH:mitchell gibson:2026-10-27",
-      "type": "ACTIVE_ADDED",
-      "team": "WSH",
-      "player": "Mitchell Gibson",
-      "player_key": "mitchell gibson",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "NEW_IR:WPG:vladislav namestnikov:2026-10-27",
-      "type": "NEW_IR",
-      "team": "WPG",
-      "player": "Vladislav Namestnikov",
-      "player_key": "vladislav namestnikov",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:WPG:dawson mercer:2026-10-27",
-      "type": "ACTIVE_ADDED",
-      "team": "WPG",
-      "player": "Dawson Mercer",
-      "player_key": "dawson mercer",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:WPG:elias salomonsson:2026-10-27",
-      "type": "ACTIVE_ADDED",
-      "team": "WPG",
-      "player": "Elias Salomonsson",
-      "player_key": "elias salomonsson",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:WPG:nico daws:2026-10-27",
-      "type": "ACTIVE_ADDED",
-      "team": "WPG",
-      "player": "Nico Daws",
-      "player_key": "nico daws",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:WPG:brayden yager:2026-10-27",
-      "type": "ACTIVE_REMOVED",
-      "team": "WPG",
-      "player": "Brayden Yager",
-      "player_key": "brayden yager",
-      "detected_at": "2026-10-27T18:54:20Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:WPG:jack st ivany:2026-10-27",
-      "type": "ACTIVE_REMOVED",
-      "team": "WPG",
-      "player": "Jack St. Ivany",
-      "player_key": "jack st ivany",
-      "detected_at": "2026-10-27T18:54:20Z"
     }
   ]
 }
