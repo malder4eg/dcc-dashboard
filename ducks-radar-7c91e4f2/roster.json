@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-03 18:30 МСК",
+  "updated": "2026-11-03 19:37 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "15:30:39 11/03/2026",
+  "report_updated": "16:37:46 11/03/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 716,
-  "ir_count": 74,
+  "active_count": 715,
+  "ir_count": 75,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -855,12 +855,6 @@
           "position": "R"
         },
         {
-          "sweater": 24,
-          "name": "BOWEN BYRAM",
-          "name_key": "bowen byram",
-          "position": "D"
-        },
-        {
           "sweater": 26,
           "name": "ANDREW MANGIAPANE",
           "name_key": "andrew mangiapane",
@@ -945,7 +939,15 @@
           "position": "C"
         }
       ],
-      "ir": []
+      "ir": [
+        {
+          "sweater": 24,
+          "name": "BOWEN BYRAM",
+          "name_key": "bowen byram",
+          "position": "D",
+          "ir_date": "2026-11-03"
+        }
+      ]
     },
     "COL": {
       "name": "Colorado Avalanche",
@@ -5042,6 +5044,14 @@
     }
   },
   "events": [
+    {
+      "id": "NEW_IR:CHI:bowen byram:2026-11-03",
+      "type": "NEW_IR",
+      "team": "CHI",
+      "player": "Bowen Byram",
+      "player_key": "bowen byram",
+      "detected_at": "2026-11-03T16:37:47Z"
+    },
     {
       "id": "ACTIVE_ADDED:DAL:trey taylor:2026-11-03",
       "type": "ACTIVE_ADDED",
