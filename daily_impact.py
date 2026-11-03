@@ -27,7 +27,7 @@ CATEGORIES = ("g", "a", "pts", "plus_minus", "ppp", "shp", "fow", "toi", "sog", 
 FINAL = {"OFF", "FINAL"}
 # Agreed DCC Fantasy Impact weights; all other categories retain weight 1.0.
 WEIGHTS = {category: 1.0 for category in CATEGORIES}
-WEIGHTS.update({"g": 1.5, "shp": 2.0})
+WEIGHTS.update({"g": 1.5, "plus_minus": 0.4, "shp": 2.0})
 MSK = ZoneInfo("Europe/Moscow")
 
 
@@ -65,7 +65,7 @@ def benchmarks_from_history(history: dict) -> dict[str, float]:
 
 def calculate_impact(game: dict, benchmarks: dict[str, float]) -> tuple[float, dict, int]:
     # No category caps, including for negative +/-.
-    # Agreed G = 1.5 and SHP = 2.0; all remaining categories = 1.0.
+    # Agreed G = 1.5, +/- = 0.4, SHP = 2.0; all remaining categories = 1.0.
     components = {}
     for category in CATEGORIES:
         value = float(game.get(category) or 0)
