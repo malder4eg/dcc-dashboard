@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-04 18:40 МСК",
+  "updated": "2026-11-04 19:39 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "15:40:34 11/04/2026",
+  "report_updated": "16:39:38 11/04/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 715,
+  "active_count": 714,
   "ir_count": 75,
   "teams": {
     "ANA": {
@@ -3952,12 +3952,6 @@
       "name": "Tampa Bay Lightning",
       "active": [
         {
-          "sweater": 17,
-          "name": "DOMINIC JAMES",
-          "name_key": "dominic james",
-          "position": "C"
-        },
-        {
           "sweater": 21,
           "name": "BRAYDEN POINT",
           "name_key": "brayden point",
@@ -5044,6 +5038,14 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_REMOVED:TBL:dominic james:2026-11-04",
+      "type": "ACTIVE_REMOVED",
+      "team": "TBL",
+      "player": "Dominic James",
+      "player_key": "dominic james",
+      "detected_at": "2026-11-04T16:39:38Z"
+    },
     {
       "id": "ACTIVE_REMOVED:COL:keaton middleton:2026-11-04",
       "type": "ACTIVE_REMOVED",
