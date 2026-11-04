@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-04 16:55 МСК",
+  "updated": "2026-11-04 18:40 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "13:55:15 11/04/2026",
+  "report_updated": "15:40:34 11/04/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 718,
-  "ir_count": 74,
+  "active_count": 715,
+  "ir_count": 75,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -1049,12 +1049,6 @@
           "position": "L"
         },
         {
-          "sweater": 67,
-          "name": "KEATON MIDDLETON",
-          "name_key": "keaton middleton",
-          "position": "D"
-        },
-        {
           "sweater": 70,
           "name": "SAM MALINSKI",
           "name_key": "sam malinski",
@@ -2080,12 +2074,6 @@
           "sweater": 14,
           "name": "JOEL ERIKSSON EK",
           "name_key": "joel eriksson ek",
-          "position": "C"
-        },
-        {
-          "sweater": 18,
-          "name": "MASON SHAW",
-          "name_key": "mason shaw",
           "position": "C"
         },
         {
@@ -3727,12 +3715,6 @@
           "position": "D"
         },
         {
-          "sweater": 42,
-          "name": "CURTIS DOUGLAS",
-          "name_key": "curtis douglas",
-          "position": "C"
-        },
-        {
           "sweater": 46,
           "name": "VILLE OTTAVAINEN",
           "name_key": "ville ottavainen",
@@ -3782,6 +3764,13 @@
           "name_key": "jared mccann",
           "position": "L",
           "ir_date": "2026-10-24"
+        },
+        {
+          "sweater": 42,
+          "name": "CURTIS DOUGLAS",
+          "name_key": "curtis douglas",
+          "position": "C",
+          "ir_date": "2026-11-03"
         },
         {
           "sweater": 55,
@@ -5055,6 +5044,30 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_REMOVED:COL:keaton middleton:2026-11-04",
+      "type": "ACTIVE_REMOVED",
+      "team": "COL",
+      "player": "Keaton Middleton",
+      "player_key": "keaton middleton",
+      "detected_at": "2026-11-04T15:40:34Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:MIN:mason shaw:2026-11-04",
+      "type": "ACTIVE_REMOVED",
+      "team": "MIN",
+      "player": "Mason Shaw",
+      "player_key": "mason shaw",
+      "detected_at": "2026-11-04T15:40:34Z"
+    },
+    {
+      "id": "NEW_IR:SEA:curtis douglas:2026-11-04",
+      "type": "NEW_IR",
+      "team": "SEA",
+      "player": "Curtis Douglas",
+      "player_key": "curtis douglas",
+      "detected_at": "2026-11-04T15:40:34Z"
+    },
     {
       "id": "ACTIVE_ADDED:SJS:eric pohlkamp:2026-11-03",
       "type": "ACTIVE_ADDED",
