@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-04 20:38 МСК",
-  "generated_at": "2026-11-04T17:38:42Z",
+  "updated": "2026-11-05 01:56 МСК",
+  "generated_at": "2026-11-04T22:56:08Z",
   "source": {
     "nhl_stats": "https://api.nhle.com/stats/rest/en/",
     "nhl_game_status": "https://api-web.nhle.com/v1/",
@@ -22,9 +22,9 @@
   },
   "counts": {
     "signals_all": 343,
-    "signals_available": 89,
+    "signals_available": 88,
     "add_candidates": 1,
-    "watch": 88,
+    "watch": 87,
     "new_signals": 0
   },
   "new_signals": [],
@@ -152,6 +152,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "NEW_IR:DET:albert johansson:2026-11-04",
+          "type": "NEW_IR",
+          "team": "DET",
+          "player": "Albert Johansson",
+          "player_key": "albert johansson",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_ADDED:DET:john leonard:2026-11-01",
           "type": "ACTIVE_ADDED",
           "team": "DET",
@@ -190,14 +198,6 @@
           "player": "Dylan Larkin",
           "player_key": "dylan larkin",
           "detected_at": "2026-10-29T21:25:59Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DET:michal postava:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "DET",
-          "player": "Michal Postava",
-          "player_key": "michal postava",
-          "detected_at": "2026-10-29T21:25:59Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -211,7 +211,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 12.94,
+      "percent_owned": 13.0,
       "nhl_roster_status": "ACTIVE",
       "score": 100,
       "reliability": "HIGH",
@@ -953,36 +953,20 @@
       "role_outlook": "Повышенный TOI держится минимум два завершённых матча подряд.",
       "team_context": [
         {
+          "id": "ACTIVE_REMOVED:SJS:libor hajek:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "SJS",
+          "player": "Libor Hajek",
+          "player_key": "libor hajek",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_ADDED:SJS:eric pohlkamp:2026-11-03",
           "type": "ACTIVE_ADDED",
           "team": "SJS",
           "player": "Eric Pohlkamp",
           "player_key": "eric pohlkamp",
           "detected_at": "2026-11-03T21:27:49Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:SJS:libor hajek:2026-10-28",
-          "type": "ACTIVE_ADDED",
-          "team": "SJS",
-          "player": "Libor Hajek",
-          "player_key": "libor hajek",
-          "detected_at": "2026-10-28T19:33:36Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:SJS:filip bystedt:2026-10-28",
-          "type": "ACTIVE_ADDED",
-          "team": "SJS",
-          "player": "Filip Bystedt",
-          "player_key": "filip bystedt",
-          "detected_at": "2026-10-28T18:25:38Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:SJS:luca cagnoni:2026-10-28",
-          "type": "ACTIVE_REMOVED",
-          "team": "SJS",
-          "player": "Luca Cagnoni",
-          "player_key": "luca cagnoni",
-          "detected_at": "2026-10-28T18:25:38Z"
         }
       ],
       "latest_final_game_date": "2026-11-02",
@@ -996,7 +980,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 18,
-      "percent_owned": 1.21,
+      "percent_owned": 1.23,
       "nhl_roster_status": "ACTIVE",
       "score": 92,
       "reliability": "HIGH",
@@ -1109,6 +1093,14 @@
       "recent_games": 2,
       "role_outlook": "Повышенный TOI держится минимум два завершённых матча подряд.",
       "team_context": [
+        {
+          "id": "RETURNED_FROM_IR:BUF:conor timmins:2026-11-04",
+          "type": "RETURNED_FROM_IR",
+          "team": "BUF",
+          "player": "Conor Timmins",
+          "player_key": "conor timmins",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
         {
           "id": "ACTIVE_REMOVED:BUF:dennis gilbert:2026-11-01",
           "type": "ACTIVE_REMOVED",
@@ -1264,6 +1256,22 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "ACTIVE_REMOVED:VGK:jonas rondbjerg:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "VGK",
+          "player": "Jonas Rondbjerg",
+          "player_key": "jonas rondbjerg",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:VGK:viliam kmec:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "VGK",
+          "player": "Viliam Kmec",
+          "player_key": "viliam kmec",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
         {
           "id": "ACTIVE_ADDED:VGK:viliam kmec:2026-11-01",
           "type": "ACTIVE_ADDED",
@@ -1465,7 +1473,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 53.09,
+      "percent_owned": 53.01,
       "nhl_roster_status": "ACTIVE",
       "score": 73,
       "reliability": "HIGH",
@@ -1616,7 +1624,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 9,
-      "percent_owned": 7.02,
+      "percent_owned": 7.0,
       "nhl_roster_status": "ACTIVE",
       "score": 70,
       "reliability": "HIGH",
@@ -1876,7 +1884,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 64.66,
+      "percent_owned": 64.75,
       "nhl_roster_status": "ACTIVE",
       "score": 59,
       "reliability": "HIGH",
@@ -1989,6 +1997,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "NEW_IR:DET:albert johansson:2026-11-04",
+          "type": "NEW_IR",
+          "team": "DET",
+          "player": "Albert Johansson",
+          "player_key": "albert johansson",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_ADDED:DET:john leonard:2026-11-01",
           "type": "ACTIVE_ADDED",
           "team": "DET",
@@ -2026,14 +2042,6 @@
           "team": "DET",
           "player": "Dylan Larkin",
           "player_key": "dylan larkin",
-          "detected_at": "2026-10-29T21:25:59Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DET:michal postava:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "DET",
-          "player": "Michal Postava",
-          "player_key": "michal postava",
           "detected_at": "2026-10-29T21:25:59Z"
         }
       ],
@@ -2204,7 +2212,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 93.26,
+      "percent_owned": 93.25,
       "nhl_roster_status": "ACTIVE",
       "score": 56,
       "reliability": "HIGH",
@@ -2360,7 +2368,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 80.96,
+      "percent_owned": 80.99,
       "nhl_roster_status": "ACTIVE",
       "score": 56,
       "reliability": "HIGH",
@@ -2475,6 +2483,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_REMOVED:VGK:jonas rondbjerg:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "VGK",
+          "player": "Jonas Rondbjerg",
+          "player_key": "jonas rondbjerg",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:VGK:viliam kmec:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "VGK",
+          "player": "Viliam Kmec",
+          "player_key": "viliam kmec",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_ADDED:VGK:viliam kmec:2026-11-01",
           "type": "ACTIVE_ADDED",
           "team": "VGK",
@@ -2518,7 +2542,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 15.14,
+      "percent_owned": 15.19,
       "nhl_roster_status": "ACTIVE",
       "score": 56,
       "reliability": "HIGH",
@@ -2661,22 +2685,6 @@
           "player": "Samuel Girard",
           "player_key": "samuel girard",
           "detected_at": "2026-10-29T18:28:12Z"
-        },
-        {
-          "id": "NEW_IR:PIT:elmer soderblom:2026-10-28",
-          "type": "NEW_IR",
-          "team": "PIT",
-          "player": "Elmer Soderblom",
-          "player_key": "elmer soderblom",
-          "detected_at": "2026-10-28T20:26:16Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:PIT:justin brazeau:2026-10-28",
-          "type": "RETURNED_FROM_IR",
-          "team": "PIT",
-          "player": "Justin Brazeau",
-          "player_key": "justin brazeau",
-          "detected_at": "2026-10-28T20:26:16Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -2690,7 +2698,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 18,
-      "percent_owned": 44.34,
+      "percent_owned": 44.3,
       "nhl_roster_status": "ACTIVE",
       "score": 55,
       "reliability": "HIGH",
@@ -2804,7 +2812,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.16,
+      "percent_owned": 0.15,
       "nhl_roster_status": "UNKNOWN",
       "score": 55,
       "reliability": "MEDIUM",
@@ -2950,7 +2958,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 30.6,
+      "percent_owned": 30.55,
       "nhl_roster_status": "ACTIVE",
       "score": 55,
       "reliability": "HIGH",
@@ -3075,14 +3083,6 @@
           "player": "Kirill Marchenko",
           "player_key": "kirill marchenko",
           "detected_at": "2026-10-29T14:40:45Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:TOR:dakota joshua:2026-10-28",
-          "type": "ACTIVE_ADDED",
-          "team": "TOR",
-          "player": "Dakota Joshua",
-          "player_key": "dakota joshua",
-          "detected_at": "2026-10-28T21:24:41Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -3475,7 +3475,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 98.47,
+      "percent_owned": 98.48,
       "nhl_roster_status": "ACTIVE",
       "score": 54,
       "reliability": "HIGH",
@@ -3584,6 +3584,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_REMOVED:VGK:jonas rondbjerg:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "VGK",
+          "player": "Jonas Rondbjerg",
+          "player_key": "jonas rondbjerg",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:VGK:viliam kmec:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "VGK",
+          "player": "Viliam Kmec",
+          "player_key": "viliam kmec",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_ADDED:VGK:viliam kmec:2026-11-01",
           "type": "ACTIVE_ADDED",
           "team": "VGK",
@@ -3627,7 +3643,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 94.81,
+      "percent_owned": 94.77,
       "nhl_roster_status": "ACTIVE",
       "score": 53,
       "reliability": "HIGH",
@@ -3770,22 +3786,6 @@
           "player": "Samuel Girard",
           "player_key": "samuel girard",
           "detected_at": "2026-10-29T18:28:12Z"
-        },
-        {
-          "id": "NEW_IR:PIT:elmer soderblom:2026-10-28",
-          "type": "NEW_IR",
-          "team": "PIT",
-          "player": "Elmer Soderblom",
-          "player_key": "elmer soderblom",
-          "detected_at": "2026-10-28T20:26:16Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:PIT:justin brazeau:2026-10-28",
-          "type": "RETURNED_FROM_IR",
-          "team": "PIT",
-          "player": "Justin Brazeau",
-          "player_key": "justin brazeau",
-          "detected_at": "2026-10-28T20:26:16Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -3799,7 +3799,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 90.87,
+      "percent_owned": 90.89,
       "nhl_roster_status": "ACTIVE",
       "score": 51,
       "reliability": "HIGH",
@@ -3967,7 +3967,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 92.94,
+      "percent_owned": 92.93,
       "nhl_roster_status": "ACTIVE",
       "score": 49,
       "reliability": "HIGH",
@@ -4077,6 +4077,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_REMOVED:VGK:jonas rondbjerg:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "VGK",
+          "player": "Jonas Rondbjerg",
+          "player_key": "jonas rondbjerg",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:VGK:viliam kmec:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "VGK",
+          "player": "Viliam Kmec",
+          "player_key": "viliam kmec",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_ADDED:VGK:viliam kmec:2026-11-01",
           "type": "ACTIVE_ADDED",
           "team": "VGK",
@@ -4120,7 +4136,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 61.39,
+      "percent_owned": 61.53,
       "nhl_roster_status": "ACTIVE",
       "score": 49,
       "reliability": "HIGH",
@@ -4293,7 +4309,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 9.34,
+      "percent_owned": 9.29,
       "nhl_roster_status": "ACTIVE",
       "score": 48,
       "reliability": "HIGH",
@@ -4820,7 +4836,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 88.05,
+      "percent_owned": 88.06,
       "nhl_roster_status": "ACTIVE",
       "score": 46,
       "reliability": "HIGH",
@@ -5232,7 +5248,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 1.08,
+      "percent_owned": 1.07,
       "nhl_roster_status": "ACTIVE",
       "score": 45,
       "reliability": "HIGH",
@@ -5362,14 +5378,6 @@
           "player": "Kirill Marchenko",
           "player_key": "kirill marchenko",
           "detected_at": "2026-10-29T14:40:45Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:TOR:dakota joshua:2026-10-28",
-          "type": "ACTIVE_ADDED",
-          "team": "TOR",
-          "player": "Dakota Joshua",
-          "player_key": "dakota joshua",
-          "detected_at": "2026-10-28T21:24:41Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -5383,7 +5391,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 79.99,
+      "percent_owned": 79.97,
       "nhl_roster_status": "ACTIVE",
       "score": 45,
       "reliability": "HIGH",
@@ -5910,7 +5918,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 96.81,
+      "percent_owned": 96.82,
       "nhl_roster_status": "ACTIVE",
       "score": 43,
       "reliability": "HIGH",
@@ -6049,7 +6057,7 @@
       "position": "R",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 32.94,
+      "percent_owned": 32.9,
       "nhl_roster_status": "ACTIVE",
       "score": 43,
       "reliability": "HIGH",
@@ -6192,7 +6200,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 3.91,
+      "percent_owned": 3.9,
       "nhl_roster_status": "ACTIVE",
       "score": 43,
       "reliability": "HIGH",
@@ -6471,7 +6479,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 87.12,
+      "percent_owned": 87.02,
       "nhl_roster_status": "ACTIVE",
       "score": 43,
       "reliability": "HIGH",
@@ -6573,6 +6581,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_REMOVED:VGK:jonas rondbjerg:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "VGK",
+          "player": "Jonas Rondbjerg",
+          "player_key": "jonas rondbjerg",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:VGK:viliam kmec:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "VGK",
+          "player": "Viliam Kmec",
+          "player_key": "viliam kmec",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_ADDED:VGK:viliam kmec:2026-11-01",
           "type": "ACTIVE_ADDED",
           "team": "VGK",
@@ -6616,7 +6640,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 9,
-      "percent_owned": 62.03,
+      "percent_owned": 61.78,
       "nhl_roster_status": "ACTIVE",
       "score": 43,
       "reliability": "HIGH",
@@ -6716,6 +6740,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_REMOVED:VGK:jonas rondbjerg:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "VGK",
+          "player": "Jonas Rondbjerg",
+          "player_key": "jonas rondbjerg",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:VGK:viliam kmec:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "VGK",
+          "player": "Viliam Kmec",
+          "player_key": "viliam kmec",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_ADDED:VGK:viliam kmec:2026-11-01",
           "type": "ACTIVE_ADDED",
           "team": "VGK",
@@ -6759,7 +6799,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 4.9,
+      "percent_owned": 4.86,
       "nhl_roster_status": "ACTIVE",
       "score": 43,
       "reliability": "HIGH",
@@ -6860,6 +6900,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_REMOVED:VGK:jonas rondbjerg:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "VGK",
+          "player": "Jonas Rondbjerg",
+          "player_key": "jonas rondbjerg",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:VGK:viliam kmec:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "VGK",
+          "player": "Viliam Kmec",
+          "player_key": "viliam kmec",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_ADDED:VGK:viliam kmec:2026-11-01",
           "type": "ACTIVE_ADDED",
           "team": "VGK",
@@ -6903,7 +6959,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 85.2,
+      "percent_owned": 85.22,
       "nhl_roster_status": "ACTIVE",
       "score": 41,
       "reliability": "HIGH",
@@ -7070,7 +7126,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 7.9,
+      "percent_owned": 7.98,
       "nhl_roster_status": "ACTIVE",
       "score": 41,
       "reliability": "HIGH",
@@ -7213,7 +7269,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 95.3,
+      "percent_owned": 95.41,
       "nhl_roster_status": "ACTIVE",
       "score": 41,
       "reliability": "HIGH",
@@ -7648,7 +7704,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 6.42,
+      "percent_owned": 7.1,
       "nhl_roster_status": "ACTIVE",
       "score": 41,
       "reliability": "HIGH",
@@ -7791,7 +7847,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 37.09,
+      "percent_owned": 37.14,
       "nhl_roster_status": "ACTIVE",
       "score": 41,
       "reliability": "HIGH",
@@ -7934,7 +7990,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 77.51,
+      "percent_owned": 77.48,
       "nhl_roster_status": "ACTIVE",
       "score": 41,
       "reliability": "HIGH",
@@ -8052,7 +8108,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 76.63,
+      "percent_owned": 76.67,
       "nhl_roster_status": "ACTIVE",
       "score": 41,
       "reliability": "HIGH",
@@ -8755,7 +8811,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 7.23,
+      "percent_owned": 7.2,
       "nhl_roster_status": "ACTIVE",
       "score": 40,
       "reliability": "HIGH",
@@ -9016,7 +9072,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 18,
-      "percent_owned": 53.53,
+      "percent_owned": 53.82,
       "nhl_roster_status": "ACTIVE",
       "score": 40,
       "reliability": "HIGH",
@@ -9149,14 +9205,6 @@
           "player": "Kirill Marchenko",
           "player_key": "kirill marchenko",
           "detected_at": "2026-10-29T14:40:45Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:TOR:dakota joshua:2026-10-28",
-          "type": "ACTIVE_ADDED",
-          "team": "TOR",
-          "player": "Dakota Joshua",
-          "player_key": "dakota joshua",
-          "detected_at": "2026-10-28T21:24:41Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -9170,7 +9218,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 6.23,
+      "percent_owned": 6.32,
       "nhl_roster_status": "ACTIVE",
       "score": 40,
       "reliability": "HIGH",
@@ -9332,7 +9380,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 28.64,
+      "percent_owned": 29.15,
       "nhl_roster_status": "ACTIVE",
       "score": 38,
       "reliability": "HIGH",
@@ -9500,7 +9548,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
-      "percent_owned": 11.47,
+      "percent_owned": 11.46,
       "nhl_roster_status": "ACTIVE",
       "score": 37,
       "reliability": "HIGH",
@@ -9628,7 +9676,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 18,
-      "percent_owned": 95.75,
+      "percent_owned": 95.73,
       "nhl_roster_status": "ACTIVE",
       "score": 35,
       "reliability": "HIGH",
@@ -9761,22 +9809,6 @@
           "player": "Samuel Girard",
           "player_key": "samuel girard",
           "detected_at": "2026-10-29T18:28:12Z"
-        },
-        {
-          "id": "NEW_IR:PIT:elmer soderblom:2026-10-28",
-          "type": "NEW_IR",
-          "team": "PIT",
-          "player": "Elmer Soderblom",
-          "player_key": "elmer soderblom",
-          "detected_at": "2026-10-28T20:26:16Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:PIT:justin brazeau:2026-10-28",
-          "type": "RETURNED_FROM_IR",
-          "team": "PIT",
-          "player": "Justin Brazeau",
-          "player_key": "justin brazeau",
-          "detected_at": "2026-10-28T20:26:16Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -9790,7 +9822,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 59.59,
+      "percent_owned": 59.67,
       "nhl_roster_status": "ACTIVE",
       "score": 35,
       "reliability": "HIGH",
@@ -9923,22 +9955,6 @@
           "player": "Samuel Girard",
           "player_key": "samuel girard",
           "detected_at": "2026-10-29T18:28:12Z"
-        },
-        {
-          "id": "NEW_IR:PIT:elmer soderblom:2026-10-28",
-          "type": "NEW_IR",
-          "team": "PIT",
-          "player": "Elmer Soderblom",
-          "player_key": "elmer soderblom",
-          "detected_at": "2026-10-28T20:26:16Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:PIT:justin brazeau:2026-10-28",
-          "type": "RETURNED_FROM_IR",
-          "team": "PIT",
-          "player": "Justin Brazeau",
-          "player_key": "justin brazeau",
-          "detected_at": "2026-10-28T20:26:16Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -9952,7 +9968,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 18,
-      "percent_owned": 1.15,
+      "percent_owned": 1.13,
       "nhl_roster_status": "ACTIVE",
       "score": 35,
       "reliability": "HIGH",
@@ -10229,22 +10245,6 @@
           "player": "Samuel Girard",
           "player_key": "samuel girard",
           "detected_at": "2026-10-29T18:28:12Z"
-        },
-        {
-          "id": "NEW_IR:PIT:elmer soderblom:2026-10-28",
-          "type": "NEW_IR",
-          "team": "PIT",
-          "player": "Elmer Soderblom",
-          "player_key": "elmer soderblom",
-          "detected_at": "2026-10-28T20:26:16Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:PIT:justin brazeau:2026-10-28",
-          "type": "RETURNED_FROM_IR",
-          "team": "PIT",
-          "player": "Justin Brazeau",
-          "player_key": "justin brazeau",
-          "detected_at": "2026-10-28T20:26:16Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -10385,7 +10385,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 11.76,
+      "percent_owned": 11.92,
       "nhl_roster_status": "ACTIVE",
       "score": 33,
       "reliability": "HIGH",
@@ -10496,7 +10496,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
-      "percent_owned": 0.42,
+      "percent_owned": 0.44,
       "nhl_roster_status": "ACTIVE",
       "score": 33,
       "reliability": "HIGH",
@@ -10863,6 +10863,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "RETURNED_FROM_IR:BUF:conor timmins:2026-11-04",
+          "type": "RETURNED_FROM_IR",
+          "team": "BUF",
+          "player": "Conor Timmins",
+          "player_key": "conor timmins",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_REMOVED:BUF:dennis gilbert:2026-11-01",
           "type": "ACTIVE_REMOVED",
           "team": "BUF",
@@ -10898,7 +10906,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.45,
+      "percent_owned": 0.46,
       "nhl_roster_status": "ACTIVE",
       "score": 33,
       "reliability": "HIGH",
@@ -11253,36 +11261,20 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_REMOVED:SJS:libor hajek:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "SJS",
+          "player": "Libor Hajek",
+          "player_key": "libor hajek",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_ADDED:SJS:eric pohlkamp:2026-11-03",
           "type": "ACTIVE_ADDED",
           "team": "SJS",
           "player": "Eric Pohlkamp",
           "player_key": "eric pohlkamp",
           "detected_at": "2026-11-03T21:27:49Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:SJS:libor hajek:2026-10-28",
-          "type": "ACTIVE_ADDED",
-          "team": "SJS",
-          "player": "Libor Hajek",
-          "player_key": "libor hajek",
-          "detected_at": "2026-10-28T19:33:36Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:SJS:filip bystedt:2026-10-28",
-          "type": "ACTIVE_ADDED",
-          "team": "SJS",
-          "player": "Filip Bystedt",
-          "player_key": "filip bystedt",
-          "detected_at": "2026-10-28T18:25:38Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:SJS:luca cagnoni:2026-10-28",
-          "type": "ACTIVE_REMOVED",
-          "team": "SJS",
-          "player": "Luca Cagnoni",
-          "player_key": "luca cagnoni",
-          "detected_at": "2026-10-28T18:25:38Z"
         }
       ],
       "latest_final_game_date": "2026-10-19",
@@ -11296,7 +11288,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 1.27,
+      "percent_owned": 1.28,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -11463,7 +11455,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 45.44,
+      "percent_owned": 45.58,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -11711,7 +11703,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 95.66,
+      "percent_owned": 95.67,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -11967,7 +11959,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 95.44,
+      "percent_owned": 95.42,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -12237,7 +12229,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 92.62,
+      "percent_owned": 92.64,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -12399,7 +12391,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 92.42,
+      "percent_owned": 92.4,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -12511,7 +12503,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 8.14,
+      "percent_owned": 8.17,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -12612,24 +12604,7 @@
       "baseline_games": 5,
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "NEW_IR:EDM:zach hyman:2026-10-28",
-          "type": "NEW_IR",
-          "team": "EDM",
-          "player": "Zach Hyman",
-          "player_key": "zach hyman",
-          "detected_at": "2026-10-28T20:26:16Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:EDM:jason dickinson:2026-10-28",
-          "type": "RETURNED_FROM_IR",
-          "team": "EDM",
-          "player": "Jason Dickinson",
-          "player_key": "jason dickinson",
-          "detected_at": "2026-10-28T20:26:16Z"
-        }
-      ],
+      "team_context": [],
       "latest_final_game_date": "2026-11-03",
       "latest_final_game_id": 2026020239
     },
@@ -12776,7 +12751,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 98.09,
+      "percent_owned": 98.08,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -12921,7 +12896,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 9,
-      "percent_owned": 22.82,
+      "percent_owned": 22.71,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -13048,7 +13023,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 97.89,
+      "percent_owned": 97.9,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -13183,7 +13158,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 9,
-      "percent_owned": 99.57,
+      "percent_owned": 99.58,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -13290,6 +13265,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "RETURNED_FROM_IR:BUF:conor timmins:2026-11-04",
+          "type": "RETURNED_FROM_IR",
+          "team": "BUF",
+          "player": "Conor Timmins",
+          "player_key": "conor timmins",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_REMOVED:BUF:dennis gilbert:2026-11-01",
           "type": "ACTIVE_REMOVED",
           "team": "BUF",
@@ -13325,7 +13308,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 29.91,
+      "percent_owned": 31.41,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -13431,6 +13414,14 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "RETURNED_FROM_IR:BUF:conor timmins:2026-11-04",
+          "type": "RETURNED_FROM_IR",
+          "team": "BUF",
+          "player": "Conor Timmins",
+          "player_key": "conor timmins",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
         {
           "id": "ACTIVE_REMOVED:BUF:dennis gilbert:2026-11-01",
           "type": "ACTIVE_REMOVED",
@@ -13999,7 +13990,16 @@
       "baseline_games": 5,
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [],
+      "team_context": [
+        {
+          "id": "ACTIVE_REMOVED:WPG:brad lambert:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "WPG",
+          "player": "Brad Lambert",
+          "player_key": "brad lambert",
+          "detected_at": "2026-11-04T22:56:08Z"
+        }
+      ],
       "latest_final_game_date": "2026-11-03",
       "latest_final_game_id": 2026020237
     },
@@ -14011,7 +14011,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 71.85,
+      "percent_owned": 71.82,
       "nhl_roster_status": "ACTIVE",
       "score": 28,
       "reliability": "HIGH",
@@ -14165,7 +14165,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 22.18,
+      "percent_owned": 22.29,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -14570,7 +14570,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 99.05,
+      "percent_owned": 99.04,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -14665,6 +14665,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "NEW_IR:DET:albert johansson:2026-11-04",
+          "type": "NEW_IR",
+          "team": "DET",
+          "player": "Albert Johansson",
+          "player_key": "albert johansson",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_ADDED:DET:john leonard:2026-11-01",
           "type": "ACTIVE_ADDED",
           "team": "DET",
@@ -14703,14 +14711,6 @@
           "player": "Dylan Larkin",
           "player_key": "dylan larkin",
           "detected_at": "2026-10-29T21:25:59Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DET:michal postava:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "DET",
-          "player": "Michal Postava",
-          "player_key": "michal postava",
-          "detected_at": "2026-10-29T21:25:59Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -14724,7 +14724,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 2.8,
+      "percent_owned": 2.79,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -15099,22 +15099,6 @@
           "player": "Samuel Girard",
           "player_key": "samuel girard",
           "detected_at": "2026-10-29T18:28:12Z"
-        },
-        {
-          "id": "NEW_IR:PIT:elmer soderblom:2026-10-28",
-          "type": "NEW_IR",
-          "team": "PIT",
-          "player": "Elmer Soderblom",
-          "player_key": "elmer soderblom",
-          "detected_at": "2026-10-28T20:26:16Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:PIT:justin brazeau:2026-10-28",
-          "type": "RETURNED_FROM_IR",
-          "team": "PIT",
-          "player": "Justin Brazeau",
-          "player_key": "justin brazeau",
-          "detected_at": "2026-10-28T20:26:16Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -15362,7 +15346,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 11.8,
+      "percent_owned": 11.92,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -15605,7 +15589,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 18,
-      "percent_owned": 1.05,
+      "percent_owned": 1.06,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -15768,7 +15752,7 @@
       "espn_status": "UNMATCHED",
       "espn_team_id": null,
       "percent_owned": null,
-      "nhl_roster_status": "ACTIVE",
+      "nhl_roster_status": "UNKNOWN",
       "score": 25,
       "reliability": "HIGH",
       "recommendation": "WATCH",
@@ -15859,7 +15843,16 @@
       "baseline_games": 5,
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [],
+      "team_context": [
+        {
+          "id": "ACTIVE_REMOVED:WPG:brad lambert:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "WPG",
+          "player": "Brad Lambert",
+          "player_key": "brad lambert",
+          "detected_at": "2026-11-04T22:56:08Z"
+        }
+      ],
       "latest_final_game_date": "2026-10-29",
       "latest_final_game_id": 2026020204
     },
@@ -15871,7 +15864,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 4.05,
+      "percent_owned": 4.01,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -15965,6 +15958,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_REMOVED:VGK:jonas rondbjerg:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "VGK",
+          "player": "Jonas Rondbjerg",
+          "player_key": "jonas rondbjerg",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:VGK:viliam kmec:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "VGK",
+          "player": "Viliam Kmec",
+          "player_key": "viliam kmec",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_ADDED:VGK:viliam kmec:2026-11-01",
           "type": "ACTIVE_ADDED",
           "team": "VGK",
@@ -16008,7 +16017,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 92.62,
+      "percent_owned": 92.6,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -16217,24 +16226,7 @@
       "baseline_games": 5,
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "NEW_IR:EDM:zach hyman:2026-10-28",
-          "type": "NEW_IR",
-          "team": "EDM",
-          "player": "Zach Hyman",
-          "player_key": "zach hyman",
-          "detected_at": "2026-10-28T20:26:16Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:EDM:jason dickinson:2026-10-28",
-          "type": "RETURNED_FROM_IR",
-          "team": "EDM",
-          "player": "Jason Dickinson",
-          "player_key": "jason dickinson",
-          "detected_at": "2026-10-28T20:26:16Z"
-        }
-      ],
+      "team_context": [],
       "latest_final_game_date": "2026-11-03",
       "latest_final_game_id": 2026020239
     },
@@ -16246,7 +16238,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 5.33,
+      "percent_owned": 5.3,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -16512,7 +16504,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 26.63,
+      "percent_owned": 26.52,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -16607,6 +16599,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "NEW_IR:DET:albert johansson:2026-11-04",
+          "type": "NEW_IR",
+          "team": "DET",
+          "player": "Albert Johansson",
+          "player_key": "albert johansson",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_ADDED:DET:john leonard:2026-11-01",
           "type": "ACTIVE_ADDED",
           "team": "DET",
@@ -16644,14 +16644,6 @@
           "team": "DET",
           "player": "Dylan Larkin",
           "player_key": "dylan larkin",
-          "detected_at": "2026-10-29T21:25:59Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DET:michal postava:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "DET",
-          "player": "Michal Postava",
-          "player_key": "michal postava",
           "detected_at": "2026-10-29T21:25:59Z"
         }
       ],
@@ -16926,7 +16918,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 33.89,
+      "percent_owned": 33.72,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -17021,6 +17013,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_REMOVED:VGK:jonas rondbjerg:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "VGK",
+          "player": "Jonas Rondbjerg",
+          "player_key": "jonas rondbjerg",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:VGK:viliam kmec:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "VGK",
+          "player": "Viliam Kmec",
+          "player_key": "viliam kmec",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_ADDED:VGK:viliam kmec:2026-11-01",
           "type": "ACTIVE_ADDED",
           "team": "VGK",
@@ -17064,7 +17072,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 10.22,
+      "percent_owned": 10.18,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -17201,7 +17209,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 34.55,
+      "percent_owned": 34.5,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -17576,7 +17584,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 53.16,
+      "percent_owned": 53.04,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -17701,22 +17709,6 @@
           "player": "Samuel Girard",
           "player_key": "samuel girard",
           "detected_at": "2026-10-29T18:28:12Z"
-        },
-        {
-          "id": "NEW_IR:PIT:elmer soderblom:2026-10-28",
-          "type": "NEW_IR",
-          "team": "PIT",
-          "player": "Elmer Soderblom",
-          "player_key": "elmer soderblom",
-          "detected_at": "2026-10-28T20:26:16Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:PIT:justin brazeau:2026-10-28",
-          "type": "RETURNED_FROM_IR",
-          "team": "PIT",
-          "player": "Justin Brazeau",
-          "player_key": "justin brazeau",
-          "detected_at": "2026-10-28T20:26:16Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -17730,7 +17722,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 1.28,
+      "percent_owned": 1.27,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -17950,6 +17942,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "NEW_IR:DET:albert johansson:2026-11-04",
+          "type": "NEW_IR",
+          "team": "DET",
+          "player": "Albert Johansson",
+          "player_key": "albert johansson",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_ADDED:DET:john leonard:2026-11-01",
           "type": "ACTIVE_ADDED",
           "team": "DET",
@@ -17988,14 +17988,6 @@
           "player": "Dylan Larkin",
           "player_key": "dylan larkin",
           "detected_at": "2026-10-29T21:25:59Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DET:michal postava:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "DET",
-          "player": "Michal Postava",
-          "player_key": "michal postava",
-          "detected_at": "2026-10-29T21:25:59Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -18009,7 +18001,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 99.25,
+      "percent_owned": 99.24,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -18146,7 +18138,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 47.84,
+      "percent_owned": 47.45,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -18501,6 +18493,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "NEW_IR:DET:albert johansson:2026-11-04",
+          "type": "NEW_IR",
+          "team": "DET",
+          "player": "Albert Johansson",
+          "player_key": "albert johansson",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_ADDED:DET:john leonard:2026-11-01",
           "type": "ACTIVE_ADDED",
           "team": "DET",
@@ -18539,14 +18539,6 @@
           "player": "Dylan Larkin",
           "player_key": "dylan larkin",
           "detected_at": "2026-10-29T21:25:59Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DET:michal postava:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "DET",
-          "player": "Michal Postava",
-          "player_key": "michal postava",
-          "detected_at": "2026-10-29T21:25:59Z"
         }
       ],
       "latest_final_game_date": "2026-10-31",
@@ -18560,7 +18552,7 @@
       "position": "R",
       "espn_status": "WAIVERS",
       "espn_team_id": 0,
-      "percent_owned": 15.72,
+      "percent_owned": 15.7,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -18812,7 +18804,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 9,
-      "percent_owned": 19.51,
+      "percent_owned": 19.49,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -18950,7 +18942,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 42.55,
+      "percent_owned": 43.12,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -19089,7 +19081,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 4.71,
+      "percent_owned": 4.68,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -19219,7 +19211,7 @@
       "position": "R",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 1.33,
+      "percent_owned": 1.32,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -19341,7 +19333,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 58.76,
+      "percent_owned": 58.72,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -19436,6 +19428,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "NEW_IR:DET:albert johansson:2026-11-04",
+          "type": "NEW_IR",
+          "team": "DET",
+          "player": "Albert Johansson",
+          "player_key": "albert johansson",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_ADDED:DET:john leonard:2026-11-01",
           "type": "ACTIVE_ADDED",
           "team": "DET",
@@ -19473,14 +19473,6 @@
           "team": "DET",
           "player": "Dylan Larkin",
           "player_key": "dylan larkin",
-          "detected_at": "2026-10-29T21:25:59Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DET:michal postava:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "DET",
-          "player": "Michal Postava",
-          "player_key": "michal postava",
           "detected_at": "2026-10-29T21:25:59Z"
         }
       ],
@@ -19619,22 +19611,6 @@
           "player": "Samuel Girard",
           "player_key": "samuel girard",
           "detected_at": "2026-10-29T18:28:12Z"
-        },
-        {
-          "id": "NEW_IR:PIT:elmer soderblom:2026-10-28",
-          "type": "NEW_IR",
-          "team": "PIT",
-          "player": "Elmer Soderblom",
-          "player_key": "elmer soderblom",
-          "detected_at": "2026-10-28T20:26:16Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:PIT:justin brazeau:2026-10-28",
-          "type": "RETURNED_FROM_IR",
-          "team": "PIT",
-          "player": "Justin Brazeau",
-          "player_key": "justin brazeau",
-          "detected_at": "2026-10-28T20:26:16Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -19648,7 +19624,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 85.58,
+      "percent_owned": 85.52,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -19787,7 +19763,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 63.0,
+      "percent_owned": 62.93,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -20022,7 +19998,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 92.23,
+      "percent_owned": 92.22,
       "nhl_roster_status": "ACTIVE",
       "score": 24,
       "reliability": "HIGH",
@@ -20277,7 +20253,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 92.84,
+      "percent_owned": 92.77,
       "nhl_roster_status": "ACTIVE",
       "score": 21,
       "reliability": "HIGH",
@@ -20508,7 +20484,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 99.88,
+      "percent_owned": 99.89,
       "nhl_roster_status": "ACTIVE",
       "score": 21,
       "reliability": "HIGH",
@@ -20571,9 +20547,9 @@
         },
         "blk": {
           "baseline": 1.0,
-          "recent": 2.5,
-          "delta": 1.5,
-          "ratio": 2.5
+          "recent": 2.0,
+          "delta": 1.0,
+          "ratio": 2.0
         },
         "fow": {
           "baseline": null,
@@ -20934,7 +20910,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 58.48,
+      "percent_owned": 58.45,
       "nhl_roster_status": "ACTIVE",
       "score": 21,
       "reliability": "HIGH",
@@ -21163,7 +21139,16 @@
       "baseline_games": 5,
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [],
+      "team_context": [
+        {
+          "id": "ACTIVE_REMOVED:WPG:brad lambert:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "WPG",
+          "player": "Brad Lambert",
+          "player_key": "brad lambert",
+          "detected_at": "2026-11-04T22:56:08Z"
+        }
+      ],
       "latest_final_game_date": "2026-11-03",
       "latest_final_game_id": 2026020237
     },
@@ -21175,7 +21160,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 7.18,
+      "percent_owned": 7.11,
       "nhl_roster_status": "ACTIVE",
       "score": 21,
       "reliability": "HIGH",
@@ -21333,7 +21318,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 3.92,
+      "percent_owned": 4.06,
       "nhl_roster_status": "ACTIVE",
       "score": 21,
       "reliability": "HIGH",
@@ -21432,6 +21417,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "RETURNED_FROM_IR:BUF:conor timmins:2026-11-04",
+          "type": "RETURNED_FROM_IR",
+          "team": "BUF",
+          "player": "Conor Timmins",
+          "player_key": "conor timmins",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_REMOVED:BUF:dennis gilbert:2026-11-01",
           "type": "ACTIVE_REMOVED",
           "team": "BUF",
@@ -21467,7 +21460,7 @@
       "position": "C",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.68,
+      "percent_owned": 0.67,
       "nhl_roster_status": "ACTIVE",
       "score": 21,
       "reliability": "HIGH",
@@ -21626,7 +21619,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
-      "percent_owned": 40.85,
+      "percent_owned": 40.84,
       "nhl_roster_status": "ACTIVE",
       "score": 21,
       "reliability": "HIGH",
@@ -21993,7 +21986,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 85.81,
+      "percent_owned": 85.82,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -22384,7 +22377,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 19.4,
+      "percent_owned": 19.31,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -22480,6 +22473,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_REMOVED:VGK:jonas rondbjerg:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "VGK",
+          "player": "Jonas Rondbjerg",
+          "player_key": "jonas rondbjerg",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:VGK:viliam kmec:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "VGK",
+          "player": "Viliam Kmec",
+          "player_key": "viliam kmec",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_ADDED:VGK:viliam kmec:2026-11-01",
           "type": "ACTIVE_ADDED",
           "team": "VGK",
@@ -22523,7 +22532,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 48.88,
+      "percent_owned": 48.81,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -22660,7 +22669,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 1.58,
+      "percent_owned": 1.54,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -22797,7 +22806,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 1.02,
+      "percent_owned": 1.01,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -23188,22 +23197,6 @@
           "player": "Samuel Girard",
           "player_key": "samuel girard",
           "detected_at": "2026-10-29T18:28:12Z"
-        },
-        {
-          "id": "NEW_IR:PIT:elmer soderblom:2026-10-28",
-          "type": "NEW_IR",
-          "team": "PIT",
-          "player": "Elmer Soderblom",
-          "player_key": "elmer soderblom",
-          "detected_at": "2026-10-28T20:26:16Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:PIT:justin brazeau:2026-10-28",
-          "type": "RETURNED_FROM_IR",
-          "team": "PIT",
-          "player": "Justin Brazeau",
-          "player_key": "justin brazeau",
-          "detected_at": "2026-10-28T20:26:16Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -23217,7 +23210,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 4.3,
+      "percent_owned": 4.27,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -23309,7 +23302,16 @@
       "baseline_games": 5,
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [],
+      "team_context": [
+        {
+          "id": "ACTIVE_REMOVED:WPG:brad lambert:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "WPG",
+          "player": "Brad Lambert",
+          "player_key": "brad lambert",
+          "detected_at": "2026-11-04T22:56:08Z"
+        }
+      ],
       "latest_final_game_date": "2026-11-03",
       "latest_final_game_id": 2026020237
     },
@@ -23321,7 +23323,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 31.02,
+      "percent_owned": 30.75,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -23445,22 +23447,6 @@
           "player": "Samuel Girard",
           "player_key": "samuel girard",
           "detected_at": "2026-10-29T18:28:12Z"
-        },
-        {
-          "id": "NEW_IR:PIT:elmer soderblom:2026-10-28",
-          "type": "NEW_IR",
-          "team": "PIT",
-          "player": "Elmer Soderblom",
-          "player_key": "elmer soderblom",
-          "detected_at": "2026-10-28T20:26:16Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:PIT:justin brazeau:2026-10-28",
-          "type": "RETURNED_FROM_IR",
-          "team": "PIT",
-          "player": "Justin Brazeau",
-          "player_key": "justin brazeau",
-          "detected_at": "2026-10-28T20:26:16Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -23803,6 +23789,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_REMOVED:VGK:jonas rondbjerg:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "VGK",
+          "player": "Jonas Rondbjerg",
+          "player_key": "jonas rondbjerg",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:VGK:viliam kmec:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "VGK",
+          "player": "Viliam Kmec",
+          "player_key": "viliam kmec",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_ADDED:VGK:viliam kmec:2026-11-01",
           "type": "ACTIVE_ADDED",
           "team": "VGK",
@@ -24108,7 +24110,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 94.34,
+      "percent_owned": 94.33,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -24209,7 +24211,16 @@
       "baseline_games": 5,
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [],
+      "team_context": [
+        {
+          "id": "ACTIVE_REMOVED:WPG:brad lambert:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "WPG",
+          "player": "Brad Lambert",
+          "player_key": "brad lambert",
+          "detected_at": "2026-11-04T22:56:08Z"
+        }
+      ],
       "latest_final_game_date": "2026-11-03",
       "latest_final_game_id": 2026020237
     },
@@ -24375,7 +24386,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 96.89,
+      "percent_owned": 96.84,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -24506,7 +24517,7 @@
       "position": "L",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 6.9,
+      "percent_owned": 6.87,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -24630,22 +24641,6 @@
           "player": "Samuel Girard",
           "player_key": "samuel girard",
           "detected_at": "2026-10-29T18:28:12Z"
-        },
-        {
-          "id": "NEW_IR:PIT:elmer soderblom:2026-10-28",
-          "type": "NEW_IR",
-          "team": "PIT",
-          "player": "Elmer Soderblom",
-          "player_key": "elmer soderblom",
-          "detected_at": "2026-10-28T20:26:16Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:PIT:justin brazeau:2026-10-28",
-          "type": "RETURNED_FROM_IR",
-          "team": "PIT",
-          "player": "Justin Brazeau",
-          "player_key": "justin brazeau",
-          "detected_at": "2026-10-28T20:26:16Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -24659,7 +24654,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 1.72,
+      "percent_owned": 1.69,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -24796,7 +24791,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 69.19,
+      "percent_owned": 69.14,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -24891,6 +24886,22 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "ACTIVE_REMOVED:VGK:jonas rondbjerg:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "VGK",
+          "player": "Jonas Rondbjerg",
+          "player_key": "jonas rondbjerg",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:VGK:viliam kmec:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "VGK",
+          "player": "Viliam Kmec",
+          "player_key": "viliam kmec",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
         {
           "id": "ACTIVE_ADDED:VGK:viliam kmec:2026-11-01",
           "type": "ACTIVE_ADDED",
@@ -25081,7 +25092,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 3.47,
+      "percent_owned": 3.59,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -25176,6 +25187,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "RETURNED_FROM_IR:BUF:conor timmins:2026-11-04",
+          "type": "RETURNED_FROM_IR",
+          "team": "BUF",
+          "player": "Conor Timmins",
+          "player_key": "conor timmins",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_REMOVED:BUF:dennis gilbert:2026-11-01",
           "type": "ACTIVE_REMOVED",
           "team": "BUF",
@@ -25211,7 +25230,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 51.09,
+      "percent_owned": 51.39,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -25306,6 +25325,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "RETURNED_FROM_IR:BUF:conor timmins:2026-11-04",
+          "type": "RETURNED_FROM_IR",
+          "team": "BUF",
+          "player": "Conor Timmins",
+          "player_key": "conor timmins",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_REMOVED:BUF:dennis gilbert:2026-11-01",
           "type": "ACTIVE_REMOVED",
           "team": "BUF",
@@ -25341,7 +25368,7 @@
       "position": "C",
       "espn_status": "WAIVERS",
       "espn_team_id": 0,
-      "percent_owned": 4.45,
+      "percent_owned": 4.42,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -25640,7 +25667,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 4.24,
+      "percent_owned": 4.23,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -25733,24 +25760,7 @@
       "baseline_games": 5,
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "NEW_IR:EDM:zach hyman:2026-10-28",
-          "type": "NEW_IR",
-          "team": "EDM",
-          "player": "Zach Hyman",
-          "player_key": "zach hyman",
-          "detected_at": "2026-10-28T20:26:16Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:EDM:jason dickinson:2026-10-28",
-          "type": "RETURNED_FROM_IR",
-          "team": "EDM",
-          "player": "Jason Dickinson",
-          "player_key": "jason dickinson",
-          "detected_at": "2026-10-28T20:26:16Z"
-        }
-      ],
+      "team_context": [],
       "latest_final_game_date": "2026-11-03",
       "latest_final_game_id": 2026020239
     },
@@ -26029,7 +26039,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 79.2,
+      "percent_owned": 79.22,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -26235,24 +26245,7 @@
       "baseline_games": 5,
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "NEW_IR:EDM:zach hyman:2026-10-28",
-          "type": "NEW_IR",
-          "team": "EDM",
-          "player": "Zach Hyman",
-          "player_key": "zach hyman",
-          "detected_at": "2026-10-28T20:26:16Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:EDM:jason dickinson:2026-10-28",
-          "type": "RETURNED_FROM_IR",
-          "team": "EDM",
-          "player": "Jason Dickinson",
-          "player_key": "jason dickinson",
-          "detected_at": "2026-10-28T20:26:16Z"
-        }
-      ],
+      "team_context": [],
       "latest_final_game_date": "2026-11-03",
       "latest_final_game_id": 2026020239
     },
@@ -26509,22 +26502,6 @@
           "player": "Samuel Girard",
           "player_key": "samuel girard",
           "detected_at": "2026-10-29T18:28:12Z"
-        },
-        {
-          "id": "NEW_IR:PIT:elmer soderblom:2026-10-28",
-          "type": "NEW_IR",
-          "team": "PIT",
-          "player": "Elmer Soderblom",
-          "player_key": "elmer soderblom",
-          "detected_at": "2026-10-28T20:26:16Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:PIT:justin brazeau:2026-10-28",
-          "type": "RETURNED_FROM_IR",
-          "team": "PIT",
-          "player": "Justin Brazeau",
-          "player_key": "justin brazeau",
-          "detected_at": "2026-10-28T20:26:16Z"
         }
       ],
       "latest_final_game_date": "2026-10-09",
@@ -26659,7 +26636,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 9,
-      "percent_owned": 65.06,
+      "percent_owned": 64.82,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -26891,6 +26868,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "NEW_IR:DET:albert johansson:2026-11-04",
+          "type": "NEW_IR",
+          "team": "DET",
+          "player": "Albert Johansson",
+          "player_key": "albert johansson",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_ADDED:DET:john leonard:2026-11-01",
           "type": "ACTIVE_ADDED",
           "team": "DET",
@@ -26929,14 +26914,6 @@
           "player": "Dylan Larkin",
           "player_key": "dylan larkin",
           "detected_at": "2026-10-29T21:25:59Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DET:michal postava:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "DET",
-          "player": "Michal Postava",
-          "player_key": "michal postava",
-          "detected_at": "2026-10-29T21:25:59Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -26950,7 +26927,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 2.53,
+      "percent_owned": 2.52,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -27211,24 +27188,7 @@
       "baseline_games": 5,
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "NEW_IR:EDM:zach hyman:2026-10-28",
-          "type": "NEW_IR",
-          "team": "EDM",
-          "player": "Zach Hyman",
-          "player_key": "zach hyman",
-          "detected_at": "2026-10-28T20:26:16Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:EDM:jason dickinson:2026-10-28",
-          "type": "RETURNED_FROM_IR",
-          "team": "EDM",
-          "player": "Jason Dickinson",
-          "player_key": "jason dickinson",
-          "detected_at": "2026-10-28T20:26:16Z"
-        }
-      ],
+      "team_context": [],
       "latest_final_game_date": "2026-11-03",
       "latest_final_game_id": 2026020239
     },
@@ -27240,7 +27200,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 99.33,
+      "percent_owned": 99.34,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -27401,7 +27361,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 76.91,
+      "percent_owned": 76.97,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -27563,7 +27523,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 3.15,
+      "percent_owned": 3.14,
       "nhl_roster_status": "IR",
       "score": 16,
       "reliability": "HIGH",
@@ -27707,7 +27667,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 78.13,
+      "percent_owned": 78.18,
       "nhl_roster_status": "IR",
       "score": 16,
       "reliability": "HIGH",
@@ -27839,14 +27799,6 @@
           "player": "Kirill Marchenko",
           "player_key": "kirill marchenko",
           "detected_at": "2026-10-29T14:40:45Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:TOR:dakota joshua:2026-10-28",
-          "type": "ACTIVE_ADDED",
-          "team": "TOR",
-          "player": "Dakota Joshua",
-          "player_key": "dakota joshua",
-          "detected_at": "2026-10-28T21:24:41Z"
         }
       ],
       "latest_final_game_date": "2026-10-15",
@@ -28022,7 +27974,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 79.13,
+      "percent_owned": 79.18,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -28255,7 +28207,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 12.07,
+      "percent_owned": 12.05,
       "nhl_roster_status": "UNKNOWN",
       "score": 16,
       "reliability": "HIGH",
@@ -28357,6 +28309,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "NEW_IR:DET:albert johansson:2026-11-04",
+          "type": "NEW_IR",
+          "team": "DET",
+          "player": "Albert Johansson",
+          "player_key": "albert johansson",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_ADDED:DET:john leonard:2026-11-01",
           "type": "ACTIVE_ADDED",
           "team": "DET",
@@ -28395,14 +28355,6 @@
           "player": "Dylan Larkin",
           "player_key": "dylan larkin",
           "detected_at": "2026-10-29T21:25:59Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DET:michal postava:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "DET",
-          "player": "Michal Postava",
-          "player_key": "michal postava",
-          "detected_at": "2026-10-29T21:25:59Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -28416,7 +28368,7 @@
       "position": "C",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.37,
+      "percent_owned": 0.38,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -28517,7 +28469,16 @@
       "baseline_games": 5,
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [],
+      "team_context": [
+        {
+          "id": "ACTIVE_REMOVED:WPG:brad lambert:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "WPG",
+          "player": "Brad Lambert",
+          "player_key": "brad lambert",
+          "detected_at": "2026-11-04T22:56:08Z"
+        }
+      ],
       "latest_final_game_date": "2026-11-03",
       "latest_final_game_id": 2026020237
     },
@@ -28529,7 +28490,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 97.31,
+      "percent_owned": 97.33,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -28642,7 +28603,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 98.86,
+      "percent_owned": 98.87,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -28744,6 +28705,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "RETURNED_FROM_IR:BUF:conor timmins:2026-11-04",
+          "type": "RETURNED_FROM_IR",
+          "team": "BUF",
+          "player": "Conor Timmins",
+          "player_key": "conor timmins",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_REMOVED:BUF:dennis gilbert:2026-11-01",
           "type": "ACTIVE_REMOVED",
           "team": "BUF",
@@ -28779,7 +28748,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 76.16,
+      "percent_owned": 76.18,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -28939,7 +28908,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 12.23,
+      "percent_owned": 12.42,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -29228,7 +29197,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 1.57,
+      "percent_owned": 1.56,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -29321,7 +29290,16 @@
       "baseline_games": 5,
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [],
+      "team_context": [
+        {
+          "id": "ACTIVE_REMOVED:WPG:brad lambert:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "WPG",
+          "player": "Brad Lambert",
+          "player_key": "brad lambert",
+          "detected_at": "2026-11-04T22:56:08Z"
+        }
+      ],
       "latest_final_game_date": "2026-11-03",
       "latest_final_game_id": 2026020237
     },
@@ -29600,7 +29578,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 0.95,
+      "percent_owned": 0.99,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -29722,7 +29700,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 8.81,
+      "percent_owned": 8.79,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -29826,7 +29804,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.09,
+      "percent_owned": 0.1,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -29920,6 +29898,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "NEW_IR:DET:albert johansson:2026-11-04",
+          "type": "NEW_IR",
+          "team": "DET",
+          "player": "Albert Johansson",
+          "player_key": "albert johansson",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_ADDED:DET:john leonard:2026-11-01",
           "type": "ACTIVE_ADDED",
           "team": "DET",
@@ -29957,14 +29943,6 @@
           "team": "DET",
           "player": "Dylan Larkin",
           "player_key": "dylan larkin",
-          "detected_at": "2026-10-29T21:25:59Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DET:michal postava:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "DET",
-          "player": "Michal Postava",
-          "player_key": "michal postava",
           "detected_at": "2026-10-29T21:25:59Z"
         }
       ],
@@ -30074,36 +30052,20 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_REMOVED:SJS:libor hajek:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "SJS",
+          "player": "Libor Hajek",
+          "player_key": "libor hajek",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_ADDED:SJS:eric pohlkamp:2026-11-03",
           "type": "ACTIVE_ADDED",
           "team": "SJS",
           "player": "Eric Pohlkamp",
           "player_key": "eric pohlkamp",
           "detected_at": "2026-11-03T21:27:49Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:SJS:libor hajek:2026-10-28",
-          "type": "ACTIVE_ADDED",
-          "team": "SJS",
-          "player": "Libor Hajek",
-          "player_key": "libor hajek",
-          "detected_at": "2026-10-28T19:33:36Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:SJS:filip bystedt:2026-10-28",
-          "type": "ACTIVE_ADDED",
-          "team": "SJS",
-          "player": "Filip Bystedt",
-          "player_key": "filip bystedt",
-          "detected_at": "2026-10-28T18:25:38Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:SJS:luca cagnoni:2026-10-28",
-          "type": "ACTIVE_REMOVED",
-          "team": "SJS",
-          "player": "Luca Cagnoni",
-          "player_key": "luca cagnoni",
-          "detected_at": "2026-10-28T18:25:38Z"
         }
       ],
       "latest_final_game_date": "2026-11-02",
@@ -30117,7 +30079,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 99.09,
+      "percent_owned": 99.1,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -30239,7 +30201,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 66.97,
+      "percent_owned": 66.74,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -30332,7 +30294,16 @@
       "baseline_games": 5,
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [],
+      "team_context": [
+        {
+          "id": "ACTIVE_REMOVED:WPG:brad lambert:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "WPG",
+          "player": "Brad Lambert",
+          "player_key": "brad lambert",
+          "detected_at": "2026-11-04T22:56:08Z"
+        }
+      ],
       "latest_final_game_date": "2026-11-03",
       "latest_final_game_id": 2026020237
     },
@@ -30344,7 +30315,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.39,
+      "percent_owned": 0.38,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -30448,7 +30419,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 94.65,
+      "percent_owned": 94.6,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -30572,14 +30543,6 @@
           "player": "Kirill Marchenko",
           "player_key": "kirill marchenko",
           "detected_at": "2026-10-29T14:40:45Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:TOR:dakota joshua:2026-10-28",
-          "type": "ACTIVE_ADDED",
-          "team": "TOR",
-          "player": "Dakota Joshua",
-          "player_key": "dakota joshua",
-          "detected_at": "2026-10-28T21:24:41Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -30593,7 +30556,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 78.52,
+      "percent_owned": 78.59,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -30733,7 +30696,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.14,
+      "percent_owned": 0.15,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -31220,22 +31183,6 @@
           "player": "Samuel Girard",
           "player_key": "samuel girard",
           "detected_at": "2026-10-29T18:28:12Z"
-        },
-        {
-          "id": "NEW_IR:PIT:elmer soderblom:2026-10-28",
-          "type": "NEW_IR",
-          "team": "PIT",
-          "player": "Elmer Soderblom",
-          "player_key": "elmer soderblom",
-          "detected_at": "2026-10-28T20:26:16Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:PIT:justin brazeau:2026-10-28",
-          "type": "RETURNED_FROM_IR",
-          "team": "PIT",
-          "player": "Justin Brazeau",
-          "player_key": "justin brazeau",
-          "detected_at": "2026-10-28T20:26:16Z"
         }
       ],
       "latest_final_game_date": "2026-10-24",
@@ -31249,7 +31196,7 @@
       "position": "C",
       "espn_status": "WAIVERS",
       "espn_team_id": 0,
-      "percent_owned": 0.75,
+      "percent_owned": 0.74,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -31384,7 +31331,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 44.35,
+      "percent_owned": 44.22,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -31476,7 +31423,16 @@
       "baseline_games": 5,
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [],
+      "team_context": [
+        {
+          "id": "ACTIVE_REMOVED:WPG:brad lambert:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "WPG",
+          "player": "Brad Lambert",
+          "player_key": "brad lambert",
+          "detected_at": "2026-11-04T22:56:08Z"
+        }
+      ],
       "latest_final_game_date": "2026-11-03",
       "latest_final_game_id": 2026020237
     },
@@ -31699,36 +31655,20 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_REMOVED:SJS:libor hajek:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "SJS",
+          "player": "Libor Hajek",
+          "player_key": "libor hajek",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_ADDED:SJS:eric pohlkamp:2026-11-03",
           "type": "ACTIVE_ADDED",
           "team": "SJS",
           "player": "Eric Pohlkamp",
           "player_key": "eric pohlkamp",
           "detected_at": "2026-11-03T21:27:49Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:SJS:libor hajek:2026-10-28",
-          "type": "ACTIVE_ADDED",
-          "team": "SJS",
-          "player": "Libor Hajek",
-          "player_key": "libor hajek",
-          "detected_at": "2026-10-28T19:33:36Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:SJS:filip bystedt:2026-10-28",
-          "type": "ACTIVE_ADDED",
-          "team": "SJS",
-          "player": "Filip Bystedt",
-          "player_key": "filip bystedt",
-          "detected_at": "2026-10-28T18:25:38Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:SJS:luca cagnoni:2026-10-28",
-          "type": "ACTIVE_REMOVED",
-          "team": "SJS",
-          "player": "Luca Cagnoni",
-          "player_key": "luca cagnoni",
-          "detected_at": "2026-10-28T18:25:38Z"
         }
       ],
       "latest_final_game_date": "2026-11-02",
@@ -31742,7 +31682,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 7.95,
+      "percent_owned": 7.92,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -31882,7 +31822,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 97.98,
+      "percent_owned": 97.99,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -32144,7 +32084,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 17.16,
+      "percent_owned": 17.02,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -32265,7 +32205,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 31.42,
+      "percent_owned": 31.39,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -32386,7 +32326,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 28.38,
+      "percent_owned": 28.28,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -32609,7 +32549,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 5.65,
+      "percent_owned": 5.64,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -32731,7 +32671,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 15.13,
+      "percent_owned": 15.08,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -32870,7 +32810,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 6.41,
+      "percent_owned": 6.62,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -32999,7 +32939,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 48.81,
+      "percent_owned": 48.77,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -33092,24 +33032,7 @@
       "baseline_games": 5,
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "NEW_IR:EDM:zach hyman:2026-10-28",
-          "type": "NEW_IR",
-          "team": "EDM",
-          "player": "Zach Hyman",
-          "player_key": "zach hyman",
-          "detected_at": "2026-10-28T20:26:16Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:EDM:jason dickinson:2026-10-28",
-          "type": "RETURNED_FROM_IR",
-          "team": "EDM",
-          "player": "Jason Dickinson",
-          "player_key": "jason dickinson",
-          "detected_at": "2026-10-28T20:26:16Z"
-        }
-      ],
+      "team_context": [],
       "latest_final_game_date": "2026-11-03",
       "latest_final_game_id": 2026020239
     },
@@ -33121,7 +33044,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 64.24,
+      "percent_owned": 64.54,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -33218,6 +33141,14 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "RETURNED_FROM_IR:BUF:conor timmins:2026-11-04",
+          "type": "RETURNED_FROM_IR",
+          "team": "BUF",
+          "player": "Conor Timmins",
+          "player_key": "conor timmins",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
         {
           "id": "ACTIVE_REMOVED:BUF:dennis gilbert:2026-11-01",
           "type": "ACTIVE_REMOVED",
@@ -33349,36 +33280,20 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_REMOVED:SJS:libor hajek:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "SJS",
+          "player": "Libor Hajek",
+          "player_key": "libor hajek",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_ADDED:SJS:eric pohlkamp:2026-11-03",
           "type": "ACTIVE_ADDED",
           "team": "SJS",
           "player": "Eric Pohlkamp",
           "player_key": "eric pohlkamp",
           "detected_at": "2026-11-03T21:27:49Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:SJS:libor hajek:2026-10-28",
-          "type": "ACTIVE_ADDED",
-          "team": "SJS",
-          "player": "Libor Hajek",
-          "player_key": "libor hajek",
-          "detected_at": "2026-10-28T19:33:36Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:SJS:filip bystedt:2026-10-28",
-          "type": "ACTIVE_ADDED",
-          "team": "SJS",
-          "player": "Filip Bystedt",
-          "player_key": "filip bystedt",
-          "detected_at": "2026-10-28T18:25:38Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:SJS:luca cagnoni:2026-10-28",
-          "type": "ACTIVE_REMOVED",
-          "team": "SJS",
-          "player": "Luca Cagnoni",
-          "player_key": "luca cagnoni",
-          "detected_at": "2026-10-28T18:25:38Z"
         }
       ],
       "latest_final_game_date": "2026-11-02",
@@ -33488,6 +33403,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "NEW_IR:DET:albert johansson:2026-11-04",
+          "type": "NEW_IR",
+          "team": "DET",
+          "player": "Albert Johansson",
+          "player_key": "albert johansson",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_ADDED:DET:john leonard:2026-11-01",
           "type": "ACTIVE_ADDED",
           "team": "DET",
@@ -33526,14 +33449,6 @@
           "player": "Dylan Larkin",
           "player_key": "dylan larkin",
           "detected_at": "2026-10-29T21:25:59Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DET:michal postava:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "DET",
-          "player": "Michal Postava",
-          "player_key": "michal postava",
-          "detected_at": "2026-10-29T21:25:59Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -33547,7 +33462,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 3.92,
+      "percent_owned": 3.95,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -33775,6 +33690,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "NEW_IR:DET:albert johansson:2026-11-04",
+          "type": "NEW_IR",
+          "team": "DET",
+          "player": "Albert Johansson",
+          "player_key": "albert johansson",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_ADDED:DET:john leonard:2026-11-01",
           "type": "ACTIVE_ADDED",
           "team": "DET",
@@ -33813,14 +33736,6 @@
           "player": "Dylan Larkin",
           "player_key": "dylan larkin",
           "detected_at": "2026-10-29T21:25:59Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DET:michal postava:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "DET",
-          "player": "Michal Postava",
-          "player_key": "michal postava",
-          "detected_at": "2026-10-29T21:25:59Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -33834,7 +33749,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 18,
-      "percent_owned": 15.36,
+      "percent_owned": 15.39,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -34452,6 +34367,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_REMOVED:VGK:jonas rondbjerg:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "VGK",
+          "player": "Jonas Rondbjerg",
+          "player_key": "jonas rondbjerg",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:VGK:viliam kmec:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "VGK",
+          "player": "Viliam Kmec",
+          "player_key": "viliam kmec",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_ADDED:VGK:viliam kmec:2026-11-01",
           "type": "ACTIVE_ADDED",
           "team": "VGK",
@@ -34617,7 +34548,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 14.28,
+      "percent_owned": 14.71,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -34842,6 +34773,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "RETURNED_FROM_IR:BUF:conor timmins:2026-11-04",
+          "type": "RETURNED_FROM_IR",
+          "team": "BUF",
+          "player": "Conor Timmins",
+          "player_key": "conor timmins",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_REMOVED:BUF:dennis gilbert:2026-11-01",
           "type": "ACTIVE_REMOVED",
           "team": "BUF",
@@ -35006,7 +34945,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 0.27,
+      "percent_owned": 0.28,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -35272,7 +35211,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 97.36,
+      "percent_owned": 97.34,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -35530,7 +35469,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.4,
+      "percent_owned": 0.39,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -35743,36 +35682,20 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_REMOVED:SJS:libor hajek:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "SJS",
+          "player": "Libor Hajek",
+          "player_key": "libor hajek",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_ADDED:SJS:eric pohlkamp:2026-11-03",
           "type": "ACTIVE_ADDED",
           "team": "SJS",
           "player": "Eric Pohlkamp",
           "player_key": "eric pohlkamp",
           "detected_at": "2026-11-03T21:27:49Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:SJS:libor hajek:2026-10-28",
-          "type": "ACTIVE_ADDED",
-          "team": "SJS",
-          "player": "Libor Hajek",
-          "player_key": "libor hajek",
-          "detected_at": "2026-10-28T19:33:36Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:SJS:filip bystedt:2026-10-28",
-          "type": "ACTIVE_ADDED",
-          "team": "SJS",
-          "player": "Filip Bystedt",
-          "player_key": "filip bystedt",
-          "detected_at": "2026-10-28T18:25:38Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:SJS:luca cagnoni:2026-10-28",
-          "type": "ACTIVE_REMOVED",
-          "team": "SJS",
-          "player": "Luca Cagnoni",
-          "player_key": "luca cagnoni",
-          "detected_at": "2026-10-28T18:25:38Z"
         }
       ],
       "latest_final_game_date": "2026-10-31",
@@ -36194,14 +36117,6 @@
           "player": "Kirill Marchenko",
           "player_key": "kirill marchenko",
           "detected_at": "2026-10-29T14:40:45Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:TOR:dakota joshua:2026-10-28",
-          "type": "ACTIVE_ADDED",
-          "team": "TOR",
-          "player": "Dakota Joshua",
-          "player_key": "dakota joshua",
-          "detected_at": "2026-10-28T21:24:41Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -36213,13 +36128,13 @@
       "name": "Wyatt Kaiser",
       "nhl_team": "CHI",
       "position": "D",
-      "espn_status": "FREEAGENT",
-      "espn_team_id": 0,
-      "percent_owned": 0.58,
+      "espn_status": "ONTEAM",
+      "espn_team_id": 18,
+      "percent_owned": 0.64,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
-      "recommendation": "WATCH",
+      "recommendation": "TRACK ONLY",
       "categories": [
         "HIT"
       ],
@@ -36430,36 +36345,20 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_REMOVED:SJS:libor hajek:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "SJS",
+          "player": "Libor Hajek",
+          "player_key": "libor hajek",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_ADDED:SJS:eric pohlkamp:2026-11-03",
           "type": "ACTIVE_ADDED",
           "team": "SJS",
           "player": "Eric Pohlkamp",
           "player_key": "eric pohlkamp",
           "detected_at": "2026-11-03T21:27:49Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:SJS:libor hajek:2026-10-28",
-          "type": "ACTIVE_ADDED",
-          "team": "SJS",
-          "player": "Libor Hajek",
-          "player_key": "libor hajek",
-          "detected_at": "2026-10-28T19:33:36Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:SJS:filip bystedt:2026-10-28",
-          "type": "ACTIVE_ADDED",
-          "team": "SJS",
-          "player": "Filip Bystedt",
-          "player_key": "filip bystedt",
-          "detected_at": "2026-10-28T18:25:38Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:SJS:luca cagnoni:2026-10-28",
-          "type": "ACTIVE_REMOVED",
-          "team": "SJS",
-          "player": "Luca Cagnoni",
-          "player_key": "luca cagnoni",
-          "detected_at": "2026-10-28T18:25:38Z"
         }
       ],
       "latest_final_game_date": "2026-11-02",
@@ -36473,7 +36372,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 99.77,
+      "percent_owned": 99.76,
       "nhl_roster_status": "ACTIVE",
       "score": 12,
       "reliability": "HIGH",
@@ -36601,14 +36500,6 @@
           "player": "Kirill Marchenko",
           "player_key": "kirill marchenko",
           "detected_at": "2026-10-29T14:40:45Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:TOR:dakota joshua:2026-10-28",
-          "type": "ACTIVE_ADDED",
-          "team": "TOR",
-          "player": "Dakota Joshua",
-          "player_key": "dakota joshua",
-          "detected_at": "2026-10-28T21:24:41Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -36941,6 +36832,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "RETURNED_FROM_IR:BUF:conor timmins:2026-11-04",
+          "type": "RETURNED_FROM_IR",
+          "team": "BUF",
+          "player": "Conor Timmins",
+          "player_key": "conor timmins",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_REMOVED:BUF:dennis gilbert:2026-11-01",
           "type": "ACTIVE_REMOVED",
           "team": "BUF",
@@ -37114,7 +37013,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 1.17,
+      "percent_owned": 1.16,
       "nhl_roster_status": "ACTIVE",
       "score": 12,
       "reliability": "HIGH",
@@ -37235,7 +37134,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 3.03,
+      "percent_owned": 3.13,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -37491,7 +37390,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 51.84,
+      "percent_owned": 51.77,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -37647,7 +37546,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 34.96,
+      "percent_owned": 34.94,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -37771,7 +37670,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 24.3,
+      "percent_owned": 24.26,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -37878,7 +37777,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 2.86,
+      "percent_owned": 2.85,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -38027,7 +37926,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 9.88,
+      "percent_owned": 9.93,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -38308,7 +38207,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 7.04,
+      "percent_owned": 7.01,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -38431,7 +38330,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 98.26,
+      "percent_owned": 98.28,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -38554,7 +38453,7 @@
       "position": "L",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.39,
+      "percent_owned": 0.4,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -38661,7 +38560,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 93.2,
+      "percent_owned": 93.25,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -38816,7 +38715,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 2.27,
+      "percent_owned": 2.26,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -38972,7 +38871,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 12.06,
+      "percent_owned": 12.13,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -39646,7 +39545,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 7.97,
+      "percent_owned": 8.02,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -40011,22 +39910,6 @@
           "player": "Samuel Girard",
           "player_key": "samuel girard",
           "detected_at": "2026-10-29T18:28:12Z"
-        },
-        {
-          "id": "NEW_IR:PIT:elmer soderblom:2026-10-28",
-          "type": "NEW_IR",
-          "team": "PIT",
-          "player": "Elmer Soderblom",
-          "player_key": "elmer soderblom",
-          "detected_at": "2026-10-28T20:26:16Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:PIT:justin brazeau:2026-10-28",
-          "type": "RETURNED_FROM_IR",
-          "team": "PIT",
-          "player": "Justin Brazeau",
-          "player_key": "justin brazeau",
-          "detected_at": "2026-10-28T20:26:16Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -40320,7 +40203,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 4.49,
+      "percent_owned": 4.52,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -40477,7 +40360,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 70.47,
+      "percent_owned": 70.33,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -41200,7 +41083,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 31.49,
+      "percent_owned": 31.44,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -41325,7 +41208,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 18,
-      "percent_owned": 80.91,
+      "percent_owned": 80.89,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -41674,14 +41557,6 @@
           "player": "Kirill Marchenko",
           "player_key": "kirill marchenko",
           "detected_at": "2026-10-29T14:40:45Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:TOR:dakota joshua:2026-10-28",
-          "type": "ACTIVE_ADDED",
-          "team": "TOR",
-          "player": "Dakota Joshua",
-          "player_key": "dakota joshua",
-          "detected_at": "2026-10-28T21:24:41Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -41695,7 +41570,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 91.65,
+      "percent_owned": 91.72,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -41851,7 +41726,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 74.38,
+      "percent_owned": 74.44,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -42007,7 +41882,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 5.94,
+      "percent_owned": 5.93,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -42104,6 +41979,22 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_REMOVED:VGK:jonas rondbjerg:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "VGK",
+          "player": "Jonas Rondbjerg",
+          "player_key": "jonas rondbjerg",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:VGK:viliam kmec:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "VGK",
+          "player": "Viliam Kmec",
+          "player_key": "viliam kmec",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_ADDED:VGK:viliam kmec:2026-11-01",
           "type": "ACTIVE_ADDED",
           "team": "VGK",
@@ -42147,7 +42038,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.19,
+      "percent_owned": 0.2,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -42242,7 +42133,16 @@
       "baseline_games": 5,
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [],
+      "team_context": [
+        {
+          "id": "ACTIVE_REMOVED:WPG:brad lambert:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "WPG",
+          "player": "Brad Lambert",
+          "player_key": "brad lambert",
+          "detected_at": "2026-11-04T22:56:08Z"
+        }
+      ],
       "latest_final_game_date": "2026-11-03",
       "latest_final_game_id": 2026020237
     },
@@ -42254,7 +42154,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 9.48,
+      "percent_owned": 9.51,
       "nhl_roster_status": "IR",
       "score": 10,
       "reliability": "LOW",
@@ -42351,6 +42251,22 @@
       "role_outlook": "Сигнал пока основан на одном завершённом матче; нужна повторная проверка.",
       "team_context": [
         {
+          "id": "ACTIVE_REMOVED:VGK:jonas rondbjerg:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "VGK",
+          "player": "Jonas Rondbjerg",
+          "player_key": "jonas rondbjerg",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:VGK:viliam kmec:2026-11-04",
+          "type": "ACTIVE_REMOVED",
+          "team": "VGK",
+          "player": "Viliam Kmec",
+          "player_key": "viliam kmec",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_ADDED:VGK:viliam kmec:2026-11-01",
           "type": "ACTIVE_ADDED",
           "team": "VGK",
@@ -42394,7 +42310,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.66,
+      "percent_owned": 0.65,
       "nhl_roster_status": "IR",
       "score": 10,
       "reliability": "HIGH",
@@ -42517,7 +42433,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 10.78,
+      "percent_owned": 10.85,
       "nhl_roster_status": "ACTIVE",
       "score": 8,
       "reliability": "HIGH",
@@ -42639,7 +42555,7 @@
       "position": "R",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.84,
+      "percent_owned": 0.85,
       "nhl_roster_status": "ACTIVE",
       "score": 8,
       "reliability": "HIGH",
@@ -42760,7 +42676,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 1.87,
+      "percent_owned": 1.9,
       "nhl_roster_status": "ACTIVE",
       "score": 8,
       "reliability": "HIGH",
@@ -43021,7 +42937,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 5.01,
+      "percent_owned": 5.19,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -43153,7 +43069,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 62.15,
+      "percent_owned": 61.97,
       "nhl_roster_status": "IR",
       "score": 6,
       "reliability": "MEDIUM",
@@ -43535,7 +43451,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 59.83,
+      "percent_owned": 59.74,
       "nhl_roster_status": "IR",
       "score": 6,
       "reliability": "HIGH",
@@ -43661,22 +43577,6 @@
           "player": "Samuel Girard",
           "player_key": "samuel girard",
           "detected_at": "2026-10-29T18:28:12Z"
-        },
-        {
-          "id": "NEW_IR:PIT:elmer soderblom:2026-10-28",
-          "type": "NEW_IR",
-          "team": "PIT",
-          "player": "Elmer Soderblom",
-          "player_key": "elmer soderblom",
-          "detected_at": "2026-10-28T20:26:16Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:PIT:justin brazeau:2026-10-28",
-          "type": "RETURNED_FROM_IR",
-          "team": "PIT",
-          "player": "Justin Brazeau",
-          "player_key": "justin brazeau",
-          "detected_at": "2026-10-28T20:26:16Z"
         }
       ],
       "latest_final_game_date": "2026-10-19",
@@ -44085,7 +43985,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
-      "percent_owned": 69.06,
+      "percent_owned": 69.03,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -44209,7 +44109,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 89.21,
+      "percent_owned": 89.18,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -44328,7 +44228,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 68.48,
+      "percent_owned": 68.74,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -44425,6 +44325,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "RETURNED_FROM_IR:BUF:conor timmins:2026-11-04",
+          "type": "RETURNED_FROM_IR",
+          "team": "BUF",
+          "player": "Conor Timmins",
+          "player_key": "conor timmins",
+          "detected_at": "2026-11-04T22:56:08Z"
+        },
+        {
           "id": "ACTIVE_REMOVED:BUF:dennis gilbert:2026-11-01",
           "type": "ACTIVE_REMOVED",
           "team": "BUF",
@@ -44460,7 +44368,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 66.42,
+      "percent_owned": 66.53,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -44583,7 +44491,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 3.49,
+      "percent_owned": 3.51,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -44710,7 +44618,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 30.79,
+      "percent_owned": 30.88,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -44833,7 +44741,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 9,
-      "percent_owned": 28.32,
+      "percent_owned": 28.26,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -44955,7 +44863,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 15.53,
+      "percent_owned": 15.46,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -45482,7 +45390,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 80.03,
+      "percent_owned": 79.98,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -45693,7 +45601,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 66.56,
+      "percent_owned": 66.19,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -45812,7 +45720,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 45.67,
+      "percent_owned": 45.61,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -45920,7 +45828,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 25.12,
+      "percent_owned": 25.05,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -46067,7 +45975,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 81.65,
+      "percent_owned": 81.67,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -46194,7 +46102,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 9,
-      "percent_owned": 96.5,
+      "percent_owned": 96.51,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -46344,6 +46252,54 @@
     }
   ],
   "recent_roster_events": [
+    {
+      "id": "RETURNED_FROM_IR:BUF:conor timmins:2026-11-04",
+      "type": "RETURNED_FROM_IR",
+      "team": "BUF",
+      "player": "Conor Timmins",
+      "player_key": "conor timmins",
+      "detected_at": "2026-11-04T22:56:08Z"
+    },
+    {
+      "id": "NEW_IR:DET:albert johansson:2026-11-04",
+      "type": "NEW_IR",
+      "team": "DET",
+      "player": "Albert Johansson",
+      "player_key": "albert johansson",
+      "detected_at": "2026-11-04T22:56:08Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:SJS:libor hajek:2026-11-04",
+      "type": "ACTIVE_REMOVED",
+      "team": "SJS",
+      "player": "Libor Hajek",
+      "player_key": "libor hajek",
+      "detected_at": "2026-11-04T22:56:08Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:VGK:jonas rondbjerg:2026-11-04",
+      "type": "ACTIVE_REMOVED",
+      "team": "VGK",
+      "player": "Jonas Rondbjerg",
+      "player_key": "jonas rondbjerg",
+      "detected_at": "2026-11-04T22:56:08Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:VGK:viliam kmec:2026-11-04",
+      "type": "ACTIVE_REMOVED",
+      "team": "VGK",
+      "player": "Viliam Kmec",
+      "player_key": "viliam kmec",
+      "detected_at": "2026-11-04T22:56:08Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:WPG:brad lambert:2026-11-04",
+      "type": "ACTIVE_REMOVED",
+      "team": "WPG",
+      "player": "Brad Lambert",
+      "player_key": "brad lambert",
+      "detected_at": "2026-11-04T22:56:08Z"
+    },
     {
       "id": "ACTIVE_REMOVED:TBL:dominic james:2026-11-04",
       "type": "ACTIVE_REMOVED",
@@ -46695,54 +46651,6 @@
       "player": "John Marino",
       "player_key": "john marino",
       "detected_at": "2026-11-01T16:22:14Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:UTA:michael carcone:2026-11-01",
-      "type": "RETURNED_FROM_IR",
-      "team": "UTA",
-      "player": "Michael Carcone",
-      "player_key": "michael carcone",
-      "detected_at": "2026-11-01T16:22:14Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:WSH:remi poirier:2026-11-01",
-      "type": "ACTIVE_ADDED",
-      "team": "WSH",
-      "player": "Remi Poirier",
-      "player_key": "remi poirier",
-      "detected_at": "2026-11-01T16:22:14Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:WSH:dylan mcilrath:2026-11-01",
-      "type": "ACTIVE_REMOVED",
-      "team": "WSH",
-      "player": "Dylan McIlrath",
-      "player_key": "dylan mcilrath",
-      "detected_at": "2026-11-01T16:22:14Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:STL:quinton burns:2026-10-31",
-      "type": "ACTIVE_REMOVED",
-      "team": "STL",
-      "player": "Quinton Burns",
-      "player_key": "quinton burns",
-      "detected_at": "2026-10-31T21:21:50Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:ANA:laurent brossoit:2026-10-31",
-      "type": "ACTIVE_ADDED",
-      "team": "ANA",
-      "player": "Laurent Brossoit",
-      "player_key": "laurent brossoit",
-      "detected_at": "2026-10-31T19:26:43Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:CBJ:ivan provorov:2026-10-31",
-      "type": "RETURNED_FROM_IR",
-      "team": "CBJ",
-      "player": "Ivan Provorov",
-      "player_key": "ivan provorov",
-      "detected_at": "2026-10-31T18:20:58Z"
     }
   ]
 }

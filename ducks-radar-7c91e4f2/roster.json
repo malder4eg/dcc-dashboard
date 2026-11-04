@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-04 20:38 МСК",
+  "updated": "2026-11-05 01:56 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "17:38:42 11/04/2026",
+  "report_updated": "22:56:08 11/04/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 714,
+  "active_count": 710,
   "ir_count": 75,
   "teams": {
     "ANA": {
@@ -370,6 +370,12 @@
           "position": "C"
         },
         {
+          "sweater": 21,
+          "name": "CONOR TIMMINS",
+          "name_key": "conor timmins",
+          "position": "D"
+        },
+        {
           "sweater": 22,
           "name": "JACK QUINN",
           "name_key": "jack quinn",
@@ -461,13 +467,6 @@
           "name_key": "justin danforth",
           "position": "R",
           "ir_date": "2026-10-29"
-        },
-        {
-          "sweater": 21,
-          "name": "CONOR TIMMINS",
-          "name_key": "conor timmins",
-          "position": "D",
-          "ir_date": "2026-09-28"
         },
         {
           "sweater": 24,
@@ -1421,12 +1420,6 @@
           "position": "C"
         },
         {
-          "sweater": 20,
-          "name": "ALBERT JOHANSSON",
-          "name_key": "albert johansson",
-          "position": "D"
-        },
-        {
           "sweater": 23,
           "name": "LUCAS RAYMOND",
           "name_key": "lucas raymond",
@@ -1536,6 +1529,13 @@
         }
       ],
       "ir": [
+        {
+          "sweater": 20,
+          "name": "ALBERT JOHANSSON",
+          "name_key": "albert johansson",
+          "position": "D",
+          "ir_date": "2026-11-04"
+        },
         {
           "sweater": 22,
           "name": "MASON APPLETON",
@@ -3513,12 +3513,6 @@
           "position": "C"
         },
         {
-          "sweater": 24,
-          "name": "LIBOR HAJEK",
-          "name_key": "libor hajek",
-          "position": "D"
-        },
-        {
           "sweater": 25,
           "name": "DARNELL NURSE",
           "name_key": "darnell nurse",
@@ -4654,12 +4648,6 @@
           "position": "R"
         },
         {
-          "sweater": 46,
-          "name": "JONAS RONDBJERG",
-          "name_key": "jonas rondbjerg",
-          "position": "R"
-        },
-        {
           "sweater": 48,
           "name": "TOMAS HERTL",
           "name_key": "tomas hertl",
@@ -4688,12 +4676,6 @@
           "name": "WILLIAM KARLSSON",
           "name_key": "william karlsson",
           "position": "C"
-        },
-        {
-          "sweater": 74,
-          "name": "VILIAM KMEC",
-          "name_key": "viliam kmec",
-          "position": "D"
         },
         {
           "sweater": 79,
@@ -5011,12 +4993,6 @@
           "name": "COLE PERFETTI",
           "name_key": "cole perfetti",
           "position": "C"
-        },
-        {
-          "sweater": 93,
-          "name": "BRAD LAMBERT",
-          "name_key": "brad lambert",
-          "position": "C"
         }
       ],
       "ir": [
@@ -5038,6 +5014,54 @@
     }
   },
   "events": [
+    {
+      "id": "RETURNED_FROM_IR:BUF:conor timmins:2026-11-04",
+      "type": "RETURNED_FROM_IR",
+      "team": "BUF",
+      "player": "Conor Timmins",
+      "player_key": "conor timmins",
+      "detected_at": "2026-11-04T22:56:08Z"
+    },
+    {
+      "id": "NEW_IR:DET:albert johansson:2026-11-04",
+      "type": "NEW_IR",
+      "team": "DET",
+      "player": "Albert Johansson",
+      "player_key": "albert johansson",
+      "detected_at": "2026-11-04T22:56:08Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:SJS:libor hajek:2026-11-04",
+      "type": "ACTIVE_REMOVED",
+      "team": "SJS",
+      "player": "Libor Hajek",
+      "player_key": "libor hajek",
+      "detected_at": "2026-11-04T22:56:08Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:VGK:jonas rondbjerg:2026-11-04",
+      "type": "ACTIVE_REMOVED",
+      "team": "VGK",
+      "player": "Jonas Rondbjerg",
+      "player_key": "jonas rondbjerg",
+      "detected_at": "2026-11-04T22:56:08Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:VGK:viliam kmec:2026-11-04",
+      "type": "ACTIVE_REMOVED",
+      "team": "VGK",
+      "player": "Viliam Kmec",
+      "player_key": "viliam kmec",
+      "detected_at": "2026-11-04T22:56:08Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:WPG:brad lambert:2026-11-04",
+      "type": "ACTIVE_REMOVED",
+      "team": "WPG",
+      "player": "Brad Lambert",
+      "player_key": "brad lambert",
+      "detected_at": "2026-11-04T22:56:08Z"
+    },
     {
       "id": "ACTIVE_REMOVED:TBL:dominic james:2026-11-04",
       "type": "ACTIVE_REMOVED",
@@ -5789,94 +5813,6 @@
       "player": "Kirill Marchenko",
       "player_key": "kirill marchenko",
       "detected_at": "2026-10-29T14:40:45Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:TOR:dakota joshua:2026-10-28",
-      "type": "ACTIVE_ADDED",
-      "team": "TOR",
-      "player": "Dakota Joshua",
-      "player_key": "dakota joshua",
-      "detected_at": "2026-10-28T21:24:41Z"
-    },
-    {
-      "id": "NEW_IR:EDM:zach hyman:2026-10-28",
-      "type": "NEW_IR",
-      "team": "EDM",
-      "player": "Zach Hyman",
-      "player_key": "zach hyman",
-      "detected_at": "2026-10-28T20:26:16Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:EDM:jason dickinson:2026-10-28",
-      "type": "RETURNED_FROM_IR",
-      "team": "EDM",
-      "player": "Jason Dickinson",
-      "player_key": "jason dickinson",
-      "detected_at": "2026-10-28T20:26:16Z"
-    },
-    {
-      "id": "NEW_IR:PIT:elmer soderblom:2026-10-28",
-      "type": "NEW_IR",
-      "team": "PIT",
-      "player": "Elmer Soderblom",
-      "player_key": "elmer soderblom",
-      "detected_at": "2026-10-28T20:26:16Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:PIT:justin brazeau:2026-10-28",
-      "type": "RETURNED_FROM_IR",
-      "team": "PIT",
-      "player": "Justin Brazeau",
-      "player_key": "justin brazeau",
-      "detected_at": "2026-10-28T20:26:16Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:PIT:avery hayes:2026-10-28",
-      "type": "ACTIVE_REMOVED",
-      "team": "PIT",
-      "player": "Avery Hayes",
-      "player_key": "avery hayes",
-      "detected_at": "2026-10-28T20:26:16Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:PIT:chase pietila:2026-10-28",
-      "type": "ACTIVE_REMOVED",
-      "team": "PIT",
-      "player": "Chase Pietila",
-      "player_key": "chase pietila",
-      "detected_at": "2026-10-28T20:26:16Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:DAL:dylan hryckowian:2026-10-28",
-      "type": "ACTIVE_REMOVED",
-      "team": "DAL",
-      "player": "Dylan Hryckowian",
-      "player_key": "dylan hryckowian",
-      "detected_at": "2026-10-28T19:33:36Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:SJS:libor hajek:2026-10-28",
-      "type": "ACTIVE_ADDED",
-      "team": "SJS",
-      "player": "Libor Hajek",
-      "player_key": "libor hajek",
-      "detected_at": "2026-10-28T19:33:36Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:SJS:filip bystedt:2026-10-28",
-      "type": "ACTIVE_ADDED",
-      "team": "SJS",
-      "player": "Filip Bystedt",
-      "player_key": "filip bystedt",
-      "detected_at": "2026-10-28T18:25:38Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:SJS:luca cagnoni:2026-10-28",
-      "type": "ACTIVE_REMOVED",
-      "team": "SJS",
-      "player": "Luca Cagnoni",
-      "player_key": "luca cagnoni",
-      "detected_at": "2026-10-28T18:25:38Z"
     }
   ]
 }
