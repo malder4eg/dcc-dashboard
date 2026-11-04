@@ -2,12 +2,13 @@ name: DCC daily fantasy impact
 
 on:
   schedule:
-    # GitHub scheduled workflows may start late (e.g. 50 minutes on Nov 3).
-    # Retry the same Moscow-yesterday game date at 08:12, 08:42 and 09:12 MSK (UTC+3).
-    # Early incomplete snapshots will be recomputed as NHL games become final.
-    # Keep all three away from minute 0 to reduce GitHub Actions scheduler congestion.
-    - cron: "12,42 5 * * *"
-    - cron: "12 6 * * *"
+    # The DCC briefing now runs at 08:30 Moscow. GitHub schedules may be
+    # delayed, so start early and retry; retain later runs as fallback.
+    # Moscow is UTC+3 year round. Some west-coast NHL games may still be live:
+    # daily_impact.py marks incomplete scores, do not assume full coverage.
+    - cron: "12,42 4 * * *"  # 07:12 and 07:42 MSK
+    - cron: "12,42 5 * * *"  # 08:12 and 08:42 MSK
+    - cron: "12 6 * * *"     # 09:12 MSK fallback
   workflow_dispatch:
   push:
     branches: [main]
