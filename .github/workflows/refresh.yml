@@ -2,8 +2,9 @@ name: Refresh DCC table
 
 on:
   schedule:
-    # Every hour at :54
-    - cron: "54 * * * *"
+    # Two staggered checks per hour. GitHub scheduled workflows can be
+    # delayed or occasionally dropped; only real data changes are committed.
+    - cron: "13,43 * * * *"
 
   push:
     branches:
