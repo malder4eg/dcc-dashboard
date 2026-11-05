@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
   "game_date": "2026-11-04",
-  "generated_at": "2026-11-05T05:07:54Z",
-  "updated": "2026-11-05 08:07 МСК",
+  "generated_at": "2026-11-05T06:04:16Z",
+  "updated": "2026-11-05 09:04 МСК",
   "complete": false,
-  "history_updated": "2026-11-05 08:07 МСК",
+  "history_updated": "2026-11-05 09:04 МСК",
   "mapping_updated": "2026-11-05 08:07 МСК",
   "espn_updated": "2026-11-05 06:51 МСК",
   "source": {
@@ -63,18 +63,30 @@
   },
   "coverage": {
     "scheduled_games": 4,
-    "final_games": 2,
-    "pending_games": 2,
-    "pending_game_ids": [
-      2026020249,
-      2026020250
-    ],
+    "final_games": 4,
+    "pending_games": 0,
+    "pending_game_ids": [],
     "skaters_ranked": 72,
     "final_game_skaters": {
       "2026020247": 36,
-      "2026020248": 36
+      "2026020248": 36,
+      "2026020249": 0,
+      "2026020250": 0
     },
-    "incomplete_final_games": [],
+    "incomplete_final_games": [
+      {
+        "game_id": 2026020249,
+        "skaters_found": 0,
+        "home": "LAK",
+        "away": "SJS"
+      },
+      {
+        "game_id": 2026020250,
+        "skaters_found": 0,
+        "home": "SEA",
+        "away": "CGY"
+      }
+    ],
     "nhl_mapping_coverage": {
       "mapped": 641,
       "unmatched": 106,
@@ -142,7 +154,7 @@
       "position": "L",
       "game_id": 2026020248,
       "game_date": "2026-11-04",
-      "impact_score": 12.21,
+      "impact_score": 12.208,
       "category_impact": {
         "g": 3.0,
         "a": 2.0,
@@ -151,7 +163,7 @@
         "ppp": 0.0,
         "shp": 0.0,
         "fow": 0.0,
-        "toi": 0.61,
+        "toi": 0.608,
         "sog": 0.667,
         "hit": 0.333,
         "blk": 0.0
@@ -165,15 +177,15 @@
         "ppp": 0,
         "shp": 0,
         "fow": null,
-        "toi": 814,
+        "toi": 812,
         "sog": 2,
         "hit": 1,
         "blk": 0,
-        "ev_toi": 814,
+        "ev_toi": 812,
         "pp_toi": 0,
         "sh_toi": 0,
         "fo": 0,
-        "shifts": 18
+        "shifts": 17
       },
       "espn_player_id": 5103599,
       "availability": "ONTEAM",
@@ -288,7 +300,7 @@
       "position": "L",
       "game_id": 2026020248,
       "game_date": "2026-11-04",
-      "impact_score": 12.21,
+      "impact_score": 12.208,
       "category_impact": {
         "g": 3.0,
         "a": 2.0,
@@ -297,7 +309,7 @@
         "ppp": 0.0,
         "shp": 0.0,
         "fow": 0.0,
-        "toi": 0.61,
+        "toi": 0.608,
         "sog": 0.667,
         "hit": 0.333,
         "blk": 0.0
@@ -311,15 +323,15 @@
         "ppp": 0,
         "shp": 0,
         "fow": null,
-        "toi": 814,
+        "toi": 812,
         "sog": 2,
         "hit": 1,
         "blk": 0,
-        "ev_toi": 814,
+        "ev_toi": 812,
         "pp_toi": 0,
         "sh_toi": 0,
         "fo": 0,
-        "shifts": 18
+        "shifts": 17
       },
       "espn_player_id": 5103599,
       "availability": "ONTEAM",
@@ -1688,7 +1700,7 @@
       "position": "L",
       "game_id": 2026020248,
       "game_date": "2026-11-04",
-      "impact_score": 12.21,
+      "impact_score": 12.208,
       "category_impact": {
         "g": 3.0,
         "a": 2.0,
@@ -1697,7 +1709,7 @@
         "ppp": 0.0,
         "shp": 0.0,
         "fow": 0.0,
-        "toi": 0.61,
+        "toi": 0.608,
         "sog": 0.667,
         "hit": 0.333,
         "blk": 0.0
@@ -1711,15 +1723,15 @@
         "ppp": 0,
         "shp": 0,
         "fow": null,
-        "toi": 814,
+        "toi": 812,
         "sog": 2,
         "hit": 1,
         "blk": 0,
-        "ev_toi": 814,
+        "ev_toi": 812,
         "pp_toi": 0,
         "sh_toi": 0,
         "fo": 0,
-        "shifts": 18
+        "shifts": 17
       },
       "espn_player_id": 5103599,
       "availability": "ONTEAM",
@@ -3896,7 +3908,7 @@
       "position": "C",
       "game_id": 2026020248,
       "game_date": "2026-11-04",
-      "impact_score": 1.958,
+      "impact_score": 1.96,
       "category_impact": {
         "g": 0.0,
         "a": 0.0,
@@ -3905,7 +3917,7 @@
         "ppp": 0.0,
         "shp": 0.0,
         "fow": 0.5,
-        "toi": 0.825,
+        "toi": 0.827,
         "sog": 0.333,
         "hit": 0.0,
         "blk": 0.5
@@ -3919,15 +3931,15 @@
         "ppp": 0,
         "shp": 0,
         "fow": 3,
-        "toi": 1102,
+        "toi": 1104,
         "sog": 1,
         "hit": 0,
         "blk": 1,
-        "ev_toi": 880,
+        "ev_toi": 882,
         "pp_toi": 26,
         "sh_toi": 196,
         "fo": 5,
-        "shifts": 24
+        "shifts": 23
       },
       "espn_player_id": 3946,
       "availability": "ONTEAM",
