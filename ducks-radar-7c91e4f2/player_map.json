@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-05 06:51 МСК",
+  "updated": "2026-11-05 08:07 МСК",
   "method": "Exact normalized full name with NHL/ESPN team and position validation; no surname-only fuzzy joins.",
   "mapped": [
     {
@@ -8587,6 +8587,11 @@
       "filtered_count": 0
     },
     {
+      "nhl_player_id": 8478104,
+      "name": "Samuel Blais",
+      "reason": "no_exact_name"
+    },
+    {
       "nhl_player_id": 8478136,
       "name": "Jacob Middleton",
       "reason": "no_exact_name"
@@ -9054,7 +9059,7 @@
   ],
   "coverage": {
     "mapped": 641,
-    "unmatched": 105,
-    "ratio": 0.8592
+    "unmatched": 106,
+    "ratio": 0.8581
   }
 }
