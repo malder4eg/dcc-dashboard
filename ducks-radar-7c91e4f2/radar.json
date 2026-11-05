@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-05 13:04 МСК",
-  "generated_at": "2026-11-05T10:04:05Z",
+  "updated": "2026-11-05 20:59 МСК",
+  "generated_at": "2026-11-05T17:59:22Z",
   "source": {
     "nhl_stats": "https://api.nhle.com/stats/rest/en/",
     "nhl_game_status": "https://api-web.nhle.com/v1/",
@@ -11,9 +11,9 @@
   "complete": true,
   "latest_final_game_date": "2026-11-04",
   "mapping_coverage": {
-    "mapped": 641,
-    "unmatched": 108,
-    "ratio": 0.8558
+    "mapped": 642,
+    "unmatched": 107,
+    "ratio": 0.8571
   },
   "signal_method": {
     "baseline": "Previous 3-5 finalized games",
@@ -21,7 +21,7 @@
     "note": "Thresholds are screening triggers, not proof of a permanent role change. Line combinations are not inferred from NHL API TOI."
   },
   "counts": {
-    "signals_all": 340,
+    "signals_all": 339,
     "signals_available": 83,
     "add_candidates": 1,
     "watch": 82,
@@ -37,7 +37,7 @@
       "position": "L",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.16,
+      "percent_owned": 0.17,
       "nhl_roster_status": "ACTIVE",
       "score": 73,
       "reliability": "HIGH",
@@ -152,6 +152,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:DET:michal postava:2026-11-05",
+          "type": "ACTIVE_ADDED",
+          "team": "DET",
+          "player": "Michal Postava",
+          "player_key": "michal postava",
+          "detected_at": "2026-11-05T17:59:22Z"
+        },
+        {
           "id": "NEW_IR:DET:albert johansson:2026-11-04",
           "type": "NEW_IR",
           "team": "DET",
@@ -189,14 +197,6 @@
           "team": "DET",
           "player": "Sheldon Dries",
           "player_key": "sheldon dries",
-          "detected_at": "2026-10-29T21:25:59Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DET:dylan larkin:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "DET",
-          "player": "Dylan Larkin",
-          "player_key": "dylan larkin",
           "detected_at": "2026-10-29T21:25:59Z"
         }
       ],
@@ -351,22 +351,6 @@
           "player": "Taylor Ward",
           "player_key": "taylor ward",
           "detected_at": "2026-11-03T15:30:39Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:LAK:martin chromiak:2026-10-29",
-          "type": "ACTIVE_ADDED",
-          "team": "LAK",
-          "player": "Martin Chromiak",
-          "player_key": "martin chromiak",
-          "detected_at": "2026-10-29T17:33:53Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:LAK:jared wright:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "LAK",
-          "player": "Jared Wright",
-          "player_key": "jared wright",
-          "detected_at": "2026-10-29T17:33:53Z"
         }
       ],
       "latest_final_game_date": "2026-11-04",
@@ -380,7 +364,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 1.04,
+      "percent_owned": 1.11,
       "nhl_roster_status": "ACTIVE",
       "score": 96,
       "reliability": "HIGH",
@@ -683,7 +667,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 99.57,
+      "percent_owned": 99.58,
       "nhl_roster_status": "ACTIVE",
       "score": 89,
       "reliability": "HIGH",
@@ -862,7 +846,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
-      "percent_owned": 11.44,
+      "percent_owned": 11.45,
       "nhl_roster_status": "ACTIVE",
       "score": 88,
       "reliability": "HIGH",
@@ -1010,7 +994,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 52.91,
+      "percent_owned": 52.92,
       "nhl_roster_status": "ACTIVE",
       "score": 73,
       "reliability": "HIGH",
@@ -1161,7 +1145,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 9,
-      "percent_owned": 6.96,
+      "percent_owned": 6.94,
       "nhl_roster_status": "ACTIVE",
       "score": 70,
       "reliability": "HIGH",
@@ -1346,9 +1330,9 @@
         },
         "sog": {
           "baseline": 0.8,
-          "recent": 6.0,
-          "delta": 5.2,
-          "ratio": 7.5
+          "recent": 5.5,
+          "delta": 4.7,
+          "ratio": 6.875
         },
         "hit": {
           "baseline": 1.0,
@@ -1412,22 +1396,6 @@
           "player": "Taylor Ward",
           "player_key": "taylor ward",
           "detected_at": "2026-11-03T15:30:39Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:LAK:martin chromiak:2026-10-29",
-          "type": "ACTIVE_ADDED",
-          "team": "LAK",
-          "player": "Martin Chromiak",
-          "player_key": "martin chromiak",
-          "detected_at": "2026-10-29T17:33:53Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:LAK:jared wright:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "LAK",
-          "player": "Jared Wright",
-          "player_key": "jared wright",
-          "detected_at": "2026-10-29T17:33:53Z"
         }
       ],
       "latest_final_game_date": "2026-11-04",
@@ -1569,7 +1537,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 65.13,
+      "percent_owned": 65.72,
       "nhl_roster_status": "ACTIVE",
       "score": 59,
       "reliability": "HIGH",
@@ -1682,6 +1650,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:DET:michal postava:2026-11-05",
+          "type": "ACTIVE_ADDED",
+          "team": "DET",
+          "player": "Michal Postava",
+          "player_key": "michal postava",
+          "detected_at": "2026-11-05T17:59:22Z"
+        },
+        {
           "id": "NEW_IR:DET:albert johansson:2026-11-04",
           "type": "NEW_IR",
           "team": "DET",
@@ -1720,14 +1696,6 @@
           "player": "Sheldon Dries",
           "player_key": "sheldon dries",
           "detected_at": "2026-10-29T21:25:59Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DET:dylan larkin:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "DET",
-          "player": "Dylan Larkin",
-          "player_key": "dylan larkin",
-          "detected_at": "2026-10-29T21:25:59Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -1741,7 +1709,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 18,
-      "percent_owned": 98.98,
+      "percent_owned": 99.01,
       "nhl_roster_status": "ACTIVE",
       "score": 56,
       "reliability": "HIGH",
@@ -2023,22 +1991,6 @@
           "player": "Taylor Ward",
           "player_key": "taylor ward",
           "detected_at": "2026-11-03T15:30:39Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:LAK:martin chromiak:2026-10-29",
-          "type": "ACTIVE_ADDED",
-          "team": "LAK",
-          "player": "Martin Chromiak",
-          "player_key": "martin chromiak",
-          "detected_at": "2026-10-29T17:33:53Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:LAK:jared wright:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "LAK",
-          "player": "Jared Wright",
-          "player_key": "jared wright",
-          "detected_at": "2026-10-29T17:33:53Z"
         }
       ],
       "latest_final_game_date": "2026-11-04",
@@ -2052,7 +2004,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 93.24,
+      "percent_owned": 93.32,
       "nhl_roster_status": "ACTIVE",
       "score": 56,
       "reliability": "HIGH",
@@ -2208,7 +2160,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 81.17,
+      "percent_owned": 81.39,
       "nhl_roster_status": "ACTIVE",
       "score": 56,
       "reliability": "HIGH",
@@ -2382,7 +2334,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 15.44,
+      "percent_owned": 15.77,
       "nhl_roster_status": "ACTIVE",
       "score": 56,
       "reliability": "HIGH",
@@ -2538,7 +2490,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 18,
-      "percent_owned": 44.34,
+      "percent_owned": 44.52,
       "nhl_roster_status": "ACTIVE",
       "score": 55,
       "reliability": "HIGH",
@@ -2777,14 +2729,6 @@
           "player": "Hunter McDonald",
           "player_key": "hunter mcdonald",
           "detected_at": "2026-10-31T18:20:58Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:PHI:jacob gaucher:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "PHI",
-          "player": "Jacob Gaucher",
-          "player_key": "jacob gaucher",
-          "detected_at": "2026-10-29T14:40:45Z"
         }
       ],
       "latest_final_game_date": "2026-10-28",
@@ -2798,7 +2742,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 30.48,
+      "percent_owned": 30.39,
       "nhl_roster_status": "ACTIVE",
       "score": 55,
       "reliability": "HIGH",
@@ -2915,14 +2859,6 @@
           "player": "Chris Tanev",
           "player_key": "chris tanev",
           "detected_at": "2026-10-31T15:19:36Z"
-        },
-        {
-          "id": "NEW_IR:TOR:kirill marchenko:2026-10-29",
-          "type": "NEW_IR",
-          "team": "TOR",
-          "player": "Kirill Marchenko",
-          "player_key": "kirill marchenko",
-          "detected_at": "2026-10-29T14:40:45Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -3322,7 +3258,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 9,
-      "percent_owned": 3.5,
+      "percent_owned": 3.49,
       "nhl_roster_status": "ACTIVE",
       "score": 55,
       "reliability": "HIGH",
@@ -3443,7 +3379,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 98.49,
+      "percent_owned": 98.51,
       "nhl_roster_status": "ACTIVE",
       "score": 54,
       "reliability": "HIGH",
@@ -3611,7 +3547,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 94.72,
+      "percent_owned": 94.68,
       "nhl_roster_status": "ACTIVE",
       "score": 53,
       "reliability": "HIGH",
@@ -3767,7 +3703,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 90.94,
+      "percent_owned": 91.07,
       "nhl_roster_status": "ACTIVE",
       "score": 51,
       "reliability": "HIGH",
@@ -3935,7 +3871,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 92.97,
+      "percent_owned": 93.07,
       "nhl_roster_status": "ACTIVE",
       "score": 49,
       "reliability": "HIGH",
@@ -4104,7 +4040,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 62.02,
+      "percent_owned": 62.6,
       "nhl_roster_status": "ACTIVE",
       "score": 49,
       "reliability": "HIGH",
@@ -4277,7 +4213,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 9.19,
+      "percent_owned": 9.16,
       "nhl_roster_status": "ACTIVE",
       "score": 48,
       "reliability": "HIGH",
@@ -4524,22 +4460,6 @@
           "player": "Taylor Ward",
           "player_key": "taylor ward",
           "detected_at": "2026-11-03T15:30:39Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:LAK:martin chromiak:2026-10-29",
-          "type": "ACTIVE_ADDED",
-          "team": "LAK",
-          "player": "Martin Chromiak",
-          "player_key": "martin chromiak",
-          "detected_at": "2026-10-29T17:33:53Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:LAK:jared wright:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "LAK",
-          "player": "Jared Wright",
-          "player_key": "jared wright",
-          "detected_at": "2026-10-29T17:33:53Z"
         }
       ],
       "latest_final_game_date": "2026-11-04",
@@ -4671,7 +4591,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 0.9,
+      "percent_owned": 0.91,
       "nhl_roster_status": "ACTIVE",
       "score": 46,
       "reliability": "HIGH",
@@ -4804,7 +4724,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 88.12,
+      "percent_owned": 88.26,
       "nhl_roster_status": "ACTIVE",
       "score": 46,
       "reliability": "HIGH",
@@ -5213,7 +5133,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 18,
-      "percent_owned": 1.39,
+      "percent_owned": 1.4,
       "nhl_roster_status": "ACTIVE",
       "score": 45,
       "reliability": "HIGH",
@@ -5314,6 +5234,14 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "NEW_IR:NYR:sean durzi:2026-11-05",
+          "type": "NEW_IR",
+          "team": "NYR",
+          "player": "Sean Durzi",
+          "player_key": "sean durzi",
+          "detected_at": "2026-11-05T17:59:22Z"
+        },
         {
           "id": "ACTIVE_ADDED:NYR:jaroslav chmelar:2026-11-03",
           "type": "ACTIVE_ADDED",
@@ -5472,14 +5400,6 @@
           "player": "Chris Tanev",
           "player_key": "chris tanev",
           "detected_at": "2026-10-31T15:19:36Z"
-        },
-        {
-          "id": "NEW_IR:TOR:kirill marchenko:2026-10-29",
-          "type": "NEW_IR",
-          "team": "TOR",
-          "player": "Kirill Marchenko",
-          "player_key": "kirill marchenko",
-          "detected_at": "2026-10-29T14:40:45Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -5493,7 +5413,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 79.99,
+      "percent_owned": 80.1,
       "nhl_roster_status": "ACTIVE",
       "score": 45,
       "reliability": "HIGH",
@@ -5602,6 +5522,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "NEW_IR:NYR:sean durzi:2026-11-05",
+          "type": "NEW_IR",
+          "team": "NYR",
+          "player": "Sean Durzi",
+          "player_key": "sean durzi",
+          "detected_at": "2026-11-05T17:59:22Z"
+        },
+        {
           "id": "ACTIVE_ADDED:NYR:jaroslav chmelar:2026-11-03",
           "type": "ACTIVE_ADDED",
           "team": "NYR",
@@ -5637,7 +5565,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.35,
+      "percent_owned": 0.36,
       "nhl_roster_status": "ACTIVE",
       "score": 45,
       "reliability": "HIGH",
@@ -5878,14 +5806,6 @@
           "player": "Matthew Seminoff",
           "player_key": "matthew seminoff",
           "detected_at": "2026-10-30T15:36:28Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:DAL:trey taylor:2026-10-29",
-          "type": "ACTIVE_ADDED",
-          "team": "DAL",
-          "player": "Trey Taylor",
-          "player_key": "trey taylor",
-          "detected_at": "2026-10-29T14:40:45Z"
         }
       ],
       "latest_final_game_date": "2026-10-27",
@@ -5899,7 +5819,7 @@
       "position": "C",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.45,
+      "percent_owned": 0.44,
       "nhl_roster_status": "ACTIVE",
       "score": 45,
       "reliability": "HIGH",
@@ -6052,7 +5972,7 @@
       "position": "L",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.23,
+      "percent_owned": 0.22,
       "nhl_roster_status": "UNKNOWN",
       "score": 45,
       "reliability": "MEDIUM",
@@ -6173,7 +6093,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 96.85,
+      "percent_owned": 96.91,
       "nhl_roster_status": "ACTIVE",
       "score": 43,
       "reliability": "HIGH",
@@ -6277,6 +6197,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "NEW_IR:NYR:sean durzi:2026-11-05",
+          "type": "NEW_IR",
+          "team": "NYR",
+          "player": "Sean Durzi",
+          "player_key": "sean durzi",
+          "detected_at": "2026-11-05T17:59:22Z"
+        },
+        {
           "id": "ACTIVE_ADDED:NYR:jaroslav chmelar:2026-11-03",
           "type": "ACTIVE_ADDED",
           "team": "NYR",
@@ -6312,7 +6240,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 12.84,
+      "percent_owned": 12.69,
       "nhl_roster_status": "ACTIVE",
       "score": 43,
       "reliability": "HIGH",
@@ -6520,9 +6448,9 @@
         },
         "pts": {
           "baseline": 1.2,
-          "recent": 0.0,
-          "delta": -1.2,
-          "ratio": 0.0
+          "recent": 0.5,
+          "delta": -0.7,
+          "ratio": 0.417
         },
         "ppp": {
           "baseline": 0.2,
@@ -6556,22 +6484,6 @@
           "player": "Taylor Ward",
           "player_key": "taylor ward",
           "detected_at": "2026-11-03T15:30:39Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:LAK:martin chromiak:2026-10-29",
-          "type": "ACTIVE_ADDED",
-          "team": "LAK",
-          "player": "Martin Chromiak",
-          "player_key": "martin chromiak",
-          "detected_at": "2026-10-29T17:33:53Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:LAK:jared wright:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "LAK",
-          "player": "Jared Wright",
-          "player_key": "jared wright",
-          "detected_at": "2026-10-29T17:33:53Z"
         }
       ],
       "latest_final_game_date": "2026-11-04",
@@ -6585,7 +6497,7 @@
       "position": "R",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 32.88,
+      "percent_owned": 32.92,
       "nhl_roster_status": "ACTIVE",
       "score": 43,
       "reliability": "HIGH",
@@ -6692,6 +6604,14 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "NEW_IR:NYR:sean durzi:2026-11-05",
+          "type": "NEW_IR",
+          "team": "NYR",
+          "player": "Sean Durzi",
+          "player_key": "sean durzi",
+          "detected_at": "2026-11-05T17:59:22Z"
+        },
         {
           "id": "ACTIVE_ADDED:NYR:jaroslav chmelar:2026-11-03",
           "type": "ACTIVE_ADDED",
@@ -6851,22 +6771,6 @@
           "player": "Taylor Ward",
           "player_key": "taylor ward",
           "detected_at": "2026-11-03T15:30:39Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:LAK:martin chromiak:2026-10-29",
-          "type": "ACTIVE_ADDED",
-          "team": "LAK",
-          "player": "Martin Chromiak",
-          "player_key": "martin chromiak",
-          "detected_at": "2026-10-29T17:33:53Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:LAK:jared wright:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "LAK",
-          "player": "Jared Wright",
-          "player_key": "jared wright",
-          "detected_at": "2026-10-29T17:33:53Z"
         }
       ],
       "latest_final_game_date": "2026-11-04",
@@ -6880,7 +6784,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 3.89,
+      "percent_owned": 3.9,
       "nhl_roster_status": "ACTIVE",
       "score": 43,
       "reliability": "HIGH",
@@ -7008,7 +6912,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 99.89,
+      "percent_owned": 99.9,
       "nhl_roster_status": "ACTIVE",
       "score": 43,
       "reliability": "HIGH",
@@ -7159,7 +7063,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 86.88,
+      "percent_owned": 86.83,
       "nhl_roster_status": "ACTIVE",
       "score": 43,
       "reliability": "HIGH",
@@ -7320,7 +7224,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 9,
-      "percent_owned": 61.5,
+      "percent_owned": 61.39,
       "nhl_roster_status": "ACTIVE",
       "score": 43,
       "reliability": "HIGH",
@@ -7479,7 +7383,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 4.83,
+      "percent_owned": 4.81,
       "nhl_roster_status": "ACTIVE",
       "score": 43,
       "reliability": "HIGH",
@@ -7761,22 +7665,6 @@
           "player": "Taylor Ward",
           "player_key": "taylor ward",
           "detected_at": "2026-11-03T15:30:39Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:LAK:martin chromiak:2026-10-29",
-          "type": "ACTIVE_ADDED",
-          "team": "LAK",
-          "player": "Martin Chromiak",
-          "player_key": "martin chromiak",
-          "detected_at": "2026-10-29T17:33:53Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:LAK:jared wright:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "LAK",
-          "player": "Jared Wright",
-          "player_key": "jared wright",
-          "detected_at": "2026-10-29T17:33:53Z"
         }
       ],
       "latest_final_game_date": "2026-11-04",
@@ -7912,22 +7800,6 @@
           "player": "Taylor Ward",
           "player_key": "taylor ward",
           "detected_at": "2026-11-03T15:30:39Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:LAK:martin chromiak:2026-10-29",
-          "type": "ACTIVE_ADDED",
-          "team": "LAK",
-          "player": "Martin Chromiak",
-          "player_key": "martin chromiak",
-          "detected_at": "2026-10-29T17:33:53Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:LAK:jared wright:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "LAK",
-          "player": "Jared Wright",
-          "player_key": "jared wright",
-          "detected_at": "2026-10-29T17:33:53Z"
         }
       ],
       "latest_final_game_date": "2026-11-04",
@@ -7941,7 +7813,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 85.28,
+      "percent_owned": 85.44,
       "nhl_roster_status": "ACTIVE",
       "score": 41,
       "reliability": "HIGH",
@@ -8108,7 +7980,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 95.64,
+      "percent_owned": 95.82,
       "nhl_roster_status": "ACTIVE",
       "score": 41,
       "reliability": "HIGH",
@@ -8275,7 +8147,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
-      "percent_owned": 97.95,
+      "percent_owned": 97.98,
       "nhl_roster_status": "ACTIVE",
       "score": 41,
       "reliability": "HIGH",
@@ -8393,7 +8265,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 77.52,
+      "percent_owned": 77.57,
       "nhl_roster_status": "ACTIVE",
       "score": 41,
       "reliability": "HIGH",
@@ -8511,7 +8383,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 76.82,
+      "percent_owned": 77.08,
       "nhl_roster_status": "ACTIVE",
       "score": 41,
       "reliability": "HIGH",
@@ -8784,7 +8656,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 7.19,
+      "percent_owned": 7.16,
       "nhl_roster_status": "ACTIVE",
       "score": 40,
       "reliability": "HIGH",
@@ -8926,7 +8798,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 95.69,
+      "percent_owned": 95.75,
       "nhl_roster_status": "ACTIVE",
       "score": 40,
       "reliability": "HIGH",
@@ -9177,7 +9049,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 18,
-      "percent_owned": 54.48,
+      "percent_owned": 54.99,
       "nhl_roster_status": "ACTIVE",
       "score": 40,
       "reliability": "HIGH",
@@ -9302,14 +9174,6 @@
           "player": "Chris Tanev",
           "player_key": "chris tanev",
           "detected_at": "2026-10-31T15:19:36Z"
-        },
-        {
-          "id": "NEW_IR:TOR:kirill marchenko:2026-10-29",
-          "type": "NEW_IR",
-          "team": "TOR",
-          "player": "Kirill Marchenko",
-          "player_key": "kirill marchenko",
-          "detected_at": "2026-10-29T14:40:45Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -9323,7 +9187,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 6.48,
+      "percent_owned": 6.54,
       "nhl_roster_status": "ACTIVE",
       "score": 40,
       "reliability": "HIGH",
@@ -9464,14 +9328,6 @@
           "player": "Cameron Crotty",
           "player_key": "cameron crotty",
           "detected_at": "2026-10-29T18:28:12Z"
-        },
-        {
-          "id": "NEW_IR:MIN:jared spurgeon:2026-10-29",
-          "type": "NEW_IR",
-          "team": "MIN",
-          "player": "Jared Spurgeon",
-          "player_key": "jared spurgeon",
-          "detected_at": "2026-10-29T17:33:53Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -9612,7 +9468,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 8.62,
+      "percent_owned": 8.75,
       "nhl_roster_status": "ACTIVE",
       "score": 37,
       "reliability": "HIGH",
@@ -9743,7 +9599,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 18,
-      "percent_owned": 95.74,
+      "percent_owned": 95.77,
       "nhl_roster_status": "ACTIVE",
       "score": 35,
       "reliability": "HIGH",
@@ -9889,7 +9745,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 60.0,
+      "percent_owned": 60.42,
       "nhl_roster_status": "ACTIVE",
       "score": 35,
       "reliability": "HIGH",
@@ -10035,7 +9891,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 18,
-      "percent_owned": 1.13,
+      "percent_owned": 1.12,
       "nhl_roster_status": "ACTIVE",
       "score": 35,
       "reliability": "HIGH",
@@ -10567,22 +10423,6 @@
           "player": "Taylor Ward",
           "player_key": "taylor ward",
           "detected_at": "2026-11-03T15:30:39Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:LAK:martin chromiak:2026-10-29",
-          "type": "ACTIVE_ADDED",
-          "team": "LAK",
-          "player": "Martin Chromiak",
-          "player_key": "martin chromiak",
-          "detected_at": "2026-10-29T17:33:53Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:LAK:jared wright:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "LAK",
-          "player": "Jared Wright",
-          "player_key": "jared wright",
-          "detected_at": "2026-10-29T17:33:53Z"
         }
       ],
       "latest_final_game_date": "2026-11-04",
@@ -10596,7 +10436,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 12.66,
+      "percent_owned": 13.77,
       "nhl_roster_status": "ACTIVE",
       "score": 33,
       "reliability": "HIGH",
@@ -10707,7 +10547,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 99.5,
+      "percent_owned": 99.52,
       "nhl_roster_status": "ACTIVE",
       "score": 33,
       "reliability": "HIGH",
@@ -11227,7 +11067,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 1.27,
+      "percent_owned": 1.28,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -11373,14 +11213,6 @@
           "player": "Cameron Crotty",
           "player_key": "cameron crotty",
           "detected_at": "2026-10-29T18:28:12Z"
-        },
-        {
-          "id": "NEW_IR:MIN:jared spurgeon:2026-10-29",
-          "type": "NEW_IR",
-          "team": "MIN",
-          "player": "Jared Spurgeon",
-          "player_key": "jared spurgeon",
-          "detected_at": "2026-10-29T17:33:53Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -11511,22 +11343,6 @@
           "player": "Taylor Ward",
           "player_key": "taylor ward",
           "detected_at": "2026-11-03T15:30:39Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:LAK:martin chromiak:2026-10-29",
-          "type": "ACTIVE_ADDED",
-          "team": "LAK",
-          "player": "Martin Chromiak",
-          "player_key": "martin chromiak",
-          "detected_at": "2026-10-29T17:33:53Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:LAK:jared wright:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "LAK",
-          "player": "Jared Wright",
-          "player_key": "jared wright",
-          "detected_at": "2026-10-29T17:33:53Z"
         }
       ],
       "latest_final_game_date": "2026-11-04",
@@ -11540,7 +11356,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 46.31,
+      "percent_owned": 47.11,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -11909,7 +11725,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 95.4,
+      "percent_owned": 95.42,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -12179,7 +11995,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 92.74,
+      "percent_owned": 92.9,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -12453,7 +12269,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 8.43,
+      "percent_owned": 8.73,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -12566,7 +12382,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 7.44,
+      "percent_owned": 7.53,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -12708,7 +12524,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 99.6,
+      "percent_owned": 99.62,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -12843,7 +12659,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 98.1,
+      "percent_owned": 98.14,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -12988,7 +12804,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 9,
-      "percent_owned": 22.52,
+      "percent_owned": 22.39,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -13232,7 +13048,7 @@
       "position": "R",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.56,
+      "percent_owned": 0.55,
       "nhl_roster_status": "ACTIVE",
       "score": 30,
       "reliability": "HIGH",
@@ -13361,7 +13177,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.35,
+      "percent_owned": 0.36,
       "nhl_roster_status": "ACTIVE",
       "score": 28,
       "reliability": "HIGH",
@@ -13464,6 +13280,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:WPG:brayden yager:2026-11-05",
+          "type": "ACTIVE_ADDED",
+          "team": "WPG",
+          "player": "Brayden Yager",
+          "player_key": "brayden yager",
+          "detected_at": "2026-11-05T17:59:22Z"
+        },
+        {
           "id": "ACTIVE_REMOVED:WPG:brad lambert:2026-11-04",
           "type": "ACTIVE_REMOVED",
           "team": "WPG",
@@ -13483,7 +13307,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 71.82,
+      "percent_owned": 71.96,
       "nhl_roster_status": "ACTIVE",
       "score": 28,
       "reliability": "HIGH",
@@ -13616,14 +13440,6 @@
           "player": "Hunter McDonald",
           "player_key": "hunter mcdonald",
           "detected_at": "2026-10-31T18:20:58Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:PHI:jacob gaucher:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "PHI",
-          "player": "Jacob Gaucher",
-          "player_key": "jacob gaucher",
-          "detected_at": "2026-10-29T14:40:45Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -13637,7 +13453,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 22.73,
+      "percent_owned": 23.26,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -13999,6 +13815,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:DET:michal postava:2026-11-05",
+          "type": "ACTIVE_ADDED",
+          "team": "DET",
+          "player": "Michal Postava",
+          "player_key": "michal postava",
+          "detected_at": "2026-11-05T17:59:22Z"
+        },
+        {
           "id": "NEW_IR:DET:albert johansson:2026-11-04",
           "type": "NEW_IR",
           "team": "DET",
@@ -14037,14 +13861,6 @@
           "player": "Sheldon Dries",
           "player_key": "sheldon dries",
           "detected_at": "2026-10-29T21:25:59Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DET:dylan larkin:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "DET",
-          "player": "Dylan Larkin",
-          "player_key": "dylan larkin",
-          "detected_at": "2026-10-29T21:25:59Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -14058,7 +13874,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 2.77,
+      "percent_owned": 2.76,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -14792,7 +14608,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 18,
-      "percent_owned": 1.13,
+      "percent_owned": 1.18,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -14933,14 +14749,6 @@
           "player": "Matthew Seminoff",
           "player_key": "matthew seminoff",
           "detected_at": "2026-10-30T15:36:28Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:DAL:trey taylor:2026-10-29",
-          "type": "ACTIVE_ADDED",
-          "team": "DAL",
-          "player": "Trey Taylor",
-          "player_key": "trey taylor",
-          "detected_at": "2026-10-29T14:40:45Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -15169,6 +14977,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:WPG:brayden yager:2026-11-05",
+          "type": "ACTIVE_ADDED",
+          "team": "WPG",
+          "player": "Brayden Yager",
+          "player_key": "brayden yager",
+          "detected_at": "2026-11-05T17:59:22Z"
+        },
+        {
           "id": "ACTIVE_REMOVED:WPG:brad lambert:2026-11-04",
           "type": "ACTIVE_REMOVED",
           "team": "WPG",
@@ -15188,7 +15004,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 3.95,
+      "percent_owned": 3.9,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -15341,7 +15157,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 92.63,
+      "percent_owned": 92.68,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -15449,7 +15265,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 9.86,
+      "percent_owned": 9.76,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -15611,7 +15427,7 @@
       "position": "C",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.67,
+      "percent_owned": 0.68,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -15724,7 +15540,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 5.26,
+      "percent_owned": 5.24,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -15861,7 +15677,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 26.52,
+      "percent_owned": 26.68,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -15956,6 +15772,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:DET:michal postava:2026-11-05",
+          "type": "ACTIVE_ADDED",
+          "team": "DET",
+          "player": "Michal Postava",
+          "player_key": "michal postava",
+          "detected_at": "2026-11-05T17:59:22Z"
+        },
+        {
           "id": "NEW_IR:DET:albert johansson:2026-11-04",
           "type": "NEW_IR",
           "team": "DET",
@@ -15993,14 +15817,6 @@
           "team": "DET",
           "player": "Sheldon Dries",
           "player_key": "sheldon dries",
-          "detected_at": "2026-10-29T21:25:59Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DET:dylan larkin:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "DET",
-          "player": "Dylan Larkin",
-          "player_key": "dylan larkin",
           "detected_at": "2026-10-29T21:25:59Z"
         }
       ],
@@ -16138,7 +15954,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 33.58,
+      "percent_owned": 33.42,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -16292,7 +16108,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 10.2,
+      "percent_owned": 10.23,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -16429,7 +16245,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 34.46,
+      "percent_owned": 34.5,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -16804,7 +16620,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 52.87,
+      "percent_owned": 52.84,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -16942,7 +16758,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 1.27,
+      "percent_owned": 1.28,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -17064,7 +16880,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 9,
-      "percent_owned": 83.85,
+      "percent_owned": 83.95,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -17162,6 +16978,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:DET:michal postava:2026-11-05",
+          "type": "ACTIVE_ADDED",
+          "team": "DET",
+          "player": "Michal Postava",
+          "player_key": "michal postava",
+          "detected_at": "2026-11-05T17:59:22Z"
+        },
+        {
           "id": "NEW_IR:DET:albert johansson:2026-11-04",
           "type": "NEW_IR",
           "team": "DET",
@@ -17200,14 +17024,6 @@
           "player": "Sheldon Dries",
           "player_key": "sheldon dries",
           "detected_at": "2026-10-29T21:25:59Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DET:dylan larkin:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "DET",
-          "player": "Dylan Larkin",
-          "player_key": "dylan larkin",
-          "detected_at": "2026-10-29T21:25:59Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -17221,7 +17037,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 99.23,
+      "percent_owned": 99.21,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -17358,7 +17174,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 46.83,
+      "percent_owned": 46.34,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -17497,7 +17313,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 1.71,
+      "percent_owned": 1.7,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -17713,6 +17529,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:DET:michal postava:2026-11-05",
+          "type": "ACTIVE_ADDED",
+          "team": "DET",
+          "player": "Michal Postava",
+          "player_key": "michal postava",
+          "detected_at": "2026-11-05T17:59:22Z"
+        },
+        {
           "id": "NEW_IR:DET:albert johansson:2026-11-04",
           "type": "NEW_IR",
           "team": "DET",
@@ -17751,14 +17575,6 @@
           "player": "Sheldon Dries",
           "player_key": "sheldon dries",
           "detected_at": "2026-10-29T21:25:59Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DET:dylan larkin:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "DET",
-          "player": "Dylan Larkin",
-          "player_key": "dylan larkin",
-          "detected_at": "2026-10-29T21:25:59Z"
         }
       ],
       "latest_final_game_date": "2026-10-31",
@@ -17772,7 +17588,7 @@
       "position": "R",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 15.68,
+      "percent_owned": 15.69,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -17866,6 +17682,14 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "NEW_IR:NYR:sean durzi:2026-11-05",
+          "type": "NEW_IR",
+          "team": "NYR",
+          "player": "Sean Durzi",
+          "player_key": "sean durzi",
+          "detected_at": "2026-11-05T17:59:22Z"
+        },
         {
           "id": "ACTIVE_ADDED:NYR:jaroslav chmelar:2026-11-03",
           "type": "ACTIVE_ADDED",
@@ -18024,7 +17848,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 9,
-      "percent_owned": 19.47,
+      "percent_owned": 19.46,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -18162,7 +17986,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 44.46,
+      "percent_owned": 46.05,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -18301,7 +18125,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 97.92,
+      "percent_owned": 97.93,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -18430,7 +18254,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 91.79,
+      "percent_owned": 91.84,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -18591,7 +18415,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 4.68,
+      "percent_owned": 4.71,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -18686,6 +18510,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "NEW_IR:NYR:sean durzi:2026-11-05",
+          "type": "NEW_IR",
+          "team": "NYR",
+          "player": "Sean Durzi",
+          "player_key": "sean durzi",
+          "detected_at": "2026-11-05T17:59:22Z"
+        },
+        {
           "id": "ACTIVE_ADDED:NYR:jaroslav chmelar:2026-11-03",
           "type": "ACTIVE_ADDED",
           "team": "NYR",
@@ -18721,7 +18553,7 @@
       "position": "R",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 1.31,
+      "percent_owned": 1.32,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -18843,7 +18675,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 58.87,
+      "percent_owned": 59.14,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -18938,6 +18770,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:DET:michal postava:2026-11-05",
+          "type": "ACTIVE_ADDED",
+          "team": "DET",
+          "player": "Michal Postava",
+          "player_key": "michal postava",
+          "detected_at": "2026-11-05T17:59:22Z"
+        },
+        {
           "id": "NEW_IR:DET:albert johansson:2026-11-04",
           "type": "NEW_IR",
           "team": "DET",
@@ -18975,14 +18815,6 @@
           "team": "DET",
           "player": "Sheldon Dries",
           "player_key": "sheldon dries",
-          "detected_at": "2026-10-29T21:25:59Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DET:dylan larkin:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "DET",
-          "player": "Dylan Larkin",
-          "player_key": "dylan larkin",
           "detected_at": "2026-10-29T21:25:59Z"
         }
       ],
@@ -19134,7 +18966,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 85.43,
+      "percent_owned": 85.4,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -19273,7 +19105,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 62.89,
+      "percent_owned": 62.99,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -19368,6 +19200,14 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "NEW_IR:NYR:sean durzi:2026-11-05",
+          "type": "NEW_IR",
+          "team": "NYR",
+          "player": "Sean Durzi",
+          "player_key": "sean durzi",
+          "detected_at": "2026-11-05T17:59:22Z"
+        },
         {
           "id": "ACTIVE_ADDED:NYR:jaroslav chmelar:2026-11-03",
           "type": "ACTIVE_ADDED",
@@ -19629,7 +19469,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 92.22,
+      "percent_owned": 92.26,
       "nhl_roster_status": "ACTIVE",
       "score": 24,
       "reliability": "HIGH",
@@ -19998,22 +19838,6 @@
           "player": "Taylor Ward",
           "player_key": "taylor ward",
           "detected_at": "2026-11-03T15:30:39Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:LAK:martin chromiak:2026-10-29",
-          "type": "ACTIVE_ADDED",
-          "team": "LAK",
-          "player": "Martin Chromiak",
-          "player_key": "martin chromiak",
-          "detected_at": "2026-10-29T17:33:53Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:LAK:jared wright:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "LAK",
-          "player": "Jared Wright",
-          "player_key": "jared wright",
-          "detected_at": "2026-10-29T17:33:53Z"
         }
       ],
       "latest_final_game_date": "2026-11-04",
@@ -20533,14 +20357,6 @@
           "player": "Hunter McDonald",
           "player_key": "hunter mcdonald",
           "detected_at": "2026-10-31T18:20:58Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:PHI:jacob gaucher:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "PHI",
-          "player": "Jacob Gaucher",
-          "player_key": "jacob gaucher",
-          "detected_at": "2026-10-29T14:40:45Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -20554,7 +20370,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 97.14,
+      "percent_owned": 97.18,
       "nhl_roster_status": "ACTIVE",
       "score": 21,
       "reliability": "HIGH",
@@ -20810,7 +20626,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 58.51,
+      "percent_owned": 58.68,
       "nhl_roster_status": "ACTIVE",
       "score": 21,
       "reliability": "HIGH",
@@ -20939,7 +20755,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
-      "percent_owned": 99.47,
+      "percent_owned": 99.48,
       "nhl_roster_status": "ACTIVE",
       "score": 21,
       "reliability": "HIGH",
@@ -21041,6 +20857,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:WPG:brayden yager:2026-11-05",
+          "type": "ACTIVE_ADDED",
+          "team": "WPG",
+          "player": "Brayden Yager",
+          "player_key": "brayden yager",
+          "detected_at": "2026-11-05T17:59:22Z"
+        },
+        {
           "id": "ACTIVE_REMOVED:WPG:brad lambert:2026-11-04",
           "type": "ACTIVE_REMOVED",
           "team": "WPG",
@@ -21060,7 +20884,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 7.04,
+      "percent_owned": 6.97,
       "nhl_roster_status": "ACTIVE",
       "score": 21,
       "reliability": "HIGH",
@@ -21197,14 +21021,6 @@
           "player": "Cameron Crotty",
           "player_key": "cameron crotty",
           "detected_at": "2026-10-29T18:28:12Z"
-        },
-        {
-          "id": "NEW_IR:MIN:jared spurgeon:2026-10-29",
-          "type": "NEW_IR",
-          "team": "MIN",
-          "player": "Jared Spurgeon",
-          "player_key": "jared spurgeon",
-          "detected_at": "2026-10-29T17:33:53Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -21218,7 +21034,7 @@
       "position": "C",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.67,
+      "percent_owned": 0.68,
       "nhl_roster_status": "ACTIVE",
       "score": 21,
       "reliability": "HIGH",
@@ -21377,7 +21193,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
-      "percent_owned": 40.89,
+      "percent_owned": 40.98,
       "nhl_roster_status": "ACTIVE",
       "score": 21,
       "reliability": "HIGH",
@@ -21507,7 +21323,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 32.72,
+      "percent_owned": 33.4,
       "nhl_roster_status": "ACTIVE",
       "score": 21,
       "reliability": "HIGH",
@@ -21882,22 +21698,6 @@
           "player": "Taylor Ward",
           "player_key": "taylor ward",
           "detected_at": "2026-11-03T15:30:39Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:LAK:martin chromiak:2026-10-29",
-          "type": "ACTIVE_ADDED",
-          "team": "LAK",
-          "player": "Martin Chromiak",
-          "player_key": "martin chromiak",
-          "detected_at": "2026-10-29T17:33:53Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:LAK:jared wright:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "LAK",
-          "player": "Jared Wright",
-          "player_key": "jared wright",
-          "detected_at": "2026-10-29T17:33:53Z"
         }
       ],
       "latest_final_game_date": "2026-11-04",
@@ -22026,7 +21826,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 85.85,
+      "percent_owned": 85.99,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -22417,7 +22217,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 19.27,
+      "percent_owned": 19.3,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -22572,7 +22372,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 48.74,
+      "percent_owned": 48.75,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -22709,7 +22509,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 1.51,
+      "percent_owned": 1.49,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -22955,22 +22755,6 @@
           "player": "Taylor Ward",
           "player_key": "taylor ward",
           "detected_at": "2026-11-03T15:30:39Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:LAK:martin chromiak:2026-10-29",
-          "type": "ACTIVE_ADDED",
-          "team": "LAK",
-          "player": "Martin Chromiak",
-          "player_key": "martin chromiak",
-          "detected_at": "2026-10-29T17:33:53Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:LAK:jared wright:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "LAK",
-          "player": "Jared Wright",
-          "player_key": "jared wright",
-          "detected_at": "2026-10-29T17:33:53Z"
         }
       ],
       "latest_final_game_date": "2026-11-04",
@@ -23109,14 +22893,6 @@
           "player": "Hunter McDonald",
           "player_key": "hunter mcdonald",
           "detected_at": "2026-10-31T18:20:58Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:PHI:jacob gaucher:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "PHI",
-          "player": "Jacob Gaucher",
-          "player_key": "jacob gaucher",
-          "detected_at": "2026-10-29T14:40:45Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -23388,7 +23164,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 4.26,
+      "percent_owned": 4.25,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -23482,6 +23258,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:WPG:brayden yager:2026-11-05",
+          "type": "ACTIVE_ADDED",
+          "team": "WPG",
+          "player": "Brayden Yager",
+          "player_key": "brayden yager",
+          "detected_at": "2026-11-05T17:59:22Z"
+        },
+        {
           "id": "ACTIVE_REMOVED:WPG:brad lambert:2026-11-04",
           "type": "ACTIVE_REMOVED",
           "team": "WPG",
@@ -23501,7 +23285,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 30.34,
+      "percent_owned": 30.05,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -23881,7 +23665,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 5.32,
+      "percent_owned": 5.46,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -24035,7 +23819,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 2.5,
+      "percent_owned": 2.58,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -24176,7 +23960,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 94.39,
+      "percent_owned": 94.41,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -24279,6 +24063,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:WPG:brayden yager:2026-11-05",
+          "type": "ACTIVE_ADDED",
+          "team": "WPG",
+          "player": "Brayden Yager",
+          "player_key": "brayden yager",
+          "detected_at": "2026-11-05T17:59:22Z"
+        },
+        {
           "id": "ACTIVE_REMOVED:WPG:brad lambert:2026-11-04",
           "type": "ACTIVE_REMOVED",
           "team": "WPG",
@@ -24298,7 +24090,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 96.79,
+      "percent_owned": 96.73,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -24393,6 +24185,14 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "NEW_IR:NYR:sean durzi:2026-11-05",
+          "type": "NEW_IR",
+          "team": "NYR",
+          "player": "Sean Durzi",
+          "player_key": "sean durzi",
+          "detected_at": "2026-11-05T17:59:22Z"
+        },
         {
           "id": "ACTIVE_ADDED:NYR:jaroslav chmelar:2026-11-03",
           "type": "ACTIVE_ADDED",
@@ -24538,22 +24338,6 @@
           "player": "Taylor Ward",
           "player_key": "taylor ward",
           "detected_at": "2026-11-03T15:30:39Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:LAK:martin chromiak:2026-10-29",
-          "type": "ACTIVE_ADDED",
-          "team": "LAK",
-          "player": "Martin Chromiak",
-          "player_key": "martin chromiak",
-          "detected_at": "2026-10-29T17:33:53Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:LAK:jared wright:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "LAK",
-          "player": "Jared Wright",
-          "player_key": "jared wright",
-          "detected_at": "2026-10-29T17:33:53Z"
         }
       ],
       "latest_final_game_date": "2026-11-04",
@@ -24567,7 +24351,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 6.83,
+      "percent_owned": 6.8,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -24704,7 +24488,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 1.66,
+      "percent_owned": 1.64,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -24841,7 +24625,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 69.13,
+      "percent_owned": 69.21,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -24996,7 +24780,7 @@
       "position": "C",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.42,
+      "percent_owned": 0.41,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -25121,14 +24905,6 @@
           "player": "Hunter McDonald",
           "player_key": "hunter mcdonald",
           "detected_at": "2026-10-31T18:20:58Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:PHI:jacob gaucher:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "PHI",
-          "player": "Jacob Gaucher",
-          "player_key": "jacob gaucher",
-          "detected_at": "2026-10-29T14:40:45Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -25142,7 +24918,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 3.57,
+      "percent_owned": 3.52,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -25280,7 +25056,7 @@
       "position": "C",
       "espn_status": "WAIVERS",
       "espn_team_id": 0,
-      "percent_owned": 4.39,
+      "percent_owned": 4.35,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -25930,14 +25706,6 @@
           "player": "Hunter McDonald",
           "player_key": "hunter mcdonald",
           "detected_at": "2026-10-31T18:20:58Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:PHI:jacob gaucher:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "PHI",
-          "player": "Jacob Gaucher",
-          "player_key": "jacob gaucher",
-          "detected_at": "2026-10-29T14:40:45Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -25951,7 +25719,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 79.42,
+      "percent_owned": 79.73,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -26427,7 +26195,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 9,
-      "percent_owned": 64.51,
+      "percent_owned": 64.41,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -26522,6 +26290,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "NEW_IR:NYR:sean durzi:2026-11-05",
+          "type": "NEW_IR",
+          "team": "NYR",
+          "player": "Sean Durzi",
+          "player_key": "sean durzi",
+          "detected_at": "2026-11-05T17:59:22Z"
+        },
+        {
           "id": "ACTIVE_ADDED:NYR:jaroslav chmelar:2026-11-03",
           "type": "ACTIVE_ADDED",
           "team": "NYR",
@@ -26557,7 +26333,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 1.33,
+      "percent_owned": 1.34,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -26659,6 +26435,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:DET:michal postava:2026-11-05",
+          "type": "ACTIVE_ADDED",
+          "team": "DET",
+          "player": "Michal Postava",
+          "player_key": "michal postava",
+          "detected_at": "2026-11-05T17:59:22Z"
+        },
+        {
           "id": "NEW_IR:DET:albert johansson:2026-11-04",
           "type": "NEW_IR",
           "team": "DET",
@@ -26697,14 +26481,6 @@
           "player": "Sheldon Dries",
           "player_key": "sheldon dries",
           "detected_at": "2026-10-29T21:25:59Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DET:dylan larkin:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "DET",
-          "player": "Dylan Larkin",
-          "player_key": "dylan larkin",
-          "detected_at": "2026-10-29T21:25:59Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -26718,7 +26494,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 2.51,
+      "percent_owned": 2.5,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -26859,14 +26635,6 @@
           "player": "Cameron Crotty",
           "player_key": "cameron crotty",
           "detected_at": "2026-10-29T18:28:12Z"
-        },
-        {
-          "id": "NEW_IR:MIN:jared spurgeon:2026-10-29",
-          "type": "NEW_IR",
-          "team": "MIN",
-          "player": "Jared Spurgeon",
-          "player_key": "jared spurgeon",
-          "detected_at": "2026-10-29T17:33:53Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -26991,7 +26759,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 99.36,
+      "percent_owned": 99.37,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -27131,14 +26899,6 @@
           "player": "Matthew Seminoff",
           "player_key": "matthew seminoff",
           "detected_at": "2026-10-30T15:36:28Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:DAL:trey taylor:2026-10-29",
-          "type": "ACTIVE_ADDED",
-          "team": "DAL",
-          "player": "Trey Taylor",
-          "player_key": "trey taylor",
-          "detected_at": "2026-10-29T14:40:45Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -27152,7 +26912,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 77.09,
+      "percent_owned": 77.24,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -27293,14 +27053,6 @@
           "player": "Cameron Crotty",
           "player_key": "cameron crotty",
           "detected_at": "2026-10-29T18:28:12Z"
-        },
-        {
-          "id": "NEW_IR:MIN:jared spurgeon:2026-10-29",
-          "type": "NEW_IR",
-          "team": "MIN",
-          "player": "Jared Spurgeon",
-          "player_key": "jared spurgeon",
-          "detected_at": "2026-10-29T17:33:53Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -27314,7 +27066,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 3.12,
+      "percent_owned": 3.11,
       "nhl_roster_status": "IR",
       "score": 16,
       "reliability": "HIGH",
@@ -27458,7 +27210,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 78.28,
+      "percent_owned": 78.41,
       "nhl_roster_status": "IR",
       "score": 16,
       "reliability": "HIGH",
@@ -27582,14 +27334,6 @@
           "player": "Chris Tanev",
           "player_key": "chris tanev",
           "detected_at": "2026-10-31T15:19:36Z"
-        },
-        {
-          "id": "NEW_IR:TOR:kirill marchenko:2026-10-29",
-          "type": "NEW_IR",
-          "team": "TOR",
-          "player": "Kirill Marchenko",
-          "player_key": "kirill marchenko",
-          "detected_at": "2026-10-29T14:40:45Z"
         }
       ],
       "latest_final_game_date": "2026-10-15",
@@ -27603,7 +27347,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 2.67,
+      "percent_owned": 2.79,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -27765,7 +27509,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 79.37,
+      "percent_owned": 79.63,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -27998,7 +27742,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 12.07,
+      "percent_owned": 12.16,
       "nhl_roster_status": "UNKNOWN",
       "score": 16,
       "reliability": "HIGH",
@@ -28100,6 +27844,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:DET:michal postava:2026-11-05",
+          "type": "ACTIVE_ADDED",
+          "team": "DET",
+          "player": "Michal Postava",
+          "player_key": "michal postava",
+          "detected_at": "2026-11-05T17:59:22Z"
+        },
+        {
           "id": "NEW_IR:DET:albert johansson:2026-11-04",
           "type": "NEW_IR",
           "team": "DET",
@@ -28137,14 +27889,6 @@
           "team": "DET",
           "player": "Sheldon Dries",
           "player_key": "sheldon dries",
-          "detected_at": "2026-10-29T21:25:59Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DET:dylan larkin:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "DET",
-          "player": "Dylan Larkin",
-          "player_key": "dylan larkin",
           "detected_at": "2026-10-29T21:25:59Z"
         }
       ],
@@ -28288,7 +28032,7 @@
       "position": "C",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.44,
+      "percent_owned": 0.49,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -28391,6 +28135,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:WPG:brayden yager:2026-11-05",
+          "type": "ACTIVE_ADDED",
+          "team": "WPG",
+          "player": "Brayden Yager",
+          "player_key": "brayden yager",
+          "detected_at": "2026-11-05T17:59:22Z"
+        },
+        {
           "id": "ACTIVE_REMOVED:WPG:brad lambert:2026-11-04",
           "type": "ACTIVE_REMOVED",
           "team": "WPG",
@@ -28410,7 +28162,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 97.4,
+      "percent_owned": 97.48,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -28523,7 +28275,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 76.32,
+      "percent_owned": 76.51,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -28662,14 +28414,6 @@
           "player": "Matthew Seminoff",
           "player_key": "matthew seminoff",
           "detected_at": "2026-10-30T15:36:28Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:DAL:trey taylor:2026-10-29",
-          "type": "ACTIVE_ADDED",
-          "team": "DAL",
-          "player": "Trey Taylor",
-          "player_key": "trey taylor",
-          "detected_at": "2026-10-29T14:40:45Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -28683,7 +28427,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 12.99,
+      "percent_owned": 13.8,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -28843,7 +28587,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 99.62,
+      "percent_owned": 99.64,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -28972,7 +28716,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 35.72,
+      "percent_owned": 35.52,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -29101,7 +28845,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 1.56,
+      "percent_owned": 1.58,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -29195,6 +28939,14 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "ACTIVE_ADDED:WPG:brayden yager:2026-11-05",
+          "type": "ACTIVE_ADDED",
+          "team": "WPG",
+          "player": "Brayden Yager",
+          "player_key": "brayden yager",
+          "detected_at": "2026-11-05T17:59:22Z"
+        },
         {
           "id": "ACTIVE_REMOVED:WPG:brad lambert:2026-11-04",
           "type": "ACTIVE_REMOVED",
@@ -29461,14 +29213,6 @@
           "player": "Hunter McDonald",
           "player_key": "hunter mcdonald",
           "detected_at": "2026-10-31T18:20:58Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:PHI:jacob gaucher:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "PHI",
-          "player": "Jacob Gaucher",
-          "player_key": "jacob gaucher",
-          "detected_at": "2026-10-29T14:40:45Z"
         }
       ],
       "latest_final_game_date": "2026-10-28",
@@ -29482,7 +29226,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 8.77,
+      "percent_owned": 8.78,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -29586,7 +29330,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.1,
+      "percent_owned": 0.11,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -29680,6 +29424,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:DET:michal postava:2026-11-05",
+          "type": "ACTIVE_ADDED",
+          "team": "DET",
+          "player": "Michal Postava",
+          "player_key": "michal postava",
+          "detected_at": "2026-11-05T17:59:22Z"
+        },
+        {
           "id": "NEW_IR:DET:albert johansson:2026-11-04",
           "type": "NEW_IR",
           "team": "DET",
@@ -29718,14 +29470,6 @@
           "player": "Sheldon Dries",
           "player_key": "sheldon dries",
           "detected_at": "2026-10-29T21:25:59Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DET:dylan larkin:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "DET",
-          "player": "Dylan Larkin",
-          "player_key": "dylan larkin",
-          "detected_at": "2026-10-29T21:25:59Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -29739,7 +29483,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
-      "percent_owned": 34.55,
+      "percent_owned": 34.3,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -29884,7 +29628,7 @@
         {
           "type": "PERIPHERAL_UP",
           "label": "Рост SOG/HIT/BLK",
-          "strong": true
+          "strong": false
         }
       ],
       "metrics": {
@@ -29914,9 +29658,9 @@
         },
         "sog": {
           "baseline": 2.8,
-          "recent": 3.0,
-          "delta": 0.2,
-          "ratio": 1.071
+          "recent": 2.5,
+          "delta": -0.3,
+          "ratio": 0.893
         },
         "hit": {
           "baseline": 4.2,
@@ -29993,7 +29737,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 66.52,
+      "percent_owned": 66.46,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -30087,6 +29831,14 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "ACTIVE_ADDED:WPG:brayden yager:2026-11-05",
+          "type": "ACTIVE_ADDED",
+          "team": "WPG",
+          "player": "Brayden Yager",
+          "player_key": "brayden yager",
+          "detected_at": "2026-11-05T17:59:22Z"
+        },
         {
           "id": "ACTIVE_REMOVED:WPG:brad lambert:2026-11-04",
           "type": "ACTIVE_REMOVED",
@@ -30211,7 +29963,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 94.51,
+      "percent_owned": 94.4,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -30327,14 +30079,6 @@
           "player": "Chris Tanev",
           "player_key": "chris tanev",
           "detected_at": "2026-10-31T15:19:36Z"
-        },
-        {
-          "id": "NEW_IR:TOR:kirill marchenko:2026-10-29",
-          "type": "NEW_IR",
-          "team": "TOR",
-          "player": "Kirill Marchenko",
-          "player_key": "kirill marchenko",
-          "detected_at": "2026-10-29T14:40:45Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -30348,7 +30092,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 78.84,
+      "percent_owned": 79.19,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -30609,7 +30353,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 1.77,
+      "percent_owned": 1.74,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -30990,7 +30734,7 @@
       "position": "C",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.73,
+      "percent_owned": 0.71,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -31239,136 +30983,6 @@
       "latest_final_game_id": 2026020249
     },
     {
-      "nhl_player_id": 8477919,
-      "espn_player_id": null,
-      "name": "Freddy Gaudreau",
-      "nhl_team": "SEA",
-      "position": "C",
-      "espn_status": "UNMATCHED",
-      "espn_team_id": null,
-      "percent_owned": null,
-      "nhl_roster_status": "ACTIVE",
-      "score": 15,
-      "reliability": "HIGH",
-      "recommendation": "WATCH",
-      "categories": [
-        "SOG",
-        "FOW"
-      ],
-      "signals": [
-        {
-          "type": "PERIPHERAL_UP",
-          "label": "Рост SOG/HIT/BLK",
-          "strong": false
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 929.2,
-          "recent": 1046.0,
-          "delta": 116.8,
-          "ratio": 1.126
-        },
-        "ev_toi": {
-          "baseline": 803.4,
-          "recent": 971.0,
-          "delta": 167.6,
-          "ratio": 1.209
-        },
-        "pp_toi": {
-          "baseline": 1.6,
-          "recent": 8.5,
-          "delta": 6.9,
-          "ratio": 5.312
-        },
-        "sh_toi": {
-          "baseline": 124.2,
-          "recent": 66.5,
-          "delta": -57.7,
-          "ratio": 0.535
-        },
-        "sog": {
-          "baseline": 0.8,
-          "recent": 2.0,
-          "delta": 1.2,
-          "ratio": 2.5
-        },
-        "hit": {
-          "baseline": 0.2,
-          "recent": 1.0,
-          "delta": 0.8,
-          "ratio": 5.0
-        },
-        "blk": {
-          "baseline": 1.2,
-          "recent": 1.0,
-          "delta": -0.2,
-          "ratio": 0.833
-        },
-        "fow": {
-          "baseline": 5.8,
-          "recent": 6.5,
-          "delta": 0.7,
-          "ratio": 1.121
-        },
-        "fo": {
-          "baseline": 11.2,
-          "recent": 12.0,
-          "delta": 0.8,
-          "ratio": 1.071
-        },
-        "pts": {
-          "baseline": 0.6,
-          "recent": 0.5,
-          "delta": -0.1,
-          "ratio": 0.833
-        },
-        "ppp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "NEW_IR:SEA:curtis douglas:2026-11-04",
-          "type": "NEW_IR",
-          "team": "SEA",
-          "player": "Curtis Douglas",
-          "player_key": "curtis douglas",
-          "detected_at": "2026-11-04T15:40:34Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:SEA:matthew wood:2026-11-01",
-          "type": "ACTIVE_ADDED",
-          "team": "SEA",
-          "player": "Matthew Wood",
-          "player_key": "matthew wood",
-          "detected_at": "2026-11-01T23:20:52Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:SEA:shane wright:2026-11-01",
-          "type": "ACTIVE_REMOVED",
-          "team": "SEA",
-          "player": "Shane Wright",
-          "player_key": "shane wright",
-          "detected_at": "2026-11-01T23:20:52Z"
-        }
-      ],
-      "latest_final_game_date": "2026-11-04",
-      "latest_final_game_id": 2026020250
-    },
-    {
       "nhl_player_id": 8480014,
       "espn_player_id": 4233583,
       "name": "Gabriel Vilardi",
@@ -31376,7 +30990,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 44.08,
+      "percent_owned": 43.97,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -31469,6 +31083,14 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "ACTIVE_ADDED:WPG:brayden yager:2026-11-05",
+          "type": "ACTIVE_ADDED",
+          "team": "WPG",
+          "player": "Brayden Yager",
+          "player_key": "brayden yager",
+          "detected_at": "2026-11-05T17:59:22Z"
+        },
         {
           "id": "ACTIVE_REMOVED:WPG:brad lambert:2026-11-04",
           "type": "ACTIVE_REMOVED",
@@ -31756,7 +31378,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 7.91,
+      "percent_owned": 7.92,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -31896,7 +31518,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 98.03,
+      "percent_owned": 98.08,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -32021,7 +31643,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 16.9,
+      "percent_owned": 16.89,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -32142,7 +31764,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 31.29,
+      "percent_owned": 31.26,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -32263,7 +31885,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 6.71,
+      "percent_owned": 6.65,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -32400,7 +32022,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 28.14,
+      "percent_owned": 28.06,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -32745,7 +32367,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 15.03,
+      "percent_owned": 15.0,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -32884,7 +32506,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 48.81,
+      "percent_owned": 48.98,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -32989,7 +32611,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 64.76,
+      "percent_owned": 64.88,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -33126,7 +32748,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 0.17,
+      "percent_owned": 0.18,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -33222,6 +32844,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:DET:michal postava:2026-11-05",
+          "type": "ACTIVE_ADDED",
+          "team": "DET",
+          "player": "Michal Postava",
+          "player_key": "michal postava",
+          "detected_at": "2026-11-05T17:59:22Z"
+        },
+        {
           "id": "NEW_IR:DET:albert johansson:2026-11-04",
           "type": "NEW_IR",
           "team": "DET",
@@ -33260,14 +32890,6 @@
           "player": "Sheldon Dries",
           "player_key": "sheldon dries",
           "detected_at": "2026-10-29T21:25:59Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DET:dylan larkin:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "DET",
-          "player": "Dylan Larkin",
-          "player_key": "dylan larkin",
-          "detected_at": "2026-10-29T21:25:59Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -33281,7 +32903,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 99.34,
+      "percent_owned": 99.36,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -33379,6 +33001,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:DET:michal postava:2026-11-05",
+          "type": "ACTIVE_ADDED",
+          "team": "DET",
+          "player": "Michal Postava",
+          "player_key": "michal postava",
+          "detected_at": "2026-11-05T17:59:22Z"
+        },
+        {
           "id": "NEW_IR:DET:albert johansson:2026-11-04",
           "type": "NEW_IR",
           "team": "DET",
@@ -33417,14 +33047,6 @@
           "player": "Sheldon Dries",
           "player_key": "sheldon dries",
           "detected_at": "2026-10-29T21:25:59Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:DET:dylan larkin:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "DET",
-          "player": "Dylan Larkin",
-          "player_key": "dylan larkin",
-          "detected_at": "2026-10-29T21:25:59Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -33438,7 +33060,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 18,
-      "percent_owned": 15.82,
+      "percent_owned": 16.22,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -33563,14 +33185,6 @@
           "player": "Hunter McDonald",
           "player_key": "hunter mcdonald",
           "detected_at": "2026-10-31T18:20:58Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:PHI:jacob gaucher:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "PHI",
-          "player": "Jacob Gaucher",
-          "player_key": "jacob gaucher",
-          "detected_at": "2026-10-29T14:40:45Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -33688,7 +33302,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 4.05,
+      "percent_owned": 3.96,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -33957,14 +33571,6 @@
           "player": "Cameron Crotty",
           "player_key": "cameron crotty",
           "detected_at": "2026-10-29T18:28:12Z"
-        },
-        {
-          "id": "NEW_IR:MIN:jared spurgeon:2026-10-29",
-          "type": "NEW_IR",
-          "team": "MIN",
-          "player": "Jared Spurgeon",
-          "player_key": "jared spurgeon",
-          "detected_at": "2026-10-29T17:33:53Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -33978,7 +33584,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.34,
+      "percent_owned": 0.33,
       "nhl_roster_status": "IR",
       "score": 15,
       "reliability": "MEDIUM",
@@ -34253,7 +33859,7 @@
       "position": "C",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.09,
+      "percent_owned": 0.08,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -34644,14 +34250,6 @@
           "player": "Hunter McDonald",
           "player_key": "hunter mcdonald",
           "detected_at": "2026-10-31T18:20:58Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:PHI:jacob gaucher:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "PHI",
-          "player": "Jacob Gaucher",
-          "player_key": "jacob gaucher",
-          "detected_at": "2026-10-29T14:40:45Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -34665,7 +34263,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 18,
-      "percent_owned": 3.5,
+      "percent_owned": 3.49,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -35024,22 +34622,6 @@
           "player": "Taylor Ward",
           "player_key": "taylor ward",
           "detected_at": "2026-11-03T15:30:39Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:LAK:martin chromiak:2026-10-29",
-          "type": "ACTIVE_ADDED",
-          "team": "LAK",
-          "player": "Martin Chromiak",
-          "player_key": "martin chromiak",
-          "detected_at": "2026-10-29T17:33:53Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:LAK:jared wright:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "LAK",
-          "player": "Jared Wright",
-          "player_key": "jared wright",
-          "detected_at": "2026-10-29T17:33:53Z"
         }
       ],
       "latest_final_game_date": "2026-10-31",
@@ -35053,7 +34635,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.38,
+      "percent_owned": 0.39,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -35293,7 +34875,7 @@
       "position": "C",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.06,
+      "percent_owned": 0.07,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -35426,14 +35008,6 @@
           "player": "Cameron Crotty",
           "player_key": "cameron crotty",
           "detected_at": "2026-10-29T18:28:12Z"
-        },
-        {
-          "id": "NEW_IR:MIN:jared spurgeon:2026-10-29",
-          "type": "NEW_IR",
-          "team": "MIN",
-          "player": "Jared Spurgeon",
-          "player_key": "jared spurgeon",
-          "detected_at": "2026-10-29T17:33:53Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -35564,14 +35138,6 @@
           "player": "Chris Tanev",
           "player_key": "chris tanev",
           "detected_at": "2026-10-31T15:19:36Z"
-        },
-        {
-          "id": "NEW_IR:TOR:kirill marchenko:2026-10-29",
-          "type": "NEW_IR",
-          "team": "TOR",
-          "player": "Kirill Marchenko",
-          "player_key": "kirill marchenko",
-          "detected_at": "2026-10-29T14:40:45Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -35585,7 +35151,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 18,
-      "percent_owned": 0.69,
+      "percent_owned": 0.7,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -35956,14 +35522,6 @@
           "player": "Chris Tanev",
           "player_key": "chris tanev",
           "detected_at": "2026-10-31T15:19:36Z"
-        },
-        {
-          "id": "NEW_IR:TOR:kirill marchenko:2026-10-29",
-          "type": "NEW_IR",
-          "team": "TOR",
-          "player": "Kirill Marchenko",
-          "player_key": "kirill marchenko",
-          "detected_at": "2026-10-29T14:40:45Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -35977,7 +35535,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 0.75,
+      "percent_owned": 0.76,
       "nhl_roster_status": "ACTIVE",
       "score": 12,
       "reliability": "HIGH",
@@ -36081,7 +35639,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 0.38,
+      "percent_owned": 0.37,
       "nhl_roster_status": "ACTIVE",
       "score": 12,
       "reliability": "HIGH",
@@ -36218,7 +35776,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 29.28,
+      "percent_owned": 29.29,
       "nhl_roster_status": "ACTIVE",
       "score": 12,
       "reliability": "HIGH",
@@ -36371,13 +35929,13 @@
       "name": "Shane Wright",
       "nhl_team": "NSH",
       "position": "C",
-      "espn_status": "ONTEAM",
-      "espn_team_id": 15,
+      "espn_status": "WAIVERS",
+      "espn_team_id": 0,
       "percent_owned": 1.13,
       "nhl_roster_status": "ACTIVE",
       "score": 12,
       "reliability": "HIGH",
-      "recommendation": "TRACK ONLY",
+      "recommendation": "WATCH",
       "categories": [
         "FOW"
       ],
@@ -36494,7 +36052,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 3.12,
+      "percent_owned": 3.07,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -36750,7 +36308,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 51.67,
+      "percent_owned": 51.57,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -36885,14 +36443,6 @@
           "player": "Cameron Crotty",
           "player_key": "cameron crotty",
           "detected_at": "2026-10-29T18:28:12Z"
-        },
-        {
-          "id": "NEW_IR:MIN:jared spurgeon:2026-10-29",
-          "type": "NEW_IR",
-          "team": "MIN",
-          "player": "Jared Spurgeon",
-          "player_key": "jared spurgeon",
-          "detected_at": "2026-10-29T17:33:53Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -37030,7 +36580,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 77.99,
+      "percent_owned": 78.08,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -37154,7 +36704,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 24.21,
+      "percent_owned": 24.19,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -37389,14 +36939,6 @@
           "player": "Hunter McDonald",
           "player_key": "hunter mcdonald",
           "detected_at": "2026-10-31T18:20:58Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:PHI:jacob gaucher:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "PHI",
-          "player": "Jacob Gaucher",
-          "player_key": "jacob gaucher",
-          "detected_at": "2026-10-29T14:40:45Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -37410,7 +36952,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 3.06,
+      "percent_owned": 3.1,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -37658,7 +37200,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 98.3,
+      "percent_owned": 98.35,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -37781,7 +37323,7 @@
       "position": "L",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.4,
+      "percent_owned": 0.41,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -38023,14 +37565,6 @@
           "player": "Matthew Seminoff",
           "player_key": "matthew seminoff",
           "detected_at": "2026-10-30T15:36:28Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:DAL:trey taylor:2026-10-29",
-          "type": "ACTIVE_ADDED",
-          "team": "DAL",
-          "player": "Trey Taylor",
-          "player_key": "trey taylor",
-          "detected_at": "2026-10-29T14:40:45Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -38044,7 +37578,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 12.46,
+      "percent_owned": 12.91,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -38170,14 +37704,6 @@
           "player": "Hunter McDonald",
           "player_key": "hunter mcdonald",
           "detected_at": "2026-10-31T18:20:58Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:PHI:jacob gaucher:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "PHI",
-          "player": "Jacob Gaucher",
-          "player_key": "jacob gaucher",
-          "detected_at": "2026-10-29T14:40:45Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -38301,22 +37827,6 @@
           "player": "Taylor Ward",
           "player_key": "taylor ward",
           "detected_at": "2026-11-03T15:30:39Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:LAK:martin chromiak:2026-10-29",
-          "type": "ACTIVE_ADDED",
-          "team": "LAK",
-          "player": "Martin Chromiak",
-          "player_key": "martin chromiak",
-          "detected_at": "2026-10-29T17:33:53Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:LAK:jared wright:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "LAK",
-          "player": "Jared Wright",
-          "player_key": "jared wright",
-          "detected_at": "2026-10-29T17:33:53Z"
         }
       ],
       "latest_final_game_date": "2026-10-27",
@@ -38441,22 +37951,6 @@
           "player": "Taylor Ward",
           "player_key": "taylor ward",
           "detected_at": "2026-11-03T15:30:39Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:LAK:martin chromiak:2026-10-29",
-          "type": "ACTIVE_ADDED",
-          "team": "LAK",
-          "player": "Martin Chromiak",
-          "player_key": "martin chromiak",
-          "detected_at": "2026-10-29T17:33:53Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:LAK:jared wright:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "LAK",
-          "player": "Jared Wright",
-          "player_key": "jared wright",
-          "detected_at": "2026-10-29T17:33:53Z"
         }
       ],
       "latest_final_game_date": "2026-11-04",
@@ -38586,7 +38080,7 @@
       "position": "C",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.06,
+      "percent_owned": 0.07,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -38719,7 +38213,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 8.24,
+      "percent_owned": 8.51,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -38923,6 +38417,14 @@
       "role_outlook": "Сигнал пока основан на одном завершённом матче; нужна повторная проверка.",
       "team_context": [
         {
+          "id": "NEW_IR:NYR:sean durzi:2026-11-05",
+          "type": "NEW_IR",
+          "team": "NYR",
+          "player": "Sean Durzi",
+          "player_key": "sean durzi",
+          "detected_at": "2026-11-05T17:59:22Z"
+        },
+        {
           "id": "ACTIVE_ADDED:NYR:jaroslav chmelar:2026-11-03",
           "type": "ACTIVE_ADDED",
           "team": "NYR",
@@ -38956,13 +38458,13 @@
       "name": "Kaedan Korczak",
       "nhl_team": "PIT",
       "position": "D",
-      "espn_status": "FREEAGENT",
-      "espn_team_id": 0,
-      "percent_owned": 3.2,
+      "espn_status": "ONTEAM",
+      "espn_team_id": 19,
+      "percent_owned": 3.23,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
-      "recommendation": "WATCH",
+      "recommendation": "TRACK ONLY",
       "categories": [
         "G",
         "A",
@@ -39097,7 +38599,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 3.0,
+      "percent_owned": 3.03,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -39356,14 +38858,6 @@
           "player": "Cameron Crotty",
           "player_key": "cameron crotty",
           "detected_at": "2026-10-29T18:28:12Z"
-        },
-        {
-          "id": "NEW_IR:MIN:jared spurgeon:2026-10-29",
-          "type": "NEW_IR",
-          "team": "MIN",
-          "player": "Jared Spurgeon",
-          "player_key": "jared spurgeon",
-          "detected_at": "2026-10-29T17:33:53Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -39533,7 +39027,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 4.61,
+      "percent_owned": 4.67,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -39669,14 +39163,6 @@
           "player": "Cameron Crotty",
           "player_key": "cameron crotty",
           "detected_at": "2026-10-29T18:28:12Z"
-        },
-        {
-          "id": "NEW_IR:MIN:jared spurgeon:2026-10-29",
-          "type": "NEW_IR",
-          "team": "MIN",
-          "player": "Jared Spurgeon",
-          "player_key": "jared spurgeon",
-          "detected_at": "2026-10-29T17:33:53Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -39690,7 +39176,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 70.12,
+      "percent_owned": 69.91,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -40026,7 +39512,7 @@
       "position": "C",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.81,
+      "percent_owned": 0.82,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -40166,7 +39652,7 @@
       "position": "C",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.28,
+      "percent_owned": 0.29,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -40289,7 +39775,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 31.34,
+      "percent_owned": 31.24,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -40414,7 +39900,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 0.47,
+      "percent_owned": 0.52,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -40538,7 +40024,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 18,
-      "percent_owned": 80.91,
+      "percent_owned": 81.06,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -40879,14 +40365,6 @@
           "player": "Chris Tanev",
           "player_key": "chris tanev",
           "detected_at": "2026-10-31T15:19:36Z"
-        },
-        {
-          "id": "NEW_IR:TOR:kirill marchenko:2026-10-29",
-          "type": "NEW_IR",
-          "team": "TOR",
-          "player": "Kirill Marchenko",
-          "player_key": "kirill marchenko",
-          "detected_at": "2026-10-29T14:40:45Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -40900,7 +40378,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 74.73,
+      "percent_owned": 75.16,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -41035,14 +40513,6 @@
           "player": "Matthew Seminoff",
           "player_key": "matthew seminoff",
           "detected_at": "2026-10-30T15:36:28Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:DAL:trey taylor:2026-10-29",
-          "type": "ACTIVE_ADDED",
-          "team": "DAL",
-          "player": "Trey Taylor",
-          "player_key": "trey taylor",
-          "detected_at": "2026-10-29T14:40:45Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -41056,7 +40526,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 6.0,
+      "percent_owned": 6.11,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -41212,7 +40682,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.22,
+      "percent_owned": 0.23,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -41309,6 +40779,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:WPG:brayden yager:2026-11-05",
+          "type": "ACTIVE_ADDED",
+          "team": "WPG",
+          "player": "Brayden Yager",
+          "player_key": "brayden yager",
+          "detected_at": "2026-11-05T17:59:22Z"
+        },
+        {
           "id": "ACTIVE_REMOVED:WPG:brad lambert:2026-11-04",
           "type": "ACTIVE_REMOVED",
           "team": "WPG",
@@ -41328,7 +40806,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 9.69,
+      "percent_owned": 9.87,
       "nhl_roster_status": "IR",
       "score": 10,
       "reliability": "LOW",
@@ -41484,7 +40962,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.65,
+      "percent_owned": 0.64,
       "nhl_roster_status": "IR",
       "score": 10,
       "reliability": "HIGH",
@@ -41607,7 +41085,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 10.77,
+      "percent_owned": 10.7,
       "nhl_roster_status": "ACTIVE",
       "score": 8,
       "reliability": "HIGH",
@@ -41850,7 +41328,7 @@
       "position": "R",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.84,
+      "percent_owned": 0.82,
       "nhl_roster_status": "ACTIVE",
       "score": 8,
       "reliability": "HIGH",
@@ -41972,7 +41450,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
-      "percent_owned": 0.43,
+      "percent_owned": 0.4,
       "nhl_roster_status": "ACTIVE",
       "score": 8,
       "reliability": "HIGH",
@@ -42094,7 +41572,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 1.83,
+      "percent_owned": 1.79,
       "nhl_roster_status": "ACTIVE",
       "score": 8,
       "reliability": "HIGH",
@@ -42247,7 +41725,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 91.52,
+      "percent_owned": 91.55,
       "nhl_roster_status": "ACTIVE",
       "score": 8,
       "reliability": "MEDIUM",
@@ -42355,7 +41833,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 5.38,
+      "percent_owned": 5.42,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -42487,7 +41965,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 61.66,
+      "percent_owned": 61.4,
       "nhl_roster_status": "IR",
       "score": 6,
       "reliability": "MEDIUM",
@@ -42606,7 +42084,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 67.49,
+      "percent_owned": 67.68,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -42730,7 +42208,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 59.65,
+      "percent_owned": 59.58,
       "nhl_roster_status": "IR",
       "score": 6,
       "reliability": "HIGH",
@@ -42869,7 +42347,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 47.34,
+      "percent_owned": 47.36,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -42992,7 +42470,7 @@
       "position": "R",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 1.66,
+      "percent_owned": 1.65,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -43243,14 +42721,6 @@
           "player": "Cameron Crotty",
           "player_key": "cameron crotty",
           "detected_at": "2026-10-29T18:28:12Z"
-        },
-        {
-          "id": "NEW_IR:MIN:jared spurgeon:2026-10-29",
-          "type": "NEW_IR",
-          "team": "MIN",
-          "player": "Jared Spurgeon",
-          "player_key": "jared spurgeon",
-          "detected_at": "2026-10-29T17:33:53Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -43511,7 +42981,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 89.16,
+      "percent_owned": 89.25,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -43769,7 +43239,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 66.75,
+      "percent_owned": 66.91,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -43892,7 +43362,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 3.49,
+      "percent_owned": 3.47,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -44023,7 +43493,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 31.29,
+      "percent_owned": 31.8,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -44146,7 +43616,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 9,
-      "percent_owned": 28.15,
+      "percent_owned": 28.05,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -44268,7 +43738,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 15.38,
+      "percent_owned": 15.39,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -44373,7 +43843,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
-      "percent_owned": 97.84,
+      "percent_owned": 97.88,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -44508,14 +43978,6 @@
           "player": "Matthew Seminoff",
           "player_key": "matthew seminoff",
           "detected_at": "2026-10-30T15:36:28Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:DAL:trey taylor:2026-10-29",
-          "type": "ACTIVE_ADDED",
-          "team": "DAL",
-          "player": "Trey Taylor",
-          "player_key": "trey taylor",
-          "detected_at": "2026-10-29T14:40:45Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -44795,7 +44257,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 79.93,
+      "percent_owned": 79.97,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -44902,7 +44364,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 89.67,
+      "percent_owned": 89.74,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -45006,7 +44468,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 65.69,
+      "percent_owned": 65.3,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -45125,7 +44587,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 45.55,
+      "percent_owned": 45.56,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -45233,7 +44695,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 24.97,
+      "percent_owned": 24.94,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -45359,14 +44821,6 @@
           "player": "Hunter McDonald",
           "player_key": "hunter mcdonald",
           "detected_at": "2026-10-31T18:20:58Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:PHI:jacob gaucher:2026-10-29",
-          "type": "ACTIVE_REMOVED",
-          "team": "PHI",
-          "player": "Jacob Gaucher",
-          "player_key": "jacob gaucher",
-          "detected_at": "2026-10-29T14:40:45Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -45380,7 +44834,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 98.85,
+      "percent_owned": 98.83,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -45519,7 +44973,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 9,
-      "percent_owned": 99.58,
+      "percent_owned": 99.59,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -45659,7 +45113,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 9,
-      "percent_owned": 96.54,
+      "percent_owned": 96.56,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -45794,14 +45248,6 @@
           "player": "Matthew Seminoff",
           "player_key": "matthew seminoff",
           "detected_at": "2026-10-30T15:36:28Z"
-        },
-        {
-          "id": "ACTIVE_ADDED:DAL:trey taylor:2026-10-29",
-          "type": "ACTIVE_ADDED",
-          "team": "DAL",
-          "player": "Trey Taylor",
-          "player_key": "trey taylor",
-          "detected_at": "2026-10-29T14:40:45Z"
         }
       ],
       "latest_final_game_date": "2026-11-03",
@@ -45809,6 +45255,30 @@
     }
   ],
   "recent_roster_events": [
+    {
+      "id": "ACTIVE_ADDED:DET:michal postava:2026-11-05",
+      "type": "ACTIVE_ADDED",
+      "team": "DET",
+      "player": "Michal Postava",
+      "player_key": "michal postava",
+      "detected_at": "2026-11-05T17:59:22Z"
+    },
+    {
+      "id": "NEW_IR:NYR:sean durzi:2026-11-05",
+      "type": "NEW_IR",
+      "team": "NYR",
+      "player": "Sean Durzi",
+      "player_key": "sean durzi",
+      "detected_at": "2026-11-05T17:59:22Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:WPG:brayden yager:2026-11-05",
+      "type": "ACTIVE_ADDED",
+      "team": "WPG",
+      "player": "Brayden Yager",
+      "player_key": "brayden yager",
+      "detected_at": "2026-11-05T17:59:22Z"
+    },
     {
       "id": "RETURNED_FROM_IR:BUF:conor timmins:2026-11-04",
       "type": "RETURNED_FROM_IR",
@@ -46183,30 +45653,6 @@
       "team": "NYI",
       "player": "Isaiah George",
       "player_key": "isaiah george",
-      "detected_at": "2026-11-01T16:22:14Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:NYR:matthew robertson:2026-11-01",
-      "type": "ACTIVE_ADDED",
-      "team": "NYR",
-      "player": "Matthew Robertson",
-      "player_key": "matthew robertson",
-      "detected_at": "2026-11-01T16:22:14Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:PIT:rutger mcgroarty:2026-11-01",
-      "type": "ACTIVE_REMOVED",
-      "team": "PIT",
-      "player": "Rutger McGroarty",
-      "player_key": "rutger mcgroarty",
-      "detected_at": "2026-11-01T16:22:14Z"
-    },
-    {
-      "id": "NEW_IR:UTA:john marino:2026-11-01",
-      "type": "NEW_IR",
-      "team": "UTA",
-      "player": "John Marino",
-      "player_key": "john marino",
       "detected_at": "2026-11-01T16:22:14Z"
     }
   ]

@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-05 13:04 МСК",
+  "updated": "2026-11-05 20:59 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "10:04:05 11/05/2026",
+  "report_updated": "17:59:22 11/05/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 710,
-  "ir_count": 75,
+  "active_count": 711,
+  "ir_count": 76,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -1462,6 +1462,12 @@
           "position": "L"
         },
         {
+          "sweater": 35,
+          "name": "MICHAL POSTAVA",
+          "name_key": "michal postava",
+          "position": "G"
+        },
+        {
           "sweater": 36,
           "name": "JOHN GIBSON",
           "name_key": "john gibson",
@@ -2805,12 +2811,6 @@
           "position": "D"
         },
         {
-          "sweater": 5,
-          "name": "SEAN DURZI",
-          "name_key": "sean durzi",
-          "position": "D"
-        },
-        {
           "sweater": 10,
           "name": "J.T. MILLER",
           "name_key": "j t miller",
@@ -2938,6 +2938,13 @@
         }
       ],
       "ir": [
+        {
+          "sweater": 5,
+          "name": "SEAN DURZI",
+          "name_key": "sean durzi",
+          "position": "D",
+          "ir_date": "2026-11-05"
+        },
         {
           "sweater": 31,
           "name": "IGOR SHESTERKIN",
@@ -4911,6 +4918,12 @@
           "position": "R"
         },
         {
+          "sweater": 29,
+          "name": "BRAYDEN YAGER",
+          "name_key": "brayden yager",
+          "position": "C"
+        },
+        {
           "sweater": 33,
           "name": "CLAY STEVENSON",
           "name_key": "clay stevenson",
@@ -5014,6 +5027,30 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_ADDED:DET:michal postava:2026-11-05",
+      "type": "ACTIVE_ADDED",
+      "team": "DET",
+      "player": "Michal Postava",
+      "player_key": "michal postava",
+      "detected_at": "2026-11-05T17:59:22Z"
+    },
+    {
+      "id": "NEW_IR:NYR:sean durzi:2026-11-05",
+      "type": "NEW_IR",
+      "team": "NYR",
+      "player": "Sean Durzi",
+      "player_key": "sean durzi",
+      "detected_at": "2026-11-05T17:59:22Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:WPG:brayden yager:2026-11-05",
+      "type": "ACTIVE_ADDED",
+      "team": "WPG",
+      "player": "Brayden Yager",
+      "player_key": "brayden yager",
+      "detected_at": "2026-11-05T17:59:22Z"
+    },
     {
       "id": "RETURNED_FROM_IR:BUF:conor timmins:2026-11-04",
       "type": "RETURNED_FROM_IR",
@@ -5757,62 +5794,6 @@
       "player": "Samuel Girard",
       "player_key": "samuel girard",
       "detected_at": "2026-10-29T18:28:12Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:LAK:martin chromiak:2026-10-29",
-      "type": "ACTIVE_ADDED",
-      "team": "LAK",
-      "player": "Martin Chromiak",
-      "player_key": "martin chromiak",
-      "detected_at": "2026-10-29T17:33:53Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:LAK:jared wright:2026-10-29",
-      "type": "ACTIVE_REMOVED",
-      "team": "LAK",
-      "player": "Jared Wright",
-      "player_key": "jared wright",
-      "detected_at": "2026-10-29T17:33:53Z"
-    },
-    {
-      "id": "NEW_IR:MIN:jared spurgeon:2026-10-29",
-      "type": "NEW_IR",
-      "team": "MIN",
-      "player": "Jared Spurgeon",
-      "player_key": "jared spurgeon",
-      "detected_at": "2026-10-29T17:33:53Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:MIN:carson lambos:2026-10-29",
-      "type": "ACTIVE_ADDED",
-      "team": "MIN",
-      "player": "Carson Lambos",
-      "player_key": "carson lambos",
-      "detected_at": "2026-10-29T16:37:05Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:DAL:trey taylor:2026-10-29",
-      "type": "ACTIVE_ADDED",
-      "team": "DAL",
-      "player": "Trey Taylor",
-      "player_key": "trey taylor",
-      "detected_at": "2026-10-29T14:40:45Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:PHI:jacob gaucher:2026-10-29",
-      "type": "ACTIVE_REMOVED",
-      "team": "PHI",
-      "player": "Jacob Gaucher",
-      "player_key": "jacob gaucher",
-      "detected_at": "2026-10-29T14:40:45Z"
-    },
-    {
-      "id": "NEW_IR:TOR:kirill marchenko:2026-10-29",
-      "type": "NEW_IR",
-      "team": "TOR",
-      "player": "Kirill Marchenko",
-      "player_key": "kirill marchenko",
-      "detected_at": "2026-10-29T14:40:45Z"
     }
   ]
 }
