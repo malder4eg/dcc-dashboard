@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-05 08:07 МСК",
+  "updated": "2026-11-05 10:21 МСК",
   "method": "Exact normalized full name with NHL/ESPN team and position validation; no surname-only fuzzy joins.",
   "mapped": [
     {
@@ -8956,6 +8956,13 @@
       "filtered_count": 0
     },
     {
+      "nhl_player_id": 8483675,
+      "name": "Kenny Connors",
+      "reason": "ambiguous_or_team_position_mismatch",
+      "candidate_count": 1,
+      "filtered_count": 0
+    },
+    {
       "nhl_player_id": 8483678,
       "name": "Elias Pettersson",
       "reason": "ambiguous_or_team_position_mismatch",
@@ -8993,6 +9000,13 @@
     {
       "nhl_player_id": 8484227,
       "name": "Will Smith",
+      "reason": "ambiguous_or_team_position_mismatch",
+      "candidate_count": 1,
+      "filtered_count": 0
+    },
+    {
+      "nhl_player_id": 8484421,
+      "name": "Eric Pohlkamp",
       "reason": "ambiguous_or_team_position_mismatch",
       "candidate_count": 1,
       "filtered_count": 0
@@ -9059,7 +9073,7 @@
   ],
   "coverage": {
     "mapped": 641,
-    "unmatched": 106,
-    "ratio": 0.8581
+    "unmatched": 108,
+    "ratio": 0.8558
   }
 }
