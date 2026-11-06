@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-06 17:11 МСК",
+  "updated": "2026-11-06 21:27 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "14:11:31 11/06/2026",
+  "report_updated": "18:27:42 11/06/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 711,
-  "ir_count": 75,
+  "active_count": 714,
+  "ir_count": 74,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -1139,6 +1139,12 @@
           "position": "D"
         },
         {
+          "sweater": 18,
+          "name": "STEVEN LORENTZ",
+          "name_key": "steven lorentz",
+          "position": "C"
+        },
+        {
           "sweater": 19,
           "name": "ADAM FANTILLI",
           "name_key": "adam fantilli",
@@ -1202,6 +1208,12 @@
           "sweater": 91,
           "name": "KENT JOHNSON",
           "name_key": "kent johnson",
+          "position": "C"
+        },
+        {
+          "sweater": 92,
+          "name": "JACK WILLIAMS",
+          "name_key": "jack williams",
           "position": "C"
         },
         {
@@ -2065,6 +2077,12 @@
           "position": "C"
         },
         {
+          "sweater": 18,
+          "name": "MASON SHAW",
+          "name_key": "mason shaw",
+          "position": "C"
+        },
+        {
           "sweater": 19,
           "name": "TYLER PITLICK",
           "name_key": "tyler pitlick",
@@ -2907,6 +2925,12 @@
           "position": "D"
         },
         {
+          "sweater": 70,
+          "name": "JOONAS KORPISALO",
+          "name_key": "joonas korpisalo",
+          "position": "G"
+        },
+        {
           "sweater": 73,
           "name": "MATT REMPE",
           "name_key": "matt rempe",
@@ -2946,13 +2970,6 @@
           "name_key": "adam sykora",
           "position": "L",
           "ir_date": "2026-09-23"
-        },
-        {
-          "sweater": 70,
-          "name": "JOONAS KORPISALO",
-          "name_key": "joonas korpisalo",
-          "position": "G",
-          "ir_date": "2026-10-01"
         },
         {
           "sweater": 90,
@@ -3291,12 +3308,6 @@
           "name": "SERGEI MURASHOV",
           "name_key": "sergei murashov",
           "position": "G"
-        },
-        {
-          "sweater": 4,
-          "name": "JAKE LIVANAVAGE",
-          "name_key": "jake livanavage",
-          "position": "D"
         },
         {
           "sweater": 6,
@@ -5021,6 +5032,46 @@
   },
   "events": [
     {
+      "id": "ACTIVE_ADDED:CBJ:jack williams:2026-11-06",
+      "type": "ACTIVE_ADDED",
+      "team": "CBJ",
+      "player": "Jack Williams",
+      "player_key": "jack williams",
+      "detected_at": "2026-11-06T18:27:42Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:CBJ:steven lorentz:2026-11-06",
+      "type": "ACTIVE_ADDED",
+      "team": "CBJ",
+      "player": "Steven Lorentz",
+      "player_key": "steven lorentz",
+      "detected_at": "2026-11-06T18:27:42Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:MIN:mason shaw:2026-11-06",
+      "type": "ACTIVE_ADDED",
+      "team": "MIN",
+      "player": "Mason Shaw",
+      "player_key": "mason shaw",
+      "detected_at": "2026-11-06T18:27:42Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:NYR:joonas korpisalo:2026-11-06",
+      "type": "RETURNED_FROM_IR",
+      "team": "NYR",
+      "player": "Joonas Korpisalo",
+      "player_key": "joonas korpisalo",
+      "detected_at": "2026-11-06T18:27:42Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:PIT:jake livanavage:2026-11-06",
+      "type": "ACTIVE_REMOVED",
+      "team": "PIT",
+      "player": "Jake Livanavage",
+      "player_key": "jake livanavage",
+      "detected_at": "2026-11-06T18:27:42Z"
+    },
+    {
       "id": "RETURNED_FROM_IR:CGY:devin cooley:2026-11-05",
       "type": "RETURNED_FROM_IR",
       "team": "CGY",
@@ -5707,70 +5758,6 @@
       "player": "Cameron Whitehead",
       "player_key": "cameron whitehead",
       "detected_at": "2026-10-30T20:23:38Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:DET:axel sandin pellikka:2026-10-30",
-      "type": "ACTIVE_REMOVED",
-      "team": "DET",
-      "player": "Axel Sandin-Pellikka",
-      "player_key": "axel sandin pellikka",
-      "detected_at": "2026-10-30T18:25:27Z"
-    },
-    {
-      "id": "NEW_IR:CGY:devin cooley:2026-10-30",
-      "type": "NEW_IR",
-      "team": "CGY",
-      "player": "Devin Cooley",
-      "player_key": "devin cooley",
-      "detected_at": "2026-10-30T16:33:29Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:CGY:arsenii sergeev:2026-10-30",
-      "type": "ACTIVE_ADDED",
-      "team": "CGY",
-      "player": "Arsenii Sergeev",
-      "player_key": "arsenii sergeev",
-      "detected_at": "2026-10-30T16:33:29Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:CGY:william stromgren:2026-10-30",
-      "type": "ACTIVE_ADDED",
-      "team": "CGY",
-      "player": "William Stromgren",
-      "player_key": "william stromgren",
-      "detected_at": "2026-10-30T16:33:29Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:DAL:matthew seminoff:2026-10-30",
-      "type": "ACTIVE_REMOVED",
-      "team": "DAL",
-      "player": "Matthew Seminoff",
-      "player_key": "matthew seminoff",
-      "detected_at": "2026-10-30T15:36:28Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:MIN:carson lambos:2026-10-30",
-      "type": "ACTIVE_REMOVED",
-      "team": "MIN",
-      "player": "Carson Lambos",
-      "player_key": "carson lambos",
-      "detected_at": "2026-10-30T15:36:28Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:MIN:mason shaw:2026-10-30",
-      "type": "ACTIVE_REMOVED",
-      "team": "MIN",
-      "player": "Mason Shaw",
-      "player_key": "mason shaw",
-      "detected_at": "2026-10-30T15:36:28Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:STL:otto stenberg:2026-10-30",
-      "type": "ACTIVE_REMOVED",
-      "team": "STL",
-      "player": "Otto Stenberg",
-      "player_key": "otto stenberg",
-      "detected_at": "2026-10-30T15:36:28Z"
     }
   ]
 }
