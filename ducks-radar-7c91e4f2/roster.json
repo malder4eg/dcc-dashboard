@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-06 21:27 МСК",
+  "updated": "2026-11-07 02:30 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "18:27:42 11/06/2026",
+  "report_updated": "23:30:25 11/06/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 714,
-  "ir_count": 74,
+  "active_count": 712,
+  "ir_count": 75,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -2901,12 +2901,6 @@
           "position": "D"
         },
         {
-          "sweater": 47,
-          "name": "JAMES REIMER",
-          "name_key": "james reimer",
-          "position": "G"
-        },
-        {
           "sweater": 49,
           "name": "JAROSLAV CHMELAR",
           "name_key": "jaroslav chmelar",
@@ -4336,12 +4330,6 @@
           "position": "L"
         },
         {
-          "sweater": 56,
-          "name": "KAILER YAMAMOTO",
-          "name_key": "kailer yamamoto",
-          "position": "R"
-        },
-        {
           "sweater": 57,
           "name": "NICK DESIMONE",
           "name_key": "nick desimone",
@@ -4416,6 +4404,13 @@
           "name_key": "maveric lamoureux",
           "position": "D",
           "ir_date": "2026-09-28"
+        },
+        {
+          "sweater": 56,
+          "name": "KAILER YAMAMOTO",
+          "name_key": "kailer yamamoto",
+          "position": "R",
+          "ir_date": "2026-11-06"
         }
       ]
     },
@@ -5031,6 +5026,22 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_REMOVED:NYR:james reimer:2026-11-06",
+      "type": "ACTIVE_REMOVED",
+      "team": "NYR",
+      "player": "James Reimer",
+      "player_key": "james reimer",
+      "detected_at": "2026-11-06T23:30:25Z"
+    },
+    {
+      "id": "NEW_IR:UTA:kailer yamamoto:2026-11-06",
+      "type": "NEW_IR",
+      "team": "UTA",
+      "player": "Kailer Yamamoto",
+      "player_key": "kailer yamamoto",
+      "detected_at": "2026-11-06T23:30:25Z"
+    },
     {
       "id": "ACTIVE_ADDED:CBJ:jack williams:2026-11-06",
       "type": "ACTIVE_ADDED",
@@ -5718,46 +5729,6 @@
       "player": "Jacob Quillan",
       "player_key": "jacob quillan",
       "detected_at": "2026-10-31T14:24:03Z"
-    },
-    {
-      "id": "NEW_IR:VAN:filip chytil:2026-10-30",
-      "type": "NEW_IR",
-      "team": "VAN",
-      "player": "Filip Chytil",
-      "player_key": "filip chytil",
-      "detected_at": "2026-10-30T21:22:45Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:ANA:nikita klepov:2026-10-30",
-      "type": "ACTIVE_REMOVED",
-      "team": "ANA",
-      "player": "Nikita Klepov",
-      "player_key": "nikita klepov",
-      "detected_at": "2026-10-30T20:23:38Z"
-    },
-    {
-      "id": "NEW_IR:OTT:warren foegele:2026-10-30",
-      "type": "NEW_IR",
-      "team": "OTT",
-      "player": "Warren Foegele",
-      "player_key": "warren foegele",
-      "detected_at": "2026-10-30T20:23:38Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:VGK:jonas rondbjerg:2026-10-30",
-      "type": "ACTIVE_ADDED",
-      "team": "VGK",
-      "player": "Jonas Rondbjerg",
-      "player_key": "jonas rondbjerg",
-      "detected_at": "2026-10-30T20:23:38Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:VGK:cameron whitehead:2026-10-30",
-      "type": "ACTIVE_REMOVED",
-      "team": "VGK",
-      "player": "Cameron Whitehead",
-      "player_key": "cameron whitehead",
-      "detected_at": "2026-10-30T20:23:38Z"
     }
   ]
 }
