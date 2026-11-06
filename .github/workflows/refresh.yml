@@ -60,6 +60,20 @@ jobs:
       - name: Build personal NHL Fantasy Radar
         run: python nhl_radar.py
 
+      # Backup to the separate daily_impact workflow: GitHub sometimes drops
+      # scheduled starts entirely. Calculate impact inside a working ESPN
+      # refresh during the 05:00-12:59 Moscow morning window (UTC 02-09).
+      # Always calculate for manually dispatched and pushed refresh workflows.
+      - name: Calculate DCC daily impact as part of morning refresh
+        shell: bash
+        run: |
+          hour=$(date -u +%H)
+          if [[ "${{ github.event_name }}" != "schedule" ]] || (( 10#$hour >= 2 && 10#$hour <= 9 )); then
+            python daily_impact.py
+          else
+            echo "Outside DCC morning impact window; skipping."
+          fi
+
       - name: Commit updated dashboard data
         id: commit
         uses: stefanzweifel/git-auto-commit-action@v5
