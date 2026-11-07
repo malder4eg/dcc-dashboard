@@ -38,6 +38,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # A manually re-run workflow starts from the original run's old commit.
+      # Refresh main before collecting new stats to avoid non-fast-forward pushes.
+      - name: Synchronize checkout with current main
+        run: |
+          git fetch origin main
+          git checkout -B main origin/main
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
