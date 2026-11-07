@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-07 19:37 МСК",
+  "updated": "2026-11-07 23:29 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "16:37:30 11/07/2026",
+  "report_updated": "20:29:38 11/07/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 714,
-  "ir_count": 75,
+  "active_count": 717,
+  "ir_count": 70,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -1599,6 +1599,12 @@
           "position": "C"
         },
         {
+          "sweater": 18,
+          "name": "ZACH HYMAN",
+          "name_key": "zach hyman",
+          "position": "L"
+        },
+        {
           "sweater": 19,
           "name": "FILIP HALLANDER",
           "name_key": "filip hallander",
@@ -1615,6 +1621,12 @@
           "name": "ALEX FORMENTON",
           "name_key": "alex formenton",
           "position": "L"
+        },
+        {
+          "sweater": 27,
+          "name": "DEVON LEVI",
+          "name_key": "devon levi",
+          "position": "G"
         },
         {
           "sweater": 29,
@@ -1665,12 +1677,6 @@
           "position": "D"
         },
         {
-          "sweater": 90,
-          "name": "MATT TOMKINS",
-          "name_key": "matt tomkins",
-          "position": "G"
-        },
-        {
           "sweater": 92,
           "name": "VASILY PODKOLZIN",
           "name_key": "vasily podkolzin",
@@ -1702,19 +1708,6 @@
           "name_key": "mattias janmark",
           "position": "C",
           "ir_date": "2026-03-02"
-        },
-        {
-          "sweater": 18,
-          "name": "ZACH HYMAN",
-          "name_key": "zach hyman",
-          "position": "L",
-          "ir_date": "2026-10-28"
-        },
-        {
-          "sweater": 27,
-          "name": "DEVON LEVI",
-          "name_key": "devon levi",
-          "position": "G"
         },
         {
           "sweater": 53,
@@ -1937,6 +1930,12 @@
           "position": "R"
         },
         {
+          "sweater": 15,
+          "name": "ALEX TURCOTTE",
+          "name_key": "alex turcotte",
+          "position": "C"
+        },
+        {
           "sweater": 21,
           "name": "SCOTT LAUGHTON",
           "name_key": "scott laughton",
@@ -2023,13 +2022,6 @@
       ],
       "ir": [
         {
-          "sweater": 15,
-          "name": "ALEX TURCOTTE",
-          "name_key": "alex turcotte",
-          "position": "C",
-          "ir_date": "2026-10-10"
-        },
-        {
           "sweater": 22,
           "name": "KEVIN FIALA",
           "name_key": "kevin fiala",
@@ -2083,6 +2075,12 @@
           "name": "JOEL ERIKSSON EK",
           "name_key": "joel eriksson ek",
           "position": "C"
+        },
+        {
+          "sweater": 17,
+          "name": "MARCUS FOLIGNO",
+          "name_key": "marcus foligno",
+          "position": "L"
         },
         {
           "sweater": 19,
@@ -2157,6 +2155,12 @@
           "position": "R"
         },
         {
+          "sweater": 71,
+          "name": "NICK FOLIGNO",
+          "name_key": "nick foligno",
+          "position": "L"
+        },
+        {
           "sweater": 78,
           "name": "NICO STURM",
           "name_key": "nico sturm",
@@ -2184,25 +2188,11 @@
           "ir_date": "2026-09-28"
         },
         {
-          "sweater": 17,
-          "name": "MARCUS FOLIGNO",
-          "name_key": "marcus foligno",
-          "position": "L",
-          "ir_date": "2026-10-12"
-        },
-        {
           "sweater": 46,
           "name": "JARED SPURGEON",
           "name_key": "jared spurgeon",
           "position": "D",
           "ir_date": "2026-10-29"
-        },
-        {
-          "sweater": 71,
-          "name": "NICK FOLIGNO",
-          "name_key": "nick foligno",
-          "position": "L",
-          "ir_date": "2026-10-09"
         }
       ]
     },
@@ -4978,12 +4968,6 @@
           "position": "C"
         },
         {
-          "sweater": 57,
-          "name": "ELIAS SALOMONSSON",
-          "name_key": "elias salomonsson",
-          "position": "D"
-        },
-        {
           "sweater": 61,
           "name": "VIGGO BJÖRCK",
           "name_key": "viggo bjorck",
@@ -5039,6 +5023,62 @@
     }
   },
   "events": [
+    {
+      "id": "RETURNED_FROM_IR:EDM:devon levi:2026-11-07",
+      "type": "RETURNED_FROM_IR",
+      "team": "EDM",
+      "player": "Devon Levi",
+      "player_key": "devon levi",
+      "detected_at": "2026-11-07T20:29:38Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:EDM:zach hyman:2026-11-07",
+      "type": "RETURNED_FROM_IR",
+      "team": "EDM",
+      "player": "Zach Hyman",
+      "player_key": "zach hyman",
+      "detected_at": "2026-11-07T20:29:38Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:EDM:matt tomkins:2026-11-07",
+      "type": "ACTIVE_REMOVED",
+      "team": "EDM",
+      "player": "Matt Tomkins",
+      "player_key": "matt tomkins",
+      "detected_at": "2026-11-07T20:29:38Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:LAK:alex turcotte:2026-11-07",
+      "type": "RETURNED_FROM_IR",
+      "team": "LAK",
+      "player": "Alex Turcotte",
+      "player_key": "alex turcotte",
+      "detected_at": "2026-11-07T20:29:38Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:MIN:marcus foligno:2026-11-07",
+      "type": "RETURNED_FROM_IR",
+      "team": "MIN",
+      "player": "Marcus Foligno",
+      "player_key": "marcus foligno",
+      "detected_at": "2026-11-07T20:29:38Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:MIN:nick foligno:2026-11-07",
+      "type": "RETURNED_FROM_IR",
+      "team": "MIN",
+      "player": "Nick Foligno",
+      "player_key": "nick foligno",
+      "detected_at": "2026-11-07T20:29:38Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:WPG:elias salomonsson:2026-11-07",
+      "type": "ACTIVE_REMOVED",
+      "team": "WPG",
+      "player": "Elias Salomonsson",
+      "player_key": "elias salomonsson",
+      "detected_at": "2026-11-07T20:29:38Z"
+    },
     {
       "id": "NEW_IR:BOS:james hagens:2026-11-07",
       "type": "NEW_IR",
@@ -5662,46 +5702,6 @@
       "player": "Quinton Burns",
       "player_key": "quinton burns",
       "detected_at": "2026-10-31T21:21:50Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:ANA:laurent brossoit:2026-10-31",
-      "type": "ACTIVE_ADDED",
-      "team": "ANA",
-      "player": "Laurent Brossoit",
-      "player_key": "laurent brossoit",
-      "detected_at": "2026-10-31T19:26:43Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:CBJ:ivan provorov:2026-10-31",
-      "type": "RETURNED_FROM_IR",
-      "team": "CBJ",
-      "player": "Ivan Provorov",
-      "player_key": "ivan provorov",
-      "detected_at": "2026-10-31T18:20:58Z"
-    },
-    {
-      "id": "NEW_IR:DAL:kyle capobianco:2026-10-31",
-      "type": "NEW_IR",
-      "team": "DAL",
-      "player": "Kyle Capobianco",
-      "player_key": "kyle capobianco",
-      "detected_at": "2026-10-31T18:20:58Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:DAL:esa lindell:2026-10-31",
-      "type": "RETURNED_FROM_IR",
-      "team": "DAL",
-      "player": "Esa Lindell",
-      "player_key": "esa lindell",
-      "detected_at": "2026-10-31T18:20:58Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:PHI:hunter mcdonald:2026-10-31",
-      "type": "ACTIVE_REMOVED",
-      "team": "PHI",
-      "player": "Hunter McDonald",
-      "player_key": "hunter mcdonald",
-      "detected_at": "2026-10-31T18:20:58Z"
     }
   ]
 }
