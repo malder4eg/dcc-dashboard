@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-08 21:29 МСК",
+  "updated": "2026-11-09 01:28 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "18:29:55 11/08/2026",
+  "report_updated": "22:28:47 11/08/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 714,
+  "active_count": 718,
   "ir_count": 70,
   "teams": {
     "ANA": {
@@ -2846,6 +2846,12 @@
           "position": "D"
         },
         {
+          "sweater": 27,
+          "name": "MARC DEL GAIZO",
+          "name_key": "marc del gaizo",
+          "position": "D"
+        },
+        {
           "sweater": 28,
           "name": "OLIVER BJORKSTRAND",
           "name_key": "oliver bjorkstrand",
@@ -3276,6 +3282,12 @@
           "name": "SERGEI MURASHOV",
           "name_key": "sergei murashov",
           "position": "G"
+        },
+        {
+          "sweater": 2,
+          "name": "RUTGER MCGROARTY",
+          "name_key": "rutger mcgroarty",
+          "position": "R"
         },
         {
           "sweater": 6,
@@ -3729,6 +3741,12 @@
           "name": "FREDDY GAUDREAU",
           "name_key": "freddy gaudreau",
           "position": "C"
+        },
+        {
+          "sweater": 96,
+          "name": "LOGAN MORRISON",
+          "name_key": "logan morrison",
+          "position": "C"
         }
       ],
       "ir": [
@@ -3966,6 +3984,12 @@
           "name": "DENNIS HILDEBY",
           "name_key": "dennis hildeby",
           "position": "G"
+        },
+        {
+          "sweater": 37,
+          "name": "YANNI GOURDE",
+          "name_key": "yanni gourde",
+          "position": "C"
         },
         {
           "sweater": 38,
@@ -5006,6 +5030,38 @@
   },
   "events": [
     {
+      "id": "ACTIVE_ADDED:NYR:marc del gaizo:2026-11-08",
+      "type": "ACTIVE_ADDED",
+      "team": "NYR",
+      "player": "Marc Del Gaizo",
+      "player_key": "marc del gaizo",
+      "detected_at": "2026-11-08T22:28:47Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:PIT:rutger mcgroarty:2026-11-08",
+      "type": "ACTIVE_ADDED",
+      "team": "PIT",
+      "player": "Rutger McGroarty",
+      "player_key": "rutger mcgroarty",
+      "detected_at": "2026-11-08T22:28:47Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:SEA:logan morrison:2026-11-08",
+      "type": "ACTIVE_ADDED",
+      "team": "SEA",
+      "player": "Logan Morrison",
+      "player_key": "logan morrison",
+      "detected_at": "2026-11-08T22:28:47Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:TBL:yanni gourde:2026-11-08",
+      "type": "ACTIVE_ADDED",
+      "team": "TBL",
+      "player": "Yanni Gourde",
+      "player_key": "yanni gourde",
+      "detected_at": "2026-11-08T22:28:47Z"
+    },
+    {
       "id": "NEW_IR:CGY:kevin bahl:2026-11-08",
       "type": "NEW_IR",
       "team": "CGY",
@@ -5620,46 +5676,6 @@
       "player": "Shane Wright",
       "player_key": "shane wright",
       "detected_at": "2026-11-01T23:20:52Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:TOR:cole mcward:2026-11-01",
-      "type": "ACTIVE_REMOVED",
-      "team": "TOR",
-      "player": "Cole Mcward",
-      "player_key": "cole mcward",
-      "detected_at": "2026-11-01T21:22:12Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:ANA:pavel mintyukov:2026-11-01",
-      "type": "RETURNED_FROM_IR",
-      "team": "ANA",
-      "player": "Pavel Mintyukov",
-      "player_key": "pavel mintyukov",
-      "detected_at": "2026-11-01T20:17:50Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:ANA:nick jensen:2026-11-01",
-      "type": "ACTIVE_REMOVED",
-      "team": "ANA",
-      "player": "Nick Jensen",
-      "player_key": "nick jensen",
-      "detected_at": "2026-11-01T20:17:50Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:PHI:owen tippett:2026-11-01",
-      "type": "RETURNED_FROM_IR",
-      "team": "PHI",
-      "player": "Owen Tippett",
-      "player_key": "owen tippett",
-      "detected_at": "2026-11-01T19:26:22Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:PHI:travis konecny:2026-11-01",
-      "type": "RETURNED_FROM_IR",
-      "team": "PHI",
-      "player": "Travis Konecny",
-      "player_key": "travis konecny",
-      "detected_at": "2026-11-01T19:26:22Z"
     }
   ]
 }
