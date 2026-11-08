@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-08 08:55 МСК",
-  "generated_at": "2026-11-08T05:55:19Z",
+  "updated": "2026-11-08 10:18 МСК",
+  "generated_at": "2026-11-08T07:18:07Z",
   "source": {
     "nhl_stats": "https://api.nhle.com/stats/rest/en/",
     "nhl_game_status": "https://api-web.nhle.com/v1/",
@@ -11,9 +11,9 @@
   "complete": true,
   "latest_final_game_date": "2026-11-07",
   "mapping_coverage": {
-    "mapped": 643,
-    "unmatched": 112,
-    "ratio": 0.8517
+    "mapped": 641,
+    "unmatched": 114,
+    "ratio": 0.849
   },
   "signal_method": {
     "baseline": "Previous 3-5 finalized games",
@@ -21,363 +21,89 @@
     "note": "Thresholds are screening triggers, not proof of a permanent role change. Line combinations are not inferred from NHL API TOI."
   },
   "counts": {
-    "signals_all": 320,
-    "signals_available": 87,
-    "add_candidates": 5,
-    "watch": 82,
-    "new_signals": 114
+    "signals_all": 316,
+    "signals_available": 85,
+    "add_candidates": 7,
+    "watch": 78,
+    "new_signals": 7
   },
   "new_signals": [
     {
-      "nhl_player_id": 8484386,
-      "name": "Dmitri Simashev",
-      "nhl_team": "UTA",
+      "nhl_player_id": 8478465,
+      "name": "Guillaume Brisebois",
+      "nhl_team": "VAN",
       "espn_status": "FREEAGENT",
       "recommendation": "ADD CANDIDATE",
       "score": 73,
       "new_signal_types": [
-        "TOI_SURGE",
         "SH_ROLE_UP"
       ]
     },
     {
-      "nhl_player_id": 8483466,
-      "name": "Kevin Korchinski",
-      "nhl_team": "CHI",
+      "nhl_player_id": 8484136,
+      "name": "Max Sasson",
+      "nhl_team": "VAN",
       "espn_status": "FREEAGENT",
       "recommendation": "ADD CANDIDATE",
       "score": 70,
       "new_signal_types": [
-        "TOI_SURGE"
-      ]
-    },
-    {
-      "nhl_player_id": 8476393,
-      "name": "Nick Cousins",
-      "nhl_team": "OTT",
-      "espn_status": "FREEAGENT",
-      "recommendation": "ADD CANDIDATE",
-      "score": 70,
-      "new_signal_types": [
+        "TOI_SURGE",
         "PERIPHERAL_UP"
       ]
     },
     {
-      "nhl_player_id": 8484801,
-      "name": "Macklin Celebrini",
-      "nhl_team": "SJS",
-      "espn_status": "UNMATCHED",
-      "recommendation": "WATCH",
-      "score": 86,
-      "new_signal_types": [
-        "TOI_SURGE"
-      ]
-    },
-    {
-      "nhl_player_id": 8475167,
-      "name": "Victor Hedman",
-      "nhl_team": "TBL",
-      "espn_status": "UNMATCHED",
-      "recommendation": "WATCH",
-      "score": 86,
-      "new_signal_types": [
-        "TOI_SURGE",
-        "PP_ROLE_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8484227,
-      "name": "Will Smith",
-      "nhl_team": "SJS",
-      "espn_status": "UNMATCHED",
-      "recommendation": "WATCH",
-      "score": 71,
-      "new_signal_types": [
-        "PRODUCTION_UP",
-        "PPP_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8474590,
-      "name": "John Carlson",
-      "nhl_team": "TBL",
-      "espn_status": "UNMATCHED",
-      "recommendation": "WATCH",
-      "score": 61,
-      "new_signal_types": [
-        "TOI_SURGE",
-        "PP_ROLE_UP",
-        "PPP_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8481581,
-      "name": "Thomas Harley",
-      "nhl_team": "DAL",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 56,
-      "new_signal_types": [
-        "PPP_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8482516,
-      "name": "Matthew Kessel",
-      "nhl_team": "NYI",
+      "nhl_player_id": 8486161,
+      "name": "Owen Michaels",
+      "nhl_team": "EDM",
       "espn_status": "FREEAGENT",
       "recommendation": "WATCH",
-      "score": 55,
-      "new_signal_types": [
-        "TOI_SURGE"
-      ]
-    },
-    {
-      "nhl_player_id": 8485402,
-      "name": "Michael Misa",
-      "nhl_team": "SJS",
-      "espn_status": "UNMATCHED",
-      "recommendation": "WATCH",
-      "score": 55,
-      "new_signal_types": [
-        "PP_ROLE_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8479318,
-      "name": "Auston Matthews",
-      "nhl_team": "TOR",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 46,
-      "new_signal_types": [
-        "PP_ROLE_UP",
-        "PERIPHERAL_UP",
-        "PPP_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8477492,
-      "name": "Nathan MacKinnon",
-      "nhl_team": "COL",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 46,
-      "new_signal_types": [
-        "PP_ROLE_UP",
-        "PERIPHERAL_UP",
-        "PPP_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8476453,
-      "name": "Nikita Kucherov",
-      "nhl_team": "TBL",
-      "espn_status": "UNMATCHED",
-      "recommendation": "WATCH",
-      "score": 46,
-      "new_signal_types": [
-        "PP_ROLE_UP",
-        "PERIPHERAL_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8486171,
-      "name": "T.J. Hughes",
-      "nhl_team": "COL",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 46,
-      "new_signal_types": [
-        "PP_ROLE_UP",
-        "PERIPHERAL_UP",
-        "PPP_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8482740,
-      "name": "Wyatt Johnston",
-      "nhl_team": "DAL",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 46,
-      "new_signal_types": [
-        "PP_ROLE_UP",
-        "PERIPHERAL_UP",
-        "PPP_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8482737,
-      "name": "Zachary Bolduc",
-      "nhl_team": "MTL",
-      "espn_status": "UNMATCHED",
-      "recommendation": "WATCH",
-      "score": 46,
-      "new_signal_types": [
-        "PERIPHERAL_UP",
-        "PPP_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8476399,
-      "name": "Blake Coleman",
-      "nhl_team": "MIN",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 43,
-      "new_signal_types": [
-        "PP_ROLE_UP",
-        "SH_ROLE_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8480426,
-      "name": "Charle-Edouard D'Astous",
-      "nhl_team": "TBL",
-      "espn_status": "UNMATCHED",
-      "recommendation": "WATCH",
-      "score": 41,
-      "new_signal_types": [
-        "PP_ROLE_UP",
-        "PRODUCTION_UP",
-        "PPP_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8476462,
-      "name": "Dougie Hamilton",
-      "nhl_team": "NJD",
-      "espn_status": "UNMATCHED",
-      "recommendation": "WATCH",
-      "score": 41,
-      "new_signal_types": [
-        "PPP_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8480039,
-      "name": "Martin Necas",
-      "nhl_team": "COL",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 41,
-      "new_signal_types": [
-        "PRODUCTION_UP",
-        "PPP_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8486067,
-      "name": "Gavin McKenna",
-      "nhl_team": "TOR",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 40,
-      "new_signal_types": [
-        "PP_ROLE_UP",
-        "PERIPHERAL_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8478469,
-      "name": "Thomas Chabot",
-      "nhl_team": "OTT",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 40,
-      "new_signal_types": [
-        "TOI_SURGE"
-      ]
-    },
-    {
-      "nhl_player_id": 8475170,
-      "name": "Brayden Schenn",
-      "nhl_team": "NYI",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
       "score": 37,
       "new_signal_types": [
-        "PERIPHERAL_UP",
-        "FOW_UP",
+        "FOW_UP"
+      ]
+    },
+    {
+      "nhl_player_id": 8477934,
+      "name": "Leon Draisaitl",
+      "nhl_team": "EDM",
+      "espn_status": "ONTEAM",
+      "recommendation": "TRACK ONLY",
+      "score": 33,
+      "new_signal_types": [
         "PRODUCTION_UP"
       ]
     },
     {
-      "nhl_player_id": 8484210,
-      "name": "Gabe Perreault",
-      "nhl_team": "NYR",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 35,
-      "new_signal_types": [
-        "PRODUCTION_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8474563,
-      "name": "Drew Doughty",
-      "nhl_team": "LAK",
-      "espn_status": "UNMATCHED",
-      "recommendation": "WATCH",
-      "score": 33,
-      "new_signal_types": [
-        "PERIPHERAL_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8476902,
-      "name": "Esa Lindell",
-      "nhl_team": "DAL",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 33,
-      "new_signal_types": [
-        "SH_ROLE_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8476463,
-      "name": "Jonas Brodin",
-      "nhl_team": "MIN",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 33,
-      "new_signal_types": [
-        "PERIPHERAL_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8474574,
-      "name": "Tyler Myers",
-      "nhl_team": "DAL",
+      "nhl_player_id": 8482055,
+      "name": "Drew O'Connor",
+      "nhl_team": "VAN",
       "espn_status": "FREEAGENT",
       "recommendation": "WATCH",
-      "score": 33,
-      "new_signal_types": [
-        "SH_ROLE_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8474567,
-      "name": "Zach Bogosian",
-      "nhl_team": "MIN",
-      "espn_status": "FREEAGENT",
-      "recommendation": "WATCH",
-      "score": 33,
+      "score": 15,
       "new_signal_types": [
         "PERIPHERAL_UP"
       ]
     },
     {
-      "nhl_player_id": 8482155,
-      "name": "Alex Laferriere",
-      "nhl_team": "LAK",
-      "espn_status": "UNMATCHED",
+      "nhl_player_id": 8479365,
+      "name": "Trent Frederic",
+      "nhl_team": "EDM",
+      "espn_status": "FREEAGENT",
       "recommendation": "WATCH",
-      "score": 31,
+      "score": 15,
       "new_signal_types": [
-        "PRODUCTION_UP"
+        "PERIPHERAL_UP"
+      ]
+    },
+    {
+      "nhl_player_id": 8480012,
+      "name": "Elias Pettersson",
+      "nhl_team": "VAN",
+      "espn_status": "ONTEAM",
+      "recommendation": "TRACK ONLY",
+      "score": 12,
+      "new_signal_types": [
+        "FOW_UP"
       ]
     }
   ],
@@ -534,6 +260,116 @@
       "latest_final_game_id": 2026020269
     },
     {
+      "nhl_player_id": 8478465,
+      "espn_player_id": 3942866,
+      "name": "Guillaume Brisebois",
+      "nhl_team": "VAN",
+      "position": "D",
+      "espn_status": "FREEAGENT",
+      "espn_team_id": 0,
+      "percent_owned": 0.02,
+      "nhl_roster_status": "ACTIVE",
+      "score": 73,
+      "reliability": "MEDIUM",
+      "recommendation": "ADD CANDIDATE",
+      "categories": [
+        "TOI",
+        "SHP"
+      ],
+      "signals": [
+        {
+          "type": "TOI_SURGE",
+          "label": "Рост TOI",
+          "strong": true
+        },
+        {
+          "type": "SH_ROLE_UP",
+          "label": "Рост SH TOI",
+          "strong": false
+        }
+      ],
+      "metrics": {
+        "toi": {
+          "baseline": 781.33,
+          "recent": 1092.0,
+          "delta": 310.67,
+          "ratio": 1.398
+        },
+        "ev_toi": {
+          "baseline": 745.33,
+          "recent": 929.0,
+          "delta": 183.67,
+          "ratio": 1.246
+        },
+        "pp_toi": {
+          "baseline": 0.0,
+          "recent": 25.5,
+          "delta": 25.5,
+          "ratio": null
+        },
+        "sh_toi": {
+          "baseline": 36.0,
+          "recent": 137.5,
+          "delta": 101.5,
+          "ratio": 3.819
+        },
+        "sog": {
+          "baseline": 1.67,
+          "recent": 1.0,
+          "delta": -0.67,
+          "ratio": 0.6
+        },
+        "hit": {
+          "baseline": 0.67,
+          "recent": 1.0,
+          "delta": 0.33,
+          "ratio": 1.5
+        },
+        "blk": {
+          "baseline": 1.33,
+          "recent": 1.0,
+          "delta": -0.33,
+          "ratio": 0.75
+        },
+        "fow": {
+          "baseline": null,
+          "recent": null,
+          "delta": null,
+          "ratio": null
+        },
+        "fo": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "pts": {
+          "baseline": 0.0,
+          "recent": 0.5,
+          "delta": 0.5,
+          "ratio": null
+        },
+        "ppp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "shp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        }
+      },
+      "baseline_games": 3,
+      "recent_games": 2,
+      "role_outlook": "Повышенный TOI держится минимум два завершённых матча подряд.",
+      "team_context": [],
+      "latest_final_game_date": "2026-11-07",
+      "latest_final_game_id": 2026020276
+    },
+    {
       "nhl_player_id": 8483466,
       "espn_player_id": 5080148,
       "name": "Kevin Korchinski",
@@ -660,6 +496,115 @@
       "latest_final_game_id": 2026020271
     },
     {
+      "nhl_player_id": 8484136,
+      "espn_player_id": 4996099,
+      "name": "Max Sasson",
+      "nhl_team": "VAN",
+      "position": "C",
+      "espn_status": "FREEAGENT",
+      "espn_team_id": 0,
+      "percent_owned": 0.24,
+      "nhl_roster_status": "ACTIVE",
+      "score": 70,
+      "reliability": "HIGH",
+      "recommendation": "ADD CANDIDATE",
+      "categories": [
+        "TOI"
+      ],
+      "signals": [
+        {
+          "type": "TOI_SURGE",
+          "label": "Рост TOI",
+          "strong": true
+        },
+        {
+          "type": "PERIPHERAL_UP",
+          "label": "Рост SOG/HIT/BLK",
+          "strong": false
+        }
+      ],
+      "metrics": {
+        "toi": {
+          "baseline": 655.0,
+          "recent": 879.5,
+          "delta": 224.5,
+          "ratio": 1.343
+        },
+        "ev_toi": {
+          "baseline": 622.0,
+          "recent": 777.0,
+          "delta": 155.0,
+          "ratio": 1.249
+        },
+        "pp_toi": {
+          "baseline": 0.0,
+          "recent": 16.5,
+          "delta": 16.5,
+          "ratio": null
+        },
+        "sh_toi": {
+          "baseline": 33.0,
+          "recent": 86.0,
+          "delta": 53.0,
+          "ratio": 2.606
+        },
+        "sog": {
+          "baseline": 0.6,
+          "recent": 1.0,
+          "delta": 0.4,
+          "ratio": 1.667
+        },
+        "hit": {
+          "baseline": 0.6,
+          "recent": 1.5,
+          "delta": 0.9,
+          "ratio": 2.5
+        },
+        "blk": {
+          "baseline": 0.0,
+          "recent": 0.5,
+          "delta": 0.5,
+          "ratio": null
+        },
+        "fow": {
+          "baseline": 1.4,
+          "recent": 4.0,
+          "delta": 2.6,
+          "ratio": 2.857
+        },
+        "fo": {
+          "baseline": 3.4,
+          "recent": 10.0,
+          "delta": 6.6,
+          "ratio": 2.941
+        },
+        "pts": {
+          "baseline": 0.4,
+          "recent": 0.5,
+          "delta": 0.1,
+          "ratio": 1.25
+        },
+        "ppp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "shp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        }
+      },
+      "baseline_games": 5,
+      "recent_games": 2,
+      "role_outlook": "Повышенный TOI держится минимум два завершённых матча подряд.",
+      "team_context": [],
+      "latest_final_game_date": "2026-11-07",
+      "latest_final_game_id": 2026020276
+    },
+    {
       "nhl_player_id": 8476393,
       "espn_player_id": 2563027,
       "name": "Nick Cousins",
@@ -667,7 +612,7 @@
       "position": "C",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.42,
+      "percent_owned": 0.41,
       "nhl_roster_status": "ACTIVE",
       "score": 70,
       "reliability": "HIGH",
@@ -1626,7 +1571,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 43.13,
+      "percent_owned": 43.14,
       "nhl_roster_status": "ACTIVE",
       "score": 65,
       "reliability": "HIGH",
@@ -1897,7 +1842,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 91.53,
+      "percent_owned": 91.54,
       "nhl_roster_status": "ACTIVE",
       "score": 61,
       "reliability": "HIGH",
@@ -2040,162 +1985,6 @@
       ],
       "latest_final_game_date": "2026-11-06",
       "latest_final_game_id": 2026020264
-    },
-    {
-      "nhl_player_id": 8477953,
-      "espn_player_id": 3114775,
-      "name": "Kasperi Kapanen",
-      "nhl_team": "EDM",
-      "position": "R",
-      "espn_status": "ONTEAM",
-      "espn_team_id": 8,
-      "percent_owned": 11.86,
-      "nhl_roster_status": "ACTIVE",
-      "score": 59,
-      "reliability": "HIGH",
-      "recommendation": "TRACK ONLY",
-      "categories": [
-        "PPP",
-        "SHP",
-        "G",
-        "A",
-        "PTS"
-      ],
-      "signals": [
-        {
-          "type": "PP_ROLE_UP",
-          "label": "Рост PP TOI",
-          "strong": true
-        },
-        {
-          "type": "SH_ROLE_UP",
-          "label": "Рост SH TOI",
-          "strong": true
-        },
-        {
-          "type": "PRODUCTION_UP",
-          "label": "Рост результативности",
-          "strong": true
-        },
-        {
-          "type": "PPP_UP",
-          "label": "Рост PPP",
-          "strong": false
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 1121.8,
-          "recent": 1199.5,
-          "delta": 77.7,
-          "ratio": 1.069
-        },
-        "ev_toi": {
-          "baseline": 862.8,
-          "recent": 730.0,
-          "delta": -132.8,
-          "ratio": 0.846
-        },
-        "pp_toi": {
-          "baseline": 177.4,
-          "recent": 239.0,
-          "delta": 61.6,
-          "ratio": 1.347
-        },
-        "sh_toi": {
-          "baseline": 81.6,
-          "recent": 230.5,
-          "delta": 148.9,
-          "ratio": 2.825
-        },
-        "sog": {
-          "baseline": 1.6,
-          "recent": 1.5,
-          "delta": -0.1,
-          "ratio": 0.938
-        },
-        "hit": {
-          "baseline": 3.8,
-          "recent": 0.5,
-          "delta": -3.3,
-          "ratio": 0.132
-        },
-        "blk": {
-          "baseline": 0.2,
-          "recent": 0.0,
-          "delta": -0.2,
-          "ratio": 0.0
-        },
-        "fow": {
-          "baseline": 0.0,
-          "recent": null,
-          "delta": null,
-          "ratio": null
-        },
-        "fo": {
-          "baseline": 0.2,
-          "recent": 0.0,
-          "delta": -0.2,
-          "ratio": 0.0
-        },
-        "pts": {
-          "baseline": 0.6,
-          "recent": 1.5,
-          "delta": 0.9,
-          "ratio": 2.5
-        },
-        "ppp": {
-          "baseline": 0.4,
-          "recent": 1.5,
-          "delta": 1.1,
-          "ratio": 3.75
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "RETURNED_FROM_IR:EDM:devon levi:2026-11-07",
-          "type": "RETURNED_FROM_IR",
-          "team": "EDM",
-          "player": "Devon Levi",
-          "player_key": "devon levi",
-          "detected_at": "2026-11-07T20:29:38Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:EDM:zach hyman:2026-11-07",
-          "type": "RETURNED_FROM_IR",
-          "team": "EDM",
-          "player": "Zach Hyman",
-          "player_key": "zach hyman",
-          "detected_at": "2026-11-07T20:29:38Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:EDM:matt tomkins:2026-11-07",
-          "type": "ACTIVE_REMOVED",
-          "team": "EDM",
-          "player": "Matt Tomkins",
-          "player_key": "matt tomkins",
-          "detected_at": "2026-11-07T20:29:38Z"
-        },
-        {
-          "id": "NEW_IR:EDM:isaac howard:2026-11-05",
-          "type": "NEW_IR",
-          "team": "EDM",
-          "player": "Isaac Howard",
-          "player_key": "isaac howard",
-          "detected_at": "2026-11-05T23:36:53Z"
-        }
-      ],
-      "latest_final_game_date": "2026-11-05",
-      "latest_final_game_id": 2026020260
     },
     {
       "nhl_player_id": 8480801,
@@ -2346,7 +2135,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 76.36,
+      "percent_owned": 76.39,
       "nhl_roster_status": "ACTIVE",
       "score": 56,
       "reliability": "HIGH",
@@ -2617,7 +2406,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 93.42,
+      "percent_owned": 93.43,
       "nhl_roster_status": "ACTIVE",
       "score": 55,
       "reliability": "HIGH",
@@ -2764,7 +2553,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 4.74,
+      "percent_owned": 4.76,
       "nhl_roster_status": "ACTIVE",
       "score": 55,
       "reliability": "HIGH",
@@ -3581,7 +3370,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 18,
-      "percent_owned": 1.03,
+      "percent_owned": 1.04,
       "nhl_roster_status": "ACTIVE",
       "score": 46,
       "reliability": "HIGH",
@@ -4074,110 +3863,6 @@
       "latest_final_game_id": 2026020085
     },
     {
-      "nhl_player_id": 8478465,
-      "espn_player_id": 3942866,
-      "name": "Guillaume Brisebois",
-      "nhl_team": "VAN",
-      "position": "D",
-      "espn_status": "FREEAGENT",
-      "espn_team_id": 0,
-      "percent_owned": 0.02,
-      "nhl_roster_status": "ACTIVE",
-      "score": 45,
-      "reliability": "LOW",
-      "recommendation": "WATCH",
-      "categories": [
-        "TOI"
-      ],
-      "signals": [
-        {
-          "type": "TOI_SURGE",
-          "label": "Рост TOI",
-          "strong": true
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 781.33,
-          "recent": 1147.0,
-          "delta": 365.67,
-          "ratio": 1.468
-        },
-        "ev_toi": {
-          "baseline": 745.33,
-          "recent": 1045.0,
-          "delta": 299.67,
-          "ratio": 1.402
-        },
-        "pp_toi": {
-          "baseline": 0.0,
-          "recent": 16.0,
-          "delta": 16.0,
-          "ratio": null
-        },
-        "sh_toi": {
-          "baseline": 36.0,
-          "recent": 86.0,
-          "delta": 50.0,
-          "ratio": 2.389
-        },
-        "sog": {
-          "baseline": 1.67,
-          "recent": 1.0,
-          "delta": -0.67,
-          "ratio": 0.6
-        },
-        "hit": {
-          "baseline": 0.67,
-          "recent": 1.0,
-          "delta": 0.33,
-          "ratio": 1.5
-        },
-        "blk": {
-          "baseline": 1.33,
-          "recent": 0.0,
-          "delta": -1.33,
-          "ratio": 0.0
-        },
-        "fow": {
-          "baseline": null,
-          "recent": null,
-          "delta": null,
-          "ratio": null
-        },
-        "fo": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "pts": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "ppp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 3,
-      "recent_games": 1,
-      "role_outlook": "Сигнал пока основан на одном завершённом матче; нужна повторная проверка.",
-      "team_context": [],
-      "latest_final_game_date": "2026-11-05",
-      "latest_final_game_id": 2026020259
-    },
-    {
       "nhl_player_id": 8478476,
       "espn_player_id": 3939716,
       "name": "Kyle Capobianco",
@@ -4564,7 +4249,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 51.57,
+      "percent_owned": 51.55,
       "nhl_roster_status": "ACTIVE",
       "score": 43,
       "reliability": "HIGH",
@@ -4716,7 +4401,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 8.67,
+      "percent_owned": 8.64,
       "nhl_roster_status": "ACTIVE",
       "score": 43,
       "reliability": "HIGH",
@@ -5123,130 +4808,6 @@
       "latest_final_game_id": 2026020265
     },
     {
-      "nhl_player_id": 8482079,
-      "espn_player_id": 4697391,
-      "name": "Marco Rossi",
-      "nhl_team": "VAN",
-      "position": "C",
-      "espn_status": "ONTEAM",
-      "espn_team_id": 9,
-      "percent_owned": 27.42,
-      "nhl_roster_status": "ACTIVE",
-      "score": 43,
-      "reliability": "HIGH",
-      "recommendation": "TRACK ONLY",
-      "categories": [
-        "SOG",
-        "HIT",
-        "FOW",
-        "G",
-        "A",
-        "PTS"
-      ],
-      "signals": [
-        {
-          "type": "PERIPHERAL_UP",
-          "label": "Рост SOG/HIT/BLK",
-          "strong": true
-        },
-        {
-          "type": "FOW_UP",
-          "label": "Рост FOW",
-          "strong": false
-        },
-        {
-          "type": "PRODUCTION_UP",
-          "label": "Рост результативности",
-          "strong": false
-        },
-        {
-          "type": "PPP_UP",
-          "label": "Рост PPP",
-          "strong": false
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 852.8,
-          "recent": 886.0,
-          "delta": 33.2,
-          "ratio": 1.039
-        },
-        "ev_toi": {
-          "baseline": 732.8,
-          "recent": 773.0,
-          "delta": 40.2,
-          "ratio": 1.055
-        },
-        "pp_toi": {
-          "baseline": 117.2,
-          "recent": 113.0,
-          "delta": -4.2,
-          "ratio": 0.964
-        },
-        "sh_toi": {
-          "baseline": 2.8,
-          "recent": 0.0,
-          "delta": -2.8,
-          "ratio": 0.0
-        },
-        "sog": {
-          "baseline": 1.2,
-          "recent": 4.0,
-          "delta": 2.8,
-          "ratio": 3.333
-        },
-        "hit": {
-          "baseline": 0.8,
-          "recent": 2.0,
-          "delta": 1.2,
-          "ratio": 2.5
-        },
-        "blk": {
-          "baseline": 0.4,
-          "recent": 0.0,
-          "delta": -0.4,
-          "ratio": 0.0
-        },
-        "fow": {
-          "baseline": 3.2,
-          "recent": 7.5,
-          "delta": 4.3,
-          "ratio": 2.344
-        },
-        "fo": {
-          "baseline": 7.0,
-          "recent": 13.0,
-          "delta": 6.0,
-          "ratio": 1.857
-        },
-        "pts": {
-          "baseline": 0.2,
-          "recent": 1.0,
-          "delta": 0.8,
-          "ratio": 5.0
-        },
-        "ppp": {
-          "baseline": 0.0,
-          "recent": 0.5,
-          "delta": 0.5,
-          "ratio": null
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [],
-      "latest_final_game_date": "2026-11-05",
-      "latest_final_game_id": 2026020259
-    },
-    {
       "nhl_player_id": 8478483,
       "espn_player_id": 3899937,
       "name": "Mitch Marner",
@@ -5397,150 +4958,6 @@
       ],
       "latest_final_game_date": "2026-11-05",
       "latest_final_game_id": 2026020252
-    },
-    {
-      "nhl_player_id": 8486161,
-      "espn_player_id": 5206840,
-      "name": "Owen Michaels",
-      "nhl_team": "EDM",
-      "position": "R",
-      "espn_status": "FREEAGENT",
-      "espn_team_id": 0,
-      "percent_owned": 0.28,
-      "nhl_roster_status": "ACTIVE",
-      "score": 43,
-      "reliability": "HIGH",
-      "recommendation": "WATCH",
-      "categories": [
-        "PPP",
-        "SHP",
-        "FOW"
-      ],
-      "signals": [
-        {
-          "type": "PP_ROLE_UP",
-          "label": "Рост PP TOI",
-          "strong": false
-        },
-        {
-          "type": "SH_ROLE_UP",
-          "label": "Рост SH TOI",
-          "strong": true
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 730.4,
-          "recent": 762.0,
-          "delta": 31.6,
-          "ratio": 1.043
-        },
-        "ev_toi": {
-          "baseline": 642.4,
-          "recent": 518.0,
-          "delta": -124.4,
-          "ratio": 0.806
-        },
-        "pp_toi": {
-          "baseline": 0.0,
-          "recent": 67.0,
-          "delta": 67.0,
-          "ratio": null
-        },
-        "sh_toi": {
-          "baseline": 88.0,
-          "recent": 177.0,
-          "delta": 89.0,
-          "ratio": 2.011
-        },
-        "sog": {
-          "baseline": 0.6,
-          "recent": 1.0,
-          "delta": 0.4,
-          "ratio": 1.667
-        },
-        "hit": {
-          "baseline": 1.8,
-          "recent": 0.0,
-          "delta": -1.8,
-          "ratio": 0.0
-        },
-        "blk": {
-          "baseline": 0.0,
-          "recent": 1.0,
-          "delta": 1.0,
-          "ratio": null
-        },
-        "fow": {
-          "baseline": 4.4,
-          "recent": 6.0,
-          "delta": 1.6,
-          "ratio": 1.364
-        },
-        "fo": {
-          "baseline": 11.6,
-          "recent": 12.0,
-          "delta": 0.4,
-          "ratio": 1.034
-        },
-        "pts": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "ppp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "RETURNED_FROM_IR:EDM:devon levi:2026-11-07",
-          "type": "RETURNED_FROM_IR",
-          "team": "EDM",
-          "player": "Devon Levi",
-          "player_key": "devon levi",
-          "detected_at": "2026-11-07T20:29:38Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:EDM:zach hyman:2026-11-07",
-          "type": "RETURNED_FROM_IR",
-          "team": "EDM",
-          "player": "Zach Hyman",
-          "player_key": "zach hyman",
-          "detected_at": "2026-11-07T20:29:38Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:EDM:matt tomkins:2026-11-07",
-          "type": "ACTIVE_REMOVED",
-          "team": "EDM",
-          "player": "Matt Tomkins",
-          "player_key": "matt tomkins",
-          "detected_at": "2026-11-07T20:29:38Z"
-        },
-        {
-          "id": "NEW_IR:EDM:isaac howard:2026-11-05",
-          "type": "NEW_IR",
-          "team": "EDM",
-          "player": "Isaac Howard",
-          "player_key": "isaac howard",
-          "detected_at": "2026-11-05T23:36:53Z"
-        }
-      ],
-      "latest_final_game_date": "2026-11-05",
-      "latest_final_game_id": 2026020260
     },
     {
       "nhl_player_id": 8480426,
@@ -5957,125 +5374,6 @@
       "latest_final_game_id": 2026020252
     },
     {
-      "nhl_player_id": 8483499,
-      "espn_player_id": 5080163,
-      "name": "Liam Ohgren",
-      "nhl_team": "VAN",
-      "position": "L",
-      "espn_status": "ONTEAM",
-      "espn_team_id": 17,
-      "percent_owned": 0.99,
-      "nhl_roster_status": "ACTIVE",
-      "score": 41,
-      "reliability": "HIGH",
-      "recommendation": "TRACK ONLY",
-      "categories": [
-        "PPP",
-        "SOG",
-        "HIT",
-        "G",
-        "A",
-        "PTS"
-      ],
-      "signals": [
-        {
-          "type": "PP_ROLE_UP",
-          "label": "Рост PP TOI",
-          "strong": false
-        },
-        {
-          "type": "PRODUCTION_UP",
-          "label": "Рост результативности",
-          "strong": false
-        },
-        {
-          "type": "PPP_UP",
-          "label": "Рост PPP",
-          "strong": false
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 787.4,
-          "recent": 863.0,
-          "delta": 75.6,
-          "ratio": 1.096
-        },
-        "ev_toi": {
-          "baseline": 744.8,
-          "recent": 753.0,
-          "delta": 8.2,
-          "ratio": 1.011
-        },
-        "pp_toi": {
-          "baseline": 39.0,
-          "recent": 110.0,
-          "delta": 71.0,
-          "ratio": 2.821
-        },
-        "sh_toi": {
-          "baseline": 3.6,
-          "recent": 0.0,
-          "delta": -3.6,
-          "ratio": 0.0
-        },
-        "sog": {
-          "baseline": 1.6,
-          "recent": 2.0,
-          "delta": 0.4,
-          "ratio": 1.25
-        },
-        "hit": {
-          "baseline": 1.8,
-          "recent": 2.0,
-          "delta": 0.2,
-          "ratio": 1.111
-        },
-        "blk": {
-          "baseline": 0.4,
-          "recent": 0.5,
-          "delta": 0.1,
-          "ratio": 1.25
-        },
-        "fow": {
-          "baseline": 0.5,
-          "recent": null,
-          "delta": null,
-          "ratio": null
-        },
-        "fo": {
-          "baseline": 0.4,
-          "recent": 0.0,
-          "delta": -0.4,
-          "ratio": 0.0
-        },
-        "pts": {
-          "baseline": 0.4,
-          "recent": 1.0,
-          "delta": 0.6,
-          "ratio": 2.5
-        },
-        "ppp": {
-          "baseline": 0.0,
-          "recent": 0.5,
-          "delta": 0.5,
-          "ratio": null
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [],
-      "latest_final_game_date": "2026-11-05",
-      "latest_final_game_id": 2026020259
-    },
-    {
       "nhl_player_id": 8480039,
       "espn_player_id": 4233586,
       "name": "Martin Necas",
@@ -6226,7 +5524,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 81.82,
+      "percent_owned": 81.85,
       "nhl_roster_status": "ACTIVE",
       "score": 41,
       "reliability": "HIGH",
@@ -6387,7 +5685,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 73.16,
+      "percent_owned": 73.18,
       "nhl_roster_status": "ACTIVE",
       "score": 40,
       "reliability": "HIGH",
@@ -6530,7 +5828,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 18,
-      "percent_owned": 57.52,
+      "percent_owned": 57.56,
       "nhl_roster_status": "ACTIVE",
       "score": 40,
       "reliability": "HIGH",
@@ -6828,7 +6126,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 92.01,
+      "percent_owned": 92.0,
       "nhl_roster_status": "ACTIVE",
       "score": 40,
       "reliability": "HIGH",
@@ -7087,102 +6385,94 @@
       "latest_final_game_id": 2026020270
     },
     {
-      "nhl_player_id": 8475218,
-      "espn_player_id": 2558631,
-      "name": "Mattias Ekholm",
+      "nhl_player_id": 8486161,
+      "espn_player_id": 5206840,
+      "name": "Owen Michaels",
       "nhl_team": "EDM",
-      "position": "D",
-      "espn_status": "ONTEAM",
-      "espn_team_id": 14,
-      "percent_owned": 49.38,
+      "position": "R",
+      "espn_status": "FREEAGENT",
+      "espn_team_id": 0,
+      "percent_owned": 0.28,
       "nhl_roster_status": "ACTIVE",
-      "score": 36,
+      "score": 37,
       "reliability": "HIGH",
-      "recommendation": "TRACK ONLY",
+      "recommendation": "WATCH",
       "categories": [
-        "SHP",
-        "SOG",
-        "G",
-        "A",
-        "PTS"
+        "PPP",
+        "FOW"
       ],
       "signals": [
         {
-          "type": "SH_ROLE_UP",
-          "label": "Рост SH TOI",
+          "type": "PP_ROLE_UP",
+          "label": "Рост PP TOI",
+          "strong": false
+        },
+        {
+          "type": "FOW_UP",
+          "label": "Рост FOW",
           "strong": true
-        },
-        {
-          "type": "PRODUCTION_UP",
-          "label": "Рост результативности",
-          "strong": false
-        },
-        {
-          "type": "SHP_EVENT",
-          "label": "SHP в последних матчах",
-          "strong": false
         }
       ],
       "metrics": {
         "toi": {
-          "baseline": 1154.8,
-          "recent": 1307.5,
-          "delta": 152.7,
-          "ratio": 1.132
+          "baseline": 724.8,
+          "recent": 672.5,
+          "delta": -52.3,
+          "ratio": 0.928
         },
         "ev_toi": {
-          "baseline": 1009.2,
-          "recent": 1009.5,
-          "delta": 0.3,
-          "ratio": 1.0
+          "baseline": 610.2,
+          "recent": 484.5,
+          "delta": -125.7,
+          "ratio": 0.794
         },
         "pp_toi": {
-          "baseline": 32.6,
-          "recent": 26.5,
-          "delta": -6.1,
-          "ratio": 0.813
+          "baseline": 0.0,
+          "recent": 67.0,
+          "delta": 67.0,
+          "ratio": null
         },
         "sh_toi": {
-          "baseline": 113.0,
-          "recent": 271.5,
-          "delta": 158.5,
-          "ratio": 2.403
+          "baseline": 114.6,
+          "recent": 121.0,
+          "delta": 6.4,
+          "ratio": 1.056
         },
         "sog": {
-          "baseline": 1.0,
-          "recent": 2.0,
-          "delta": 1.0,
-          "ratio": 2.0
+          "baseline": 0.8,
+          "recent": 0.5,
+          "delta": -0.3,
+          "ratio": 0.625
         },
         "hit": {
           "baseline": 0.8,
-          "recent": 1.0,
-          "delta": 0.2,
-          "ratio": 1.25
+          "recent": 0.0,
+          "delta": -0.8,
+          "ratio": 0.0
         },
         "blk": {
-          "baseline": 1.0,
-          "recent": 1.0,
-          "delta": 0.0,
-          "ratio": 1.0
+          "baseline": 0.4,
+          "recent": 0.5,
+          "delta": 0.1,
+          "ratio": 1.25
         },
         "fow": {
-          "baseline": null,
-          "recent": null,
-          "delta": null,
-          "ratio": null
+          "baseline": 4.8,
+          "recent": 8.5,
+          "delta": 3.7,
+          "ratio": 1.771
         },
         "fo": {
+          "baseline": 11.8,
+          "recent": 11.0,
+          "delta": -0.8,
+          "ratio": 0.932
+        },
+        "pts": {
           "baseline": 0.0,
           "recent": 0.0,
           "delta": 0.0,
           "ratio": null
-        },
-        "pts": {
-          "baseline": 0.4,
-          "recent": 1.0,
-          "delta": 0.6,
-          "ratio": 2.5
         },
         "ppp": {
           "baseline": 0.0,
@@ -7192,8 +6482,8 @@
         },
         "shp": {
           "baseline": 0.0,
-          "recent": 0.5,
-          "delta": 0.5,
+          "recent": 0.0,
+          "delta": 0.0,
           "ratio": null
         }
       },
@@ -7234,8 +6524,8 @@
           "detected_at": "2026-11-05T23:36:53Z"
         }
       ],
-      "latest_final_game_date": "2026-11-05",
-      "latest_final_game_id": 2026020260
+      "latest_final_game_date": "2026-11-07",
+      "latest_final_game_id": 2026020276
     },
     {
       "nhl_player_id": 8484762,
@@ -7245,7 +6535,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 86.96,
+      "percent_owned": 86.99,
       "nhl_roster_status": "ACTIVE",
       "score": 35,
       "reliability": "HIGH",
@@ -7546,158 +6836,6 @@
       "latest_final_game_id": 2026020267
     },
     {
-      "nhl_player_id": 8477934,
-      "espn_player_id": 3114727,
-      "name": "Leon Draisaitl",
-      "nhl_team": "EDM",
-      "position": "C",
-      "espn_status": "ONTEAM",
-      "espn_team_id": 14,
-      "percent_owned": 99.84,
-      "nhl_roster_status": "ACTIVE",
-      "score": 35,
-      "reliability": "HIGH",
-      "recommendation": "TRACK ONLY",
-      "categories": [
-        "SHP",
-        "SOG",
-        "FOW",
-        "G",
-        "A",
-        "PTS"
-      ],
-      "signals": [
-        {
-          "type": "PERIPHERAL_UP",
-          "label": "Рост SOG/HIT/BLK",
-          "strong": false
-        },
-        {
-          "type": "FOW_UP",
-          "label": "Рост FOW",
-          "strong": true
-        },
-        {
-          "type": "SHP_EVENT",
-          "label": "SHP в последних матчах",
-          "strong": false
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 1260.8,
-          "recent": 1406.0,
-          "delta": 145.2,
-          "ratio": 1.115
-        },
-        "ev_toi": {
-          "baseline": 982.0,
-          "recent": 1025.5,
-          "delta": 43.5,
-          "ratio": 1.044
-        },
-        "pp_toi": {
-          "baseline": 267.0,
-          "recent": 296.5,
-          "delta": 29.5,
-          "ratio": 1.11
-        },
-        "sh_toi": {
-          "baseline": 11.8,
-          "recent": 84.0,
-          "delta": 72.2,
-          "ratio": 7.119
-        },
-        "sog": {
-          "baseline": 3.4,
-          "recent": 5.0,
-          "delta": 1.6,
-          "ratio": 1.471
-        },
-        "hit": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "blk": {
-          "baseline": 0.0,
-          "recent": 0.5,
-          "delta": 0.5,
-          "ratio": null
-        },
-        "fow": {
-          "baseline": 7.8,
-          "recent": 11.0,
-          "delta": 3.2,
-          "ratio": 1.41
-        },
-        "fo": {
-          "baseline": 13.8,
-          "recent": 14.5,
-          "delta": 0.7,
-          "ratio": 1.051
-        },
-        "pts": {
-          "baseline": 1.4,
-          "recent": 1.5,
-          "delta": 0.1,
-          "ratio": 1.071
-        },
-        "ppp": {
-          "baseline": 0.6,
-          "recent": 0.5,
-          "delta": -0.1,
-          "ratio": 0.833
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.5,
-          "delta": 0.5,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "RETURNED_FROM_IR:EDM:devon levi:2026-11-07",
-          "type": "RETURNED_FROM_IR",
-          "team": "EDM",
-          "player": "Devon Levi",
-          "player_key": "devon levi",
-          "detected_at": "2026-11-07T20:29:38Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:EDM:zach hyman:2026-11-07",
-          "type": "RETURNED_FROM_IR",
-          "team": "EDM",
-          "player": "Zach Hyman",
-          "player_key": "zach hyman",
-          "detected_at": "2026-11-07T20:29:38Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:EDM:matt tomkins:2026-11-07",
-          "type": "ACTIVE_REMOVED",
-          "team": "EDM",
-          "player": "Matt Tomkins",
-          "player_key": "matt tomkins",
-          "detected_at": "2026-11-07T20:29:38Z"
-        },
-        {
-          "id": "NEW_IR:EDM:isaac howard:2026-11-05",
-          "type": "NEW_IR",
-          "team": "EDM",
-          "player": "Isaac Howard",
-          "player_key": "isaac howard",
-          "detected_at": "2026-11-05T23:36:53Z"
-        }
-      ],
-      "latest_final_game_date": "2026-11-05",
-      "latest_final_game_id": 2026020260
-    },
-    {
       "nhl_player_id": 8475798,
       "espn_player_id": 5831,
       "name": "Mikael Granlund",
@@ -7705,7 +6843,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 66.13,
+      "percent_owned": 66.22,
       "nhl_roster_status": "ACTIVE",
       "score": 35,
       "reliability": "HIGH",
@@ -7851,7 +6989,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 97.99,
+      "percent_owned": 98.0,
       "nhl_roster_status": "ACTIVE",
       "score": 35,
       "reliability": "HIGH",
@@ -7982,7 +7120,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 16.14,
+      "percent_owned": 16.32,
       "nhl_roster_status": "ACTIVE",
       "score": 35,
       "reliability": "MEDIUM",
@@ -8136,7 +7274,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 54.24,
+      "percent_owned": 54.28,
       "nhl_roster_status": "ACTIVE",
       "score": 34,
       "reliability": "HIGH",
@@ -8263,7 +7401,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 9,
-      "percent_owned": 13.89,
+      "percent_owned": 13.87,
       "nhl_roster_status": "ACTIVE",
       "score": 33,
       "reliability": "HIGH",
@@ -8391,7 +7529,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 18.21,
+      "percent_owned": 18.2,
       "nhl_roster_status": "ACTIVE",
       "score": 33,
       "reliability": "HIGH",
@@ -8822,7 +7960,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
-      "percent_owned": 35.49,
+      "percent_owned": 35.48,
       "nhl_roster_status": "ACTIVE",
       "score": 33,
       "reliability": "HIGH",
@@ -8950,7 +8088,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 9.26,
+      "percent_owned": 9.24,
       "nhl_roster_status": "ACTIVE",
       "score": 33,
       "reliability": "HIGH",
@@ -9093,6 +8231,158 @@
       ],
       "latest_final_game_date": "2026-11-07",
       "latest_final_game_id": 2026020273
+    },
+    {
+      "nhl_player_id": 8477934,
+      "espn_player_id": 3114727,
+      "name": "Leon Draisaitl",
+      "nhl_team": "EDM",
+      "position": "C",
+      "espn_status": "ONTEAM",
+      "espn_team_id": 14,
+      "percent_owned": 99.84,
+      "nhl_roster_status": "ACTIVE",
+      "score": 33,
+      "reliability": "HIGH",
+      "recommendation": "TRACK ONLY",
+      "categories": [
+        "SHP",
+        "SOG",
+        "FOW",
+        "G",
+        "A",
+        "PTS"
+      ],
+      "signals": [
+        {
+          "type": "PERIPHERAL_UP",
+          "label": "Рост SOG/HIT/BLK",
+          "strong": true
+        },
+        {
+          "type": "PRODUCTION_UP",
+          "label": "Рост результативности",
+          "strong": true
+        },
+        {
+          "type": "SHP_EVENT",
+          "label": "SHP в последних матчах",
+          "strong": false
+        }
+      ],
+      "metrics": {
+        "toi": {
+          "baseline": 1282.2,
+          "recent": 1457.0,
+          "delta": 174.8,
+          "ratio": 1.136
+        },
+        "ev_toi": {
+          "baseline": 994.0,
+          "recent": 1099.5,
+          "delta": 105.5,
+          "ratio": 1.106
+        },
+        "pp_toi": {
+          "baseline": 272.2,
+          "recent": 280.5,
+          "delta": 8.3,
+          "ratio": 1.03
+        },
+        "sh_toi": {
+          "baseline": 16.0,
+          "recent": 77.0,
+          "delta": 61.0,
+          "ratio": 4.812
+        },
+        "sog": {
+          "baseline": 2.8,
+          "recent": 6.5,
+          "delta": 3.7,
+          "ratio": 2.321
+        },
+        "hit": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "blk": {
+          "baseline": 0.0,
+          "recent": 0.5,
+          "delta": 0.5,
+          "ratio": null
+        },
+        "fow": {
+          "baseline": 7.8,
+          "recent": 8.5,
+          "delta": 0.7,
+          "ratio": 1.09
+        },
+        "fo": {
+          "baseline": 13.0,
+          "recent": 14.5,
+          "delta": 1.5,
+          "ratio": 1.115
+        },
+        "pts": {
+          "baseline": 1.2,
+          "recent": 2.5,
+          "delta": 1.3,
+          "ratio": 2.083
+        },
+        "ppp": {
+          "baseline": 0.6,
+          "recent": 0.5,
+          "delta": -0.1,
+          "ratio": 0.833
+        },
+        "shp": {
+          "baseline": 0.0,
+          "recent": 0.5,
+          "delta": 0.5,
+          "ratio": null
+        }
+      },
+      "baseline_games": 5,
+      "recent_games": 2,
+      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
+      "team_context": [
+        {
+          "id": "RETURNED_FROM_IR:EDM:devon levi:2026-11-07",
+          "type": "RETURNED_FROM_IR",
+          "team": "EDM",
+          "player": "Devon Levi",
+          "player_key": "devon levi",
+          "detected_at": "2026-11-07T20:29:38Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:EDM:zach hyman:2026-11-07",
+          "type": "RETURNED_FROM_IR",
+          "team": "EDM",
+          "player": "Zach Hyman",
+          "player_key": "zach hyman",
+          "detected_at": "2026-11-07T20:29:38Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:EDM:matt tomkins:2026-11-07",
+          "type": "ACTIVE_REMOVED",
+          "team": "EDM",
+          "player": "Matt Tomkins",
+          "player_key": "matt tomkins",
+          "detected_at": "2026-11-07T20:29:38Z"
+        },
+        {
+          "id": "NEW_IR:EDM:isaac howard:2026-11-05",
+          "type": "NEW_IR",
+          "team": "EDM",
+          "player": "Isaac Howard",
+          "player_key": "isaac howard",
+          "detected_at": "2026-11-05T23:36:53Z"
+        }
+      ],
+      "latest_final_game_date": "2026-11-07",
+      "latest_final_game_id": 2026020276
     },
     {
       "nhl_player_id": 8474574,
@@ -10085,7 +9375,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 94.01,
+      "percent_owned": 94.0,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -10638,7 +9928,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 93.08,
+      "percent_owned": 93.09,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -11319,7 +10609,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 8.37,
+      "percent_owned": 8.39,
       "nhl_roster_status": "ACTIVE",
       "score": 31,
       "reliability": "HIGH",
@@ -11453,7 +10743,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 75.28,
+      "percent_owned": 75.24,
       "nhl_roster_status": "ACTIVE",
       "score": 30,
       "reliability": "HIGH",
@@ -11712,7 +11002,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 5.33,
+      "percent_owned": 5.31,
       "nhl_roster_status": "ACTIVE",
       "score": 30,
       "reliability": "HIGH",
@@ -11858,13 +11148,13 @@
     },
     {
       "nhl_player_id": 8480289,
-      "espn_player_id": 4316970,
+      "espn_player_id": null,
       "name": "Morgan Barron",
       "nhl_team": "WPG",
       "position": "C",
-      "espn_status": "FREEAGENT",
-      "espn_team_id": 0,
-      "percent_owned": 0.67,
+      "espn_status": "UNMATCHED",
+      "espn_team_id": null,
+      "percent_owned": null,
       "nhl_roster_status": "ACTIVE",
       "score": 28,
       "reliability": "HIGH",
@@ -12374,6 +11664,151 @@
       "latest_final_game_id": 2026020273
     },
     {
+      "nhl_player_id": 8475218,
+      "espn_player_id": 2558631,
+      "name": "Mattias Ekholm",
+      "nhl_team": "EDM",
+      "position": "D",
+      "espn_status": "ONTEAM",
+      "espn_team_id": 14,
+      "percent_owned": 49.38,
+      "nhl_roster_status": "ACTIVE",
+      "score": 26,
+      "reliability": "HIGH",
+      "recommendation": "TRACK ONLY",
+      "categories": [
+        "SHP",
+        "G",
+        "A",
+        "PTS"
+      ],
+      "signals": [
+        {
+          "type": "SH_ROLE_UP",
+          "label": "Рост SH TOI",
+          "strong": true
+        },
+        {
+          "type": "SHP_EVENT",
+          "label": "SHP в последних матчах",
+          "strong": false
+        }
+      ],
+      "metrics": {
+        "toi": {
+          "baseline": 1177.2,
+          "recent": 1268.5,
+          "delta": 91.3,
+          "ratio": 1.078
+        },
+        "ev_toi": {
+          "baseline": 1024.8,
+          "recent": 1018.5,
+          "delta": -6.3,
+          "ratio": 0.994
+        },
+        "pp_toi": {
+          "baseline": 28.0,
+          "recent": 38.5,
+          "delta": 10.5,
+          "ratio": 1.375
+        },
+        "sh_toi": {
+          "baseline": 124.4,
+          "recent": 211.5,
+          "delta": 87.1,
+          "ratio": 1.7
+        },
+        "sog": {
+          "baseline": 1.4,
+          "recent": 1.0,
+          "delta": -0.4,
+          "ratio": 0.714
+        },
+        "hit": {
+          "baseline": 1.0,
+          "recent": 1.5,
+          "delta": 0.5,
+          "ratio": 1.5
+        },
+        "blk": {
+          "baseline": 0.8,
+          "recent": 1.5,
+          "delta": 0.7,
+          "ratio": 1.875
+        },
+        "fow": {
+          "baseline": null,
+          "recent": null,
+          "delta": null,
+          "ratio": null
+        },
+        "fo": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "pts": {
+          "baseline": 0.6,
+          "recent": 1.0,
+          "delta": 0.4,
+          "ratio": 1.667
+        },
+        "ppp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "shp": {
+          "baseline": 0.0,
+          "recent": 0.5,
+          "delta": 0.5,
+          "ratio": null
+        }
+      },
+      "baseline_games": 5,
+      "recent_games": 2,
+      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
+      "team_context": [
+        {
+          "id": "RETURNED_FROM_IR:EDM:devon levi:2026-11-07",
+          "type": "RETURNED_FROM_IR",
+          "team": "EDM",
+          "player": "Devon Levi",
+          "player_key": "devon levi",
+          "detected_at": "2026-11-07T20:29:38Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:EDM:zach hyman:2026-11-07",
+          "type": "RETURNED_FROM_IR",
+          "team": "EDM",
+          "player": "Zach Hyman",
+          "player_key": "zach hyman",
+          "detected_at": "2026-11-07T20:29:38Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:EDM:matt tomkins:2026-11-07",
+          "type": "ACTIVE_REMOVED",
+          "team": "EDM",
+          "player": "Matt Tomkins",
+          "player_key": "matt tomkins",
+          "detected_at": "2026-11-07T20:29:38Z"
+        },
+        {
+          "id": "NEW_IR:EDM:isaac howard:2026-11-05",
+          "type": "NEW_IR",
+          "team": "EDM",
+          "player": "Isaac Howard",
+          "player_key": "isaac howard",
+          "detected_at": "2026-11-05T23:36:53Z"
+        }
+      ],
+      "latest_final_game_date": "2026-11-07",
+      "latest_final_game_id": 2026020276
+    },
+    {
       "nhl_player_id": 8473986,
       "espn_player_id": 4968,
       "name": "Alex Killorn",
@@ -12759,7 +12194,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 92.58,
+      "percent_owned": 92.59,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -12871,7 +12306,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 7.57,
+      "percent_owned": 7.58,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -13129,7 +12564,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 78.5,
+      "percent_owned": 78.52,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -13506,7 +12941,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 96.78,
+      "percent_owned": 96.79,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -14614,7 +14049,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 51.7,
+      "percent_owned": 51.71,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -15399,7 +14834,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 7.3,
+      "percent_owned": 7.4,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -15783,7 +15218,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 38.58,
+      "percent_owned": 38.69,
       "nhl_roster_status": "ACTIVE",
       "score": 25,
       "reliability": "HIGH",
@@ -15901,119 +15336,6 @@
       "latest_final_game_id": 2026020262
     },
     {
-      "nhl_player_id": 8478444,
-      "espn_player_id": 3899979,
-      "name": "Brock Boeser",
-      "nhl_team": "VAN",
-      "position": "R",
-      "espn_status": "ONTEAM",
-      "espn_team_id": 8,
-      "percent_owned": 68.25,
-      "nhl_roster_status": "ACTIVE",
-      "score": 24,
-      "reliability": "HIGH",
-      "recommendation": "TRACK ONLY",
-      "categories": [
-        "SHP",
-        "SOG",
-        "G",
-        "A",
-        "PTS"
-      ],
-      "signals": [
-        {
-          "type": "SH_ROLE_UP",
-          "label": "Рост SH TOI",
-          "strong": false
-        },
-        {
-          "type": "PPP_UP",
-          "label": "Рост PPP",
-          "strong": false
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 1076.8,
-          "recent": 1245.5,
-          "delta": 168.7,
-          "ratio": 1.157
-        },
-        "ev_toi": {
-          "baseline": 759.0,
-          "recent": 965.0,
-          "delta": 206.0,
-          "ratio": 1.271
-        },
-        "pp_toi": {
-          "baseline": 244.8,
-          "recent": 132.5,
-          "delta": -112.3,
-          "ratio": 0.541
-        },
-        "sh_toi": {
-          "baseline": 73.0,
-          "recent": 148.0,
-          "delta": 75.0,
-          "ratio": 2.027
-        },
-        "sog": {
-          "baseline": 2.0,
-          "recent": 3.0,
-          "delta": 1.0,
-          "ratio": 1.5
-        },
-        "hit": {
-          "baseline": 1.6,
-          "recent": 1.0,
-          "delta": -0.6,
-          "ratio": 0.625
-        },
-        "blk": {
-          "baseline": 0.6,
-          "recent": 0.5,
-          "delta": -0.1,
-          "ratio": 0.833
-        },
-        "fow": {
-          "baseline": 0.0,
-          "recent": 0.5,
-          "delta": 0.5,
-          "ratio": null
-        },
-        "fo": {
-          "baseline": 0.6,
-          "recent": 1.5,
-          "delta": 0.9,
-          "ratio": 2.5
-        },
-        "pts": {
-          "baseline": 1.0,
-          "recent": 1.0,
-          "delta": 0.0,
-          "ratio": 1.0
-        },
-        "ppp": {
-          "baseline": 0.4,
-          "recent": 0.5,
-          "delta": 0.1,
-          "ratio": 1.25
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [],
-      "latest_final_game_date": "2026-11-05",
-      "latest_final_game_id": 2026020259
-    },
-    {
       "nhl_player_id": 8476905,
       "espn_player_id": 3067858,
       "name": "Chandler Stephenson",
@@ -16021,7 +15343,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 7.3,
+      "percent_owned": 7.29,
       "nhl_roster_status": "ACTIVE",
       "score": 24,
       "reliability": "HIGH",
@@ -16197,64 +15519,64 @@
       ],
       "metrics": {
         "toi": {
-          "baseline": 1373.2,
-          "recent": 1460.0,
-          "delta": 86.8,
-          "ratio": 1.063
+          "baseline": 1394.8,
+          "recent": 1490.0,
+          "delta": 95.2,
+          "ratio": 1.068
         },
         "ev_toi": {
-          "baseline": 1019.8,
-          "recent": 1072.5,
-          "delta": 52.7,
-          "ratio": 1.052
+          "baseline": 1022.0,
+          "recent": 1146.0,
+          "delta": 124.0,
+          "ratio": 1.121
         },
         "pp_toi": {
-          "baseline": 269.8,
-          "recent": 297.0,
-          "delta": 27.2,
-          "ratio": 1.101
+          "baseline": 275.4,
+          "recent": 272.0,
+          "delta": -3.4,
+          "ratio": 0.988
         },
         "sh_toi": {
-          "baseline": 83.6,
-          "recent": 90.5,
-          "delta": 6.9,
-          "ratio": 1.083
+          "baseline": 97.4,
+          "recent": 72.0,
+          "delta": -25.4,
+          "ratio": 0.739
         },
         "sog": {
-          "baseline": 3.4,
-          "recent": 2.0,
-          "delta": -1.4,
-          "ratio": 0.588
+          "baseline": 3.0,
+          "recent": 3.0,
+          "delta": 0.0,
+          "ratio": 1.0
         },
         "hit": {
           "baseline": 0.6,
-          "recent": 1.0,
-          "delta": 0.4,
-          "ratio": 1.667
+          "recent": 0.5,
+          "delta": -0.1,
+          "ratio": 0.833
         },
         "blk": {
-          "baseline": 0.2,
-          "recent": 1.0,
-          "delta": 0.8,
-          "ratio": 5.0
+          "baseline": 0.4,
+          "recent": 0.5,
+          "delta": 0.1,
+          "ratio": 1.25
         },
         "fow": {
-          "baseline": 3.4,
-          "recent": 6.0,
-          "delta": 2.6,
-          "ratio": 1.765
+          "baseline": 3.8,
+          "recent": 5.5,
+          "delta": 1.7,
+          "ratio": 1.447
         },
         "fo": {
-          "baseline": 7.4,
-          "recent": 9.5,
-          "delta": 2.1,
-          "ratio": 1.284
+          "baseline": 8.6,
+          "recent": 9.0,
+          "delta": 0.4,
+          "ratio": 1.047
         },
         "pts": {
-          "baseline": 1.6,
-          "recent": 2.5,
-          "delta": 0.9,
-          "ratio": 1.562
+          "baseline": 1.4,
+          "recent": 3.5,
+          "delta": 2.1,
+          "ratio": 2.5
         },
         "ppp": {
           "baseline": 0.8,
@@ -16306,8 +15628,8 @@
           "detected_at": "2026-11-05T23:36:53Z"
         }
       ],
-      "latest_final_game_date": "2026-11-05",
-      "latest_final_game_id": 2026020260
+      "latest_final_game_date": "2026-11-07",
+      "latest_final_game_id": 2026020276
     },
     {
       "nhl_player_id": 8481557,
@@ -16709,7 +16031,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 33.93,
+      "percent_owned": 33.91,
       "nhl_roster_status": "ACTIVE",
       "score": 21,
       "reliability": "HIGH",
@@ -16827,7 +16149,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 18,
-      "percent_owned": 82.13,
+      "percent_owned": 82.11,
       "nhl_roster_status": "ACTIVE",
       "score": 21,
       "reliability": "HIGH",
@@ -16979,143 +16301,6 @@
       ],
       "latest_final_game_date": "2026-11-07",
       "latest_final_game_id": 2026020267
-    },
-    {
-      "nhl_player_id": 8480029,
-      "espn_player_id": 4233882,
-      "name": "Alex Formenton",
-      "nhl_team": "EDM",
-      "position": "L",
-      "espn_status": "FREEAGENT",
-      "espn_team_id": 0,
-      "percent_owned": 0.42,
-      "nhl_roster_status": "ACTIVE",
-      "score": 18,
-      "reliability": "HIGH",
-      "recommendation": "WATCH",
-      "categories": [
-        "SHP"
-      ],
-      "signals": [
-        {
-          "type": "SH_ROLE_UP",
-          "label": "Рост SH TOI",
-          "strong": true
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 756.4,
-          "recent": 629.5,
-          "delta": -126.9,
-          "ratio": 0.832
-        },
-        "ev_toi": {
-          "baseline": 670.2,
-          "recent": 444.0,
-          "delta": -226.2,
-          "ratio": 0.662
-        },
-        "pp_toi": {
-          "baseline": 2.2,
-          "recent": 0.0,
-          "delta": -2.2,
-          "ratio": 0.0
-        },
-        "sh_toi": {
-          "baseline": 84.0,
-          "recent": 185.5,
-          "delta": 101.5,
-          "ratio": 2.208
-        },
-        "sog": {
-          "baseline": 1.2,
-          "recent": 1.0,
-          "delta": -0.2,
-          "ratio": 0.833
-        },
-        "hit": {
-          "baseline": 2.8,
-          "recent": 1.5,
-          "delta": -1.3,
-          "ratio": 0.536
-        },
-        "blk": {
-          "baseline": 0.2,
-          "recent": 0.0,
-          "delta": -0.2,
-          "ratio": 0.0
-        },
-        "fow": {
-          "baseline": null,
-          "recent": null,
-          "delta": null,
-          "ratio": null
-        },
-        "fo": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "pts": {
-          "baseline": 0.2,
-          "recent": 0.0,
-          "delta": -0.2,
-          "ratio": 0.0
-        },
-        "ppp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "RETURNED_FROM_IR:EDM:devon levi:2026-11-07",
-          "type": "RETURNED_FROM_IR",
-          "team": "EDM",
-          "player": "Devon Levi",
-          "player_key": "devon levi",
-          "detected_at": "2026-11-07T20:29:38Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:EDM:zach hyman:2026-11-07",
-          "type": "RETURNED_FROM_IR",
-          "team": "EDM",
-          "player": "Zach Hyman",
-          "player_key": "zach hyman",
-          "detected_at": "2026-11-07T20:29:38Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:EDM:matt tomkins:2026-11-07",
-          "type": "ACTIVE_REMOVED",
-          "team": "EDM",
-          "player": "Matt Tomkins",
-          "player_key": "matt tomkins",
-          "detected_at": "2026-11-07T20:29:38Z"
-        },
-        {
-          "id": "NEW_IR:EDM:isaac howard:2026-11-05",
-          "type": "NEW_IR",
-          "team": "EDM",
-          "player": "Isaac Howard",
-          "player_key": "isaac howard",
-          "detected_at": "2026-11-05T23:36:53Z"
-        }
-      ],
-      "latest_final_game_date": "2026-11-05",
-      "latest_final_game_id": 2026020260
     },
     {
       "nhl_player_id": 8477949,
@@ -17619,6 +16804,115 @@
       "latest_final_game_id": 2026020275
     },
     {
+      "nhl_player_id": 8478444,
+      "espn_player_id": 3899979,
+      "name": "Brock Boeser",
+      "nhl_team": "VAN",
+      "position": "R",
+      "espn_status": "ONTEAM",
+      "espn_team_id": 8,
+      "percent_owned": 68.25,
+      "nhl_roster_status": "ACTIVE",
+      "score": 18,
+      "reliability": "HIGH",
+      "recommendation": "TRACK ONLY",
+      "categories": [
+        "SHP",
+        "SOG",
+        "BLK",
+        "G",
+        "A",
+        "PTS"
+      ],
+      "signals": [
+        {
+          "type": "SH_ROLE_UP",
+          "label": "Рост SH TOI",
+          "strong": true
+        }
+      ],
+      "metrics": {
+        "toi": {
+          "baseline": 1164.8,
+          "recent": 1211.5,
+          "delta": 46.7,
+          "ratio": 1.04
+        },
+        "ev_toi": {
+          "baseline": 849.4,
+          "recent": 965.5,
+          "delta": 116.1,
+          "ratio": 1.137
+        },
+        "pp_toi": {
+          "baseline": 236.0,
+          "recent": 69.5,
+          "delta": -166.5,
+          "ratio": 0.294
+        },
+        "sh_toi": {
+          "baseline": 79.4,
+          "recent": 176.5,
+          "delta": 97.1,
+          "ratio": 2.223
+        },
+        "sog": {
+          "baseline": 2.4,
+          "recent": 2.5,
+          "delta": 0.1,
+          "ratio": 1.042
+        },
+        "hit": {
+          "baseline": 1.8,
+          "recent": 1.0,
+          "delta": -0.8,
+          "ratio": 0.556
+        },
+        "blk": {
+          "baseline": 0.4,
+          "recent": 2.0,
+          "delta": 1.6,
+          "ratio": 5.0
+        },
+        "fow": {
+          "baseline": 0.25,
+          "recent": 0.0,
+          "delta": -0.25,
+          "ratio": 0.0
+        },
+        "fo": {
+          "baseline": 0.8,
+          "recent": 1.0,
+          "delta": 0.2,
+          "ratio": 1.25
+        },
+        "pts": {
+          "baseline": 1.2,
+          "recent": 1.0,
+          "delta": -0.2,
+          "ratio": 0.833
+        },
+        "ppp": {
+          "baseline": 0.6,
+          "recent": 0.0,
+          "delta": -0.6,
+          "ratio": 0.0
+        },
+        "shp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        }
+      },
+      "baseline_games": 5,
+      "recent_games": 2,
+      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
+      "team_context": [],
+      "latest_final_game_date": "2026-11-07",
+      "latest_final_game_id": 2026020276
+    },
+    {
       "nhl_player_id": 8476892,
       "espn_player_id": 3069341,
       "name": "Colton Parayko",
@@ -17626,7 +16920,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 63.99,
+      "percent_owned": 63.96,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -17741,14 +17035,14 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 5.36,
+      "percent_owned": 5.34,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
       "recommendation": "TRACK ONLY",
       "categories": [
         "SHP",
-        "BLK"
+        "SOG"
       ],
       "signals": [
         {
@@ -17759,46 +17053,46 @@
       ],
       "metrics": {
         "toi": {
-          "baseline": 1215.8,
-          "recent": 1192.5,
-          "delta": -23.3,
-          "ratio": 0.981
+          "baseline": 1245.0,
+          "recent": 1219.0,
+          "delta": -26.0,
+          "ratio": 0.979
         },
         "ev_toi": {
-          "baseline": 1078.6,
-          "recent": 849.5,
-          "delta": -229.1,
-          "ratio": 0.788
+          "baseline": 1067.4,
+          "recent": 933.0,
+          "delta": -134.4,
+          "ratio": 0.874
         },
         "pp_toi": {
-          "baseline": 9.2,
+          "baseline": 7.0,
           "recent": 0.0,
-          "delta": -9.2,
+          "delta": -7.0,
           "ratio": 0.0
         },
         "sh_toi": {
-          "baseline": 128.0,
-          "recent": 343.0,
-          "delta": 215.0,
-          "ratio": 2.68
+          "baseline": 170.6,
+          "recent": 286.0,
+          "delta": 115.4,
+          "ratio": 1.676
         },
         "sog": {
-          "baseline": 2.0,
-          "recent": 0.5,
-          "delta": -1.5,
-          "ratio": 0.25
+          "baseline": 1.4,
+          "recent": 2.0,
+          "delta": 0.6,
+          "ratio": 1.429
         },
         "hit": {
-          "baseline": 1.6,
+          "baseline": 1.2,
           "recent": 0.5,
-          "delta": -1.1,
-          "ratio": 0.312
+          "delta": -0.7,
+          "ratio": 0.417
         },
         "blk": {
-          "baseline": 2.6,
-          "recent": 2.0,
-          "delta": -0.6,
-          "ratio": 0.769
+          "baseline": 2.8,
+          "recent": 1.5,
+          "delta": -1.3,
+          "ratio": 0.536
         },
         "fow": {
           "baseline": null,
@@ -17868,8 +17162,8 @@
           "detected_at": "2026-11-05T23:36:53Z"
         }
       ],
-      "latest_final_game_date": "2026-11-05",
-      "latest_final_game_id": 2026020260
+      "latest_final_game_date": "2026-11-07",
+      "latest_final_game_id": 2026020276
     },
     {
       "nhl_player_id": 8483525,
@@ -17879,7 +17173,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 2.64,
+      "percent_owned": 2.63,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -18148,7 +17442,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 17,
-      "percent_owned": 79.86,
+      "percent_owned": 79.85,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -18407,7 +17701,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 9,
-      "percent_owned": 42.28,
+      "percent_owned": 42.25,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "LOW",
@@ -18682,7 +17976,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 0.77,
+      "percent_owned": 0.76,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -18805,64 +18099,64 @@
       ],
       "metrics": {
         "toi": {
-          "baseline": 777.0,
-          "recent": 763.5,
-          "delta": -13.5,
-          "ratio": 0.983
+          "baseline": 751.4,
+          "recent": 864.0,
+          "delta": 112.6,
+          "ratio": 1.15
         },
         "ev_toi": {
-          "baseline": 710.2,
-          "recent": 514.5,
-          "delta": -195.7,
-          "ratio": 0.724
+          "baseline": 657.4,
+          "recent": 647.0,
+          "delta": -10.4,
+          "ratio": 0.984
         },
         "pp_toi": {
           "baseline": 3.4,
-          "recent": 18.0,
-          "delta": 14.6,
-          "ratio": 5.294
+          "recent": 22.0,
+          "delta": 18.6,
+          "ratio": 6.471
         },
         "sh_toi": {
-          "baseline": 63.4,
-          "recent": 231.0,
-          "delta": 167.6,
-          "ratio": 3.644
+          "baseline": 90.6,
+          "recent": 195.0,
+          "delta": 104.4,
+          "ratio": 2.152
         },
         "sog": {
           "baseline": 0.8,
-          "recent": 0.0,
-          "delta": -0.8,
-          "ratio": 0.0
+          "recent": 1.5,
+          "delta": 0.7,
+          "ratio": 1.875
         },
         "hit": {
-          "baseline": 1.8,
+          "baseline": 2.0,
           "recent": 2.5,
-          "delta": 0.7,
-          "ratio": 1.389
+          "delta": 0.5,
+          "ratio": 1.25
         },
         "blk": {
-          "baseline": 0.8,
+          "baseline": 0.6,
           "recent": 0.5,
-          "delta": -0.3,
-          "ratio": 0.625
+          "delta": -0.1,
+          "ratio": 0.833
         },
         "fow": {
-          "baseline": 3.8,
-          "recent": 1.5,
-          "delta": -2.3,
-          "ratio": 0.395
+          "baseline": 2.4,
+          "recent": 3.0,
+          "delta": 0.6,
+          "ratio": 1.25
         },
         "fo": {
-          "baseline": 9.0,
-          "recent": 5.0,
-          "delta": -4.0,
-          "ratio": 0.556
+          "baseline": 7.4,
+          "recent": 6.5,
+          "delta": -0.9,
+          "ratio": 0.878
         },
         "pts": {
           "baseline": 0.6,
-          "recent": 0.0,
-          "delta": -0.6,
-          "ratio": 0.0
+          "recent": 0.5,
+          "delta": -0.1,
+          "ratio": 0.833
         },
         "ppp": {
           "baseline": 0.0,
@@ -18914,8 +18208,8 @@
           "detected_at": "2026-11-05T23:36:53Z"
         }
       ],
-      "latest_final_game_date": "2026-11-05",
-      "latest_final_game_id": 2026020260
+      "latest_final_game_date": "2026-11-07",
+      "latest_final_game_id": 2026020276
     },
     {
       "nhl_player_id": 8478493,
@@ -18925,7 +18219,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 11,
-      "percent_owned": 78.31,
+      "percent_owned": 78.3,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -19212,7 +18506,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 16.06,
+      "percent_owned": 16.04,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -19310,6 +18604,144 @@
       "latest_final_game_id": 2026020268
     },
     {
+      "nhl_player_id": 8477953,
+      "espn_player_id": 3114775,
+      "name": "Kasperi Kapanen",
+      "nhl_team": "EDM",
+      "position": "R",
+      "espn_status": "ONTEAM",
+      "espn_team_id": 8,
+      "percent_owned": 11.82,
+      "nhl_roster_status": "ACTIVE",
+      "score": 18,
+      "reliability": "HIGH",
+      "recommendation": "TRACK ONLY",
+      "categories": [
+        "SHP",
+        "SOG"
+      ],
+      "signals": [
+        {
+          "type": "SH_ROLE_UP",
+          "label": "Рост SH TOI",
+          "strong": true
+        }
+      ],
+      "metrics": {
+        "toi": {
+          "baseline": 1177.0,
+          "recent": 1126.0,
+          "delta": -51.0,
+          "ratio": 0.957
+        },
+        "ev_toi": {
+          "baseline": 839.0,
+          "recent": 783.0,
+          "delta": -56.0,
+          "ratio": 0.933
+        },
+        "pp_toi": {
+          "baseline": 222.4,
+          "recent": 166.0,
+          "delta": -56.4,
+          "ratio": 0.746
+        },
+        "sh_toi": {
+          "baseline": 115.6,
+          "recent": 177.0,
+          "delta": 61.4,
+          "ratio": 1.531
+        },
+        "sog": {
+          "baseline": 1.4,
+          "recent": 2.5,
+          "delta": 1.1,
+          "ratio": 1.786
+        },
+        "hit": {
+          "baseline": 3.2,
+          "recent": 1.0,
+          "delta": -2.2,
+          "ratio": 0.312
+        },
+        "blk": {
+          "baseline": 0.2,
+          "recent": 0.0,
+          "delta": -0.2,
+          "ratio": 0.0
+        },
+        "fow": {
+          "baseline": 0.0,
+          "recent": null,
+          "delta": null,
+          "ratio": null
+        },
+        "fo": {
+          "baseline": 0.2,
+          "recent": 0.0,
+          "delta": -0.2,
+          "ratio": 0.0
+        },
+        "pts": {
+          "baseline": 1.0,
+          "recent": 0.5,
+          "delta": -0.5,
+          "ratio": 0.5
+        },
+        "ppp": {
+          "baseline": 0.8,
+          "recent": 0.5,
+          "delta": -0.3,
+          "ratio": 0.625
+        },
+        "shp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        }
+      },
+      "baseline_games": 5,
+      "recent_games": 2,
+      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
+      "team_context": [
+        {
+          "id": "RETURNED_FROM_IR:EDM:devon levi:2026-11-07",
+          "type": "RETURNED_FROM_IR",
+          "team": "EDM",
+          "player": "Devon Levi",
+          "player_key": "devon levi",
+          "detected_at": "2026-11-07T20:29:38Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:EDM:zach hyman:2026-11-07",
+          "type": "RETURNED_FROM_IR",
+          "team": "EDM",
+          "player": "Zach Hyman",
+          "player_key": "zach hyman",
+          "detected_at": "2026-11-07T20:29:38Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:EDM:matt tomkins:2026-11-07",
+          "type": "ACTIVE_REMOVED",
+          "team": "EDM",
+          "player": "Matt Tomkins",
+          "player_key": "matt tomkins",
+          "detected_at": "2026-11-07T20:29:38Z"
+        },
+        {
+          "id": "NEW_IR:EDM:isaac howard:2026-11-05",
+          "type": "NEW_IR",
+          "team": "EDM",
+          "player": "Isaac Howard",
+          "player_key": "isaac howard",
+          "detected_at": "2026-11-05T23:36:53Z"
+        }
+      ],
+      "latest_final_game_date": "2026-11-07",
+      "latest_final_game_id": 2026020276
+    },
+    {
       "nhl_player_id": 8480796,
       "espn_player_id": 4378677,
       "name": "Martin Fehervary",
@@ -19317,7 +18749,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 27.8,
+      "percent_owned": 27.78,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -19430,143 +18862,6 @@
       ],
       "latest_final_game_date": "2026-11-07",
       "latest_final_game_id": 2026020265
-    },
-    {
-      "nhl_player_id": 8478472,
-      "espn_player_id": 3941965,
-      "name": "Mathieu Joseph",
-      "nhl_team": "EDM",
-      "position": "R",
-      "espn_status": "WAIVERS",
-      "espn_team_id": 0,
-      "percent_owned": 0.81,
-      "nhl_roster_status": "ACTIVE",
-      "score": 18,
-      "reliability": "HIGH",
-      "recommendation": "WATCH",
-      "categories": [
-        "SHP"
-      ],
-      "signals": [
-        {
-          "type": "SH_ROLE_UP",
-          "label": "Рост SH TOI",
-          "strong": true
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 776.6,
-          "recent": 663.5,
-          "delta": -113.1,
-          "ratio": 0.854
-        },
-        "ev_toi": {
-          "baseline": 686.8,
-          "recent": 482.0,
-          "delta": -204.8,
-          "ratio": 0.702
-        },
-        "pp_toi": {
-          "baseline": 2.8,
-          "recent": 0.0,
-          "delta": -2.8,
-          "ratio": 0.0
-        },
-        "sh_toi": {
-          "baseline": 87.0,
-          "recent": 181.5,
-          "delta": 94.5,
-          "ratio": 2.086
-        },
-        "sog": {
-          "baseline": 0.6,
-          "recent": 0.0,
-          "delta": -0.6,
-          "ratio": 0.0
-        },
-        "hit": {
-          "baseline": 2.2,
-          "recent": 0.5,
-          "delta": -1.7,
-          "ratio": 0.227
-        },
-        "blk": {
-          "baseline": 1.0,
-          "recent": 0.0,
-          "delta": -1.0,
-          "ratio": 0.0
-        },
-        "fow": {
-          "baseline": 1.0,
-          "recent": null,
-          "delta": null,
-          "ratio": null
-        },
-        "fo": {
-          "baseline": 0.8,
-          "recent": 0.0,
-          "delta": -0.8,
-          "ratio": 0.0
-        },
-        "pts": {
-          "baseline": 0.4,
-          "recent": 0.0,
-          "delta": -0.4,
-          "ratio": 0.0
-        },
-        "ppp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "RETURNED_FROM_IR:EDM:devon levi:2026-11-07",
-          "type": "RETURNED_FROM_IR",
-          "team": "EDM",
-          "player": "Devon Levi",
-          "player_key": "devon levi",
-          "detected_at": "2026-11-07T20:29:38Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:EDM:zach hyman:2026-11-07",
-          "type": "RETURNED_FROM_IR",
-          "team": "EDM",
-          "player": "Zach Hyman",
-          "player_key": "zach hyman",
-          "detected_at": "2026-11-07T20:29:38Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:EDM:matt tomkins:2026-11-07",
-          "type": "ACTIVE_REMOVED",
-          "team": "EDM",
-          "player": "Matt Tomkins",
-          "player_key": "matt tomkins",
-          "detected_at": "2026-11-07T20:29:38Z"
-        },
-        {
-          "id": "NEW_IR:EDM:isaac howard:2026-11-05",
-          "type": "NEW_IR",
-          "team": "EDM",
-          "player": "Isaac Howard",
-          "player_key": "isaac howard",
-          "detected_at": "2026-11-05T23:36:53Z"
-        }
-      ],
-      "latest_final_game_date": "2026-11-05",
-      "latest_final_game_id": 2026020260
     },
     {
       "nhl_player_id": 8482641,
@@ -20094,7 +19389,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 99.35,
+      "percent_owned": 99.34,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -20369,7 +19664,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.28,
+      "percent_owned": 0.27,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -20514,7 +19809,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 0.76,
+      "percent_owned": 0.75,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -20895,14 +20190,13 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 4.05,
+      "percent_owned": 4.04,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
       "recommendation": "TRACK ONLY",
       "categories": [
-        "SHP",
-        "BLK"
+        "SHP"
       ],
       "signals": [
         {
@@ -20913,46 +20207,46 @@
       ],
       "metrics": {
         "toi": {
-          "baseline": 1381.8,
-          "recent": 1400.5,
-          "delta": 18.7,
-          "ratio": 1.014
+          "baseline": 1352.0,
+          "recent": 1364.5,
+          "delta": 12.5,
+          "ratio": 1.009
         },
         "ev_toi": {
-          "baseline": 1214.2,
-          "recent": 994.5,
-          "delta": -219.7,
-          "ratio": 0.819
+          "baseline": 1144.8,
+          "recent": 1014.5,
+          "delta": -130.3,
+          "ratio": 0.886
         },
         "pp_toi": {
-          "baseline": 57.0,
-          "recent": 59.0,
-          "delta": 2.0,
-          "ratio": 1.035
+          "baseline": 48.6,
+          "recent": 64.0,
+          "delta": 15.4,
+          "ratio": 1.317
         },
         "sh_toi": {
-          "baseline": 110.6,
-          "recent": 347.0,
-          "delta": 236.4,
-          "ratio": 3.137
+          "baseline": 158.6,
+          "recent": 286.0,
+          "delta": 127.4,
+          "ratio": 1.803
         },
         "sog": {
-          "baseline": 1.0,
+          "baseline": 0.2,
           "recent": 0.5,
-          "delta": -0.5,
-          "ratio": 0.5
+          "delta": 0.3,
+          "ratio": 2.5
         },
         "hit": {
-          "baseline": 0.4,
+          "baseline": 0.2,
           "recent": 0.0,
-          "delta": -0.4,
+          "delta": -0.2,
           "ratio": 0.0
         },
         "blk": {
-          "baseline": 1.2,
-          "recent": 2.5,
-          "delta": 1.3,
-          "ratio": 2.083
+          "baseline": 2.2,
+          "recent": 1.0,
+          "delta": -1.2,
+          "ratio": 0.455
         },
         "fow": {
           "baseline": null,
@@ -21022,8 +20316,8 @@
           "detected_at": "2026-11-05T23:36:53Z"
         }
       ],
-      "latest_final_game_date": "2026-11-05",
-      "latest_final_game_id": 2026020260
+      "latest_final_game_date": "2026-11-07",
+      "latest_final_game_id": 2026020276
     },
     {
       "nhl_player_id": 8479351,
@@ -21147,143 +20441,6 @@
       "latest_final_game_id": 2026020272
     },
     {
-      "nhl_player_id": 8482166,
-      "espn_player_id": 4697403,
-      "name": "Shakir Mukhamadullin",
-      "nhl_team": "EDM",
-      "position": "D",
-      "espn_status": "FREEAGENT",
-      "espn_team_id": 0,
-      "percent_owned": 0.21,
-      "nhl_roster_status": "ACTIVE",
-      "score": 18,
-      "reliability": "HIGH",
-      "recommendation": "WATCH",
-      "categories": [
-        "SHP"
-      ],
-      "signals": [
-        {
-          "type": "SH_ROLE_UP",
-          "label": "Рост SH TOI",
-          "strong": true
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 1017.8,
-          "recent": 896.5,
-          "delta": -121.3,
-          "ratio": 0.881
-        },
-        "ev_toi": {
-          "baseline": 953.0,
-          "recent": 704.0,
-          "delta": -249.0,
-          "ratio": 0.739
-        },
-        "pp_toi": {
-          "baseline": 5.8,
-          "recent": 0.0,
-          "delta": -5.8,
-          "ratio": 0.0
-        },
-        "sh_toi": {
-          "baseline": 59.0,
-          "recent": 192.5,
-          "delta": 133.5,
-          "ratio": 3.263
-        },
-        "sog": {
-          "baseline": 0.8,
-          "recent": 1.5,
-          "delta": 0.7,
-          "ratio": 1.875
-        },
-        "hit": {
-          "baseline": 1.2,
-          "recent": 1.5,
-          "delta": 0.3,
-          "ratio": 1.25
-        },
-        "blk": {
-          "baseline": 1.0,
-          "recent": 1.0,
-          "delta": 0.0,
-          "ratio": 1.0
-        },
-        "fow": {
-          "baseline": null,
-          "recent": null,
-          "delta": null,
-          "ratio": null
-        },
-        "fo": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "pts": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "ppp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "RETURNED_FROM_IR:EDM:devon levi:2026-11-07",
-          "type": "RETURNED_FROM_IR",
-          "team": "EDM",
-          "player": "Devon Levi",
-          "player_key": "devon levi",
-          "detected_at": "2026-11-07T20:29:38Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:EDM:zach hyman:2026-11-07",
-          "type": "RETURNED_FROM_IR",
-          "team": "EDM",
-          "player": "Zach Hyman",
-          "player_key": "zach hyman",
-          "detected_at": "2026-11-07T20:29:38Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:EDM:matt tomkins:2026-11-07",
-          "type": "ACTIVE_REMOVED",
-          "team": "EDM",
-          "player": "Matt Tomkins",
-          "player_key": "matt tomkins",
-          "detected_at": "2026-11-07T20:29:38Z"
-        },
-        {
-          "id": "NEW_IR:EDM:isaac howard:2026-11-05",
-          "type": "NEW_IR",
-          "team": "EDM",
-          "player": "Isaac Howard",
-          "player_key": "isaac howard",
-          "detected_at": "2026-11-05T23:36:53Z"
-        }
-      ],
-      "latest_final_game_date": "2026-11-05",
-      "latest_final_game_id": 2026020260
-    },
-    {
       "nhl_player_id": 8477447,
       "espn_player_id": 3042055,
       "name": "Shea Theodore",
@@ -21291,7 +20448,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 9,
-      "percent_owned": 58.95,
+      "percent_owned": 58.93,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -21944,7 +21101,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
-      "percent_owned": 40.85,
+      "percent_owned": 40.83,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -22081,7 +21238,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 4.57,
+      "percent_owned": 4.58,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -22227,7 +21384,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.59,
+      "percent_owned": 0.58,
       "nhl_roster_status": "ACTIVE",
       "score": 18,
       "reliability": "HIGH",
@@ -22777,7 +21934,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 4.26,
+      "percent_owned": 4.27,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -23042,151 +22199,6 @@
       "latest_final_game_id": 2026020275
     },
     {
-      "nhl_player_id": 8480803,
-      "espn_player_id": 4352722,
-      "name": "Evan Bouchard",
-      "nhl_team": "EDM",
-      "position": "D",
-      "espn_status": "ONTEAM",
-      "espn_team_id": 3,
-      "percent_owned": 99.85,
-      "nhl_roster_status": "ACTIVE",
-      "score": 16,
-      "reliability": "HIGH",
-      "recommendation": "TRACK ONLY",
-      "categories": [
-        "SOG",
-        "G",
-        "A",
-        "PTS"
-      ],
-      "signals": [
-        {
-          "type": "PRODUCTION_UP",
-          "label": "Рост результативности",
-          "strong": true
-        },
-        {
-          "type": "PPP_UP",
-          "label": "Рост PPP",
-          "strong": false
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 1532.8,
-          "recent": 1549.0,
-          "delta": 16.2,
-          "ratio": 1.011
-        },
-        "ev_toi": {
-          "baseline": 1210.4,
-          "recent": 1168.0,
-          "delta": -42.4,
-          "ratio": 0.965
-        },
-        "pp_toi": {
-          "baseline": 276.2,
-          "recent": 309.5,
-          "delta": 33.3,
-          "ratio": 1.121
-        },
-        "sh_toi": {
-          "baseline": 46.2,
-          "recent": 71.5,
-          "delta": 25.3,
-          "ratio": 1.548
-        },
-        "sog": {
-          "baseline": 2.8,
-          "recent": 2.0,
-          "delta": -0.8,
-          "ratio": 0.714
-        },
-        "hit": {
-          "baseline": 0.8,
-          "recent": 0.0,
-          "delta": -0.8,
-          "ratio": 0.0
-        },
-        "blk": {
-          "baseline": 2.0,
-          "recent": 0.0,
-          "delta": -2.0,
-          "ratio": 0.0
-        },
-        "fow": {
-          "baseline": null,
-          "recent": null,
-          "delta": null,
-          "ratio": null
-        },
-        "fo": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "pts": {
-          "baseline": 1.4,
-          "recent": 2.0,
-          "delta": 0.6,
-          "ratio": 1.429
-        },
-        "ppp": {
-          "baseline": 0.4,
-          "recent": 1.0,
-          "delta": 0.6,
-          "ratio": 2.5
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "RETURNED_FROM_IR:EDM:devon levi:2026-11-07",
-          "type": "RETURNED_FROM_IR",
-          "team": "EDM",
-          "player": "Devon Levi",
-          "player_key": "devon levi",
-          "detected_at": "2026-11-07T20:29:38Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:EDM:zach hyman:2026-11-07",
-          "type": "RETURNED_FROM_IR",
-          "team": "EDM",
-          "player": "Zach Hyman",
-          "player_key": "zach hyman",
-          "detected_at": "2026-11-07T20:29:38Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:EDM:matt tomkins:2026-11-07",
-          "type": "ACTIVE_REMOVED",
-          "team": "EDM",
-          "player": "Matt Tomkins",
-          "player_key": "matt tomkins",
-          "detected_at": "2026-11-07T20:29:38Z"
-        },
-        {
-          "id": "NEW_IR:EDM:isaac howard:2026-11-05",
-          "type": "NEW_IR",
-          "team": "EDM",
-          "player": "Isaac Howard",
-          "player_key": "isaac howard",
-          "detected_at": "2026-11-05T23:36:53Z"
-        }
-      ],
-      "latest_final_game_date": "2026-11-05",
-      "latest_final_game_id": 2026020260
-    },
-    {
       "nhl_player_id": 8471215,
       "espn_player_id": 3124,
       "name": "Evgeni Malkin",
@@ -23194,7 +22206,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 64.12,
+      "percent_owned": 64.17,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -23449,118 +22461,6 @@
       ],
       "latest_final_game_date": "2026-11-07",
       "latest_final_game_id": 2026020269
-    },
-    {
-      "nhl_player_id": 8478498,
-      "espn_player_id": 3900240,
-      "name": "Jake DeBrusk",
-      "nhl_team": "VAN",
-      "position": "L",
-      "espn_status": "ONTEAM",
-      "espn_team_id": 8,
-      "percent_owned": 58.3,
-      "nhl_roster_status": "ACTIVE",
-      "score": 16,
-      "reliability": "HIGH",
-      "recommendation": "TRACK ONLY",
-      "categories": [
-        "SOG",
-        "G",
-        "A",
-        "PTS"
-      ],
-      "signals": [
-        {
-          "type": "PRODUCTION_UP",
-          "label": "Рост результативности",
-          "strong": false
-        },
-        {
-          "type": "PPP_UP",
-          "label": "Рост PPP",
-          "strong": false
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 1046.0,
-          "recent": 1096.0,
-          "delta": 50.0,
-          "ratio": 1.048
-        },
-        "ev_toi": {
-          "baseline": 800.0,
-          "recent": 955.0,
-          "delta": 155.0,
-          "ratio": 1.194
-        },
-        "pp_toi": {
-          "baseline": 246.0,
-          "recent": 138.5,
-          "delta": -107.5,
-          "ratio": 0.563
-        },
-        "sh_toi": {
-          "baseline": 0.0,
-          "recent": 2.5,
-          "delta": 2.5,
-          "ratio": null
-        },
-        "sog": {
-          "baseline": 2.0,
-          "recent": 2.0,
-          "delta": 0.0,
-          "ratio": 1.0
-        },
-        "hit": {
-          "baseline": 0.4,
-          "recent": 0.5,
-          "delta": 0.1,
-          "ratio": 1.25
-        },
-        "blk": {
-          "baseline": 0.8,
-          "recent": 0.5,
-          "delta": -0.3,
-          "ratio": 0.625
-        },
-        "fow": {
-          "baseline": 0.0,
-          "recent": null,
-          "delta": null,
-          "ratio": null
-        },
-        "fo": {
-          "baseline": 0.2,
-          "recent": 0.0,
-          "delta": -0.2,
-          "ratio": 0.0
-        },
-        "pts": {
-          "baseline": 0.2,
-          "recent": 1.0,
-          "delta": 0.8,
-          "ratio": 5.0
-        },
-        "ppp": {
-          "baseline": 0.0,
-          "recent": 0.5,
-          "delta": 0.5,
-          "ratio": null
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [],
-      "latest_final_game_date": "2026-11-05",
-      "latest_final_game_id": 2026020259
     },
     {
       "nhl_player_id": 8477404,
@@ -24373,7 +23273,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 94.6,
+      "percent_owned": 94.61,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -24511,7 +23411,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 44.89,
+      "percent_owned": 44.83,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -24634,7 +23534,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 51.32,
+      "percent_owned": 51.29,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -24908,7 +23808,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 8.97,
+      "percent_owned": 9.06,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -25351,7 +24251,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
-      "percent_owned": 8.7,
+      "percent_owned": 8.73,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -25479,7 +24379,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 78.09,
+      "percent_owned": 78.12,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -25874,7 +24774,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 46.75,
+      "percent_owned": 46.85,
       "nhl_roster_status": "ACTIVE",
       "score": 16,
       "reliability": "HIGH",
@@ -25996,150 +24896,6 @@
       "latest_final_game_id": 2026020257
     },
     {
-      "nhl_player_id": 8476454,
-      "espn_player_id": 2562624,
-      "name": "Ryan Nugent-Hopkins",
-      "nhl_team": "EDM",
-      "position": "C",
-      "espn_status": "ONTEAM",
-      "espn_team_id": 12,
-      "percent_owned": 73.3,
-      "nhl_roster_status": "ACTIVE",
-      "score": 16,
-      "reliability": "HIGH",
-      "recommendation": "TRACK ONLY",
-      "categories": [
-        "G",
-        "A",
-        "PTS"
-      ],
-      "signals": [
-        {
-          "type": "PRODUCTION_UP",
-          "label": "Рост результативности",
-          "strong": true
-        },
-        {
-          "type": "PPP_UP",
-          "label": "Рост PPP",
-          "strong": false
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 1184.6,
-          "recent": 1170.5,
-          "delta": -14.1,
-          "ratio": 0.988
-        },
-        "ev_toi": {
-          "baseline": 919.2,
-          "recent": 883.5,
-          "delta": -35.7,
-          "ratio": 0.961
-        },
-        "pp_toi": {
-          "baseline": 263.6,
-          "recent": 244.0,
-          "delta": -19.6,
-          "ratio": 0.926
-        },
-        "sh_toi": {
-          "baseline": 1.8,
-          "recent": 43.0,
-          "delta": 41.2,
-          "ratio": 23.889
-        },
-        "sog": {
-          "baseline": 2.2,
-          "recent": 1.0,
-          "delta": -1.2,
-          "ratio": 0.455
-        },
-        "hit": {
-          "baseline": 0.4,
-          "recent": 0.5,
-          "delta": 0.1,
-          "ratio": 1.25
-        },
-        "blk": {
-          "baseline": 0.4,
-          "recent": 0.0,
-          "delta": -0.4,
-          "ratio": 0.0
-        },
-        "fow": {
-          "baseline": 4.8,
-          "recent": 4.5,
-          "delta": -0.3,
-          "ratio": 0.938
-        },
-        "fo": {
-          "baseline": 11.0,
-          "recent": 7.0,
-          "delta": -4.0,
-          "ratio": 0.636
-        },
-        "pts": {
-          "baseline": 1.0,
-          "recent": 2.0,
-          "delta": 1.0,
-          "ratio": 2.0
-        },
-        "ppp": {
-          "baseline": 0.4,
-          "recent": 1.5,
-          "delta": 1.1,
-          "ratio": 3.75
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "RETURNED_FROM_IR:EDM:devon levi:2026-11-07",
-          "type": "RETURNED_FROM_IR",
-          "team": "EDM",
-          "player": "Devon Levi",
-          "player_key": "devon levi",
-          "detected_at": "2026-11-07T20:29:38Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:EDM:zach hyman:2026-11-07",
-          "type": "RETURNED_FROM_IR",
-          "team": "EDM",
-          "player": "Zach Hyman",
-          "player_key": "zach hyman",
-          "detected_at": "2026-11-07T20:29:38Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:EDM:matt tomkins:2026-11-07",
-          "type": "ACTIVE_REMOVED",
-          "team": "EDM",
-          "player": "Matt Tomkins",
-          "player_key": "matt tomkins",
-          "detected_at": "2026-11-07T20:29:38Z"
-        },
-        {
-          "id": "NEW_IR:EDM:isaac howard:2026-11-05",
-          "type": "NEW_IR",
-          "team": "EDM",
-          "player": "Isaac Howard",
-          "player_key": "isaac howard",
-          "detected_at": "2026-11-05T23:36:53Z"
-        }
-      ],
-      "latest_final_game_date": "2026-11-05",
-      "latest_final_game_id": 2026020260
-    },
-    {
       "nhl_player_id": 8476457,
       "espn_player_id": 2562610,
       "name": "Adam Larsson",
@@ -26147,7 +24903,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 34.35,
+      "percent_owned": 34.33,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -27020,7 +25776,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
-      "percent_owned": 32.98,
+      "percent_owned": 32.96,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -28137,6 +26893,111 @@
       "latest_final_game_id": 2026020270
     },
     {
+      "nhl_player_id": 8482055,
+      "espn_player_id": 4712146,
+      "name": "Drew O'Connor",
+      "nhl_team": "VAN",
+      "position": "L",
+      "espn_status": "FREEAGENT",
+      "espn_team_id": 0,
+      "percent_owned": 1.09,
+      "nhl_roster_status": "ACTIVE",
+      "score": 15,
+      "reliability": "HIGH",
+      "recommendation": "WATCH",
+      "categories": [
+        "SOG",
+        "HIT"
+      ],
+      "signals": [
+        {
+          "type": "PERIPHERAL_UP",
+          "label": "Рост SOG/HIT/BLK",
+          "strong": false
+        }
+      ],
+      "metrics": {
+        "toi": {
+          "baseline": 952.4,
+          "recent": 885.0,
+          "delta": -67.4,
+          "ratio": 0.929
+        },
+        "ev_toi": {
+          "baseline": 838.0,
+          "recent": 804.0,
+          "delta": -34.0,
+          "ratio": 0.959
+        },
+        "pp_toi": {
+          "baseline": 0.6,
+          "recent": 0.5,
+          "delta": -0.1,
+          "ratio": 0.833
+        },
+        "sh_toi": {
+          "baseline": 113.8,
+          "recent": 80.5,
+          "delta": -33.3,
+          "ratio": 0.707
+        },
+        "sog": {
+          "baseline": 1.4,
+          "recent": 2.5,
+          "delta": 1.1,
+          "ratio": 1.786
+        },
+        "hit": {
+          "baseline": 0.4,
+          "recent": 2.0,
+          "delta": 1.6,
+          "ratio": 5.0
+        },
+        "blk": {
+          "baseline": 0.2,
+          "recent": 0.0,
+          "delta": -0.2,
+          "ratio": 0.0
+        },
+        "fow": {
+          "baseline": 0.0,
+          "recent": null,
+          "delta": null,
+          "ratio": null
+        },
+        "fo": {
+          "baseline": 0.6,
+          "recent": 0.0,
+          "delta": -0.6,
+          "ratio": 0.0
+        },
+        "pts": {
+          "baseline": 0.4,
+          "recent": 0.0,
+          "delta": -0.4,
+          "ratio": 0.0
+        },
+        "ppp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "shp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        }
+      },
+      "baseline_games": 5,
+      "recent_games": 2,
+      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
+      "team_context": [],
+      "latest_final_game_date": "2026-11-07",
+      "latest_final_game_id": 2026020276
+    },
+    {
       "nhl_player_id": 8482077,
       "espn_player_id": 4697397,
       "name": "Dylan Holloway",
@@ -28144,7 +27005,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 79.81,
+      "percent_owned": 79.77,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -28631,7 +27492,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
-      "percent_owned": 11.22,
+      "percent_owned": 11.21,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -28752,7 +27613,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
-      "percent_owned": 29.36,
+      "percent_owned": 29.28,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -28875,13 +27736,13 @@
     },
     {
       "nhl_player_id": 8477903,
-      "espn_player_id": 3149633,
+      "espn_player_id": null,
       "name": "Garnet Hathaway",
       "nhl_team": "FLA",
       "position": "R",
-      "espn_status": "FREEAGENT",
-      "espn_team_id": 0,
-      "percent_owned": 0.87,
+      "espn_status": "UNMATCHED",
+      "espn_team_id": null,
+      "percent_owned": null,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -29148,7 +28009,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 35.49,
+      "percent_owned": 35.4,
       "nhl_roster_status": "IR",
       "score": 15,
       "reliability": "HIGH",
@@ -29391,7 +28252,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 30.67,
+      "percent_owned": 30.66,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -29754,7 +28615,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 92.29,
+      "percent_owned": 92.27,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -29962,7 +28823,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 4.44,
+      "percent_owned": 4.48,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -30094,7 +28955,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 38.24,
+      "percent_owned": 38.32,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -30355,7 +29216,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 97.16,
+      "percent_owned": 97.15,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -30492,6 +29353,111 @@
       ],
       "latest_final_game_date": "2026-11-07",
       "latest_final_game_id": 2026020269
+    },
+    {
+      "nhl_player_id": 8482079,
+      "espn_player_id": 4697391,
+      "name": "Marco Rossi",
+      "nhl_team": "VAN",
+      "position": "C",
+      "espn_status": "ONTEAM",
+      "espn_team_id": 9,
+      "percent_owned": 27.4,
+      "nhl_roster_status": "ACTIVE",
+      "score": 15,
+      "reliability": "HIGH",
+      "recommendation": "TRACK ONLY",
+      "categories": [
+        "SOG",
+        "HIT"
+      ],
+      "signals": [
+        {
+          "type": "PERIPHERAL_UP",
+          "label": "Рост SOG/HIT/BLK",
+          "strong": true
+        }
+      ],
+      "metrics": {
+        "toi": {
+          "baseline": 927.8,
+          "recent": 827.5,
+          "delta": -100.3,
+          "ratio": 0.892
+        },
+        "ev_toi": {
+          "baseline": 794.4,
+          "recent": 764.5,
+          "delta": -29.9,
+          "ratio": 0.962
+        },
+        "pp_toi": {
+          "baseline": 130.6,
+          "recent": 63.0,
+          "delta": -67.6,
+          "ratio": 0.482
+        },
+        "sh_toi": {
+          "baseline": 2.8,
+          "recent": 0.0,
+          "delta": -2.8,
+          "ratio": 0.0
+        },
+        "sog": {
+          "baseline": 1.4,
+          "recent": 4.0,
+          "delta": 2.6,
+          "ratio": 2.857
+        },
+        "hit": {
+          "baseline": 0.8,
+          "recent": 2.5,
+          "delta": 1.7,
+          "ratio": 3.125
+        },
+        "blk": {
+          "baseline": 0.4,
+          "recent": 0.0,
+          "delta": -0.4,
+          "ratio": 0.0
+        },
+        "fow": {
+          "baseline": 4.4,
+          "recent": 4.5,
+          "delta": 0.1,
+          "ratio": 1.023
+        },
+        "fo": {
+          "baseline": 9.0,
+          "recent": 8.5,
+          "delta": -0.5,
+          "ratio": 0.944
+        },
+        "pts": {
+          "baseline": 0.2,
+          "recent": 0.5,
+          "delta": 0.3,
+          "ratio": 2.5
+        },
+        "ppp": {
+          "baseline": 0.2,
+          "recent": 0.0,
+          "delta": -0.2,
+          "ratio": 0.0
+        },
+        "shp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        }
+      },
+      "baseline_games": 5,
+      "recent_games": 2,
+      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
+      "team_context": [],
+      "latest_final_game_date": "2026-11-07",
+      "latest_final_game_id": 2026020276
     },
     {
       "nhl_player_id": 8479671,
@@ -30639,7 +29605,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 98.23,
+      "percent_owned": 98.22,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -30930,7 +29896,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 18,
-      "percent_owned": 16.61,
+      "percent_owned": 16.65,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -31278,7 +30244,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 1.42,
+      "percent_owned": 1.41,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -31681,7 +30647,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 60.27,
+      "percent_owned": 60.28,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -32207,7 +31173,7 @@
       "position": "C",
       "espn_status": "WAIVERS",
       "espn_team_id": 0,
-      "percent_owned": 3.49,
+      "percent_owned": 3.48,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -32466,7 +31432,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 14.81,
+      "percent_owned": 14.8,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -32595,7 +31561,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
-      "percent_owned": 3.36,
+      "percent_owned": 3.35,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -32846,7 +31812,7 @@
       "position": "D",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 0.1,
+      "percent_owned": 0.09,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "LOW",
@@ -33820,6 +32786,144 @@
       "latest_final_game_id": 2026020224
     },
     {
+      "nhl_player_id": 8479365,
+      "espn_player_id": 4024997,
+      "name": "Trent Frederic",
+      "nhl_team": "EDM",
+      "position": "C",
+      "espn_status": "FREEAGENT",
+      "espn_team_id": 0,
+      "percent_owned": 0.18,
+      "nhl_roster_status": "ACTIVE",
+      "score": 15,
+      "reliability": "HIGH",
+      "recommendation": "WATCH",
+      "categories": [
+        "SOG",
+        "HIT"
+      ],
+      "signals": [
+        {
+          "type": "PERIPHERAL_UP",
+          "label": "Рост SOG/HIT/BLK",
+          "strong": false
+        }
+      ],
+      "metrics": {
+        "toi": {
+          "baseline": 532.8,
+          "recent": 487.0,
+          "delta": -45.8,
+          "ratio": 0.914
+        },
+        "ev_toi": {
+          "baseline": 475.2,
+          "recent": 474.0,
+          "delta": -1.2,
+          "ratio": 0.997
+        },
+        "pp_toi": {
+          "baseline": 57.6,
+          "recent": 13.0,
+          "delta": -44.6,
+          "ratio": 0.226
+        },
+        "sh_toi": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "sog": {
+          "baseline": 0.6,
+          "recent": 2.0,
+          "delta": 1.4,
+          "ratio": 3.333
+        },
+        "hit": {
+          "baseline": 2.2,
+          "recent": 2.0,
+          "delta": -0.2,
+          "ratio": 0.909
+        },
+        "blk": {
+          "baseline": 0.0,
+          "recent": 0.5,
+          "delta": 0.5,
+          "ratio": null
+        },
+        "fow": {
+          "baseline": 2.0,
+          "recent": 2.0,
+          "delta": 0.0,
+          "ratio": 1.0
+        },
+        "fo": {
+          "baseline": 1.4,
+          "recent": 1.0,
+          "delta": -0.4,
+          "ratio": 0.714
+        },
+        "pts": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "ppp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "shp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        }
+      },
+      "baseline_games": 5,
+      "recent_games": 2,
+      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
+      "team_context": [
+        {
+          "id": "RETURNED_FROM_IR:EDM:devon levi:2026-11-07",
+          "type": "RETURNED_FROM_IR",
+          "team": "EDM",
+          "player": "Devon Levi",
+          "player_key": "devon levi",
+          "detected_at": "2026-11-07T20:29:38Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:EDM:zach hyman:2026-11-07",
+          "type": "RETURNED_FROM_IR",
+          "team": "EDM",
+          "player": "Zach Hyman",
+          "player_key": "zach hyman",
+          "detected_at": "2026-11-07T20:29:38Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:EDM:matt tomkins:2026-11-07",
+          "type": "ACTIVE_REMOVED",
+          "team": "EDM",
+          "player": "Matt Tomkins",
+          "player_key": "matt tomkins",
+          "detected_at": "2026-11-07T20:29:38Z"
+        },
+        {
+          "id": "NEW_IR:EDM:isaac howard:2026-11-05",
+          "type": "NEW_IR",
+          "team": "EDM",
+          "player": "Isaac Howard",
+          "player_key": "isaac howard",
+          "detected_at": "2026-11-05T23:36:53Z"
+        }
+      ],
+      "latest_final_game_date": "2026-11-07",
+      "latest_final_game_id": 2026020276
+    },
+    {
       "nhl_player_id": 8486025,
       "espn_player_id": 5361711,
       "name": "Viggo Björck",
@@ -33956,7 +33060,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 1,
-      "percent_owned": 80.23,
+      "percent_owned": 80.21,
       "nhl_roster_status": "ACTIVE",
       "score": 15,
       "reliability": "HIGH",
@@ -34467,110 +33571,6 @@
       "latest_final_game_id": 2026020264
     },
     {
-      "nhl_player_id": 8484798,
-      "espn_player_id": 5206642,
-      "name": "Zeev Buium",
-      "nhl_team": "VAN",
-      "position": "D",
-      "espn_status": "ONTEAM",
-      "espn_team_id": 9,
-      "percent_owned": 6.63,
-      "nhl_roster_status": "ACTIVE",
-      "score": 15,
-      "reliability": "HIGH",
-      "recommendation": "TRACK ONLY",
-      "categories": [
-        "SOG"
-      ],
-      "signals": [
-        {
-          "type": "PERIPHERAL_UP",
-          "label": "Рост SOG/HIT/BLK",
-          "strong": false
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 1225.0,
-          "recent": 1388.5,
-          "delta": 163.5,
-          "ratio": 1.133
-        },
-        "ev_toi": {
-          "baseline": 1099.6,
-          "recent": 1261.0,
-          "delta": 161.4,
-          "ratio": 1.147
-        },
-        "pp_toi": {
-          "baseline": 120.8,
-          "recent": 124.5,
-          "delta": 3.7,
-          "ratio": 1.031
-        },
-        "sh_toi": {
-          "baseline": 4.6,
-          "recent": 3.0,
-          "delta": -1.6,
-          "ratio": 0.652
-        },
-        "sog": {
-          "baseline": 0.8,
-          "recent": 2.0,
-          "delta": 1.2,
-          "ratio": 2.5
-        },
-        "hit": {
-          "baseline": 0.2,
-          "recent": 0.0,
-          "delta": -0.2,
-          "ratio": 0.0
-        },
-        "blk": {
-          "baseline": 1.0,
-          "recent": 1.5,
-          "delta": 0.5,
-          "ratio": 1.5
-        },
-        "fow": {
-          "baseline": null,
-          "recent": null,
-          "delta": null,
-          "ratio": null
-        },
-        "fo": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "pts": {
-          "baseline": 0.4,
-          "recent": 0.0,
-          "delta": -0.4,
-          "ratio": 0.0
-        },
-        "ppp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [],
-      "latest_final_game_date": "2026-11-05",
-      "latest_final_game_id": 2026020259
-    },
-    {
       "nhl_player_id": 8478010,
       "espn_player_id": null,
       "name": "Brayden Point",
@@ -34815,7 +33815,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
-      "percent_owned": 76.21,
+      "percent_owned": 76.16,
       "nhl_roster_status": "ACTIVE",
       "score": 12,
       "reliability": "HIGH",
@@ -34930,6 +33930,110 @@
       "latest_final_game_id": 2026020269
     },
     {
+      "nhl_player_id": 8480012,
+      "espn_player_id": 4233566,
+      "name": "Elias Pettersson",
+      "nhl_team": "VAN",
+      "position": "C",
+      "espn_status": "ONTEAM",
+      "espn_team_id": 4,
+      "percent_owned": 97.03,
+      "nhl_roster_status": "ACTIVE",
+      "score": 12,
+      "reliability": "HIGH",
+      "recommendation": "TRACK ONLY",
+      "categories": [
+        "FOW"
+      ],
+      "signals": [
+        {
+          "type": "FOW_UP",
+          "label": "Рост FOW",
+          "strong": true
+        }
+      ],
+      "metrics": {
+        "toi": {
+          "baseline": 1324.0,
+          "recent": 1229.5,
+          "delta": -94.5,
+          "ratio": 0.929
+        },
+        "ev_toi": {
+          "baseline": 928.0,
+          "recent": 969.5,
+          "delta": 41.5,
+          "ratio": 1.045
+        },
+        "pp_toi": {
+          "baseline": 248.2,
+          "recent": 76.0,
+          "delta": -172.2,
+          "ratio": 0.306
+        },
+        "sh_toi": {
+          "baseline": 147.8,
+          "recent": 184.0,
+          "delta": 36.2,
+          "ratio": 1.245
+        },
+        "sog": {
+          "baseline": 1.4,
+          "recent": 0.0,
+          "delta": -1.4,
+          "ratio": 0.0
+        },
+        "hit": {
+          "baseline": 0.8,
+          "recent": 1.5,
+          "delta": 0.7,
+          "ratio": 1.875
+        },
+        "blk": {
+          "baseline": 2.4,
+          "recent": 0.0,
+          "delta": -2.4,
+          "ratio": 0.0
+        },
+        "fow": {
+          "baseline": 9.6,
+          "recent": 14.0,
+          "delta": 4.4,
+          "ratio": 1.458
+        },
+        "fo": {
+          "baseline": 23.0,
+          "recent": 22.5,
+          "delta": -0.5,
+          "ratio": 0.978
+        },
+        "pts": {
+          "baseline": 1.2,
+          "recent": 0.5,
+          "delta": -0.7,
+          "ratio": 0.417
+        },
+        "ppp": {
+          "baseline": 0.2,
+          "recent": 0.0,
+          "delta": -0.2,
+          "ratio": 0.0
+        },
+        "shp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        }
+      },
+      "baseline_games": 5,
+      "recent_games": 2,
+      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
+      "team_context": [],
+      "latest_final_game_date": "2026-11-07",
+      "latest_final_game_id": 2026020276
+    },
+    {
       "nhl_player_id": 8477935,
       "espn_player_id": 3114732,
       "name": "Sam Bennett",
@@ -34937,7 +34041,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 18,
-      "percent_owned": 70.87,
+      "percent_owned": 70.9,
       "nhl_roster_status": "ACTIVE",
       "score": 12,
       "reliability": "HIGH",
@@ -35298,7 +34402,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 5.91,
+      "percent_owned": 5.92,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -35553,7 +34657,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 0.54,
+      "percent_owned": 0.55,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -36867,7 +35971,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 3,
-      "percent_owned": 68.68,
+      "percent_owned": 68.67,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -36973,7 +36077,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 4,
-      "percent_owned": 51.02,
+      "percent_owned": 51.04,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -37096,7 +36200,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 5.19,
+      "percent_owned": 5.22,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -37236,7 +36340,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 30.75,
+      "percent_owned": 30.74,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -37360,7 +36464,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 1.01,
+      "percent_owned": 0.99,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -37591,7 +36695,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 6,
-      "percent_owned": 30.28,
+      "percent_owned": 30.31,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -37956,7 +37060,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 12,
-      "percent_owned": 2.19,
+      "percent_owned": 2.23,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -38088,7 +37192,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 1.55,
+      "percent_owned": 1.57,
       "nhl_roster_status": "ACTIVE",
       "score": 10,
       "reliability": "HIGH",
@@ -38571,7 +37675,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 60.25,
+      "percent_owned": 60.24,
       "nhl_roster_status": "IR",
       "score": 6,
       "reliability": "MEDIUM",
@@ -38932,7 +38036,7 @@
       "position": "D",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 47.24,
+      "percent_owned": 47.2,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -39051,7 +38155,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 8,
-      "percent_owned": 95.04,
+      "percent_owned": 95.03,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -39194,7 +38298,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 2,
-      "percent_owned": 68.83,
+      "percent_owned": 68.8,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -39439,20 +38543,20 @@
       "latest_final_game_id": 2026020275
     },
     {
-      "nhl_player_id": 8480012,
-      "espn_player_id": 4233566,
-      "name": "Elias Pettersson",
-      "nhl_team": "VAN",
-      "position": "C",
+      "nhl_player_id": 8480803,
+      "espn_player_id": 4352722,
+      "name": "Evan Bouchard",
+      "nhl_team": "EDM",
+      "position": "D",
       "espn_status": "ONTEAM",
-      "espn_team_id": 4,
-      "percent_owned": 97.04,
+      "espn_team_id": 3,
+      "percent_owned": 99.85,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
       "recommendation": "TRACK ONLY",
       "categories": [
-        "FOW",
+        "SOG",
         "G",
         "A",
         "PTS"
@@ -39466,69 +38570,69 @@
       ],
       "metrics": {
         "toi": {
-          "baseline": 1295.8,
-          "recent": 1267.0,
-          "delta": -28.8,
-          "ratio": 0.978
+          "baseline": 1547.8,
+          "recent": 1461.0,
+          "delta": -86.8,
+          "ratio": 0.944
         },
         "ev_toi": {
-          "baseline": 890.2,
-          "recent": 1006.0,
-          "delta": 115.8,
-          "ratio": 1.13
+          "baseline": 1218.4,
+          "recent": 1094.5,
+          "delta": -123.9,
+          "ratio": 0.898
         },
         "pp_toi": {
-          "baseline": 259.0,
-          "recent": 128.0,
-          "delta": -131.0,
-          "ratio": 0.494
+          "baseline": 282.4,
+          "recent": 291.5,
+          "delta": 9.1,
+          "ratio": 1.032
         },
         "sh_toi": {
-          "baseline": 146.6,
-          "recent": 133.0,
-          "delta": -13.6,
-          "ratio": 0.907
+          "baseline": 47.0,
+          "recent": 75.0,
+          "delta": 28.0,
+          "ratio": 1.596
         },
         "sog": {
-          "baseline": 1.6,
-          "recent": 0.0,
-          "delta": -1.6,
-          "ratio": 0.0
+          "baseline": 2.4,
+          "recent": 2.0,
+          "delta": -0.4,
+          "ratio": 0.833
         },
         "hit": {
-          "baseline": 1.2,
-          "recent": 1.5,
-          "delta": 0.3,
-          "ratio": 1.25
+          "baseline": 0.6,
+          "recent": 0.0,
+          "delta": -0.6,
+          "ratio": 0.0
         },
         "blk": {
-          "baseline": 2.0,
-          "recent": 1.5,
-          "delta": -0.5,
-          "ratio": 0.75
+          "baseline": 1.4,
+          "recent": 0.5,
+          "delta": -0.9,
+          "ratio": 0.357
         },
         "fow": {
-          "baseline": 9.6,
-          "recent": 12.5,
-          "delta": 2.9,
-          "ratio": 1.302
+          "baseline": null,
+          "recent": null,
+          "delta": null,
+          "ratio": null
         },
         "fo": {
-          "baseline": 23.2,
-          "recent": 21.5,
-          "delta": -1.7,
-          "ratio": 0.927
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
         },
         "pts": {
-          "baseline": 1.0,
-          "recent": 1.0,
-          "delta": 0.0,
-          "ratio": 1.0
+          "baseline": 1.4,
+          "recent": 1.5,
+          "delta": 0.1,
+          "ratio": 1.071
         },
         "ppp": {
-          "baseline": 0.2,
-          "recent": 0.5,
-          "delta": 0.3,
+          "baseline": 0.4,
+          "recent": 1.0,
+          "delta": 0.6,
           "ratio": 2.5
         },
         "shp": {
@@ -39541,9 +38645,42 @@
       "baseline_games": 5,
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [],
-      "latest_final_game_date": "2026-11-05",
-      "latest_final_game_id": 2026020259
+      "team_context": [
+        {
+          "id": "RETURNED_FROM_IR:EDM:devon levi:2026-11-07",
+          "type": "RETURNED_FROM_IR",
+          "team": "EDM",
+          "player": "Devon Levi",
+          "player_key": "devon levi",
+          "detected_at": "2026-11-07T20:29:38Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:EDM:zach hyman:2026-11-07",
+          "type": "RETURNED_FROM_IR",
+          "team": "EDM",
+          "player": "Zach Hyman",
+          "player_key": "zach hyman",
+          "detected_at": "2026-11-07T20:29:38Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:EDM:matt tomkins:2026-11-07",
+          "type": "ACTIVE_REMOVED",
+          "team": "EDM",
+          "player": "Matt Tomkins",
+          "player_key": "matt tomkins",
+          "detected_at": "2026-11-07T20:29:38Z"
+        },
+        {
+          "id": "NEW_IR:EDM:isaac howard:2026-11-05",
+          "type": "NEW_IR",
+          "team": "EDM",
+          "player": "Isaac Howard",
+          "player_key": "isaac howard",
+          "detected_at": "2026-11-05T23:36:53Z"
+        }
+      ],
+      "latest_final_game_date": "2026-11-07",
+      "latest_final_game_id": 2026020276
     },
     {
       "nhl_player_id": 8477938,
@@ -40044,7 +39181,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 61.61,
+      "percent_owned": 61.69,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -40165,7 +39302,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 9,
-      "percent_owned": 53.19,
+      "percent_owned": 53.16,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -40300,7 +39437,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 13,
-      "percent_owned": 67.53,
+      "percent_owned": 67.52,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -40423,7 +39560,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 15,
-      "percent_owned": 36.44,
+      "percent_owned": 36.43,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -40562,7 +39699,7 @@
       "position": "R",
       "espn_status": "FREEAGENT",
       "espn_team_id": 0,
-      "percent_owned": 15.62,
+      "percent_owned": 15.61,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -40717,7 +39854,7 @@
       "position": "R",
       "espn_status": "ONTEAM",
       "espn_team_id": 16,
-      "percent_owned": 63.55,
+      "percent_owned": 63.53,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -40827,110 +39964,6 @@
       ],
       "latest_final_game_date": "2026-11-02",
       "latest_final_game_id": 2026020234
-    },
-    {
-      "nhl_player_id": 8481032,
-      "espn_player_id": 4331579,
-      "name": "Paul Cotter",
-      "nhl_team": "VAN",
-      "position": "L",
-      "espn_status": "ONTEAM",
-      "espn_team_id": 9,
-      "percent_owned": 20.84,
-      "nhl_roster_status": "ACTIVE",
-      "score": 6,
-      "reliability": "HIGH",
-      "recommendation": "TRACK ONLY",
-      "categories": [
-        "HIT"
-      ],
-      "signals": [
-        {
-          "type": "PPP_UP",
-          "label": "Рост PPP",
-          "strong": false
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 751.4,
-          "recent": 667.5,
-          "delta": -83.9,
-          "ratio": 0.888
-        },
-        "ev_toi": {
-          "baseline": 642.8,
-          "recent": 557.5,
-          "delta": -85.3,
-          "ratio": 0.867
-        },
-        "pp_toi": {
-          "baseline": 106.4,
-          "recent": 110.0,
-          "delta": 3.6,
-          "ratio": 1.034
-        },
-        "sh_toi": {
-          "baseline": 2.2,
-          "recent": 0.0,
-          "delta": -2.2,
-          "ratio": 0.0
-        },
-        "sog": {
-          "baseline": 0.4,
-          "recent": 0.5,
-          "delta": 0.1,
-          "ratio": 1.25
-        },
-        "hit": {
-          "baseline": 3.2,
-          "recent": 3.0,
-          "delta": -0.2,
-          "ratio": 0.938
-        },
-        "blk": {
-          "baseline": 0.2,
-          "recent": 0.0,
-          "delta": -0.2,
-          "ratio": 0.0
-        },
-        "fow": {
-          "baseline": 0.75,
-          "recent": 1.5,
-          "delta": 0.75,
-          "ratio": 2.0
-        },
-        "fo": {
-          "baseline": 1.2,
-          "recent": 2.0,
-          "delta": 0.8,
-          "ratio": 1.667
-        },
-        "pts": {
-          "baseline": 0.0,
-          "recent": 0.5,
-          "delta": 0.5,
-          "ratio": null
-        },
-        "ppp": {
-          "baseline": 0.0,
-          "recent": 0.5,
-          "delta": 0.5,
-          "ratio": null
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [],
-      "latest_final_game_date": "2026-11-05",
-      "latest_final_game_id": 2026020259
     },
     {
       "nhl_player_id": 8481577,
@@ -41337,7 +40370,7 @@
       "position": "C",
       "espn_status": "ONTEAM",
       "espn_team_id": 19,
-      "percent_owned": 52.84,
+      "percent_owned": 52.83,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",
@@ -41571,6 +40604,145 @@
       "latest_final_game_id": 2026020266
     },
     {
+      "nhl_player_id": 8476454,
+      "espn_player_id": 2562624,
+      "name": "Ryan Nugent-Hopkins",
+      "nhl_team": "EDM",
+      "position": "C",
+      "espn_status": "ONTEAM",
+      "espn_team_id": 12,
+      "percent_owned": 73.2,
+      "nhl_roster_status": "ACTIVE",
+      "score": 6,
+      "reliability": "HIGH",
+      "recommendation": "TRACK ONLY",
+      "categories": [
+        "G",
+        "A",
+        "PTS"
+      ],
+      "signals": [
+        {
+          "type": "PPP_UP",
+          "label": "Рост PPP",
+          "strong": false
+        }
+      ],
+      "metrics": {
+        "toi": {
+          "baseline": 1191.4,
+          "recent": 784.5,
+          "delta": -406.9,
+          "ratio": 0.658
+        },
+        "ev_toi": {
+          "baseline": 918.4,
+          "recent": 570.5,
+          "delta": -347.9,
+          "ratio": 0.621
+        },
+        "pp_toi": {
+          "baseline": 270.4,
+          "recent": 173.0,
+          "delta": -97.4,
+          "ratio": 0.64
+        },
+        "sh_toi": {
+          "baseline": 2.6,
+          "recent": 41.0,
+          "delta": 38.4,
+          "ratio": 15.769
+        },
+        "sog": {
+          "baseline": 2.2,
+          "recent": 0.5,
+          "delta": -1.7,
+          "ratio": 0.227
+        },
+        "hit": {
+          "baseline": 0.0,
+          "recent": 0.5,
+          "delta": 0.5,
+          "ratio": null
+        },
+        "blk": {
+          "baseline": 0.4,
+          "recent": 0.0,
+          "delta": -0.4,
+          "ratio": 0.0
+        },
+        "fow": {
+          "baseline": 4.4,
+          "recent": 4.0,
+          "delta": -0.4,
+          "ratio": 0.909
+        },
+        "fo": {
+          "baseline": 10.0,
+          "recent": 7.5,
+          "delta": -2.5,
+          "ratio": 0.75
+        },
+        "pts": {
+          "baseline": 1.4,
+          "recent": 1.0,
+          "delta": -0.4,
+          "ratio": 0.714
+        },
+        "ppp": {
+          "baseline": 0.6,
+          "recent": 1.0,
+          "delta": 0.4,
+          "ratio": 1.667
+        },
+        "shp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        }
+      },
+      "baseline_games": 5,
+      "recent_games": 2,
+      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
+      "team_context": [
+        {
+          "id": "RETURNED_FROM_IR:EDM:devon levi:2026-11-07",
+          "type": "RETURNED_FROM_IR",
+          "team": "EDM",
+          "player": "Devon Levi",
+          "player_key": "devon levi",
+          "detected_at": "2026-11-07T20:29:38Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:EDM:zach hyman:2026-11-07",
+          "type": "RETURNED_FROM_IR",
+          "team": "EDM",
+          "player": "Zach Hyman",
+          "player_key": "zach hyman",
+          "detected_at": "2026-11-07T20:29:38Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:EDM:matt tomkins:2026-11-07",
+          "type": "ACTIVE_REMOVED",
+          "team": "EDM",
+          "player": "Matt Tomkins",
+          "player_key": "matt tomkins",
+          "detected_at": "2026-11-07T20:29:38Z"
+        },
+        {
+          "id": "NEW_IR:EDM:isaac howard:2026-11-05",
+          "type": "NEW_IR",
+          "team": "EDM",
+          "player": "Isaac Howard",
+          "player_key": "isaac howard",
+          "detected_at": "2026-11-05T23:36:53Z"
+        }
+      ],
+      "latest_final_game_date": "2026-11-07",
+      "latest_final_game_id": 2026020276
+    },
+    {
       "nhl_player_id": 8483676,
       "espn_player_id": 5136706,
       "name": "Stephen Halliday",
@@ -41699,7 +40871,7 @@
       "position": "L",
       "espn_status": "ONTEAM",
       "espn_team_id": 14,
-      "percent_owned": 5.36,
+      "percent_owned": 5.37,
       "nhl_roster_status": "ACTIVE",
       "score": 6,
       "reliability": "HIGH",

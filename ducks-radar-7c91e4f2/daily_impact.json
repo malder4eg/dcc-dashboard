@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
   "game_date": "2026-11-07",
-  "generated_at": "2026-11-08T05:55:20Z",
-  "updated": "2026-11-08 08:55 МСК",
-  "complete": false,
-  "history_updated": "2026-11-08 08:55 МСК",
-  "mapping_updated": "2026-11-08 08:55 МСК",
-  "espn_updated": "2026-11-08 08:55 МСК",
+  "generated_at": "2026-11-08T07:18:07Z",
+  "updated": "2026-11-08 10:18 МСК",
+  "complete": true,
+  "history_updated": "2026-11-08 10:18 МСК",
+  "mapping_updated": "2026-11-08 10:18 МСК",
+  "espn_updated": "2026-11-08 10:18 МСК",
   "source": {
     "game_status": "https://api-web.nhle.com/v1/score/2026-11-07",
     "game_stats": "https://api.nhle.com/stats/rest/en/skater/",
@@ -50,7 +50,7 @@
       "ppp": 1.0,
       "shp": 1.0,
       "fow": 6.0,
-      "toi": 1335.0,
+      "toi": 1335.1,
       "sog": 3.0,
       "hit": 3.0,
       "blk": 2.0
@@ -66,7 +66,7 @@
     "final_games": 12,
     "pending_games": 0,
     "pending_game_ids": [],
-    "skaters_ranked": 396,
+    "skaters_ranked": 432,
     "final_game_skaters": {
       "2026020265": 36,
       "2026020266": 36,
@@ -79,20 +79,13 @@
       "2026020273": 36,
       "2026020274": 36,
       "2026020275": 36,
-      "2026020276": 0
+      "2026020276": 36
     },
-    "incomplete_final_games": [
-      {
-        "game_id": 2026020276,
-        "skaters_found": 0,
-        "home": "EDM",
-        "away": "VAN"
-      }
-    ],
+    "incomplete_final_games": [],
     "nhl_mapping_coverage": {
-      "mapped": 643,
-      "unmatched": 112,
-      "ratio": 0.8517
+      "mapped": 641,
+      "unmatched": 114,
+      "ratio": 0.849
     },
     "espn_index_complete": true,
     "espn_analysis_complete": true,
@@ -197,50 +190,50 @@
     },
     {
       "rank": 3,
-      "name": "Nathan MacKinnon",
-      "nhl_player_id": 8477492,
-      "nhl_team": "COL",
-      "opponent": "DET",
+      "name": "Leon Draisaitl",
+      "nhl_player_id": 8477934,
+      "nhl_team": "EDM",
+      "opponent": "VAN",
       "position": "C",
-      "game_id": 2026020274,
+      "game_id": 2026020276,
       "game_date": "2026-11-07",
-      "impact_score": 12.912,
+      "impact_score": 13.433,
       "category_impact": {
-        "g": 1.5,
-        "a": 2.0,
+        "g": 3.0,
+        "a": 1.0,
         "pts": 3.0,
         "plus_minus": 0.4,
-        "ppp": 2.0,
+        "ppp": 1.0,
         "shp": 0.0,
-        "fow": 1.167,
-        "toi": 0.912,
-        "sog": 1.333,
+        "fow": 1.0,
+        "toi": 1.1,
+        "sog": 2.333,
         "hit": 0.0,
         "blk": 0.0
       },
       "breadth": 6,
       "stats": {
-        "g": 1,
-        "a": 2,
+        "g": 2,
+        "a": 1,
         "pts": 3,
         "plus_minus": 1,
-        "ppp": 2,
+        "ppp": 1,
         "shp": 0,
-        "fow": 7,
-        "toi": 1217,
-        "sog": 4,
+        "fow": 6,
+        "toi": 1468,
+        "sog": 7,
         "hit": 0,
         "blk": 0,
-        "ev_toi": 851,
-        "pp_toi": 350,
-        "sh_toi": 16,
-        "fo": 10,
-        "shifts": 21
+        "ev_toi": 1235,
+        "pp_toi": 226,
+        "sh_toi": 7,
+        "fo": 13,
+        "shifts": 27
       },
-      "espn_player_id": 3041969,
+      "espn_player_id": 3114727,
       "availability": "ONTEAM",
-      "on_team_id": 13,
-      "owner": "Big Money Melo",
+      "on_team_id": 14,
+      "owner": "Electric dogs",
       "is_mighty_ducks": false
     }
   ],
@@ -343,6 +336,54 @@
     },
     {
       "rank": 3,
+      "name": "Leon Draisaitl",
+      "nhl_player_id": 8477934,
+      "nhl_team": "EDM",
+      "opponent": "VAN",
+      "position": "C",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 13.433,
+      "category_impact": {
+        "g": 3.0,
+        "a": 1.0,
+        "pts": 3.0,
+        "plus_minus": 0.4,
+        "ppp": 1.0,
+        "shp": 0.0,
+        "fow": 1.0,
+        "toi": 1.1,
+        "sog": 2.333,
+        "hit": 0.0,
+        "blk": 0.0
+      },
+      "breadth": 6,
+      "stats": {
+        "g": 2,
+        "a": 1,
+        "pts": 3,
+        "plus_minus": 1,
+        "ppp": 1,
+        "shp": 0,
+        "fow": 6,
+        "toi": 1468,
+        "sog": 7,
+        "hit": 0,
+        "blk": 0,
+        "ev_toi": 1235,
+        "pp_toi": 226,
+        "sh_toi": 7,
+        "fo": 13,
+        "shifts": 27
+      },
+      "espn_player_id": 3114727,
+      "availability": "ONTEAM",
+      "on_team_id": 14,
+      "owner": "Electric dogs",
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 4,
       "name": "Nathan MacKinnon",
       "nhl_player_id": 8477492,
       "nhl_team": "COL",
@@ -390,7 +431,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "Thomas Harley",
       "nhl_player_id": 8481581,
       "nhl_team": "DAL",
@@ -438,7 +479,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 5,
+      "rank": 6,
       "name": "Macklin Celebrini",
       "nhl_player_id": 8484801,
       "nhl_team": "SJS",
@@ -486,7 +527,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "Charle-Edouard D'Astous",
       "nhl_player_id": 8480426,
       "nhl_team": "TBL",
@@ -534,7 +575,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 7,
+      "rank": 8,
       "name": "Cale Makar",
       "nhl_player_id": 8480069,
       "nhl_team": "COL",
@@ -582,7 +623,55 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 8,
+      "rank": 9,
+      "name": "Connor McDavid",
+      "nhl_player_id": 8478402,
+      "nhl_team": "EDM",
+      "opponent": "VAN",
+      "position": "C",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 11.468,
+      "category_impact": {
+        "g": 0.0,
+        "a": 3.0,
+        "pts": 3.0,
+        "plus_minus": 0.4,
+        "ppp": 1.0,
+        "shp": 0.0,
+        "fow": 0.833,
+        "toi": 1.135,
+        "sog": 1.0,
+        "hit": 0.0,
+        "blk": 0.5
+      },
+      "breadth": 6,
+      "stats": {
+        "g": 0,
+        "a": 3,
+        "pts": 3,
+        "plus_minus": 1,
+        "ppp": 1,
+        "shp": 0,
+        "fow": 5,
+        "toi": 1515,
+        "sog": 3,
+        "hit": 0,
+        "blk": 1,
+        "ev_toi": 1261,
+        "pp_toi": 208,
+        "sh_toi": 46,
+        "fo": 11,
+        "shifts": 27
+      },
+      "espn_player_id": 3895074,
+      "availability": "ONTEAM",
+      "on_team_id": 16,
+      "owner": "Chicago Black Cox",
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 10,
       "name": "Brady Tkachuk",
       "nhl_player_id": 8480801,
       "nhl_team": "FLA",
@@ -590,7 +679,7 @@
       "position": "L",
       "game_id": 2026020265,
       "game_date": "2026-11-07",
-      "impact_score": 11.466,
+      "impact_score": 11.465,
       "category_impact": {
         "g": 3.0,
         "a": 0.0,
@@ -599,7 +688,7 @@
         "ppp": 1.0,
         "shp": 0.0,
         "fow": 0.5,
-        "toi": 0.966,
+        "toi": 0.965,
         "sog": 2.333,
         "hit": 0.667,
         "blk": 0.0
@@ -630,7 +719,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 9,
+      "rank": 11,
       "name": "Sebastian Aho",
       "nhl_player_id": 8478427,
       "nhl_team": "CAR",
@@ -678,7 +767,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 10,
+      "rank": 12,
       "name": "Wyatt Johnston",
       "nhl_player_id": 8482740,
       "nhl_team": "DAL",
@@ -726,7 +815,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 11,
+      "rank": 13,
       "name": "Nikita Kucherov",
       "nhl_player_id": 8476453,
       "nhl_team": "TBL",
@@ -774,7 +863,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 12,
+      "rank": 14,
       "name": "Matthew Tkachuk",
       "nhl_player_id": 8479314,
       "nhl_team": "FLA",
@@ -822,7 +911,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 13,
+      "rank": 15,
       "name": "Steven Stamkos",
       "nhl_player_id": 8474564,
       "nhl_team": "NSH",
@@ -870,7 +959,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 14,
+      "rank": 16,
       "name": "Jack Hughes",
       "nhl_player_id": 8481559,
       "nhl_team": "NJD",
@@ -918,7 +1007,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 15,
+      "rank": 17,
       "name": "Andrei Svechnikov",
       "nhl_player_id": 8480830,
       "nhl_team": "CAR",
@@ -966,7 +1055,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 16,
+      "rank": 18,
       "name": "Sidney Crosby",
       "nhl_player_id": 8471675,
       "nhl_team": "PIT",
@@ -1014,7 +1103,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 17,
+      "rank": 19,
       "name": "Roope Hintz",
       "nhl_player_id": 8478449,
       "nhl_team": "DAL",
@@ -1062,7 +1151,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 18,
+      "rank": 20,
       "name": "Evgeni Malkin",
       "nhl_player_id": 8471215,
       "nhl_team": "PIT",
@@ -1108,107 +1197,11 @@
       "on_team_id": 1,
       "owner": "Night City Samurais",
       "is_mighty_ducks": false
-    },
-    {
-      "rank": 19,
-      "name": "Alex Newhook",
-      "nhl_player_id": 8481618,
-      "nhl_team": "MTL",
-      "opponent": "TOR",
-      "position": "C",
-      "game_id": 2026020268,
-      "game_date": "2026-11-07",
-      "impact_score": 9.173,
-      "category_impact": {
-        "g": 3.0,
-        "a": 0.0,
-        "pts": 2.0,
-        "plus_minus": 0.8,
-        "ppp": 0.0,
-        "shp": 0.0,
-        "fow": 0.333,
-        "toi": 0.64,
-        "sog": 0.667,
-        "hit": 0.333,
-        "blk": 1.0
-      },
-      "breadth": 4,
-      "stats": {
-        "g": 2,
-        "a": 0,
-        "pts": 2,
-        "plus_minus": 2,
-        "ppp": 0,
-        "shp": 0,
-        "fow": 2,
-        "toi": 855,
-        "sog": 2,
-        "hit": 1,
-        "blk": 2,
-        "ev_toi": 615,
-        "pp_toi": 58,
-        "sh_toi": 182,
-        "fo": 6,
-        "shifts": 18
-      },
-      "espn_player_id": 4565237,
-      "availability": "ONTEAM",
-      "on_team_id": 13,
-      "owner": "Big Money Melo",
-      "is_mighty_ducks": false
-    },
-    {
-      "rank": 20,
-      "name": "Pierre-Luc Dubois",
-      "nhl_player_id": 8479400,
-      "nhl_team": "WSH",
-      "opponent": "FLA",
-      "position": "C",
-      "game_id": 2026020265,
-      "game_date": "2026-11-07",
-      "impact_score": 9.052,
-      "category_impact": {
-        "g": 1.5,
-        "a": 1.0,
-        "pts": 2.0,
-        "plus_minus": 1.2,
-        "ppp": 0.0,
-        "shp": 0.0,
-        "fow": 1.167,
-        "toi": 0.685,
-        "sog": 1.0,
-        "hit": 0.0,
-        "blk": 0.0
-      },
-      "breadth": 5,
-      "stats": {
-        "g": 1,
-        "a": 1,
-        "pts": 2,
-        "plus_minus": 3,
-        "ppp": 0,
-        "shp": 0,
-        "fow": 7,
-        "toi": 915,
-        "sog": 3,
-        "hit": 0,
-        "blk": 0,
-        "ev_toi": 799,
-        "pp_toi": 112,
-        "sh_toi": 4,
-        "fo": 16,
-        "shifts": 21
-      },
-      "espn_player_id": 4024833,
-      "availability": "ONTEAM",
-      "on_team_id": 14,
-      "owner": "Electric dogs",
-      "is_mighty_ducks": false
     }
   ],
   "top3_available": [
     {
-      "rank": 24,
+      "rank": 26,
       "name": "Jordan Martinook",
       "nhl_player_id": 8476921,
       "nhl_team": "CAR",
@@ -1256,7 +1249,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 42,
+      "rank": 44,
       "name": "Michael Amadio",
       "nhl_player_id": 8478020,
       "nhl_team": "OTT",
@@ -1304,7 +1297,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 44,
+      "rank": 46,
       "name": "Aliaksei Protas",
       "nhl_player_id": 8481656,
       "nhl_team": "WSH",
@@ -1354,7 +1347,7 @@
   ],
   "top3_freeagents": [
     {
-      "rank": 24,
+      "rank": 26,
       "name": "Jordan Martinook",
       "nhl_player_id": 8476921,
       "nhl_team": "CAR",
@@ -1402,7 +1395,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 42,
+      "rank": 44,
       "name": "Michael Amadio",
       "nhl_player_id": 8478020,
       "nhl_team": "OTT",
@@ -1450,7 +1443,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 44,
+      "rank": 46,
       "name": "Aliaksei Protas",
       "nhl_player_id": 8481656,
       "nhl_team": "WSH",
@@ -1500,7 +1493,7 @@
   ],
   "best_mighty_ducks": [
     {
-      "rank": 33,
+      "rank": 35,
       "name": "John Carlson",
       "nhl_player_id": 8474590,
       "nhl_team": "TBL",
@@ -1548,7 +1541,7 @@
       "is_mighty_ducks": true
     },
     {
-      "rank": 39,
+      "rank": 41,
       "name": "Tommy Novak",
       "nhl_player_id": 8478438,
       "nhl_team": "PIT",
@@ -1596,7 +1589,7 @@
       "is_mighty_ducks": true
     },
     {
-      "rank": 109,
+      "rank": 117,
       "name": "Adam Fox",
       "nhl_player_id": 8479323,
       "nhl_team": "NYR",
@@ -1604,7 +1597,7 @@
       "position": "D",
       "game_id": 2026020267,
       "game_date": "2026-11-07",
-      "impact_score": 5.102,
+      "impact_score": 5.101,
       "category_impact": {
         "g": 0.0,
         "a": 1.0,
@@ -1613,7 +1606,7 @@
         "ppp": 1.0,
         "shp": 0.0,
         "fow": 0.0,
-        "toi": 1.136,
+        "toi": 1.135,
         "sog": 0.333,
         "hit": 0.333,
         "blk": 0.0
@@ -1743,6 +1736,54 @@
     },
     {
       "rank": 3,
+      "name": "Leon Draisaitl",
+      "nhl_player_id": 8477934,
+      "nhl_team": "EDM",
+      "opponent": "VAN",
+      "position": "C",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 13.433,
+      "category_impact": {
+        "g": 3.0,
+        "a": 1.0,
+        "pts": 3.0,
+        "plus_minus": 0.4,
+        "ppp": 1.0,
+        "shp": 0.0,
+        "fow": 1.0,
+        "toi": 1.1,
+        "sog": 2.333,
+        "hit": 0.0,
+        "blk": 0.0
+      },
+      "breadth": 6,
+      "stats": {
+        "g": 2,
+        "a": 1,
+        "pts": 3,
+        "plus_minus": 1,
+        "ppp": 1,
+        "shp": 0,
+        "fow": 6,
+        "toi": 1468,
+        "sog": 7,
+        "hit": 0,
+        "blk": 0,
+        "ev_toi": 1235,
+        "pp_toi": 226,
+        "sh_toi": 7,
+        "fo": 13,
+        "shifts": 27
+      },
+      "espn_player_id": 3114727,
+      "availability": "ONTEAM",
+      "on_team_id": 14,
+      "owner": "Electric dogs",
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 4,
       "name": "Nathan MacKinnon",
       "nhl_player_id": 8477492,
       "nhl_team": "COL",
@@ -1790,7 +1831,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "Thomas Harley",
       "nhl_player_id": 8481581,
       "nhl_team": "DAL",
@@ -1838,7 +1879,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 5,
+      "rank": 6,
       "name": "Macklin Celebrini",
       "nhl_player_id": 8484801,
       "nhl_team": "SJS",
@@ -1886,7 +1927,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "Charle-Edouard D'Astous",
       "nhl_player_id": 8480426,
       "nhl_team": "TBL",
@@ -1934,7 +1975,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 7,
+      "rank": 8,
       "name": "Cale Makar",
       "nhl_player_id": 8480069,
       "nhl_team": "COL",
@@ -1982,7 +2023,55 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 8,
+      "rank": 9,
+      "name": "Connor McDavid",
+      "nhl_player_id": 8478402,
+      "nhl_team": "EDM",
+      "opponent": "VAN",
+      "position": "C",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 11.468,
+      "category_impact": {
+        "g": 0.0,
+        "a": 3.0,
+        "pts": 3.0,
+        "plus_minus": 0.4,
+        "ppp": 1.0,
+        "shp": 0.0,
+        "fow": 0.833,
+        "toi": 1.135,
+        "sog": 1.0,
+        "hit": 0.0,
+        "blk": 0.5
+      },
+      "breadth": 6,
+      "stats": {
+        "g": 0,
+        "a": 3,
+        "pts": 3,
+        "plus_minus": 1,
+        "ppp": 1,
+        "shp": 0,
+        "fow": 5,
+        "toi": 1515,
+        "sog": 3,
+        "hit": 0,
+        "blk": 1,
+        "ev_toi": 1261,
+        "pp_toi": 208,
+        "sh_toi": 46,
+        "fo": 11,
+        "shifts": 27
+      },
+      "espn_player_id": 3895074,
+      "availability": "ONTEAM",
+      "on_team_id": 16,
+      "owner": "Chicago Black Cox",
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 10,
       "name": "Brady Tkachuk",
       "nhl_player_id": 8480801,
       "nhl_team": "FLA",
@@ -1990,7 +2079,7 @@
       "position": "L",
       "game_id": 2026020265,
       "game_date": "2026-11-07",
-      "impact_score": 11.466,
+      "impact_score": 11.465,
       "category_impact": {
         "g": 3.0,
         "a": 0.0,
@@ -1999,7 +2088,7 @@
         "ppp": 1.0,
         "shp": 0.0,
         "fow": 0.5,
-        "toi": 0.966,
+        "toi": 0.965,
         "sog": 2.333,
         "hit": 0.667,
         "blk": 0.0
@@ -2030,7 +2119,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 9,
+      "rank": 11,
       "name": "Sebastian Aho",
       "nhl_player_id": 8478427,
       "nhl_team": "CAR",
@@ -2078,7 +2167,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 10,
+      "rank": 12,
       "name": "Wyatt Johnston",
       "nhl_player_id": 8482740,
       "nhl_team": "DAL",
@@ -2126,7 +2215,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 11,
+      "rank": 13,
       "name": "Nikita Kucherov",
       "nhl_player_id": 8476453,
       "nhl_team": "TBL",
@@ -2174,7 +2263,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 12,
+      "rank": 14,
       "name": "Matthew Tkachuk",
       "nhl_player_id": 8479314,
       "nhl_team": "FLA",
@@ -2222,7 +2311,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 13,
+      "rank": 15,
       "name": "Steven Stamkos",
       "nhl_player_id": 8474564,
       "nhl_team": "NSH",
@@ -2270,7 +2359,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 14,
+      "rank": 16,
       "name": "Jack Hughes",
       "nhl_player_id": 8481559,
       "nhl_team": "NJD",
@@ -2318,7 +2407,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 15,
+      "rank": 17,
       "name": "Andrei Svechnikov",
       "nhl_player_id": 8480830,
       "nhl_team": "CAR",
@@ -2366,7 +2455,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 16,
+      "rank": 18,
       "name": "Sidney Crosby",
       "nhl_player_id": 8471675,
       "nhl_team": "PIT",
@@ -2414,7 +2503,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 17,
+      "rank": 19,
       "name": "Roope Hintz",
       "nhl_player_id": 8478449,
       "nhl_team": "DAL",
@@ -2462,7 +2551,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 18,
+      "rank": 20,
       "name": "Evgeni Malkin",
       "nhl_player_id": 8471215,
       "nhl_team": "PIT",
@@ -2510,7 +2599,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 19,
+      "rank": 21,
       "name": "Alex Newhook",
       "nhl_player_id": 8481618,
       "nhl_team": "MTL",
@@ -2558,7 +2647,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 20,
+      "rank": 22,
       "name": "Pierre-Luc Dubois",
       "nhl_player_id": 8479400,
       "nhl_team": "WSH",
@@ -2606,7 +2695,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 21,
+      "rank": 23,
       "name": "Shane Pinto",
       "nhl_player_id": 8481596,
       "nhl_team": "OTT",
@@ -2654,7 +2743,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 22,
+      "rank": 24,
       "name": "Sam Bennett",
       "nhl_player_id": 8477935,
       "nhl_team": "FLA",
@@ -2702,7 +2791,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 23,
+      "rank": 25,
       "name": "Kris Letang",
       "nhl_player_id": 8471724,
       "nhl_team": "PIT",
@@ -2750,7 +2839,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 24,
+      "rank": 26,
       "name": "Jordan Martinook",
       "nhl_player_id": 8476921,
       "nhl_team": "CAR",
@@ -2798,7 +2887,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 25,
+      "rank": 27,
       "name": "Mika Zibanejad",
       "nhl_player_id": 8476459,
       "nhl_team": "NYR",
@@ -2846,7 +2935,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 26,
+      "rank": 28,
       "name": "Luke Evangelista",
       "nhl_player_id": 8482146,
       "nhl_team": "NJD",
@@ -2894,7 +2983,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 27,
+      "rank": 29,
       "name": "Roman Josi",
       "nhl_player_id": 8474600,
       "nhl_team": "NSH",
@@ -2942,7 +3031,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 28,
+      "rank": 30,
       "name": "Alex Laferriere",
       "nhl_player_id": 8482155,
       "nhl_team": "LAK",
@@ -2990,7 +3079,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 29,
+      "rank": 31,
       "name": "Jesperi Kotkaniemi",
       "nhl_player_id": 8480829,
       "nhl_team": "CAR",
@@ -3038,7 +3127,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 30,
+      "rank": 32,
       "name": "Clayton Keller",
       "nhl_player_id": 8479343,
       "nhl_team": "UTA",
@@ -3086,7 +3175,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 31,
+      "rank": 33,
       "name": "Will Smith",
       "nhl_player_id": 8484227,
       "nhl_team": "SJS",
@@ -3134,7 +3223,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 32,
+      "rank": 34,
       "name": "Maxim Shabanov",
       "nhl_player_id": 8485702,
       "nhl_team": "MIN",
@@ -3142,7 +3231,7 @@
       "position": "R",
       "game_id": 2026020273,
       "game_date": "2026-11-07",
-      "impact_score": 8.399,
+      "impact_score": 8.398,
       "category_impact": {
         "g": 3.0,
         "a": 0.0,
@@ -3151,7 +3240,7 @@
         "ppp": 1.0,
         "shp": 0.0,
         "fow": 0.0,
-        "toi": 0.599,
+        "toi": 0.598,
         "sog": 1.0,
         "hit": 0.0,
         "blk": 0.0
@@ -3182,7 +3271,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 33,
+      "rank": 35,
       "name": "John Carlson",
       "nhl_player_id": 8474590,
       "nhl_team": "TBL",
@@ -3230,7 +3319,7 @@
       "is_mighty_ducks": true
     },
     {
-      "rank": 34,
+      "rank": 36,
       "name": "Alexander Nikishin",
       "nhl_player_id": 8482100,
       "nhl_team": "CAR",
@@ -3278,7 +3367,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 35,
+      "rank": 37,
       "name": "Brayden Schenn",
       "nhl_player_id": 8475170,
       "nhl_team": "NYI",
@@ -3326,7 +3415,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 36,
+      "rank": 38,
       "name": "Brayden Point",
       "nhl_player_id": 8478010,
       "nhl_team": "TBL",
@@ -3374,7 +3463,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 37,
+      "rank": 39,
       "name": "Auston Matthews",
       "nhl_player_id": 8479318,
       "nhl_team": "TOR",
@@ -3422,7 +3511,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 38,
+      "rank": 40,
       "name": "Mikko Rantanen",
       "nhl_player_id": 8478420,
       "nhl_team": "DAL",
@@ -3470,7 +3559,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 39,
+      "rank": 41,
       "name": "Tommy Novak",
       "nhl_player_id": 8478438,
       "nhl_team": "PIT",
@@ -3518,7 +3607,7 @@
       "is_mighty_ducks": true
     },
     {
-      "rank": 40,
+      "rank": 42,
       "name": "Shayne Gostisbehere",
       "nhl_player_id": 8476906,
       "nhl_team": "CAR",
@@ -3566,7 +3655,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 41,
+      "rank": 43,
       "name": "Bo Horvat",
       "nhl_player_id": 8477500,
       "nhl_team": "NYI",
@@ -3614,7 +3703,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 42,
+      "rank": 44,
       "name": "Michael Amadio",
       "nhl_player_id": 8478020,
       "nhl_team": "OTT",
@@ -3662,7 +3751,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 43,
+      "rank": 45,
       "name": "Tim Stützle",
       "nhl_player_id": 8482116,
       "nhl_team": "OTT",
@@ -3710,7 +3799,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 44,
+      "rank": 46,
       "name": "Aliaksei Protas",
       "nhl_player_id": 8481656,
       "nhl_team": "WSH",
@@ -3758,7 +3847,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 45,
+      "rank": 47,
       "name": "Connor Bedard",
       "nhl_player_id": 8484144,
       "nhl_team": "CHI",
@@ -3766,7 +3855,7 @@
       "position": "C",
       "game_id": 2026020271,
       "game_date": "2026-11-07",
-      "impact_score": 7.714,
+      "impact_score": 7.713,
       "category_impact": {
         "g": 1.5,
         "a": 1.0,
@@ -3775,7 +3864,7 @@
         "ppp": 0.0,
         "shp": 0.0,
         "fow": 0.333,
-        "toi": 0.781,
+        "toi": 0.78,
         "sog": 0.333,
         "hit": 0.667,
         "blk": 1.0
@@ -3806,7 +3895,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 46,
+      "rank": 48,
       "name": "Alexis Lafrenière",
       "nhl_player_id": 8482109,
       "nhl_team": "NYR",
@@ -3854,7 +3943,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 47,
+      "rank": 49,
       "name": "William Carrier",
       "nhl_player_id": 8477478,
       "nhl_team": "CAR",
@@ -3902,7 +3991,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 48,
+      "rank": 50,
       "name": "Joel Eriksson Ek",
       "nhl_player_id": 8478493,
       "nhl_team": "MIN",
@@ -3950,7 +4039,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 49,
+      "rank": 51,
       "name": "Zachary Bolduc",
       "nhl_player_id": 8482737,
       "nhl_team": "MTL",
@@ -3998,7 +4087,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 50,
+      "rank": 52,
       "name": "T.J. Hughes",
       "nhl_player_id": 8486171,
       "nhl_team": "COL",
@@ -4046,7 +4135,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 51,
+      "rank": 53,
       "name": "Robert Thomas",
       "nhl_player_id": 8480023,
       "nhl_team": "STL",
@@ -4094,7 +4183,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 52,
+      "rank": 54,
       "name": "Alex Vlasic",
       "nhl_player_id": 8481568,
       "nhl_team": "CHI",
@@ -4142,7 +4231,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 53,
+      "rank": 55,
       "name": "Arseny Gritsyuk",
       "nhl_player_id": 8481721,
       "nhl_team": "NJD",
@@ -4190,7 +4279,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 54,
+      "rank": 56,
       "name": "Berkly Catton",
       "nhl_player_id": 8484800,
       "nhl_team": "SEA",
@@ -4238,7 +4327,55 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 55,
+      "rank": 57,
+      "name": "Jason Dickinson",
+      "nhl_player_id": 8477450,
+      "nhl_team": "EDM",
+      "opponent": "VAN",
+      "position": "C",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 6.738,
+      "category_impact": {
+        "g": 1.5,
+        "a": 0.0,
+        "pts": 1.0,
+        "plus_minus": 0.4,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 0.667,
+        "toi": 0.671,
+        "sog": 1.0,
+        "hit": 1.0,
+        "blk": 0.0
+      },
+      "breadth": 5,
+      "stats": {
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plus_minus": 1,
+        "ppp": 0,
+        "shp": 0,
+        "fow": 4,
+        "toi": 896,
+        "sog": 3,
+        "hit": 3,
+        "blk": 0,
+        "ev_toi": 824,
+        "pp_toi": 8,
+        "sh_toi": 64,
+        "fo": 9,
+        "shifts": 21
+      },
+      "espn_player_id": 3042062,
+      "availability": "FREEAGENT",
+      "on_team_id": 0,
+      "owner": null,
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 58,
       "name": "Jimmy Snuggerud",
       "nhl_player_id": 8483516,
       "nhl_team": "STL",
@@ -4286,7 +4423,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 56,
+      "rank": 59,
       "name": "Noah Laba",
       "nhl_player_id": 8483690,
       "nhl_team": "NYR",
@@ -4334,7 +4471,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 57,
+      "rank": 60,
       "name": "Barrett Hayton",
       "nhl_player_id": 8480849,
       "nhl_team": "UTA",
@@ -4382,7 +4519,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 58,
+      "rank": 61,
       "name": "Jesper Bratt",
       "nhl_player_id": 8479407,
       "nhl_team": "NJD",
@@ -4430,7 +4567,55 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 59,
+      "rank": 62,
+      "name": "Max Sasson",
+      "nhl_player_id": 8484136,
+      "nhl_team": "VAN",
+      "opponent": "EDM",
+      "position": "C",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 6.647,
+      "category_impact": {
+        "g": 1.5,
+        "a": 0.0,
+        "pts": 1.0,
+        "plus_minus": 0.4,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 0.667,
+        "toi": 0.646,
+        "sog": 0.667,
+        "hit": 0.667,
+        "blk": 0.5
+      },
+      "breadth": 6,
+      "stats": {
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plus_minus": 1,
+        "ppp": 0,
+        "shp": 0,
+        "fow": 4,
+        "toi": 862,
+        "sog": 2,
+        "hit": 2,
+        "blk": 1,
+        "ev_toi": 784,
+        "pp_toi": 18,
+        "sh_toi": 60,
+        "fo": 11,
+        "shifts": 21
+      },
+      "espn_player_id": 4996099,
+      "availability": "FREEAGENT",
+      "on_team_id": 0,
+      "owner": null,
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 63,
       "name": "Nick Cousins",
       "nhl_player_id": 8476393,
       "nhl_team": "OTT",
@@ -4478,7 +4663,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 60,
+      "rank": 64,
       "name": "Eric Robinson",
       "nhl_player_id": 8480762,
       "nhl_team": "CAR",
@@ -4526,7 +4711,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 61,
+      "rank": 65,
       "name": "K'Andre Miller",
       "nhl_player_id": 8480817,
       "nhl_team": "CAR",
@@ -4574,7 +4759,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 62,
+      "rank": 66,
       "name": "Evan Rodrigues",
       "nhl_player_id": 8478542,
       "nhl_team": "NJD",
@@ -4622,7 +4807,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 63,
+      "rank": 67,
       "name": "William Nylander",
       "nhl_player_id": 8477939,
       "nhl_team": "TOR",
@@ -4670,7 +4855,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 64,
+      "rank": 68,
       "name": "Jack St. Ivany",
       "nhl_player_id": 8481030,
       "nhl_team": "WSH",
@@ -4718,7 +4903,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 65,
+      "rank": 69,
       "name": "Tye Kartye",
       "nhl_player_id": 8481789,
       "nhl_team": "NYR",
@@ -4766,7 +4951,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 66,
+      "rank": 70,
       "name": "Simon Holmstrom",
       "nhl_player_id": 8481601,
       "nhl_team": "NYI",
@@ -4814,7 +4999,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 67,
+      "rank": 71,
       "name": "Nico Hischier",
       "nhl_player_id": 8480002,
       "nhl_team": "NJD",
@@ -4862,7 +5047,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 68,
+      "rank": 72,
       "name": "Matthew Schaefer",
       "nhl_player_id": 8485366,
       "nhl_team": "NYI",
@@ -4910,7 +5095,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 69,
+      "rank": 73,
       "name": "Kirill Kaprizov",
       "nhl_player_id": 8478864,
       "nhl_team": "MIN",
@@ -4958,7 +5143,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 70,
+      "rank": 74,
       "name": "Jason Robertson",
       "nhl_player_id": 8480027,
       "nhl_team": "DAL",
@@ -5006,7 +5191,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 71,
+      "rank": 75,
       "name": "Victor Eklund",
       "nhl_player_id": 8485388,
       "nhl_team": "NYI",
@@ -5054,7 +5239,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 72,
+      "rank": 76,
       "name": "Kaiden Guhle",
       "nhl_player_id": 8482087,
       "nhl_team": "MTL",
@@ -5102,7 +5287,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 73,
+      "rank": 77,
       "name": "Matty Beniers",
       "nhl_player_id": 8482665,
       "nhl_team": "SEA",
@@ -5150,7 +5335,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 74,
+      "rank": 78,
       "name": "Seth Jones",
       "nhl_player_id": 8477495,
       "nhl_team": "FLA",
@@ -5198,7 +5383,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 75,
+      "rank": 79,
       "name": "Dougie Hamilton",
       "nhl_player_id": 8476462,
       "nhl_team": "NJD",
@@ -5206,7 +5391,7 @@
       "position": "D",
       "game_id": 2026020270,
       "game_date": "2026-11-07",
-      "impact_score": 6.166,
+      "impact_score": 6.165,
       "category_impact": {
         "g": 1.5,
         "a": 0.0,
@@ -5215,7 +5400,7 @@
         "ppp": 1.0,
         "shp": 0.0,
         "fow": 0.0,
-        "toi": 0.966,
+        "toi": 0.965,
         "sog": 1.333,
         "hit": 0.667,
         "blk": 0.0
@@ -5246,7 +5431,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 76,
+      "rank": 80,
       "name": "Nick Perbix",
       "nhl_player_id": 8480246,
       "nhl_team": "NSH",
@@ -5294,7 +5479,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 77,
+      "rank": 81,
       "name": "Sean Walker",
       "nhl_player_id": 8480336,
       "nhl_team": "CAR",
@@ -5342,7 +5527,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 78,
+      "rank": 82,
       "name": "Mason Marchment",
       "nhl_player_id": 8478975,
       "nhl_team": "SJS",
@@ -5390,7 +5575,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 79,
+      "rank": 83,
       "name": "Jaroslav Chmelar",
       "nhl_player_id": 8482877,
       "nhl_team": "NYR",
@@ -5438,7 +5623,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 80,
+      "rank": 84,
       "name": "Filip Forsberg",
       "nhl_player_id": 8476887,
       "nhl_team": "NSH",
@@ -5486,7 +5671,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 81,
+      "rank": 85,
       "name": "Jamie Benn",
       "nhl_player_id": 8473994,
       "nhl_team": "DAL",
@@ -5534,7 +5719,55 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 82,
+      "rank": 86,
+      "name": "Brock Boeser",
+      "nhl_player_id": 8478444,
+      "nhl_team": "VAN",
+      "opponent": "EDM",
+      "position": "R",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 5.915,
+      "category_impact": {
+        "g": 1.5,
+        "a": 0.0,
+        "pts": 1.0,
+        "plus_minus": -0.4,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 0.0,
+        "toi": 0.915,
+        "sog": 0.667,
+        "hit": 0.333,
+        "blk": 1.5
+      },
+      "breadth": 4,
+      "stats": {
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plus_minus": -1,
+        "ppp": 0,
+        "shp": 0,
+        "fow": null,
+        "toi": 1221,
+        "sog": 2,
+        "hit": 1,
+        "blk": 3,
+        "ev_toi": 980,
+        "pp_toi": 83,
+        "sh_toi": 158,
+        "fo": 0,
+        "shifts": 26
+      },
+      "espn_player_id": 3899979,
+      "availability": "ONTEAM",
+      "on_team_id": 8,
+      "owner": "Donbazz Boyz",
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 87,
       "name": "MacKenzie Weegar",
       "nhl_player_id": 8477346,
       "nhl_team": "UTA",
@@ -5582,7 +5815,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 83,
+      "rank": 88,
       "name": "Declan Chisholm",
       "nhl_player_id": 8480990,
       "nhl_team": "NJD",
@@ -5630,7 +5863,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 84,
+      "rank": 89,
       "name": "Vince Dunn",
       "nhl_player_id": 8478407,
       "nhl_team": "SEA",
@@ -5678,7 +5911,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 85,
+      "rank": 90,
       "name": "Brandon Montour",
       "nhl_player_id": 8477986,
       "nhl_team": "SEA",
@@ -5726,7 +5959,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 86,
+      "rank": 91,
       "name": "Jean-Gabriel Pageau",
       "nhl_player_id": 8476419,
       "nhl_team": "NYI",
@@ -5774,7 +6007,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 87,
+      "rank": 92,
       "name": "Ben Kindel",
       "nhl_player_id": 8485414,
       "nhl_team": "PIT",
@@ -5822,7 +6055,55 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 88,
+      "rank": 93,
+      "name": "Mattias Ekholm",
+      "nhl_player_id": 8475218,
+      "nhl_team": "EDM",
+      "opponent": "VAN",
+      "position": "D",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 5.751,
+      "category_impact": {
+        "g": 1.5,
+        "a": 0.0,
+        "pts": 1.0,
+        "plus_minus": 0.4,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 0.0,
+        "toi": 0.951,
+        "sog": 0.333,
+        "hit": 0.667,
+        "blk": 0.5
+      },
+      "breadth": 4,
+      "stats": {
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plus_minus": 1,
+        "ppp": 0,
+        "shp": 0,
+        "fow": null,
+        "toi": 1270,
+        "sog": 1,
+        "hit": 2,
+        "blk": 1,
+        "ev_toi": 1190,
+        "pp_toi": 24,
+        "sh_toi": 56,
+        "fo": 0,
+        "shifts": 28
+      },
+      "espn_player_id": 2558631,
+      "availability": "ONTEAM",
+      "on_team_id": 14,
+      "owner": "Electric dogs",
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 94,
       "name": "Zemgus Girgensons",
       "nhl_player_id": 8476878,
       "nhl_team": "TBL",
@@ -5830,7 +6111,7 @@
       "position": "C",
       "game_id": 2026020273,
       "game_date": "2026-11-07",
-      "impact_score": 5.739,
+      "impact_score": 5.738,
       "category_impact": {
         "g": 0.0,
         "a": 0.0,
@@ -5839,7 +6120,7 @@
         "ppp": 0.0,
         "shp": 0.0,
         "fow": 2.667,
-        "toi": 0.772,
+        "toi": 0.771,
         "sog": 0.333,
         "hit": 0.667,
         "blk": 1.0
@@ -5870,7 +6151,55 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 89,
+      "rank": 95,
+      "name": "Evan Bouchard",
+      "nhl_player_id": 8480803,
+      "nhl_team": "EDM",
+      "opponent": "VAN",
+      "position": "D",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 5.734,
+      "category_impact": {
+        "g": 0.0,
+        "a": 1.0,
+        "pts": 1.0,
+        "plus_minus": 0.4,
+        "ppp": 1.0,
+        "shp": 0.0,
+        "fow": 0.0,
+        "toi": 1.101,
+        "sog": 0.333,
+        "hit": 0.0,
+        "blk": 0.5
+      },
+      "breadth": 4,
+      "stats": {
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plus_minus": 1,
+        "ppp": 1,
+        "shp": 0,
+        "fow": null,
+        "toi": 1470,
+        "sog": 1,
+        "hit": 0,
+        "blk": 1,
+        "ev_toi": 1237,
+        "pp_toi": 222,
+        "sh_toi": 11,
+        "fo": 0,
+        "shifts": 27
+      },
+      "espn_player_id": 4352722,
+      "availability": "ONTEAM",
+      "on_team_id": 3,
+      "owner": "Putin team",
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 96,
       "name": "Lane Hutson",
       "nhl_player_id": 8483457,
       "nhl_team": "MTL",
@@ -5918,7 +6247,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 90,
+      "rank": 97,
       "name": "Mavrik Bourque",
       "nhl_player_id": 8482145,
       "nhl_team": "NSH",
@@ -5966,7 +6295,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 91,
+      "rank": 98,
       "name": "Cole Caufield",
       "nhl_player_id": 8481540,
       "nhl_team": "MTL",
@@ -6014,7 +6343,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 92,
+      "rank": 99,
       "name": "Emil Heineman",
       "nhl_player_id": 8482476,
       "nhl_team": "NYI",
@@ -6062,7 +6391,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 93,
+      "rank": 100,
       "name": "Stephen Halliday",
       "nhl_player_id": 8483676,
       "nhl_team": "OTT",
@@ -6110,7 +6439,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 94,
+      "rank": 101,
       "name": "Marcus Pettersson",
       "nhl_player_id": 8477969,
       "nhl_team": "NYR",
@@ -6158,7 +6487,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 95,
+      "rank": 102,
       "name": "Egor Chinakhov",
       "nhl_player_id": 8482475,
       "nhl_team": "PIT",
@@ -6166,7 +6495,7 @@
       "position": "R",
       "game_id": 2026020275,
       "game_date": "2026-11-07",
-      "impact_score": 5.508,
+      "impact_score": 5.507,
       "category_impact": {
         "g": 1.5,
         "a": 0.0,
@@ -6175,7 +6504,7 @@
         "ppp": 1.0,
         "shp": 0.0,
         "fow": 0.0,
-        "toi": 0.575,
+        "toi": 0.574,
         "sog": 0.333,
         "hit": 0.0,
         "blk": 0.0
@@ -6206,7 +6535,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 96,
+      "rank": 103,
       "name": "Claude Giroux",
       "nhl_player_id": 8473512,
       "nhl_team": "OTT",
@@ -6254,7 +6583,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 97,
+      "rank": 104,
       "name": "Jack Drury",
       "nhl_player_id": 8480835,
       "nhl_team": "NSH",
@@ -6302,7 +6631,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 98,
+      "rank": 105,
       "name": "Chandler Stephenson",
       "nhl_player_id": 8476905,
       "nhl_team": "SEA",
@@ -6350,7 +6679,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 99,
+      "rank": 106,
       "name": "Alex Tuch",
       "nhl_player_id": 8477949,
       "nhl_team": "WSH",
@@ -6398,7 +6727,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 100,
+      "rank": 107,
       "name": "Ryan Leonard",
       "nhl_player_id": 8484186,
       "nhl_team": "WSH",
@@ -6446,7 +6775,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 101,
+      "rank": 108,
       "name": "Jordan Eberle",
       "nhl_player_id": 8474586,
       "nhl_team": "SEA",
@@ -6494,7 +6823,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 102,
+      "rank": 109,
       "name": "Declan Carlile",
       "nhl_player_id": 8483398,
       "nhl_team": "PIT",
@@ -6542,7 +6871,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 103,
+      "rank": 110,
       "name": "Adrian Kempe",
       "nhl_player_id": 8477960,
       "nhl_team": "LAK",
@@ -6590,7 +6919,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 104,
+      "rank": 111,
       "name": "Quinn Hughes",
       "nhl_player_id": 8480800,
       "nhl_team": "MIN",
@@ -6638,7 +6967,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 105,
+      "rank": 112,
       "name": "Blake Coleman",
       "nhl_player_id": 8476399,
       "nhl_team": "MIN",
@@ -6686,7 +7015,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 106,
+      "rank": 113,
       "name": "Ivar Stenberg",
       "nhl_player_id": 8486103,
       "nhl_team": "SJS",
@@ -6734,7 +7063,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 107,
+      "rank": 114,
       "name": "Fabian Zetterlund",
       "nhl_player_id": 8480188,
       "nhl_team": "OTT",
@@ -6782,7 +7111,55 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 108,
+      "rank": 115,
+      "name": "Guillaume Brisebois",
+      "nhl_player_id": 8478465,
+      "nhl_team": "VAN",
+      "opponent": "EDM",
+      "position": "D",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 5.143,
+      "category_impact": {
+        "g": 0.0,
+        "a": 1.0,
+        "pts": 1.0,
+        "plus_minus": 0.4,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 0.0,
+        "toi": 0.777,
+        "sog": 0.333,
+        "hit": 0.333,
+        "blk": 1.0
+      },
+      "breadth": 3,
+      "stats": {
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plus_minus": 1,
+        "ppp": 0,
+        "shp": 0,
+        "fow": null,
+        "toi": 1037,
+        "sog": 1,
+        "hit": 1,
+        "blk": 2,
+        "ev_toi": 813,
+        "pp_toi": 35,
+        "sh_toi": 189,
+        "fo": 0,
+        "shifts": 30
+      },
+      "espn_player_id": 3942866,
+      "availability": "FREEAGENT",
+      "on_team_id": 0,
+      "owner": null,
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 116,
       "name": "Erik Gustafsson",
       "nhl_player_id": 8476979,
       "nhl_team": "LAK",
@@ -6830,7 +7207,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 109,
+      "rank": 117,
       "name": "Adam Fox",
       "nhl_player_id": 8479323,
       "nhl_team": "NYR",
@@ -6838,7 +7215,7 @@
       "position": "D",
       "game_id": 2026020267,
       "game_date": "2026-11-07",
-      "impact_score": 5.102,
+      "impact_score": 5.101,
       "category_impact": {
         "g": 0.0,
         "a": 1.0,
@@ -6847,7 +7224,7 @@
         "ppp": 1.0,
         "shp": 0.0,
         "fow": 0.0,
-        "toi": 1.136,
+        "toi": 1.135,
         "sog": 0.333,
         "hit": 0.333,
         "blk": 0.0
@@ -6878,7 +7255,7 @@
       "is_mighty_ducks": true
     },
     {
-      "rank": 110,
+      "rank": 118,
       "name": "Jonas Brodin",
       "nhl_player_id": 8476463,
       "nhl_team": "MIN",
@@ -6926,7 +7303,7 @@
       "is_mighty_ducks": true
     },
     {
-      "rank": 111,
+      "rank": 119,
       "name": "Colton Sissons",
       "nhl_player_id": 8476925,
       "nhl_team": "TOR",
@@ -6974,7 +7351,55 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 112,
+      "rank": 120,
+      "name": "Elias Pettersson",
+      "nhl_player_id": 8480012,
+      "nhl_team": "VAN",
+      "opponent": "EDM",
+      "position": "C",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 5.051,
+      "category_impact": {
+        "g": 0.0,
+        "a": 1.0,
+        "pts": 1.0,
+        "plus_minus": -0.4,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 2.167,
+        "toi": 0.984,
+        "sog": 0.0,
+        "hit": 0.0,
+        "blk": 0.0
+      },
+      "breadth": 3,
+      "stats": {
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plus_minus": -1,
+        "ppp": 0,
+        "shp": 0,
+        "fow": 13,
+        "toi": 1314,
+        "sog": 0,
+        "hit": 0,
+        "blk": 0,
+        "ev_toi": 1049,
+        "pp_toi": 99,
+        "sh_toi": 166,
+        "fo": 22,
+        "shifts": 26
+      },
+      "espn_player_id": 4233566,
+      "availability": "ONTEAM",
+      "on_team_id": 4,
+      "owner": "Biryulyovo Red Eyes",
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 121,
       "name": "Gavin McKenna",
       "nhl_player_id": 8486067,
       "nhl_team": "TOR",
@@ -7022,7 +7447,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 113,
+      "rank": 122,
       "name": "Taylor Hall",
       "nhl_player_id": 8475791,
       "nhl_team": "CAR",
@@ -7070,7 +7495,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 114,
+      "rank": 123,
       "name": "Kaapo Kakko",
       "nhl_player_id": 8481554,
       "nhl_team": "SEA",
@@ -7118,7 +7543,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 115,
+      "rank": 124,
       "name": "Chris Kreider",
       "nhl_player_id": 8475184,
       "nhl_team": "MTL",
@@ -7166,7 +7591,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 116,
+      "rank": 125,
       "name": "Gabe Perreault",
       "nhl_player_id": 8484210,
       "nhl_team": "NYR",
@@ -7214,7 +7639,7 @@
       "is_mighty_ducks": true
     },
     {
-      "rank": 117,
+      "rank": 126,
       "name": "Philip Broberg",
       "nhl_player_id": 8481598,
       "nhl_team": "STL",
@@ -7262,7 +7687,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 118,
+      "rank": 127,
       "name": "Brett Pesce",
       "nhl_player_id": 8477488,
       "nhl_team": "NJD",
@@ -7310,7 +7735,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 119,
+      "rank": 128,
       "name": "Logan Stankoven",
       "nhl_player_id": 8482702,
       "nhl_team": "CAR",
@@ -7358,7 +7783,55 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 120,
+      "rank": 129,
+      "name": "Filip Hronek",
+      "nhl_player_id": 8479425,
+      "nhl_team": "VAN",
+      "opponent": "EDM",
+      "position": "D",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 4.841,
+      "category_impact": {
+        "g": 0.0,
+        "a": 1.0,
+        "pts": 1.0,
+        "plus_minus": -0.4,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 0.0,
+        "toi": 1.341,
+        "sog": 0.333,
+        "hit": 0.667,
+        "blk": 0.5
+      },
+      "breadth": 4,
+      "stats": {
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plus_minus": -1,
+        "ppp": 0,
+        "shp": 0,
+        "fow": null,
+        "toi": 1790,
+        "sog": 1,
+        "hit": 2,
+        "blk": 1,
+        "ev_toi": 1552,
+        "pp_toi": 86,
+        "sh_toi": 152,
+        "fo": 0,
+        "shifts": 34
+      },
+      "espn_player_id": 4063607,
+      "availability": "ONTEAM",
+      "on_team_id": 17,
+      "owner": "KUMIS MAFIA",
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 130,
       "name": "Michael Misa",
       "nhl_player_id": 8485402,
       "nhl_team": "SJS",
@@ -7406,7 +7879,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 121,
+      "rank": 131,
       "name": "Pavel Dorofeyev",
       "nhl_player_id": 8481604,
       "nhl_team": "NYR",
@@ -7454,7 +7927,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 122,
+      "rank": 132,
       "name": "Corey Perry",
       "nhl_player_id": 8470621,
       "nhl_team": "LAK",
@@ -7502,7 +7975,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 123,
+      "rank": 133,
       "name": "Tony DeAngelo",
       "nhl_player_id": 8477950,
       "nhl_team": "NYI",
@@ -7550,7 +8023,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 124,
+      "rank": 134,
       "name": "Philip Tomasino",
       "nhl_player_id": 8481577,
       "nhl_team": "OTT",
@@ -7598,7 +8071,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 125,
+      "rank": 135,
       "name": "Ross Colton",
       "nhl_player_id": 8479525,
       "nhl_team": "NSH",
@@ -7646,7 +8119,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 126,
+      "rank": 136,
       "name": "Thomas Chabot",
       "nhl_player_id": 8478469,
       "nhl_team": "OTT",
@@ -7694,7 +8167,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 127,
+      "rank": 137,
       "name": "Erik Karlsson",
       "nhl_player_id": 8474578,
       "nhl_team": "PIT",
@@ -7742,7 +8215,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 128,
+      "rank": 138,
       "name": "Dylan Cozens",
       "nhl_player_id": 8481528,
       "nhl_team": "OTT",
@@ -7790,7 +8263,151 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 129,
+      "rank": 139,
+      "name": "Jamie Oleksiak",
+      "nhl_player_id": 8476467,
+      "nhl_team": "VAN",
+      "opponent": "EDM",
+      "position": "D",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 4.659,
+      "category_impact": {
+        "g": 0.0,
+        "a": 1.0,
+        "pts": 1.0,
+        "plus_minus": 0.0,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 0.0,
+        "toi": 0.693,
+        "sog": 0.333,
+        "hit": 1.333,
+        "blk": 0.0
+      },
+      "breadth": 3,
+      "stats": {
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plus_minus": 0,
+        "ppp": 0,
+        "shp": 0,
+        "fow": null,
+        "toi": 925,
+        "sog": 1,
+        "hit": 4,
+        "blk": 0,
+        "ev_toi": 846,
+        "pp_toi": 0,
+        "sh_toi": 79,
+        "fo": 0,
+        "shifts": 25
+      },
+      "espn_player_id": 2562625,
+      "availability": "ONTEAM",
+      "on_team_id": 8,
+      "owner": "Donbazz Boyz",
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 140,
+      "name": "Ty Emberson",
+      "nhl_player_id": 8480834,
+      "nhl_team": "EDM",
+      "opponent": "VAN",
+      "position": "D",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 4.659,
+      "category_impact": {
+        "g": 0.0,
+        "a": 1.0,
+        "pts": 1.0,
+        "plus_minus": 0.4,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 0.0,
+        "toi": 0.626,
+        "sog": 1.0,
+        "hit": 0.333,
+        "blk": 0.0
+      },
+      "breadth": 3,
+      "stats": {
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plus_minus": 1,
+        "ppp": 0,
+        "shp": 0,
+        "fow": null,
+        "toi": 836,
+        "sog": 3,
+        "hit": 1,
+        "blk": 0,
+        "ev_toi": 836,
+        "pp_toi": 0,
+        "sh_toi": 0,
+        "fo": 0,
+        "shifts": 21
+      },
+      "espn_player_id": 4587566,
+      "availability": "FREEAGENT",
+      "on_team_id": 0,
+      "owner": null,
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 141,
+      "name": "Mathieu Joseph",
+      "nhl_player_id": 8478472,
+      "nhl_team": "EDM",
+      "opponent": "VAN",
+      "position": "R",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 4.633,
+      "category_impact": {
+        "g": 0.0,
+        "a": 1.0,
+        "pts": 1.0,
+        "plus_minus": 0.4,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 0.0,
+        "toi": 0.6,
+        "sog": 0.333,
+        "hit": 1.0,
+        "blk": 0.0
+      },
+      "breadth": 3,
+      "stats": {
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plus_minus": 1,
+        "ppp": 0,
+        "shp": 0,
+        "fow": null,
+        "toi": 801,
+        "sog": 1,
+        "hit": 3,
+        "blk": 0,
+        "ev_toi": 722,
+        "pp_toi": 6,
+        "sh_toi": 73,
+        "fo": 0,
+        "shifts": 20
+      },
+      "espn_player_id": 3941965,
+      "availability": "WAIVERS",
+      "on_team_id": 0,
+      "owner": null,
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 142,
       "name": "Devon Toews",
       "nhl_player_id": 8478038,
       "nhl_team": "COL",
@@ -7838,55 +8455,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 130,
-      "name": "Darren Raddysh",
-      "nhl_player_id": 8478178,
-      "nhl_team": "TOR",
-      "opponent": "MTL",
-      "position": "D",
-      "game_id": 2026020268,
-      "game_date": "2026-11-07",
-      "impact_score": 4.502,
-      "category_impact": {
-        "g": 0.0,
-        "a": 1.0,
-        "pts": 1.0,
-        "plus_minus": -0.8,
-        "ppp": 1.0,
-        "shp": 0.0,
-        "fow": 0.0,
-        "toi": 1.336,
-        "sog": 0.333,
-        "hit": 0.333,
-        "blk": 0.0
-      },
-      "breadth": 3,
-      "stats": {
-        "g": 0,
-        "a": 1,
-        "pts": 1,
-        "plus_minus": -2,
-        "ppp": 1,
-        "shp": 0,
-        "fow": null,
-        "toi": 1783,
-        "sog": 1,
-        "hit": 1,
-        "blk": 0,
-        "ev_toi": 1304,
-        "pp_toi": 421,
-        "sh_toi": 58,
-        "fo": 0,
-        "shifts": 25
-      },
-      "espn_player_id": 3149843,
-      "availability": "ONTEAM",
-      "on_team_id": 13,
-      "owner": "Big Money Melo",
-      "is_mighty_ducks": false
-    },
-    {
-      "rank": 131,
+      "rank": 143,
       "name": "Tyler Kleven",
       "nhl_player_id": 8482095,
       "nhl_team": "OTT",
@@ -7934,7 +8503,55 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 132,
+      "rank": 144,
+      "name": "Darren Raddysh",
+      "nhl_player_id": 8478178,
+      "nhl_team": "TOR",
+      "opponent": "MTL",
+      "position": "D",
+      "game_id": 2026020268,
+      "game_date": "2026-11-07",
+      "impact_score": 4.501,
+      "category_impact": {
+        "g": 0.0,
+        "a": 1.0,
+        "pts": 1.0,
+        "plus_minus": -0.8,
+        "ppp": 1.0,
+        "shp": 0.0,
+        "fow": 0.0,
+        "toi": 1.335,
+        "sog": 0.333,
+        "hit": 0.333,
+        "blk": 0.0
+      },
+      "breadth": 3,
+      "stats": {
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plus_minus": -2,
+        "ppp": 1,
+        "shp": 0,
+        "fow": null,
+        "toi": 1783,
+        "sog": 1,
+        "hit": 1,
+        "blk": 0,
+        "ev_toi": 1304,
+        "pp_toi": 421,
+        "sh_toi": 58,
+        "fo": 0,
+        "shifts": 25
+      },
+      "espn_player_id": 3149843,
+      "availability": "ONTEAM",
+      "on_team_id": 13,
+      "owner": "Big Money Melo",
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 145,
       "name": "Seth Jarvis",
       "nhl_player_id": 8482093,
       "nhl_team": "CAR",
@@ -7982,7 +8599,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 133,
+      "rank": 146,
       "name": "Kirby Dach",
       "nhl_player_id": 8481523,
       "nhl_team": "MTL",
@@ -7990,7 +8607,7 @@
       "position": "C",
       "game_id": 2026020268,
       "game_date": "2026-11-07",
-      "impact_score": 4.432,
+      "impact_score": 4.431,
       "category_impact": {
         "g": 0.0,
         "a": 1.0,
@@ -7999,7 +8616,7 @@
         "ppp": 0.0,
         "shp": 0.0,
         "fow": 0.167,
-        "toi": 0.599,
+        "toi": 0.598,
         "sog": 0.333,
         "hit": 0.333,
         "blk": 0.0
@@ -8030,7 +8647,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 134,
+      "rank": 147,
       "name": "Timo Meier",
       "nhl_player_id": 8478414,
       "nhl_team": "NJD",
@@ -8078,7 +8695,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 135,
+      "rank": 148,
       "name": "Dylan Holloway",
       "nhl_player_id": 8482077,
       "nhl_team": "STL",
@@ -8126,7 +8743,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 136,
+      "rank": 149,
       "name": "Anders Lee",
       "nhl_player_id": 8475314,
       "nhl_team": "UTA",
@@ -8174,7 +8791,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 137,
+      "rank": 150,
       "name": "Matthew Wood",
       "nhl_player_id": 8484241,
       "nhl_team": "SEA",
@@ -8222,7 +8839,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 138,
+      "rank": 151,
       "name": "Oliver Kapanen",
       "nhl_player_id": 8482775,
       "nhl_team": "MTL",
@@ -8270,7 +8887,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 139,
+      "rank": 152,
       "name": "Jackson Blake",
       "nhl_player_id": 8482809,
       "nhl_team": "CAR",
@@ -8318,7 +8935,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 140,
+      "rank": 153,
       "name": "Artemi Panarin",
       "nhl_player_id": 8478550,
       "nhl_team": "LAK",
@@ -8366,7 +8983,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 141,
+      "rank": 154,
       "name": "Olli Maatta",
       "nhl_player_id": 8476874,
       "nhl_team": "MIN",
@@ -8414,7 +9031,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 142,
+      "rank": 155,
       "name": "Oliver Bjorkstrand",
       "nhl_player_id": 8477416,
       "nhl_team": "NYR",
@@ -8422,7 +9039,7 @@
       "position": "R",
       "game_id": 2026020267,
       "game_date": "2026-11-07",
-      "impact_score": 4.202,
+      "impact_score": 4.201,
       "category_impact": {
         "g": 0.0,
         "a": 1.0,
@@ -8431,7 +9048,7 @@
         "ppp": 1.0,
         "shp": 0.0,
         "fow": 0.0,
-        "toi": 0.569,
+        "toi": 0.568,
         "sog": 0.0,
         "hit": 0.333,
         "blk": 0.0
@@ -8462,7 +9079,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 143,
+      "rank": 156,
       "name": "Roman Kantserov",
       "nhl_player_id": 8484390,
       "nhl_team": "CHI",
@@ -8510,7 +9127,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 144,
+      "rank": 157,
       "name": "Mikhail Sergachev",
       "nhl_player_id": 8479410,
       "nhl_team": "UTA",
@@ -8518,7 +9135,7 @@
       "position": "D",
       "game_id": 2026020269,
       "game_date": "2026-11-07",
-      "impact_score": 4.13,
+      "impact_score": 4.129,
       "category_impact": {
         "g": 0.0,
         "a": 0.0,
@@ -8527,7 +9144,7 @@
         "ppp": 0.0,
         "shp": 0.0,
         "fow": 0.0,
-        "toi": 1.163,
+        "toi": 1.162,
         "sog": 1.667,
         "hit": 0.0,
         "blk": 1.5
@@ -8558,7 +9175,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 145,
+      "rank": 158,
       "name": "Luke Hughes",
       "nhl_player_id": 8482684,
       "nhl_team": "NJD",
@@ -8606,7 +9223,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 146,
+      "rank": 159,
       "name": "Jacob Trouba",
       "nhl_player_id": 8476885,
       "nhl_team": "SJS",
@@ -8654,7 +9271,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 147,
+      "rank": 160,
       "name": "Braden Schneider",
       "nhl_player_id": 8482073,
       "nhl_team": "NYR",
@@ -8702,7 +9319,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 148,
+      "rank": 161,
       "name": "Ville Koivunen",
       "nhl_player_id": 8482758,
       "nhl_team": "PIT",
@@ -8750,7 +9367,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 149,
+      "rank": 162,
       "name": "Noah Dobson",
       "nhl_player_id": 8480865,
       "nhl_team": "MTL",
@@ -8798,7 +9415,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 150,
+      "rank": 163,
       "name": "Sam Reinhart",
       "nhl_player_id": 8477933,
       "nhl_team": "FLA",
@@ -8846,7 +9463,7 @@
       "is_mighty_ducks": true
     },
     {
-      "rank": 151,
+      "rank": 164,
       "name": "Kyle Palmieri",
       "nhl_player_id": 8475151,
       "nhl_team": "NYI",
@@ -8894,7 +9511,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 152,
+      "rank": 165,
       "name": "Pius Suter",
       "nhl_player_id": 8480459,
       "nhl_team": "STL",
@@ -8942,7 +9559,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 153,
+      "rank": 166,
       "name": "Nick Suzuki",
       "nhl_player_id": 8480018,
       "nhl_team": "MTL",
@@ -8990,7 +9607,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 154,
+      "rank": 167,
       "name": "Mikey Anderson",
       "nhl_player_id": 8479998,
       "nhl_team": "LAK",
@@ -9038,7 +9655,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 155,
+      "rank": 168,
       "name": "Mark Jankowski",
       "nhl_player_id": 8476873,
       "nhl_team": "CAR",
@@ -9086,7 +9703,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 156,
+      "rank": 169,
       "name": "Dakota Joshua",
       "nhl_player_id": 8478057,
       "nhl_team": "TOR",
@@ -9134,7 +9751,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 157,
+      "rank": 170,
       "name": "Eric Pohlkamp",
       "nhl_player_id": 8484421,
       "nhl_team": "SJS",
@@ -9182,7 +9799,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 158,
+      "rank": 171,
       "name": "J.T. Miller",
       "nhl_player_id": 8476468,
       "nhl_team": "NYR",
@@ -9230,7 +9847,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 159,
+      "rank": 172,
       "name": "Esa Lindell",
       "nhl_player_id": 8476902,
       "nhl_team": "DAL",
@@ -9278,7 +9895,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 160,
+      "rank": 173,
       "name": "Ryan O'Reilly",
       "nhl_player_id": 8475158,
       "nhl_team": "NSH",
@@ -9326,7 +9943,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 161,
+      "rank": 174,
       "name": "Garnet Hathaway",
       "nhl_player_id": 8477903,
       "nhl_team": "FLA",
@@ -9367,14 +9984,14 @@
         "fo": 1,
         "shifts": 12
       },
-      "espn_player_id": 3149633,
-      "availability": "FREEAGENT",
-      "on_team_id": 0,
+      "espn_player_id": null,
+      "availability": "UNVERIFIED",
+      "on_team_id": null,
       "owner": null,
       "is_mighty_ducks": false
     },
     {
-      "rank": 162,
+      "rank": 175,
       "name": "Brock Nelson",
       "nhl_player_id": 8475754,
       "nhl_team": "COL",
@@ -9422,7 +10039,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 163,
+      "rank": 176,
       "name": "Jakob Chychrun",
       "nhl_player_id": 8479345,
       "nhl_team": "WSH",
@@ -9430,7 +10047,7 @@
       "position": "D",
       "game_id": 2026020265,
       "game_date": "2026-11-07",
-      "impact_score": 3.654,
+      "impact_score": 3.653,
       "category_impact": {
         "g": 0.0,
         "a": 0.0,
@@ -9439,7 +10056,7 @@
         "ppp": 0.0,
         "shp": 0.0,
         "fow": 0.0,
-        "toi": 0.987,
+        "toi": 0.986,
         "sog": 0.667,
         "hit": 0.0,
         "blk": 1.0
@@ -9470,7 +10087,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 164,
+      "rank": 177,
       "name": "Aaron Ekblad",
       "nhl_player_id": 8477932,
       "nhl_team": "FLA",
@@ -9518,7 +10135,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 165,
+      "rank": 178,
       "name": "Drew Doughty",
       "nhl_player_id": 8474563,
       "nhl_team": "LAK",
@@ -9526,7 +10143,7 @@
       "position": "D",
       "game_id": 2026020275,
       "game_date": "2026-11-07",
-      "impact_score": 3.599,
+      "impact_score": 3.598,
       "category_impact": {
         "g": 0.0,
         "a": 0.0,
@@ -9535,7 +10152,7 @@
         "ppp": 0.0,
         "shp": 0.0,
         "fow": 0.0,
-        "toi": 0.966,
+        "toi": 0.965,
         "sog": 0.333,
         "hit": 1.0,
         "blk": 1.5
@@ -9566,7 +10183,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 166,
+      "rank": 179,
       "name": "Lian Bichsel",
       "nhl_player_id": 8483425,
       "nhl_team": "DAL",
@@ -9614,7 +10231,55 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 167,
+      "rank": 180,
+      "name": "Drew O'Connor",
+      "nhl_player_id": 8482055,
+      "nhl_team": "VAN",
+      "opponent": "EDM",
+      "position": "L",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 3.584,
+      "category_impact": {
+        "g": 0.0,
+        "a": 0.0,
+        "pts": 0.0,
+        "plus_minus": 0.4,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 0.0,
+        "toi": 0.651,
+        "sog": 1.333,
+        "hit": 1.0,
+        "blk": 0.0
+      },
+      "breadth": 2,
+      "stats": {
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plus_minus": 1,
+        "ppp": 0,
+        "shp": 0,
+        "fow": null,
+        "toi": 869,
+        "sog": 4,
+        "hit": 3,
+        "blk": 0,
+        "ev_toi": 797,
+        "pp_toi": 1,
+        "sh_toi": 71,
+        "fo": 0,
+        "shifts": 21
+      },
+      "espn_player_id": 4712146,
+      "availability": "FREEAGENT",
+      "on_team_id": 0,
+      "owner": null,
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 181,
       "name": "Kenny Connors",
       "nhl_player_id": 8483675,
       "nhl_team": "LAK",
@@ -9662,7 +10327,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 168,
+      "rank": 182,
       "name": "Adam Edstrom",
       "nhl_player_id": 8481726,
       "nhl_team": "NSH",
@@ -9710,7 +10375,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 169,
+      "rank": 183,
       "name": "Dylan Strome",
       "nhl_player_id": 8478440,
       "nhl_team": "WSH",
@@ -9758,7 +10423,55 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 170,
+      "rank": 184,
+      "name": "Zach Hyman",
+      "nhl_player_id": 8475786,
+      "nhl_team": "EDM",
+      "opponent": "VAN",
+      "position": "L",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 3.508,
+      "category_impact": {
+        "g": 0.0,
+        "a": 1.0,
+        "pts": 1.0,
+        "plus_minus": -0.4,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 0.0,
+        "toi": 0.941,
+        "sog": 0.667,
+        "hit": 0.0,
+        "blk": 0.0
+      },
+      "breadth": 3,
+      "stats": {
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plus_minus": -1,
+        "ppp": 0,
+        "shp": 0,
+        "fow": null,
+        "toi": 1256,
+        "sog": 2,
+        "hit": 0,
+        "blk": 0,
+        "ev_toi": 1026,
+        "pp_toi": 224,
+        "sh_toi": 6,
+        "fo": 0,
+        "shifts": 25
+      },
+      "espn_player_id": 5509,
+      "availability": "ONTEAM",
+      "on_team_id": 8,
+      "owner": "Donbazz Boyz",
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 185,
       "name": "Kevin Stenlund",
       "nhl_player_id": 8478831,
       "nhl_team": "UTA",
@@ -9806,7 +10519,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 171,
+      "rank": 186,
       "name": "Quinton Byfield",
       "nhl_player_id": 8482124,
       "nhl_team": "LAK",
@@ -9854,7 +10567,7 @@
       "is_mighty_ducks": true
     },
     {
-      "rank": 172,
+      "rank": 187,
       "name": "Justin Faulk",
       "nhl_player_id": 8475753,
       "nhl_team": "DET",
@@ -9902,7 +10615,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 173,
+      "rank": 188,
       "name": "Michael Brandsegg-Nygård",
       "nhl_player_id": 8484794,
       "nhl_team": "DET",
@@ -9950,7 +10663,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 174,
+      "rank": 189,
       "name": "Matt Rempe",
       "nhl_player_id": 8482460,
       "nhl_team": "NYR",
@@ -9998,7 +10711,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 175,
+      "rank": 190,
       "name": "Scott Morrow",
       "nhl_player_id": 8482666,
       "nhl_team": "NYR",
@@ -10006,7 +10719,7 @@
       "position": "D",
       "game_id": 2026020267,
       "game_date": "2026-11-07",
-      "impact_score": 3.381,
+      "impact_score": 3.38,
       "category_impact": {
         "g": 0.0,
         "a": 0.0,
@@ -10015,7 +10728,7 @@
         "ppp": 0.0,
         "shp": 0.0,
         "fow": 0.0,
-        "toi": 0.581,
+        "toi": 0.58,
         "sog": 1.0,
         "hit": 1.0,
         "blk": 0.5
@@ -10046,7 +10759,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 176,
+      "rank": 191,
       "name": "Nicolas Roy",
       "nhl_player_id": 8478462,
       "nhl_team": "COL",
@@ -10054,7 +10767,7 @@
       "position": "C",
       "game_id": 2026020274,
       "game_date": "2026-11-07",
-      "impact_score": 3.375,
+      "impact_score": 3.374,
       "category_impact": {
         "g": 0.0,
         "a": 0.0,
@@ -10063,7 +10776,7 @@
         "ppp": 0.0,
         "shp": 0.0,
         "fow": 1.0,
-        "toi": 0.575,
+        "toi": 0.574,
         "sog": 0.0,
         "hit": 1.0,
         "blk": 0.5
@@ -10094,7 +10807,55 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 177,
+      "rank": 192,
+      "name": "J.T. Compher",
+      "nhl_player_id": 8477456,
+      "nhl_team": "DET",
+      "opponent": "COL",
+      "position": "L",
+      "game_id": 2026020274,
+      "game_date": "2026-11-07",
+      "impact_score": 3.364,
+      "category_impact": {
+        "g": 0.0,
+        "a": 0.0,
+        "pts": 0.0,
+        "plus_minus": 0.0,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 0.833,
+        "toi": 0.731,
+        "sog": 0.667,
+        "hit": 0.333,
+        "blk": 0.5
+      },
+      "breadth": 3,
+      "stats": {
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plus_minus": 0,
+        "ppp": 0,
+        "shp": 0,
+        "fow": 5,
+        "toi": 976,
+        "sog": 2,
+        "hit": 1,
+        "blk": 1,
+        "ev_toi": 643,
+        "pp_toi": 114,
+        "sh_toi": 219,
+        "fo": 12,
+        "shifts": 23
+      },
+      "espn_player_id": 3041995,
+      "availability": "FREEAGENT",
+      "on_team_id": 0,
+      "owner": null,
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 193,
       "name": "Boone Jenner",
       "nhl_player_id": 8476432,
       "nhl_team": "WSH",
@@ -10142,7 +10903,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 178,
+      "rank": 194,
       "name": "Carter Verhaeghe",
       "nhl_player_id": 8477409,
       "nhl_team": "FLA",
@@ -10190,7 +10951,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 179,
+      "rank": 195,
       "name": "Vincent Trocheck",
       "nhl_player_id": 8476389,
       "nhl_team": "UTA",
@@ -10238,7 +10999,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 180,
+      "rank": 196,
       "name": "Radek Faksa",
       "nhl_player_id": 8476889,
       "nhl_team": "DAL",
@@ -10286,7 +11047,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 181,
+      "rank": 197,
       "name": "John Tavares",
       "nhl_player_id": 8475166,
       "nhl_team": "TOR",
@@ -10294,7 +11055,7 @@
       "position": "C",
       "game_id": 2026020268,
       "game_date": "2026-11-07",
-      "impact_score": 3.317,
+      "impact_score": 3.316,
       "category_impact": {
         "g": 0.0,
         "a": 0.0,
@@ -10303,7 +11064,7 @@
         "ppp": 0.0,
         "shp": 0.0,
         "fow": 0.5,
-        "toi": 0.951,
+        "toi": 0.95,
         "sog": 1.333,
         "hit": 0.333,
         "blk": 0.0
@@ -10334,7 +11095,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 182,
+      "rank": 198,
       "name": "Zach Bogosian",
       "nhl_player_id": 8474567,
       "nhl_team": "MIN",
@@ -10382,7 +11143,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 183,
+      "rank": 199,
       "name": "Connor McMichael",
       "nhl_player_id": 8481580,
       "nhl_team": "STL",
@@ -10430,7 +11191,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 184,
+      "rank": 200,
       "name": "Johnathan Kovacevic",
       "nhl_player_id": 8480192,
       "nhl_team": "NJD",
@@ -10478,7 +11239,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 185,
+      "rank": 201,
       "name": "Nikolaj Ehlers",
       "nhl_player_id": 8477940,
       "nhl_team": "CAR",
@@ -10526,7 +11287,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 186,
+      "rank": 202,
       "name": "Daemon Hunt",
       "nhl_player_id": 8482094,
       "nhl_team": "NSH",
@@ -10574,7 +11335,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 187,
+      "rank": 203,
       "name": "Justin Hryckowian",
       "nhl_player_id": 8484829,
       "nhl_team": "DAL",
@@ -10622,63 +11383,15 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 188,
-      "name": "J.T. Compher",
-      "nhl_player_id": 8477456,
-      "nhl_team": "DET",
-      "opponent": "COL",
-      "position": "L",
-      "game_id": 2026020274,
-      "game_date": "2026-11-07",
-      "impact_score": 3.198,
-      "category_impact": {
-        "g": 0.0,
-        "a": 0.0,
-        "pts": 0.0,
-        "plus_minus": 0.0,
-        "ppp": 0.0,
-        "shp": 0.0,
-        "fow": 0.667,
-        "toi": 0.731,
-        "sog": 0.667,
-        "hit": 0.333,
-        "blk": 0.5
-      },
-      "breadth": 3,
-      "stats": {
-        "g": 0,
-        "a": 0,
-        "pts": 0,
-        "plus_minus": 0,
-        "ppp": 0,
-        "shp": 0,
-        "fow": 4,
-        "toi": 976,
-        "sog": 2,
-        "hit": 1,
-        "blk": 1,
-        "ev_toi": 643,
-        "pp_toi": 114,
-        "sh_toi": 219,
-        "fo": 12,
-        "shifts": 23
-      },
-      "espn_player_id": 3041995,
-      "availability": "FREEAGENT",
-      "on_team_id": 0,
-      "owner": null,
-      "is_mighty_ducks": false
-    },
-    {
-      "rank": 189,
-      "name": "Nazem Kadri",
-      "nhl_player_id": 8475172,
-      "nhl_team": "COL",
-      "opponent": "DET",
+      "rank": 204,
+      "name": "Trent Frederic",
+      "nhl_player_id": 8479365,
+      "nhl_team": "EDM",
+      "opponent": "VAN",
       "position": "C",
-      "game_id": 2026020274,
+      "game_id": 2026020276,
       "game_date": "2026-11-07",
-      "impact_score": 3.149,
+      "impact_score": 3.175,
       "category_impact": {
         "g": 0.0,
         "a": 0.0,
@@ -10686,10 +11399,10 @@
         "plus_minus": 0.0,
         "ppp": 0.0,
         "shp": 0.0,
-        "fow": 1.167,
-        "toi": 0.782,
+        "fow": 0.333,
+        "toi": 0.309,
         "sog": 1.0,
-        "hit": 0.0,
+        "hit": 1.333,
         "blk": 0.0
       },
       "breadth": 2,
@@ -10700,25 +11413,25 @@
         "plus_minus": 0,
         "ppp": 0,
         "shp": 0,
-        "fow": 7,
-        "toi": 1044,
+        "fow": 2,
+        "toi": 412,
         "sog": 3,
-        "hit": 0,
+        "hit": 4,
         "blk": 0,
-        "ev_toi": 763,
-        "pp_toi": 281,
+        "ev_toi": 412,
+        "pp_toi": 0,
         "sh_toi": 0,
-        "fo": 8,
-        "shifts": 18
+        "fo": 2,
+        "shifts": 15
       },
-      "espn_player_id": 5349,
-      "availability": "ONTEAM",
-      "on_team_id": 1,
-      "owner": "Night City Samurais",
+      "espn_player_id": 4024997,
+      "availability": "FREEAGENT",
+      "on_team_id": 0,
+      "owner": null,
       "is_mighty_ducks": false
     },
     {
-      "rank": 190,
+      "rank": 205,
       "name": "Brady Skjei",
       "nhl_player_id": 8476869,
       "nhl_team": "NSH",
@@ -10766,7 +11479,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 191,
+      "rank": 206,
       "name": "Cole Reinhardt",
       "nhl_player_id": 8481133,
       "nhl_team": "FLA",
@@ -10774,7 +11487,7 @@
       "position": "L",
       "game_id": 2026020265,
       "game_date": "2026-11-07",
-      "impact_score": 3.117,
+      "impact_score": 3.116,
       "category_impact": {
         "g": 0.0,
         "a": 0.0,
@@ -10783,7 +11496,7 @@
         "ppp": 0.0,
         "shp": 0.0,
         "fow": 0.0,
-        "toi": 0.584,
+        "toi": 0.583,
         "sog": 1.0,
         "hit": 1.333,
         "blk": 0.0
@@ -10814,7 +11527,55 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 192,
+      "rank": 207,
+      "name": "Paul Cotter",
+      "nhl_player_id": 8481032,
+      "nhl_team": "VAN",
+      "opponent": "EDM",
+      "position": "L",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 3.115,
+      "category_impact": {
+        "g": 0.0,
+        "a": 0.0,
+        "pts": 0.0,
+        "plus_minus": -0.4,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 0.667,
+        "toi": 0.648,
+        "sog": 0.333,
+        "hit": 1.667,
+        "blk": 0.0
+      },
+      "breadth": 2,
+      "stats": {
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plus_minus": -1,
+        "ppp": 0,
+        "shp": 0,
+        "fow": 4,
+        "toi": 865,
+        "sog": 1,
+        "hit": 5,
+        "blk": 0,
+        "ev_toi": 797,
+        "pp_toi": 64,
+        "sh_toi": 4,
+        "fo": 10,
+        "shifts": 19
+      },
+      "espn_player_id": 4331579,
+      "availability": "ONTEAM",
+      "on_team_id": 9,
+      "owner": "St. Petersburg Millionaires",
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 208,
       "name": "Alexey Toropchenko",
       "nhl_player_id": 8480281,
       "nhl_team": "STL",
@@ -10862,7 +11623,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 193,
+      "rank": 209,
       "name": "Ryker Evans",
       "nhl_player_id": 8482858,
       "nhl_team": "SEA",
@@ -10910,7 +11671,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 194,
+      "rank": 210,
       "name": "Rickard Rakell",
       "nhl_player_id": 8476483,
       "nhl_team": "PIT",
@@ -10958,7 +11719,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 195,
+      "rank": 211,
       "name": "Sam Malinski",
       "nhl_player_id": 8484258,
       "nhl_team": "COL",
@@ -11006,7 +11767,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 196,
+      "rank": 212,
       "name": "Artturi Lehkonen",
       "nhl_player_id": 8477476,
       "nhl_team": "COL",
@@ -11054,7 +11815,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 197,
+      "rank": 213,
       "name": "Will Cuylle",
       "nhl_player_id": 8482157,
       "nhl_team": "NYR",
@@ -11102,7 +11863,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 198,
+      "rank": 214,
       "name": "Adam Larsson",
       "nhl_player_id": 8476457,
       "nhl_team": "SEA",
@@ -11150,7 +11911,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 199,
+      "rank": 215,
       "name": "Ryan Greene",
       "nhl_player_id": 8483450,
       "nhl_team": "CHI",
@@ -11198,7 +11959,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 200,
+      "rank": 216,
       "name": "Martin Fehervary",
       "nhl_player_id": 8480796,
       "nhl_team": "WSH",
@@ -11246,7 +12007,55 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 201,
+      "rank": 217,
+      "name": "Nazem Kadri",
+      "nhl_player_id": 8475172,
+      "nhl_team": "COL",
+      "opponent": "DET",
+      "position": "C",
+      "game_id": 2026020274,
+      "game_date": "2026-11-07",
+      "impact_score": 2.982,
+      "category_impact": {
+        "g": 0.0,
+        "a": 0.0,
+        "pts": 0.0,
+        "plus_minus": 0.0,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 1.0,
+        "toi": 0.782,
+        "sog": 1.0,
+        "hit": 0.0,
+        "blk": 0.0
+      },
+      "breadth": 2,
+      "stats": {
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plus_minus": 0,
+        "ppp": 0,
+        "shp": 0,
+        "fow": 6,
+        "toi": 1044,
+        "sog": 3,
+        "hit": 0,
+        "blk": 0,
+        "ev_toi": 763,
+        "pp_toi": 281,
+        "sh_toi": 0,
+        "fo": 8,
+        "shifts": 18
+      },
+      "espn_player_id": 5349,
+      "availability": "ONTEAM",
+      "on_team_id": 1,
+      "owner": "Night City Samurais",
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 218,
       "name": "Jack McBain",
       "nhl_player_id": 8480855,
       "nhl_team": "UTA",
@@ -11294,7 +12103,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 202,
+      "rank": 219,
       "name": "Adam Pelech",
       "nhl_player_id": 8476917,
       "nhl_team": "NYI",
@@ -11302,7 +12111,7 @@
       "position": "D",
       "game_id": 2026020270,
       "game_date": "2026-11-07",
-      "impact_score": 2.932,
+      "impact_score": 2.931,
       "category_impact": {
         "g": 0.0,
         "a": 0.0,
@@ -11311,7 +12120,7 @@
         "ppp": 0.0,
         "shp": 0.0,
         "fow": 0.0,
-        "toi": 0.999,
+        "toi": 0.998,
         "sog": 0.333,
         "hit": 0.0,
         "blk": 1.5
@@ -11342,7 +12151,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 203,
+      "rank": 220,
       "name": "Logan Stanley",
       "nhl_player_id": 8479378,
       "nhl_team": "NYI",
@@ -11390,7 +12199,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 204,
+      "rank": 221,
       "name": "Samuel Girard",
       "nhl_player_id": 8479398,
       "nhl_team": "PIT",
@@ -11438,7 +12247,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 205,
+      "rank": 222,
       "name": "Sheldon Dries",
       "nhl_player_id": 8480326,
       "nhl_team": "DET",
@@ -11446,7 +12255,7 @@
       "position": "C",
       "game_id": 2026020274,
       "game_date": "2026-11-07",
-      "impact_score": 2.875,
+      "impact_score": 2.874,
       "category_impact": {
         "g": 0.0,
         "a": 0.0,
@@ -11455,7 +12264,7 @@
         "ppp": 0.0,
         "shp": 0.0,
         "fow": 0.5,
-        "toi": 0.575,
+        "toi": 0.574,
         "sog": 0.667,
         "hit": 0.333,
         "blk": 0.5
@@ -11486,7 +12295,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 206,
+      "rank": 223,
       "name": "Dmitri Simashev",
       "nhl_player_id": 8484386,
       "nhl_team": "UTA",
@@ -11494,7 +12303,7 @@
       "position": "D",
       "game_id": 2026020269,
       "game_date": "2026-11-07",
-      "impact_score": 2.848,
+      "impact_score": 2.847,
       "category_impact": {
         "g": 0.0,
         "a": 0.0,
@@ -11503,7 +12312,7 @@
         "ppp": 0.0,
         "shp": 0.0,
         "fow": 0.0,
-        "toi": 0.981,
+        "toi": 0.98,
         "sog": 0.0,
         "hit": 0.667,
         "blk": 1.0
@@ -11534,7 +12343,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 207,
+      "rank": 224,
       "name": "Troy Stecher",
       "nhl_player_id": 8479442,
       "nhl_team": "TOR",
@@ -11582,7 +12391,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 208,
+      "rank": 225,
       "name": "Cole Hutson",
       "nhl_player_id": 8484873,
       "nhl_team": "WSH",
@@ -11630,7 +12439,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 209,
+      "rank": 226,
       "name": "Conor Geekie",
       "nhl_player_id": 8483447,
       "nhl_team": "TBL",
@@ -11678,7 +12487,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 210,
+      "rank": 227,
       "name": "Andrew Copp",
       "nhl_player_id": 8477429,
       "nhl_team": "DET",
@@ -11726,7 +12535,55 @@
       "is_mighty_ducks": true
     },
     {
-      "rank": 211,
+      "rank": 228,
+      "name": "Linus Karlsson",
+      "nhl_player_id": 8481024,
+      "nhl_team": "VAN",
+      "opponent": "EDM",
+      "position": "C",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 2.826,
+      "category_impact": {
+        "g": 0.0,
+        "a": 0.0,
+        "pts": 0.0,
+        "plus_minus": 0.4,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 0.0,
+        "toi": 0.559,
+        "sog": 1.0,
+        "hit": 0.667,
+        "blk": 0.0
+      },
+      "breadth": 2,
+      "stats": {
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plus_minus": 1,
+        "ppp": 0,
+        "shp": 0,
+        "fow": 0,
+        "toi": 746,
+        "sog": 3,
+        "hit": 2,
+        "blk": 0,
+        "ev_toi": 689,
+        "pp_toi": 57,
+        "sh_toi": 0,
+        "fo": 2,
+        "shifts": 18
+      },
+      "espn_player_id": 4587713,
+      "availability": "ONTEAM",
+      "on_team_id": 6,
+      "owner": "kopay-ka  LA",
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 229,
       "name": "Kiefer Sherwood",
       "nhl_player_id": 8480748,
       "nhl_team": "SJS",
@@ -11774,7 +12631,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 212,
+      "rank": 230,
       "name": "Anthony Duclair",
       "nhl_player_id": 8477407,
       "nhl_team": "NYI",
@@ -11782,7 +12639,7 @@
       "position": "L",
       "game_id": 2026020270,
       "game_date": "2026-11-07",
-      "impact_score": 2.805,
+      "impact_score": 2.804,
       "category_impact": {
         "g": 1.5,
         "a": 0.0,
@@ -11791,7 +12648,7 @@
         "ppp": 0.0,
         "shp": 0.0,
         "fow": 0.0,
-        "toi": 0.572,
+        "toi": 0.571,
         "sog": 0.333,
         "hit": 0.0,
         "blk": 0.0
@@ -11822,7 +12679,55 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 213,
+      "rank": 231,
+      "name": "Vasily Podkolzin",
+      "nhl_player_id": 8481617,
+      "nhl_team": "EDM",
+      "opponent": "VAN",
+      "position": "R",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 2.795,
+      "category_impact": {
+        "g": 0.0,
+        "a": 0.0,
+        "pts": 0.0,
+        "plus_minus": 0.4,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 0.167,
+        "toi": 0.795,
+        "sog": 0.333,
+        "hit": 1.0,
+        "blk": 0.0
+      },
+      "breadth": 1,
+      "stats": {
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plus_minus": 1,
+        "ppp": 0,
+        "shp": 0,
+        "fow": 1,
+        "toi": 1061,
+        "sog": 1,
+        "hit": 3,
+        "blk": 0,
+        "ev_toi": 1061,
+        "pp_toi": 0,
+        "sh_toi": 0,
+        "fo": 2,
+        "shifts": 25
+      },
+      "espn_player_id": 4565231,
+      "availability": "ONTEAM",
+      "on_team_id": 17,
+      "owner": "KUMIS MAFIA",
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 232,
       "name": "Danila Yurov",
       "nhl_player_id": 8483525,
       "nhl_team": "MIN",
@@ -11870,7 +12775,55 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 214,
+      "rank": 233,
+      "name": "Connor Murphy",
+      "nhl_player_id": 8476473,
+      "nhl_team": "EDM",
+      "opponent": "VAN",
+      "position": "D",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 2.753,
+      "category_impact": {
+        "g": 0.0,
+        "a": 0.0,
+        "pts": 0.0,
+        "plus_minus": -0.4,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 0.0,
+        "toi": 0.953,
+        "sog": 1.0,
+        "hit": 0.0,
+        "blk": 1.0
+      },
+      "breadth": 2,
+      "stats": {
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plus_minus": -1,
+        "ppp": 0,
+        "shp": 0,
+        "fow": null,
+        "toi": 1272,
+        "sog": 3,
+        "hit": 0,
+        "blk": 2,
+        "ev_toi": 1159,
+        "pp_toi": 0,
+        "sh_toi": 113,
+        "fo": 0,
+        "shifts": 28
+      },
+      "espn_player_id": 2562618,
+      "availability": "ONTEAM",
+      "on_team_id": 19,
+      "owner": "Balashikha Mammoth",
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 234,
       "name": "Anthony Mantha",
       "nhl_player_id": 8477511,
       "nhl_team": "NJD",
@@ -11918,7 +12871,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 215,
+      "rank": 235,
       "name": "Noah Juulsen",
       "nhl_player_id": 8478454,
       "nhl_team": "COL",
@@ -11966,7 +12919,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 216,
+      "rank": 236,
       "name": "Sam Rinzel",
       "nhl_player_id": 8483506,
       "nhl_team": "CHI",
@@ -12014,7 +12967,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 217,
+      "rank": 237,
       "name": "Ben Chiarot",
       "nhl_player_id": 8475279,
       "nhl_team": "DET",
@@ -12062,7 +13015,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 218,
+      "rank": 238,
       "name": "Yakov Trenin",
       "nhl_player_id": 8478508,
       "nhl_team": "MIN",
@@ -12110,7 +13063,7 @@
       "is_mighty_ducks": true
     },
     {
-      "rank": 219,
+      "rank": 239,
       "name": "Andrew Peeke",
       "nhl_player_id": 8479369,
       "nhl_team": "UTA",
@@ -12158,7 +13111,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 220,
+      "rank": 240,
       "name": "Eetu Luostarinen",
       "nhl_player_id": 8480185,
       "nhl_team": "FLA",
@@ -12206,7 +13159,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 221,
+      "rank": 241,
       "name": "Alexandre Texier",
       "nhl_player_id": 8480074,
       "nhl_team": "MTL",
@@ -12254,7 +13207,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 222,
+      "rank": 242,
       "name": "Ville Ottavainen",
       "nhl_player_id": 8482866,
       "nhl_team": "SEA",
@@ -12302,7 +13255,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 223,
+      "rank": 243,
       "name": "Tyler Toffoli",
       "nhl_player_id": 8475726,
       "nhl_team": "SJS",
@@ -12350,7 +13303,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 224,
+      "rank": 244,
       "name": "Bobby McMann",
       "nhl_player_id": 8482259,
       "nhl_team": "SEA",
@@ -12398,7 +13351,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 225,
+      "rank": 245,
       "name": "Matt Roy",
       "nhl_player_id": 8478911,
       "nhl_team": "WSH",
@@ -12446,7 +13399,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 226,
+      "rank": 246,
       "name": "Ryan Winterton",
       "nhl_player_id": 8482751,
       "nhl_team": "SEA",
@@ -12494,7 +13447,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 227,
+      "rank": 247,
       "name": "Nick Robertson",
       "nhl_player_id": 8481582,
       "nhl_team": "PIT",
@@ -12542,7 +13495,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 228,
+      "rank": 248,
       "name": "Moritz Seider",
       "nhl_player_id": 8481542,
       "nhl_team": "DET",
@@ -12590,7 +13543,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 229,
+      "rank": 249,
       "name": "Kaedan Korczak",
       "nhl_player_id": 8481527,
       "nhl_team": "PIT",
@@ -12638,7 +13591,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 230,
+      "rank": 250,
       "name": "Ty Dellandrea",
       "nhl_player_id": 8480848,
       "nhl_team": "SJS",
@@ -12686,7 +13639,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 231,
+      "rank": 251,
       "name": "Nikolas Matinpalo",
       "nhl_player_id": 8484321,
       "nhl_team": "OTT",
@@ -12734,7 +13687,55 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 232,
+      "rank": 252,
+      "name": "Jake DeBrusk",
+      "nhl_player_id": 8478498,
+      "nhl_team": "VAN",
+      "opponent": "EDM",
+      "position": "L",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 2.529,
+      "category_impact": {
+        "g": 0.0,
+        "a": 0.0,
+        "pts": 0.0,
+        "plus_minus": -0.4,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 0.0,
+        "toi": 0.729,
+        "sog": 0.667,
+        "hit": 1.333,
+        "blk": 0.0
+      },
+      "breadth": 2,
+      "stats": {
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plus_minus": -1,
+        "ppp": 0,
+        "shp": 0,
+        "fow": null,
+        "toi": 973,
+        "sog": 2,
+        "hit": 4,
+        "blk": 0,
+        "ev_toi": 869,
+        "pp_toi": 98,
+        "sh_toi": 6,
+        "fo": 0,
+        "shifts": 23
+      },
+      "espn_player_id": 3900240,
+      "availability": "ONTEAM",
+      "on_team_id": 8,
+      "owner": "Donbazz Boyz",
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 253,
       "name": "Matt Kiersted",
       "nhl_player_id": 8482641,
       "nhl_team": "MIN",
@@ -12782,7 +13783,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 233,
+      "rank": 254,
       "name": "Vladislav Gavrikov",
       "nhl_player_id": 8478882,
       "nhl_team": "NYR",
@@ -12830,7 +13831,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 234,
+      "rank": 255,
       "name": "Alexander Kerfoot",
       "nhl_player_id": 8477021,
       "nhl_team": "NSH",
@@ -12878,7 +13879,55 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 235,
+      "rank": 256,
+      "name": "Owen Michaels",
+      "nhl_player_id": 8486161,
+      "nhl_team": "EDM",
+      "opponent": "VAN",
+      "position": "R",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 2.48,
+      "category_impact": {
+        "g": 0.0,
+        "a": 0.0,
+        "pts": 0.0,
+        "plus_minus": 0.0,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 1.333,
+        "toi": 0.447,
+        "sog": 0.0,
+        "hit": 0.0,
+        "blk": 0.5
+      },
+      "breadth": 2,
+      "stats": {
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plus_minus": 0,
+        "ppp": 0,
+        "shp": 0,
+        "fow": 8,
+        "toi": 597,
+        "sog": 0,
+        "hit": 0,
+        "blk": 1,
+        "ev_toi": 562,
+        "pp_toi": 0,
+        "sh_toi": 35,
+        "fo": 9,
+        "shifts": 20
+      },
+      "espn_player_id": 5206840,
+      "availability": "FREEAGENT",
+      "on_team_id": 0,
+      "owner": null,
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 257,
       "name": "Darnell Nurse",
       "nhl_player_id": 8477498,
       "nhl_team": "SJS",
@@ -12926,7 +13975,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 236,
+      "rank": 258,
       "name": "Viktor Arvidsson",
       "nhl_player_id": 8478042,
       "nhl_team": "DET",
@@ -12974,7 +14023,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 237,
+      "rank": 259,
       "name": "Juraj Slafkovský",
       "nhl_player_id": 8483515,
       "nhl_team": "MTL",
@@ -13022,7 +14071,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 238,
+      "rank": 260,
       "name": "Scott Laughton",
       "nhl_player_id": 8476872,
       "nhl_team": "LAK",
@@ -13070,7 +14119,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 239,
+      "rank": 261,
       "name": "Oliver Ekman-Larsson",
       "nhl_player_id": 8475171,
       "nhl_team": "TOR",
@@ -13118,7 +14167,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 240,
+      "rank": 262,
       "name": "Brent Burns",
       "nhl_player_id": 8470613,
       "nhl_team": "COL",
@@ -13166,7 +14215,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 241,
+      "rank": 263,
       "name": "Casey Cizikas",
       "nhl_player_id": 8475231,
       "nhl_team": "NYI",
@@ -13214,7 +14263,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 242,
+      "rank": 264,
       "name": "Blake Lizotte",
       "nhl_player_id": 8481481,
       "nhl_team": "PIT",
@@ -13262,7 +14311,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 243,
+      "rank": 265,
       "name": "Jake Neighbours",
       "nhl_player_id": 8482089,
       "nhl_team": "STL",
@@ -13310,7 +14359,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 244,
+      "rank": 266,
       "name": "William Wallinder",
       "nhl_player_id": 8482171,
       "nhl_team": "DET",
@@ -13358,7 +14407,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 245,
+      "rank": 267,
       "name": "Jordan Spence",
       "nhl_player_id": 8481606,
       "nhl_team": "OTT",
@@ -13406,7 +14455,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 246,
+      "rank": 268,
       "name": "Tyler Myers",
       "nhl_player_id": 8474574,
       "nhl_team": "DAL",
@@ -13454,7 +14503,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 247,
+      "rank": 269,
       "name": "Jack Roslovic",
       "nhl_player_id": 8478458,
       "nhl_team": "TOR",
@@ -13502,7 +14551,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 248,
+      "rank": 270,
       "name": "Brandt Clarke",
       "nhl_player_id": 8482730,
       "nhl_team": "LAK",
@@ -13550,7 +14599,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 249,
+      "rank": 271,
       "name": "Colton Parayko",
       "nhl_player_id": 8476892,
       "nhl_team": "STL",
@@ -13598,7 +14647,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 250,
+      "rank": 272,
       "name": "Ryan Hartman",
       "nhl_player_id": 8477451,
       "nhl_team": "MIN",
@@ -13646,7 +14695,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 251,
+      "rank": 273,
       "name": "Owen Beck",
       "nhl_player_id": 8483424,
       "nhl_team": "MTL",
@@ -13694,7 +14743,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 252,
+      "rank": 274,
       "name": "Jaccob Slavin",
       "nhl_player_id": 8476958,
       "nhl_team": "CAR",
@@ -13742,7 +14791,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 253,
+      "rank": 275,
       "name": "Brett Kulak",
       "nhl_player_id": 8476967,
       "nhl_team": "COL",
@@ -13790,7 +14839,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 254,
+      "rank": 276,
       "name": "Nico Sturm",
       "nhl_player_id": 8481477,
       "nhl_team": "MIN",
@@ -13838,7 +14887,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 255,
+      "rank": 277,
       "name": "Jake Sanderson",
       "nhl_player_id": 8482105,
       "nhl_team": "OTT",
@@ -13886,7 +14935,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 256,
+      "rank": 278,
       "name": "Justin Sourdif",
       "nhl_player_id": 8482088,
       "nhl_team": "WSH",
@@ -13934,7 +14983,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 257,
+      "rank": 279,
       "name": "Jonas Siegenthaler",
       "nhl_player_id": 8478399,
       "nhl_team": "NJD",
@@ -13982,7 +15031,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 258,
+      "rank": 280,
       "name": "Erik Haula",
       "nhl_player_id": 8475287,
       "nhl_team": "LAK",
@@ -14030,7 +15079,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 259,
+      "rank": 281,
       "name": "Liam O'Brien",
       "nhl_player_id": 8477070,
       "nhl_team": "UTA",
@@ -14078,7 +15127,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 260,
+      "rank": 282,
       "name": "John Leonard",
       "nhl_player_id": 8481077,
       "nhl_team": "DET",
@@ -14126,7 +15175,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 261,
+      "rank": 283,
       "name": "Adam Wilsby",
       "nhl_player_id": 8482482,
       "nhl_team": "NSH",
@@ -14174,7 +15223,7 @@
       "is_mighty_ducks": true
     },
     {
-      "rank": 262,
+      "rank": 284,
       "name": "Michael Rasmussen",
       "nhl_player_id": 8479992,
       "nhl_team": "DET",
@@ -14222,7 +15271,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 263,
+      "rank": 285,
       "name": "Parker Kelly",
       "nhl_player_id": 8480448,
       "nhl_team": "COL",
@@ -14270,7 +15319,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 264,
+      "rank": 286,
       "name": "Carter Mazur",
       "nhl_player_id": 8482802,
       "nhl_team": "DET",
@@ -14318,7 +15367,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 265,
+      "rank": 287,
       "name": "Lucas Raymond",
       "nhl_player_id": 8482078,
       "nhl_team": "DET",
@@ -14366,7 +15415,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 266,
+      "rank": 288,
       "name": "Nick Paul",
       "nhl_player_id": 8477426,
       "nhl_team": "TOR",
@@ -14414,7 +15463,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 267,
+      "rank": 289,
       "name": "Cam Fowler",
       "nhl_player_id": 8475764,
       "nhl_team": "STL",
@@ -14462,7 +15511,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 268,
+      "rank": 290,
       "name": "Sam Dickinson",
       "nhl_player_id": 8484806,
       "nhl_team": "SJS",
@@ -14510,7 +15559,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 269,
+      "rank": 291,
       "name": "Kyle MacLean",
       "nhl_player_id": 8481237,
       "nhl_team": "NYI",
@@ -14558,7 +15607,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 270,
+      "rank": 292,
       "name": "Arttu Hyry",
       "nhl_player_id": 8484938,
       "nhl_team": "DAL",
@@ -14606,7 +15655,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 271,
+      "rank": 293,
       "name": "Lawson Crouse",
       "nhl_player_id": 8478474,
       "nhl_team": "UTA",
@@ -14654,7 +15703,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 272,
+      "rank": 294,
       "name": "Matt Boldy",
       "nhl_player_id": 8481557,
       "nhl_team": "MIN",
@@ -14702,7 +15751,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 273,
+      "rank": 295,
       "name": "Alex DeBrincat",
       "nhl_player_id": 8479337,
       "nhl_team": "DET",
@@ -14750,7 +15799,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 274,
+      "rank": 296,
       "name": "Scott Sabourin",
       "nhl_player_id": 8477149,
       "nhl_team": "TBL",
@@ -14798,7 +15847,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 275,
+      "rank": 297,
       "name": "Jake Evans",
       "nhl_player_id": 8478133,
       "nhl_team": "MTL",
@@ -14846,7 +15895,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 276,
+      "rank": 298,
       "name": "Michael Carcone",
       "nhl_player_id": 8479619,
       "nhl_team": "UTA",
@@ -14894,7 +15943,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 277,
+      "rank": 299,
       "name": "Anthony Cirelli",
       "nhl_player_id": 8478519,
       "nhl_team": "TBL",
@@ -14942,7 +15991,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 278,
+      "rank": 300,
       "name": "Logan Cooley",
       "nhl_player_id": 8483431,
       "nhl_team": "UTA",
@@ -14990,7 +16039,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 279,
+      "rank": 301,
       "name": "Nils Hoglander",
       "nhl_player_id": 8481535,
       "nhl_team": "NSH",
@@ -15038,7 +16087,55 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 280,
+      "rank": 302,
+      "name": "Alex Formenton",
+      "nhl_player_id": 8480029,
+      "nhl_team": "EDM",
+      "opponent": "VAN",
+      "position": "L",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 2.038,
+      "category_impact": {
+        "g": 0.0,
+        "a": 0.0,
+        "pts": 0.0,
+        "plus_minus": 0.4,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 0.0,
+        "toi": 0.538,
+        "sog": 0.0,
+        "hit": 1.0,
+        "blk": 0.0
+      },
+      "breadth": 1,
+      "stats": {
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plus_minus": 1,
+        "ppp": 0,
+        "shp": 0,
+        "fow": null,
+        "toi": 718,
+        "sog": 0,
+        "hit": 3,
+        "blk": 0,
+        "ev_toi": 664,
+        "pp_toi": 4,
+        "sh_toi": 50,
+        "fo": 0,
+        "shifts": 17
+      },
+      "espn_player_id": 4233882,
+      "availability": "FREEAGENT",
+      "on_team_id": 0,
+      "owner": null,
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 303,
       "name": "Pontus Holmberg",
       "nhl_player_id": 8480995,
       "nhl_team": "TBL",
@@ -15086,7 +16183,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 281,
+      "rank": 304,
       "name": "Marcus Foligno",
       "nhl_player_id": 8475220,
       "nhl_team": "MIN",
@@ -15134,7 +16231,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 282,
+      "rank": 305,
       "name": "Bobby Brink",
       "nhl_player_id": 8481553,
       "nhl_team": "MIN",
@@ -15142,7 +16239,7 @@
       "position": "R",
       "game_id": 2026020273,
       "game_date": "2026-11-07",
-      "impact_score": 2.02,
+      "impact_score": 2.019,
       "category_impact": {
         "g": 0.0,
         "a": 0.0,
@@ -15151,7 +16248,7 @@
         "ppp": 0.0,
         "shp": 0.0,
         "fow": 0.0,
-        "toi": 0.587,
+        "toi": 0.586,
         "sog": 0.333,
         "hit": 1.0,
         "blk": 0.0
@@ -15182,7 +16279,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 283,
+      "rank": 306,
       "name": "Alexandre Carrier",
       "nhl_player_id": 8478851,
       "nhl_team": "MTL",
@@ -15230,7 +16327,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 284,
+      "rank": 307,
       "name": "Artem Duda",
       "nhl_player_id": 8483436,
       "nhl_team": "UTA",
@@ -15278,7 +16375,55 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 285,
+      "rank": 308,
+      "name": "Shakir Mukhamadullin",
+      "nhl_player_id": 8482166,
+      "nhl_team": "EDM",
+      "opponent": "VAN",
+      "position": "D",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 1.998,
+      "category_impact": {
+        "g": 0.0,
+        "a": 0.0,
+        "pts": 0.0,
+        "plus_minus": 0.4,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 0.0,
+        "toi": 0.665,
+        "sog": 0.0,
+        "hit": 0.333,
+        "blk": 0.5
+      },
+      "breadth": 1,
+      "stats": {
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plus_minus": 1,
+        "ppp": 0,
+        "shp": 0,
+        "fow": null,
+        "toi": 888,
+        "sog": 0,
+        "hit": 1,
+        "blk": 1,
+        "ev_toi": 838,
+        "pp_toi": 0,
+        "sh_toi": 50,
+        "fo": 0,
+        "shifts": 24
+      },
+      "espn_player_id": 4697403,
+      "availability": "FREEAGENT",
+      "on_team_id": 0,
+      "owner": null,
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 309,
       "name": "Ian Cole",
       "nhl_player_id": 8474013,
       "nhl_team": "CHI",
@@ -15326,7 +16471,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 286,
+      "rank": 310,
       "name": "Jordan Greenway",
       "nhl_player_id": 8478413,
       "nhl_team": "CHI",
@@ -15374,7 +16519,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 287,
+      "rank": 311,
       "name": "Nils Lundkvist",
       "nhl_player_id": 8480878,
       "nhl_team": "DAL",
@@ -15422,7 +16567,55 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 288,
+      "rank": 312,
+      "name": "Kasperi Kapanen",
+      "nhl_player_id": 8477953,
+      "nhl_team": "EDM",
+      "opponent": "VAN",
+      "position": "R",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 1.922,
+      "category_impact": {
+        "g": 0.0,
+        "a": 0.0,
+        "pts": 0.0,
+        "plus_minus": -0.4,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 0.0,
+        "toi": 0.788,
+        "sog": 0.667,
+        "hit": 0.667,
+        "blk": 0.0
+      },
+      "breadth": 2,
+      "stats": {
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plus_minus": -1,
+        "ppp": 0,
+        "shp": 0,
+        "fow": null,
+        "toi": 1052,
+        "sog": 2,
+        "hit": 2,
+        "blk": 0,
+        "ev_toi": 877,
+        "pp_toi": 112,
+        "sh_toi": 63,
+        "fo": 0,
+        "shifts": 25
+      },
+      "espn_player_id": 3114775,
+      "availability": "ONTEAM",
+      "on_team_id": 8,
+      "owner": "Donbazz Boyz",
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 313,
       "name": "David Spacek",
       "nhl_player_id": 8483766,
       "nhl_team": "MIN",
@@ -15470,7 +16663,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 289,
+      "rank": 314,
       "name": "Brian Dumoulin",
       "nhl_player_id": 8475208,
       "nhl_team": "LAK",
@@ -15518,7 +16711,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 290,
+      "rank": 315,
       "name": "Justin Barron",
       "nhl_player_id": 8482111,
       "nhl_team": "STL",
@@ -15566,7 +16759,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 291,
+      "rank": 316,
       "name": "Vitali Pinchuk",
       "nhl_player_id": 8486189,
       "nhl_team": "NSH",
@@ -15614,7 +16807,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 292,
+      "rank": 317,
       "name": "Bokondji Imama",
       "nhl_player_id": 8478147,
       "nhl_team": "FLA",
@@ -15662,7 +16855,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 293,
+      "rank": 318,
       "name": "Andreas Englund",
       "nhl_player_id": 8477971,
       "nhl_team": "DET",
@@ -15710,7 +16903,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 294,
+      "rank": 319,
       "name": "Erik Cernak",
       "nhl_player_id": 8478416,
       "nhl_team": "TBL",
@@ -15758,7 +16951,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 295,
+      "rank": 320,
       "name": "Joel Kiviranta",
       "nhl_player_id": 8481641,
       "nhl_team": "DAL",
@@ -15806,7 +16999,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 296,
+      "rank": 321,
       "name": "Drake Batherson",
       "nhl_player_id": 8480208,
       "nhl_team": "OTT",
@@ -15854,7 +17047,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 297,
+      "rank": 322,
       "name": "Aleksanteri Kaskimaki",
       "nhl_player_id": 8483463,
       "nhl_team": "STL",
@@ -15902,7 +17095,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 298,
+      "rank": 323,
       "name": "Lars Eller",
       "nhl_player_id": 8474189,
       "nhl_team": "FLA",
@@ -15950,7 +17143,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 299,
+      "rank": 324,
       "name": "Michael Kesselring",
       "nhl_player_id": 8480891,
       "nhl_team": "SJS",
@@ -15998,7 +17191,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 300,
+      "rank": 325,
       "name": "Timothy Liljegren",
       "nhl_player_id": 8480043,
       "nhl_team": "WSH",
@@ -16046,7 +17239,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 301,
+      "rank": 326,
       "name": "Nick Foligno",
       "nhl_player_id": 8473422,
       "nhl_team": "MIN",
@@ -16094,7 +17287,55 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 302,
+      "rank": 327,
+      "name": "Elias Pettersson",
+      "nhl_player_id": 8483678,
+      "nhl_team": "VAN",
+      "opponent": "EDM",
+      "position": "D",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 1.791,
+      "category_impact": {
+        "g": 0.0,
+        "a": 0.0,
+        "pts": 0.0,
+        "plus_minus": 0.0,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 0.0,
+        "toi": 0.691,
+        "sog": 0.0,
+        "hit": 1.0,
+        "blk": 0.0
+      },
+      "breadth": 1,
+      "stats": {
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plus_minus": 0,
+        "ppp": 0,
+        "shp": 0,
+        "fow": null,
+        "toi": 922,
+        "sog": 0,
+        "hit": 3,
+        "blk": 0,
+        "ev_toi": 879,
+        "pp_toi": 0,
+        "sh_toi": 43,
+        "fo": 0,
+        "shifts": 20
+      },
+      "espn_player_id": 4233566,
+      "availability": "ONTEAM",
+      "on_team_id": 4,
+      "owner": "Biryulyovo Red Eyes",
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 328,
       "name": "Spencer Stastney",
       "nhl_player_id": 8481056,
       "nhl_team": "PIT",
@@ -16142,7 +17383,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 303,
+      "rank": 329,
       "name": "Connor Brown",
       "nhl_player_id": 8477015,
       "nhl_team": "NJD",
@@ -16190,7 +17431,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 304,
+      "rank": 330,
       "name": "Jayden Struble",
       "nhl_player_id": 8481593,
       "nhl_team": "NSH",
@@ -16238,7 +17479,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 305,
+      "rank": 331,
       "name": "Alex Ovechkin",
       "nhl_player_id": 8471214,
       "nhl_team": "WSH",
@@ -16286,7 +17527,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 306,
+      "rank": 332,
       "name": "Gustav Forsling",
       "nhl_player_id": 8478055,
       "nhl_team": "FLA",
@@ -16334,7 +17575,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 307,
+      "rank": 333,
       "name": "Phillip Danault",
       "nhl_player_id": 8476479,
       "nhl_team": "MTL",
@@ -16382,7 +17623,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 308,
+      "rank": 334,
       "name": "Jeff Viel",
       "nhl_player_id": 8479705,
       "nhl_team": "TBL",
@@ -16430,7 +17671,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 309,
+      "rank": 335,
       "name": "Kevin Korchinski",
       "nhl_player_id": 8483466,
       "nhl_team": "CHI",
@@ -16478,7 +17719,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 310,
+      "rank": 336,
       "name": "Emmitt Finnie",
       "nhl_player_id": 8484471,
       "nhl_team": "DET",
@@ -16526,7 +17767,55 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 311,
+      "rank": 337,
+      "name": "Ryan Shea",
+      "nhl_player_id": 8478854,
+      "nhl_team": "EDM",
+      "opponent": "VAN",
+      "position": "D",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 1.683,
+      "category_impact": {
+        "g": 0.0,
+        "a": 0.0,
+        "pts": 0.0,
+        "plus_minus": -0.4,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 0.0,
+        "toi": 0.983,
+        "sog": 0.0,
+        "hit": 0.0,
+        "blk": 1.0
+      },
+      "breadth": 1,
+      "stats": {
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plus_minus": -1,
+        "ppp": 0,
+        "shp": 0,
+        "fow": null,
+        "toi": 1312,
+        "sog": 0,
+        "hit": 0,
+        "blk": 2,
+        "ev_toi": 1184,
+        "pp_toi": 10,
+        "sh_toi": 118,
+        "fo": 0,
+        "shifts": 26
+      },
+      "espn_player_id": 3942033,
+      "availability": "ONTEAM",
+      "on_team_id": 3,
+      "owner": "Putin team",
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 338,
       "name": "Anton Johansson",
       "nhl_player_id": 8483679,
       "nhl_team": "DET",
@@ -16534,7 +17823,7 @@
       "position": "D",
       "game_id": 2026020274,
       "game_date": "2026-11-07",
-      "impact_score": 1.681,
+      "impact_score": 1.68,
       "category_impact": {
         "g": 0.0,
         "a": 0.0,
@@ -16543,7 +17832,7 @@
         "ppp": 0.0,
         "shp": 0.0,
         "fow": 0.0,
-        "toi": 0.581,
+        "toi": 0.58,
         "sog": 0.333,
         "hit": 0.667,
         "blk": 0.0
@@ -16574,7 +17863,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 312,
+      "rank": 339,
       "name": "Samuel Blais",
       "nhl_player_id": 8478104,
       "nhl_team": "OTT",
@@ -16622,7 +17911,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 313,
+      "rank": 340,
       "name": "Brandon Carlo",
       "nhl_player_id": 8478443,
       "nhl_team": "STL",
@@ -16670,7 +17959,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 314,
+      "rank": 341,
       "name": "Trevor Moore",
       "nhl_player_id": 8479675,
       "nhl_team": "LAK",
@@ -16718,7 +18007,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 315,
+      "rank": 342,
       "name": "Tyler Seguin",
       "nhl_player_id": 8475794,
       "nhl_team": "DAL",
@@ -16766,7 +18055,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 316,
+      "rank": 343,
       "name": "Victor Hedman",
       "nhl_player_id": 8475167,
       "nhl_team": "TBL",
@@ -16814,7 +18103,55 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 317,
+      "rank": 344,
+      "name": "Marco Rossi",
+      "nhl_player_id": 8482079,
+      "nhl_team": "VAN",
+      "opponent": "EDM",
+      "position": "C",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 1.625,
+      "category_impact": {
+        "g": 0.0,
+        "a": 0.0,
+        "pts": 0.0,
+        "plus_minus": 0.0,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 0.333,
+        "toi": 0.626,
+        "sog": 0.333,
+        "hit": 0.333,
+        "blk": 0.0
+      },
+      "breadth": 0,
+      "stats": {
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plus_minus": 0,
+        "ppp": 0,
+        "shp": 0,
+        "fow": 2,
+        "toi": 836,
+        "sog": 1,
+        "hit": 1,
+        "blk": 0,
+        "ev_toi": 761,
+        "pp_toi": 75,
+        "sh_toi": 0,
+        "fo": 6,
+        "shifts": 20
+      },
+      "espn_player_id": 4697391,
+      "availability": "ONTEAM",
+      "on_team_id": 9,
+      "owner": "St. Petersburg Millionaires",
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 345,
       "name": "Arber Xhekaj",
       "nhl_player_id": 8482964,
       "nhl_team": "MTL",
@@ -16862,7 +18199,55 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 318,
+      "rank": 346,
+      "name": "Liam Ohgren",
+      "nhl_player_id": 8483499,
+      "nhl_team": "VAN",
+      "opponent": "EDM",
+      "position": "L",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 1.609,
+      "category_impact": {
+        "g": 0.0,
+        "a": 0.0,
+        "pts": 0.0,
+        "plus_minus": 0.0,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 0.0,
+        "toi": 0.509,
+        "sog": 0.0,
+        "hit": 0.0,
+        "blk": 1.0
+      },
+      "breadth": 1,
+      "stats": {
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plus_minus": 0,
+        "ppp": 0,
+        "shp": 0,
+        "fow": null,
+        "toi": 680,
+        "sog": 0,
+        "hit": 0,
+        "blk": 2,
+        "ev_toi": 616,
+        "pp_toi": 64,
+        "sh_toi": 0,
+        "fo": 0,
+        "shifts": 17
+      },
+      "espn_player_id": 5080163,
+      "availability": "ONTEAM",
+      "on_team_id": 17,
+      "owner": "KUMIS MAFIA",
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 347,
       "name": "Connor Dewar",
       "nhl_player_id": 8480980,
       "nhl_team": "PIT",
@@ -16910,7 +18295,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 319,
+      "rank": 348,
       "name": "Reid Schaefer",
       "nhl_player_id": 8483513,
       "nhl_team": "NSH",
@@ -16958,7 +18343,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 320,
+      "rank": 349,
       "name": "Matthew Kessel",
       "nhl_player_id": 8482516,
       "nhl_team": "NYI",
@@ -17006,7 +18391,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 321,
+      "rank": 350,
       "name": "Mason McTavish",
       "nhl_player_id": 8482745,
       "nhl_team": "STL",
@@ -17054,7 +18439,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 322,
+      "rank": 351,
       "name": "Jake McCabe",
       "nhl_player_id": 8476931,
       "nhl_team": "TOR",
@@ -17102,7 +18487,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 323,
+      "rank": 352,
       "name": "Artem Zub",
       "nhl_player_id": 8482245,
       "nhl_team": "OTT",
@@ -17150,7 +18535,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 324,
+      "rank": 353,
       "name": "Zack MacEwen",
       "nhl_player_id": 8479772,
       "nhl_team": "TOR",
@@ -17198,7 +18583,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 325,
+      "rank": 354,
       "name": "Fedor Svechkov",
       "nhl_player_id": 8482768,
       "nhl_team": "COL",
@@ -17246,7 +18631,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 326,
+      "rank": 355,
       "name": "Matthew Robertson",
       "nhl_player_id": 8481525,
       "nhl_team": "NYR",
@@ -17294,7 +18679,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 327,
+      "rank": 356,
       "name": "Pavel Buchnevich",
       "nhl_player_id": 8477402,
       "nhl_team": "STL",
@@ -17342,7 +18727,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 328,
+      "rank": 357,
       "name": "Hendrix Lapierre",
       "nhl_player_id": 8482148,
       "nhl_team": "PIT",
@@ -17390,7 +18775,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 329,
+      "rank": 358,
       "name": "Joel Armia",
       "nhl_player_id": 8476469,
       "nhl_team": "LAK",
@@ -17438,7 +18823,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 330,
+      "rank": 359,
       "name": "Andre Lee",
       "nhl_player_id": 8481732,
       "nhl_team": "LAK",
@@ -17486,7 +18871,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 331,
+      "rank": 360,
       "name": "Easton Cowan",
       "nhl_player_id": 8484158,
       "nhl_team": "TOR",
@@ -17534,7 +18919,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 332,
+      "rank": 361,
       "name": "Trey Taylor",
       "nhl_player_id": 8485468,
       "nhl_team": "DAL",
@@ -17582,7 +18967,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 333,
+      "rank": 362,
       "name": "Hayden Hodgson",
       "nhl_player_id": 8478173,
       "nhl_team": "OTT",
@@ -17630,7 +19015,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 334,
+      "rank": 363,
       "name": "Alex Turcotte",
       "nhl_player_id": 8481532,
       "nhl_team": "LAK",
@@ -17678,7 +19063,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 335,
+      "rank": 364,
       "name": "Ryan McDonagh",
       "nhl_player_id": 8474151,
       "nhl_team": "TBL",
@@ -17726,7 +19111,55 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 336,
+      "rank": 365,
+      "name": "Zeev Buium",
+      "nhl_player_id": 8484798,
+      "nhl_team": "VAN",
+      "opponent": "EDM",
+      "position": "D",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 1.304,
+      "category_impact": {
+        "g": 0.0,
+        "a": 0.0,
+        "pts": 0.0,
+        "plus_minus": -0.8,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 0.0,
+        "toi": 1.171,
+        "sog": 0.333,
+        "hit": 0.0,
+        "blk": 0.5
+      },
+      "breadth": 1,
+      "stats": {
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plus_minus": -2,
+        "ppp": 0,
+        "shp": 0,
+        "fow": null,
+        "toi": 1563,
+        "sog": 1,
+        "hit": 0,
+        "blk": 1,
+        "ev_toi": 1476,
+        "pp_toi": 87,
+        "sh_toi": 0,
+        "fo": 0,
+        "shifts": 30
+      },
+      "espn_player_id": 5206642,
+      "availability": "ONTEAM",
+      "on_team_id": 9,
+      "owner": "St. Petersburg Millionaires",
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 366,
       "name": "Dmitry Orlov",
       "nhl_player_id": 8475200,
       "nhl_team": "SJS",
@@ -17774,7 +19207,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 337,
+      "rank": 367,
       "name": "Cody Glass",
       "nhl_player_id": 8479996,
       "nhl_team": "NJD",
@@ -17822,7 +19255,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 338,
+      "rank": 368,
       "name": "Jesper Boqvist",
       "nhl_player_id": 8480003,
       "nhl_team": "NJD",
@@ -17870,7 +19303,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 339,
+      "rank": 369,
       "name": "Ross Johnston",
       "nhl_player_id": 8477527,
       "nhl_team": "STL",
@@ -17918,7 +19351,55 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 340,
+      "rank": 370,
+      "name": "Luke Schenn",
+      "nhl_player_id": 8474568,
+      "nhl_team": "VAN",
+      "opponent": "EDM",
+      "position": "D",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 1.279,
+      "category_impact": {
+        "g": 0.0,
+        "a": 0.0,
+        "pts": 0.0,
+        "plus_minus": 0.0,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 0.0,
+        "toi": 0.512,
+        "sog": 0.0,
+        "hit": 0.667,
+        "blk": 0.0
+      },
+      "breadth": 1,
+      "stats": {
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plus_minus": 0,
+        "ppp": 0,
+        "shp": 0,
+        "fow": null,
+        "toi": 683,
+        "sog": 0,
+        "hit": 2,
+        "blk": 0,
+        "ev_toi": 683,
+        "pp_toi": 0,
+        "sh_toi": 0,
+        "fo": 0,
+        "shifts": 15
+      },
+      "espn_player_id": 5092,
+      "availability": "WAIVERS",
+      "on_team_id": 0,
+      "owner": null,
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 371,
       "name": "Frank Nazar",
       "nhl_player_id": 8483493,
       "nhl_team": "CHI",
@@ -17966,7 +19447,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 341,
+      "rank": 372,
       "name": "Amadeus Lombardi",
       "nhl_player_id": 8483695,
       "nhl_team": "NJD",
@@ -18014,7 +19495,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 342,
+      "rank": 373,
       "name": "Ben Meyers",
       "nhl_player_id": 8483570,
       "nhl_team": "SEA",
@@ -18062,7 +19543,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 343,
+      "rank": 374,
       "name": "Keegan Kolesar",
       "nhl_player_id": 8478434,
       "nhl_team": "DET",
@@ -18110,7 +19591,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 344,
+      "rank": 375,
       "name": "Jani Nyman",
       "nhl_player_id": 8483497,
       "nhl_team": "SEA",
@@ -18158,7 +19639,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 345,
+      "rank": 376,
       "name": "Nick Schmaltz",
       "nhl_player_id": 8477951,
       "nhl_team": "UTA",
@@ -18206,7 +19687,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 346,
+      "rank": 377,
       "name": "Mitchell Chaffee",
       "nhl_player_id": 8482070,
       "nhl_team": "NYI",
@@ -18254,7 +19735,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 347,
+      "rank": 378,
       "name": "David Perron",
       "nhl_player_id": 8474102,
       "nhl_team": "DAL",
@@ -18302,7 +19783,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 348,
+      "rank": 379,
       "name": "Dalibor Dvorsky",
       "nhl_player_id": 8484164,
       "nhl_team": "STL",
@@ -18350,7 +19831,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 349,
+      "rank": 380,
       "name": "Dillon Boucher",
       "nhl_player_id": 8485554,
       "nhl_team": "CHI",
@@ -18398,7 +19879,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 350,
+      "rank": 381,
       "name": "Ben Hutton",
       "nhl_player_id": 8477018,
       "nhl_team": "NYI",
@@ -18446,7 +19927,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 351,
+      "rank": 382,
       "name": "Brandon Duhaime",
       "nhl_player_id": 8479520,
       "nhl_team": "TOR",
@@ -18494,7 +19975,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 352,
+      "rank": 383,
       "name": "Cole Schwindt",
       "nhl_player_id": 8481655,
       "nhl_team": "FLA",
@@ -18502,7 +19983,7 @@
       "position": "R",
       "game_id": 2026020265,
       "game_date": "2026-11-07",
-      "impact_score": 1.078,
+      "impact_score": 1.077,
       "category_impact": {
         "g": 0.0,
         "a": 0.0,
@@ -18511,7 +19992,7 @@
         "ppp": 0.0,
         "shp": 0.0,
         "fow": 0.333,
-        "toi": 0.378,
+        "toi": 0.377,
         "sog": 0.0,
         "hit": 0.667,
         "blk": 0.0
@@ -18542,7 +20023,55 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 353,
+      "rank": 384,
+      "name": "Jonathan Lekkerimaki",
+      "nhl_player_id": 8483476,
+      "nhl_team": "VAN",
+      "opponent": "EDM",
+      "position": "R",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 1.076,
+      "category_impact": {
+        "g": 0.0,
+        "a": 0.0,
+        "pts": 0.0,
+        "plus_minus": -0.4,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 0.0,
+        "toi": 0.709,
+        "sog": 0.667,
+        "hit": 0.0,
+        "blk": 0.0
+      },
+      "breadth": 1,
+      "stats": {
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plus_minus": -1,
+        "ppp": 0,
+        "shp": 0,
+        "fow": null,
+        "toi": 947,
+        "sog": 2,
+        "hit": 0,
+        "blk": 0,
+        "ev_toi": 849,
+        "pp_toi": 98,
+        "sh_toi": 0,
+        "fo": 0,
+        "shifts": 20
+      },
+      "espn_player_id": 5080159,
+      "availability": "ONTEAM",
+      "on_team_id": 1,
+      "owner": "Night City Samurais",
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 385,
       "name": "J.J. Moser",
       "nhl_player_id": 8482655,
       "nhl_team": "TBL",
@@ -18590,7 +20119,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 354,
+      "rank": 386,
       "name": "Teuvo Teravainen",
       "nhl_player_id": 8476882,
       "nhl_team": "CHI",
@@ -18638,7 +20167,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 355,
+      "rank": 387,
       "name": "Freddy Gaudreau",
       "nhl_player_id": 8477919,
       "nhl_team": "SEA",
@@ -18686,7 +20215,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 356,
+      "rank": 388,
       "name": "Collin Graf",
       "nhl_player_id": 8484911,
       "nhl_team": "SJS",
@@ -18734,7 +20263,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 357,
+      "rank": 389,
       "name": "Barclay Goodrow",
       "nhl_player_id": 8476624,
       "nhl_team": "SJS",
@@ -18782,7 +20311,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 358,
+      "rank": 390,
       "name": "Ilya Protas",
       "nhl_player_id": 8484999,
       "nhl_team": "WSH",
@@ -18830,7 +20359,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 359,
+      "rank": 391,
       "name": "Shane Wright",
       "nhl_player_id": 8483524,
       "nhl_team": "NSH",
@@ -18878,7 +20407,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 360,
+      "rank": 392,
       "name": "Ondrej Palat",
       "nhl_player_id": 8476292,
       "nhl_team": "NYI",
@@ -18926,7 +20455,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 361,
+      "rank": 393,
       "name": "Ryan Donato",
       "nhl_player_id": 8477987,
       "nhl_team": "CHI",
@@ -18974,7 +20503,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 362,
+      "rank": 394,
       "name": "Sam Steel",
       "nhl_player_id": 8479351,
       "nhl_team": "DAL",
@@ -19022,7 +20551,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 363,
+      "rank": 395,
       "name": "Ilya Mikheyev",
       "nhl_player_id": 8481624,
       "nhl_team": "TBL",
@@ -19070,7 +20599,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 364,
+      "rank": 396,
       "name": "Brandon Hagel",
       "nhl_player_id": 8479542,
       "nhl_team": "TBL",
@@ -19118,7 +20647,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 365,
+      "rank": 397,
       "name": "Gabriel Landeskog",
       "nhl_player_id": 8476455,
       "nhl_team": "COL",
@@ -19166,7 +20695,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 366,
+      "rank": 398,
       "name": "Adam Gaudette",
       "nhl_player_id": 8478874,
       "nhl_team": "SJS",
@@ -19214,7 +20743,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 367,
+      "rank": 399,
       "name": "Logan O'Connor",
       "nhl_player_id": 8481186,
       "nhl_team": "COL",
@@ -19262,7 +20791,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 368,
+      "rank": 400,
       "name": "Adam Engstrom",
       "nhl_player_id": 8483686,
       "nhl_team": "MTL",
@@ -19310,7 +20839,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 369,
+      "rank": 401,
       "name": "Jaden Schwartz",
       "nhl_player_id": 8475768,
       "nhl_team": "COL",
@@ -19358,7 +20887,55 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 370,
+      "rank": 402,
+      "name": "Brendan Gallagher",
+      "nhl_player_id": 8475848,
+      "nhl_team": "VAN",
+      "opponent": "EDM",
+      "position": "R",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 0.844,
+      "category_impact": {
+        "g": 0.0,
+        "a": 0.0,
+        "pts": 0.0,
+        "plus_minus": 0.0,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 0.0,
+        "toi": 0.511,
+        "sog": 0.333,
+        "hit": 0.0,
+        "blk": 0.0
+      },
+      "breadth": 0,
+      "stats": {
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plus_minus": 0,
+        "ppp": 0,
+        "shp": 0,
+        "fow": null,
+        "toi": 682,
+        "sog": 1,
+        "hit": 0,
+        "blk": 0,
+        "ev_toi": 682,
+        "pp_toi": 0,
+        "sh_toi": 0,
+        "fo": 0,
+        "shifts": 20
+      },
+      "espn_player_id": 5614,
+      "availability": "FREEAGENT",
+      "on_team_id": 0,
+      "owner": null,
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 403,
       "name": "Eeli Tolvanen",
       "nhl_player_id": 8480009,
       "nhl_team": "NYR",
@@ -19406,7 +20983,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 371,
+      "rank": 404,
       "name": "Jalen Chatfield",
       "nhl_player_id": 8478970,
       "nhl_team": "CAR",
@@ -19454,7 +21031,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 372,
+      "rank": 405,
       "name": "Tyler Bertuzzi",
       "nhl_player_id": 8477479,
       "nhl_team": "CHI",
@@ -19462,7 +21039,7 @@
       "position": "L",
       "game_id": 2026020271,
       "game_date": "2026-11-07",
-      "impact_score": 0.72,
+      "impact_score": 0.719,
       "category_impact": {
         "g": 0.0,
         "a": 0.0,
@@ -19471,7 +21048,7 @@
         "ppp": 0.0,
         "shp": 0.0,
         "fow": 0.0,
-        "toi": 0.787,
+        "toi": 0.786,
         "sog": 0.333,
         "hit": 0.0,
         "blk": 0.0
@@ -19502,7 +21079,7 @@
       "is_mighty_ducks": true
     },
     {
-      "rank": 373,
+      "rank": 406,
       "name": "Filip Bystedt",
       "nhl_player_id": 8483428,
       "nhl_team": "SJS",
@@ -19550,7 +21127,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 374,
+      "rank": 407,
       "name": "Joel Edmundson",
       "nhl_player_id": 8476441,
       "nhl_team": "LAK",
@@ -19598,7 +21175,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 375,
+      "rank": 408,
       "name": "Jordan Kyrou",
       "nhl_player_id": 8479385,
       "nhl_team": "WSH",
@@ -19646,7 +21223,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 376,
+      "rank": 409,
       "name": "Mackie Samoskevich",
       "nhl_player_id": 8482713,
       "nhl_team": "SEA",
@@ -19694,7 +21271,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 377,
+      "rank": 410,
       "name": "Morgan Rielly",
       "nhl_player_id": 8476853,
       "nhl_team": "TOR",
@@ -19742,7 +21319,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 378,
+      "rank": 411,
       "name": "Nick DeSimone",
       "nhl_player_id": 8480084,
       "nhl_team": "UTA",
@@ -19790,7 +21367,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 379,
+      "rank": 412,
       "name": "Anthony Beauvillier",
       "nhl_player_id": 8478463,
       "nhl_team": "WSH",
@@ -19838,7 +21415,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 380,
+      "rank": 413,
       "name": "Uvis Balinskis",
       "nhl_player_id": 8484304,
       "nhl_team": "FLA",
@@ -19886,7 +21463,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 381,
+      "rank": 414,
       "name": "Tom Wilson",
       "nhl_player_id": 8476880,
       "nhl_team": "WSH",
@@ -19934,7 +21511,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 382,
+      "rank": 415,
       "name": "Gage Goncalves",
       "nhl_player_id": 8482201,
       "nhl_team": "TBL",
@@ -19982,7 +21559,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 383,
+      "rank": 416,
       "name": "Dmitry Kulikov",
       "nhl_player_id": 8475179,
       "nhl_team": "FLA",
@@ -20030,7 +21607,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 384,
+      "rank": 417,
       "name": "Cole Smith",
       "nhl_player_id": 8482062,
       "nhl_team": "CHI",
@@ -20078,7 +21655,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 385,
+      "rank": 418,
       "name": "Chris Tanev",
       "nhl_player_id": 8475690,
       "nhl_team": "TOR",
@@ -20126,7 +21703,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 386,
+      "rank": 419,
       "name": "Josh Mahura",
       "nhl_player_id": 8479372,
       "nhl_team": "SEA",
@@ -20174,7 +21751,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 387,
+      "rank": 420,
       "name": "Niko Mikkola",
       "nhl_player_id": 8478859,
       "nhl_team": "FLA",
@@ -20222,7 +21799,55 @@
       "is_mighty_ducks": true
     },
     {
-      "rank": 388,
+      "rank": 421,
+      "name": "Max Jones",
+      "nhl_player_id": 8479368,
+      "nhl_team": "EDM",
+      "opponent": "VAN",
+      "position": "L",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 0.313,
+      "category_impact": {
+        "g": 0.0,
+        "a": 0.0,
+        "pts": 0.0,
+        "plus_minus": 0.0,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 0.0,
+        "toi": 0.313,
+        "sog": 0.0,
+        "hit": 0.0,
+        "blk": 0.0
+      },
+      "breadth": 0,
+      "stats": {
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plus_minus": 0,
+        "ppp": 0,
+        "shp": 0,
+        "fow": null,
+        "toi": 418,
+        "sog": 0,
+        "hit": 0,
+        "blk": 0,
+        "ev_toi": 418,
+        "pp_toi": 0,
+        "sh_toi": 0,
+        "fo": 0,
+        "shifts": 15
+      },
+      "espn_player_id": 4024980,
+      "availability": "FREEAGENT",
+      "on_team_id": 0,
+      "owner": null,
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 422,
       "name": "Sandis Vilmanis",
       "nhl_player_id": 8483771,
       "nhl_team": "FLA",
@@ -20270,7 +21895,55 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 389,
+      "rank": 423,
+      "name": "Ryan Nugent-Hopkins",
+      "nhl_player_id": 8476454,
+      "nhl_team": "EDM",
+      "opponent": "VAN",
+      "position": "C",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 0.231,
+      "category_impact": {
+        "g": 0.0,
+        "a": 0.0,
+        "pts": 0.0,
+        "plus_minus": -0.4,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 0.333,
+        "toi": 0.298,
+        "sog": 0.0,
+        "hit": 0.0,
+        "blk": 0.0
+      },
+      "breadth": 0,
+      "stats": {
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plus_minus": -1,
+        "ppp": 0,
+        "shp": 0,
+        "fow": 2,
+        "toi": 398,
+        "sog": 0,
+        "hit": 0,
+        "blk": 0,
+        "ev_toi": 282,
+        "pp_toi": 116,
+        "sh_toi": 0,
+        "fo": 5,
+        "shifts": 9
+      },
+      "espn_player_id": 2562624,
+      "availability": "ONTEAM",
+      "on_team_id": 12,
+      "owner": "Mighty Ducks",
+      "is_mighty_ducks": true
+    },
+    {
+      "rank": 424,
       "name": "Anton Frondell",
       "nhl_player_id": 8485391,
       "nhl_team": "CHI",
@@ -20318,7 +21991,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 390,
+      "rank": 425,
       "name": "Adam Jiricek",
       "nhl_player_id": 8484790,
       "nhl_team": "STL",
@@ -20366,7 +22039,55 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 391,
+      "rank": 426,
+      "name": "Arshdeep Bains",
+      "nhl_player_id": 8483395,
+      "nhl_team": "VAN",
+      "opponent": "EDM",
+      "position": "L",
+      "game_id": 2026020276,
+      "game_date": "2026-11-07",
+      "impact_score": 0.189,
+      "category_impact": {
+        "g": 0.0,
+        "a": 0.0,
+        "pts": 0.0,
+        "plus_minus": -0.4,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 0.0,
+        "toi": 0.589,
+        "sog": 0.0,
+        "hit": 0.0,
+        "blk": 0.0
+      },
+      "breadth": 0,
+      "stats": {
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plus_minus": -1,
+        "ppp": 0,
+        "shp": 0,
+        "fow": null,
+        "toi": 786,
+        "sog": 0,
+        "hit": 0,
+        "blk": 0,
+        "ev_toi": 786,
+        "pp_toi": 0,
+        "sh_toi": 0,
+        "fo": 0,
+        "shifts": 18
+      },
+      "espn_player_id": 5103536,
+      "availability": "FREEAGENT",
+      "on_team_id": 0,
+      "owner": null,
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 427,
       "name": "Justin Brazeau",
       "nhl_player_id": 8479638,
       "nhl_team": "PIT",
@@ -20414,7 +22135,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 392,
+      "rank": 428,
       "name": "Teddy Blueger",
       "nhl_player_id": 8476927,
       "nhl_team": "TOR",
@@ -20462,7 +22183,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 393,
+      "rank": 429,
       "name": "Dylan Guenther",
       "nhl_player_id": 8482699,
       "nhl_team": "UTA",
@@ -20510,7 +22231,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 394,
+      "rank": 430,
       "name": "Oliver Moore",
       "nhl_player_id": 8484197,
       "nhl_team": "CHI",
@@ -20558,7 +22279,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 395,
+      "rank": 431,
       "name": "Artyom Levshunov",
       "nhl_player_id": 8484783,
       "nhl_team": "CHI",
@@ -20606,7 +22327,7 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 396,
+      "rank": 432,
       "name": "Wyatt Kaiser",
       "nhl_player_id": 8482176,
       "nhl_team": "CHI",
