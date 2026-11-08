@@ -294,6 +294,155 @@ def combine_reports(report_rows: dict[str, list[dict]], states: dict[int, dict])
     return result
 
 
+def supplement_missing_final_games(
+    client: NHLClient, states: dict[int, dict], players: dict[int, dict]
+) -> dict[int, dict]:
+    """Fill delayed NHL Stats REST games from official gamecenter boxscore/PBP.
+
+    The aggregate report sometimes omits a completed late game for hours.
+    The boxscore has all 36 skaters and peripheral stats; play-by-play supplies
+    exact FOW and PPP/SHP, which the boxscore itself does not expose. Never
+    publish a guessed or incomplete fallback as a finished game.
+    """
+    recent_from = (date.today() - timedelta(days=3)).isoformat()
+    found: dict[int, set[int]] = defaultdict(set)
+    for pid, player in players.items():
+        for game in player.get("games", []):
+            if game.get("game_id") is not None:
+                found[int(game["game_id"])].add(int(pid))
+
+    for game_id, state in sorted(states.items()):
+        if not state.get("final") or (state.get("game_date") or "") < recent_from:
+            continue
+        if len(found.get(game_id, set())) >= 34:
+            continue
+        try:
+            box = client.json(f"{WEB_BASE}/gamecenter/{game_id}/boxscore")
+            pbp = client.json(f"{WEB_BASE}/gamecenter/{game_id}/play-by-play")
+            if (box.get("id") != game_id or pbp.get("id") != game_id
+                    or box.get("gameState") not in FINAL_STATES
+                    or pbp.get("gameState") not in FINAL_STATES
+                    or box.get("limitedScoring") or pbp.get("limitedScoring")):
+                raise ValueError("gamecenter data not final or limited scoring")
+
+            rosters = {
+                int(p["playerId"]): (
+                    (p.get("firstName") or {}).get("default", "") + " " +
+                    (p.get("lastName") or {}).get("default", "")
+                ).strip()
+                for p in pbp.get("rosterSpots", []) if p.get("playerId") is not None
+            }
+            fow: dict[int, int] = defaultdict(int)
+            faceoffs: dict[int, int] = defaultdict(int)
+            ppp: dict[int, int] = defaultdict(int)
+            shp: dict[int, int] = defaultdict(int)
+            home_id = int(pbp["homeTeam"]["id"])
+            away_id = int(pbp["awayTeam"]["id"])
+            plays = pbp.get("plays", [])
+            for event in plays:
+                details = event.get("details") or {}
+                if event.get("typeDescKey") == "faceoff":
+                    winner = details.get("winningPlayerId")
+                    loser = details.get("losingPlayerId")
+                    if winner is None or loser is None:
+                        raise ValueError("missing faceoff winner or loser")
+                    fow[int(winner)] += 1
+                    faceoffs[int(winner)] += 1
+                    faceoffs[int(loser)] += 1
+                elif event.get("typeDescKey") == "goal":
+                    code = str(event.get("situationCode") or "")
+                    if len(code) != 4 or not code.isdigit():
+                        raise ValueError("missing goal situationCode")
+                    # NHL notation: away goalie / away skaters / home skaters / home goalie.
+                    # Extra-attacker goals with a pulled goalie are NOT PPG.
+                    if code[0] != "1" or code[3] != "1":
+                        continue
+                    team_id = details.get("eventOwnerTeamId")
+                    if team_id not in (home_id, away_id):
+                        raise ValueError("goal is missing event owner")
+                    scoring_side = int(code[2]) if team_id == home_id else int(code[1])
+                    other_side = int(code[1]) if team_id == home_id else int(code[2])
+                    if scoring_side == other_side:
+                        continue
+                    category = ppp if scoring_side > other_side else shp
+                    for key in ("scoringPlayerId", "assist1PlayerId", "assist2PlayerId"):
+                        if details.get(key) is not None:
+                            category[int(details[key])] += 1
+
+            if not any(event.get("typeDescKey") == "faceoff" for event in plays):
+                raise ValueError("missing play-by-play faceoffs")
+            sides = box.get("playerByGameStats") or {}
+            game_players = []
+            for side, other in (("homeTeam", "awayTeam"), ("awayTeam", "homeTeam")):
+                team = (box.get(side) or {}).get("abbrev")
+                opponent = (box.get(other) or {}).get("abbrev")
+                for group in ("forwards", "defense"):
+                    for skater in (sides.get(side) or {}).get(group, []):
+                        pid = int(skater["playerId"])
+                        toi_text = skater.get("toi")
+                        if not toi_text or ":" not in toi_text:
+                            raise ValueError(f"no TOI for player {pid}")
+                        minutes, seconds = (int(v) for v in toi_text.split(":"))
+                        game_players.append((pid, {
+                            "game_id": game_id,
+                            "game_date": box["gameDate"],
+                            "name": rosters.get(pid) or (skater.get("name") or {}).get("default"),
+                            "team": team,
+                            "opponent": opponent,
+                            "position": skater.get("position"),
+                            "game_state": state["state"],
+                            "final": True,
+                            "g": int(skater["goals"]),
+                            "a": int(skater["assists"]),
+                            "pts": int(skater["points"]),
+                            "plus_minus": int(skater["plusMinus"]),
+                            "ppp": ppp[pid],
+                            "shp": shp[pid],
+                            "fow": fow[pid],
+                            "fo": faceoffs[pid],
+                            "toi": 60 * minutes + seconds,
+                            "sog": int(skater["sog"]),
+                            "hit": int(skater["hits"]),
+                            "blk": int(skater["blockedShots"]),
+                            "shifts": skater.get("shifts"),
+                            "ev_toi": None,
+                            "pp_toi": None,
+                            "sh_toi": None,
+                        }))
+
+            if len(game_players) < 34 or len({pid for pid, _ in game_players}) != len(game_players):
+                raise ValueError(f"boxscore has only {len(game_players)} unique skaters")
+            # Do not write partial fallback data if the scoring/faceoff feeds disagree.
+            if sum(g["g"] for _, g in game_players if g["team"] == box["homeTeam"]["abbrev"]) != box["homeTeam"]["score"]:
+                raise ValueError("home team goal total differs from boxscore")
+            if sum(g["g"] for _, g in game_players if g["team"] == box["awayTeam"]["abbrev"]) != box["awayTeam"]["score"]:
+                raise ValueError("away team goal total differs from boxscore")
+            if sum(fow.values()) != sum(1 for e in plays if e.get("typeDescKey") == "faceoff"):
+                raise ValueError("faceoff totals differ from play-by-play")
+            for pid, game in game_players:
+                player = players.setdefault(pid, {
+                    "nhl_player_id": pid, "name": game["name"],
+                    "team": game["team"], "position": game["position"], "games": [],
+                })
+                existing = next(
+                    (g for g in player["games"] if int(g["game_id"]) == game_id), None
+                )
+                if existing is None:
+                    player["games"].append(game)
+                else:
+                    # Prefer NHL Stats REST values; only fill fields it omitted.
+                    for key, value in game.items():
+                        if existing.get(key) is None:
+                            existing[key] = value
+            print(f"NHL gamecenter fallback: game {game_id}, "
+                  f"{len(game_players)} skaters, "
+                  f"REST had {len(found.get(game_id, set()))}")
+        except (requests.RequestException, RuntimeError, ValueError, KeyError, TypeError) as exc:
+            print(f"::warning::NHL gamecenter fallback unavailable for game {game_id}: {exc}")
+            # Leave it incomplete; daily_impact.py will flag the missing game.
+    return players
+
+
 def merge_history(previous: dict | None, fresh_players: dict[int, dict]) -> dict:
     merged: dict[int, dict] = {}
     previous_players = (previous or {}).get("players", {})
@@ -1018,8 +1167,15 @@ def run(*, dry_run: bool, strict: bool) -> int:
             for row in rows
             if row.get("gameDate")
         }
+        # Include recent local NHL dates even when aggregate Stats REST has zero
+        # rows for a completed late game (the exact failure we are fixing).
+        all_dates.update(
+            (date.today() - timedelta(days=days_back)).isoformat()
+            for days_back in range(4)
+        )
         states = fetch_game_states(client, all_dates)
         fresh_players = combine_reports(reports, states)
+        fresh_players = supplement_missing_final_games(client, states, fresh_players)
         history = merge_history(previous_history, fresh_players)
 
         team_map = standings_name_map(client)
