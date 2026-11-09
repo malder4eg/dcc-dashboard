@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-09 04:57 МСК",
+  "updated": "2026-11-09 09:13 МСК",
   "method": "Exact normalized full name with NHL/ESPN team and position validation; no surname-only fuzzy joins.",
   "mapped": [
     {
@@ -7674,6 +7674,19 @@
       "confidence": "HIGH"
     },
     {
+      "nhl_player_id": 8484287,
+      "espn_player_id": 5136696,
+      "name": "Cole McWard",
+      "nhl_team": "TOR",
+      "position": "D",
+      "espn_status": "FREEAGENT",
+      "espn_team_id": 0,
+      "espn_pro_team_id": 21,
+      "percent_owned": 0.04,
+      "method": "exact_normalized_full_name+team+position",
+      "confidence": "HIGH"
+    },
+    {
       "nhl_player_id": 8484304,
       "espn_player_id": 5142461,
       "name": "Uvis Balinskis",
@@ -9096,8 +9109,8 @@
     }
   ],
   "coverage": {
-    "mapped": 639,
+    "mapped": 640,
     "unmatched": 118,
-    "ratio": 0.8441
+    "ratio": 0.8443
   }
 }
