@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-09 19:07 МСК",
+  "updated": "2026-11-09 23:41 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "16:07:09 11/09/2026",
+  "report_updated": "20:41:12 11/09/2026",
   "complete": true,
   "team_count": 32,
   "active_count": 718,
-  "ir_count": 72,
+  "ir_count": 71,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -898,12 +898,6 @@
           "position": "D"
         },
         {
-          "sweater": 40,
-          "name": "ARVID SODERBLOM",
-          "name_key": "arvid soderblom",
-          "position": "G"
-        },
-        {
           "sweater": 44,
           "name": "WYATT KAISER",
           "name_key": "wyatt kaiser",
@@ -1045,6 +1039,12 @@
           "position": "G"
         },
         {
+          "sweater": 45,
+          "name": "ALEX GAGNE",
+          "name_key": "alex gagne",
+          "position": "D"
+        },
+        {
           "sweater": 47,
           "name": "NOAH JUULSEN",
           "name_key": "noah juulsen",
@@ -1098,7 +1098,8 @@
           "sweater": 42,
           "name": "JOSH MANSON",
           "name_key": "josh manson",
-          "position": "D"
+          "position": "D",
+          "ir_date": "2026-11-09"
         },
         {
           "sweater": 68,
@@ -1256,6 +1257,12 @@
     "DAL": {
       "name": "Dallas Stars",
       "active": [
+        {
+          "sweater": 1,
+          "name": "REMI POIRIER",
+          "name_key": "remi poirier",
+          "position": "G"
+        },
         {
           "sweater": 1,
           "name": "CASEY DESMITH",
@@ -3494,12 +3501,6 @@
           "position": "C"
         },
         {
-          "sweater": 18,
-          "name": "FILIP BYSTEDT",
-          "name_key": "filip bystedt",
-          "position": "C"
-        },
-        {
           "sweater": 23,
           "name": "BARCLAY GOODROW",
           "name_key": "barclay goodrow",
@@ -3791,12 +3792,6 @@
       "name": "St. Louis Blues",
       "active": [
         {
-          "sweater": 4,
-          "name": "THEO LINDSTEIN",
-          "name_key": "theo lindstein",
-          "position": "D"
-        },
-        {
           "sweater": 6,
           "name": "PHILIP BROBERG",
           "name_key": "philip broberg",
@@ -3839,6 +3834,12 @@
           "position": "C"
         },
         {
+          "sweater": 23,
+          "name": "LOGAN MAILLOUX",
+          "name_key": "logan mailloux",
+          "position": "D"
+        },
+        {
           "sweater": 25,
           "name": "BRANDON CARLO",
           "name_key": "brandon carlo",
@@ -3857,16 +3858,16 @@
           "position": "G"
         },
         {
-          "sweater": 36,
-          "name": "ADAM JIRICEK",
-          "name_key": "adam jiricek",
-          "position": "D"
-        },
-        {
           "sweater": 41,
           "name": "ALEKSANTERI KASKIMAKI",
           "name_key": "aleksanteri kaskimaki",
           "position": "C"
+        },
+        {
+          "sweater": 43,
+          "name": "CALLE ROSEN",
+          "name_key": "calle rosen",
+          "position": "D"
         },
         {
           "sweater": 49,
@@ -3924,13 +3925,6 @@
         }
       ],
       "ir": [
-        {
-          "sweater": 23,
-          "name": "LOGAN MAILLOUX",
-          "name_key": "logan mailloux",
-          "position": "D",
-          "ir_date": "2026-09-27"
-        },
         {
           "sweater": 65,
           "name": "DILLON DUBE",
@@ -4733,15 +4727,15 @@
       "name": "Washington Capitals",
       "active": [
         {
-          "sweater": 1,
-          "name": "REMI POIRIER",
-          "name_key": "remi poirier",
-          "position": "G"
-        },
-        {
           "sweater": 3,
           "name": "MATT ROY",
           "name_key": "matt roy",
+          "position": "D"
+        },
+        {
+          "sweater": 4,
+          "name": "JUSTIN HOLL",
+          "name_key": "justin holl",
           "position": "D"
         },
         {
@@ -5042,6 +5036,86 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_REMOVED:CHI:arvid soderblom:2026-11-09",
+      "type": "ACTIVE_REMOVED",
+      "team": "CHI",
+      "player": "Arvid Soderblom",
+      "player_key": "arvid soderblom",
+      "detected_at": "2026-11-09T20:41:12Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:COL:alex gagne:2026-11-09",
+      "type": "ACTIVE_ADDED",
+      "team": "COL",
+      "player": "Alex Gagne",
+      "player_key": "alex gagne",
+      "detected_at": "2026-11-09T20:41:12Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:DAL:remi poirier:2026-11-09",
+      "type": "ACTIVE_ADDED",
+      "team": "DAL",
+      "player": "Remi Poirier",
+      "player_key": "remi poirier",
+      "detected_at": "2026-11-09T20:41:12Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:SJS:filip bystedt:2026-11-09",
+      "type": "ACTIVE_REMOVED",
+      "team": "SJS",
+      "player": "Filip Bystedt",
+      "player_key": "filip bystedt",
+      "detected_at": "2026-11-09T20:41:12Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:STL:logan mailloux:2026-11-09",
+      "type": "RETURNED_FROM_IR",
+      "team": "STL",
+      "player": "Logan Mailloux",
+      "player_key": "logan mailloux",
+      "detected_at": "2026-11-09T20:41:12Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:STL:calle rosen:2026-11-09",
+      "type": "ACTIVE_ADDED",
+      "team": "STL",
+      "player": "Calle Rosen",
+      "player_key": "calle rosen",
+      "detected_at": "2026-11-09T20:41:12Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:STL:adam jiricek:2026-11-09",
+      "type": "ACTIVE_REMOVED",
+      "team": "STL",
+      "player": "Adam Jiricek",
+      "player_key": "adam jiricek",
+      "detected_at": "2026-11-09T20:41:12Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:STL:theo lindstein:2026-11-09",
+      "type": "ACTIVE_REMOVED",
+      "team": "STL",
+      "player": "Theo Lindstein",
+      "player_key": "theo lindstein",
+      "detected_at": "2026-11-09T20:41:12Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:WSH:justin holl:2026-11-09",
+      "type": "ACTIVE_ADDED",
+      "team": "WSH",
+      "player": "Justin Holl",
+      "player_key": "justin holl",
+      "detected_at": "2026-11-09T20:41:12Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:WSH:remi poirier:2026-11-09",
+      "type": "ACTIVE_REMOVED",
+      "team": "WSH",
+      "player": "Remi Poirier",
+      "player_key": "remi poirier",
+      "detected_at": "2026-11-09T20:41:12Z"
+    },
     {
       "id": "NEW_IR:CHI:patrick kane:2026-11-09",
       "type": "NEW_IR",
@@ -5657,54 +5731,6 @@
       "player": "Cooper Black",
       "player_key": "cooper black",
       "detected_at": "2026-11-02T21:29:02Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:ANA:nico myatovic:2026-11-02",
-      "type": "ACTIVE_ADDED",
-      "team": "ANA",
-      "player": "Nico Myatovic",
-      "player_key": "nico myatovic",
-      "detected_at": "2026-11-02T19:41:25Z"
-    },
-    {
-      "id": "NEW_IR:ANA:a j greer:2026-11-02",
-      "type": "NEW_IR",
-      "team": "ANA",
-      "player": "A.J. Greer",
-      "player_key": "a j greer",
-      "detected_at": "2026-11-02T18:38:58Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:FLA:jacob markstrom:2026-11-02",
-      "type": "RETURNED_FROM_IR",
-      "team": "FLA",
-      "player": "Jacob Markstrom",
-      "player_key": "jacob markstrom",
-      "detected_at": "2026-11-02T18:38:58Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:OTT:xavier bourgault:2026-11-02",
-      "type": "ACTIVE_REMOVED",
-      "team": "OTT",
-      "player": "Xavier Bourgault",
-      "player_key": "xavier bourgault",
-      "detected_at": "2026-11-02T18:38:58Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:COL:keaton middleton:2026-11-02",
-      "type": "ACTIVE_ADDED",
-      "team": "COL",
-      "player": "Keaton Middleton",
-      "player_key": "keaton middleton",
-      "detected_at": "2026-11-02T16:46:18Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:PHI:alex bump:2026-11-02",
-      "type": "ACTIVE_REMOVED",
-      "team": "PHI",
-      "player": "Alex Bump",
-      "player_key": "alex bump",
-      "detected_at": "2026-11-02T16:46:18Z"
     }
   ]
 }
