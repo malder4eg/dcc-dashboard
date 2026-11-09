@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-09 16:50 МСК",
+  "updated": "2026-11-09 19:07 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "13:50:43 11/09/2026",
+  "report_updated": "16:07:09 11/09/2026",
   "complete": true,
   "team_count": 32,
   "active_count": 718,
-  "ir_count": 70,
+  "ir_count": 72,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -880,6 +880,12 @@
           "position": "G"
         },
         {
+          "sweater": 33,
+          "name": "DREW COMMESSO",
+          "name_key": "drew commesso",
+          "position": "G"
+        },
+        {
           "sweater": 36,
           "name": "DILLON BOUCHER",
           "name_key": "dillon boucher",
@@ -934,12 +940,6 @@
           "position": "C"
         },
         {
-          "sweater": 88,
-          "name": "PATRICK KANE",
-          "name_key": "patrick kane",
-          "position": "R"
-        },
-        {
           "sweater": 91,
           "name": "FRANK NAZAR",
           "name_key": "frank nazar",
@@ -959,6 +959,13 @@
           "name_key": "bowen byram",
           "position": "D",
           "ir_date": "2026-11-03"
+        },
+        {
+          "sweater": 88,
+          "name": "PATRICK KANE",
+          "name_key": "patrick kane",
+          "position": "R",
+          "ir_date": "2026-11-08"
         }
       ]
     },
@@ -1038,12 +1045,6 @@
           "position": "G"
         },
         {
-          "sweater": 42,
-          "name": "JOSH MANSON",
-          "name_key": "josh manson",
-          "position": "D"
-        },
-        {
           "sweater": 47,
           "name": "NOAH JUULSEN",
           "name_key": "noah juulsen",
@@ -1093,6 +1094,12 @@
         }
       ],
       "ir": [
+        {
+          "sweater": 42,
+          "name": "JOSH MANSON",
+          "name_key": "josh manson",
+          "position": "D"
+        },
         {
           "sweater": 68,
           "name": "ZACHARY L'HEUREUX",
@@ -1332,12 +1339,6 @@
           "name": "ARTTU HYRY",
           "name_key": "arttu hyry",
           "position": "R"
-        },
-        {
-          "sweater": 27,
-          "name": "TREY TAYLOR",
-          "name_key": "trey taylor",
-          "position": "D"
         },
         {
           "sweater": 29,
@@ -2516,6 +2517,12 @@
           "name": "JOHNATHAN KOVACEVIC",
           "name_key": "johnathan kovacevic",
           "position": "D"
+        },
+        {
+          "sweater": 10,
+          "name": "RILEY TUFTE",
+          "name_key": "riley tufte",
+          "position": "L"
         },
         {
           "sweater": 12,
@@ -4279,6 +4286,12 @@
           "position": "R"
         },
         {
+          "sweater": 15,
+          "name": "ZAC JONES",
+          "name_key": "zac jones",
+          "position": "D"
+        },
+        {
           "sweater": 16,
           "name": "VINCENT TROCHECK",
           "name_key": "vincent trocheck",
@@ -5029,6 +5042,54 @@
     }
   },
   "events": [
+    {
+      "id": "NEW_IR:CHI:patrick kane:2026-11-09",
+      "type": "NEW_IR",
+      "team": "CHI",
+      "player": "Patrick Kane",
+      "player_key": "patrick kane",
+      "detected_at": "2026-11-09T16:07:09Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:CHI:drew commesso:2026-11-09",
+      "type": "ACTIVE_ADDED",
+      "team": "CHI",
+      "player": "Drew Commesso",
+      "player_key": "drew commesso",
+      "detected_at": "2026-11-09T16:07:09Z"
+    },
+    {
+      "id": "NEW_IR:COL:josh manson:2026-11-09",
+      "type": "NEW_IR",
+      "team": "COL",
+      "player": "Josh Manson",
+      "player_key": "josh manson",
+      "detected_at": "2026-11-09T16:07:09Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:DAL:trey taylor:2026-11-09",
+      "type": "ACTIVE_REMOVED",
+      "team": "DAL",
+      "player": "Trey Taylor",
+      "player_key": "trey taylor",
+      "detected_at": "2026-11-09T16:07:09Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:NJD:riley tufte:2026-11-09",
+      "type": "ACTIVE_ADDED",
+      "team": "NJD",
+      "player": "Riley Tufte",
+      "player_key": "riley tufte",
+      "detected_at": "2026-11-09T16:07:09Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:UTA:zac jones:2026-11-09",
+      "type": "ACTIVE_ADDED",
+      "team": "UTA",
+      "player": "Zac Jones",
+      "player_key": "zac jones",
+      "detected_at": "2026-11-09T16:07:09Z"
+    },
     {
       "id": "ACTIVE_ADDED:NYR:marc del gaizo:2026-11-08",
       "type": "ACTIVE_ADDED",
