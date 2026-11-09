@@ -29,6 +29,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # A delayed or manually retried run must always use the newest ESPN
+      # ownership and NHL collector code from main, not an older workflow SHA.
+      - name: Synchronize checkout with current main
+        run: |
+          git fetch origin main
+          git checkout -B main origin/main
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
