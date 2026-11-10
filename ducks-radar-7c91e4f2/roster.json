@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-10 17:48 МСК",
+  "updated": "2026-11-10 21:39 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "14:48:07 11/10/2026",
+  "report_updated": "18:39:53 11/10/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 719,
-  "ir_count": 71,
+  "active_count": 721,
+  "ir_count": 68,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -1436,6 +1436,12 @@
           "position": "C"
         },
         {
+          "sweater": 22,
+          "name": "MASON APPLETON",
+          "name_key": "mason appleton",
+          "position": "C"
+        },
+        {
           "sweater": 23,
           "name": "LUCAS RAYMOND",
           "name_key": "lucas raymond",
@@ -1526,6 +1532,12 @@
           "position": "G"
         },
         {
+          "sweater": 92,
+          "name": "MARCO KASPER",
+          "name_key": "marco kasper",
+          "position": "C"
+        },
+        {
           "sweater": 93,
           "name": "ALEX DEBRINCAT",
           "name_key": "alex debrincat",
@@ -1539,20 +1551,6 @@
           "name_key": "albert johansson",
           "position": "D",
           "ir_date": "2026-11-04"
-        },
-        {
-          "sweater": 22,
-          "name": "MASON APPLETON",
-          "name_key": "mason appleton",
-          "position": "C",
-          "ir_date": "2026-10-06"
-        },
-        {
-          "sweater": 92,
-          "name": "MARCO KASPER",
-          "name_key": "marco kasper",
-          "position": "C",
-          "ir_date": "2026-10-05"
         }
       ]
     },
@@ -3051,7 +3049,7 @@
           "position": "G"
         },
         {
-          "sweater": 31,
+          "sweater": 32,
           "name": "JACKSON PARSONS",
           "name_key": "jackson parsons",
           "position": "G"
@@ -3950,6 +3948,12 @@
       "name": "Tampa Bay Lightning",
       "active": [
         {
+          "sweater": 23,
+          "name": "SAM O'REILLY",
+          "name_key": "sam o reilly",
+          "position": "R"
+        },
+        {
           "sweater": 24,
           "name": "MAX CROZIER",
           "name_key": "max crozier",
@@ -4087,7 +4091,8 @@
           "sweater": 21,
           "name": "BRAYDEN POINT",
           "name_key": "brayden point",
-          "position": "C"
+          "position": "C",
+          "ir_date": "2026-11-10"
         }
       ]
     },
@@ -4554,12 +4559,6 @@
           "position": "R"
         },
         {
-          "sweater": 90,
-          "name": "VICTOR MANCINI",
-          "name_key": "victor mancini",
-          "position": "D"
-        },
-        {
           "sweater": 92,
           "name": "LIAM OHGREN",
           "name_key": "liam ohgren",
@@ -4897,12 +4896,6 @@
           "position": "D"
         },
         {
-          "sweater": 8,
-          "name": "HENRY THRUN",
-          "name_key": "henry thrun",
-          "position": "D"
-        },
-        {
           "sweater": 9,
           "name": "ALEX IAFALLO",
           "name_key": "alex iafallo",
@@ -4969,6 +4962,12 @@
           "position": "D"
         },
         {
+          "sweater": 44,
+          "name": "JOSH MORRISSEY",
+          "name_key": "josh morrissey",
+          "position": "D"
+        },
+        {
           "sweater": 45,
           "name": "COLE KOEPKE",
           "name_key": "cole koepke",
@@ -5030,18 +5029,59 @@
           "name_key": "vladislav namestnikov",
           "position": "C",
           "ir_date": "2026-10-23"
-        },
-        {
-          "sweater": 44,
-          "name": "JOSH MORRISSEY",
-          "name_key": "josh morrissey",
-          "position": "D",
-          "ir_date": "2026-10-19"
         }
       ]
     }
   },
   "events": [
+    {
+      "id": "RETURNED_FROM_IR:DET:marco kasper:2026-11-10",
+      "type": "RETURNED_FROM_IR",
+      "team": "DET",
+      "player": "Marco Kasper",
+      "player_key": "marco kasper",
+      "detected_at": "2026-11-10T18:39:53Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:DET:mason appleton:2026-11-10",
+      "type": "RETURNED_FROM_IR",
+      "team": "DET",
+      "player": "Mason Appleton",
+      "player_key": "mason appleton",
+      "detected_at": "2026-11-10T18:39:53Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:TBL:sam o reilly:2026-11-10",
+      "type": "ACTIVE_ADDED",
+      "team": "TBL",
+      "player": "Sam O Reilly",
+      "player_key": "sam o reilly",
+      "detected_at": "2026-11-10T18:39:53Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:VAN:victor mancini:2026-11-10",
+      "type": "ACTIVE_REMOVED",
+      "team": "VAN",
+      "player": "Victor Mancini",
+      "player_key": "victor mancini",
+      "detected_at": "2026-11-10T18:39:53Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:WPG:josh morrissey:2026-11-10",
+      "type": "RETURNED_FROM_IR",
+      "team": "WPG",
+      "player": "Josh Morrissey",
+      "player_key": "josh morrissey",
+      "detected_at": "2026-11-10T18:39:53Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:WPG:henry thrun:2026-11-10",
+      "type": "ACTIVE_REMOVED",
+      "team": "WPG",
+      "player": "Henry Thrun",
+      "player_key": "henry thrun",
+      "detected_at": "2026-11-10T18:39:53Z"
+    },
     {
       "id": "ACTIVE_ADDED:OTT:jackson parsons:2026-11-10",
       "type": "ACTIVE_ADDED",
@@ -5697,78 +5737,6 @@
       "player": "Bo Groulx",
       "player_key": "bo groulx",
       "detected_at": "2026-11-03T19:37:20Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:CHI:dillon boucher:2026-11-03",
-      "type": "ACTIVE_ADDED",
-      "team": "CHI",
-      "player": "Dillon Boucher",
-      "player_key": "dillon boucher",
-      "detected_at": "2026-11-03T18:30:13Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:LAK:kenny connors:2026-11-03",
-      "type": "ACTIVE_ADDED",
-      "team": "LAK",
-      "player": "Kenny Connors",
-      "player_key": "kenny connors",
-      "detected_at": "2026-11-03T18:30:13Z"
-    },
-    {
-      "id": "NEW_IR:CHI:bowen byram:2026-11-03",
-      "type": "NEW_IR",
-      "team": "CHI",
-      "player": "Bowen Byram",
-      "player_key": "bowen byram",
-      "detected_at": "2026-11-03T16:37:47Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:DAL:trey taylor:2026-11-03",
-      "type": "ACTIVE_ADDED",
-      "team": "DAL",
-      "player": "Trey Taylor",
-      "player_key": "trey taylor",
-      "detected_at": "2026-11-03T15:30:39Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:LAK:taylor ward:2026-11-03",
-      "type": "ACTIVE_REMOVED",
-      "team": "LAK",
-      "player": "Taylor Ward",
-      "player_key": "taylor ward",
-      "detected_at": "2026-11-03T15:30:39Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:NYR:jaroslav chmelar:2026-11-03",
-      "type": "ACTIVE_ADDED",
-      "team": "NYR",
-      "player": "Jaroslav Chmelar",
-      "player_key": "jaroslav chmelar",
-      "detected_at": "2026-11-03T15:30:39Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:NYR:taylor raddysh:2026-11-03",
-      "type": "ACTIVE_REMOVED",
-      "team": "NYR",
-      "player": "Taylor Raddysh",
-      "player_key": "taylor raddysh",
-      "detected_at": "2026-11-03T15:30:39Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:OTT:samuel blais:2026-11-03",
-      "type": "ACTIVE_ADDED",
-      "team": "OTT",
-      "player": "Samuel Blais",
-      "player_key": "samuel blais",
-      "detected_at": "2026-11-03T15:30:39Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:PIT:jake livanavage:2026-11-03",
-      "type": "ACTIVE_ADDED",
-      "team": "PIT",
-      "player": "Jake Livanavage",
-      "player_key": "jake livanavage",
-      "detected_at": "2026-11-03T15:30:39Z"
     }
   ]
 }
