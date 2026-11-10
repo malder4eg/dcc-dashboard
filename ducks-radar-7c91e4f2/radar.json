@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-10 14:04 МСК",
-  "generated_at": "2026-11-10T11:04:33Z",
+  "updated": "2026-11-10 17:48 МСК",
+  "generated_at": "2026-11-10T14:48:07Z",
   "source": {
     "nhl_stats": "https://api.nhle.com/stats/rest/en/",
     "nhl_game_status": "https://api-web.nhle.com/v1/",
@@ -557,6 +557,14 @@
       "recent_games": 2,
       "role_outlook": "Повышенный TOI держится минимум два завершённых матча подряд.",
       "team_context": [
+        {
+          "id": "ACTIVE_ADDED:OTT:jackson parsons:2026-11-10",
+          "type": "ACTIVE_ADDED",
+          "team": "OTT",
+          "player": "Jackson Parsons",
+          "player_key": "jackson parsons",
+          "detected_at": "2026-11-10T14:48:07Z"
+        },
         {
           "id": "RETURNED_FROM_IR:OTT:linus ullmark:2026-11-08",
           "type": "RETURNED_FROM_IR",
@@ -1463,6 +1471,14 @@
       "role_outlook": "Повышенный TOI держится минимум два завершённых матча подряд.",
       "team_context": [
         {
+          "id": "NEW_IR:TBL:brayden point:2026-11-10",
+          "type": "NEW_IR",
+          "team": "TBL",
+          "player": "Brayden Point",
+          "player_key": "brayden point",
+          "detected_at": "2026-11-10T14:48:07Z"
+        },
+        {
           "id": "ACTIVE_ADDED:TBL:yanni gourde:2026-11-08",
           "type": "ACTIVE_ADDED",
           "team": "TBL",
@@ -1603,6 +1619,14 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "NEW_IR:TBL:brayden point:2026-11-10",
+          "type": "NEW_IR",
+          "team": "TBL",
+          "player": "Brayden Point",
+          "player_key": "brayden point",
+          "detected_at": "2026-11-10T14:48:07Z"
+        },
         {
           "id": "ACTIVE_ADDED:TBL:yanni gourde:2026-11-08",
           "type": "ACTIVE_ADDED",
@@ -1854,9 +1878,9 @@
         },
         "sog": {
           "baseline": 2.0,
-          "recent": 3.5,
-          "delta": 1.5,
-          "ratio": 1.75
+          "recent": 4.0,
+          "delta": 2.0,
+          "ratio": 2.0
         },
         "hit": {
           "baseline": 3.2,
@@ -2219,6 +2243,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:TOR:ryan tverberg:2026-11-10",
+          "type": "ACTIVE_ADDED",
+          "team": "TOR",
+          "player": "Ryan Tverberg",
+          "player_key": "ryan tverberg",
+          "detected_at": "2026-11-10T14:48:07Z"
+        },
+        {
           "id": "ACTIVE_REMOVED:TOR:vinni lettieri:2026-11-10",
           "type": "ACTIVE_REMOVED",
           "team": "TOR",
@@ -2257,14 +2289,6 @@
           "player": "Artur Akhtyamov",
           "player_key": "artur akhtyamov",
           "detected_at": "2026-11-07T16:37:30Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:TOR:bo groulx:2026-11-03",
-          "type": "ACTIVE_REMOVED",
-          "team": "TOR",
-          "player": "Bo Groulx",
-          "player_key": "bo groulx",
-          "detected_at": "2026-11-03T19:37:20Z"
         }
       ],
       "latest_final_game_date": "2026-11-08",
@@ -2698,6 +2722,14 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "NEW_IR:TBL:brayden point:2026-11-10",
+          "type": "NEW_IR",
+          "team": "TBL",
+          "player": "Brayden Point",
+          "player_key": "brayden point",
+          "detected_at": "2026-11-10T14:48:07Z"
+        },
         {
           "id": "ACTIVE_ADDED:TBL:yanni gourde:2026-11-08",
           "type": "ACTIVE_ADDED",
@@ -4192,6 +4224,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:TOR:ryan tverberg:2026-11-10",
+          "type": "ACTIVE_ADDED",
+          "team": "TOR",
+          "player": "Ryan Tverberg",
+          "player_key": "ryan tverberg",
+          "detected_at": "2026-11-10T14:48:07Z"
+        },
+        {
           "id": "ACTIVE_REMOVED:TOR:vinni lettieri:2026-11-10",
           "type": "ACTIVE_REMOVED",
           "team": "TOR",
@@ -4230,14 +4270,6 @@
           "player": "Artur Akhtyamov",
           "player_key": "artur akhtyamov",
           "detected_at": "2026-11-07T16:37:30Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:TOR:bo groulx:2026-11-03",
-          "type": "ACTIVE_REMOVED",
-          "team": "TOR",
-          "player": "Bo Groulx",
-          "player_key": "bo groulx",
-          "detected_at": "2026-11-03T19:37:20Z"
         }
       ],
       "latest_final_game_date": "2026-11-08",
@@ -7330,6 +7362,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "NEW_IR:TBL:brayden point:2026-11-10",
+          "type": "NEW_IR",
+          "team": "TBL",
+          "player": "Brayden Point",
+          "player_key": "brayden point",
+          "detected_at": "2026-11-10T14:48:07Z"
+        },
+        {
           "id": "ACTIVE_ADDED:TBL:yanni gourde:2026-11-08",
           "type": "ACTIVE_ADDED",
           "team": "TBL",
@@ -7877,6 +7917,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:TOR:ryan tverberg:2026-11-10",
+          "type": "ACTIVE_ADDED",
+          "team": "TOR",
+          "player": "Ryan Tverberg",
+          "player_key": "ryan tverberg",
+          "detected_at": "2026-11-10T14:48:07Z"
+        },
+        {
           "id": "ACTIVE_REMOVED:TOR:vinni lettieri:2026-11-10",
           "type": "ACTIVE_REMOVED",
           "team": "TOR",
@@ -7915,14 +7963,6 @@
           "player": "Artur Akhtyamov",
           "player_key": "artur akhtyamov",
           "detected_at": "2026-11-07T16:37:30Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:TOR:bo groulx:2026-11-03",
-          "type": "ACTIVE_REMOVED",
-          "team": "TOR",
-          "player": "Bo Groulx",
-          "player_key": "bo groulx",
-          "detected_at": "2026-11-03T19:37:20Z"
         }
       ],
       "latest_final_game_date": "2026-11-07",
@@ -8580,6 +8620,14 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "ACTIVE_ADDED:OTT:jackson parsons:2026-11-10",
+          "type": "ACTIVE_ADDED",
+          "team": "OTT",
+          "player": "Jackson Parsons",
+          "player_key": "jackson parsons",
+          "detected_at": "2026-11-10T14:48:07Z"
+        },
         {
           "id": "RETURNED_FROM_IR:OTT:linus ullmark:2026-11-08",
           "type": "RETURNED_FROM_IR",
@@ -11788,6 +11836,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "NEW_IR:TBL:brayden point:2026-11-10",
+          "type": "NEW_IR",
+          "team": "TBL",
+          "player": "Brayden Point",
+          "player_key": "brayden point",
+          "detected_at": "2026-11-10T14:48:07Z"
+        },
+        {
           "id": "ACTIVE_ADDED:TBL:yanni gourde:2026-11-08",
           "type": "ACTIVE_ADDED",
           "team": "TBL",
@@ -12830,6 +12886,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:TOR:ryan tverberg:2026-11-10",
+          "type": "ACTIVE_ADDED",
+          "team": "TOR",
+          "player": "Ryan Tverberg",
+          "player_key": "ryan tverberg",
+          "detected_at": "2026-11-10T14:48:07Z"
+        },
+        {
           "id": "ACTIVE_REMOVED:TOR:vinni lettieri:2026-11-10",
           "type": "ACTIVE_REMOVED",
           "team": "TOR",
@@ -12868,14 +12932,6 @@
           "player": "Artur Akhtyamov",
           "player_key": "artur akhtyamov",
           "detected_at": "2026-11-07T16:37:30Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:TOR:bo groulx:2026-11-03",
-          "type": "ACTIVE_REMOVED",
-          "team": "TOR",
-          "player": "Bo Groulx",
-          "player_key": "bo groulx",
-          "detected_at": "2026-11-03T19:37:20Z"
         }
       ],
       "latest_final_game_date": "2026-11-08",
@@ -13105,6 +13161,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:TOR:ryan tverberg:2026-11-10",
+          "type": "ACTIVE_ADDED",
+          "team": "TOR",
+          "player": "Ryan Tverberg",
+          "player_key": "ryan tverberg",
+          "detected_at": "2026-11-10T14:48:07Z"
+        },
+        {
           "id": "ACTIVE_REMOVED:TOR:vinni lettieri:2026-11-10",
           "type": "ACTIVE_REMOVED",
           "team": "TOR",
@@ -13143,14 +13207,6 @@
           "player": "Artur Akhtyamov",
           "player_key": "artur akhtyamov",
           "detected_at": "2026-11-07T16:37:30Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:TOR:bo groulx:2026-11-03",
-          "type": "ACTIVE_REMOVED",
-          "team": "TOR",
-          "player": "Bo Groulx",
-          "player_key": "bo groulx",
-          "detected_at": "2026-11-03T19:37:20Z"
         }
       ],
       "latest_final_game_date": "2026-11-07",
@@ -21461,6 +21517,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "NEW_IR:TBL:brayden point:2026-11-10",
+          "type": "NEW_IR",
+          "team": "TBL",
+          "player": "Brayden Point",
+          "player_key": "brayden point",
+          "detected_at": "2026-11-10T14:48:07Z"
+        },
+        {
           "id": "ACTIVE_ADDED:TBL:yanni gourde:2026-11-08",
           "type": "ACTIVE_ADDED",
           "team": "TBL",
@@ -24136,6 +24200,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "NEW_IR:TBL:brayden point:2026-11-10",
+          "type": "NEW_IR",
+          "team": "TBL",
+          "player": "Brayden Point",
+          "player_key": "brayden point",
+          "detected_at": "2026-11-10T14:48:07Z"
+        },
+        {
           "id": "ACTIVE_ADDED:TBL:yanni gourde:2026-11-08",
           "type": "ACTIVE_ADDED",
           "team": "TBL",
@@ -25585,6 +25657,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "NEW_IR:TBL:brayden point:2026-11-10",
+          "type": "NEW_IR",
+          "team": "TBL",
+          "player": "Brayden Point",
+          "player_key": "brayden point",
+          "detected_at": "2026-11-10T14:48:07Z"
+        },
+        {
           "id": "ACTIVE_ADDED:TBL:yanni gourde:2026-11-08",
           "type": "ACTIVE_ADDED",
           "team": "TBL",
@@ -26435,6 +26515,14 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "ACTIVE_ADDED:OTT:jackson parsons:2026-11-10",
+          "type": "ACTIVE_ADDED",
+          "team": "OTT",
+          "player": "Jackson Parsons",
+          "player_key": "jackson parsons",
+          "detected_at": "2026-11-10T14:48:07Z"
+        },
         {
           "id": "RETURNED_FROM_IR:OTT:linus ullmark:2026-11-08",
           "type": "RETURNED_FROM_IR",
@@ -29918,6 +30006,14 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "ACTIVE_ADDED:OTT:jackson parsons:2026-11-10",
+          "type": "ACTIVE_ADDED",
+          "team": "OTT",
+          "player": "Jackson Parsons",
+          "player_key": "jackson parsons",
+          "detected_at": "2026-11-10T14:48:07Z"
+        },
         {
           "id": "RETURNED_FROM_IR:OTT:linus ullmark:2026-11-08",
           "type": "RETURNED_FROM_IR",
@@ -34616,6 +34712,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:OTT:jackson parsons:2026-11-10",
+          "type": "ACTIVE_ADDED",
+          "team": "OTT",
+          "player": "Jackson Parsons",
+          "player_key": "jackson parsons",
+          "detected_at": "2026-11-10T14:48:07Z"
+        },
+        {
           "id": "RETURNED_FROM_IR:OTT:linus ullmark:2026-11-08",
           "type": "RETURNED_FROM_IR",
           "team": "OTT",
@@ -36087,6 +36191,14 @@
       "role_outlook": "Сигнал пока основан на одном завершённом матче; нужна повторная проверка.",
       "team_context": [
         {
+          "id": "NEW_IR:TBL:brayden point:2026-11-10",
+          "type": "NEW_IR",
+          "team": "TBL",
+          "player": "Brayden Point",
+          "player_key": "brayden point",
+          "detected_at": "2026-11-10T14:48:07Z"
+        },
+        {
           "id": "ACTIVE_ADDED:TBL:yanni gourde:2026-11-08",
           "type": "ACTIVE_ADDED",
           "team": "TBL",
@@ -36349,6 +36461,14 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "ACTIVE_ADDED:OTT:jackson parsons:2026-11-10",
+          "type": "ACTIVE_ADDED",
+          "team": "OTT",
+          "player": "Jackson Parsons",
+          "player_key": "jackson parsons",
+          "detected_at": "2026-11-10T14:48:07Z"
+        },
         {
           "id": "RETURNED_FROM_IR:OTT:linus ullmark:2026-11-08",
           "type": "RETURNED_FROM_IR",
@@ -37227,6 +37347,14 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "ACTIVE_ADDED:OTT:jackson parsons:2026-11-10",
+          "type": "ACTIVE_ADDED",
+          "team": "OTT",
+          "player": "Jackson Parsons",
+          "player_key": "jackson parsons",
+          "detected_at": "2026-11-10T14:48:07Z"
+        },
         {
           "id": "RETURNED_FROM_IR:OTT:linus ullmark:2026-11-08",
           "type": "RETURNED_FROM_IR",
@@ -39373,6 +39501,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:OTT:jackson parsons:2026-11-10",
+          "type": "ACTIVE_ADDED",
+          "team": "OTT",
+          "player": "Jackson Parsons",
+          "player_key": "jackson parsons",
+          "detected_at": "2026-11-10T14:48:07Z"
+        },
+        {
           "id": "RETURNED_FROM_IR:OTT:linus ullmark:2026-11-08",
           "type": "RETURNED_FROM_IR",
           "team": "OTT",
@@ -39958,6 +40094,14 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "ACTIVE_ADDED:OTT:jackson parsons:2026-11-10",
+          "type": "ACTIVE_ADDED",
+          "team": "OTT",
+          "player": "Jackson Parsons",
+          "player_key": "jackson parsons",
+          "detected_at": "2026-11-10T14:48:07Z"
+        },
         {
           "id": "RETURNED_FROM_IR:OTT:linus ullmark:2026-11-08",
           "type": "RETURNED_FROM_IR",
@@ -41272,6 +41416,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:OTT:jackson parsons:2026-11-10",
+          "type": "ACTIVE_ADDED",
+          "team": "OTT",
+          "player": "Jackson Parsons",
+          "player_key": "jackson parsons",
+          "detected_at": "2026-11-10T14:48:07Z"
+        },
+        {
           "id": "RETURNED_FROM_IR:OTT:linus ullmark:2026-11-08",
           "type": "RETURNED_FROM_IR",
           "team": "OTT",
@@ -41553,7 +41705,7 @@
       "espn_status": "UNMATCHED",
       "espn_team_id": null,
       "percent_owned": null,
-      "nhl_roster_status": "ACTIVE",
+      "nhl_roster_status": "IR",
       "score": 6,
       "reliability": "HIGH",
       "recommendation": "WATCH",
@@ -41648,6 +41800,14 @@
       "recent_games": 2,
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
+        {
+          "id": "NEW_IR:TBL:brayden point:2026-11-10",
+          "type": "NEW_IR",
+          "team": "TBL",
+          "player": "Brayden Point",
+          "player_key": "brayden point",
+          "detected_at": "2026-11-10T14:48:07Z"
+        },
         {
           "id": "ACTIVE_ADDED:TBL:yanni gourde:2026-11-08",
           "type": "ACTIVE_ADDED",
@@ -43719,6 +43879,14 @@
       "role_outlook": "Сигнал пока основан на одном завершённом матче; нужна повторная проверка.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:OTT:jackson parsons:2026-11-10",
+          "type": "ACTIVE_ADDED",
+          "team": "OTT",
+          "player": "Jackson Parsons",
+          "player_key": "jackson parsons",
+          "detected_at": "2026-11-10T14:48:07Z"
+        },
+        {
           "id": "RETURNED_FROM_IR:OTT:linus ullmark:2026-11-08",
           "type": "RETURNED_FROM_IR",
           "team": "OTT",
@@ -44251,6 +44419,14 @@
       "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
       "team_context": [
         {
+          "id": "ACTIVE_ADDED:OTT:jackson parsons:2026-11-10",
+          "type": "ACTIVE_ADDED",
+          "team": "OTT",
+          "player": "Jackson Parsons",
+          "player_key": "jackson parsons",
+          "detected_at": "2026-11-10T14:48:07Z"
+        },
+        {
           "id": "RETURNED_FROM_IR:OTT:linus ullmark:2026-11-08",
           "type": "RETURNED_FROM_IR",
           "team": "OTT",
@@ -44761,6 +44937,30 @@
   ],
   "recent_roster_events": [
     {
+      "id": "ACTIVE_ADDED:OTT:jackson parsons:2026-11-10",
+      "type": "ACTIVE_ADDED",
+      "team": "OTT",
+      "player": "Jackson Parsons",
+      "player_key": "jackson parsons",
+      "detected_at": "2026-11-10T14:48:07Z"
+    },
+    {
+      "id": "NEW_IR:TBL:brayden point:2026-11-10",
+      "type": "NEW_IR",
+      "team": "TBL",
+      "player": "Brayden Point",
+      "player_key": "brayden point",
+      "detected_at": "2026-11-10T14:48:07Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:TOR:ryan tverberg:2026-11-10",
+      "type": "ACTIVE_ADDED",
+      "team": "TOR",
+      "player": "Ryan Tverberg",
+      "player_key": "ryan tverberg",
+      "detected_at": "2026-11-10T14:48:07Z"
+    },
+    {
       "id": "RETURNED_FROM_IR:SJS:alexander wennberg:2026-11-10",
       "type": "RETURNED_FROM_IR",
       "team": "SJS",
@@ -45135,30 +45335,6 @@
       "player": "Artur Akhtyamov",
       "player_key": "artur akhtyamov",
       "detected_at": "2026-11-07T16:37:30Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:UTA:gregor biber:2026-11-07",
-      "type": "ACTIVE_ADDED",
-      "team": "UTA",
-      "player": "Gregor Biber",
-      "player_key": "gregor biber",
-      "detected_at": "2026-11-07T16:37:30Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:NYR:james reimer:2026-11-06",
-      "type": "ACTIVE_REMOVED",
-      "team": "NYR",
-      "player": "James Reimer",
-      "player_key": "james reimer",
-      "detected_at": "2026-11-06T23:30:25Z"
-    },
-    {
-      "id": "NEW_IR:UTA:kailer yamamoto:2026-11-06",
-      "type": "NEW_IR",
-      "team": "UTA",
-      "player": "Kailer Yamamoto",
-      "player_key": "kailer yamamoto",
-      "detected_at": "2026-11-06T23:30:25Z"
     }
   ]
 }

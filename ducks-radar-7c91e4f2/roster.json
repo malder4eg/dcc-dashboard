@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-10 16:26 МСК",
+  "updated": "2026-11-10 17:48 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "13:26:04 11/10/2026",
+  "report_updated": "14:48:07 11/10/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 718,
-  "ir_count": 70,
+  "active_count": 719,
+  "ir_count": 71,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -1259,14 +1259,14 @@
       "active": [
         {
           "sweater": 1,
-          "name": "CASEY DESMITH",
-          "name_key": "casey desmith",
+          "name": "REMI POIRIER",
+          "name_key": "remi poirier",
           "position": "G"
         },
         {
           "sweater": 1,
-          "name": "REMI POIRIER",
-          "name_key": "remi poirier",
+          "name": "CASEY DESMITH",
+          "name_key": "casey desmith",
           "position": "G"
         },
         {
@@ -3051,6 +3051,12 @@
           "position": "G"
         },
         {
+          "sweater": 31,
+          "name": "JACKSON PARSONS",
+          "name_key": "jackson parsons",
+          "position": "G"
+        },
+        {
           "sweater": 33,
           "name": "NIKOLAS MATINPALO",
           "name_key": "nikolas matinpalo",
@@ -3944,12 +3950,6 @@
       "name": "Tampa Bay Lightning",
       "active": [
         {
-          "sweater": 21,
-          "name": "BRAYDEN POINT",
-          "name_key": "brayden point",
-          "position": "C"
-        },
-        {
           "sweater": 24,
           "name": "MAX CROZIER",
           "name_key": "max crozier",
@@ -4082,7 +4082,14 @@
           "position": "R"
         }
       ],
-      "ir": []
+      "ir": [
+        {
+          "sweater": 21,
+          "name": "BRAYDEN POINT",
+          "name_key": "brayden point",
+          "position": "C"
+        }
+      ]
     },
     "TOR": {
       "name": "Toronto Maple Leafs",
@@ -4175,6 +4182,12 @@
           "sweater": 73,
           "name": "TEDDY BLUEGER",
           "name_key": "teddy blueger",
+          "position": "C"
+        },
+        {
+          "sweater": 77,
+          "name": "RYAN TVERBERG",
+          "name_key": "ryan tverberg",
           "position": "C"
         },
         {
@@ -5029,6 +5042,30 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_ADDED:OTT:jackson parsons:2026-11-10",
+      "type": "ACTIVE_ADDED",
+      "team": "OTT",
+      "player": "Jackson Parsons",
+      "player_key": "jackson parsons",
+      "detected_at": "2026-11-10T14:48:07Z"
+    },
+    {
+      "id": "NEW_IR:TBL:brayden point:2026-11-10",
+      "type": "NEW_IR",
+      "team": "TBL",
+      "player": "Brayden Point",
+      "player_key": "brayden point",
+      "detected_at": "2026-11-10T14:48:07Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:TOR:ryan tverberg:2026-11-10",
+      "type": "ACTIVE_ADDED",
+      "team": "TOR",
+      "player": "Ryan Tverberg",
+      "player_key": "ryan tverberg",
+      "detected_at": "2026-11-10T14:48:07Z"
+    },
     {
       "id": "RETURNED_FROM_IR:SJS:alexander wennberg:2026-11-10",
       "type": "RETURNED_FROM_IR",
