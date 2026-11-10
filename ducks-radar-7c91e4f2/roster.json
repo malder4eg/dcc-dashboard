@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-10 21:39 МСК",
+  "updated": "2026-11-11 02:43 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "18:39:53 11/10/2026",
+  "report_updated": "23:43:51 11/10/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 721,
-  "ir_count": 68,
+  "active_count": 722,
+  "ir_count": 67,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -1961,6 +1961,12 @@
           "position": "G"
         },
         {
+          "sweater": 36,
+          "name": "MATS ZUCCARELLO",
+          "name_key": "mats zuccarello",
+          "position": "R"
+        },
+        {
           "sweater": 40,
           "name": "JOEL ARMIA",
           "name_key": "joel armia",
@@ -2022,13 +2028,6 @@
           "name_key": "kevin fiala",
           "position": "L",
           "ir_date": "2026-02-17"
-        },
-        {
-          "sweater": 36,
-          "name": "MATS ZUCCARELLO",
-          "name_key": "mats zuccarello",
-          "position": "R",
-          "ir_date": "2026-10-26"
         }
       ]
     },
@@ -2039,12 +2038,6 @@
           "sweater": 3,
           "name": "OLLI MAATTA",
           "name_key": "olli maatta",
-          "position": "D"
-        },
-        {
-          "sweater": 5,
-          "name": "CAMERON CROTTY",
-          "name_key": "cameron crotty",
           "position": "D"
         },
         {
@@ -2076,12 +2069,6 @@
           "name": "MARCUS FOLIGNO",
           "name_key": "marcus foligno",
           "position": "L"
-        },
-        {
-          "sweater": 19,
-          "name": "TYLER PITLICK",
-          "name_key": "tyler pitlick",
-          "position": "C"
         },
         {
           "sweater": 20,
@@ -2138,6 +2125,12 @@
           "position": "D"
         },
         {
+          "sweater": 46,
+          "name": "JARED SPURGEON",
+          "name_key": "jared spurgeon",
+          "position": "D"
+        },
+        {
           "sweater": 47,
           "name": "MICHAEL MCCARRON",
           "name_key": "michael mccarron",
@@ -2181,13 +2174,6 @@
           "name_key": "brock faber",
           "position": "D",
           "ir_date": "2026-09-28"
-        },
-        {
-          "sweater": 46,
-          "name": "JARED SPURGEON",
-          "name_key": "jared spurgeon",
-          "position": "D",
-          "ir_date": "2026-10-29"
         }
       ]
     },
@@ -2816,16 +2802,16 @@
           "position": "C"
         },
         {
-          "sweater": 12,
-          "name": "ALBERTS SMITS",
-          "name_key": "alberts smits",
-          "position": "D"
-        },
-        {
           "sweater": 13,
           "name": "ALEXIS LAFRENIÈRE",
           "name_key": "alexis lafreniere",
           "position": "L"
+        },
+        {
+          "sweater": 15,
+          "name": "GLENN GAWDIN",
+          "name_key": "glenn gawdin",
+          "position": "C"
         },
         {
           "sweater": 16,
@@ -2949,6 +2935,13 @@
           "name_key": "sean durzi",
           "position": "D",
           "ir_date": "2026-11-05"
+        },
+        {
+          "sweater": 12,
+          "name": "ALBERTS SMITS",
+          "name_key": "alberts smits",
+          "position": "D",
+          "ir_date": "2026-11-10"
         },
         {
           "sweater": 31,
@@ -4529,6 +4522,12 @@
           "position": "L"
         },
         {
+          "sweater": 51,
+          "name": "CAMERON CROTTY",
+          "name_key": "cameron crotty",
+          "position": "D"
+        },
+        {
           "sweater": 55,
           "name": "GUILLAUME BRISEBOIS",
           "name_key": "guillaume brisebois",
@@ -5034,6 +5033,62 @@
     }
   },
   "events": [
+    {
+      "id": "RETURNED_FROM_IR:LAK:mats zuccarello:2026-11-10",
+      "type": "RETURNED_FROM_IR",
+      "team": "LAK",
+      "player": "Mats Zuccarello",
+      "player_key": "mats zuccarello",
+      "detected_at": "2026-11-10T23:43:51Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:MIN:jared spurgeon:2026-11-10",
+      "type": "RETURNED_FROM_IR",
+      "team": "MIN",
+      "player": "Jared Spurgeon",
+      "player_key": "jared spurgeon",
+      "detected_at": "2026-11-10T23:43:51Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:MIN:cameron crotty:2026-11-10",
+      "type": "ACTIVE_REMOVED",
+      "team": "MIN",
+      "player": "Cameron Crotty",
+      "player_key": "cameron crotty",
+      "detected_at": "2026-11-10T23:43:51Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:MIN:tyler pitlick:2026-11-10",
+      "type": "ACTIVE_REMOVED",
+      "team": "MIN",
+      "player": "Tyler Pitlick",
+      "player_key": "tyler pitlick",
+      "detected_at": "2026-11-10T23:43:51Z"
+    },
+    {
+      "id": "NEW_IR:NYR:alberts smits:2026-11-10",
+      "type": "NEW_IR",
+      "team": "NYR",
+      "player": "Alberts Smits",
+      "player_key": "alberts smits",
+      "detected_at": "2026-11-10T23:43:51Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:NYR:glenn gawdin:2026-11-10",
+      "type": "ACTIVE_ADDED",
+      "team": "NYR",
+      "player": "Glenn Gawdin",
+      "player_key": "glenn gawdin",
+      "detected_at": "2026-11-10T23:43:51Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:VAN:cameron crotty:2026-11-10",
+      "type": "ACTIVE_ADDED",
+      "team": "VAN",
+      "player": "Cameron Crotty",
+      "player_key": "cameron crotty",
+      "detected_at": "2026-11-10T23:43:51Z"
+    },
     {
       "id": "RETURNED_FROM_IR:DET:marco kasper:2026-11-10",
       "type": "RETURNED_FROM_IR",
@@ -5713,30 +5768,6 @@
       "player": "Curtis Douglas",
       "player_key": "curtis douglas",
       "detected_at": "2026-11-04T15:40:34Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:SJS:eric pohlkamp:2026-11-03",
-      "type": "ACTIVE_ADDED",
-      "team": "SJS",
-      "player": "Eric Pohlkamp",
-      "player_key": "eric pohlkamp",
-      "detected_at": "2026-11-03T21:27:49Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:STL:ross johnston:2026-11-03",
-      "type": "RETURNED_FROM_IR",
-      "team": "STL",
-      "player": "Ross Johnston",
-      "player_key": "ross johnston",
-      "detected_at": "2026-11-03T19:37:20Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:TOR:bo groulx:2026-11-03",
-      "type": "ACTIVE_REMOVED",
-      "team": "TOR",
-      "player": "Bo Groulx",
-      "player_key": "bo groulx",
-      "detected_at": "2026-11-03T19:37:20Z"
     }
   ]
 }
