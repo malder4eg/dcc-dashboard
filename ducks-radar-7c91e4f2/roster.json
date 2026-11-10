@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-09 23:41 МСК",
+  "updated": "2026-11-10 05:56 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "20:41:12 11/09/2026",
+  "report_updated": "02:56:38 11/10/2026",
   "complete": true,
   "team_count": 32,
   "active_count": 718,
-  "ir_count": 71,
+  "ir_count": 70,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -1259,14 +1259,14 @@
       "active": [
         {
           "sweater": 1,
-          "name": "REMI POIRIER",
-          "name_key": "remi poirier",
+          "name": "CASEY DESMITH",
+          "name_key": "casey desmith",
           "position": "G"
         },
         {
           "sweater": 1,
-          "name": "CASEY DESMITH",
-          "name_key": "casey desmith",
+          "name": "REMI POIRIER",
+          "name_key": "remi poirier",
           "position": "G"
         },
         {
@@ -3501,6 +3501,12 @@
           "position": "C"
         },
         {
+          "sweater": 21,
+          "name": "ALEXANDER WENNBERG",
+          "name_key": "alexander wennberg",
+          "position": "C"
+        },
+        {
           "sweater": 23,
           "name": "BARCLAY GOODROW",
           "name_key": "barclay goodrow",
@@ -3592,13 +3598,6 @@
         }
       ],
       "ir": [
-        {
-          "sweater": 21,
-          "name": "ALEXANDER WENNBERG",
-          "name_key": "alexander wennberg",
-          "position": "C",
-          "ir_date": "2026-10-28"
-        },
         {
           "sweater": 39,
           "name": "LOGAN COUTURE",
@@ -4165,12 +4164,6 @@
           "name": "EASTON COWAN",
           "name_key": "easton cowan",
           "position": "R"
-        },
-        {
-          "sweater": 71,
-          "name": "VINNI LETTIERI",
-          "name_key": "vinni lettieri",
-          "position": "C"
         },
         {
           "sweater": 72,
@@ -5037,6 +5030,22 @@
   },
   "events": [
     {
+      "id": "RETURNED_FROM_IR:SJS:alexander wennberg:2026-11-10",
+      "type": "RETURNED_FROM_IR",
+      "team": "SJS",
+      "player": "Alexander Wennberg",
+      "player_key": "alexander wennberg",
+      "detected_at": "2026-11-10T02:56:38Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:TOR:vinni lettieri:2026-11-10",
+      "type": "ACTIVE_REMOVED",
+      "team": "TOR",
+      "player": "Vinni Lettieri",
+      "player_key": "vinni lettieri",
+      "detected_at": "2026-11-10T02:56:38Z"
+    },
+    {
       "id": "ACTIVE_REMOVED:CHI:arvid soderblom:2026-11-09",
       "type": "ACTIVE_REMOVED",
       "team": "CHI",
@@ -5723,14 +5732,6 @@
       "player": "Jake Livanavage",
       "player_key": "jake livanavage",
       "detected_at": "2026-11-03T15:30:39Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:FLA:cooper black:2026-11-02",
-      "type": "ACTIVE_REMOVED",
-      "team": "FLA",
-      "player": "Cooper Black",
-      "player_key": "cooper black",
-      "detected_at": "2026-11-02T21:29:02Z"
     }
   ]
 }
