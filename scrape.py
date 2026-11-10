@@ -377,20 +377,20 @@ def fetch_current_week(
     names: dict[int, str],
 ) -> tuple[dict, int]:
 
+    # ESPN's current scoringPeriodId can already point at the new calendar
+    # day before that day's fantasy totals are populated. In that case the
+    # latest usable cumulative matchup snapshot is often the previous daily
+    # scoring period. Try the current day and several recent daily periods
+    # instead of falling back to the weekly matchup number.
     candidates: list[int] = [
-        scoring_period
-    ]
-
-    candidates.extend(
-        sorted(
-            (
-                period
-                for period in scoring_ids
-                if period < scoring_period
-            ),
-            reverse=True,
+        period
+        for period in range(
+            scoring_period,
+            max(0, scoring_period - 8),
+            -1,
         )
-    )
+        if period > 0
+    ]
 
     seen: set[int] = set()
     unique_candidates: list[int] = []
@@ -429,10 +429,12 @@ def fetch_current_week(
             return result, candidate
 
     if last_result is not None:
-        return (
-            last_result,
-            scoring_period,
+        print(
+            f"ESPN пока не вернул ненулевую статистику "
+            f"для matchup {week} в последних daily scoring periods."
         )
+
+        return last_result, scoring_period
 
     raise RuntimeError(
         f"Не удалось загрузить текущую неделю {week}."
