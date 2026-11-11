@@ -2,9 +2,11 @@ name: Refresh DCC table
 
 on:
   schedule:
-    # Two staggered checks per hour. GitHub scheduled workflows can be
-    # delayed or occasionally dropped; only real data changes are committed.
-    - cron: "13,43 * * * *"
+    # Fixed refreshes in Moscow time (UTC+3):
+    # 09:00, 10:00 and 13:00 MSK.
+    - cron: "0 6 * * *"
+    - cron: "0 7 * * *"
+    - cron: "0 10 * * *"
 
   push:
     branches:
@@ -69,13 +71,13 @@ jobs:
 
       # Backup to the separate daily_impact workflow: GitHub sometimes drops
       # scheduled starts entirely. Calculate impact inside a working ESPN
-      # refresh during the 05:00-12:59 Moscow morning window (UTC 02-09).
+      # refresh during the 05:00-13:59 Moscow window (UTC 02-10).
       # Always calculate for manually dispatched and pushed refresh workflows.
       - name: Calculate DCC daily impact as part of morning refresh
         shell: bash
         run: |
           hour=$(date -u +%H)
-          if [[ "${{ github.event_name }}" != "schedule" ]] || (( 10#$hour >= 2 && 10#$hour <= 9 )); then
+          if [[ "${{ github.event_name }}" != "schedule" ]] || (( 10#$hour >= 2 && 10#$hour <= 10 )); then
             python daily_impact.py
           else
             echo "Outside DCC morning impact window; skipping."
