@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-11 17:10 МСК",
+  "updated": "2026-11-11 20:38 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "14:10:52 11/11/2026",
+  "report_updated": "17:38:56 11/11/2026",
   "complete": true,
   "team_count": 32,
   "active_count": 722,
@@ -94,12 +94,6 @@
           "name": "NOAH WARREN",
           "name_key": "noah warren",
           "position": "D"
-        },
-        {
-          "sweater": 48,
-          "name": "NICO MYATOVIC",
-          "name_key": "nico myatovic",
-          "position": "L"
         },
         {
           "sweater": 55,
@@ -1346,6 +1340,12 @@
           "name": "ARTTU HYRY",
           "name_key": "arttu hyry",
           "position": "R"
+        },
+        {
+          "sweater": 27,
+          "name": "TREY TAYLOR",
+          "name_key": "trey taylor",
+          "position": "D"
         },
         {
           "sweater": 29,
@@ -5034,6 +5034,22 @@
   },
   "events": [
     {
+      "id": "ACTIVE_REMOVED:ANA:nico myatovic:2026-11-11",
+      "type": "ACTIVE_REMOVED",
+      "team": "ANA",
+      "player": "Nico Myatovic",
+      "player_key": "nico myatovic",
+      "detected_at": "2026-11-11T17:38:56Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:DAL:trey taylor:2026-11-11",
+      "type": "ACTIVE_ADDED",
+      "team": "DAL",
+      "player": "Trey Taylor",
+      "player_key": "trey taylor",
+      "detected_at": "2026-11-11T17:38:56Z"
+    },
+    {
       "id": "RETURNED_FROM_IR:LAK:mats zuccarello:2026-11-10",
       "type": "RETURNED_FROM_IR",
       "team": "LAK",
@@ -5736,38 +5752,6 @@
       "player": "Brad Lambert",
       "player_key": "brad lambert",
       "detected_at": "2026-11-04T22:56:08Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:TBL:dominic james:2026-11-04",
-      "type": "ACTIVE_REMOVED",
-      "team": "TBL",
-      "player": "Dominic James",
-      "player_key": "dominic james",
-      "detected_at": "2026-11-04T16:39:38Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:COL:keaton middleton:2026-11-04",
-      "type": "ACTIVE_REMOVED",
-      "team": "COL",
-      "player": "Keaton Middleton",
-      "player_key": "keaton middleton",
-      "detected_at": "2026-11-04T15:40:34Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:MIN:mason shaw:2026-11-04",
-      "type": "ACTIVE_REMOVED",
-      "team": "MIN",
-      "player": "Mason Shaw",
-      "player_key": "mason shaw",
-      "detected_at": "2026-11-04T15:40:34Z"
-    },
-    {
-      "id": "NEW_IR:SEA:curtis douglas:2026-11-04",
-      "type": "NEW_IR",
-      "team": "SEA",
-      "player": "Curtis Douglas",
-      "player_key": "curtis douglas",
-      "detected_at": "2026-11-04T15:40:34Z"
     }
   ]
 }
