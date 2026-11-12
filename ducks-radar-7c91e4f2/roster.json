@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-12 18:04 МСК",
+  "updated": "2026-11-12 18:46 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "15:04:44 11/12/2026",
+  "report_updated": "15:46:32 11/12/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 723,
-  "ir_count": 66,
+  "active_count": 724,
+  "ir_count": 67,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -1948,12 +1948,6 @@
           "position": "G"
         },
         {
-          "sweater": 34,
-          "name": "KENNY CONNORS",
-          "name_key": "kenny connors",
-          "position": "C"
-        },
-        {
           "sweater": 35,
           "name": "DARCY KUEMPER",
           "name_key": "darcy kuemper",
@@ -2509,6 +2503,12 @@
           "position": "D"
         },
         {
+          "sweater": 11,
+          "name": "STEFAN NOESEN",
+          "name_key": "stefan noesen",
+          "position": "R"
+        },
+        {
           "sweater": 12,
           "name": "CODY GLASS",
           "name_key": "cody glass",
@@ -2542,6 +2542,12 @@
           "sweater": 28,
           "name": "TIMO MEIER",
           "name_key": "timo meier",
+          "position": "R"
+        },
+        {
+          "sweater": 29,
+          "name": "LENNI HAMEENAHO",
+          "name_key": "lenni hameenaho",
           "position": "R"
         },
         {
@@ -4099,12 +4105,6 @@
           "position": "D"
         },
         {
-          "sweater": 15,
-          "name": "COLTON SISSONS",
-          "name_key": "colton sissons",
-          "position": "C"
-        },
-        {
           "sweater": 19,
           "name": "ZACK MACEWEN",
           "name_key": "zack macewen",
@@ -4201,6 +4201,12 @@
           "position": "R"
         },
         {
+          "sweater": 90,
+          "name": "BRENDAN BRISSON",
+          "name_key": "brendan brisson",
+          "position": "C"
+        },
+        {
           "sweater": 91,
           "name": "JOHN TAVARES",
           "name_key": "john tavares",
@@ -4232,6 +4238,13 @@
           "name_key": "nick blankenburg",
           "position": "D",
           "ir_date": "2026-10-23"
+        },
+        {
+          "sweater": 15,
+          "name": "COLTON SISSONS",
+          "name_key": "colton sissons",
+          "position": "C",
+          "ir_date": "2026-11-12"
         },
         {
           "sweater": 18,
@@ -5032,6 +5045,46 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_REMOVED:LAK:kenny connors:2026-11-12",
+      "type": "ACTIVE_REMOVED",
+      "team": "LAK",
+      "player": "Kenny Connors",
+      "player_key": "kenny connors",
+      "detected_at": "2026-11-12T15:46:33Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:NJD:lenni hameenaho:2026-11-12",
+      "type": "ACTIVE_ADDED",
+      "team": "NJD",
+      "player": "Lenni Hameenaho",
+      "player_key": "lenni hameenaho",
+      "detected_at": "2026-11-12T15:46:33Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:NJD:stefan noesen:2026-11-12",
+      "type": "ACTIVE_ADDED",
+      "team": "NJD",
+      "player": "Stefan Noesen",
+      "player_key": "stefan noesen",
+      "detected_at": "2026-11-12T15:46:33Z"
+    },
+    {
+      "id": "NEW_IR:TOR:colton sissons:2026-11-12",
+      "type": "NEW_IR",
+      "team": "TOR",
+      "player": "Colton Sissons",
+      "player_key": "colton sissons",
+      "detected_at": "2026-11-12T15:46:33Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:TOR:brendan brisson:2026-11-12",
+      "type": "ACTIVE_ADDED",
+      "team": "TOR",
+      "player": "Brendan Brisson",
+      "player_key": "brendan brisson",
+      "detected_at": "2026-11-12T15:46:33Z"
+    },
     {
       "id": "ACTIVE_ADDED:ANA:troy terry:2026-11-12",
       "type": "ACTIVE_ADDED",
