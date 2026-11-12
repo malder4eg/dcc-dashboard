@@ -412,11 +412,24 @@ def supplement_missing_final_games(
 
             if len(game_players) < 34 or len({pid for pid, _ in game_players}) != len(game_players):
                 raise ValueError(f"boxscore has only {len(game_players)} unique skaters")
+            # In a shootout the final team score includes one deciding goal,
+            # but the shootout goal is not credited to any skater's G total.
+            # Verify regulation/overtime skater goals against adjusted scores.
+            # Example: PIT 3 - SJS 2 in SO, with skater goals PIT 2, SJS 2.
+            expected_home_goals = int(box["homeTeam"]["score"])
+            expected_away_goals = int(box["awayTeam"]["score"])
+            if (box.get("gameOutcome") or {}).get("lastPeriodType") == "SO":
+                if expected_home_goals == expected_away_goals + 1:
+                    expected_home_goals -= 1
+                elif expected_away_goals == expected_home_goals + 1:
+                    expected_away_goals -= 1
+                else:
+                    raise ValueError("shootout final score does not have one deciding goal")
             # Do not write partial fallback data if the scoring/faceoff feeds disagree.
-            if sum(g["g"] for _, g in game_players if g["team"] == box["homeTeam"]["abbrev"]) != box["homeTeam"]["score"]:
-                raise ValueError("home team goal total differs from boxscore")
-            if sum(g["g"] for _, g in game_players if g["team"] == box["awayTeam"]["abbrev"]) != box["awayTeam"]["score"]:
-                raise ValueError("away team goal total differs from boxscore")
+            if sum(g["g"] for _, g in game_players if g["team"] == box["homeTeam"]["abbrev"]) != expected_home_goals:
+                raise ValueError("home team skater goals differ from adjusted boxscore")
+            if sum(g["g"] for _, g in game_players if g["team"] == box["awayTeam"]["abbrev"]) != expected_away_goals:
+                raise ValueError("away team skater goals differ from adjusted boxscore")
             if sum(fow.values()) != sum(1 for e in plays if e.get("typeDescKey") == "faceoff"):
                 raise ValueError("faceoff totals differ from play-by-play")
             for pid, game in game_players:
