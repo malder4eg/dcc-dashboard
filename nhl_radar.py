@@ -125,7 +125,7 @@ def write_if_changed(path: Path, payload: dict) -> bool:
         return False
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=False) + "\n",
+        json.dumps(payload, ensure_ascii=False, indent=None if path == RADAR_PATH else 2, separators=(",", ":") if path == RADAR_PATH else None, sort_keys=False) + "\n",
         encoding="utf-8",
     )
     return True
