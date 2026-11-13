@@ -122,7 +122,9 @@ def stable_without_meta(value: Any) -> Any:
 def write_if_changed(path: Path, payload: dict) -> bool:
     old = load_json(path)
     if old is not None and stable_without_meta(old) == stable_without_meta(payload):
-        return False
+        # Re-serialize legacy oversized radar snapshots even when data is unchanged.
+        if path != RADAR_PATH or path.stat().st_size < 900_000:
+            return False
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(
         json.dumps(payload, ensure_ascii=False, indent=None if path == RADAR_PATH else 2, separators=(",", ":") if path == RADAR_PATH else None, sort_keys=False) + "\n",
