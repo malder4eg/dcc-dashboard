@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
   "game_date": "2026-11-12",
-  "generated_at": "2026-11-13T13:02:40Z",
-  "updated": "2026-11-13 16:02 МСК",
+  "generated_at": "2026-11-13T14:29:42Z",
+  "updated": "2026-11-13 17:29 МСК",
   "complete": true,
   "history_updated": "2026-11-13 15:12 МСК",
-  "mapping_updated": "2026-11-13 09:03 МСК",
-  "espn_updated": "2026-11-13 09:03 МСК",
+  "mapping_updated": "2026-11-13 16:54 МСК",
+  "espn_updated": "2026-11-13 16:54 МСК",
   "source": {
     "game_status": "https://api-web.nhle.com/v1/score/2026-11-12",
     "game_stats": "https://api.nhle.com/stats/rest/en/skater/",
@@ -82,9 +82,9 @@
     },
     "incomplete_final_games": [],
     "nhl_mapping_coverage": {
-      "mapped": 650,
-      "unmatched": 119,
-      "ratio": 0.8453
+      "mapped": 655,
+      "unmatched": 114,
+      "ratio": 0.8518
     },
     "espn_index_complete": true,
     "espn_analysis_complete": true,
@@ -471,10 +471,10 @@
         "fo": 16,
         "shifts": 21
       },
-      "espn_player_id": null,
-      "availability": "UNVERIFIED",
-      "on_team_id": null,
-      "owner": null,
+      "espn_player_id": 5080157,
+      "availability": "ONTEAM",
+      "on_team_id": 15,
+      "owner": "Zamboni Varans",
       "is_mighty_ducks": false
     },
     {
@@ -1096,7 +1096,7 @@
         "shifts": 27
       },
       "espn_player_id": 4233878,
-      "availability": "WAIVERS",
+      "availability": "FREEAGENT",
       "on_team_id": 0,
       "owner": null,
       "is_mighty_ducks": false
@@ -1242,7 +1242,7 @@
         "shifts": 27
       },
       "espn_player_id": 4233878,
-      "availability": "WAIVERS",
+      "availability": "FREEAGENT",
       "on_team_id": 0,
       "owner": null,
       "is_mighty_ducks": false
@@ -1296,49 +1296,49 @@
       "is_mighty_ducks": false
     },
     {
-      "rank": 33,
-      "name": "Casey Mittelstadt",
-      "nhl_player_id": 8479999,
-      "nhl_team": "BOS",
-      "opponent": "MTL",
+      "rank": 23,
+      "name": "Michael McCarron",
+      "nhl_player_id": 8477446,
+      "nhl_team": "MIN",
+      "opponent": "TOR",
       "position": "C",
-      "game_id": 2026020299,
+      "game_id": 2026020300,
       "game_date": "2026-11-12",
-      "impact_score": 7.747,
+      "impact_score": 8.323,
       "category_impact": {
-        "g": 3.0,
+        "g": 1.5,
         "a": 0.0,
-        "pts": 2.0,
-        "plus_minus": 0.8,
+        "pts": 1.0,
+        "plus_minus": 0.4,
         "ppp": 0.0,
         "shp": 0.0,
-        "fow": 0.0,
-        "toi": 0.647,
-        "sog": 1.0,
-        "hit": 0.0,
-        "blk": 0.0
+        "fow": 1.333,
+        "toi": 0.757,
+        "sog": 0.333,
+        "hit": 2.0,
+        "blk": 0.5
       },
-      "breadth": 3,
+      "breadth": 5,
       "stats": {
-        "g": 2,
+        "g": 1,
         "a": 0,
-        "pts": 2,
-        "plus_minus": 2,
+        "pts": 1,
+        "plus_minus": 1,
         "ppp": 0,
         "shp": 0,
-        "fow": 0,
-        "toi": 861,
-        "sog": 3,
-        "hit": 0,
-        "blk": 0,
-        "ev_toi": 810,
-        "pp_toi": 51,
-        "sh_toi": 0,
-        "fo": 1,
-        "shifts": 17
+        "fow": 8,
+        "toi": 1007,
+        "sog": 1,
+        "hit": 6,
+        "blk": 1,
+        "ev_toi": 884,
+        "pp_toi": 39,
+        "sh_toi": 84,
+        "fo": 14,
+        "shifts": 22
       },
-      "espn_player_id": 4233575,
-      "availability": "FREEAGENT",
+      "espn_player_id": 3042048,
+      "availability": "WAIVERS",
       "on_team_id": 0,
       "owner": null,
       "is_mighty_ducks": false
@@ -1346,6 +1346,54 @@
   ],
   "top3_freeagents": [
     {
+      "rank": 18,
+      "name": "Dylan Samberg",
+      "nhl_player_id": 8480049,
+      "nhl_team": "WPG",
+      "opponent": "DAL",
+      "position": "D",
+      "game_id": 2026020306,
+      "game_date": "2026-11-12",
+      "impact_score": 8.85,
+      "category_impact": {
+        "g": 1.5,
+        "a": 1.0,
+        "pts": 2.0,
+        "plus_minus": 1.6,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 0.0,
+        "toi": 1.083,
+        "sog": 0.667,
+        "hit": 0.0,
+        "blk": 0.5
+      },
+      "breadth": 5,
+      "stats": {
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plus_minus": 4,
+        "ppp": 0,
+        "shp": 0,
+        "fow": null,
+        "toi": 1441,
+        "sog": 2,
+        "hit": 0,
+        "blk": 1,
+        "ev_toi": 1347,
+        "pp_toi": 10,
+        "sh_toi": 84,
+        "fo": 0,
+        "shifts": 27
+      },
+      "espn_player_id": 4233878,
+      "availability": "FREEAGENT",
+      "on_team_id": 0,
+      "owner": null,
+      "is_mighty_ducks": false
+    },
+    {
       "rank": 21,
       "name": "Ryan Pulock",
       "nhl_player_id": 8477506,
@@ -1436,54 +1484,6 @@
         "shifts": 17
       },
       "espn_player_id": 4233575,
-      "availability": "FREEAGENT",
-      "on_team_id": 0,
-      "owner": null,
-      "is_mighty_ducks": false
-    },
-    {
-      "rank": 37,
-      "name": "Sam Rinzel",
-      "nhl_player_id": 8483506,
-      "nhl_team": "CHI",
-      "opponent": "BUF",
-      "position": "D",
-      "game_id": 2026020305,
-      "game_date": "2026-11-12",
-      "impact_score": 7.419,
-      "category_impact": {
-        "g": 0.0,
-        "a": 2.0,
-        "pts": 2.0,
-        "plus_minus": 0.8,
-        "ppp": 0.0,
-        "shp": 0.0,
-        "fow": 0.0,
-        "toi": 0.986,
-        "sog": 0.333,
-        "hit": 1.0,
-        "blk": 0.0
-      },
-      "breadth": 3,
-      "stats": {
-        "g": 0,
-        "a": 2,
-        "pts": 2,
-        "plus_minus": 2,
-        "ppp": 0,
-        "shp": 0,
-        "fow": null,
-        "toi": 1313,
-        "sog": 1,
-        "hit": 3,
-        "blk": 0,
-        "ev_toi": 1048,
-        "pp_toi": 265,
-        "sh_toi": 0,
-        "fo": 0,
-        "shifts": 27
-      },
-      "espn_player_id": 5080173,
       "availability": "FREEAGENT",
       "on_team_id": 0,
       "owner": null,
@@ -1871,10 +1871,10 @@
         "fo": 16,
         "shifts": 21
       },
-      "espn_player_id": null,
-      "availability": "UNVERIFIED",
-      "on_team_id": null,
-      "owner": null,
+      "espn_player_id": 5080157,
+      "availability": "ONTEAM",
+      "on_team_id": 15,
+      "owner": "Zamboni Varans",
       "is_mighty_ducks": false
     },
     {
@@ -2496,7 +2496,7 @@
         "shifts": 27
       },
       "espn_player_id": 4233878,
-      "availability": "WAIVERS",
+      "availability": "FREEAGENT",
       "on_team_id": 0,
       "owner": null,
       "is_mighty_ducks": false
@@ -2736,9 +2736,9 @@
         "shifts": 22
       },
       "espn_player_id": 3042048,
-      "availability": "ONTEAM",
-      "on_team_id": 15,
-      "owner": "Zamboni Varans",
+      "availability": "WAIVERS",
+      "on_team_id": 0,
+      "owner": null,
       "is_mighty_ducks": false
     },
     {
@@ -7392,9 +7392,9 @@
         "shifts": 19
       },
       "espn_player_id": 5229176,
-      "availability": "FREEAGENT",
-      "on_team_id": 0,
-      "owner": null,
+      "availability": "ONTEAM",
+      "on_team_id": 19,
+      "owner": "Balashikha Mammoth",
       "is_mighty_ducks": false
     },
     {
@@ -7440,7 +7440,7 @@
         "shifts": 19
       },
       "espn_player_id": 3067951,
-      "availability": "WAIVERS",
+      "availability": "FREEAGENT",
       "on_team_id": 0,
       "owner": null,
       "is_mighty_ducks": false
@@ -7536,7 +7536,7 @@
         "shifts": 16
       },
       "espn_player_id": 4587985,
-      "availability": "WAIVERS",
+      "availability": "FREEAGENT",
       "on_team_id": 0,
       "owner": null,
       "is_mighty_ducks": false
@@ -8016,9 +8016,9 @@
         "shifts": 17
       },
       "espn_player_id": 4233568,
-      "availability": "ONTEAM",
-      "on_team_id": 11,
-      "owner": "Opalikha Red Rockets",
+      "availability": "WAIVERS",
+      "on_team_id": 0,
+      "owner": null,
       "is_mighty_ducks": false
     },
     {
@@ -8208,9 +8208,9 @@
         "shifts": 21
       },
       "espn_player_id": 4587943,
-      "availability": "ONTEAM",
-      "on_team_id": 15,
-      "owner": "Zamboni Varans",
+      "availability": "WAIVERS",
+      "on_team_id": 0,
+      "owner": null,
       "is_mighty_ducks": false
     },
     {
@@ -11520,9 +11520,9 @@
         "shifts": 16
       },
       "espn_player_id": 2989376,
-      "availability": "ONTEAM",
-      "on_team_id": 18,
-      "owner": "OLA2COLA",
+      "availability": "FREEAGENT",
+      "on_team_id": 0,
+      "owner": null,
       "is_mighty_ducks": false
     },
     {
@@ -15024,9 +15024,9 @@
         "shifts": 17
       },
       "espn_player_id": 4874870,
-      "availability": "ONTEAM",
-      "on_team_id": 19,
-      "owner": "Balashikha Mammoth",
+      "availability": "WAIVERS",
+      "on_team_id": 0,
+      "owner": null,
       "is_mighty_ducks": false
     },
     {
@@ -17040,7 +17040,7 @@
         "shifts": 20
       },
       "espn_player_id": 5502,
-      "availability": "WAIVERS",
+      "availability": "FREEAGENT",
       "on_team_id": 0,
       "owner": null,
       "is_mighty_ducks": false
@@ -17808,9 +17808,9 @@
         "shifts": 14
       },
       "espn_player_id": 5833,
-      "availability": "ONTEAM",
-      "on_team_id": 3,
-      "owner": "Putin team",
+      "availability": "WAIVERS",
+      "on_team_id": 0,
+      "owner": null,
       "is_mighty_ducks": false
     },
     {
@@ -19536,9 +19536,9 @@
         "shifts": 18
       },
       "espn_player_id": 4874863,
-      "availability": "ONTEAM",
-      "on_team_id": 3,
-      "owner": "Putin team",
+      "availability": "WAIVERS",
+      "on_team_id": 0,
+      "owner": null,
       "is_mighty_ducks": false
     },
     {
@@ -20496,9 +20496,9 @@
         "shifts": 2
       },
       "espn_player_id": 5080162,
-      "availability": "ONTEAM",
-      "on_team_id": 18,
-      "owner": "OLA2COLA",
+      "availability": "FREEAGENT",
+      "on_team_id": 0,
+      "owner": null,
       "is_mighty_ducks": false
     },
     {
