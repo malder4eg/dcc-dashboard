@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-13 20:27 МСК",
+  "updated": "2026-11-14 00:43 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "17:27:53 11/13/2026",
+  "report_updated": "21:43:03 11/13/2026",
   "complete": true,
   "team_count": 32,
   "active_count": 725,
@@ -58,12 +58,6 @@
           "name": "JUDD CAULFIELD",
           "name_key": "judd caulfield",
           "position": "R"
-        },
-        {
-          "sweater": 31,
-          "name": "LAURENT BROSSOIT",
-          "name_key": "laurent brossoit",
-          "position": "G"
         },
         {
           "sweater": 33,
@@ -1259,14 +1253,14 @@
       "active": [
         {
           "sweater": 1,
-          "name": "REMI POIRIER",
-          "name_key": "remi poirier",
+          "name": "CASEY DESMITH",
+          "name_key": "casey desmith",
           "position": "G"
         },
         {
           "sweater": 1,
-          "name": "CASEY DESMITH",
-          "name_key": "casey desmith",
+          "name": "REMI POIRIER",
+          "name_key": "remi poirier",
           "position": "G"
         },
         {
@@ -2571,6 +2565,12 @@
           "sweater": 47,
           "name": "DECLAN CHISHOLM",
           "name_key": "declan chisholm",
+          "position": "D"
+        },
+        {
+          "sweater": 52,
+          "name": "ANTON SILAEV",
+          "name_key": "anton silaev",
           "position": "D"
         },
         {
@@ -5052,6 +5052,22 @@
   },
   "events": [
     {
+      "id": "ACTIVE_REMOVED:ANA:laurent brossoit:2026-11-13",
+      "type": "ACTIVE_REMOVED",
+      "team": "ANA",
+      "player": "Laurent Brossoit",
+      "player_key": "laurent brossoit",
+      "detected_at": "2026-11-13T21:43:03Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:NJD:anton silaev:2026-11-13",
+      "type": "ACTIVE_ADDED",
+      "team": "NJD",
+      "player": "Anton Silaev",
+      "player_key": "anton silaev",
+      "detected_at": "2026-11-13T21:43:03Z"
+    },
+    {
       "id": "ACTIVE_ADDED:COL:gavin brindley:2026-11-13",
       "type": "ACTIVE_ADDED",
       "team": "COL",
@@ -5810,46 +5826,6 @@
       "player": "Kailer Yamamoto",
       "player_key": "kailer yamamoto",
       "detected_at": "2026-11-06T23:30:25Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:CBJ:jack williams:2026-11-06",
-      "type": "ACTIVE_ADDED",
-      "team": "CBJ",
-      "player": "Jack Williams",
-      "player_key": "jack williams",
-      "detected_at": "2026-11-06T18:27:42Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:CBJ:steven lorentz:2026-11-06",
-      "type": "ACTIVE_ADDED",
-      "team": "CBJ",
-      "player": "Steven Lorentz",
-      "player_key": "steven lorentz",
-      "detected_at": "2026-11-06T18:27:42Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:MIN:mason shaw:2026-11-06",
-      "type": "ACTIVE_ADDED",
-      "team": "MIN",
-      "player": "Mason Shaw",
-      "player_key": "mason shaw",
-      "detected_at": "2026-11-06T18:27:42Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:NYR:joonas korpisalo:2026-11-06",
-      "type": "RETURNED_FROM_IR",
-      "team": "NYR",
-      "player": "Joonas Korpisalo",
-      "player_key": "joonas korpisalo",
-      "detected_at": "2026-11-06T18:27:42Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:PIT:jake livanavage:2026-11-06",
-      "type": "ACTIVE_REMOVED",
-      "team": "PIT",
-      "player": "Jake Livanavage",
-      "player_key": "jake livanavage",
-      "detected_at": "2026-11-06T18:27:42Z"
     }
   ]
 }
