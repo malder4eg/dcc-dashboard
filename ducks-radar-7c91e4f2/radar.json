@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-13 09:03 МСК",
-  "generated_at": "2026-11-13T06:03:30Z",
+  "updated": "2026-11-13 15:12 МСК",
+  "generated_at": "2026-11-13T12:12:38Z",
   "source": {
     "nhl_stats": "https://api.nhle.com/stats/rest/en/",
     "nhl_game_status": "https://api-web.nhle.com/v1/",
@@ -21,373 +21,13 @@
     "note": "Thresholds are screening triggers, not proof of a permanent role change. Line combinations are not inferred from NHL API TOI."
   },
   "counts": {
-    "signals_all": 318,
+    "signals_all": 317,
     "signals_available": 88,
     "add_candidates": 4,
     "watch": 84,
-    "new_signals": 119
+    "new_signals": 0
   },
-  "new_signals": [
-    {
-      "nhl_player_id": 8479977,
-      "name": "Kailer Yamamoto",
-      "nhl_team": "UTA",
-      "espn_status": "FREEAGENT",
-      "recommendation": "ADD CANDIDATE",
-      "score": 80,
-      "new_signal_types": [
-        "TOI_SURGE",
-        "PP_ROLE_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8483506,
-      "name": "Sam Rinzel",
-      "nhl_team": "CHI",
-      "espn_status": "FREEAGENT",
-      "recommendation": "ADD CANDIDATE",
-      "score": 80,
-      "new_signal_types": [
-        "PP_ROLE_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8476880,
-      "name": "Tom Wilson",
-      "nhl_team": "WSH",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 100,
-      "new_signal_types": [
-        "TOI_SURGE",
-        "PP_ROLE_UP",
-        "SH_ROLE_UP",
-        "PERIPHERAL_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8477496,
-      "name": "Elias Lindholm",
-      "nhl_team": "BOS",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 80,
-      "new_signal_types": [
-        "PP_ROLE_UP",
-        "SH_ROLE_UP",
-        "FOW_UP",
-        "PRODUCTION_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8478038,
-      "name": "Devon Toews",
-      "nhl_team": "COL",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 71,
-      "new_signal_types": [
-        "TOI_SURGE",
-        "PP_ROLE_UP",
-        "PPP_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8477504,
-      "name": "Josh Morrissey",
-      "nhl_team": "WPG",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 70,
-      "new_signal_types": [
-        "TOI_SURGE",
-        "PP_ROLE_UP",
-        "PERIPHERAL_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8476878,
-      "name": "Zemgus Girgensons",
-      "nhl_team": "TBL",
-      "espn_status": "UNMATCHED",
-      "recommendation": "WATCH",
-      "score": 70,
-      "new_signal_types": [
-        "TOI_SURGE",
-        "PERIPHERAL_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8476389,
-      "name": "Vincent Trocheck",
-      "nhl_team": "UTA",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 67,
-      "new_signal_types": [
-        "TOI_SURGE",
-        "PP_ROLE_UP",
-        "FOW_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8482802,
-      "name": "Carter Mazur",
-      "nhl_team": "DET",
-      "espn_status": "FREEAGENT",
-      "recommendation": "WATCH",
-      "score": 60,
-      "new_signal_types": [
-        "TOI_SURGE"
-      ]
-    },
-    {
-      "nhl_player_id": 8485468,
-      "name": "Trey Taylor",
-      "nhl_team": "DAL",
-      "espn_status": "FREEAGENT",
-      "recommendation": "WATCH",
-      "score": 60,
-      "new_signal_types": [
-        "TOI_SURGE",
-        "PERIPHERAL_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8482105,
-      "name": "Jake Sanderson",
-      "nhl_team": "OTT",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 58,
-      "new_signal_types": [
-        "PP_ROLE_UP",
-        "SH_ROLE_UP",
-        "PERIPHERAL_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8484873,
-      "name": "Cole Hutson",
-      "nhl_team": "WSH",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 56,
-      "new_signal_types": [
-        "PRODUCTION_UP",
-        "PPP_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8478233,
-      "name": "Andrew Mangiapane",
-      "nhl_team": "CHI",
-      "espn_status": "FREEAGENT",
-      "recommendation": "WATCH",
-      "score": 55,
-      "new_signal_types": [
-        "TOI_SURGE"
-      ]
-    },
-    {
-      "nhl_player_id": 8480855,
-      "name": "Jack McBain",
-      "nhl_team": "UTA",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 55,
-      "new_signal_types": [
-        "SH_ROLE_UP",
-        "FOW_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8474151,
-      "name": "Ryan McDonagh",
-      "nhl_team": "TBL",
-      "espn_status": "UNMATCHED",
-      "recommendation": "WATCH",
-      "score": 55,
-      "new_signal_types": [
-        "TOI_SURGE"
-      ]
-    },
-    {
-      "nhl_player_id": 8475791,
-      "name": "Taylor Hall",
-      "nhl_team": "CAR",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 55,
-      "new_signal_types": [
-        "TOI_SURGE"
-      ]
-    },
-    {
-      "nhl_player_id": 8478401,
-      "name": "Pavel Zacha",
-      "nhl_team": "BOS",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 49,
-      "new_signal_types": [
-        "PP_ROLE_UP",
-        "SH_ROLE_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8475287,
-      "name": "Erik Haula",
-      "nhl_team": "LAK",
-      "espn_status": "UNMATCHED",
-      "recommendation": "WATCH",
-      "score": 48,
-      "new_signal_types": [
-        "TOI_SURGE"
-      ]
-    },
-    {
-      "nhl_player_id": 8474574,
-      "name": "Tyler Myers",
-      "nhl_team": "DAL",
-      "espn_status": "FREEAGENT",
-      "recommendation": "WATCH",
-      "score": 48,
-      "new_signal_types": [
-        "TOI_SURGE"
-      ]
-    },
-    {
-      "nhl_player_id": 8482730,
-      "name": "Brandt Clarke",
-      "nhl_team": "LAK",
-      "espn_status": "UNMATCHED",
-      "recommendation": "WATCH",
-      "score": 45,
-      "new_signal_types": [
-        "TOI_SURGE"
-      ]
-    },
-    {
-      "nhl_player_id": 8484258,
-      "name": "Sam Malinski",
-      "nhl_team": "COL",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 45,
-      "new_signal_types": [
-        "TOI_SURGE",
-        "PERIPHERAL_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8483489,
-      "name": "Fraser Minten",
-      "nhl_team": "BOS",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 43,
-      "new_signal_types": [
-        "PP_ROLE_UP",
-        "SH_ROLE_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8480002,
-      "name": "Nico Hischier",
-      "nhl_team": "NJD",
-      "espn_status": "UNMATCHED",
-      "recommendation": "WATCH",
-      "score": 43,
-      "new_signal_types": [
-        "PP_ROLE_UP",
-        "SH_ROLE_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8478449,
-      "name": "Roope Hintz",
-      "nhl_team": "DAL",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 43,
-      "new_signal_types": [
-        "PERIPHERAL_UP",
-        "PRODUCTION_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8477476,
-      "name": "Artturi Lehkonen",
-      "nhl_team": "COL",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 41,
-      "new_signal_types": [
-        "PP_ROLE_UP",
-        "PRODUCTION_UP",
-        "PPP_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8480064,
-      "name": "Josh Norris",
-      "nhl_team": "BUF",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 41,
-      "new_signal_types": [
-        "PRODUCTION_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8480208,
-      "name": "Drake Batherson",
-      "nhl_team": "OTT",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 40,
-      "new_signal_types": [
-        "PP_ROLE_UP",
-        "PERIPHERAL_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8484829,
-      "name": "Justin Hryckowian",
-      "nhl_team": "DAL",
-      "espn_status": "FREEAGENT",
-      "recommendation": "WATCH",
-      "score": 40,
-      "new_signal_types": [
-        "PERIPHERAL_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8475794,
-      "name": "Tyler Seguin",
-      "nhl_team": "DAL",
-      "espn_status": "ONTEAM",
-      "recommendation": "TRACK ONLY",
-      "score": 40,
-      "new_signal_types": [
-        "PP_ROLE_UP",
-        "PERIPHERAL_UP"
-      ]
-    },
-    {
-      "nhl_player_id": 8482124,
-      "name": "Quinton Byfield",
-      "nhl_team": "LAK",
-      "espn_status": "UNMATCHED",
-      "recommendation": "WATCH",
-      "score": 39,
-      "new_signal_types": [
-        "PERIPHERAL_UP",
-        "PPP_UP"
-      ]
-    }
-  ],
+  "new_signals": [],
   "signals": [
     {
       "nhl_player_id": 8479977,
@@ -3669,21 +3309,21 @@
         },
         "ev_toi": {
           "baseline": 668.4,
-          "recent": 1000.0,
-          "delta": 331.6,
-          "ratio": 1.496
+          "recent": 964.5,
+          "delta": 296.1,
+          "ratio": 1.443
         },
         "pp_toi": {
           "baseline": 62.6,
-          "recent": 103.0,
-          "delta": 40.4,
-          "ratio": 1.645
+          "recent": 55.0,
+          "delta": -7.6,
+          "ratio": 0.879
         },
         "sh_toi": {
           "baseline": 87.0,
-          "recent": 112.0,
-          "delta": 25.0,
-          "ratio": 1.287
+          "recent": 64.0,
+          "delta": -23.0,
+          "ratio": 0.736
         },
         "sog": {
           "baseline": 1.8,
@@ -3705,8 +3345,8 @@
         },
         "fow": {
           "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
+          "recent": null,
+          "delta": null,
           "ratio": null
         },
         "fo": {
@@ -4948,158 +4588,6 @@
       "latest_final_game_id": 2026020299
     },
     {
-      "nhl_player_id": 8475287,
-      "espn_player_id": null,
-      "name": "Erik Haula",
-      "nhl_team": "LAK",
-      "position": "L",
-      "espn_status": "UNMATCHED",
-      "espn_team_id": null,
-      "percent_owned": null,
-      "nhl_roster_status": "ACTIVE",
-      "score": 48,
-      "reliability": "HIGH",
-      "recommendation": "WATCH",
-      "categories": [
-        "TOI",
-        "SHP",
-        "FOW"
-      ],
-      "signals": [
-        {
-          "type": "TOI_SURGE",
-          "label": "Рост TOI",
-          "strong": false
-        },
-        {
-          "type": "SH_ROLE_UP",
-          "label": "Рост SH TOI",
-          "strong": true
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 841.4,
-          "recent": 1027.5,
-          "delta": 186.1,
-          "ratio": 1.221
-        },
-        "ev_toi": {
-          "baseline": 617.8,
-          "recent": 723.0,
-          "delta": 105.2,
-          "ratio": 1.17
-        },
-        "pp_toi": {
-          "baseline": 123.4,
-          "recent": 99.0,
-          "delta": -24.4,
-          "ratio": 0.802
-        },
-        "sh_toi": {
-          "baseline": 100.2,
-          "recent": 210.0,
-          "delta": 109.8,
-          "ratio": 2.096
-        },
-        "sog": {
-          "baseline": 1.6,
-          "recent": 0.5,
-          "delta": -1.1,
-          "ratio": 0.312
-        },
-        "hit": {
-          "baseline": 4.8,
-          "recent": 1.0,
-          "delta": -3.8,
-          "ratio": 0.208
-        },
-        "blk": {
-          "baseline": 0.4,
-          "recent": 0.0,
-          "delta": -0.4,
-          "ratio": 0.0
-        },
-        "fow": {
-          "baseline": 4.2,
-          "recent": 5.0,
-          "delta": 0.8,
-          "ratio": 1.19
-        },
-        "fo": {
-          "baseline": 6.6,
-          "recent": 10.5,
-          "delta": 3.9,
-          "ratio": 1.591
-        },
-        "pts": {
-          "baseline": 0.6,
-          "recent": 0.0,
-          "delta": -0.6,
-          "ratio": 0.0
-        },
-        "ppp": {
-          "baseline": 0.2,
-          "recent": 0.0,
-          "delta": -0.2,
-          "ratio": 0.0
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "RETURNED_FROM_IR:LAK:kevin fiala:2026-11-13",
-          "type": "RETURNED_FROM_IR",
-          "team": "LAK",
-          "player": "Kevin Fiala",
-          "player_key": "kevin fiala",
-          "detected_at": "2026-11-13T06:03:30Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:LAK:kenny connors:2026-11-12",
-          "type": "ACTIVE_REMOVED",
-          "team": "LAK",
-          "player": "Kenny Connors",
-          "player_key": "kenny connors",
-          "detected_at": "2026-11-12T15:46:33Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:LAK:mats zuccarello:2026-11-10",
-          "type": "RETURNED_FROM_IR",
-          "team": "LAK",
-          "player": "Mats Zuccarello",
-          "player_key": "mats zuccarello",
-          "detected_at": "2026-11-10T23:43:51Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:LAK:martin chromiak:2026-11-08",
-          "type": "ACTIVE_REMOVED",
-          "team": "LAK",
-          "player": "Martin Chromiak",
-          "player_key": "martin chromiak",
-          "detected_at": "2026-11-08T18:29:55Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:LAK:alex turcotte:2026-11-07",
-          "type": "RETURNED_FROM_IR",
-          "team": "LAK",
-          "player": "Alex Turcotte",
-          "player_key": "alex turcotte",
-          "detected_at": "2026-11-07T20:29:38Z"
-        }
-      ],
-      "latest_final_game_date": "2026-11-12",
-      "latest_final_game_id": 2026020308
-    },
-    {
       "nhl_player_id": 8474574,
       "espn_player_id": 5052,
       "name": "Tyler Myers",
@@ -5696,21 +5184,21 @@
         },
         "ev_toi": {
           "baseline": 980.4,
-          "recent": 1073.0,
-          "delta": 92.6,
-          "ratio": 1.094
+          "recent": 1199.0,
+          "delta": 218.6,
+          "ratio": 1.223
         },
         "pp_toi": {
           "baseline": 99.4,
-          "recent": 150.0,
-          "delta": 50.6,
-          "ratio": 1.509
+          "recent": 77.5,
+          "delta": -21.9,
+          "ratio": 0.78
         },
         "sh_toi": {
           "baseline": 8.6,
-          "recent": 37.0,
-          "delta": 28.4,
-          "ratio": 4.302
+          "recent": 24.5,
+          "delta": 15.9,
+          "ratio": 2.849
         },
         "sog": {
           "baseline": 0.6,
@@ -5732,7 +5220,7 @@
         },
         "fow": {
           "baseline": null,
-          "recent": 0.0,
+          "recent": null,
           "delta": null,
           "ratio": null
         },
@@ -8549,163 +8037,6 @@
       "latest_final_game_id": 2026020298
     },
     {
-      "nhl_player_id": 8482124,
-      "espn_player_id": null,
-      "name": "Quinton Byfield",
-      "nhl_team": "LAK",
-      "position": "R",
-      "espn_status": "UNMATCHED",
-      "espn_team_id": null,
-      "percent_owned": null,
-      "nhl_roster_status": "ACTIVE",
-      "score": 39,
-      "reliability": "HIGH",
-      "recommendation": "WATCH",
-      "categories": [
-        "SHP",
-        "SOG",
-        "FOW"
-      ],
-      "signals": [
-        {
-          "type": "SH_ROLE_UP",
-          "label": "Рост SH TOI",
-          "strong": true
-        },
-        {
-          "type": "PERIPHERAL_UP",
-          "label": "Рост SOG/HIT/BLK",
-          "strong": false
-        },
-        {
-          "type": "PPP_UP",
-          "label": "Рост PPP",
-          "strong": false
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 1241.0,
-          "recent": 1183.5,
-          "delta": -57.5,
-          "ratio": 0.954
-        },
-        "ev_toi": {
-          "baseline": 888.4,
-          "recent": 798.0,
-          "delta": -90.4,
-          "ratio": 0.898
-        },
-        "pp_toi": {
-          "baseline": 277.8,
-          "recent": 141.0,
-          "delta": -136.8,
-          "ratio": 0.508
-        },
-        "sh_toi": {
-          "baseline": 74.8,
-          "recent": 229.0,
-          "delta": 154.2,
-          "ratio": 3.061
-        },
-        "sog": {
-          "baseline": 3.2,
-          "recent": 3.5,
-          "delta": 0.3,
-          "ratio": 1.094
-        },
-        "hit": {
-          "baseline": 0.2,
-          "recent": 1.0,
-          "delta": 0.8,
-          "ratio": 5.0
-        },
-        "blk": {
-          "baseline": 0.0,
-          "recent": 0.5,
-          "delta": 0.5,
-          "ratio": null
-        },
-        "fow": {
-          "baseline": 12.0,
-          "recent": 12.0,
-          "delta": 0.0,
-          "ratio": 1.0
-        },
-        "fo": {
-          "baseline": 19.8,
-          "recent": 22.0,
-          "delta": 2.2,
-          "ratio": 1.111
-        },
-        "pts": {
-          "baseline": 0.8,
-          "recent": 0.5,
-          "delta": -0.3,
-          "ratio": 0.625
-        },
-        "ppp": {
-          "baseline": 0.4,
-          "recent": 0.5,
-          "delta": 0.1,
-          "ratio": 1.25
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "RETURNED_FROM_IR:LAK:kevin fiala:2026-11-13",
-          "type": "RETURNED_FROM_IR",
-          "team": "LAK",
-          "player": "Kevin Fiala",
-          "player_key": "kevin fiala",
-          "detected_at": "2026-11-13T06:03:30Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:LAK:kenny connors:2026-11-12",
-          "type": "ACTIVE_REMOVED",
-          "team": "LAK",
-          "player": "Kenny Connors",
-          "player_key": "kenny connors",
-          "detected_at": "2026-11-12T15:46:33Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:LAK:mats zuccarello:2026-11-10",
-          "type": "RETURNED_FROM_IR",
-          "team": "LAK",
-          "player": "Mats Zuccarello",
-          "player_key": "mats zuccarello",
-          "detected_at": "2026-11-10T23:43:51Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:LAK:martin chromiak:2026-11-08",
-          "type": "ACTIVE_REMOVED",
-          "team": "LAK",
-          "player": "Martin Chromiak",
-          "player_key": "martin chromiak",
-          "detected_at": "2026-11-08T18:29:55Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:LAK:alex turcotte:2026-11-07",
-          "type": "RETURNED_FROM_IR",
-          "team": "LAK",
-          "player": "Alex Turcotte",
-          "player_key": "alex turcotte",
-          "detected_at": "2026-11-07T20:29:38Z"
-        }
-      ],
-      "latest_final_game_date": "2026-11-12",
-      "latest_final_game_id": 2026020308
-    },
-    {
       "nhl_player_id": 8479999,
       "espn_player_id": 4233575,
       "name": "Casey Mittelstadt",
@@ -9845,158 +9176,6 @@
       ],
       "latest_final_game_date": "2026-11-11",
       "latest_final_game_id": 2026020298
-    },
-    {
-      "nhl_player_id": 8479675,
-      "espn_player_id": null,
-      "name": "Trevor Moore",
-      "nhl_team": "LAK",
-      "position": "L",
-      "espn_status": "UNMATCHED",
-      "espn_team_id": null,
-      "percent_owned": null,
-      "nhl_roster_status": "ACTIVE",
-      "score": 33,
-      "reliability": "HIGH",
-      "recommendation": "WATCH",
-      "categories": [
-        "SHP",
-        "SOG",
-        "HIT"
-      ],
-      "signals": [
-        {
-          "type": "SH_ROLE_UP",
-          "label": "Рост SH TOI",
-          "strong": true
-        },
-        {
-          "type": "PERIPHERAL_UP",
-          "label": "Рост SOG/HIT/BLK",
-          "strong": false
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 1031.8,
-          "recent": 959.5,
-          "delta": -72.3,
-          "ratio": 0.93
-        },
-        "ev_toi": {
-          "baseline": 816.4,
-          "recent": 643.0,
-          "delta": -173.4,
-          "ratio": 0.788
-        },
-        "pp_toi": {
-          "baseline": 87.6,
-          "recent": 72.0,
-          "delta": -15.6,
-          "ratio": 0.822
-        },
-        "sh_toi": {
-          "baseline": 127.8,
-          "recent": 219.0,
-          "delta": 91.2,
-          "ratio": 1.714
-        },
-        "sog": {
-          "baseline": 2.2,
-          "recent": 3.0,
-          "delta": 0.8,
-          "ratio": 1.364
-        },
-        "hit": {
-          "baseline": 0.2,
-          "recent": 2.0,
-          "delta": 1.8,
-          "ratio": 10.0
-        },
-        "blk": {
-          "baseline": 0.4,
-          "recent": 0.0,
-          "delta": -0.4,
-          "ratio": 0.0
-        },
-        "fow": {
-          "baseline": null,
-          "recent": 0.0,
-          "delta": null,
-          "ratio": null
-        },
-        "fo": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "pts": {
-          "baseline": 0.4,
-          "recent": 0.5,
-          "delta": 0.1,
-          "ratio": 1.25
-        },
-        "ppp": {
-          "baseline": 0.2,
-          "recent": 0.0,
-          "delta": -0.2,
-          "ratio": 0.0
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "RETURNED_FROM_IR:LAK:kevin fiala:2026-11-13",
-          "type": "RETURNED_FROM_IR",
-          "team": "LAK",
-          "player": "Kevin Fiala",
-          "player_key": "kevin fiala",
-          "detected_at": "2026-11-13T06:03:30Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:LAK:kenny connors:2026-11-12",
-          "type": "ACTIVE_REMOVED",
-          "team": "LAK",
-          "player": "Kenny Connors",
-          "player_key": "kenny connors",
-          "detected_at": "2026-11-12T15:46:33Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:LAK:mats zuccarello:2026-11-10",
-          "type": "RETURNED_FROM_IR",
-          "team": "LAK",
-          "player": "Mats Zuccarello",
-          "player_key": "mats zuccarello",
-          "detected_at": "2026-11-10T23:43:51Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:LAK:martin chromiak:2026-11-08",
-          "type": "ACTIVE_REMOVED",
-          "team": "LAK",
-          "player": "Martin Chromiak",
-          "player_key": "martin chromiak",
-          "detected_at": "2026-11-08T18:29:55Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:LAK:alex turcotte:2026-11-07",
-          "type": "RETURNED_FROM_IR",
-          "team": "LAK",
-          "player": "Alex Turcotte",
-          "player_key": "alex turcotte",
-          "detected_at": "2026-11-07T20:29:38Z"
-        }
-      ],
-      "latest_final_game_date": "2026-11-12",
-      "latest_final_game_id": 2026020308
     },
     {
       "nhl_player_id": 8482109,
@@ -11683,129 +10862,6 @@
       "latest_final_game_id": 2026020305
     },
     {
-      "nhl_player_id": 8485388,
-      "espn_player_id": 5291952,
-      "name": "Victor Eklund",
-      "nhl_team": "NYI",
-      "position": "R",
-      "espn_status": "ONTEAM",
-      "espn_team_id": 15,
-      "percent_owned": 6.62,
-      "nhl_roster_status": "ACTIVE",
-      "score": 31,
-      "reliability": "HIGH",
-      "recommendation": "TRACK ONLY",
-      "categories": [
-        "PPP",
-        "SOG",
-        "HIT",
-        "G",
-        "A",
-        "PTS"
-      ],
-      "signals": [
-        {
-          "type": "PP_ROLE_UP",
-          "label": "Рост PP TOI",
-          "strong": true
-        },
-        {
-          "type": "PPP_UP",
-          "label": "Рост PPP",
-          "strong": false
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 863.8,
-          "recent": 989.0,
-          "delta": 125.2,
-          "ratio": 1.145
-        },
-        "ev_toi": {
-          "baseline": 759.0,
-          "recent": 919.0,
-          "delta": 160.0,
-          "ratio": 1.211
-        },
-        "pp_toi": {
-          "baseline": 104.8,
-          "recent": 166.0,
-          "delta": 61.2,
-          "ratio": 1.584
-        },
-        "sh_toi": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "sog": {
-          "baseline": 1.8,
-          "recent": 2.0,
-          "delta": 0.2,
-          "ratio": 1.111
-        },
-        "hit": {
-          "baseline": 3.6,
-          "recent": 3.0,
-          "delta": -0.6,
-          "ratio": 0.833
-        },
-        "blk": {
-          "baseline": 0.4,
-          "recent": 1.5,
-          "delta": 1.1,
-          "ratio": 3.75
-        },
-        "fow": {
-          "baseline": null,
-          "recent": 0.0,
-          "delta": null,
-          "ratio": null
-        },
-        "fo": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "pts": {
-          "baseline": 0.8,
-          "recent": 1.0,
-          "delta": 0.2,
-          "ratio": 1.25
-        },
-        "ppp": {
-          "baseline": 0.0,
-          "recent": 0.5,
-          "delta": 0.5,
-          "ratio": null
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "RETURNED_FROM_IR:NYI:matias maccelli:2026-11-13",
-          "type": "RETURNED_FROM_IR",
-          "team": "NYI",
-          "player": "Matias Maccelli",
-          "player_key": "matias maccelli",
-          "detected_at": "2026-11-13T06:03:30Z"
-        }
-      ],
-      "latest_final_game_date": "2026-11-12",
-      "latest_final_game_id": 2026020308
-    },
-    {
       "nhl_player_id": 8481481,
       "espn_player_id": 4316983,
       "name": "Blake Lizotte",
@@ -12207,6 +11263,152 @@
       ],
       "latest_final_game_date": "2026-11-12",
       "latest_final_game_id": 2026020304
+    },
+    {
+      "nhl_player_id": 8475287,
+      "espn_player_id": null,
+      "name": "Erik Haula",
+      "nhl_team": "LAK",
+      "position": "L",
+      "espn_status": "UNMATCHED",
+      "espn_team_id": null,
+      "percent_owned": null,
+      "nhl_roster_status": "ACTIVE",
+      "score": 30,
+      "reliability": "HIGH",
+      "recommendation": "WATCH",
+      "categories": [
+        "TOI",
+        "FOW"
+      ],
+      "signals": [
+        {
+          "type": "TOI_SURGE",
+          "label": "Рост TOI",
+          "strong": false
+        }
+      ],
+      "metrics": {
+        "toi": {
+          "baseline": 841.4,
+          "recent": 1027.5,
+          "delta": 186.1,
+          "ratio": 1.221
+        },
+        "ev_toi": {
+          "baseline": 617.8,
+          "recent": 841.0,
+          "delta": 223.2,
+          "ratio": 1.361
+        },
+        "pp_toi": {
+          "baseline": 123.4,
+          "recent": 49.5,
+          "delta": -73.9,
+          "ratio": 0.401
+        },
+        "sh_toi": {
+          "baseline": 100.2,
+          "recent": 137.0,
+          "delta": 36.8,
+          "ratio": 1.367
+        },
+        "sog": {
+          "baseline": 1.6,
+          "recent": 0.5,
+          "delta": -1.1,
+          "ratio": 0.312
+        },
+        "hit": {
+          "baseline": 4.8,
+          "recent": 1.0,
+          "delta": -3.8,
+          "ratio": 0.208
+        },
+        "blk": {
+          "baseline": 0.4,
+          "recent": 0.0,
+          "delta": -0.4,
+          "ratio": 0.0
+        },
+        "fow": {
+          "baseline": 4.2,
+          "recent": 5.0,
+          "delta": 0.8,
+          "ratio": 1.19
+        },
+        "fo": {
+          "baseline": 6.6,
+          "recent": 10.5,
+          "delta": 3.9,
+          "ratio": 1.591
+        },
+        "pts": {
+          "baseline": 0.6,
+          "recent": 0.0,
+          "delta": -0.6,
+          "ratio": 0.0
+        },
+        "ppp": {
+          "baseline": 0.2,
+          "recent": 0.0,
+          "delta": -0.2,
+          "ratio": 0.0
+        },
+        "shp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        }
+      },
+      "baseline_games": 5,
+      "recent_games": 2,
+      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
+      "team_context": [
+        {
+          "id": "RETURNED_FROM_IR:LAK:kevin fiala:2026-11-13",
+          "type": "RETURNED_FROM_IR",
+          "team": "LAK",
+          "player": "Kevin Fiala",
+          "player_key": "kevin fiala",
+          "detected_at": "2026-11-13T06:03:30Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:LAK:kenny connors:2026-11-12",
+          "type": "ACTIVE_REMOVED",
+          "team": "LAK",
+          "player": "Kenny Connors",
+          "player_key": "kenny connors",
+          "detected_at": "2026-11-12T15:46:33Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:LAK:mats zuccarello:2026-11-10",
+          "type": "RETURNED_FROM_IR",
+          "team": "LAK",
+          "player": "Mats Zuccarello",
+          "player_key": "mats zuccarello",
+          "detected_at": "2026-11-10T23:43:51Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:LAK:martin chromiak:2026-11-08",
+          "type": "ACTIVE_REMOVED",
+          "team": "LAK",
+          "player": "Martin Chromiak",
+          "player_key": "martin chromiak",
+          "detected_at": "2026-11-08T18:29:55Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:LAK:alex turcotte:2026-11-07",
+          "type": "RETURNED_FROM_IR",
+          "team": "LAK",
+          "player": "Alex Turcotte",
+          "player_key": "alex turcotte",
+          "detected_at": "2026-11-07T20:29:38Z"
+        }
+      ],
+      "latest_final_game_date": "2026-11-12",
+      "latest_final_game_id": 2026020308
     },
     {
       "nhl_player_id": 8479996,
@@ -17109,6 +16311,158 @@
       "latest_final_game_id": 2026020296
     },
     {
+      "nhl_player_id": 8482124,
+      "espn_player_id": null,
+      "name": "Quinton Byfield",
+      "nhl_team": "LAK",
+      "position": "R",
+      "espn_status": "UNMATCHED",
+      "espn_team_id": null,
+      "percent_owned": null,
+      "nhl_roster_status": "ACTIVE",
+      "score": 24,
+      "reliability": "HIGH",
+      "recommendation": "WATCH",
+      "categories": [
+        "SHP",
+        "SOG",
+        "FOW"
+      ],
+      "signals": [
+        {
+          "type": "SH_ROLE_UP",
+          "label": "Рост SH TOI",
+          "strong": true
+        },
+        {
+          "type": "PPP_UP",
+          "label": "Рост PPP",
+          "strong": false
+        }
+      ],
+      "metrics": {
+        "toi": {
+          "baseline": 1241.0,
+          "recent": 1183.5,
+          "delta": -57.5,
+          "ratio": 0.954
+        },
+        "ev_toi": {
+          "baseline": 888.4,
+          "recent": 846.0,
+          "delta": -42.4,
+          "ratio": 0.952
+        },
+        "pp_toi": {
+          "baseline": 277.8,
+          "recent": 171.0,
+          "delta": -106.8,
+          "ratio": 0.616
+        },
+        "sh_toi": {
+          "baseline": 74.8,
+          "recent": 166.5,
+          "delta": 91.7,
+          "ratio": 2.226
+        },
+        "sog": {
+          "baseline": 3.2,
+          "recent": 3.5,
+          "delta": 0.3,
+          "ratio": 1.094
+        },
+        "hit": {
+          "baseline": 0.2,
+          "recent": 1.0,
+          "delta": 0.8,
+          "ratio": 5.0
+        },
+        "blk": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "fow": {
+          "baseline": 12.0,
+          "recent": 12.0,
+          "delta": 0.0,
+          "ratio": 1.0
+        },
+        "fo": {
+          "baseline": 19.8,
+          "recent": 22.0,
+          "delta": 2.2,
+          "ratio": 1.111
+        },
+        "pts": {
+          "baseline": 0.8,
+          "recent": 0.5,
+          "delta": -0.3,
+          "ratio": 0.625
+        },
+        "ppp": {
+          "baseline": 0.4,
+          "recent": 0.5,
+          "delta": 0.1,
+          "ratio": 1.25
+        },
+        "shp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        }
+      },
+      "baseline_games": 5,
+      "recent_games": 2,
+      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
+      "team_context": [
+        {
+          "id": "RETURNED_FROM_IR:LAK:kevin fiala:2026-11-13",
+          "type": "RETURNED_FROM_IR",
+          "team": "LAK",
+          "player": "Kevin Fiala",
+          "player_key": "kevin fiala",
+          "detected_at": "2026-11-13T06:03:30Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:LAK:kenny connors:2026-11-12",
+          "type": "ACTIVE_REMOVED",
+          "team": "LAK",
+          "player": "Kenny Connors",
+          "player_key": "kenny connors",
+          "detected_at": "2026-11-12T15:46:33Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:LAK:mats zuccarello:2026-11-10",
+          "type": "RETURNED_FROM_IR",
+          "team": "LAK",
+          "player": "Mats Zuccarello",
+          "player_key": "mats zuccarello",
+          "detected_at": "2026-11-10T23:43:51Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:LAK:martin chromiak:2026-11-08",
+          "type": "ACTIVE_REMOVED",
+          "team": "LAK",
+          "player": "Martin Chromiak",
+          "player_key": "martin chromiak",
+          "detected_at": "2026-11-08T18:29:55Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:LAK:alex turcotte:2026-11-07",
+          "type": "RETURNED_FROM_IR",
+          "team": "LAK",
+          "player": "Alex Turcotte",
+          "player_key": "alex turcotte",
+          "detected_at": "2026-11-07T20:29:38Z"
+        }
+      ],
+      "latest_final_game_date": "2026-11-12",
+      "latest_final_game_id": 2026020308
+    },
+    {
       "nhl_player_id": 8480797,
       "espn_player_id": 4352750,
       "name": "Joel Farabee",
@@ -17835,7 +17189,7 @@
         {
           "type": "SH_ROLE_UP",
           "label": "Рост SH TOI",
-          "strong": true
+          "strong": false
         }
       ],
       "metrics": {
@@ -17847,9 +17201,9 @@
         },
         "ev_toi": {
           "baseline": 521.6,
-          "recent": 468.0,
-          "delta": -53.6,
-          "ratio": 0.897
+          "recent": 500.5,
+          "delta": -21.1,
+          "ratio": 0.96
         },
         "pp_toi": {
           "baseline": 21.6,
@@ -17859,9 +17213,9 @@
         },
         "sh_toi": {
           "baseline": 63.6,
-          "recent": 205.0,
-          "delta": 141.4,
-          "ratio": 3.223
+          "recent": 147.5,
+          "delta": 83.9,
+          "ratio": 2.319
         },
         "sog": {
           "baseline": 1.2,
@@ -17883,7 +17237,7 @@
         },
         "fow": {
           "baseline": null,
-          "recent": 0.0,
+          "recent": null,
           "delta": null,
           "ratio": null
         },
@@ -20499,152 +19853,6 @@
       "latest_final_game_id": 2026020301
     },
     {
-      "nhl_player_id": 8479998,
-      "espn_player_id": null,
-      "name": "Mikey Anderson",
-      "nhl_team": "LAK",
-      "position": "D",
-      "espn_status": "UNMATCHED",
-      "espn_team_id": null,
-      "percent_owned": null,
-      "nhl_roster_status": "ACTIVE",
-      "score": 18,
-      "reliability": "HIGH",
-      "recommendation": "WATCH",
-      "categories": [
-        "SHP",
-        "BLK"
-      ],
-      "signals": [
-        {
-          "type": "SH_ROLE_UP",
-          "label": "Рост SH TOI",
-          "strong": true
-        }
-      ],
-      "metrics": {
-        "toi": {
-          "baseline": 1115.0,
-          "recent": 1266.5,
-          "delta": 151.5,
-          "ratio": 1.136
-        },
-        "ev_toi": {
-          "baseline": 957.6,
-          "recent": 1130.0,
-          "delta": 172.4,
-          "ratio": 1.18
-        },
-        "pp_toi": {
-          "baseline": 0.4,
-          "recent": 0.0,
-          "delta": -0.4,
-          "ratio": 0.0
-        },
-        "sh_toi": {
-          "baseline": 157.0,
-          "recent": 309.0,
-          "delta": 152.0,
-          "ratio": 1.968
-        },
-        "sog": {
-          "baseline": 0.4,
-          "recent": 0.5,
-          "delta": 0.1,
-          "ratio": 1.25
-        },
-        "hit": {
-          "baseline": 1.2,
-          "recent": 1.0,
-          "delta": -0.2,
-          "ratio": 0.833
-        },
-        "blk": {
-          "baseline": 2.0,
-          "recent": 3.0,
-          "delta": 1.0,
-          "ratio": 1.5
-        },
-        "fow": {
-          "baseline": null,
-          "recent": 0.0,
-          "delta": null,
-          "ratio": null
-        },
-        "fo": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "pts": {
-          "baseline": 0.4,
-          "recent": 0.0,
-          "delta": -0.4,
-          "ratio": 0.0
-        },
-        "ppp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        },
-        "shp": {
-          "baseline": 0.0,
-          "recent": 0.0,
-          "delta": 0.0,
-          "ratio": null
-        }
-      },
-      "baseline_games": 5,
-      "recent_games": 2,
-      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
-      "team_context": [
-        {
-          "id": "RETURNED_FROM_IR:LAK:kevin fiala:2026-11-13",
-          "type": "RETURNED_FROM_IR",
-          "team": "LAK",
-          "player": "Kevin Fiala",
-          "player_key": "kevin fiala",
-          "detected_at": "2026-11-13T06:03:30Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:LAK:kenny connors:2026-11-12",
-          "type": "ACTIVE_REMOVED",
-          "team": "LAK",
-          "player": "Kenny Connors",
-          "player_key": "kenny connors",
-          "detected_at": "2026-11-12T15:46:33Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:LAK:mats zuccarello:2026-11-10",
-          "type": "RETURNED_FROM_IR",
-          "team": "LAK",
-          "player": "Mats Zuccarello",
-          "player_key": "mats zuccarello",
-          "detected_at": "2026-11-10T23:43:51Z"
-        },
-        {
-          "id": "ACTIVE_REMOVED:LAK:martin chromiak:2026-11-08",
-          "type": "ACTIVE_REMOVED",
-          "team": "LAK",
-          "player": "Martin Chromiak",
-          "player_key": "martin chromiak",
-          "detected_at": "2026-11-08T18:29:55Z"
-        },
-        {
-          "id": "RETURNED_FROM_IR:LAK:alex turcotte:2026-11-07",
-          "type": "RETURNED_FROM_IR",
-          "team": "LAK",
-          "player": "Alex Turcotte",
-          "player_key": "alex turcotte",
-          "detected_at": "2026-11-07T20:29:38Z"
-        }
-      ],
-      "latest_final_game_date": "2026-11-12",
-      "latest_final_game_id": 2026020308
-    },
-    {
       "nhl_player_id": 8479410,
       "espn_player_id": 4024868,
       "name": "Mikhail Sergachev",
@@ -22263,9 +21471,9 @@
         },
         "fow": {
           "baseline": 9.8,
-          "recent": 8.0,
-          "delta": -1.8,
-          "ratio": 0.816
+          "recent": 8.5,
+          "delta": -1.3,
+          "ratio": 0.867
         },
         "fo": {
           "baseline": 18.2,
@@ -22516,15 +21724,15 @@
         },
         "ev_toi": {
           "baseline": 845.2,
-          "recent": 953.0,
-          "delta": 107.8,
-          "ratio": 1.128
+          "recent": 988.0,
+          "delta": 142.8,
+          "ratio": 1.169
         },
         "pp_toi": {
           "baseline": 163.6,
-          "recent": 166.0,
-          "delta": 2.4,
-          "ratio": 1.015
+          "recent": 162.0,
+          "delta": -1.6,
+          "ratio": 0.99
         },
         "sh_toi": {
           "baseline": 1.2,
@@ -25467,21 +24675,21 @@
         },
         "ev_toi": {
           "baseline": 954.2,
-          "recent": 1036.0,
-          "delta": 81.8,
-          "ratio": 1.086
+          "recent": 1155.5,
+          "delta": 201.3,
+          "ratio": 1.211
         },
         "pp_toi": {
           "baseline": 205.0,
-          "recent": 166.0,
-          "delta": -39.0,
-          "ratio": 0.81
+          "recent": 154.5,
+          "delta": -50.5,
+          "ratio": 0.754
         },
         "sh_toi": {
           "baseline": 148.4,
-          "recent": 160.0,
-          "delta": 11.6,
-          "ratio": 1.078
+          "recent": 141.5,
+          "delta": -6.9,
+          "ratio": 0.954
         },
         "sog": {
           "baseline": 2.6,
@@ -29228,9 +28436,9 @@
         },
         "ev_toi": {
           "baseline": 1126.6,
-          "recent": 1057.0,
-          "delta": -69.6,
-          "ratio": 0.938
+          "recent": 1151.0,
+          "delta": 24.4,
+          "ratio": 1.022
         },
         "pp_toi": {
           "baseline": 3.8,
@@ -29240,9 +28448,9 @@
         },
         "sh_toi": {
           "baseline": 223.4,
-          "recent": 265.0,
-          "delta": 41.6,
-          "ratio": 1.186
+          "recent": 168.5,
+          "delta": -54.9,
+          "ratio": 0.754
         },
         "sog": {
           "baseline": 0.0,
@@ -29264,7 +28472,7 @@
         },
         "fow": {
           "baseline": null,
-          "recent": 0.0,
+          "recent": null,
           "delta": null,
           "ratio": null
         },
@@ -29566,15 +28774,15 @@
         },
         "ev_toi": {
           "baseline": 803.2,
-          "recent": 576.0,
-          "delta": -227.2,
-          "ratio": 0.717
+          "recent": 685.5,
+          "delta": -117.7,
+          "ratio": 0.853
         },
         "pp_toi": {
           "baseline": 160.0,
-          "recent": 97.0,
-          "delta": -63.0,
-          "ratio": 0.606
+          "recent": 48.5,
+          "delta": -111.5,
+          "ratio": 0.303
         },
         "sh_toi": {
           "baseline": 0.0,
@@ -32498,6 +31706,152 @@
       ],
       "latest_final_game_date": "2026-11-11",
       "latest_final_game_id": 2026020297
+    },
+    {
+      "nhl_player_id": 8479675,
+      "espn_player_id": null,
+      "name": "Trevor Moore",
+      "nhl_team": "LAK",
+      "position": "L",
+      "espn_status": "UNMATCHED",
+      "espn_team_id": null,
+      "percent_owned": null,
+      "nhl_roster_status": "ACTIVE",
+      "score": 15,
+      "reliability": "HIGH",
+      "recommendation": "WATCH",
+      "categories": [
+        "SOG",
+        "HIT"
+      ],
+      "signals": [
+        {
+          "type": "PERIPHERAL_UP",
+          "label": "Рост SOG/HIT/BLK",
+          "strong": false
+        }
+      ],
+      "metrics": {
+        "toi": {
+          "baseline": 1031.8,
+          "recent": 959.5,
+          "delta": -72.3,
+          "ratio": 0.93
+        },
+        "ev_toi": {
+          "baseline": 816.4,
+          "recent": 796.0,
+          "delta": -20.4,
+          "ratio": 0.975
+        },
+        "pp_toi": {
+          "baseline": 87.6,
+          "recent": 36.0,
+          "delta": -51.6,
+          "ratio": 0.411
+        },
+        "sh_toi": {
+          "baseline": 127.8,
+          "recent": 127.5,
+          "delta": -0.3,
+          "ratio": 0.998
+        },
+        "sog": {
+          "baseline": 2.2,
+          "recent": 3.0,
+          "delta": 0.8,
+          "ratio": 1.364
+        },
+        "hit": {
+          "baseline": 0.2,
+          "recent": 2.0,
+          "delta": 1.8,
+          "ratio": 10.0
+        },
+        "blk": {
+          "baseline": 0.4,
+          "recent": 0.0,
+          "delta": -0.4,
+          "ratio": 0.0
+        },
+        "fow": {
+          "baseline": null,
+          "recent": null,
+          "delta": null,
+          "ratio": null
+        },
+        "fo": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "pts": {
+          "baseline": 0.4,
+          "recent": 0.5,
+          "delta": 0.1,
+          "ratio": 1.25
+        },
+        "ppp": {
+          "baseline": 0.2,
+          "recent": 0.0,
+          "delta": -0.2,
+          "ratio": 0.0
+        },
+        "shp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        }
+      },
+      "baseline_games": 5,
+      "recent_games": 2,
+      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
+      "team_context": [
+        {
+          "id": "RETURNED_FROM_IR:LAK:kevin fiala:2026-11-13",
+          "type": "RETURNED_FROM_IR",
+          "team": "LAK",
+          "player": "Kevin Fiala",
+          "player_key": "kevin fiala",
+          "detected_at": "2026-11-13T06:03:30Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:LAK:kenny connors:2026-11-12",
+          "type": "ACTIVE_REMOVED",
+          "team": "LAK",
+          "player": "Kenny Connors",
+          "player_key": "kenny connors",
+          "detected_at": "2026-11-12T15:46:33Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:LAK:mats zuccarello:2026-11-10",
+          "type": "RETURNED_FROM_IR",
+          "team": "LAK",
+          "player": "Mats Zuccarello",
+          "player_key": "mats zuccarello",
+          "detected_at": "2026-11-10T23:43:51Z"
+        },
+        {
+          "id": "ACTIVE_REMOVED:LAK:martin chromiak:2026-11-08",
+          "type": "ACTIVE_REMOVED",
+          "team": "LAK",
+          "player": "Martin Chromiak",
+          "player_key": "martin chromiak",
+          "detected_at": "2026-11-08T18:29:55Z"
+        },
+        {
+          "id": "RETURNED_FROM_IR:LAK:alex turcotte:2026-11-07",
+          "type": "RETURNED_FROM_IR",
+          "team": "LAK",
+          "player": "Alex Turcotte",
+          "player_key": "alex turcotte",
+          "detected_at": "2026-11-07T20:29:38Z"
+        }
+      ],
+      "latest_final_game_date": "2026-11-12",
+      "latest_final_game_id": 2026020308
     },
     {
       "nhl_player_id": 8478460,
@@ -36595,9 +35949,9 @@
         },
         "ev_toi": {
           "baseline": 1004.0,
-          "recent": 51.0,
-          "delta": -953.0,
-          "ratio": 0.051
+          "recent": 549.0,
+          "delta": -455.0,
+          "ratio": 0.547
         },
         "pp_toi": {
           "baseline": 0.8,
@@ -36607,9 +35961,9 @@
         },
         "sh_toi": {
           "baseline": 146.6,
-          "recent": 0.0,
-          "delta": -146.6,
-          "ratio": 0.0
+          "recent": 57.5,
+          "delta": -89.1,
+          "ratio": 0.392
         },
         "sog": {
           "baseline": 1.4,
@@ -36631,7 +35985,7 @@
         },
         "fow": {
           "baseline": null,
-          "recent": 0.0,
+          "recent": null,
           "delta": null,
           "ratio": null
         },
@@ -36826,21 +36180,21 @@
         },
         "ev_toi": {
           "baseline": 872.2,
-          "recent": 865.0,
-          "delta": -7.2,
-          "ratio": 0.992
+          "recent": 893.5,
+          "delta": 21.3,
+          "ratio": 1.024
         },
         "pp_toi": {
           "baseline": 189.6,
-          "recent": 166.0,
-          "delta": -23.6,
-          "ratio": 0.876
+          "recent": 83.0,
+          "delta": -106.6,
+          "ratio": 0.438
         },
         "sh_toi": {
           "baseline": 182.2,
-          "recent": 86.0,
-          "delta": -96.2,
-          "ratio": 0.472
+          "recent": 109.0,
+          "delta": -73.2,
+          "ratio": 0.598
         },
         "sog": {
           "baseline": 2.4,
@@ -39682,15 +39036,15 @@
         },
         "ev_toi": {
           "baseline": 720.6,
-          "recent": 339.0,
-          "delta": -381.6,
-          "ratio": 0.47
+          "recent": 502.0,
+          "delta": -218.6,
+          "ratio": 0.697
         },
         "pp_toi": {
           "baseline": 218.4,
-          "recent": 0.0,
-          "delta": -218.4,
-          "ratio": 0.0
+          "recent": 80.5,
+          "delta": -137.9,
+          "ratio": 0.369
         },
         "sh_toi": {
           "baseline": 0.0,
@@ -39718,7 +39072,7 @@
         },
         "fow": {
           "baseline": null,
-          "recent": 0.0,
+          "recent": null,
           "delta": null,
           "ratio": null
         },
@@ -39921,15 +39275,15 @@
         },
         "ev_toi": {
           "baseline": 1450.6,
-          "recent": 1611.0,
-          "delta": 160.4,
-          "ratio": 1.111
+          "recent": 1511.5,
+          "delta": 60.9,
+          "ratio": 1.042
         },
         "pp_toi": {
           "baseline": 220.0,
-          "recent": 173.0,
-          "delta": -47.0,
-          "ratio": 0.786
+          "recent": 158.0,
+          "delta": -62.0,
+          "ratio": 0.718
         },
         "sh_toi": {
           "baseline": 15.0,
@@ -39957,7 +39311,7 @@
         },
         "fow": {
           "baseline": null,
-          "recent": 0.0,
+          "recent": null,
           "delta": null,
           "ratio": null
         },
@@ -41634,6 +40988,123 @@
       ],
       "latest_final_game_date": "2026-11-11",
       "latest_final_game_id": 2026020295
+    },
+    {
+      "nhl_player_id": 8485388,
+      "espn_player_id": 5291952,
+      "name": "Victor Eklund",
+      "nhl_team": "NYI",
+      "position": "R",
+      "espn_status": "ONTEAM",
+      "espn_team_id": 15,
+      "percent_owned": 6.62,
+      "nhl_roster_status": "ACTIVE",
+      "score": 6,
+      "reliability": "HIGH",
+      "recommendation": "TRACK ONLY",
+      "categories": [
+        "SOG",
+        "HIT",
+        "G",
+        "A",
+        "PTS"
+      ],
+      "signals": [
+        {
+          "type": "PPP_UP",
+          "label": "Рост PPP",
+          "strong": false
+        }
+      ],
+      "metrics": {
+        "toi": {
+          "baseline": 863.8,
+          "recent": 989.0,
+          "delta": 125.2,
+          "ratio": 1.145
+        },
+        "ev_toi": {
+          "baseline": 759.0,
+          "recent": 834.5,
+          "delta": 75.5,
+          "ratio": 1.099
+        },
+        "pp_toi": {
+          "baseline": 104.8,
+          "recent": 154.5,
+          "delta": 49.7,
+          "ratio": 1.474
+        },
+        "sh_toi": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "sog": {
+          "baseline": 1.8,
+          "recent": 2.0,
+          "delta": 0.2,
+          "ratio": 1.111
+        },
+        "hit": {
+          "baseline": 3.6,
+          "recent": 3.0,
+          "delta": -0.6,
+          "ratio": 0.833
+        },
+        "blk": {
+          "baseline": 0.4,
+          "recent": 1.5,
+          "delta": 1.1,
+          "ratio": 3.75
+        },
+        "fow": {
+          "baseline": null,
+          "recent": null,
+          "delta": null,
+          "ratio": null
+        },
+        "fo": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        },
+        "pts": {
+          "baseline": 0.8,
+          "recent": 1.0,
+          "delta": 0.2,
+          "ratio": 1.25
+        },
+        "ppp": {
+          "baseline": 0.0,
+          "recent": 0.5,
+          "delta": 0.5,
+          "ratio": null
+        },
+        "shp": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "delta": 0.0,
+          "ratio": null
+        }
+      },
+      "baseline_games": 5,
+      "recent_games": 2,
+      "role_outlook": "Изменение видно в двух последних завершённых матчах; устойчивость роли ещё нужно подтверждать.",
+      "team_context": [
+        {
+          "id": "RETURNED_FROM_IR:NYI:matias maccelli:2026-11-13",
+          "type": "RETURNED_FROM_IR",
+          "team": "NYI",
+          "player": "Matias Maccelli",
+          "player_key": "matias maccelli",
+          "detected_at": "2026-11-13T06:03:30Z"
+        }
+      ],
+      "latest_final_game_date": "2026-11-12",
+      "latest_final_game_id": 2026020308
     },
     {
       "nhl_player_id": 8478109,
