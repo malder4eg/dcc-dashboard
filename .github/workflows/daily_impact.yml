@@ -44,7 +44,7 @@ jobs:
         run: python -m pip install -r requirements.txt
 
       - name: Refresh NHL skater statistics
-        run: python nhl_radar.py
+        run: python nhl_radar.py --strict
 
       - name: Rank all completed NHL games for DCC
         run: python daily_impact.py
