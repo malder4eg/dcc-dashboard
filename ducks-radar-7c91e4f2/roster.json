@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-13 18:06 МСК",
+  "updated": "2026-11-13 20:27 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "15:06:51 11/13/2026",
+  "report_updated": "17:27:53 11/13/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 727,
-  "ir_count": 64,
+  "active_count": 725,
+  "ir_count": 67,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -1043,6 +1043,12 @@
           "position": "D"
         },
         {
+          "sweater": 54,
+          "name": "GAVIN BRINDLEY",
+          "name_key": "gavin brindley",
+          "position": "C"
+        },
+        {
           "sweater": 62,
           "name": "ARTTURI LEHKONEN",
           "name_key": "artturi lehkonen",
@@ -1208,12 +1214,6 @@
           "position": "D"
         },
         {
-          "sweater": 83,
-          "name": "CONOR GARLAND",
-          "name_key": "conor garland",
-          "position": "R"
-        },
-        {
           "sweater": 89,
           "name": "MATTHEW KNIES",
           "name_key": "matthew knies",
@@ -1244,7 +1244,15 @@
           "position": "L"
         }
       ],
-      "ir": []
+      "ir": [
+        {
+          "sweater": 83,
+          "name": "CONOR GARLAND",
+          "name_key": "conor garland",
+          "position": "R",
+          "ir_date": "2026-11-13"
+        }
+      ]
     },
     "DAL": {
       "name": "Dallas Stars",
@@ -2488,12 +2496,6 @@
           "position": "D"
         },
         {
-          "sweater": 8,
-          "name": "JOHNATHAN KOVACEVIC",
-          "name_key": "johnathan kovacevic",
-          "position": "D"
-        },
-        {
           "sweater": 11,
           "name": "STEFAN NOESEN",
           "name_key": "stefan noesen",
@@ -2615,6 +2617,13 @@
         }
       ],
       "ir": [
+        {
+          "sweater": 8,
+          "name": "JOHNATHAN KOVACEVIC",
+          "name_key": "johnathan kovacevic",
+          "position": "D",
+          "ir_date": "2026-11-13"
+        },
         {
           "sweater": 39,
           "name": "ANTHONY MANTHA",
@@ -3036,12 +3045,6 @@
           "sweater": 30,
           "name": "SAMUEL ERSSON",
           "name_key": "samuel ersson",
-          "position": "G"
-        },
-        {
-          "sweater": 32,
-          "name": "JACKSON PARSONS",
-          "name_key": "jackson parsons",
           "position": "G"
         },
         {
@@ -4891,15 +4894,15 @@
       "name": "Winnipeg Jets",
       "active": [
         {
-          "sweater": 2,
-          "name": "DYLAN DEMELO",
-          "name_key": "dylan demelo",
-          "position": "D"
-        },
-        {
           "sweater": 4,
           "name": "NEAL PIONK",
           "name_key": "neal pionk",
+          "position": "D"
+        },
+        {
+          "sweater": 8,
+          "name": "HENRY THRUN",
+          "name_key": "henry thrun",
           "position": "D"
         },
         {
@@ -5031,6 +5034,13 @@
       ],
       "ir": [
         {
+          "sweater": 2,
+          "name": "DYLAN DEMELO",
+          "name_key": "dylan demelo",
+          "position": "D",
+          "ir_date": "2026-11-13"
+        },
+        {
           "sweater": 7,
           "name": "VLADISLAV NAMESTNIKOV",
           "name_key": "vladislav namestnikov",
@@ -5041,6 +5051,54 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_ADDED:COL:gavin brindley:2026-11-13",
+      "type": "ACTIVE_ADDED",
+      "team": "COL",
+      "player": "Gavin Brindley",
+      "player_key": "gavin brindley",
+      "detected_at": "2026-11-13T17:27:54Z"
+    },
+    {
+      "id": "NEW_IR:CBJ:conor garland:2026-11-13",
+      "type": "NEW_IR",
+      "team": "CBJ",
+      "player": "Conor Garland",
+      "player_key": "conor garland",
+      "detected_at": "2026-11-13T17:27:54Z"
+    },
+    {
+      "id": "NEW_IR:NJD:johnathan kovacevic:2026-11-13",
+      "type": "NEW_IR",
+      "team": "NJD",
+      "player": "Johnathan Kovacevic",
+      "player_key": "johnathan kovacevic",
+      "detected_at": "2026-11-13T17:27:54Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:OTT:jackson parsons:2026-11-13",
+      "type": "ACTIVE_REMOVED",
+      "team": "OTT",
+      "player": "Jackson Parsons",
+      "player_key": "jackson parsons",
+      "detected_at": "2026-11-13T17:27:54Z"
+    },
+    {
+      "id": "NEW_IR:WPG:dylan demelo:2026-11-13",
+      "type": "NEW_IR",
+      "team": "WPG",
+      "player": "Dylan DeMelo",
+      "player_key": "dylan demelo",
+      "detected_at": "2026-11-13T17:27:54Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:WPG:henry thrun:2026-11-13",
+      "type": "ACTIVE_ADDED",
+      "team": "WPG",
+      "player": "Henry Thrun",
+      "player_key": "henry thrun",
+      "detected_at": "2026-11-13T17:27:54Z"
+    },
     {
       "id": "NEW_IR:BUF:konsta helenius:2026-11-13",
       "type": "NEW_IR",
