@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-12 20:51 МСК",
+  "updated": "2026-11-13 09:03 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "17:51:12 11/12/2026",
+  "report_updated": "06:03:30 11/13/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 724,
-  "ir_count": 67,
+  "active_count": 727,
+  "ir_count": 64,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -414,6 +414,12 @@
           "position": "L"
         },
         {
+          "sweater": 34,
+          "name": "ALEX LYON",
+          "name_key": "alex lyon",
+          "position": "G"
+        },
+        {
           "sweater": 46,
           "name": "LOUIS CREVIER",
           "name_key": "louis crevier",
@@ -460,12 +466,6 @@
           "name": "COLTEN ELLIS",
           "name_key": "colten ellis",
           "position": "G"
-        },
-        {
-          "sweater": 94,
-          "name": "KONSTA HELENIUS",
-          "name_key": "konsta helenius",
-          "position": "C"
         }
       ],
       "ir": [
@@ -484,11 +484,11 @@
           "ir_date": "2026-10-12"
         },
         {
-          "sweater": 34,
-          "name": "ALEX LYON",
-          "name_key": "alex lyon",
-          "position": "G",
-          "ir_date": "2026-10-01"
+          "sweater": 94,
+          "name": "KONSTA HELENIUS",
+          "name_key": "konsta helenius",
+          "position": "C",
+          "ir_date": "2026-11-12"
         }
       ]
     },
@@ -927,6 +927,12 @@
           "position": "C"
         },
         {
+          "sweater": 88,
+          "name": "PATRICK KANE",
+          "name_key": "patrick kane",
+          "position": "R"
+        },
+        {
           "sweater": 91,
           "name": "FRANK NAZAR",
           "name_key": "frank nazar",
@@ -946,13 +952,6 @@
           "name_key": "bowen byram",
           "position": "D",
           "ir_date": "2026-11-03"
-        },
-        {
-          "sweater": 88,
-          "name": "PATRICK KANE",
-          "name_key": "patrick kane",
-          "position": "R",
-          "ir_date": "2026-11-08"
         }
       ]
     },
@@ -1252,14 +1251,14 @@
       "active": [
         {
           "sweater": 1,
-          "name": "CASEY DESMITH",
-          "name_key": "casey desmith",
+          "name": "REMI POIRIER",
+          "name_key": "remi poirier",
           "position": "G"
         },
         {
           "sweater": 1,
-          "name": "REMI POIRIER",
-          "name_key": "remi poirier",
+          "name": "CASEY DESMITH",
+          "name_key": "casey desmith",
           "position": "G"
         },
         {
@@ -1818,12 +1817,6 @@
           "position": "L"
         },
         {
-          "sweater": 38,
-          "name": "JACK DEVINE",
-          "name_key": "jack devine",
-          "position": "R"
-        },
-        {
           "sweater": 40,
           "name": "AKIRA SCHMID",
           "name_key": "akira schmid",
@@ -1942,6 +1935,12 @@
           "position": "C"
         },
         {
+          "sweater": 22,
+          "name": "KEVIN FIALA",
+          "name_key": "kevin fiala",
+          "position": "L"
+        },
+        {
           "sweater": 31,
           "name": "ANTON FORSBERG",
           "name_key": "anton forsberg",
@@ -2014,15 +2013,7 @@
           "position": "D"
         }
       ],
-      "ir": [
-        {
-          "sweater": 22,
-          "name": "KEVIN FIALA",
-          "name_key": "kevin fiala",
-          "position": "L",
-          "ir_date": "2026-02-17"
-        }
-      ]
+      "ir": []
     },
     "MIN": {
       "name": "Minnesota Wild",
@@ -2533,6 +2524,12 @@
           "position": "C"
         },
         {
+          "sweater": 18,
+          "name": "VLADISLAV KOLYACHONOK",
+          "name_key": "vladislav kolyachonok",
+          "position": "D"
+        },
+        {
           "sweater": 22,
           "name": "BRETT PESCE",
           "name_key": "brett pesce",
@@ -2739,6 +2736,12 @@
           "position": "C"
         },
         {
+          "sweater": 63,
+          "name": "MATIAS MACCELLI",
+          "name_key": "matias maccelli",
+          "position": "L"
+        },
+        {
           "sweater": 71,
           "name": "BEN HUTTON",
           "name_key": "ben hutton",
@@ -2770,13 +2773,6 @@
           "name_key": "alexander romanov",
           "position": "D",
           "ir_date": "2026-10-19"
-        },
-        {
-          "sweater": 63,
-          "name": "MATIAS MACCELLI",
-          "name_key": "matias maccelli",
-          "position": "L",
-          "ir_date": "2026-10-26"
         },
         {
           "sweater": 64,
@@ -5046,6 +5042,62 @@
   },
   "events": [
     {
+      "id": "NEW_IR:BUF:konsta helenius:2026-11-13",
+      "type": "NEW_IR",
+      "team": "BUF",
+      "player": "Konsta Helenius",
+      "player_key": "konsta helenius",
+      "detected_at": "2026-11-13T06:03:30Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:BUF:alex lyon:2026-11-13",
+      "type": "RETURNED_FROM_IR",
+      "team": "BUF",
+      "player": "Alex Lyon",
+      "player_key": "alex lyon",
+      "detected_at": "2026-11-13T06:03:30Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:CHI:patrick kane:2026-11-13",
+      "type": "RETURNED_FROM_IR",
+      "team": "CHI",
+      "player": "Patrick Kane",
+      "player_key": "patrick kane",
+      "detected_at": "2026-11-13T06:03:30Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:FLA:jack devine:2026-11-13",
+      "type": "ACTIVE_REMOVED",
+      "team": "FLA",
+      "player": "Jack Devine",
+      "player_key": "jack devine",
+      "detected_at": "2026-11-13T06:03:30Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:LAK:kevin fiala:2026-11-13",
+      "type": "RETURNED_FROM_IR",
+      "team": "LAK",
+      "player": "Kevin Fiala",
+      "player_key": "kevin fiala",
+      "detected_at": "2026-11-13T06:03:30Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:NJD:vladislav kolyachonok:2026-11-13",
+      "type": "ACTIVE_ADDED",
+      "team": "NJD",
+      "player": "Vladislav Kolyachonok",
+      "player_key": "vladislav kolyachonok",
+      "detected_at": "2026-11-13T06:03:30Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:NYI:matias maccelli:2026-11-13",
+      "type": "RETURNED_FROM_IR",
+      "team": "NYI",
+      "player": "Matias Maccelli",
+      "player_key": "matias maccelli",
+      "detected_at": "2026-11-13T06:03:30Z"
+    },
+    {
       "id": "ACTIVE_REMOVED:LAK:kenny connors:2026-11-12",
       "type": "ACTIVE_REMOVED",
       "team": "LAK",
@@ -5740,94 +5792,6 @@
       "player": "Jake Livanavage",
       "player_key": "jake livanavage",
       "detected_at": "2026-11-06T18:27:42Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:CGY:devin cooley:2026-11-05",
-      "type": "RETURNED_FROM_IR",
-      "team": "CGY",
-      "player": "Devin Cooley",
-      "player_key": "devin cooley",
-      "detected_at": "2026-11-05T23:36:53Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:CGY:arsenii sergeev:2026-11-05",
-      "type": "ACTIVE_REMOVED",
-      "team": "CGY",
-      "player": "Arsenii Sergeev",
-      "player_key": "arsenii sergeev",
-      "detected_at": "2026-11-05T23:36:53Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:CBJ:danton heinen:2026-11-05",
-      "type": "ACTIVE_REMOVED",
-      "team": "CBJ",
-      "player": "Danton Heinen",
-      "player_key": "danton heinen",
-      "detected_at": "2026-11-05T23:36:53Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:CBJ:emil andrae:2026-11-05",
-      "type": "ACTIVE_REMOVED",
-      "team": "CBJ",
-      "player": "Emil Andrae",
-      "player_key": "emil andrae",
-      "detected_at": "2026-11-05T23:36:53Z"
-    },
-    {
-      "id": "NEW_IR:EDM:isaac howard:2026-11-05",
-      "type": "NEW_IR",
-      "team": "EDM",
-      "player": "Isaac Howard",
-      "player_key": "isaac howard",
-      "detected_at": "2026-11-05T23:36:53Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:NYI:ben hutton:2026-11-05",
-      "type": "ACTIVE_ADDED",
-      "team": "NYI",
-      "player": "Ben Hutton",
-      "player_key": "ben hutton",
-      "detected_at": "2026-11-05T23:36:53Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:SEA:jagger firkus:2026-11-05",
-      "type": "ACTIVE_ADDED",
-      "team": "SEA",
-      "player": "Jagger Firkus",
-      "player_key": "jagger firkus",
-      "detected_at": "2026-11-05T23:36:53Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:VGK:victor olofsson:2026-11-05",
-      "type": "RETURNED_FROM_IR",
-      "team": "VGK",
-      "player": "Victor Olofsson",
-      "player_key": "victor olofsson",
-      "detected_at": "2026-11-05T23:36:53Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:DET:michal postava:2026-11-05",
-      "type": "ACTIVE_ADDED",
-      "team": "DET",
-      "player": "Michal Postava",
-      "player_key": "michal postava",
-      "detected_at": "2026-11-05T17:59:22Z"
-    },
-    {
-      "id": "NEW_IR:NYR:sean durzi:2026-11-05",
-      "type": "NEW_IR",
-      "team": "NYR",
-      "player": "Sean Durzi",
-      "player_key": "sean durzi",
-      "detected_at": "2026-11-05T17:59:22Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:WPG:brayden yager:2026-11-05",
-      "type": "ACTIVE_ADDED",
-      "team": "WPG",
-      "player": "Brayden Yager",
-      "player_key": "brayden yager",
-      "detected_at": "2026-11-05T17:59:22Z"
     }
   ]
 }
