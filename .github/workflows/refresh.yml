@@ -67,7 +67,7 @@ jobs:
         run: python refresh_league.py
 
       - name: Build personal NHL Fantasy Radar
-        run: python nhl_radar.py
+        run: python nhl_radar.py --strict
 
       # Backup to the separate daily_impact workflow: GitHub sometimes drops
       # scheduled starts entirely. Calculate impact inside a working ESPN
