@@ -2,11 +2,13 @@ name: Refresh DCC table
 
 on:
   schedule:
-    # Fixed refreshes in Moscow time (UTC+3):
-    # 09:00, 10:00 and 13:00 MSK.
-    - cron: "0 6 * * *"
-    - cron: "0 7 * * *"
-    - cron: "0 10 * * *"
+    # Off-peak refreshes in Moscow time (UTC+3).
+    # GitHub scheduled workflows are least reliable exactly at :00,
+    # so run a few minutes later and keep one morning backup.
+    - cron: "7 6 * * *"   # 09:07 MSK
+    - cron: "37 6 * * *"  # 09:37 MSK backup
+    - cron: "7 7 * * *"   # 10:07 MSK
+    - cron: "7 10 * * *"  # 13:07 MSK control
 
   push:
     branches:
