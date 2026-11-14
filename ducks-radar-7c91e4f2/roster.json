@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-14 00:43 МСК",
+  "updated": "2026-11-14 09:00 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "21:43:03 11/13/2026",
+  "report_updated": "06:00:44 11/14/2026",
   "complete": true,
   "team_count": 32,
   "active_count": 725,
@@ -4541,12 +4541,6 @@
           "position": "D"
         },
         {
-          "sweater": 55,
-          "name": "GUILLAUME BRISEBOIS",
-          "name_key": "guillaume brisebois",
-          "position": "D"
-        },
-        {
           "sweater": 62,
           "name": "JACOB QUILLAN",
           "name_key": "jacob quillan",
@@ -4563,6 +4557,12 @@
           "name": "JAKE DEBRUSK",
           "name_key": "jake debrusk",
           "position": "L"
+        },
+        {
+          "sweater": 77,
+          "name": "FILIP CHYTIL",
+          "name_key": "filip chytil",
+          "position": "C"
         },
         {
           "sweater": 88,
@@ -4592,11 +4592,10 @@
           "ir_date": "2026-01-11"
         },
         {
-          "sweater": 77,
-          "name": "FILIP CHYTIL",
-          "name_key": "filip chytil",
-          "position": "C",
-          "ir_date": "2026-10-30"
+          "sweater": 55,
+          "name": "GUILLAUME BRISEBOIS",
+          "name_key": "guillaume brisebois",
+          "position": "D"
         }
       ]
     },
@@ -5051,6 +5050,22 @@
     }
   },
   "events": [
+    {
+      "id": "NEW_IR:VAN:guillaume brisebois:2026-11-14",
+      "type": "NEW_IR",
+      "team": "VAN",
+      "player": "Guillaume Brisebois",
+      "player_key": "guillaume brisebois",
+      "detected_at": "2026-11-14T06:00:44Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:VAN:filip chytil:2026-11-14",
+      "type": "RETURNED_FROM_IR",
+      "team": "VAN",
+      "player": "Filip Chytil",
+      "player_key": "filip chytil",
+      "detected_at": "2026-11-14T06:00:44Z"
+    },
     {
       "id": "ACTIVE_REMOVED:ANA:laurent brossoit:2026-11-13",
       "type": "ACTIVE_REMOVED",
@@ -5810,22 +5825,6 @@
       "player": "Gregor Biber",
       "player_key": "gregor biber",
       "detected_at": "2026-11-07T16:37:30Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:NYR:james reimer:2026-11-06",
-      "type": "ACTIVE_REMOVED",
-      "team": "NYR",
-      "player": "James Reimer",
-      "player_key": "james reimer",
-      "detected_at": "2026-11-06T23:30:25Z"
-    },
-    {
-      "id": "NEW_IR:UTA:kailer yamamoto:2026-11-06",
-      "type": "NEW_IR",
-      "team": "UTA",
-      "player": "Kailer Yamamoto",
-      "player_key": "kailer yamamoto",
-      "detected_at": "2026-11-06T23:30:25Z"
     }
   ]
 }
