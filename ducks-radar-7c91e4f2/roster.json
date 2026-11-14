@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-14 16:26 МСК",
+  "updated": "2026-11-14 19:33 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "13:26:03 11/14/2026",
+  "report_updated": "16:33:39 11/14/2026",
   "complete": true,
   "team_count": 32,
   "active_count": 725,
-  "ir_count": 67,
+  "ir_count": 65,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -661,16 +661,16 @@
           "position": "D"
         },
         {
-          "sweater": 6,
-          "name": "MIKE REILLY",
-          "name_key": "mike reilly",
-          "position": "D"
-        },
-        {
           "sweater": 8,
           "name": "JUUSO VALIMAKI",
           "name_key": "juuso valimaki",
           "position": "D"
+        },
+        {
+          "sweater": 11,
+          "name": "JORDAN STAAL",
+          "name_key": "jordan staal",
+          "position": "C"
         },
         {
           "sweater": 19,
@@ -787,15 +787,7 @@
           "position": "C"
         }
       ],
-      "ir": [
-        {
-          "sweater": 11,
-          "name": "JORDAN STAAL",
-          "name_key": "jordan staal",
-          "position": "C",
-          "ir_date": "2026-10-15"
-        }
-      ]
+      "ir": []
     },
     "CHI": {
       "name": "Chicago Blackhawks",
@@ -1276,12 +1268,6 @@
           "position": "D"
         },
         {
-          "sweater": 6,
-          "name": "LIAN BICHSEL",
-          "name_key": "lian bichsel",
-          "position": "D"
-        },
-        {
           "sweater": 12,
           "name": "RADEK FAKSA",
           "name_key": "radek faksa",
@@ -1348,6 +1334,12 @@
           "position": "D"
         },
         {
+          "sweater": 28,
+          "name": "KYLE BURROUGHS",
+          "name_key": "kyle burroughs",
+          "position": "D"
+        },
+        {
           "sweater": 29,
           "name": "JAKE OETTINGER",
           "name_key": "jake oettinger",
@@ -1391,6 +1383,13 @@
         }
       ],
       "ir": [
+        {
+          "sweater": 6,
+          "name": "LIAN BICHSEL",
+          "name_key": "lian bichsel",
+          "position": "D",
+          "ir_date": "2026-11-14"
+        },
         {
           "sweater": 10,
           "name": "OSKAR BÄCK",
@@ -2027,6 +2026,12 @@
           "position": "D"
         },
         {
+          "sweater": 7,
+          "name": "BROCK FABER",
+          "name_key": "brock faber",
+          "position": "D"
+        },
+        {
           "sweater": 10,
           "name": "BOBBY BRINK",
           "name_key": "bobby brink",
@@ -2153,15 +2158,7 @@
           "position": "L"
         }
       ],
-      "ir": [
-        {
-          "sweater": 7,
-          "name": "BROCK FABER",
-          "name_key": "brock faber",
-          "position": "D",
-          "ir_date": "2026-09-28"
-        }
-      ]
+      "ir": []
     },
     "MTL": {
       "name": "Montréal Canadiens",
@@ -3306,12 +3303,6 @@
           "position": "D"
         },
         {
-          "sweater": 7,
-          "name": "ILYA SOLOVYOV",
-          "name_key": "ilya solovyov",
-          "position": "D"
-        },
-        {
           "sweater": 14,
           "name": "NICK ROBERTSON",
           "name_key": "nick robertson",
@@ -3704,6 +3695,12 @@
           "position": "D"
         },
         {
+          "sweater": 55,
+          "name": "RYAN LINDGREN",
+          "name_key": "ryan lindgren",
+          "position": "D"
+        },
+        {
           "sweater": 57,
           "name": "JAGGER FIRKUS",
           "name_key": "jagger firkus",
@@ -3744,12 +3741,6 @@
           "name": "FREDDY GAUDREAU",
           "name_key": "freddy gaudreau",
           "position": "C"
-        },
-        {
-          "sweater": 96,
-          "name": "LOGAN MORRISON",
-          "name_key": "logan morrison",
-          "position": "C"
         }
       ],
       "ir": [
@@ -3766,13 +3757,6 @@
           "name_key": "curtis douglas",
           "position": "C",
           "ir_date": "2026-11-03"
-        },
-        {
-          "sweater": 55,
-          "name": "RYAN LINDGREN",
-          "name_key": "ryan lindgren",
-          "position": "D",
-          "ir_date": "2026-10-08"
         },
         {
           "sweater": 63,
@@ -5051,6 +5035,70 @@
     }
   },
   "events": [
+    {
+      "id": "RETURNED_FROM_IR:CAR:jordan staal:2026-11-14",
+      "type": "RETURNED_FROM_IR",
+      "team": "CAR",
+      "player": "Jordan Staal",
+      "player_key": "jordan staal",
+      "detected_at": "2026-11-14T16:33:39Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:CAR:mike reilly:2026-11-14",
+      "type": "ACTIVE_REMOVED",
+      "team": "CAR",
+      "player": "Mike Reilly",
+      "player_key": "mike reilly",
+      "detected_at": "2026-11-14T16:33:39Z"
+    },
+    {
+      "id": "NEW_IR:DAL:lian bichsel:2026-11-14",
+      "type": "NEW_IR",
+      "team": "DAL",
+      "player": "Lian Bichsel",
+      "player_key": "lian bichsel",
+      "detected_at": "2026-11-14T16:33:39Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:DAL:kyle burroughs:2026-11-14",
+      "type": "ACTIVE_ADDED",
+      "team": "DAL",
+      "player": "Kyle Burroughs",
+      "player_key": "kyle burroughs",
+      "detected_at": "2026-11-14T16:33:39Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:MIN:brock faber:2026-11-14",
+      "type": "RETURNED_FROM_IR",
+      "team": "MIN",
+      "player": "Brock Faber",
+      "player_key": "brock faber",
+      "detected_at": "2026-11-14T16:33:39Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:PIT:ilya solovyov:2026-11-14",
+      "type": "ACTIVE_REMOVED",
+      "team": "PIT",
+      "player": "Ilya Solovyov",
+      "player_key": "ilya solovyov",
+      "detected_at": "2026-11-14T16:33:39Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:SEA:ryan lindgren:2026-11-14",
+      "type": "RETURNED_FROM_IR",
+      "team": "SEA",
+      "player": "Ryan Lindgren",
+      "player_key": "ryan lindgren",
+      "detected_at": "2026-11-14T16:33:39Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:SEA:logan morrison:2026-11-14",
+      "type": "ACTIVE_REMOVED",
+      "team": "SEA",
+      "player": "Logan Morrison",
+      "player_key": "logan morrison",
+      "detected_at": "2026-11-14T16:33:39Z"
+    },
     {
       "id": "NEW_IR:VAN:guillaume brisebois:2026-11-14",
       "type": "NEW_IR",
