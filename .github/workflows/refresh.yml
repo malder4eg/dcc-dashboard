@@ -86,10 +86,38 @@ jobs:
 
       - name: Commit updated dashboard data
         id: commit
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Update DCC ESPN data"
-          file_pattern: "data.json analysis.json nhl_schedule.json players/*.json ducks-radar-7c91e4f2/*.json"
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data.json analysis.json nhl_schedule.json players/*.json ducks-radar-7c91e4f2/*.json
+
+          if git diff --cached --quiet; then
+            echo "changes_detected=false" >> "$GITHUB_OUTPUT"
+            echo "No dashboard data changes to publish."
+            exit 0
+          fi
+
+          git commit -m "Update DCC ESPN data"
+
+          for attempt in 1 2 3; do
+            git fetch origin main
+
+            if git rebase origin/main; then
+              if git push origin HEAD:main; then
+                echo "changes_detected=true" >> "$GITHUB_OUTPUT"
+                exit 0
+              fi
+            else
+              git rebase --abort || true
+            fi
+
+            echo "Push race on attempt $attempt; retrying from latest main."
+            sleep 4
+          done
+
+          echo "::error::Could not publish refreshed DCC data after 3 attempts."
+          exit 1
 
   deploy:
     needs: refresh
