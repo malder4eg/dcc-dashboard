@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-15 19:59 МСК",
+  "updated": "2026-11-16 08:59 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "16:59:25 11/15/2026",
+  "report_updated": "05:59:19 11/16/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 726,
-  "ir_count": 64,
+  "active_count": 728,
+  "ir_count": 65,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -21,6 +21,12 @@
           "sweater": 2,
           "name": "JACKSON LACOMBE",
           "name_key": "jackson lacombe",
+          "position": "D"
+        },
+        {
+          "sweater": 3,
+          "name": "IAN MOORE",
+          "name_key": "ian moore",
           "position": "D"
         },
         {
@@ -145,13 +151,6 @@
         }
       ],
       "ir": [
-        {
-          "sweater": 3,
-          "name": "IAN MOORE",
-          "name_key": "ian moore",
-          "position": "D",
-          "ir_date": "2026-09-28"
-        },
         {
           "sweater": 18,
           "name": "A.J. GREER",
@@ -944,6 +943,12 @@
     "COL": {
       "name": "Colorado Avalanche",
       "active": [
+        {
+          "sweater": 5,
+          "name": "MIKE REILLY",
+          "name_key": "mike reilly",
+          "position": "D"
+        },
         {
           "sweater": 7,
           "name": "DEVON TOEWS",
@@ -2188,12 +2193,6 @@
           "position": "C"
         },
         {
-          "sweater": 17,
-          "name": "JOSH ANDERSON",
-          "name_key": "josh anderson",
-          "position": "R"
-        },
-        {
           "sweater": 20,
           "name": "JURAJ SLAFKOVSKÝ",
           "name_key": "juraj slafkovsky",
@@ -2206,12 +2205,6 @@
           "position": "D"
         },
         {
-          "sweater": 22,
-          "name": "CHRIS KREIDER",
-          "name_key": "chris kreider",
-          "position": "L"
-        },
-        {
           "sweater": 24,
           "name": "PHILLIP DANAULT",
           "name_key": "phillip danault",
@@ -2222,6 +2215,12 @@
           "name": "JACOB FOWLER",
           "name_key": "jacob fowler",
           "position": "G"
+        },
+        {
+          "sweater": 37,
+          "name": "BRETT BERARD",
+          "name_key": "brett berard",
+          "position": "L"
         },
         {
           "sweater": 42,
@@ -2258,6 +2257,12 @@
           "name": "FLORIAN XHEKAJ",
           "name_key": "florian xhekaj",
           "position": "L"
+        },
+        {
+          "sweater": 64,
+          "name": "DAVID REINBACHER",
+          "name_key": "david reinbacher",
+          "position": "D"
         },
         {
           "sweater": 71,
@@ -2303,6 +2308,20 @@
         }
       ],
       "ir": [
+        {
+          "sweater": 17,
+          "name": "JOSH ANDERSON",
+          "name_key": "josh anderson",
+          "position": "R",
+          "ir_date": "2026-11-15"
+        },
+        {
+          "sweater": 22,
+          "name": "CHRIS KREIDER",
+          "name_key": "chris kreider",
+          "position": "L",
+          "ir_date": "2026-11-15"
+        },
         {
           "sweater": 35,
           "name": "SAMUEL MONTEMBEAULT",
@@ -5035,6 +5054,54 @@
   },
   "events": [
     {
+      "id": "RETURNED_FROM_IR:ANA:ian moore:2026-11-16",
+      "type": "RETURNED_FROM_IR",
+      "team": "ANA",
+      "player": "Ian Moore",
+      "player_key": "ian moore",
+      "detected_at": "2026-11-16T05:59:20Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:COL:mike reilly:2026-11-16",
+      "type": "ACTIVE_ADDED",
+      "team": "COL",
+      "player": "Mike Reilly",
+      "player_key": "mike reilly",
+      "detected_at": "2026-11-16T05:59:20Z"
+    },
+    {
+      "id": "NEW_IR:MTL:chris kreider:2026-11-16",
+      "type": "NEW_IR",
+      "team": "MTL",
+      "player": "Chris Kreider",
+      "player_key": "chris kreider",
+      "detected_at": "2026-11-16T05:59:20Z"
+    },
+    {
+      "id": "NEW_IR:MTL:josh anderson:2026-11-16",
+      "type": "NEW_IR",
+      "team": "MTL",
+      "player": "Josh Anderson",
+      "player_key": "josh anderson",
+      "detected_at": "2026-11-16T05:59:20Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:MTL:brett berard:2026-11-16",
+      "type": "ACTIVE_ADDED",
+      "team": "MTL",
+      "player": "Brett Berard",
+      "player_key": "brett berard",
+      "detected_at": "2026-11-16T05:59:20Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:MTL:david reinbacher:2026-11-16",
+      "type": "ACTIVE_ADDED",
+      "team": "MTL",
+      "player": "David Reinbacher",
+      "player_key": "david reinbacher",
+      "detected_at": "2026-11-16T05:59:20Z"
+    },
+    {
       "id": "ACTIVE_ADDED:VAN:nikita tolopilo:2026-11-15",
       "type": "ACTIVE_ADDED",
       "team": "VAN",
@@ -5673,142 +5740,6 @@
       "player": "Zac Jones",
       "player_key": "zac jones",
       "detected_at": "2026-11-09T16:07:09Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:NYR:marc del gaizo:2026-11-08",
-      "type": "ACTIVE_ADDED",
-      "team": "NYR",
-      "player": "Marc Del Gaizo",
-      "player_key": "marc del gaizo",
-      "detected_at": "2026-11-08T22:28:47Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:PIT:rutger mcgroarty:2026-11-08",
-      "type": "ACTIVE_ADDED",
-      "team": "PIT",
-      "player": "Rutger McGroarty",
-      "player_key": "rutger mcgroarty",
-      "detected_at": "2026-11-08T22:28:47Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:SEA:logan morrison:2026-11-08",
-      "type": "ACTIVE_ADDED",
-      "team": "SEA",
-      "player": "Logan Morrison",
-      "player_key": "logan morrison",
-      "detected_at": "2026-11-08T22:28:47Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:TBL:yanni gourde:2026-11-08",
-      "type": "ACTIVE_ADDED",
-      "team": "TBL",
-      "player": "Yanni Gourde",
-      "player_key": "yanni gourde",
-      "detected_at": "2026-11-08T22:28:47Z"
-    },
-    {
-      "id": "NEW_IR:CGY:kevin bahl:2026-11-08",
-      "type": "NEW_IR",
-      "team": "CGY",
-      "player": "Kevin Bahl",
-      "player_key": "kevin bahl",
-      "detected_at": "2026-11-08T18:29:55Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:CGY:brayden pachal:2026-11-08",
-      "type": "ACTIVE_ADDED",
-      "team": "CGY",
-      "player": "Brayden Pachal",
-      "player_key": "brayden pachal",
-      "detected_at": "2026-11-08T18:29:55Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:DET:john leonard:2026-11-08",
-      "type": "ACTIVE_REMOVED",
-      "team": "DET",
-      "player": "John Leonard",
-      "player_key": "john leonard",
-      "detected_at": "2026-11-08T18:29:55Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:DET:michal postava:2026-11-08",
-      "type": "ACTIVE_REMOVED",
-      "team": "DET",
-      "player": "Michal Postava",
-      "player_key": "michal postava",
-      "detected_at": "2026-11-08T18:29:55Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:DET:nate danielson:2026-11-08",
-      "type": "ACTIVE_REMOVED",
-      "team": "DET",
-      "player": "Nate Danielson",
-      "player_key": "nate danielson",
-      "detected_at": "2026-11-08T18:29:55Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:FLA:jack devine:2026-11-08",
-      "type": "ACTIVE_ADDED",
-      "team": "FLA",
-      "player": "Jack Devine",
-      "player_key": "jack devine",
-      "detected_at": "2026-11-08T18:29:55Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:LAK:martin chromiak:2026-11-08",
-      "type": "ACTIVE_REMOVED",
-      "team": "LAK",
-      "player": "Martin Chromiak",
-      "player_key": "martin chromiak",
-      "detected_at": "2026-11-08T18:29:55Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:OTT:linus ullmark:2026-11-08",
-      "type": "RETURNED_FROM_IR",
-      "team": "OTT",
-      "player": "Linus Ullmark",
-      "player_key": "linus ullmark",
-      "detected_at": "2026-11-08T18:29:55Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:OTT:jonas johansson:2026-11-08",
-      "type": "ACTIVE_REMOVED",
-      "team": "OTT",
-      "player": "Jonas Johansson",
-      "player_key": "jonas johansson",
-      "detected_at": "2026-11-08T18:29:55Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:TOR:cole mcward:2026-11-08",
-      "type": "ACTIVE_ADDED",
-      "team": "TOR",
-      "player": "Cole Mcward",
-      "player_key": "cole mcward",
-      "detected_at": "2026-11-08T18:29:55Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:TOR:artur akhtyamov:2026-11-08",
-      "type": "ACTIVE_REMOVED",
-      "team": "TOR",
-      "player": "Artur Akhtyamov",
-      "player_key": "artur akhtyamov",
-      "detected_at": "2026-11-08T18:29:55Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:UTA:gregor biber:2026-11-08",
-      "type": "ACTIVE_REMOVED",
-      "team": "UTA",
-      "player": "Gregor Biber",
-      "player_key": "gregor biber",
-      "detected_at": "2026-11-08T18:29:55Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:WPG:henry thrun:2026-11-08",
-      "type": "ACTIVE_ADDED",
-      "team": "WPG",
-      "player": "Henry Thrun",
-      "player_key": "henry thrun",
-      "detected_at": "2026-11-08T18:29:55Z"
     }
   ]
 }
