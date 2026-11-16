@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-16 16:35 МСК",
+  "updated": "2026-11-16 18:26 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "13:35:18 11/16/2026",
+  "report_updated": "15:26:03 11/16/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 728,
+  "active_count": 729,
   "ir_count": 65,
   "teams": {
     "ANA": {
@@ -3094,6 +3094,12 @@
           "position": "D"
         },
         {
+          "sweater": 54,
+          "name": "TYLER BOUCHER",
+          "name_key": "tyler boucher",
+          "position": "R"
+        },
+        {
           "sweater": 62,
           "name": "PHILIP TOMASINO",
           "name_key": "philip tomasino",
@@ -5053,6 +5059,14 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_ADDED:OTT:tyler boucher:2026-11-16",
+      "type": "ACTIVE_ADDED",
+      "team": "OTT",
+      "player": "Tyler Boucher",
+      "player_key": "tyler boucher",
+      "detected_at": "2026-11-16T15:26:03Z"
+    },
     {
       "id": "RETURNED_FROM_IR:ANA:ian moore:2026-11-16",
       "type": "RETURNED_FROM_IR",
