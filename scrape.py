@@ -211,6 +211,7 @@ def fetch_week(
         params=[
             ("view", "mMatchupScore"),
             ("view", "mScoreboard"),
+            ("matchupPeriodId", str(week)),
             ("scoringPeriodId", str(scoring_period)),
         ],
         headers={
