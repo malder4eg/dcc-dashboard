@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-17 19:49 МСК",
+  "updated": "2026-11-17 19:55 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "16:49:21 11/17/2026",
+  "report_updated": "16:55:37 11/17/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 726,
-  "ir_count": 67,
+  "active_count": 727,
+  "ir_count": 66,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -3943,6 +3943,12 @@
       "name": "Tampa Bay Lightning",
       "active": [
         {
+          "sweater": 21,
+          "name": "BRAYDEN POINT",
+          "name_key": "brayden point",
+          "position": "C"
+        },
+        {
           "sweater": 23,
           "name": "SAM O'REILLY",
           "name_key": "sam o reilly",
@@ -4076,13 +4082,6 @@
         }
       ],
       "ir": [
-        {
-          "sweater": 21,
-          "name": "BRAYDEN POINT",
-          "name_key": "brayden point",
-          "position": "C",
-          "ir_date": "2026-11-10"
-        },
         {
           "sweater": 94,
           "name": "CONOR GEEKIE",
@@ -5055,6 +5054,14 @@
     }
   },
   "events": [
+    {
+      "id": "RETURNED_FROM_IR:TBL:brayden point:2026-11-17",
+      "type": "RETURNED_FROM_IR",
+      "team": "TBL",
+      "player": "Brayden Point",
+      "player_key": "brayden point",
+      "detected_at": "2026-11-17T16:55:37Z"
+    },
     {
       "id": "NEW_IR:TBL:conor geekie:2026-11-17",
       "type": "NEW_IR",
