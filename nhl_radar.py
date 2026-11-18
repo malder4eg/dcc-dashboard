@@ -728,8 +728,12 @@ def roster_team_by_name(roster: dict) -> dict[str, str]:
 
 
 def build_player_map(history: dict, roster: dict, analysis: dict, espn_index: dict) -> dict:
+    # ESPN uses shorter team codes than NHL for these four clubs.
+    # Without canonicalisation all their players were systematically UNMATCHED,
+    # even when NHL/ESPN names and positions matched exactly.
+    espn_to_nhl_team = {"LA": "LAK", "NJ": "NJD", "SJ": "SJS", "TB": "TBL"}
     espn_team_abbrev = {
-        int(team["id"]): team.get("abbrev")
+        int(team["id"]): espn_to_nhl_team.get(team.get("abbrev"), team.get("abbrev"))
         for team in analysis.get("pro_teams", [])
         if team.get("id") is not None
     }
@@ -789,7 +793,7 @@ def build_player_map(history: dict, roster: dict, analysis: dict, espn_index: di
     return {
         "schema_version": 1,
         "updated": now_msk(),
-        "method": "Exact normalized full name with NHL/ESPN team and position validation; no surname-only fuzzy joins.",
+        "method": "Exact normalized full name with canonical NHL/ESPN team aliases and position validation; no surname-only fuzzy joins.",
         "mapped": mappings,
         "unmatched": unmatched,
         "coverage": {
@@ -838,9 +842,25 @@ def recent_team_events(team: str | None, roster: dict) -> list[dict]:
 
 
 def detect_player_signal(player: dict, mapping: dict | None, roster: dict) -> dict | None:
-    baseline, recent = metric_window(player.get("games", []))
+    final_games = [g for g in player.get("games", []) if g.get("final")]
+    # A first-call-up PP role must not disappear simply because the skater has
+    # fewer than four NHL games and therefore no 3-5 game baseline. This is a
+    # provisional PP-usage WATCH, NEVER proof of PP1 without shift/line checks.
+    recent_debut = 2 <= len(final_games) <= 5
+    if recent_debut:
+        try:
+            age_days = (date.today() - date.fromisoformat(final_games[-1]["game_date"])).days
+        except (KeyError, TypeError, ValueError):
+            age_days = 999
+        recent_debut = 0 <= age_days <= 7
+    early_pp_usage = recent_debut and sum(
+        (g.get("pp_toi") or 0) >= 90 for g in final_games
+    ) >= 2
+    baseline, recent = metric_window(final_games)
     if not baseline or not recent:
-        return None
+        if not early_pp_usage:
+            return None
+        baseline, recent = [], final_games[-2:]
 
     metrics: dict[str, dict] = {}
     for key in ("toi", "ev_toi", "pp_toi", "sh_toi", "sog", "hit", "blk", "fow", "fo", "pts", "ppp", "shp"):
@@ -856,6 +876,13 @@ def detect_player_signal(player: dict, mapping: dict | None, roster: dict) -> di
 
     signals: list[dict] = []
     score = 0
+    if early_pp_usage:
+        score += 28
+        signals.append({
+            "type": "NEW_SHORT_SAMPLE_PP",
+            "label": "Новая PP-нагрузка при короткой выборке; PP1 проверить независимо",
+            "strong": False,
+        })
 
     toi = metrics["toi"]
     toi_strong = False
@@ -943,7 +970,7 @@ def detect_player_signal(player: dict, mapping: dict | None, roster: dict) -> di
             score += 10
 
     score = min(100, score)
-    reliability = "LOW" if len(recent) == 1 else ("HIGH" if len(baseline) >= 5 else "MEDIUM")
+    reliability = "LOW" if not baseline or len(recent) == 1 else ("HIGH" if len(baseline) >= 5 else "MEDIUM")
 
     name_key = normalize_name(player.get("name"))
     team = player.get("team")
@@ -972,7 +999,7 @@ def detect_player_signal(player: dict, mapping: dict | None, roster: dict) -> di
     categories: list[str] = []
     if any(x["type"] == "TOI_SURGE" for x in signals):
         categories.append("TOI")
-    if any(x["type"] == "PP_ROLE_UP" for x in signals):
+    if any(x["type"] in {"PP_ROLE_UP", "NEW_SHORT_SAMPLE_PP"} for x in signals):
         categories.extend(["PPP"])
     if any(x["type"] in {"SH_ROLE_UP", "SHP_EVENT"} for x in signals):
         categories.extend(["SHP"])
