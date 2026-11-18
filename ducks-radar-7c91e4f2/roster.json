@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-18 18:27 МСК",
+  "updated": "2026-11-18 18:45 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "15:27:52 11/18/2026",
+  "report_updated": "15:45:39 11/18/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 726,
+  "active_count": 727,
   "ir_count": 67,
   "teams": {
     "ANA": {
@@ -4401,6 +4401,12 @@
           "position": "C"
         },
         {
+          "sweater": 94,
+          "name": "GREGOR BIBER",
+          "name_key": "gregor biber",
+          "position": "D"
+        },
+        {
           "sweater": 98,
           "name": "MIKHAIL SERGACHEV",
           "name_key": "mikhail sergachev",
@@ -5056,6 +5062,14 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_ADDED:UTA:gregor biber:2026-11-18",
+      "type": "ACTIVE_ADDED",
+      "team": "UTA",
+      "player": "Gregor Biber",
+      "player_key": "gregor biber",
+      "detected_at": "2026-11-18T15:45:40Z"
+    },
     {
       "id": "NEW_IR:UTA:nick schmaltz:2026-11-18",
       "type": "NEW_IR",
