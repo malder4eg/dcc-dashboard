@@ -6,7 +6,8 @@ on:
     # GitHub cron can be delayed; more independent attempts reduce staleness.
     - cron: "7,37 6 * * *"  # 09:07 / 09:37 MSK
     - cron: "7,37 7 * * *"  # 10:07 / 10:37 MSK
-    - cron: "7 8 * * *"     # 11:07 MSK backup
+    - cron: "7,37 8 * * *"  # 11:07 / 11:37 MSK
+    - cron: "7 9 * * *"     # 12:07 MSK late-ESPN backup
     - cron: "7 10 * * *"    # 13:07 MSK control
 
   push:
