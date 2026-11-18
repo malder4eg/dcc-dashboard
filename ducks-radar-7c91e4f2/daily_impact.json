@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
   "game_date": "2026-11-17",
-  "generated_at": "2026-11-18T08:20:57Z",
-  "updated": "2026-11-18 11:20 МСК",
+  "generated_at": "2026-11-18T13:11:03Z",
+  "updated": "2026-11-18 16:11 МСК",
   "complete": true,
   "history_updated": "2026-11-18 10:16 МСК",
-  "mapping_updated": "2026-11-18 11:19 МСК",
-  "espn_updated": "2026-11-18 11:19 МСК",
+  "mapping_updated": "2026-11-18 16:11 МСК",
+  "espn_updated": "2026-11-18 16:10 МСК",
   "source": {
     "game_status": "https://api-web.nhle.com/v1/score/2026-11-17",
     "game_stats": "https://api.nhle.com/stats/rest/en/skater/",
@@ -904,9 +904,9 @@
         "shifts": 20
       },
       "espn_player_id": 3042056,
-      "availability": "FREEAGENT",
-      "on_team_id": 0,
-      "owner": null,
+      "availability": "ONTEAM",
+      "on_team_id": 15,
+      "owner": "Zamboni Varans",
       "is_mighty_ducks": false
     },
     {
@@ -1200,54 +1200,6 @@
   ],
   "top3_available": [
     {
-      "rank": 14,
-      "name": "Tyler Bertuzzi",
-      "nhl_player_id": 8477479,
-      "nhl_team": "CHI",
-      "opponent": "TOR",
-      "position": "L",
-      "game_id": 2026020338,
-      "game_date": "2026-11-17",
-      "impact_score": 11.003,
-      "category_impact": {
-        "g": 3.0,
-        "a": 1.0,
-        "pts": 3.0,
-        "plus_minus": 0.8,
-        "ppp": 1.0,
-        "shp": 0.0,
-        "fow": 0.0,
-        "toi": 0.703,
-        "sog": 1.0,
-        "hit": 0.0,
-        "blk": 0.0
-      },
-      "breadth": 5,
-      "stats": {
-        "g": 2,
-        "a": 1,
-        "pts": 3,
-        "plus_minus": 2,
-        "ppp": 1,
-        "shp": 0,
-        "fow": null,
-        "toi": 934,
-        "sog": 3,
-        "hit": 0,
-        "blk": 0,
-        "ev_toi": 823,
-        "pp_toi": 111,
-        "sh_toi": 0,
-        "fo": 0,
-        "shifts": 20
-      },
-      "espn_player_id": 3042056,
-      "availability": "FREEAGENT",
-      "on_team_id": 0,
-      "owner": null,
-      "is_mighty_ducks": false
-    },
-    {
       "rank": 26,
       "name": "Jonathan Castagna",
       "nhl_player_id": 8484154,
@@ -1342,57 +1294,57 @@
       "on_team_id": 0,
       "owner": null,
       "is_mighty_ducks": false
-    }
-  ],
-  "top3_freeagents": [
+    },
     {
-      "rank": 14,
-      "name": "Tyler Bertuzzi",
-      "nhl_player_id": 8477479,
-      "nhl_team": "CHI",
-      "opponent": "TOR",
+      "rank": 31,
+      "name": "Anthony Duclair",
+      "nhl_player_id": 8477407,
+      "nhl_team": "NYI",
+      "opponent": "CBJ",
       "position": "L",
-      "game_id": 2026020338,
+      "game_id": 2026020336,
       "game_date": "2026-11-17",
-      "impact_score": 11.003,
+      "impact_score": 8.313,
       "category_impact": {
-        "g": 3.0,
+        "g": 1.5,
         "a": 1.0,
-        "pts": 3.0,
-        "plus_minus": 0.8,
+        "pts": 2.0,
+        "plus_minus": 0.4,
         "ppp": 1.0,
         "shp": 0.0,
         "fow": 0.0,
-        "toi": 0.703,
-        "sog": 1.0,
+        "toi": 0.646,
+        "sog": 0.667,
         "hit": 0.0,
-        "blk": 0.0
+        "blk": 0.5
       },
-      "breadth": 5,
+      "breadth": 6,
       "stats": {
-        "g": 2,
+        "g": 1,
         "a": 1,
-        "pts": 3,
-        "plus_minus": 2,
+        "pts": 2,
+        "plus_minus": 1,
         "ppp": 1,
         "shp": 0,
         "fow": null,
-        "toi": 934,
-        "sog": 3,
+        "toi": 858,
+        "sog": 2,
         "hit": 0,
-        "blk": 0,
-        "ev_toi": 823,
-        "pp_toi": 111,
+        "blk": 1,
+        "ev_toi": 799,
+        "pp_toi": 59,
         "sh_toi": 0,
         "fo": 0,
         "shifts": 20
       },
-      "espn_player_id": 3042056,
+      "espn_player_id": 3042086,
       "availability": "FREEAGENT",
       "on_team_id": 0,
       "owner": null,
       "is_mighty_ducks": false
-    },
+    }
+  ],
+  "top3_freeagents": [
     {
       "rank": 26,
       "name": "Jonathan Castagna",
@@ -1484,6 +1436,54 @@
         "shifts": 20
       },
       "espn_player_id": 3042086,
+      "availability": "FREEAGENT",
+      "on_team_id": 0,
+      "owner": null,
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 32,
+      "name": "Nicolas Hague",
+      "nhl_player_id": 8479980,
+      "nhl_team": "NSH",
+      "opponent": "MIN",
+      "position": "D",
+      "game_id": 2026020340,
+      "game_date": "2026-11-17",
+      "impact_score": 8.022,
+      "category_impact": {
+        "g": 1.5,
+        "a": 1.0,
+        "pts": 2.0,
+        "plus_minus": 0.4,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 0.0,
+        "toi": 0.789,
+        "sog": 0.333,
+        "hit": 1.0,
+        "blk": 0.5
+      },
+      "breadth": 5,
+      "stats": {
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plus_minus": 1,
+        "ppp": 0,
+        "shp": 0,
+        "fow": null,
+        "toi": 1048,
+        "sog": 1,
+        "hit": 3,
+        "blk": 1,
+        "ev_toi": 1048,
+        "pp_toi": 0,
+        "sh_toi": 0,
+        "fo": 0,
+        "shifts": 20
+      },
+      "espn_player_id": 4233870,
       "availability": "FREEAGENT",
       "on_team_id": 0,
       "owner": null,
@@ -2304,9 +2304,9 @@
         "shifts": 20
       },
       "espn_player_id": 3042056,
-      "availability": "FREEAGENT",
-      "on_team_id": 0,
-      "owner": null,
+      "availability": "ONTEAM",
+      "on_team_id": 15,
+      "owner": "Zamboni Varans",
       "is_mighty_ducks": false
     },
     {
@@ -4464,9 +4464,9 @@
         "shifts": 24
       },
       "espn_player_id": 4565266,
-      "availability": "FREEAGENT",
-      "on_team_id": 0,
-      "owner": null,
+      "availability": "ONTEAM",
+      "on_team_id": 11,
+      "owner": "Opalikha Red Rockets",
       "is_mighty_ducks": false
     },
     {
@@ -5952,9 +5952,9 @@
         "shifts": 16
       },
       "espn_player_id": 5550,
-      "availability": "ONTEAM",
-      "on_team_id": 11,
-      "owner": "Opalikha Red Rockets",
+      "availability": "WAIVERS",
+      "on_team_id": 0,
+      "owner": null,
       "is_mighty_ducks": false
     },
     {
@@ -7776,7 +7776,7 @@
         "shifts": 18
       },
       "espn_player_id": 5173105,
-      "availability": "WAIVERS",
+      "availability": "FREEAGENT",
       "on_team_id": 0,
       "owner": null,
       "is_mighty_ducks": false
@@ -14832,9 +14832,9 @@
         "shifts": 22
       },
       "espn_player_id": 4419638,
-      "availability": "ONTEAM",
-      "on_team_id": 2,
-      "owner": "Moscow Lawyers",
+      "availability": "WAIVERS",
+      "on_team_id": 0,
+      "owner": null,
       "is_mighty_ducks": false
     },
     {
@@ -16992,7 +16992,7 @@
         "shifts": 19
       },
       "espn_player_id": 4587843,
-      "availability": "WAIVERS",
+      "availability": "FREEAGENT",
       "on_team_id": 0,
       "owner": null,
       "is_mighty_ducks": false
@@ -17328,9 +17328,9 @@
         "shifts": 18
       },
       "espn_player_id": 4894222,
-      "availability": "ONTEAM",
-      "on_team_id": 15,
-      "owner": "Zamboni Varans",
+      "availability": "WAIVERS",
+      "on_team_id": 0,
+      "owner": null,
       "is_mighty_ducks": false
     },
     {
@@ -17856,9 +17856,9 @@
         "shifts": 15
       },
       "espn_player_id": 4565270,
-      "availability": "ONTEAM",
-      "on_team_id": 1,
-      "owner": "Night City Samurais",
+      "availability": "WAIVERS",
+      "on_team_id": 0,
+      "owner": null,
       "is_mighty_ducks": false
     },
     {
