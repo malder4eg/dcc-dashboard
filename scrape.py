@@ -383,15 +383,7 @@ def fetch_current_week(
     # latest usable cumulative matchup snapshot is often the previous daily
     # scoring period. Try the current day and several recent daily periods
     # instead of falling back to the weekly matchup number.
-    # ESPN status can lag behind the actually queryable daily period by
-    # one day. Probe a small number of future periods first, then fall back
-    # through the recent history. Invalid future periods are skipped below.
     candidates: list[int] = [
-        scoring_period + 2,
-        scoring_period + 1,
-    ]
-
-    candidates.extend(
         period
         for period in range(
             scoring_period,
@@ -399,7 +391,7 @@ def fetch_current_week(
             -1,
         )
         if period > 0
-    )
+    ]
 
     seen: set[int] = set()
     unique_candidates: list[int] = []
@@ -419,28 +411,12 @@ def fetch_current_week(
             f"scoring period {candidate}"
         )
 
-        try:
-            result = fetch_week(
-                client,
-                week,
-                candidate,
-                names,
-            )
-        except requests.HTTPError as exc:
-            status_code = getattr(
-                exc.response,
-                "status_code",
-                None,
-            )
-
-            if status_code in {400, 404}:
-                print(
-                    f"Scoring period {candidate} ещё недоступен ESPN; "
-                    "пропускаем."
-                )
-                continue
-
-            raise
+        result = fetch_week(
+            client,
+            week,
+            candidate,
+            names,
+        )
 
         last_result = result
 
