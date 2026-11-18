@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-17 22:06 МСК",
+  "updated": "2026-11-18 07:47 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "19:06:31 11/17/2026",
+  "report_updated": "04:47:50 11/18/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 727,
-  "ir_count": 66,
+  "active_count": 726,
+  "ir_count": 67,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -4275,12 +4275,6 @@
       "name": "Utah Mammoth",
       "active": [
         {
-          "sweater": 8,
-          "name": "NICK SCHMALTZ",
-          "name_key": "nick schmaltz",
-          "position": "C"
-        },
-        {
           "sweater": 9,
           "name": "CLAYTON KELLER",
           "name_key": "clayton keller",
@@ -4420,6 +4414,13 @@
           "name_key": "john marino",
           "position": "D",
           "ir_date": "2026-11-01"
+        },
+        {
+          "sweater": 8,
+          "name": "NICK SCHMALTZ",
+          "name_key": "nick schmaltz",
+          "position": "C",
+          "ir_date": "2026-11-17"
         },
         {
           "sweater": 10,
@@ -5056,6 +5057,14 @@
   },
   "events": [
     {
+      "id": "NEW_IR:UTA:nick schmaltz:2026-11-18",
+      "type": "NEW_IR",
+      "team": "UTA",
+      "player": "Nick Schmaltz",
+      "player_key": "nick schmaltz",
+      "detected_at": "2026-11-18T04:47:50Z"
+    },
+    {
       "id": "RETURNED_FROM_IR:TBL:brayden point:2026-11-17",
       "type": "RETURNED_FROM_IR",
       "team": "TBL",
@@ -5558,62 +5567,6 @@
       "player": "Trey Taylor",
       "player_key": "trey taylor",
       "detected_at": "2026-11-11T17:38:56Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:LAK:mats zuccarello:2026-11-10",
-      "type": "RETURNED_FROM_IR",
-      "team": "LAK",
-      "player": "Mats Zuccarello",
-      "player_key": "mats zuccarello",
-      "detected_at": "2026-11-10T23:43:51Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:MIN:jared spurgeon:2026-11-10",
-      "type": "RETURNED_FROM_IR",
-      "team": "MIN",
-      "player": "Jared Spurgeon",
-      "player_key": "jared spurgeon",
-      "detected_at": "2026-11-10T23:43:51Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:MIN:cameron crotty:2026-11-10",
-      "type": "ACTIVE_REMOVED",
-      "team": "MIN",
-      "player": "Cameron Crotty",
-      "player_key": "cameron crotty",
-      "detected_at": "2026-11-10T23:43:51Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:MIN:tyler pitlick:2026-11-10",
-      "type": "ACTIVE_REMOVED",
-      "team": "MIN",
-      "player": "Tyler Pitlick",
-      "player_key": "tyler pitlick",
-      "detected_at": "2026-11-10T23:43:51Z"
-    },
-    {
-      "id": "NEW_IR:NYR:alberts smits:2026-11-10",
-      "type": "NEW_IR",
-      "team": "NYR",
-      "player": "Alberts Smits",
-      "player_key": "alberts smits",
-      "detected_at": "2026-11-10T23:43:51Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:NYR:glenn gawdin:2026-11-10",
-      "type": "ACTIVE_ADDED",
-      "team": "NYR",
-      "player": "Glenn Gawdin",
-      "player_key": "glenn gawdin",
-      "detected_at": "2026-11-10T23:43:51Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:VAN:cameron crotty:2026-11-10",
-      "type": "ACTIVE_ADDED",
-      "team": "VAN",
-      "player": "Cameron Crotty",
-      "player_key": "cameron crotty",
-      "detected_at": "2026-11-10T23:43:51Z"
     }
   ]
 }
