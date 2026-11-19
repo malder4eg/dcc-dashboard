@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
   "game_date": "2026-11-18",
-  "generated_at": "2026-11-19T07:53:58Z",
-  "updated": "2026-11-19 10:53 МСК",
+  "generated_at": "2026-11-19T08:46:46Z",
+  "updated": "2026-11-19 11:46 МСК",
   "complete": true,
   "history_updated": "2026-11-19 10:53 МСК",
-  "mapping_updated": "2026-11-19 10:53 МСК",
-  "espn_updated": "2026-11-19 10:53 МСК",
+  "mapping_updated": "2026-11-19 11:46 МСК",
+  "espn_updated": "2026-11-19 11:46 МСК",
   "source": {
     "game_status": "https://api-web.nhle.com/v1/score/2026-11-18",
     "game_stats": "https://api.nhle.com/stats/rest/en/skater/",
@@ -74,9 +74,9 @@
     },
     "incomplete_final_games": [],
     "nhl_mapping_coverage": {
-      "mapped": 756,
-      "unmatched": 25,
-      "ratio": 0.968
+      "mapped": 757,
+      "unmatched": 24,
+      "ratio": 0.9693
     },
     "espn_index_complete": true,
     "espn_analysis_complete": true,
@@ -464,7 +464,7 @@
         "shifts": 22
       },
       "espn_player_id": 3904191,
-      "availability": "WAIVERS",
+      "availability": "FREEAGENT",
       "on_team_id": 0,
       "owner": null,
       "is_mighty_ducks": false
@@ -608,7 +608,7 @@
         "shifts": 26
       },
       "espn_player_id": 5149158,
-      "availability": "WAIVERS",
+      "availability": "FREEAGENT",
       "on_team_id": 0,
       "owner": null,
       "is_mighty_ducks": false
@@ -897,8 +897,8 @@
       },
       "espn_player_id": 4392309,
       "availability": "ONTEAM",
-      "on_team_id": 1,
-      "owner": "Night City Samurais",
+      "on_team_id": 3,
+      "owner": "Putin team",
       "is_mighty_ducks": false
     },
     {
@@ -1234,7 +1234,7 @@
         "shifts": 22
       },
       "espn_player_id": 3904191,
-      "availability": "WAIVERS",
+      "availability": "FREEAGENT",
       "on_team_id": 0,
       "owner": null,
       "is_mighty_ducks": false
@@ -1282,7 +1282,7 @@
         "shifts": 26
       },
       "espn_player_id": 5149158,
-      "availability": "WAIVERS",
+      "availability": "FREEAGENT",
       "on_team_id": 0,
       "owner": null,
       "is_mighty_ducks": false
@@ -1338,6 +1338,102 @@
   ],
   "top3_freeagents": [
     {
+      "rank": 5,
+      "name": "Kevin Stenlund",
+      "nhl_player_id": 8478831,
+      "nhl_team": "UTA",
+      "opponent": "COL",
+      "position": "C",
+      "game_id": 2026020346,
+      "game_date": "2026-11-18",
+      "impact_score": 9.29,
+      "category_impact": {
+        "g": 1.5,
+        "a": 1.0,
+        "pts": 2.0,
+        "plus_minus": 0.4,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 2.5,
+        "toi": 0.723,
+        "sog": 0.667,
+        "hit": 0.0,
+        "blk": 0.0
+      },
+      "breadth": 5,
+      "stats": {
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plus_minus": 1,
+        "ppp": 0,
+        "shp": 0,
+        "fow": 15,
+        "toi": 960,
+        "sog": 2,
+        "hit": 0,
+        "blk": 0,
+        "ev_toi": 740,
+        "pp_toi": 0,
+        "sh_toi": 220,
+        "fo": 22,
+        "shifts": 22
+      },
+      "espn_player_id": 3904191,
+      "availability": "FREEAGENT",
+      "on_team_id": 0,
+      "owner": null,
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 8,
+      "name": "Dmitri Simashev",
+      "nhl_player_id": 8484386,
+      "nhl_team": "UTA",
+      "opponent": "COL",
+      "position": "D",
+      "game_id": 2026020346,
+      "game_date": "2026-11-18",
+      "impact_score": 7.776,
+      "category_impact": {
+        "g": 1.5,
+        "a": 0.0,
+        "pts": 1.0,
+        "plus_minus": 0.8,
+        "ppp": 0.0,
+        "shp": 2.0,
+        "fow": 0.0,
+        "toi": 0.91,
+        "sog": 0.333,
+        "hit": 0.333,
+        "blk": 0.5
+      },
+      "breadth": 4,
+      "stats": {
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plus_minus": 2,
+        "ppp": 0,
+        "shp": 1,
+        "fow": null,
+        "toi": 1209,
+        "sog": 1,
+        "hit": 1,
+        "blk": 1,
+        "ev_toi": 1043,
+        "pp_toi": 1,
+        "sh_toi": 165,
+        "fo": 0,
+        "shifts": 26
+      },
+      "espn_player_id": 5149158,
+      "availability": "FREEAGENT",
+      "on_team_id": 0,
+      "owner": null,
+      "is_mighty_ducks": false
+    },
+    {
       "rank": 24,
       "name": "Liam O'Brien",
       "nhl_player_id": 8477070,
@@ -1380,102 +1476,6 @@
         "shifts": 11
       },
       "espn_player_id": 3150468,
-      "availability": "FREEAGENT",
-      "on_team_id": 0,
-      "owner": null,
-      "is_mighty_ducks": false
-    },
-    {
-      "rank": 26,
-      "name": "Keegan Kolesar",
-      "nhl_player_id": 8478434,
-      "nhl_team": "DET",
-      "opponent": "BOS",
-      "position": "R",
-      "game_id": 2026020344,
-      "game_date": "2026-11-18",
-      "impact_score": 4.35,
-      "category_impact": {
-        "g": 0.0,
-        "a": 1.0,
-        "pts": 1.0,
-        "plus_minus": 0.0,
-        "ppp": 0.0,
-        "shp": 0.0,
-        "fow": 0.0,
-        "toi": 0.45,
-        "sog": 0.0,
-        "hit": 1.0,
-        "blk": 0.5
-      },
-      "breadth": 4,
-      "stats": {
-        "g": 0,
-        "a": 1,
-        "pts": 1,
-        "plus_minus": 0,
-        "ppp": 0,
-        "shp": 0,
-        "fow": null,
-        "toi": 598,
-        "sog": 0,
-        "hit": 3,
-        "blk": 1,
-        "ev_toi": 597,
-        "pp_toi": 1,
-        "sh_toi": 0,
-        "fo": 0,
-        "shifts": 15
-      },
-      "espn_player_id": 3941546,
-      "availability": "FREEAGENT",
-      "on_team_id": 0,
-      "owner": null,
-      "is_mighty_ducks": false
-    },
-    {
-      "rank": 41,
-      "name": "Tanner Jeannot",
-      "nhl_player_id": 8479661,
-      "nhl_team": "BOS",
-      "opponent": "DET",
-      "position": "L",
-      "game_id": 2026020344,
-      "game_date": "2026-11-18",
-      "impact_score": 3.703,
-      "category_impact": {
-        "g": 0.0,
-        "a": 0.0,
-        "pts": 0.0,
-        "plus_minus": 0.0,
-        "ppp": 0.0,
-        "shp": 0.0,
-        "fow": 0.0,
-        "toi": 0.569,
-        "sog": 0.667,
-        "hit": 1.667,
-        "blk": 0.5
-      },
-      "breadth": 3,
-      "stats": {
-        "g": 0,
-        "a": 0,
-        "pts": 0,
-        "plus_minus": 0,
-        "ppp": 0,
-        "shp": 0,
-        "fow": null,
-        "toi": 755,
-        "sog": 2,
-        "hit": 5,
-        "blk": 1,
-        "ev_toi": 755,
-        "pp_toi": 0,
-        "sh_toi": 0,
-        "fo": 0,
-        "shifts": 14
-      },
-      "espn_player_id": 4064780,
       "availability": "FREEAGENT",
       "on_team_id": 0,
       "owner": null,
@@ -1864,7 +1864,7 @@
         "shifts": 22
       },
       "espn_player_id": 3904191,
-      "availability": "WAIVERS",
+      "availability": "FREEAGENT",
       "on_team_id": 0,
       "owner": null,
       "is_mighty_ducks": false
@@ -2008,7 +2008,7 @@
         "shifts": 26
       },
       "espn_player_id": 5149158,
-      "availability": "WAIVERS",
+      "availability": "FREEAGENT",
       "on_team_id": 0,
       "owner": null,
       "is_mighty_ducks": false
@@ -2297,8 +2297,8 @@
       },
       "espn_player_id": 4392309,
       "availability": "ONTEAM",
-      "on_team_id": 1,
-      "owner": "Night City Samurais",
+      "on_team_id": 3,
+      "owner": "Putin team",
       "is_mighty_ducks": false
     },
     {
@@ -3208,9 +3208,9 @@
         "shifts": 15
       },
       "espn_player_id": 4587985,
-      "availability": "ONTEAM",
-      "on_team_id": 18,
-      "owner": "OLA2COLA",
+      "availability": "WAIVERS",
+      "on_team_id": 0,
+      "owner": null,
       "is_mighty_ducks": false
     },
     {
@@ -3544,9 +3544,9 @@
         "shifts": 17
       },
       "espn_player_id": 5835,
-      "availability": "ONTEAM",
-      "on_team_id": 17,
-      "owner": "KUMIS MAFIA",
+      "availability": "WAIVERS",
+      "on_team_id": 0,
+      "owner": null,
       "is_mighty_ducks": false
     },
     {
@@ -4360,9 +4360,9 @@
         "shifts": 22
       },
       "espn_player_id": 4233880,
-      "availability": "ONTEAM",
-      "on_team_id": 2,
-      "owner": "Moscow Lawyers",
+      "availability": "WAIVERS",
+      "on_team_id": 0,
+      "owner": null,
       "is_mighty_ducks": false
     },
     {
