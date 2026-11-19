@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-18 21:47 МСК",
+  "updated": "2026-11-19 09:27 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "18:47:46 11/18/2026",
+  "report_updated": "06:27:31 11/19/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 727,
-  "ir_count": 67,
+  "active_count": 728,
+  "ir_count": 66,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -1154,6 +1154,12 @@
           "sweater": 19,
           "name": "ADAM FANTILLI",
           "name_key": "adam fantilli",
+          "position": "C"
+        },
+        {
+          "sweater": 21,
+          "name": "ISAC LUNDESTRÖM",
+          "name_key": "isac lundestrom",
           "position": "C"
         },
         {
@@ -2787,13 +2793,6 @@
           "name_key": "alexander romanov",
           "position": "D",
           "ir_date": "2026-10-19"
-        },
-        {
-          "sweater": 64,
-          "name": "CALUM RITCHIE",
-          "name_key": "calum ritchie",
-          "position": "C",
-          "ir_date": "2026-10-26"
         }
       ]
     },
@@ -5063,6 +5062,14 @@
   },
   "events": [
     {
+      "id": "ACTIVE_ADDED:CBJ:isac lundestrom:2026-11-19",
+      "type": "ACTIVE_ADDED",
+      "team": "CBJ",
+      "player": "Isac Lundestrom",
+      "player_key": "isac lundestrom",
+      "detected_at": "2026-11-19T06:27:31Z"
+    },
+    {
       "id": "ACTIVE_ADDED:UTA:gregor biber:2026-11-18",
       "type": "ACTIVE_ADDED",
       "team": "UTA",
@@ -5493,78 +5500,6 @@
       "player": "Brendan Brisson",
       "player_key": "brendan brisson",
       "detected_at": "2026-11-12T15:46:33Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:ANA:troy terry:2026-11-12",
-      "type": "ACTIVE_ADDED",
-      "team": "ANA",
-      "player": "Troy Terry",
-      "player_key": "troy terry",
-      "detected_at": "2026-11-12T06:04:49Z"
-    },
-    {
-      "id": "NEW_IR:NJD:anthony mantha:2026-11-12",
-      "type": "NEW_IR",
-      "team": "NJD",
-      "player": "Anthony Mantha",
-      "player_key": "anthony mantha",
-      "detected_at": "2026-11-12T06:04:49Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:NJD:riley tufte:2026-11-12",
-      "type": "ACTIVE_REMOVED",
-      "team": "NJD",
-      "player": "Riley Tufte",
-      "player_key": "riley tufte",
-      "detected_at": "2026-11-12T06:04:49Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:PHI:rasmus ristolainen:2026-11-12",
-      "type": "RETURNED_FROM_IR",
-      "team": "PHI",
-      "player": "Rasmus Ristolainen",
-      "player_key": "rasmus ristolainen",
-      "detected_at": "2026-11-12T06:04:49Z"
-    },
-    {
-      "id": "NEW_IR:UTA:dylan guenther:2026-11-12",
-      "type": "NEW_IR",
-      "team": "UTA",
-      "player": "Dylan Guenther",
-      "player_key": "dylan guenther",
-      "detected_at": "2026-11-12T06:04:49Z"
-    },
-    {
-      "id": "NEW_IR:UTA:nate schmidt:2026-11-12",
-      "type": "NEW_IR",
-      "team": "UTA",
-      "player": "Nate Schmidt",
-      "player_key": "nate schmidt",
-      "detected_at": "2026-11-12T06:04:49Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:UTA:kailer yamamoto:2026-11-12",
-      "type": "RETURNED_FROM_IR",
-      "team": "UTA",
-      "player": "Kailer Yamamoto",
-      "player_key": "kailer yamamoto",
-      "detected_at": "2026-11-12T06:04:49Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:UTA:daniil but:2026-11-12",
-      "type": "ACTIVE_ADDED",
-      "team": "UTA",
-      "player": "Daniil But",
-      "player_key": "daniil but",
-      "detected_at": "2026-11-12T06:04:49Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:VGK:parker wotherspoon:2026-11-12",
-      "type": "RETURNED_FROM_IR",
-      "team": "VGK",
-      "player": "Parker Wotherspoon",
-      "player_key": "parker wotherspoon",
-      "detected_at": "2026-11-12T06:04:49Z"
     }
   ]
 }
