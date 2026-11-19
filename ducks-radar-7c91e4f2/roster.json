@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-19 17:30 МСК",
+  "updated": "2026-11-19 18:33 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "14:30:23 11/19/2026",
+  "report_updated": "15:33:45 11/19/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 728,
-  "ir_count": 66,
+  "active_count": 727,
+  "ir_count": 67,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -3942,6 +3942,12 @@
       "name": "Tampa Bay Lightning",
       "active": [
         {
+          "sweater": 10,
+          "name": "JANSEN HARKINS",
+          "name_key": "jansen harkins",
+          "position": "C"
+        },
+        {
           "sweater": 21,
           "name": "BRAYDEN POINT",
           "name_key": "brayden point",
@@ -3994,12 +4000,6 @@
           "name": "YANNI GOURDE",
           "name_key": "yanni gourde",
           "position": "C"
-        },
-        {
-          "sweater": 38,
-          "name": "BRANDON HAGEL",
-          "name_key": "brandon hagel",
-          "position": "L"
         },
         {
           "sweater": 49,
@@ -4081,6 +4081,12 @@
         }
       ],
       "ir": [
+        {
+          "sweater": 38,
+          "name": "BRANDON HAGEL",
+          "name_key": "brandon hagel",
+          "position": "L"
+        },
         {
           "sweater": 94,
           "name": "CONOR GEEKIE",
@@ -4398,12 +4404,6 @@
           "name": "LOGAN COOLEY",
           "name_key": "logan cooley",
           "position": "C"
-        },
-        {
-          "sweater": 94,
-          "name": "GREGOR BIBER",
-          "name_key": "gregor biber",
-          "position": "D"
         },
         {
           "sweater": 98,
@@ -5061,6 +5061,30 @@
     }
   },
   "events": [
+    {
+      "id": "NEW_IR:TBL:brandon hagel:2026-11-19",
+      "type": "NEW_IR",
+      "team": "TBL",
+      "player": "Brandon Hagel",
+      "player_key": "brandon hagel",
+      "detected_at": "2026-11-19T15:33:45Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:TBL:jansen harkins:2026-11-19",
+      "type": "ACTIVE_ADDED",
+      "team": "TBL",
+      "player": "Jansen Harkins",
+      "player_key": "jansen harkins",
+      "detected_at": "2026-11-19T15:33:45Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:UTA:gregor biber:2026-11-19",
+      "type": "ACTIVE_REMOVED",
+      "team": "UTA",
+      "player": "Gregor Biber",
+      "player_key": "gregor biber",
+      "detected_at": "2026-11-19T15:33:45Z"
+    },
     {
       "id": "ACTIVE_ADDED:CBJ:isac lundestrom:2026-11-19",
       "type": "ACTIVE_ADDED",
