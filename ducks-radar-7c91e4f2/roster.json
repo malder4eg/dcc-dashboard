@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-20 18:12 МСК",
+  "updated": "2026-11-20 18:32 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "15:12:49 11/20/2026",
+  "report_updated": "15:32:58 11/20/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 728,
+  "active_count": 726,
   "ir_count": 67,
   "teams": {
     "ANA": {
@@ -992,22 +992,10 @@
           "position": "D"
         },
         {
-          "sweater": 28,
-          "name": "ALEX GAGNE",
-          "name_key": "alex gagne",
-          "position": "D"
-        },
-        {
           "sweater": 29,
           "name": "NATHAN MACKINNON",
           "name_key": "nathan mackinnon",
           "position": "C"
-        },
-        {
-          "sweater": 34,
-          "name": "ADAM BECKMAN",
-          "name_key": "adam beckman",
-          "position": "L"
         },
         {
           "sweater": 39,
@@ -5068,6 +5056,22 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_REMOVED:COL:adam beckman:2026-11-20",
+      "type": "ACTIVE_REMOVED",
+      "team": "COL",
+      "player": "Adam Beckman",
+      "player_key": "adam beckman",
+      "detected_at": "2026-11-20T15:32:58Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:COL:alex gagne:2026-11-20",
+      "type": "ACTIVE_REMOVED",
+      "team": "COL",
+      "player": "Alex Gagne",
+      "player_key": "alex gagne",
+      "detected_at": "2026-11-20T15:32:58Z"
+    },
     {
       "id": "ACTIVE_ADDED:ANA:stian solberg:2026-11-20",
       "type": "ACTIVE_ADDED",
