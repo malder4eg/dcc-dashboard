@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-20 19:12 МСК",
+  "updated": "2026-11-20 19:55 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "16:12:51 11/20/2026",
+  "report_updated": "16:55:07 11/20/2026",
   "complete": true,
   "team_count": 32,
   "active_count": 726,
-  "ir_count": 67,
+  "ir_count": 68,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -3311,12 +3311,6 @@
           "position": "D"
         },
         {
-          "sweater": 14,
-          "name": "NICK ROBERTSON",
-          "name_key": "nick robertson",
-          "position": "L"
-        },
-        {
           "sweater": 16,
           "name": "JUSTIN BRAZEAU",
           "name_key": "justin brazeau",
@@ -3425,6 +3419,12 @@
           "position": "C"
         },
         {
+          "sweater": 85,
+          "name": "AVERY HAYES",
+          "name_key": "avery hayes",
+          "position": "R"
+        },
+        {
           "sweater": 87,
           "name": "SIDNEY CROSBY",
           "name_key": "sidney crosby",
@@ -3432,6 +3432,13 @@
         }
       ],
       "ir": [
+        {
+          "sweater": 14,
+          "name": "NICK ROBERTSON",
+          "name_key": "nick robertson",
+          "position": "L",
+          "ir_date": "2026-11-20"
+        },
         {
           "sweater": 17,
           "name": "BRYAN RUST",
@@ -5056,6 +5063,22 @@
     }
   },
   "events": [
+    {
+      "id": "NEW_IR:PIT:nick robertson:2026-11-20",
+      "type": "NEW_IR",
+      "team": "PIT",
+      "player": "Nick Robertson",
+      "player_key": "nick robertson",
+      "detected_at": "2026-11-20T16:55:07Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:PIT:avery hayes:2026-11-20",
+      "type": "ACTIVE_ADDED",
+      "team": "PIT",
+      "player": "Avery Hayes",
+      "player_key": "avery hayes",
+      "detected_at": "2026-11-20T16:55:07Z"
+    },
     {
       "id": "ACTIVE_REMOVED:COL:adam beckman:2026-11-20",
       "type": "ACTIVE_REMOVED",
