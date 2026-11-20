@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-20 20:42 МСК",
+  "updated": "2026-11-20 21:32 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "17:42:57 11/20/2026",
+  "report_updated": "18:32:54 11/20/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 726,
-  "ir_count": 68,
+  "active_count": 725,
+  "ir_count": 69,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -4198,12 +4198,6 @@
           "position": "C"
         },
         {
-          "sweater": 82,
-          "name": "COLE MCWARD",
-          "name_key": "cole mcward",
-          "position": "D"
-        },
-        {
           "sweater": 88,
           "name": "WILLIAM NYLANDER",
           "name_key": "william nylander",
@@ -4261,6 +4255,12 @@
           "name_key": "miles wood",
           "position": "L",
           "ir_date": "2026-10-15"
+        },
+        {
+          "sweater": 82,
+          "name": "COLE MCWARD",
+          "name_key": "cole mcward",
+          "position": "D"
         },
         {
           "sweater": 83,
@@ -5063,6 +5063,14 @@
     }
   },
   "events": [
+    {
+      "id": "NEW_IR:TOR:cole mcward:2026-11-20",
+      "type": "NEW_IR",
+      "team": "TOR",
+      "player": "Cole McWard",
+      "player_key": "cole mcward",
+      "detected_at": "2026-11-20T18:32:55Z"
+    },
     {
       "id": "NEW_IR:PIT:nick robertson:2026-11-20",
       "type": "NEW_IR",
