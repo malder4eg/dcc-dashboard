@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-19 21:57 МСК",
+  "updated": "2026-11-20 10:49 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "18:57:25 11/19/2026",
+  "report_updated": "07:49:18 11/20/2026",
   "complete": true,
   "team_count": 32,
   "active_count": 728,
@@ -72,12 +72,6 @@
           "position": "G"
         },
         {
-          "sweater": 34,
-          "name": "TRAVIS MITCHELL",
-          "name_key": "travis mitchell",
-          "position": "D"
-        },
-        {
           "sweater": 39,
           "name": "JEFF MALOTT",
           "name_key": "jeff malott",
@@ -99,6 +93,12 @@
           "sweater": 47,
           "name": "NOAH WARREN",
           "name_key": "noah warren",
+          "position": "D"
+        },
+        {
+          "sweater": 50,
+          "name": "STIAN SOLBERG",
+          "name_key": "stian solberg",
           "position": "D"
         },
         {
@@ -950,12 +950,6 @@
           "position": "D"
         },
         {
-          "sweater": 8,
-          "name": "CALE MAKAR",
-          "name_key": "cale makar",
-          "position": "D"
-        },
-        {
           "sweater": 9,
           "name": "FEDOR SVECHKOV",
           "name_key": "fedor svechkov",
@@ -1008,6 +1002,12 @@
           "name": "NATHAN MACKINNON",
           "name_key": "nathan mackinnon",
           "position": "C"
+        },
+        {
+          "sweater": 34,
+          "name": "ADAM BECKMAN",
+          "name_key": "adam beckman",
+          "position": "L"
         },
         {
           "sweater": 39,
@@ -1077,6 +1077,13 @@
         }
       ],
       "ir": [
+        {
+          "sweater": 8,
+          "name": "CALE MAKAR",
+          "name_key": "cale makar",
+          "position": "D",
+          "ir_date": "2026-11-19"
+        },
         {
           "sweater": 42,
           "name": "JOSH MANSON",
@@ -3695,12 +3702,6 @@
           "position": "G"
         },
         {
-          "sweater": 38,
-          "name": "JANI NYMAN",
-          "name_key": "jani nyman",
-          "position": "R"
-        },
-        {
           "sweater": 41,
           "name": "RYKER EVANS",
           "name_key": "ryker evans",
@@ -3735,6 +3736,12 @@
           "name": "BRANDON MONTOUR",
           "name_key": "brandon montour",
           "position": "D"
+        },
+        {
+          "sweater": 63,
+          "name": "JACOB MELANSON",
+          "name_key": "jacob melanson",
+          "position": "R"
         },
         {
           "sweater": 71,
@@ -3775,13 +3782,6 @@
           "name_key": "curtis douglas",
           "position": "C",
           "ir_date": "2026-11-03"
-        },
-        {
-          "sweater": 63,
-          "name": "JACOB MELANSON",
-          "name_key": "jacob melanson",
-          "position": "R",
-          "ir_date": "2026-10-03"
         }
       ]
     },
@@ -5069,6 +5069,54 @@
   },
   "events": [
     {
+      "id": "ACTIVE_ADDED:ANA:stian solberg:2026-11-20",
+      "type": "ACTIVE_ADDED",
+      "team": "ANA",
+      "player": "Stian Solberg",
+      "player_key": "stian solberg",
+      "detected_at": "2026-11-20T07:49:18Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:ANA:travis mitchell:2026-11-20",
+      "type": "ACTIVE_REMOVED",
+      "team": "ANA",
+      "player": "Travis Mitchell",
+      "player_key": "travis mitchell",
+      "detected_at": "2026-11-20T07:49:18Z"
+    },
+    {
+      "id": "NEW_IR:COL:cale makar:2026-11-20",
+      "type": "NEW_IR",
+      "team": "COL",
+      "player": "Cale Makar",
+      "player_key": "cale makar",
+      "detected_at": "2026-11-20T07:49:18Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:COL:adam beckman:2026-11-20",
+      "type": "ACTIVE_ADDED",
+      "team": "COL",
+      "player": "Adam Beckman",
+      "player_key": "adam beckman",
+      "detected_at": "2026-11-20T07:49:18Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:SEA:jacob melanson:2026-11-20",
+      "type": "RETURNED_FROM_IR",
+      "team": "SEA",
+      "player": "Jacob Melanson",
+      "player_key": "jacob melanson",
+      "detected_at": "2026-11-20T07:49:18Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:SEA:jani nyman:2026-11-20",
+      "type": "ACTIVE_REMOVED",
+      "team": "SEA",
+      "player": "Jani Nyman",
+      "player_key": "jani nyman",
+      "detected_at": "2026-11-20T07:49:18Z"
+    },
+    {
       "id": "ACTIVE_ADDED:MIN:tyler pitlick:2026-11-19",
       "type": "ACTIVE_ADDED",
       "team": "MIN",
@@ -5443,62 +5491,6 @@
       "player": "Henry Thrun",
       "player_key": "henry thrun",
       "detected_at": "2026-11-13T17:27:54Z"
-    },
-    {
-      "id": "NEW_IR:BUF:konsta helenius:2026-11-13",
-      "type": "NEW_IR",
-      "team": "BUF",
-      "player": "Konsta Helenius",
-      "player_key": "konsta helenius",
-      "detected_at": "2026-11-13T06:03:30Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:BUF:alex lyon:2026-11-13",
-      "type": "RETURNED_FROM_IR",
-      "team": "BUF",
-      "player": "Alex Lyon",
-      "player_key": "alex lyon",
-      "detected_at": "2026-11-13T06:03:30Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:CHI:patrick kane:2026-11-13",
-      "type": "RETURNED_FROM_IR",
-      "team": "CHI",
-      "player": "Patrick Kane",
-      "player_key": "patrick kane",
-      "detected_at": "2026-11-13T06:03:30Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:FLA:jack devine:2026-11-13",
-      "type": "ACTIVE_REMOVED",
-      "team": "FLA",
-      "player": "Jack Devine",
-      "player_key": "jack devine",
-      "detected_at": "2026-11-13T06:03:30Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:LAK:kevin fiala:2026-11-13",
-      "type": "RETURNED_FROM_IR",
-      "team": "LAK",
-      "player": "Kevin Fiala",
-      "player_key": "kevin fiala",
-      "detected_at": "2026-11-13T06:03:30Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:NJD:vladislav kolyachonok:2026-11-13",
-      "type": "ACTIVE_ADDED",
-      "team": "NJD",
-      "player": "Vladislav Kolyachonok",
-      "player_key": "vladislav kolyachonok",
-      "detected_at": "2026-11-13T06:03:30Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:NYI:matias maccelli:2026-11-13",
-      "type": "RETURNED_FROM_IR",
-      "team": "NYI",
-      "player": "Matias Maccelli",
-      "player_key": "matias maccelli",
-      "detected_at": "2026-11-13T06:03:30Z"
     }
   ]
 }
