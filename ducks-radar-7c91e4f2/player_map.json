@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-20 18:32 МСК",
+  "updated": "2026-11-20 19:00 МСК",
   "method": "Exact normalized full name with canonical NHL/ESPN team aliases and position validation; no surname-only fuzzy joins.",
   "mapped": [
     {
@@ -5841,6 +5841,19 @@
       "confidence": "HIGH"
     },
     {
+      "nhl_player_id": 8481550,
+      "espn_player_id": 4894056,
+      "name": "Adam Beckman",
+      "nhl_team": "COL",
+      "position": "L",
+      "espn_status": "WAIVERS",
+      "espn_team_id": 0,
+      "espn_pro_team_id": 17,
+      "percent_owned": null,
+      "method": "exact_normalized_full_name+team+position",
+      "confidence": "HIGH"
+    },
+    {
       "nhl_player_id": 8481553,
       "espn_player_id": 4565257,
       "name": "Bobby Brink",
@@ -9974,11 +9987,6 @@
       "filtered_count": 0
     },
     {
-      "nhl_player_id": 8481550,
-      "name": "Adam Beckman",
-      "reason": "no_exact_name"
-    },
-    {
       "nhl_player_id": 8482074,
       "name": "Connor Zary",
       "reason": "ambiguous_or_team_position_mismatch",
@@ -10035,8 +10043,8 @@
     }
   ],
   "coverage": {
-    "mapped": 761,
-    "unmatched": 23,
-    "ratio": 0.9707
+    "mapped": 762,
+    "unmatched": 22,
+    "ratio": 0.9719
   }
 }
