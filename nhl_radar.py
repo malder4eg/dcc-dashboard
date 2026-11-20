@@ -190,9 +190,44 @@ def fetch_report(client: NHLClient, report: str, from_date: str | None) -> list[
 
     total = payload.get("total")
     if total is not None and len(rows) != int(total):
-        raise RuntimeError(
-            f"NHL stats report {report} incomplete: got {len(rows)} of {total}"
-        )
+        # NHL occasionally caps limit=-1 responses at 100 records, even
+        # though 'total' correctly reports several thousand. Fetch all pages
+        # with a stable game/player order instead of publishing partial data.
+        expected_total = int(total)
+        page_size = 100
+        stable_sort = json.dumps([
+            {"property": "gameId", "direction": "ASC"},
+            {"property": "playerId", "direction": "ASC"},
+        ], separators=(",", ":"))
+        paged_rows: list[dict] = []
+        for start in range(0, expected_total, page_size):
+            page = client.json(
+                f"{STATS_BASE}/{report}",
+                params={
+                    "isAggregate": "false",
+                    "isGame": "true",
+                    "start": start,
+                    "limit": page_size,
+                    "sort": stable_sort,
+                    "cayenneExp": expression,
+                },
+            )
+            page_rows = page.get("data")
+            if not isinstance(page_rows, list) or not page_rows:
+                raise RuntimeError(
+                    f"NHL stats report {report} missing page at offset {start}"
+                )
+            if page.get("total") is None or int(page["total"]) != expected_total:
+                raise RuntimeError(
+                    f"NHL stats report {report} total changed during pagination"
+                )
+            paged_rows.extend(page_rows)
+        rows = paged_rows
+        if len(rows) != expected_total:
+            raise RuntimeError(
+                f"NHL stats report {report} incomplete after pagination: "
+                f"got {len(rows)} of {expected_total}"
+            )
 
     keys = {
         (row.get("playerId"), row.get("gameId"))
