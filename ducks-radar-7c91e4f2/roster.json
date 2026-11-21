@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-20 21:32 МСК",
+  "updated": "2026-11-21 09:16 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "18:32:54 11/20/2026",
+  "report_updated": "06:16:25 11/21/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 725,
-  "ir_count": 69,
+  "active_count": 722,
+  "ir_count": 71,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -2049,12 +2049,6 @@
           "position": "L"
         },
         {
-          "sweater": 19,
-          "name": "TYLER PITLICK",
-          "name_key": "tyler pitlick",
-          "position": "C"
-        },
-        {
           "sweater": 20,
           "name": "BLAKE COLEMAN",
           "name_key": "blake coleman",
@@ -2580,12 +2574,6 @@
           "position": "D"
         },
         {
-          "sweater": 52,
-          "name": "ANTON SILAEV",
-          "name_key": "anton silaev",
-          "position": "D"
-        },
-        {
           "sweater": 63,
           "name": "JESPER BRATT",
           "name_key": "jesper bratt",
@@ -2855,12 +2843,6 @@
           "position": "D"
         },
         {
-          "sweater": 28,
-          "name": "OLIVER BJORKSTRAND",
-          "name_key": "oliver bjorkstrand",
-          "position": "R"
-        },
-        {
           "sweater": 29,
           "name": "MATTHEW ROBERTSON",
           "name_key": "matthew robertson",
@@ -2947,6 +2929,13 @@
           "name_key": "alberts smits",
           "position": "D",
           "ir_date": "2026-11-10"
+        },
+        {
+          "sweater": 28,
+          "name": "OLIVER BJORKSTRAND",
+          "name_key": "oliver bjorkstrand",
+          "position": "R",
+          "ir_date": "2026-11-20"
         },
         {
           "sweater": 31,
@@ -4260,7 +4249,8 @@
           "sweater": 82,
           "name": "COLE MCWARD",
           "name_key": "cole mcward",
-          "position": "D"
+          "position": "D",
+          "ir_date": "2026-11-20"
         },
         {
           "sweater": 83,
@@ -4633,12 +4623,6 @@
           "position": "C"
         },
         {
-          "sweater": 15,
-          "name": "NOAH HANIFIN",
-          "name_key": "noah hanifin",
-          "position": "D"
-        },
-        {
           "sweater": 17,
           "name": "MARC GATCOMB",
           "name_key": "marc gatcomb",
@@ -4705,6 +4689,12 @@
           "position": "L"
         },
         {
+          "sweater": 51,
+          "name": "LUKAS CORMIER",
+          "name_key": "lukas cormier",
+          "position": "D"
+        },
+        {
           "sweater": 52,
           "name": "DYLAN COGHLAN",
           "name_key": "dylan coghlan",
@@ -4741,7 +4731,15 @@
           "position": "L"
         }
       ],
-      "ir": []
+      "ir": [
+        {
+          "sweater": 15,
+          "name": "NOAH HANIFIN",
+          "name_key": "noah hanifin",
+          "position": "D",
+          "ir_date": "2026-11-20"
+        }
+      ]
     },
     "WSH": {
       "name": "Washington Capitals",
@@ -5063,6 +5061,46 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_REMOVED:MIN:tyler pitlick:2026-11-21",
+      "type": "ACTIVE_REMOVED",
+      "team": "MIN",
+      "player": "Tyler Pitlick",
+      "player_key": "tyler pitlick",
+      "detected_at": "2026-11-21T06:16:25Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:NJD:anton silaev:2026-11-21",
+      "type": "ACTIVE_REMOVED",
+      "team": "NJD",
+      "player": "Anton Silaev",
+      "player_key": "anton silaev",
+      "detected_at": "2026-11-21T06:16:25Z"
+    },
+    {
+      "id": "NEW_IR:NYR:oliver bjorkstrand:2026-11-21",
+      "type": "NEW_IR",
+      "team": "NYR",
+      "player": "Oliver Bjorkstrand",
+      "player_key": "oliver bjorkstrand",
+      "detected_at": "2026-11-21T06:16:25Z"
+    },
+    {
+      "id": "NEW_IR:VGK:noah hanifin:2026-11-21",
+      "type": "NEW_IR",
+      "team": "VGK",
+      "player": "Noah Hanifin",
+      "player_key": "noah hanifin",
+      "detected_at": "2026-11-21T06:16:25Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:VGK:lukas cormier:2026-11-21",
+      "type": "ACTIVE_ADDED",
+      "team": "VGK",
+      "player": "Lukas Cormier",
+      "player_key": "lukas cormier",
+      "detected_at": "2026-11-21T06:16:25Z"
+    },
     {
       "id": "NEW_IR:TOR:cole mcward:2026-11-20",
       "type": "NEW_IR",
@@ -5446,38 +5484,6 @@
       "player": "Logan Morrison",
       "player_key": "logan morrison",
       "detected_at": "2026-11-14T16:33:39Z"
-    },
-    {
-      "id": "NEW_IR:VAN:guillaume brisebois:2026-11-14",
-      "type": "NEW_IR",
-      "team": "VAN",
-      "player": "Guillaume Brisebois",
-      "player_key": "guillaume brisebois",
-      "detected_at": "2026-11-14T06:00:44Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:VAN:filip chytil:2026-11-14",
-      "type": "RETURNED_FROM_IR",
-      "team": "VAN",
-      "player": "Filip Chytil",
-      "player_key": "filip chytil",
-      "detected_at": "2026-11-14T06:00:44Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:ANA:laurent brossoit:2026-11-13",
-      "type": "ACTIVE_REMOVED",
-      "team": "ANA",
-      "player": "Laurent Brossoit",
-      "player_key": "laurent brossoit",
-      "detected_at": "2026-11-13T21:43:03Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:NJD:anton silaev:2026-11-13",
-      "type": "ACTIVE_ADDED",
-      "team": "NJD",
-      "player": "Anton Silaev",
-      "player_key": "anton silaev",
-      "detected_at": "2026-11-13T21:43:03Z"
     }
   ]
 }
