@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-21 18:25 МСК",
+  "updated": "2026-11-21 19:06 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "15:25:52 11/21/2026",
+  "report_updated": "16:06:18 11/21/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 722,
-  "ir_count": 71,
+  "active_count": 721,
+  "ir_count": 73,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -2807,16 +2807,16 @@
           "position": "L"
         },
         {
+          "sweater": 14,
+          "name": "TAYLOR RADDYSH",
+          "name_key": "taylor raddysh",
+          "position": "R"
+        },
+        {
           "sweater": 15,
           "name": "GLENN GAWDIN",
           "name_key": "glenn gawdin",
           "position": "C"
-        },
-        {
-          "sweater": 16,
-          "name": "PAVEL DOROFEYEV",
-          "name_key": "pavel dorofeyev",
-          "position": "R"
         },
         {
           "sweater": 17,
@@ -2935,6 +2935,13 @@
           "name_key": "alberts smits",
           "position": "D",
           "ir_date": "2026-11-10"
+        },
+        {
+          "sweater": 16,
+          "name": "PAVEL DOROFEYEV",
+          "name_key": "pavel dorofeyev",
+          "position": "R",
+          "ir_date": "2026-11-20"
         },
         {
           "sweater": 28,
@@ -4476,12 +4483,6 @@
           "position": "R"
         },
         {
-          "sweater": 7,
-          "name": "BRENDAN GALLAGHER",
-          "name_key": "brendan gallagher",
-          "position": "R"
-        },
-        {
           "sweater": 8,
           "name": "ZEEV BUIUM",
           "name_key": "zeev buium",
@@ -4579,6 +4580,13 @@
         }
       ],
       "ir": [
+        {
+          "sweater": 7,
+          "name": "BRENDAN GALLAGHER",
+          "name_key": "brendan gallagher",
+          "position": "R",
+          "ir_date": "2026-11-21"
+        },
         {
           "sweater": 35,
           "name": "THATCHER DEMKO",
@@ -5061,6 +5069,30 @@
     }
   },
   "events": [
+    {
+      "id": "NEW_IR:NYR:pavel dorofeyev:2026-11-21",
+      "type": "NEW_IR",
+      "team": "NYR",
+      "player": "Pavel Dorofeyev",
+      "player_key": "pavel dorofeyev",
+      "detected_at": "2026-11-21T16:06:18Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:NYR:taylor raddysh:2026-11-21",
+      "type": "ACTIVE_ADDED",
+      "team": "NYR",
+      "player": "Taylor Raddysh",
+      "player_key": "taylor raddysh",
+      "detected_at": "2026-11-21T16:06:18Z"
+    },
+    {
+      "id": "NEW_IR:VAN:brendan gallagher:2026-11-21",
+      "type": "NEW_IR",
+      "team": "VAN",
+      "player": "Brendan Gallagher",
+      "player_key": "brendan gallagher",
+      "detected_at": "2026-11-21T16:06:18Z"
+    },
     {
       "id": "ACTIVE_ADDED:NYR:max sasson:2026-11-21",
       "type": "ACTIVE_ADDED",
