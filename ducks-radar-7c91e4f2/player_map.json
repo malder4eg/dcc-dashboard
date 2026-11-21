@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-21 18:15 МСК",
+  "updated": "2026-11-21 18:25 МСК",
   "method": "Exact normalized full name with canonical NHL/ESPN team aliases and position validation; no surname-only fuzzy joins.",
   "mapped": [
     {
@@ -8688,6 +8688,19 @@
       "confidence": "HIGH"
     },
     {
+      "nhl_player_id": 8484136,
+      "espn_player_id": 4996099,
+      "name": "Max Sasson",
+      "nhl_team": "NYR",
+      "position": "C",
+      "espn_status": "FREEAGENT",
+      "espn_team_id": 0,
+      "espn_pro_team_id": 13,
+      "percent_owned": 0.24,
+      "method": "exact_normalized_full_name+team+position",
+      "confidence": "HIGH"
+    },
+    {
       "nhl_player_id": 8484142,
       "espn_player_id": 5173105,
       "name": "Denver Barkey",
@@ -10017,13 +10030,6 @@
       "filtered_count": 0
     },
     {
-      "nhl_player_id": 8484136,
-      "name": "Max Sasson",
-      "reason": "ambiguous_or_team_position_mismatch",
-      "candidate_count": 1,
-      "filtered_count": 0
-    },
-    {
       "nhl_player_id": 8484428,
       "name": "Charles Alexis Legault",
       "reason": "ambiguous_or_team_position_mismatch",
@@ -10037,8 +10043,8 @@
     }
   ],
   "coverage": {
-    "mapped": 761,
-    "unmatched": 23,
-    "ratio": 0.9707
+    "mapped": 762,
+    "unmatched": 22,
+    "ratio": 0.9719
   }
 }

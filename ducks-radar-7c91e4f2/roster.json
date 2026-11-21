@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-21 18:15 МСК",
+  "updated": "2026-11-21 18:25 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "15:15:03 11/21/2026",
+  "report_updated": "15:25:52 11/21/2026",
   "complete": true,
   "team_count": 32,
   "active_count": 722,
@@ -2891,6 +2891,12 @@
           "position": "D"
         },
         {
+          "sweater": 63,
+          "name": "MAX SASSON",
+          "name_key": "max sasson",
+          "position": "C"
+        },
+        {
           "sweater": 70,
           "name": "JOONAS KORPISALO",
           "name_key": "joonas korpisalo",
@@ -4542,12 +4548,6 @@
           "position": "D"
         },
         {
-          "sweater": 63,
-          "name": "MAX SASSON",
-          "name_key": "max sasson",
-          "position": "C"
-        },
-        {
           "sweater": 74,
           "name": "JAKE DEBRUSK",
           "name_key": "jake debrusk",
@@ -5061,6 +5061,22 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_ADDED:NYR:max sasson:2026-11-21",
+      "type": "ACTIVE_ADDED",
+      "team": "NYR",
+      "player": "Max Sasson",
+      "player_key": "max sasson",
+      "detected_at": "2026-11-21T15:25:52Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:VAN:max sasson:2026-11-21",
+      "type": "ACTIVE_REMOVED",
+      "team": "VAN",
+      "player": "Max Sasson",
+      "player_key": "max sasson",
+      "detected_at": "2026-11-21T15:25:52Z"
+    },
     {
       "id": "ACTIVE_REMOVED:MIN:tyler pitlick:2026-11-21",
       "type": "ACTIVE_REMOVED",
