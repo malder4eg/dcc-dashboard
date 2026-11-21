@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-21 19:06 МСК",
+  "updated": "2026-11-21 19:43 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "16:06:18 11/21/2026",
+  "report_updated": "16:43:42 11/21/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 721,
+  "active_count": 724,
   "ir_count": 73,
   "teams": {
     "ANA": {
@@ -4531,6 +4531,12 @@
           "position": "G"
         },
         {
+          "sweater": 39,
+          "name": "TY MUELLER",
+          "name_key": "ty mueller",
+          "position": "C"
+        },
+        {
           "sweater": 40,
           "name": "ELIAS PETTERSSON",
           "name_key": "elias pettersson",
@@ -4547,6 +4553,18 @@
           "name": "CAMERON CROTTY",
           "name_key": "cameron crotty",
           "position": "D"
+        },
+        {
+          "sweater": 60,
+          "name": "NIKITA TOLOPILO",
+          "name_key": "nikita tolopilo",
+          "position": "G"
+        },
+        {
+          "sweater": 62,
+          "name": "JACOB QUILLAN",
+          "name_key": "jacob quillan",
+          "position": "C"
         },
         {
           "sweater": 74,
@@ -5070,6 +5088,30 @@
   },
   "events": [
     {
+      "id": "ACTIVE_ADDED:VAN:jacob quillan:2026-11-21",
+      "type": "ACTIVE_ADDED",
+      "team": "VAN",
+      "player": "Jacob Quillan",
+      "player_key": "jacob quillan",
+      "detected_at": "2026-11-21T16:43:42Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:VAN:nikita tolopilo:2026-11-21",
+      "type": "ACTIVE_ADDED",
+      "team": "VAN",
+      "player": "Nikita Tolopilo",
+      "player_key": "nikita tolopilo",
+      "detected_at": "2026-11-21T16:43:42Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:VAN:ty mueller:2026-11-21",
+      "type": "ACTIVE_ADDED",
+      "team": "VAN",
+      "player": "Ty Mueller",
+      "player_key": "ty mueller",
+      "detected_at": "2026-11-21T16:43:42Z"
+    },
+    {
       "id": "NEW_IR:NYR:pavel dorofeyev:2026-11-21",
       "type": "NEW_IR",
       "team": "NYR",
@@ -5468,70 +5510,6 @@
       "player": "Trevor van Riemsdyk",
       "player_key": "trevor van riemsdyk",
       "detected_at": "2026-11-15T07:42:54Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:CAR:jordan staal:2026-11-14",
-      "type": "RETURNED_FROM_IR",
-      "team": "CAR",
-      "player": "Jordan Staal",
-      "player_key": "jordan staal",
-      "detected_at": "2026-11-14T16:33:39Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:CAR:mike reilly:2026-11-14",
-      "type": "ACTIVE_REMOVED",
-      "team": "CAR",
-      "player": "Mike Reilly",
-      "player_key": "mike reilly",
-      "detected_at": "2026-11-14T16:33:39Z"
-    },
-    {
-      "id": "NEW_IR:DAL:lian bichsel:2026-11-14",
-      "type": "NEW_IR",
-      "team": "DAL",
-      "player": "Lian Bichsel",
-      "player_key": "lian bichsel",
-      "detected_at": "2026-11-14T16:33:39Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:DAL:kyle burroughs:2026-11-14",
-      "type": "ACTIVE_ADDED",
-      "team": "DAL",
-      "player": "Kyle Burroughs",
-      "player_key": "kyle burroughs",
-      "detected_at": "2026-11-14T16:33:39Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:MIN:brock faber:2026-11-14",
-      "type": "RETURNED_FROM_IR",
-      "team": "MIN",
-      "player": "Brock Faber",
-      "player_key": "brock faber",
-      "detected_at": "2026-11-14T16:33:39Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:PIT:ilya solovyov:2026-11-14",
-      "type": "ACTIVE_REMOVED",
-      "team": "PIT",
-      "player": "Ilya Solovyov",
-      "player_key": "ilya solovyov",
-      "detected_at": "2026-11-14T16:33:39Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:SEA:ryan lindgren:2026-11-14",
-      "type": "RETURNED_FROM_IR",
-      "team": "SEA",
-      "player": "Ryan Lindgren",
-      "player_key": "ryan lindgren",
-      "detected_at": "2026-11-14T16:33:39Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:SEA:logan morrison:2026-11-14",
-      "type": "ACTIVE_REMOVED",
-      "team": "SEA",
-      "player": "Logan Morrison",
-      "player_key": "logan morrison",
-      "detected_at": "2026-11-14T16:33:39Z"
     }
   ]
 }
