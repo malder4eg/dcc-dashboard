@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-21 20:23 МСК",
+  "updated": "2026-11-22 10:02 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "17:23:35 11/21/2026",
+  "report_updated": "07:02:28 11/22/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 724,
-  "ir_count": 73,
+  "active_count": 727,
+  "ir_count": 71,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -84,16 +84,16 @@
           "position": "C"
         },
         {
-          "sweater": 45,
-          "name": "BECKETT SENNECKE",
-          "name_key": "beckett sennecke",
-          "position": "R"
-        },
-        {
           "sweater": 47,
           "name": "NOAH WARREN",
           "name_key": "noah warren",
           "position": "D"
+        },
+        {
+          "sweater": 48,
+          "name": "NICO MYATOVIC",
+          "name_key": "nico myatovic",
+          "position": "L"
         },
         {
           "sweater": 50,
@@ -164,6 +164,13 @@
           "name_key": "ryan poehling",
           "position": "C",
           "ir_date": "2026-10-13"
+        },
+        {
+          "sweater": 45,
+          "name": "BECKETT SENNECKE",
+          "name_key": "beckett sennecke",
+          "position": "R",
+          "ir_date": "2026-11-21"
         }
       ]
     },
@@ -1435,6 +1442,12 @@
           "position": "C"
         },
         {
+          "sweater": 20,
+          "name": "ALBERT JOHANSSON",
+          "name_key": "albert johansson",
+          "position": "D"
+        },
+        {
           "sweater": 22,
           "name": "MASON APPLETON",
           "name_key": "mason appleton",
@@ -1543,15 +1556,7 @@
           "position": "R"
         }
       ],
-      "ir": [
-        {
-          "sweater": 20,
-          "name": "ALBERT JOHANSSON",
-          "name_key": "albert johansson",
-          "position": "D",
-          "ir_date": "2026-11-04"
-        }
-      ]
+      "ir": []
     },
     "EDM": {
       "name": "Edmonton Oilers",
@@ -2795,6 +2800,12 @@
           "position": "D"
         },
         {
+          "sweater": 5,
+          "name": "SEAN DURZI",
+          "name_key": "sean durzi",
+          "position": "D"
+        },
+        {
           "sweater": 10,
           "name": "J.T. MILLER",
           "name_key": "j t miller",
@@ -2922,13 +2933,6 @@
         }
       ],
       "ir": [
-        {
-          "sweater": 5,
-          "name": "SEAN DURZI",
-          "name_key": "sean durzi",
-          "position": "D",
-          "ir_date": "2026-11-05"
-        },
         {
           "sweater": 12,
           "name": "ALBERTS SMITS",
@@ -3705,6 +3709,12 @@
           "position": "D"
         },
         {
+          "sweater": 42,
+          "name": "CURTIS DOUGLAS",
+          "name_key": "curtis douglas",
+          "position": "C"
+        },
+        {
           "sweater": 46,
           "name": "VILLE OTTAVAINEN",
           "name_key": "ville ottavainen",
@@ -3715,12 +3725,6 @@
           "name": "RYAN LINDGREN",
           "name_key": "ryan lindgren",
           "position": "D"
-        },
-        {
-          "sweater": 57,
-          "name": "JAGGER FIRKUS",
-          "name_key": "jagger firkus",
-          "position": "R"
         },
         {
           "sweater": 59,
@@ -3772,13 +3776,6 @@
           "name_key": "jared mccann",
           "position": "L",
           "ir_date": "2026-10-24"
-        },
-        {
-          "sweater": 42,
-          "name": "CURTIS DOUGLAS",
-          "name_key": "curtis douglas",
-          "position": "C",
-          "ir_date": "2026-11-03"
         }
       ]
     },
@@ -4411,6 +4408,12 @@
           "position": "C"
         },
         {
+          "sweater": 94,
+          "name": "GREGOR BIBER",
+          "name_key": "gregor biber",
+          "position": "D"
+        },
+        {
           "sweater": 98,
           "name": "MIKHAIL SERGACHEV",
           "name_key": "mikhail sergachev",
@@ -4971,12 +4974,6 @@
           "position": "C"
         },
         {
-          "sweater": 33,
-          "name": "CLAY STEVENSON",
-          "name_key": "clay stevenson",
-          "position": "G"
-        },
-        {
           "sweater": 35,
           "name": "NICO DAWS",
           "name_key": "nico daws",
@@ -5023,6 +5020,12 @@
           "name": "MARK SCHEIFELE",
           "name_key": "mark scheifele",
           "position": "C"
+        },
+        {
+          "sweater": 57,
+          "name": "ELIAS SALOMONSSON",
+          "name_key": "elias salomonsson",
+          "position": "D"
         },
         {
           "sweater": 61,
@@ -5087,6 +5090,78 @@
     }
   },
   "events": [
+    {
+      "id": "NEW_IR:ANA:beckett sennecke:2026-11-22",
+      "type": "NEW_IR",
+      "team": "ANA",
+      "player": "Beckett Sennecke",
+      "player_key": "beckett sennecke",
+      "detected_at": "2026-11-22T07:02:28Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:ANA:nico myatovic:2026-11-22",
+      "type": "ACTIVE_ADDED",
+      "team": "ANA",
+      "player": "Nico Myatovic",
+      "player_key": "nico myatovic",
+      "detected_at": "2026-11-22T07:02:28Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:DET:albert johansson:2026-11-22",
+      "type": "RETURNED_FROM_IR",
+      "team": "DET",
+      "player": "Albert Johansson",
+      "player_key": "albert johansson",
+      "detected_at": "2026-11-22T07:02:28Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:NYR:sean durzi:2026-11-22",
+      "type": "RETURNED_FROM_IR",
+      "team": "NYR",
+      "player": "Sean Durzi",
+      "player_key": "sean durzi",
+      "detected_at": "2026-11-22T07:02:28Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:SEA:curtis douglas:2026-11-22",
+      "type": "RETURNED_FROM_IR",
+      "team": "SEA",
+      "player": "Curtis Douglas",
+      "player_key": "curtis douglas",
+      "detected_at": "2026-11-22T07:02:28Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:SEA:jagger firkus:2026-11-22",
+      "type": "ACTIVE_REMOVED",
+      "team": "SEA",
+      "player": "Jagger Firkus",
+      "player_key": "jagger firkus",
+      "detected_at": "2026-11-22T07:02:28Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:UTA:gregor biber:2026-11-22",
+      "type": "ACTIVE_ADDED",
+      "team": "UTA",
+      "player": "Gregor Biber",
+      "player_key": "gregor biber",
+      "detected_at": "2026-11-22T07:02:28Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:WPG:elias salomonsson:2026-11-22",
+      "type": "ACTIVE_ADDED",
+      "team": "WPG",
+      "player": "Elias Salomonsson",
+      "player_key": "elias salomonsson",
+      "detected_at": "2026-11-22T07:02:28Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:WPG:clay stevenson:2026-11-22",
+      "type": "ACTIVE_REMOVED",
+      "team": "WPG",
+      "player": "Clay Stevenson",
+      "player_key": "clay stevenson",
+      "detected_at": "2026-11-22T07:02:28Z"
+    },
     {
       "id": "ACTIVE_ADDED:VAN:jacob quillan:2026-11-21",
       "type": "ACTIVE_ADDED",
