@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-22 20:03 МСК",
+  "updated": "2026-11-22 20:46 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "17:03:29 11/22/2026",
+  "report_updated": "17:46:50 11/22/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 726,
+  "active_count": 725,
   "ir_count": 72,
   "teams": {
     "ANA": {
@@ -1152,12 +1152,6 @@
           "name": "DANTE FABBRO",
           "name_key": "dante fabbro",
           "position": "D"
-        },
-        {
-          "sweater": 18,
-          "name": "STEVEN LORENTZ",
-          "name_key": "steven lorentz",
-          "position": "C"
         },
         {
           "sweater": 19,
@@ -4096,12 +4090,6 @@
       "name": "Toronto Maple Leafs",
       "active": [
         {
-          "sweater": 3,
-          "name": "DAKOTA MERMIS",
-          "name_key": "dakota mermis",
-          "position": "D"
-        },
-        {
           "sweater": 8,
           "name": "CHRIS TANEV",
           "name_key": "chris tanev",
@@ -4142,6 +4130,12 @@
           "name": "AUSTON MATTHEWS",
           "name_key": "auston matthews",
           "position": "C"
+        },
+        {
+          "sweater": 36,
+          "name": "DAKOTA MERMIS",
+          "name_key": "dakota mermis",
+          "position": "D"
         },
         {
           "sweater": 41,
@@ -5091,6 +5085,14 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_REMOVED:CBJ:steven lorentz:2026-11-22",
+      "type": "ACTIVE_REMOVED",
+      "team": "CBJ",
+      "player": "Steven Lorentz",
+      "player_key": "steven lorentz",
+      "detected_at": "2026-11-22T17:46:50Z"
+    },
     {
       "id": "NEW_IR:CHI:connor bedard:2026-11-22",
       "type": "NEW_IR",
