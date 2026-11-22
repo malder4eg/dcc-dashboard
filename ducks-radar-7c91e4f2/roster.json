@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-22 18:26 МСК",
+  "updated": "2026-11-22 19:12 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "15:26:20 11/22/2026",
+  "report_updated": "16:12:15 11/22/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 727,
-  "ir_count": 71,
+  "active_count": 726,
+  "ir_count": 72,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -841,6 +841,12 @@
           "position": "R"
         },
         {
+          "sweater": 25,
+          "name": "DOMINIC TONINATO",
+          "name_key": "dominic toninato",
+          "position": "C"
+        },
+        {
           "sweater": 26,
           "name": "ANDREW MANGIAPANE",
           "name_key": "andrew mangiapane",
@@ -923,12 +929,6 @@
           "name": "FRANK NAZAR",
           "name_key": "frank nazar",
           "position": "C"
-        },
-        {
-          "sweater": 98,
-          "name": "CONNOR BEDARD",
-          "name_key": "connor bedard",
-          "position": "C"
         }
       ],
       "ir": [
@@ -938,6 +938,13 @@
           "name_key": "bowen byram",
           "position": "D",
           "ir_date": "2026-11-03"
+        },
+        {
+          "sweater": 98,
+          "name": "CONNOR BEDARD",
+          "name_key": "connor bedard",
+          "position": "C",
+          "ir_date": "2026-11-21"
         }
       ]
     },
@@ -2212,12 +2219,6 @@
           "position": "G"
         },
         {
-          "sweater": 37,
-          "name": "BRETT BERARD",
-          "name_key": "brett berard",
-          "position": "L"
-        },
-        {
           "sweater": 42,
           "name": "ADAM ENGSTROM",
           "name_key": "adam engstrom",
@@ -2252,12 +2253,6 @@
           "name": "FLORIAN XHEKAJ",
           "name_key": "florian xhekaj",
           "position": "L"
-        },
-        {
-          "sweater": 64,
-          "name": "DAVID REINBACHER",
-          "name_key": "david reinbacher",
-          "position": "D"
         },
         {
           "sweater": 71,
@@ -4173,6 +4168,12 @@
           "position": "R"
         },
         {
+          "sweater": 54,
+          "name": "AATU RÄTY",
+          "name_key": "aatu raty",
+          "position": "C"
+        },
+        {
           "sweater": 72,
           "name": "SERGEI BOBROVSKY",
           "name_key": "sergei bobrovsky",
@@ -5090,6 +5091,46 @@
     }
   },
   "events": [
+    {
+      "id": "NEW_IR:CHI:connor bedard:2026-11-22",
+      "type": "NEW_IR",
+      "team": "CHI",
+      "player": "Connor Bedard",
+      "player_key": "connor bedard",
+      "detected_at": "2026-11-22T16:12:16Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:CHI:dominic toninato:2026-11-22",
+      "type": "ACTIVE_ADDED",
+      "team": "CHI",
+      "player": "Dominic Toninato",
+      "player_key": "dominic toninato",
+      "detected_at": "2026-11-22T16:12:16Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:MTL:brett berard:2026-11-22",
+      "type": "ACTIVE_REMOVED",
+      "team": "MTL",
+      "player": "Brett Berard",
+      "player_key": "brett berard",
+      "detected_at": "2026-11-22T16:12:16Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:MTL:david reinbacher:2026-11-22",
+      "type": "ACTIVE_REMOVED",
+      "team": "MTL",
+      "player": "David Reinbacher",
+      "player_key": "david reinbacher",
+      "detected_at": "2026-11-22T16:12:16Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:TOR:aatu raty:2026-11-22",
+      "type": "ACTIVE_ADDED",
+      "team": "TOR",
+      "player": "Aatu Räty",
+      "player_key": "aatu raty",
+      "detected_at": "2026-11-22T16:12:16Z"
+    },
     {
       "id": "NEW_IR:ANA:beckett sennecke:2026-11-22",
       "type": "NEW_IR",
