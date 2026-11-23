@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-23 13:11 МСК",
+  "updated": "2026-11-23 17:51 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "10:11:15 11/23/2026",
+  "report_updated": "14:51:46 11/23/2026",
   "complete": true,
   "team_count": 32,
   "active_count": 724,
@@ -1431,12 +1431,6 @@
           "position": "D"
         },
         {
-          "sweater": 15,
-          "name": "SHELDON DRIES",
-          "name_key": "sheldon dries",
-          "position": "C"
-        },
-        {
           "sweater": 18,
           "name": "ANDREW COPP",
           "name_key": "andrew copp",
@@ -1539,6 +1533,12 @@
           "position": "D"
         },
         {
+          "sweater": 77,
+          "name": "KIRBY DACH",
+          "name_key": "kirby dach",
+          "position": "C"
+        },
+        {
           "sweater": 80,
           "name": "DANIIL TARASOV",
           "name_key": "daniil tarasov",
@@ -1557,7 +1557,15 @@
           "position": "R"
         }
       ],
-      "ir": []
+      "ir": [
+        {
+          "sweater": 35,
+          "name": "SAMUEL MONTEMBEAULT",
+          "name_key": "samuel montembeault",
+          "position": "G",
+          "ir_date": "2026-10-10"
+        }
+      ]
     },
     "EDM": {
       "name": "Edmonton Oilers",
@@ -2255,6 +2263,12 @@
           "position": "C"
         },
         {
+          "sweater": 71,
+          "name": "DYLAN LARKIN",
+          "name_key": "dylan larkin",
+          "position": "C"
+        },
+        {
           "sweater": 72,
           "name": "ARBER XHEKAJ",
           "name_key": "arber xhekaj",
@@ -2271,12 +2285,6 @@
           "name": "ZACHARY BOLDUC",
           "name_key": "zachary bolduc",
           "position": "R"
-        },
-        {
-          "sweater": 77,
-          "name": "KIRBY DACH",
-          "name_key": "kirby dach",
-          "position": "C"
         },
         {
           "sweater": 85,
@@ -2305,13 +2313,6 @@
           "name_key": "chris kreider",
           "position": "L",
           "ir_date": "2026-11-15"
-        },
-        {
-          "sweater": 35,
-          "name": "SAMUEL MONTEMBEAULT",
-          "name_key": "samuel montembeault",
-          "position": "G",
-          "ir_date": "2026-10-10"
         },
         {
           "sweater": 93,
@@ -5079,6 +5080,46 @@
     }
   },
   "events": [
+    {
+      "id": "NEW_IR:DET:samuel montembeault:2026-11-23",
+      "type": "NEW_IR",
+      "team": "DET",
+      "player": "Samuel Montembeault",
+      "player_key": "samuel montembeault",
+      "detected_at": "2026-11-23T14:51:46Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:DET:kirby dach:2026-11-23",
+      "type": "ACTIVE_ADDED",
+      "team": "DET",
+      "player": "Kirby Dach",
+      "player_key": "kirby dach",
+      "detected_at": "2026-11-23T14:51:46Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:DET:sheldon dries:2026-11-23",
+      "type": "ACTIVE_REMOVED",
+      "team": "DET",
+      "player": "Sheldon Dries",
+      "player_key": "sheldon dries",
+      "detected_at": "2026-11-23T14:51:46Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:MTL:dylan larkin:2026-11-23",
+      "type": "ACTIVE_ADDED",
+      "team": "MTL",
+      "player": "Dylan Larkin",
+      "player_key": "dylan larkin",
+      "detected_at": "2026-11-23T14:51:46Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:MTL:kirby dach:2026-11-23",
+      "type": "ACTIVE_REMOVED",
+      "team": "MTL",
+      "player": "Kirby Dach",
+      "player_key": "kirby dach",
+      "detected_at": "2026-11-23T14:51:46Z"
+    },
     {
       "id": "ACTIVE_ADDED:CHI:lucas glendening:2026-11-23",
       "type": "ACTIVE_ADDED",
