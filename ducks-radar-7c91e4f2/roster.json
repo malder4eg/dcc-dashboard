@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-22 20:46 МСК",
+  "updated": "2026-11-23 09:26 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "17:46:50 11/22/2026",
+  "report_updated": "06:26:28 11/23/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 725,
+  "active_count": 724,
   "ir_count": 72,
   "teams": {
     "ANA": {
@@ -841,6 +841,12 @@
           "position": "R"
         },
         {
+          "sweater": 23,
+          "name": "LUCAS GLENDENING",
+          "name_key": "lucas glendening",
+          "position": "C"
+        },
+        {
           "sweater": 25,
           "name": "DOMINIC TONINATO",
           "name_key": "dominic toninato",
@@ -869,12 +875,6 @@
           "name": "DREW COMMESSO",
           "name_key": "drew commesso",
           "position": "G"
-        },
-        {
-          "sweater": 36,
-          "name": "DILLON BOUCHER",
-          "name_key": "dillon boucher",
-          "position": "L"
         },
         {
           "sweater": 38,
@@ -2861,12 +2861,6 @@
           "position": "C"
         },
         {
-          "sweater": 43,
-          "name": "LUKE GLENDENING",
-          "name_key": "luke glendening",
-          "position": "C"
-        },
-        {
           "sweater": 44,
           "name": "VLADISLAV GAVRIKOV",
           "name_key": "vladislav gavrikov",
@@ -4120,6 +4114,12 @@
           "position": "L"
         },
         {
+          "sweater": 26,
+          "name": "AATU RATY",
+          "name_key": "aatu raty",
+          "position": "C"
+        },
+        {
           "sweater": 28,
           "name": "TROY STECHER",
           "name_key": "troy stecher",
@@ -4160,12 +4160,6 @@
           "name": "EASTON COWAN",
           "name_key": "easton cowan",
           "position": "R"
-        },
-        {
-          "sweater": 54,
-          "name": "AATU RÄTY",
-          "name_key": "aatu raty",
-          "position": "C"
         },
         {
           "sweater": 72,
@@ -5086,6 +5080,30 @@
   },
   "events": [
     {
+      "id": "ACTIVE_ADDED:CHI:lucas glendening:2026-11-23",
+      "type": "ACTIVE_ADDED",
+      "team": "CHI",
+      "player": "Lucas Glendening",
+      "player_key": "lucas glendening",
+      "detected_at": "2026-11-23T06:26:28Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:CHI:dillon boucher:2026-11-23",
+      "type": "ACTIVE_REMOVED",
+      "team": "CHI",
+      "player": "Dillon Boucher",
+      "player_key": "dillon boucher",
+      "detected_at": "2026-11-23T06:26:28Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:NYR:luke glendening:2026-11-23",
+      "type": "ACTIVE_REMOVED",
+      "team": "NYR",
+      "player": "Luke Glendening",
+      "player_key": "luke glendening",
+      "detected_at": "2026-11-23T06:26:28Z"
+    },
+    {
       "id": "ACTIVE_REMOVED:CBJ:steven lorentz:2026-11-22",
       "type": "ACTIVE_REMOVED",
       "team": "CBJ",
@@ -5540,54 +5558,6 @@
       "player": "Tyler Boucher",
       "player_key": "tyler boucher",
       "detected_at": "2026-11-16T15:26:03Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:ANA:ian moore:2026-11-16",
-      "type": "RETURNED_FROM_IR",
-      "team": "ANA",
-      "player": "Ian Moore",
-      "player_key": "ian moore",
-      "detected_at": "2026-11-16T05:59:20Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:COL:mike reilly:2026-11-16",
-      "type": "ACTIVE_ADDED",
-      "team": "COL",
-      "player": "Mike Reilly",
-      "player_key": "mike reilly",
-      "detected_at": "2026-11-16T05:59:20Z"
-    },
-    {
-      "id": "NEW_IR:MTL:chris kreider:2026-11-16",
-      "type": "NEW_IR",
-      "team": "MTL",
-      "player": "Chris Kreider",
-      "player_key": "chris kreider",
-      "detected_at": "2026-11-16T05:59:20Z"
-    },
-    {
-      "id": "NEW_IR:MTL:josh anderson:2026-11-16",
-      "type": "NEW_IR",
-      "team": "MTL",
-      "player": "Josh Anderson",
-      "player_key": "josh anderson",
-      "detected_at": "2026-11-16T05:59:20Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:MTL:brett berard:2026-11-16",
-      "type": "ACTIVE_ADDED",
-      "team": "MTL",
-      "player": "Brett Berard",
-      "player_key": "brett berard",
-      "detected_at": "2026-11-16T05:59:20Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:MTL:david reinbacher:2026-11-16",
-      "type": "ACTIVE_ADDED",
-      "team": "MTL",
-      "player": "David Reinbacher",
-      "player_key": "david reinbacher",
-      "detected_at": "2026-11-16T05:59:20Z"
     }
   ]
 }
