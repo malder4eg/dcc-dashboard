@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-24 00:11 МСК",
+  "updated": "2026-11-24 01:00 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "21:11:49 11/23/2026",
+  "report_updated": "22:00:02 11/23/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 724,
-  "ir_count": 74,
+  "active_count": 723,
+  "ir_count": 75,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -2003,12 +2003,6 @@
           "position": "L"
         },
         {
-          "sweater": 64,
-          "name": "ERIK GUSTAFSSON",
-          "name_key": "erik gustafsson",
-          "position": "D"
-        },
-        {
           "sweater": 79,
           "name": "SAMUEL HELENIUS",
           "name_key": "samuel helenius",
@@ -2027,7 +2021,15 @@
           "position": "D"
         }
       ],
-      "ir": []
+      "ir": [
+        {
+          "sweater": 64,
+          "name": "ERIK GUSTAFSSON",
+          "name_key": "erik gustafsson",
+          "position": "D",
+          "ir_date": "2026-11-23"
+        }
+      ]
     },
     "MIN": {
       "name": "Minnesota Wild",
@@ -4292,6 +4294,12 @@
           "position": "R"
         },
         {
+          "sweater": 11,
+          "name": "DYLAN GUENTHER",
+          "name_key": "dylan guenther",
+          "position": "R"
+        },
+        {
           "sweater": 15,
           "name": "ZAC JONES",
           "name_key": "zac jones",
@@ -4400,12 +4408,6 @@
           "position": "C"
         },
         {
-          "sweater": 84,
-          "name": "ARTEM DUDA",
-          "name_key": "artem duda",
-          "position": "D"
-        },
-        {
           "sweater": 92,
           "name": "LOGAN COOLEY",
           "name_key": "logan cooley",
@@ -4447,11 +4449,11 @@
           "ir_date": "2026-09-28"
         },
         {
-          "sweater": 11,
-          "name": "DYLAN GUENTHER",
-          "name_key": "dylan guenther",
-          "position": "R",
-          "ir_date": "2026-11-11"
+          "sweater": 84,
+          "name": "ARTEM DUDA",
+          "name_key": "artem duda",
+          "position": "D",
+          "ir_date": "2026-11-23"
         },
         {
           "sweater": 88,
@@ -5094,6 +5096,30 @@
     }
   },
   "events": [
+    {
+      "id": "NEW_IR:LAK:erik gustafsson:2026-11-23",
+      "type": "NEW_IR",
+      "team": "LAK",
+      "player": "Erik Gustafsson",
+      "player_key": "erik gustafsson",
+      "detected_at": "2026-11-23T22:00:02Z"
+    },
+    {
+      "id": "NEW_IR:UTA:artem duda:2026-11-23",
+      "type": "NEW_IR",
+      "team": "UTA",
+      "player": "Artem Duda",
+      "player_key": "artem duda",
+      "detected_at": "2026-11-23T22:00:02Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:UTA:dylan guenther:2026-11-23",
+      "type": "RETURNED_FROM_IR",
+      "team": "UTA",
+      "player": "Dylan Guenther",
+      "player_key": "dylan guenther",
+      "detected_at": "2026-11-23T22:00:02Z"
+    },
     {
       "id": "NEW_IR:MIN:quinn hughes:2026-11-23",
       "type": "NEW_IR",
