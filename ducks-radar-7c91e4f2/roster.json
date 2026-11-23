@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-23 19:09 МСК",
+  "updated": "2026-11-23 20:49 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "16:09:10 11/23/2026",
+  "report_updated": "17:49:56 11/23/2026",
   "complete": true,
   "team_count": 32,
   "active_count": 724,
-  "ir_count": 72,
+  "ir_count": 73,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -572,6 +572,12 @@
           "name": "JOEL HANLEY",
           "name_key": "joel hanley",
           "position": "D"
+        },
+        {
+          "sweater": 45,
+          "name": "SAM MORTON",
+          "name_key": "sam morton",
+          "position": "C"
         },
         {
           "sweater": 55,
@@ -3516,6 +3522,12 @@
           "position": "C"
         },
         {
+          "sweater": 24,
+          "name": "LIBOR HAJEK",
+          "name_key": "libor hajek",
+          "position": "D"
+        },
+        {
           "sweater": 25,
           "name": "DARNELL NURSE",
           "name_key": "darnell nurse",
@@ -3543,12 +3555,6 @@
           "sweater": 41,
           "name": "IVAR STENBERG",
           "name_key": "ivar stenberg",
-          "position": "L"
-        },
-        {
-          "sweater": 44,
-          "name": "KIEFER SHERWOOD",
-          "name_key": "kiefer sherwood",
           "position": "L"
         },
         {
@@ -3607,6 +3613,13 @@
           "name_key": "logan couture",
           "position": "C",
           "ir_date": "2024-02-19"
+        },
+        {
+          "sweater": 44,
+          "name": "KIEFER SHERWOOD",
+          "name_key": "kiefer sherwood",
+          "position": "L",
+          "ir_date": "2026-11-23"
         },
         {
           "sweater": 92,
@@ -4548,12 +4561,6 @@
           "position": "D"
         },
         {
-          "sweater": 60,
-          "name": "NIKITA TOLOPILO",
-          "name_key": "nikita tolopilo",
-          "position": "G"
-        },
-        {
           "sweater": 62,
           "name": "JACOB QUILLAN",
           "name_key": "jacob quillan",
@@ -5080,6 +5087,38 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_ADDED:CGY:sam morton:2026-11-23",
+      "type": "ACTIVE_ADDED",
+      "team": "CGY",
+      "player": "Sam Morton",
+      "player_key": "sam morton",
+      "detected_at": "2026-11-23T17:49:56Z"
+    },
+    {
+      "id": "NEW_IR:SJS:kiefer sherwood:2026-11-23",
+      "type": "NEW_IR",
+      "team": "SJS",
+      "player": "Kiefer Sherwood",
+      "player_key": "kiefer sherwood",
+      "detected_at": "2026-11-23T17:49:56Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:SJS:libor hajek:2026-11-23",
+      "type": "ACTIVE_ADDED",
+      "team": "SJS",
+      "player": "Libor Hajek",
+      "player_key": "libor hajek",
+      "detected_at": "2026-11-23T17:49:56Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:VAN:nikita tolopilo:2026-11-23",
+      "type": "ACTIVE_REMOVED",
+      "team": "VAN",
+      "player": "Nikita Tolopilo",
+      "player_key": "nikita tolopilo",
+      "detected_at": "2026-11-23T17:49:56Z"
+    },
     {
       "id": "ACTIVE_ADDED:CBJ:mikael pyyhtia:2026-11-23",
       "type": "ACTIVE_ADDED",
