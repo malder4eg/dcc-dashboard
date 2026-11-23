@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-23 17:51 МСК",
+  "updated": "2026-11-23 19:09 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "14:51:46 11/23/2026",
+  "report_updated": "16:09:10 11/23/2026",
   "complete": true,
   "team_count": 32,
   "active_count": 724,
@@ -1208,6 +1208,12 @@
           "position": "D"
         },
         {
+          "sweater": 82,
+          "name": "MIKAEL PYYHTIA",
+          "name_key": "mikael pyyhtia",
+          "position": "L"
+        },
+        {
           "sweater": 89,
           "name": "MATTHEW KNIES",
           "name_key": "matthew knies",
@@ -2263,12 +2269,6 @@
           "position": "C"
         },
         {
-          "sweater": 71,
-          "name": "DYLAN LARKIN",
-          "name_key": "dylan larkin",
-          "position": "C"
-        },
-        {
           "sweater": 72,
           "name": "ARBER XHEKAJ",
           "name_key": "arber xhekaj",
@@ -2291,6 +2291,12 @@
           "name": "ALEXANDRE TEXIER",
           "name_key": "alexandre texier",
           "position": "L"
+        },
+        {
+          "sweater": 89,
+          "name": "DYLAN LARKIN",
+          "name_key": "dylan larkin",
+          "position": "C"
         },
         {
           "sweater": 91,
@@ -3926,12 +3932,6 @@
       "name": "Tampa Bay Lightning",
       "active": [
         {
-          "sweater": 10,
-          "name": "JANSEN HARKINS",
-          "name_key": "jansen harkins",
-          "position": "C"
-        },
-        {
           "sweater": 21,
           "name": "BRAYDEN POINT",
           "name_key": "brayden point",
@@ -5081,6 +5081,22 @@
   },
   "events": [
     {
+      "id": "ACTIVE_ADDED:CBJ:mikael pyyhtia:2026-11-23",
+      "type": "ACTIVE_ADDED",
+      "team": "CBJ",
+      "player": "Mikael Pyyhtia",
+      "player_key": "mikael pyyhtia",
+      "detected_at": "2026-11-23T16:09:10Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:TBL:jansen harkins:2026-11-23",
+      "type": "ACTIVE_REMOVED",
+      "team": "TBL",
+      "player": "Jansen Harkins",
+      "player_key": "jansen harkins",
+      "detected_at": "2026-11-23T16:09:10Z"
+    },
+    {
       "id": "NEW_IR:DET:samuel montembeault:2026-11-23",
       "type": "NEW_IR",
       "team": "DET",
@@ -5591,14 +5607,6 @@
       "player": "Olli Maatta",
       "player_key": "olli maatta",
       "detected_at": "2026-11-17T06:08:06Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:OTT:tyler boucher:2026-11-16",
-      "type": "ACTIVE_ADDED",
-      "team": "OTT",
-      "player": "Tyler Boucher",
-      "player_key": "tyler boucher",
-      "detected_at": "2026-11-16T15:26:03Z"
     }
   ]
 }
