@@ -2,14 +2,17 @@ name: DCC daily fantasy impact
 
 on:
   schedule:
-    # The DCC briefing now runs at 08:30 Moscow. GitHub schedules may be
-    # delayed, so start early and retry; retain later runs as fallback.
+    # DCC briefing starts at 10:00 Moscow (UTC+3). Scheduled events can be
+    # missed or delayed by GitHub; keep extra late-morning fallbacks.
     # Moscow is UTC+3 year round. Some west-coast NHL games may still be live:
     # daily_impact.py marks incomplete scores, do not assume full coverage.
     - cron: "17,47 4 * * *"  # 07:17 and 07:47 MSK
     - cron: "17,47 5 * * *"  # 08:17 and 08:47 MSK
     - cron: "17,37,57 6 * * *"  # 09:17, 09:37 and 09:57 MSK
-    - cron: "17 7 * * *"        # 10:17 MSK final fallback
+    - cron: "17,47 7 * * *"     # 10:17 and 10:47 MSK
+    - cron: "17,47 8 * * *"     # 11:17 and 11:47 MSK
+    - cron: "17 9 * * *"        # 12:17 MSK
+    - cron: "17 10 * * *"       # 13:17 MSK last fallback
   workflow_dispatch:
   push:
     branches: [main]
