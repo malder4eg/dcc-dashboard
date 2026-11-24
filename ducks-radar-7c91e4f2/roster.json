@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-24 17:57 МСК",
+  "updated": "2026-11-24 18:58 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "14:57:54 11/24/2026",
+  "report_updated": "15:58:45 11/24/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 723,
-  "ir_count": 75,
+  "active_count": 718,
+  "ir_count": 77,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -2188,12 +2188,6 @@
       "name": "Montréal Canadiens",
       "active": [
         {
-          "sweater": 8,
-          "name": "MIKE MATHESON",
-          "name_key": "mike matheson",
-          "position": "D"
-        },
-        {
           "sweater": 13,
           "name": "COLE CAUFIELD",
           "name_key": "cole caufield",
@@ -2315,6 +2309,13 @@
         }
       ],
       "ir": [
+        {
+          "sweater": 8,
+          "name": "MIKE MATHESON",
+          "name_key": "mike matheson",
+          "position": "D",
+          "ir_date": "2026-11-24"
+        },
         {
           "sweater": 17,
           "name": "JOSH ANDERSON",
@@ -3034,12 +3035,6 @@
           "position": "C"
         },
         {
-          "sweater": 26,
-          "name": "CARTER YAKEMCHUK",
-          "name_key": "carter yakemchuk",
-          "position": "D"
-        },
-        {
           "sweater": 28,
           "name": "CLAUDE GIROUX",
           "name_key": "claude giroux",
@@ -3068,12 +3063,6 @@
           "name": "LINUS ULLMARK",
           "name_key": "linus ullmark",
           "position": "G"
-        },
-        {
-          "sweater": 42,
-          "name": "HAYDEN HODGSON",
-          "name_key": "hayden hodgson",
-          "position": "R"
         },
         {
           "sweater": 43,
@@ -3106,6 +3095,12 @@
           "position": "D"
         },
         {
+          "sweater": 76,
+          "name": "DJIBRIL TOURE",
+          "name_key": "djibril toure",
+          "position": "D"
+        },
+        {
           "sweater": 79,
           "name": "SAMUEL BLAIS",
           "name_key": "samuel blais",
@@ -3132,6 +3127,13 @@
           "name_key": "warren foegele",
           "position": "L",
           "ir_date": "2026-10-30"
+        },
+        {
+          "sweater": 42,
+          "name": "HAYDEN HODGSON",
+          "name_key": "hayden hodgson",
+          "position": "R",
+          "ir_date": "2026-11-23"
         },
         {
           "sweater": 95,
@@ -4191,12 +4193,6 @@
           "position": "C"
         },
         {
-          "sweater": 77,
-          "name": "RYAN TVERBERG",
-          "name_key": "ryan tverberg",
-          "position": "C"
-        },
-        {
           "sweater": 81,
           "name": "DAKOTA JOSHUA",
           "name_key": "dakota joshua",
@@ -4207,12 +4203,6 @@
           "name": "WILLIAM NYLANDER",
           "name_key": "william nylander",
           "position": "R"
-        },
-        {
-          "sweater": 90,
-          "name": "BRENDAN BRISSON",
-          "name_key": "brendan brisson",
-          "position": "C"
         },
         {
           "sweater": 91,
@@ -5010,12 +5000,6 @@
           "position": "L"
         },
         {
-          "sweater": 53,
-          "name": "DANIL ZHILKIN",
-          "name_key": "danil zhilkin",
-          "position": "C"
-        },
-        {
           "sweater": 54,
           "name": "DYLAN SAMBERG",
           "name_key": "dylan samberg",
@@ -5096,6 +5080,62 @@
     }
   },
   "events": [
+    {
+      "id": "NEW_IR:MTL:mike matheson:2026-11-24",
+      "type": "NEW_IR",
+      "team": "MTL",
+      "player": "Mike Matheson",
+      "player_key": "mike matheson",
+      "detected_at": "2026-11-24T15:58:45Z"
+    },
+    {
+      "id": "NEW_IR:OTT:hayden hodgson:2026-11-24",
+      "type": "NEW_IR",
+      "team": "OTT",
+      "player": "Hayden Hodgson",
+      "player_key": "hayden hodgson",
+      "detected_at": "2026-11-24T15:58:45Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:OTT:djibril toure:2026-11-24",
+      "type": "ACTIVE_ADDED",
+      "team": "OTT",
+      "player": "Djibril Toure",
+      "player_key": "djibril toure",
+      "detected_at": "2026-11-24T15:58:45Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:OTT:carter yakemchuk:2026-11-24",
+      "type": "ACTIVE_REMOVED",
+      "team": "OTT",
+      "player": "Carter Yakemchuk",
+      "player_key": "carter yakemchuk",
+      "detected_at": "2026-11-24T15:58:45Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:TOR:brendan brisson:2026-11-24",
+      "type": "ACTIVE_REMOVED",
+      "team": "TOR",
+      "player": "Brendan Brisson",
+      "player_key": "brendan brisson",
+      "detected_at": "2026-11-24T15:58:45Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:TOR:ryan tverberg:2026-11-24",
+      "type": "ACTIVE_REMOVED",
+      "team": "TOR",
+      "player": "Ryan Tverberg",
+      "player_key": "ryan tverberg",
+      "detected_at": "2026-11-24T15:58:45Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:WPG:danil zhilkin:2026-11-24",
+      "type": "ACTIVE_REMOVED",
+      "team": "WPG",
+      "player": "Danil Zhilkin",
+      "player_key": "danil zhilkin",
+      "detected_at": "2026-11-24T15:58:45Z"
+    },
     {
       "id": "NEW_IR:LAK:erik gustafsson:2026-11-23",
       "type": "NEW_IR",
@@ -5647,54 +5687,6 @@
       "player": "Conor Geekie",
       "player_key": "conor geekie",
       "detected_at": "2026-11-17T16:49:21Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:NYR:marc del gaizo:2026-11-17",
-      "type": "ACTIVE_REMOVED",
-      "team": "NYR",
-      "player": "Marc Del Gaizo",
-      "player_key": "marc del gaizo",
-      "detected_at": "2026-11-17T15:46:53Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:SJS:brett leason:2026-11-17",
-      "type": "ACTIVE_ADDED",
-      "team": "SJS",
-      "player": "Brett Leason",
-      "player_key": "brett leason",
-      "detected_at": "2026-11-17T15:46:53Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:STL:nathan walker:2026-11-17",
-      "type": "ACTIVE_ADDED",
-      "team": "STL",
-      "player": "Nathan Walker",
-      "player_key": "nathan walker",
-      "detected_at": "2026-11-17T15:46:53Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:VAN:nikita tolopilo:2026-11-17",
-      "type": "ACTIVE_REMOVED",
-      "team": "VAN",
-      "player": "Nikita Tolopilo",
-      "player_key": "nikita tolopilo",
-      "detected_at": "2026-11-17T15:46:53Z"
-    },
-    {
-      "id": "NEW_IR:WPG:isak rosen:2026-11-17",
-      "type": "NEW_IR",
-      "team": "WPG",
-      "player": "Isak Rosén",
-      "player_key": "isak rosen",
-      "detected_at": "2026-11-17T15:46:53Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:WPG:danil zhilkin:2026-11-17",
-      "type": "ACTIVE_ADDED",
-      "team": "WPG",
-      "player": "Danil Zhilkin",
-      "player_key": "danil zhilkin",
-      "detected_at": "2026-11-17T15:46:53Z"
     }
   ]
 }
