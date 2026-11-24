@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-24 23:08 МСК",
+  "updated": "2026-11-24 23:37 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "20:08:28 11/24/2026",
+  "report_updated": "20:37:37 11/24/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 718,
+  "active_count": 717,
   "ir_count": 78,
   "teams": {
     "ANA": {
@@ -82,12 +82,6 @@
           "name": "TIM WASHE",
           "name_key": "tim washe",
           "position": "C"
-        },
-        {
-          "sweater": 47,
-          "name": "NOAH WARREN",
-          "name_key": "noah warren",
-          "position": "D"
         },
         {
           "sweater": 48,
@@ -5087,6 +5081,14 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_REMOVED:ANA:noah warren:2026-11-24",
+      "type": "ACTIVE_REMOVED",
+      "team": "ANA",
+      "player": "Noah Warren",
+      "player_key": "noah warren",
+      "detected_at": "2026-11-24T20:37:37Z"
+    },
     {
       "id": "ACTIVE_REMOVED:DAL:remi poirier:2026-11-24",
       "type": "ACTIVE_REMOVED",
