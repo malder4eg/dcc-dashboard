@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-24 18:58 МСК",
+  "updated": "2026-11-24 20:22 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "15:58:45 11/24/2026",
+  "report_updated": "17:22:30 11/24/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 718,
+  "active_count": 720,
   "ir_count": 77,
   "teams": {
     "ANA": {
@@ -1571,7 +1571,7 @@
       ],
       "ir": [
         {
-          "sweater": 35,
+          "sweater": 32,
           "name": "SAMUEL MONTEMBEAULT",
           "name_key": "samuel montembeault",
           "position": "G",
@@ -2230,6 +2230,12 @@
           "position": "G"
         },
         {
+          "sweater": 37,
+          "name": "BRETT BERARD",
+          "name_key": "brett berard",
+          "position": "L"
+        },
+        {
           "sweater": 42,
           "name": "ADAM ENGSTROM",
           "name_key": "adam engstrom",
@@ -2264,6 +2270,12 @@
           "name": "FLORIAN XHEKAJ",
           "name_key": "florian xhekaj",
           "position": "L"
+        },
+        {
+          "sweater": 64,
+          "name": "DAVID REINBACHER",
+          "name_key": "david reinbacher",
+          "position": "D"
         },
         {
           "sweater": 71,
@@ -5081,6 +5093,22 @@
   },
   "events": [
     {
+      "id": "ACTIVE_ADDED:MTL:brett berard:2026-11-24",
+      "type": "ACTIVE_ADDED",
+      "team": "MTL",
+      "player": "Brett Berard",
+      "player_key": "brett berard",
+      "detected_at": "2026-11-24T17:22:30Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:MTL:david reinbacher:2026-11-24",
+      "type": "ACTIVE_ADDED",
+      "team": "MTL",
+      "player": "David Reinbacher",
+      "player_key": "david reinbacher",
+      "detected_at": "2026-11-24T17:22:30Z"
+    },
+    {
       "id": "NEW_IR:MTL:mike matheson:2026-11-24",
       "type": "NEW_IR",
       "team": "MTL",
@@ -5671,22 +5699,6 @@
       "player": "Nick Schmaltz",
       "player_key": "nick schmaltz",
       "detected_at": "2026-11-18T04:47:50Z"
-    },
-    {
-      "id": "RETURNED_FROM_IR:TBL:brayden point:2026-11-17",
-      "type": "RETURNED_FROM_IR",
-      "team": "TBL",
-      "player": "Brayden Point",
-      "player_key": "brayden point",
-      "detected_at": "2026-11-17T16:55:37Z"
-    },
-    {
-      "id": "NEW_IR:TBL:conor geekie:2026-11-17",
-      "type": "NEW_IR",
-      "team": "TBL",
-      "player": "Conor Geekie",
-      "player_key": "conor geekie",
-      "detected_at": "2026-11-17T16:49:21Z"
     }
   ]
 }
