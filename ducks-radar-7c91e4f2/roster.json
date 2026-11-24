@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-24 21:54 МСК",
+  "updated": "2026-11-24 22:30 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "18:54:02 11/24/2026",
+  "report_updated": "19:30:24 11/24/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 720,
-  "ir_count": 77,
+  "active_count": 718,
+  "ir_count": 78,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -1360,12 +1360,6 @@
           "position": "G"
         },
         {
-          "sweater": 31,
-          "name": "RÉMI POIRIER",
-          "name_key": "remi poirier",
-          "position": "G"
-        },
-        {
           "sweater": 49,
           "name": "JUSTIN HRYCKOWIAN",
           "name_key": "justin hryckowian",
@@ -2708,12 +2702,6 @@
           "position": "C"
         },
         {
-          "sweater": 21,
-          "name": "KYLE PALMIERI",
-          "name_key": "kyle palmieri",
-          "position": "C"
-        },
-        {
           "sweater": 24,
           "name": "SCOTT MAYFIELD",
           "name_key": "scott mayfield",
@@ -2799,6 +2787,13 @@
         }
       ],
       "ir": [
+        {
+          "sweater": 21,
+          "name": "KYLE PALMIERI",
+          "name_key": "kyle palmieri",
+          "position": "C",
+          "ir_date": "2026-11-24"
+        },
         {
           "sweater": 28,
           "name": "ALEXANDER ROMANOV",
@@ -5092,6 +5087,22 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_REMOVED:DAL:remi poirier:2026-11-24",
+      "type": "ACTIVE_REMOVED",
+      "team": "DAL",
+      "player": "Remi Poirier",
+      "player_key": "remi poirier",
+      "detected_at": "2026-11-24T19:30:24Z"
+    },
+    {
+      "id": "NEW_IR:NYI:kyle palmieri:2026-11-24",
+      "type": "NEW_IR",
+      "team": "NYI",
+      "player": "Kyle Palmieri",
+      "player_key": "kyle palmieri",
+      "detected_at": "2026-11-24T19:30:24Z"
+    },
     {
       "id": "ACTIVE_ADDED:MTL:brett berard:2026-11-24",
       "type": "ACTIVE_ADDED",
