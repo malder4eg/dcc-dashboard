@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: read
+  actions: read
   pages: write
   id-token: write
 
@@ -33,6 +34,25 @@ jobs:
         with:
           name: github-pages-${{ github.run_attempt }}
           path: .
+
+      # GitHub's upload API can complete before the artifact appears in
+      # the artifacts-list API, causing deploy-pages to report "Found 0".
+      - name: Wait for uploaded Pages artifact to become visible
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PAGE_ARTIFACT: github-pages-${{ github.run_attempt }}
+        shell: bash
+        run: |
+          for attempt in {1..15}; do
+            if gh api "repos/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}/artifacts" --jq '.artifacts[].name' | grep -Fxq "$PAGE_ARTIFACT"; then
+              echo "Artifact $PAGE_ARTIFACT is visible."
+              exit 0
+            fi
+            echo "Waiting for Pages artifact indexing ($attempt/15)"
+            sleep 3
+          done
+          echo "::error::Pages artifact was not visible after 45 seconds."
+          exit 1
 
       - name: Deploy to GitHub Pages
         id: deployment
