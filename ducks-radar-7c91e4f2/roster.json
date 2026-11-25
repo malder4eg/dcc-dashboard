@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-25 17:33 МСК",
+  "updated": "2026-11-25 18:46 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "14:33:20 11/25/2026",
+  "report_updated": "15:46:45 11/25/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 716,
-  "ir_count": 81,
+  "active_count": 718,
+  "ir_count": 80,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -566,12 +566,6 @@
           "name": "JOEL HANLEY",
           "name_key": "joel hanley",
           "position": "D"
-        },
-        {
-          "sweater": 45,
-          "name": "SAM MORTON",
-          "name_key": "sam morton",
-          "position": "C"
         },
         {
           "sweater": 55,
@@ -2757,6 +2751,12 @@
           "position": "L"
         },
         {
+          "sweater": 64,
+          "name": "CALUM RITCHIE",
+          "name_key": "calum ritchie",
+          "position": "C"
+        },
+        {
           "sweater": 71,
           "name": "BEN HUTTON",
           "name_key": "ben hutton",
@@ -4019,6 +4019,12 @@
           "position": "C"
         },
         {
+          "sweater": 38,
+          "name": "BRANDON HAGEL",
+          "name_key": "brandon hagel",
+          "position": "L"
+        },
+        {
           "sweater": 49,
           "name": "SCOTT SABOURIN",
           "name_key": "scott sabourin",
@@ -4098,13 +4104,6 @@
         }
       ],
       "ir": [
-        {
-          "sweater": 38,
-          "name": "BRANDON HAGEL",
-          "name_key": "brandon hagel",
-          "position": "L",
-          "ir_date": "2026-11-19"
-        },
         {
           "sweater": 94,
           "name": "CONOR GEEKIE",
@@ -4194,6 +4193,12 @@
           "name": "EASTON COWAN",
           "name_key": "easton cowan",
           "position": "R"
+        },
+        {
+          "sweater": 70,
+          "name": "ARTUR AKHTYAMOV",
+          "name_key": "artur akhtyamov",
+          "position": "G"
         },
         {
           "sweater": 72,
@@ -5096,6 +5101,38 @@
   },
   "events": [
     {
+      "id": "ACTIVE_REMOVED:CGY:sam morton:2026-11-25",
+      "type": "ACTIVE_REMOVED",
+      "team": "CGY",
+      "player": "Sam Morton",
+      "player_key": "sam morton",
+      "detected_at": "2026-11-25T15:46:45Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:NYI:calum ritchie:2026-11-25",
+      "type": "ACTIVE_ADDED",
+      "team": "NYI",
+      "player": "Calum Ritchie",
+      "player_key": "calum ritchie",
+      "detected_at": "2026-11-25T15:46:45Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:TBL:brandon hagel:2026-11-25",
+      "type": "RETURNED_FROM_IR",
+      "team": "TBL",
+      "player": "Brandon Hagel",
+      "player_key": "brandon hagel",
+      "detected_at": "2026-11-25T15:46:45Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:TOR:artur akhtyamov:2026-11-25",
+      "type": "ACTIVE_ADDED",
+      "team": "TOR",
+      "player": "Artur Akhtyamov",
+      "player_key": "artur akhtyamov",
+      "detected_at": "2026-11-25T15:46:45Z"
+    },
+    {
       "id": "ACTIVE_ADDED:STL:adam jiricek:2026-11-25",
       "type": "ACTIVE_ADDED",
       "team": "STL",
@@ -5750,14 +5787,6 @@
       "player": "Isac Lundestrom",
       "player_key": "isac lundestrom",
       "detected_at": "2026-11-19T06:27:31Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:UTA:gregor biber:2026-11-18",
-      "type": "ACTIVE_ADDED",
-      "team": "UTA",
-      "player": "Gregor Biber",
-      "player_key": "gregor biber",
-      "detected_at": "2026-11-18T15:45:40Z"
     }
   ]
 }
