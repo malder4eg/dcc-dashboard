@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-25 22:07 МСК",
+  "updated": "2026-11-25 22:14 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "19:07:13 11/25/2026",
+  "report_updated": "19:14:14 11/25/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 720,
-  "ir_count": 80,
+  "active_count": 722,
+  "ir_count": 78,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -964,6 +964,12 @@
           "position": "D"
         },
         {
+          "sweater": 8,
+          "name": "CALE MAKAR",
+          "name_key": "cale makar",
+          "position": "D"
+        },
+        {
           "sweater": 9,
           "name": "FEDOR SVECHKOV",
           "name_key": "fedor svechkov",
@@ -1085,13 +1091,6 @@
         }
       ],
       "ir": [
-        {
-          "sweater": 8,
-          "name": "CALE MAKAR",
-          "name_key": "cale makar",
-          "position": "D",
-          "ir_date": "2026-11-19"
-        },
         {
           "sweater": 42,
           "name": "JOSH MANSON",
@@ -1283,6 +1282,12 @@
           "position": "D"
         },
         {
+          "sweater": 10,
+          "name": "OSKAR BÄCK",
+          "name_key": "oskar back",
+          "position": "C"
+        },
+        {
           "sweater": 12,
           "name": "RADEK FAKSA",
           "name_key": "radek faksa",
@@ -1404,13 +1409,6 @@
           "name_key": "lian bichsel",
           "position": "D",
           "ir_date": "2026-11-14"
-        },
-        {
-          "sweater": 10,
-          "name": "OSKAR BÄCK",
-          "name_key": "oskar back",
-          "position": "C",
-          "ir_date": "2026-10-16"
         },
         {
           "sweater": 20,
@@ -5112,6 +5110,22 @@
     }
   },
   "events": [
+    {
+      "id": "RETURNED_FROM_IR:COL:cale makar:2026-11-25",
+      "type": "RETURNED_FROM_IR",
+      "team": "COL",
+      "player": "Cale Makar",
+      "player_key": "cale makar",
+      "detected_at": "2026-11-25T19:14:14Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:DAL:oskar back:2026-11-25",
+      "type": "RETURNED_FROM_IR",
+      "team": "DAL",
+      "player": "Oskar Bäck",
+      "player_key": "oskar back",
+      "detected_at": "2026-11-25T19:14:14Z"
+    },
     {
       "id": "ACTIVE_ADDED:LAK:kirill kirsanov:2026-11-25",
       "type": "ACTIVE_ADDED",
