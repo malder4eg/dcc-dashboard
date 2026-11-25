@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
   "game_date": "2026-11-24",
-  "generated_at": "2026-11-25T07:01:50Z",
-  "updated": "2026-11-25 10:01 МСК",
+  "generated_at": "2026-11-25T10:25:05Z",
+  "updated": "2026-11-25 13:25 МСК",
   "complete": true,
   "history_updated": "2026-11-25 10:01 МСК",
-  "mapping_updated": "2026-11-25 10:01 МСК",
-  "espn_updated": "2026-11-25 10:01 МСК",
+  "mapping_updated": "2026-11-25 13:25 МСК",
+  "espn_updated": "2026-11-25 13:24 МСК",
   "source": {
     "game_status": "https://api-web.nhle.com/v1/score/2026-11-24",
     "game_stats": "https://api.nhle.com/stats/rest/en/skater/",
@@ -72,9 +72,9 @@
     },
     "incomplete_final_games": [],
     "nhl_mapping_coverage": {
-      "mapped": 766,
-      "unmatched": 23,
-      "ratio": 0.9708
+      "mapped": 767,
+      "unmatched": 22,
+      "ratio": 0.9721
     },
     "espn_index_complete": true,
     "espn_analysis_complete": true,
@@ -1038,9 +1038,9 @@
         "shifts": 28
       },
       "espn_player_id": 3114775,
-      "availability": "WAIVERS",
-      "on_team_id": 0,
-      "owner": null,
+      "availability": "ONTEAM",
+      "on_team_id": 2,
+      "owner": "Moscow Lawyers",
       "is_mighty_ducks": false
     },
     {
@@ -1190,54 +1190,6 @@
   ],
   "top3_available": [
     {
-      "rank": 17,
-      "name": "Kasperi Kapanen",
-      "nhl_player_id": 8477953,
-      "nhl_team": "EDM",
-      "opponent": "VGK",
-      "position": "R",
-      "game_id": 2026020385,
-      "game_date": "2026-11-24",
-      "impact_score": 3.9,
-      "category_impact": {
-        "g": 0.0,
-        "a": 1.0,
-        "pts": 1.0,
-        "plus_minus": 0.0,
-        "ppp": 0.0,
-        "shp": 0.0,
-        "fow": 0.0,
-        "toi": 0.933,
-        "sog": 0.0,
-        "hit": 0.667,
-        "blk": 0.0
-      },
-      "breadth": 3,
-      "stats": {
-        "g": 0,
-        "a": 1,
-        "pts": 1,
-        "plus_minus": 0,
-        "ppp": 0,
-        "shp": 0,
-        "fow": null,
-        "toi": 1243,
-        "sog": 0,
-        "hit": 2,
-        "blk": 0,
-        "ev_toi": 1030,
-        "pp_toi": 120,
-        "sh_toi": 93,
-        "fo": 0,
-        "shifts": 28
-      },
-      "espn_player_id": 3114775,
-      "availability": "WAIVERS",
-      "on_team_id": 0,
-      "owner": null,
-      "is_mighty_ducks": false
-    },
-    {
       "rank": 18,
       "name": "Marc Gatcomb",
       "nhl_player_id": 8483553,
@@ -1328,6 +1280,54 @@
         "shifts": 22
       },
       "espn_player_id": 3042062,
+      "availability": "FREEAGENT",
+      "on_team_id": 0,
+      "owner": null,
+      "is_mighty_ducks": false
+    },
+    {
+      "rank": 24,
+      "name": "Owen Michaels",
+      "nhl_player_id": 8486161,
+      "nhl_team": "EDM",
+      "opponent": "VGK",
+      "position": "R",
+      "game_id": 2026020385,
+      "game_date": "2026-11-24",
+      "impact_score": 1.938,
+      "category_impact": {
+        "g": 0.0,
+        "a": 0.0,
+        "pts": 0.0,
+        "plus_minus": -0.4,
+        "ppp": 0.0,
+        "shp": 0.0,
+        "fow": 0.5,
+        "toi": 0.371,
+        "sog": 0.0,
+        "hit": 0.667,
+        "blk": 0.5
+      },
+      "breadth": 3,
+      "stats": {
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plus_minus": -1,
+        "ppp": 0,
+        "shp": 0,
+        "fow": 3,
+        "toi": 494,
+        "sog": 0,
+        "hit": 2,
+        "blk": 1,
+        "ev_toi": 494,
+        "pp_toi": 0,
+        "sh_toi": 0,
+        "fo": 4,
+        "shifts": 14
+      },
+      "espn_player_id": 5206840,
       "availability": "FREEAGENT",
       "on_team_id": 0,
       "owner": null,
@@ -2438,9 +2438,9 @@
         "shifts": 28
       },
       "espn_player_id": 3114775,
-      "availability": "WAIVERS",
-      "on_team_id": 0,
-      "owner": null,
+      "availability": "ONTEAM",
+      "on_team_id": 2,
+      "owner": "Moscow Lawyers",
       "is_mighty_ducks": false
     },
     {
@@ -3350,9 +3350,9 @@
         "shifts": 12
       },
       "espn_player_id": 4024997,
-      "availability": "ONTEAM",
-      "on_team_id": 2,
-      "owner": "Moscow Lawyers",
+      "availability": "FREEAGENT",
+      "on_team_id": 0,
+      "owner": null,
       "is_mighty_ducks": false
     }
   ]
