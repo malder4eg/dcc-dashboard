@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-25 20:19 МСК",
+  "updated": "2026-11-25 20:54 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "17:19:03 11/25/2026",
+  "report_updated": "17:54:16 11/25/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 720,
+  "active_count": 719,
   "ir_count": 80,
   "teams": {
     "ANA": {
@@ -4746,12 +4746,6 @@
           "position": "L"
         },
         {
-          "sweater": 51,
-          "name": "LUKAS CORMIER",
-          "name_key": "lukas cormier",
-          "position": "D"
-        },
-        {
           "sweater": 52,
           "name": "DYLAN COGHLAN",
           "name_key": "dylan coghlan",
@@ -5112,6 +5106,14 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_REMOVED:VGK:lukas cormier:2026-11-25",
+      "type": "ACTIVE_REMOVED",
+      "team": "VGK",
+      "player": "Lukas Cormier",
+      "player_key": "lukas cormier",
+      "detected_at": "2026-11-25T17:54:16Z"
+    },
     {
       "id": "ACTIVE_ADDED:CGY:ben jones:2026-11-25",
       "type": "ACTIVE_ADDED",
