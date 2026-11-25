@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-25 22:14 МСК",
+  "updated": "2026-11-25 22:53 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "19:14:14 11/25/2026",
+  "report_updated": "19:53:29 11/25/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 722,
-  "ir_count": 78,
+  "active_count": 723,
+  "ir_count": 76,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -64,6 +64,12 @@
           "name": "JUDD CAULFIELD",
           "name_key": "judd caulfield",
           "position": "R"
+        },
+        {
+          "sweater": 31,
+          "name": "LAURENT BROSSOIT",
+          "name_key": "laurent brossoit",
+          "position": "G"
         },
         {
           "sweater": 33,
@@ -1782,6 +1788,12 @@
           "position": "C"
         },
         {
+          "sweater": 16,
+          "name": "ALEKSANDER BARKOV",
+          "name_key": "aleksander barkov",
+          "position": "C"
+        },
+        {
           "sweater": 19,
           "name": "MATTHEW TKACHUK",
           "name_key": "matthew tkachuk",
@@ -1836,16 +1848,16 @@
           "position": "D"
         },
         {
+          "sweater": 63,
+          "name": "BRAD MARCHAND",
+          "name_key": "brad marchand",
+          "position": "L"
+        },
+        {
           "sweater": 77,
           "name": "NIKO MIKKOLA",
           "name_key": "niko mikkola",
           "position": "D"
-        },
-        {
-          "sweater": 79,
-          "name": "COLE SCHWINDT",
-          "name_key": "cole schwindt",
-          "position": "R"
         },
         {
           "sweater": 95,
@@ -1861,20 +1873,6 @@
           "name_key": "jonah gadjovich",
           "position": "L",
           "ir_date": "2025-11-18"
-        },
-        {
-          "sweater": 16,
-          "name": "ALEKSANDER BARKOV",
-          "name_key": "aleksander barkov",
-          "position": "C",
-          "ir_date": "2026-10-03"
-        },
-        {
-          "sweater": 63,
-          "name": "BRAD MARCHAND",
-          "name_key": "brad marchand",
-          "position": "L",
-          "ir_date": "2026-10-12"
         }
       ]
     },
@@ -2103,12 +2101,6 @@
           "sweater": 30,
           "name": "JESPER WALLSTEDT",
           "name_key": "jesper wallstedt",
-          "position": "G"
-        },
-        {
-          "sweater": 31,
-          "name": "CALVIN PICKARD",
-          "name_key": "calvin pickard",
           "position": "G"
         },
         {
@@ -5110,6 +5102,46 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_ADDED:ANA:laurent brossoit:2026-11-25",
+      "type": "ACTIVE_ADDED",
+      "team": "ANA",
+      "player": "Laurent Brossoit",
+      "player_key": "laurent brossoit",
+      "detected_at": "2026-11-25T19:53:29Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:FLA:aleksander barkov:2026-11-25",
+      "type": "RETURNED_FROM_IR",
+      "team": "FLA",
+      "player": "Aleksander Barkov",
+      "player_key": "aleksander barkov",
+      "detected_at": "2026-11-25T19:53:29Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:FLA:brad marchand:2026-11-25",
+      "type": "RETURNED_FROM_IR",
+      "team": "FLA",
+      "player": "Brad Marchand",
+      "player_key": "brad marchand",
+      "detected_at": "2026-11-25T19:53:29Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:FLA:cole schwindt:2026-11-25",
+      "type": "ACTIVE_REMOVED",
+      "team": "FLA",
+      "player": "Cole Schwindt",
+      "player_key": "cole schwindt",
+      "detected_at": "2026-11-25T19:53:29Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:MIN:calvin pickard:2026-11-25",
+      "type": "ACTIVE_REMOVED",
+      "team": "MIN",
+      "player": "Calvin Pickard",
+      "player_key": "calvin pickard",
+      "detected_at": "2026-11-25T19:53:29Z"
+    },
     {
       "id": "RETURNED_FROM_IR:COL:cale makar:2026-11-25",
       "type": "RETURNED_FROM_IR",
