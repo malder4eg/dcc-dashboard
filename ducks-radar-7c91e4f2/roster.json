@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-25 20:54 МСК",
+  "updated": "2026-11-25 20:58 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "17:54:16 11/25/2026",
+  "report_updated": "17:58:51 11/25/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 719,
+  "active_count": 720,
   "ir_count": 80,
   "teams": {
     "ANA": {
@@ -1996,6 +1996,12 @@
           "name": "ERIK HAULA",
           "name_key": "erik haula",
           "position": "L"
+        },
+        {
+          "sweater": 78,
+          "name": "KIRILL KIRSANOV",
+          "name_key": "kirill kirsanov",
+          "position": "D"
         },
         {
           "sweater": 79,
@@ -5106,6 +5112,14 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_ADDED:LAK:kirill kirsanov:2026-11-25",
+      "type": "ACTIVE_ADDED",
+      "team": "LAK",
+      "player": "Kirill Kirsanov",
+      "player_key": "kirill kirsanov",
+      "detected_at": "2026-11-25T17:58:51Z"
+    },
     {
       "id": "ACTIVE_REMOVED:VGK:lukas cormier:2026-11-25",
       "type": "ACTIVE_REMOVED",
