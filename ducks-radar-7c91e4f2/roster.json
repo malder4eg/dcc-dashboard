@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-25 18:46 МСК",
+  "updated": "2026-11-25 20:00 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "15:46:45 11/25/2026",
+  "report_updated": "17:00:22 11/25/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 718,
+  "active_count": 720,
   "ir_count": 80,
   "teams": {
     "ANA": {
@@ -514,6 +514,12 @@
           "position": "C"
         },
         {
+          "sweater": 18,
+          "name": "BEN JONES",
+          "name_key": "ben jones",
+          "position": "C"
+        },
+        {
           "sweater": 19,
           "name": "ZAYNE PAREKH",
           "name_key": "zayne parekh",
@@ -1004,6 +1010,12 @@
           "name": "NATHAN MACKINNON",
           "name_key": "nathan mackinnon",
           "position": "C"
+        },
+        {
+          "sweater": 34,
+          "name": "ADAM BECKMAN",
+          "name_key": "adam beckman",
+          "position": "L"
         },
         {
           "sweater": 39,
@@ -5100,6 +5112,22 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_ADDED:CGY:ben jones:2026-11-25",
+      "type": "ACTIVE_ADDED",
+      "team": "CGY",
+      "player": "Ben Jones",
+      "player_key": "ben jones",
+      "detected_at": "2026-11-25T17:00:22Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:COL:adam beckman:2026-11-25",
+      "type": "ACTIVE_ADDED",
+      "team": "COL",
+      "player": "Adam Beckman",
+      "player_key": "adam beckman",
+      "detected_at": "2026-11-25T17:00:22Z"
+    },
     {
       "id": "ACTIVE_REMOVED:CGY:sam morton:2026-11-25",
       "type": "ACTIVE_REMOVED",
