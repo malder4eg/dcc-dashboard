@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-25 13:25 МСК",
+  "updated": "2026-11-25 17:33 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "10:25:04 11/25/2026",
+  "report_updated": "14:33:20 11/25/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 714,
+  "active_count": 716,
   "ir_count": 81,
   "teams": {
     "ANA": {
@@ -3847,6 +3847,12 @@
           "position": "L"
         },
         {
+          "sweater": 28,
+          "name": "OTTO STENBERG",
+          "name_key": "otto stenberg",
+          "position": "C"
+        },
+        {
           "sweater": 29,
           "name": "JONATAN BERGGREN",
           "name_key": "jonatan berggren",
@@ -3857,6 +3863,12 @@
           "name": "JOEL HOFER",
           "name_key": "joel hofer",
           "position": "G"
+        },
+        {
+          "sweater": 36,
+          "name": "ADAM JIRICEK",
+          "name_key": "adam jiricek",
+          "position": "D"
         },
         {
           "sweater": 41,
@@ -5083,6 +5095,22 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_ADDED:STL:adam jiricek:2026-11-25",
+      "type": "ACTIVE_ADDED",
+      "team": "STL",
+      "player": "Adam Jiricek",
+      "player_key": "adam jiricek",
+      "detected_at": "2026-11-25T14:33:20Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:STL:otto stenberg:2026-11-25",
+      "type": "ACTIVE_ADDED",
+      "team": "STL",
+      "player": "Otto Stenberg",
+      "player_key": "otto stenberg",
+      "detected_at": "2026-11-25T14:33:20Z"
+    },
     {
       "id": "NEW_IR:CBJ:mathieu olivier:2026-11-25",
       "type": "NEW_IR",
