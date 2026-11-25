@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-24 23:42 МСК",
+  "updated": "2026-11-25 10:01 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "20:42:41 11/24/2026",
+  "report_updated": "07:01:50 11/25/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 717,
-  "ir_count": 78,
+  "active_count": 714,
+  "ir_count": 81,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -1172,12 +1172,6 @@
           "position": "C"
         },
         {
-          "sweater": 24,
-          "name": "MATHIEU OLIVIER",
-          "name_key": "mathieu olivier",
-          "position": "R"
-        },
-        {
           "sweater": 33,
           "name": "CAM TALBOT",
           "name_key": "cam talbot",
@@ -1245,6 +1239,13 @@
         }
       ],
       "ir": [
+        {
+          "sweater": 24,
+          "name": "MATHIEU OLIVIER",
+          "name_key": "mathieu olivier",
+          "position": "R",
+          "ir_date": "2026-11-24"
+        },
         {
           "sweater": 83,
           "name": "CONOR GARLAND",
@@ -3840,12 +3841,6 @@
           "position": "D"
         },
         {
-          "sweater": 25,
-          "name": "BRANDON CARLO",
-          "name_key": "brandon carlo",
-          "position": "D"
-        },
-        {
           "sweater": 26,
           "name": "NATHAN WALKER",
           "name_key": "nathan walker",
@@ -3906,12 +3901,6 @@
           "position": "D"
         },
         {
-          "sweater": 77,
-          "name": "CONNOR MCMICHAEL",
-          "name_key": "connor mcmichael",
-          "position": "L"
-        },
-        {
           "sweater": 81,
           "name": "DYLAN HOLLOWAY",
           "name_key": "dylan holloway",
@@ -3932,6 +3921,12 @@
       ],
       "ir": [
         {
+          "sweater": 25,
+          "name": "BRANDON CARLO",
+          "name_key": "brandon carlo",
+          "position": "D"
+        },
+        {
           "sweater": 65,
           "name": "DILLON DUBE",
           "name_key": "dillon dube",
@@ -3944,6 +3939,13 @@
           "name_key": "tyler tucker",
           "position": "D",
           "ir_date": "2026-09-27"
+        },
+        {
+          "sweater": 77,
+          "name": "CONNOR MCMICHAEL",
+          "name_key": "connor mcmichael",
+          "position": "L",
+          "ir_date": "2026-11-24"
         }
       ]
     },
@@ -5082,6 +5084,30 @@
   },
   "events": [
     {
+      "id": "NEW_IR:CBJ:mathieu olivier:2026-11-25",
+      "type": "NEW_IR",
+      "team": "CBJ",
+      "player": "Mathieu Olivier",
+      "player_key": "mathieu olivier",
+      "detected_at": "2026-11-25T07:01:50Z"
+    },
+    {
+      "id": "NEW_IR:STL:brandon carlo:2026-11-25",
+      "type": "NEW_IR",
+      "team": "STL",
+      "player": "Brandon Carlo",
+      "player_key": "brandon carlo",
+      "detected_at": "2026-11-25T07:01:50Z"
+    },
+    {
+      "id": "NEW_IR:STL:connor mcmichael:2026-11-25",
+      "type": "NEW_IR",
+      "team": "STL",
+      "player": "Connor McMichael",
+      "player_key": "connor mcmichael",
+      "detected_at": "2026-11-25T07:01:50Z"
+    },
+    {
       "id": "ACTIVE_REMOVED:ANA:noah warren:2026-11-24",
       "type": "ACTIVE_REMOVED",
       "team": "ANA",
@@ -5704,14 +5730,6 @@
       "player": "Gregor Biber",
       "player_key": "gregor biber",
       "detected_at": "2026-11-18T15:45:40Z"
-    },
-    {
-      "id": "NEW_IR:UTA:nick schmaltz:2026-11-18",
-      "type": "NEW_IR",
-      "team": "UTA",
-      "player": "Nick Schmaltz",
-      "player_key": "nick schmaltz",
-      "detected_at": "2026-11-18T04:47:50Z"
     }
   ]
 }
