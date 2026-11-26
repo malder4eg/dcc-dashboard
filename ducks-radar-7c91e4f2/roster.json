@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-25 22:58 МСК",
+  "updated": "2026-11-26 10:05 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "19:58:16 11/25/2026",
+  "report_updated": "07:05:26 11/26/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 723,
-  "ir_count": 76,
+  "active_count": 722,
+  "ir_count": 77,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -4378,12 +4378,6 @@
           "position": "D"
         },
         {
-          "sweater": 53,
-          "name": "MICHAEL CARCONE",
-          "name_key": "michael carcone",
-          "position": "L"
-        },
-        {
           "sweater": 56,
           "name": "KAILER YAMAMOTO",
           "name_key": "kailer yamamoto",
@@ -4465,6 +4459,13 @@
           "name_key": "maveric lamoureux",
           "position": "D",
           "ir_date": "2026-09-28"
+        },
+        {
+          "sweater": 53,
+          "name": "MICHAEL CARCONE",
+          "name_key": "michael carcone",
+          "position": "L",
+          "ir_date": "2026-11-25"
         },
         {
           "sweater": 84,
@@ -5102,6 +5103,14 @@
     }
   },
   "events": [
+    {
+      "id": "NEW_IR:UTA:michael carcone:2026-11-26",
+      "type": "NEW_IR",
+      "team": "UTA",
+      "player": "Michael Carcone",
+      "player_key": "michael carcone",
+      "detected_at": "2026-11-26T07:05:26Z"
+    },
     {
       "id": "ACTIVE_ADDED:ANA:laurent brossoit:2026-11-25",
       "type": "ACTIVE_ADDED",
@@ -5869,14 +5878,6 @@
       "player": "Gregor Biber",
       "player_key": "gregor biber",
       "detected_at": "2026-11-19T15:33:45Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:CBJ:isac lundestrom:2026-11-19",
-      "type": "ACTIVE_ADDED",
-      "team": "CBJ",
-      "player": "Isac Lundestrom",
-      "player_key": "isac lundestrom",
-      "detected_at": "2026-11-19T06:27:31Z"
     }
   ]
 }
