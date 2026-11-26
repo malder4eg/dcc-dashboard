@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-26 18:27 МСК",
+  "updated": "2026-11-26 19:41 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "15:27:41 11/26/2026",
+  "report_updated": "16:41:42 11/26/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 721,
-  "ir_count": 78,
+  "active_count": 720,
+  "ir_count": 79,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -2934,12 +2934,6 @@
           "name": "MIKA ZIBANEJAD",
           "name_key": "mika zibanejad",
           "position": "C"
-        },
-        {
-          "sweater": 94,
-          "name": "GABE PERREAULT",
-          "name_key": "gabe perreault",
-          "position": "R"
         }
       ],
       "ir": [
@@ -2984,6 +2978,13 @@
           "name_key": "joseph veleno",
           "position": "C",
           "ir_date": "2026-10-06"
+        },
+        {
+          "sweater": 94,
+          "name": "GABE PERREAULT",
+          "name_key": "gabe perreault",
+          "position": "R",
+          "ir_date": "2026-11-26"
         }
       ]
     },
@@ -5105,6 +5106,14 @@
   },
   "events": [
     {
+      "id": "NEW_IR:NYR:gabe perreault:2026-11-26",
+      "type": "NEW_IR",
+      "team": "NYR",
+      "player": "Gabe Perreault",
+      "player_key": "gabe perreault",
+      "detected_at": "2026-11-26T16:41:42Z"
+    },
+    {
       "id": "NEW_IR:PIT:egor chinakhov:2026-11-26",
       "type": "NEW_IR",
       "team": "PIT",
@@ -5863,30 +5872,6 @@
       "player": "Tyler Pitlick",
       "player_key": "tyler pitlick",
       "detected_at": "2026-11-19T18:10:24Z"
-    },
-    {
-      "id": "NEW_IR:TBL:brandon hagel:2026-11-19",
-      "type": "NEW_IR",
-      "team": "TBL",
-      "player": "Brandon Hagel",
-      "player_key": "brandon hagel",
-      "detected_at": "2026-11-19T15:33:45Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:TBL:jansen harkins:2026-11-19",
-      "type": "ACTIVE_ADDED",
-      "team": "TBL",
-      "player": "Jansen Harkins",
-      "player_key": "jansen harkins",
-      "detected_at": "2026-11-19T15:33:45Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:UTA:gregor biber:2026-11-19",
-      "type": "ACTIVE_REMOVED",
-      "team": "UTA",
-      "player": "Gregor Biber",
-      "player_key": "gregor biber",
-      "detected_at": "2026-11-19T15:33:45Z"
     }
   ]
 }
