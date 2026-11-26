@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-26 19:59 МСК",
+  "updated": "2026-11-26 20:39 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "16:59:09 11/26/2026",
+  "report_updated": "17:39:51 11/26/2026",
   "complete": true,
   "team_count": 32,
   "active_count": 721,
-  "ir_count": 79,
+  "ir_count": 80,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -1000,6 +1000,12 @@
           "position": "R"
         },
         {
+          "sweater": 16,
+          "name": "TAYLOR MAKAR",
+          "name_key": "taylor makar",
+          "position": "L"
+        },
+        {
           "sweater": 17,
           "name": "PARKER KELLY",
           "name_key": "parker kelly",
@@ -1046,12 +1052,6 @@
           "name": "NOAH JUULSEN",
           "name_key": "noah juulsen",
           "position": "D"
-        },
-        {
-          "sweater": 54,
-          "name": "GAVIN BRINDLEY",
-          "name_key": "gavin brindley",
-          "position": "C"
         },
         {
           "sweater": 62,
@@ -1103,6 +1103,13 @@
           "name_key": "josh manson",
           "position": "D",
           "ir_date": "2026-11-09"
+        },
+        {
+          "sweater": 54,
+          "name": "GAVIN BRINDLEY",
+          "name_key": "gavin brindley",
+          "position": "C",
+          "ir_date": "2026-11-26"
         },
         {
           "sweater": 68,
@@ -3527,12 +3534,6 @@
           "position": "C"
         },
         {
-          "sweater": 17,
-          "name": "BRETT LEASON",
-          "name_key": "brett leason",
-          "position": "R"
-        },
-        {
           "sweater": 21,
           "name": "ALEXANDER WENNBERG",
           "name_key": "alexander wennberg",
@@ -3543,12 +3544,6 @@
           "name": "BARCLAY GOODROW",
           "name_key": "barclay goodrow",
           "position": "C"
-        },
-        {
-          "sweater": 24,
-          "name": "LIBOR HAJEK",
-          "name_key": "libor hajek",
-          "position": "D"
         },
         {
           "sweater": 25,
@@ -3579,6 +3574,18 @@
           "name": "IVAR STENBERG",
           "name_key": "ivar stenberg",
           "position": "L"
+        },
+        {
+          "sweater": 42,
+          "name": "LUCA CAGNONI",
+          "name_key": "luca cagnoni",
+          "position": "D"
+        },
+        {
+          "sweater": 46,
+          "name": "CAM LUND",
+          "name_key": "cam lund",
+          "position": "C"
         },
         {
           "sweater": 48,
@@ -5111,6 +5118,54 @@
     }
   },
   "events": [
+    {
+      "id": "NEW_IR:COL:gavin brindley:2026-11-26",
+      "type": "NEW_IR",
+      "team": "COL",
+      "player": "Gavin Brindley",
+      "player_key": "gavin brindley",
+      "detected_at": "2026-11-26T17:39:51Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:COL:taylor makar:2026-11-26",
+      "type": "ACTIVE_ADDED",
+      "team": "COL",
+      "player": "Taylor Makar",
+      "player_key": "taylor makar",
+      "detected_at": "2026-11-26T17:39:51Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:SJS:cam lund:2026-11-26",
+      "type": "ACTIVE_ADDED",
+      "team": "SJS",
+      "player": "Cam Lund",
+      "player_key": "cam lund",
+      "detected_at": "2026-11-26T17:39:51Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:SJS:luca cagnoni:2026-11-26",
+      "type": "ACTIVE_ADDED",
+      "team": "SJS",
+      "player": "Luca Cagnoni",
+      "player_key": "luca cagnoni",
+      "detected_at": "2026-11-26T17:39:51Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:SJS:brett leason:2026-11-26",
+      "type": "ACTIVE_REMOVED",
+      "team": "SJS",
+      "player": "Brett Leason",
+      "player_key": "brett leason",
+      "detected_at": "2026-11-26T17:39:51Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:SJS:libor hajek:2026-11-26",
+      "type": "ACTIVE_REMOVED",
+      "team": "SJS",
+      "player": "Libor Hajek",
+      "player_key": "libor hajek",
+      "detected_at": "2026-11-26T17:39:51Z"
+    },
     {
       "id": "ACTIVE_ADDED:NYR:juuso parssinen:2026-11-26",
       "type": "ACTIVE_ADDED",
