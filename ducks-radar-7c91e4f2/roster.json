@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-26 16:59 МСК",
+  "updated": "2026-11-26 18:27 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "13:59:37 11/26/2026",
+  "report_updated": "15:27:41 11/26/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 722,
-  "ir_count": 77,
+  "active_count": 721,
+  "ir_count": 78,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -3394,12 +3394,6 @@
           "position": "D"
         },
         {
-          "sweater": 59,
-          "name": "EGOR CHINAKHOV",
-          "name_key": "egor chinakhov",
-          "position": "R"
-        },
-        {
           "sweater": 62,
           "name": "ANDREI KUZMENKO",
           "name_key": "andrei kuzmenko",
@@ -3476,6 +3470,13 @@
           "name_key": "ryan graves",
           "position": "D",
           "ir_date": "2026-09-27"
+        },
+        {
+          "sweater": 59,
+          "name": "EGOR CHINAKHOV",
+          "name_key": "egor chinakhov",
+          "position": "R",
+          "ir_date": "2026-11-25"
         }
       ]
     },
@@ -5103,6 +5104,14 @@
     }
   },
   "events": [
+    {
+      "id": "NEW_IR:PIT:egor chinakhov:2026-11-26",
+      "type": "NEW_IR",
+      "team": "PIT",
+      "player": "Egor Chinakhov",
+      "player_key": "egor chinakhov",
+      "detected_at": "2026-11-26T15:27:41Z"
+    },
     {
       "id": "NEW_IR:UTA:michael carcone:2026-11-26",
       "type": "NEW_IR",
