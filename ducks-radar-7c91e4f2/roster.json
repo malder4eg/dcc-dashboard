@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-26 19:41 МСК",
+  "updated": "2026-11-26 19:59 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "16:41:42 11/26/2026",
+  "report_updated": "16:59:09 11/26/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 720,
+  "active_count": 721,
   "ir_count": 79,
   "teams": {
     "ANA": {
@@ -2924,6 +2924,12 @@
           "position": "G"
         },
         {
+          "sweater": 71,
+          "name": "JUUSO PARSSINEN",
+          "name_key": "juuso parssinen",
+          "position": "C"
+        },
+        {
           "sweater": 73,
           "name": "MATT REMPE",
           "name_key": "matt rempe",
@@ -4392,10 +4398,10 @@
           "position": "D"
         },
         {
-          "sweater": 62,
-          "name": "BEN MCCARTNEY",
-          "name_key": "ben mccartney",
-          "position": "L"
+          "sweater": 65,
+          "name": "YEGOR BORIKOV",
+          "name_key": "yegor borikov",
+          "position": "R"
         },
         {
           "sweater": 67,
@@ -5105,6 +5111,30 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_ADDED:NYR:juuso parssinen:2026-11-26",
+      "type": "ACTIVE_ADDED",
+      "team": "NYR",
+      "player": "Juuso Parssinen",
+      "player_key": "juuso parssinen",
+      "detected_at": "2026-11-26T16:59:09Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:UTA:yegor borikov:2026-11-26",
+      "type": "ACTIVE_ADDED",
+      "team": "UTA",
+      "player": "Yegor Borikov",
+      "player_key": "yegor borikov",
+      "detected_at": "2026-11-26T16:59:09Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:UTA:ben mccartney:2026-11-26",
+      "type": "ACTIVE_REMOVED",
+      "team": "UTA",
+      "player": "Ben McCartney",
+      "player_key": "ben mccartney",
+      "detected_at": "2026-11-26T16:59:09Z"
+    },
     {
       "id": "NEW_IR:NYR:gabe perreault:2026-11-26",
       "type": "NEW_IR",
