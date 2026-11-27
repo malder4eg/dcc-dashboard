@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-27 21:55 МСК",
+  "updated": "2026-11-27 22:26 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "18:55:36 11/27/2026",
+  "report_updated": "19:26:21 11/27/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 723,
-  "ir_count": 78,
+  "active_count": 722,
+  "ir_count": 79,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -360,6 +360,12 @@
           "position": "C"
         },
         {
+          "sweater": 15,
+          "name": "JUSTIN DANFORTH",
+          "name_key": "justin danforth",
+          "position": "R"
+        },
+        {
           "sweater": 17,
           "name": "JASON ZUCKER",
           "name_key": "jason zucker",
@@ -426,12 +432,6 @@
           "position": "D"
         },
         {
-          "sweater": 48,
-          "name": "TYSON KOZAK",
-          "name_key": "tyson kozak",
-          "position": "C"
-        },
-        {
           "sweater": 71,
           "name": "RYAN MCLEOD",
           "name_key": "ryan mcleod",
@@ -450,12 +450,6 @@
           "position": "D"
         },
         {
-          "sweater": 86,
-          "name": "NOAH OSTLUND",
-          "name_key": "noah ostlund",
-          "position": "C"
-        },
-        {
           "sweater": 91,
           "name": "JOSH DOAN",
           "name_key": "josh doan",
@@ -470,18 +464,23 @@
       ],
       "ir": [
         {
-          "sweater": 15,
-          "name": "JUSTIN DANFORTH",
-          "name_key": "justin danforth",
-          "position": "R",
-          "ir_date": "2026-10-29"
-        },
-        {
           "sweater": 24,
           "name": "MATT GRZELCYK",
           "name_key": "matt grzelcyk",
           "position": "D",
           "ir_date": "2026-10-12"
+        },
+        {
+          "sweater": 48,
+          "name": "TYSON KOZAK",
+          "name_key": "tyson kozak",
+          "position": "C"
+        },
+        {
+          "sweater": 86,
+          "name": "NOAH OSTLUND",
+          "name_key": "noah ostlund",
+          "position": "C"
         },
         {
           "sweater": 94,
@@ -5116,6 +5115,30 @@
     }
   },
   "events": [
+    {
+      "id": "NEW_IR:BUF:noah ostlund:2026-11-27",
+      "type": "NEW_IR",
+      "team": "BUF",
+      "player": "Noah Ostlund",
+      "player_key": "noah ostlund",
+      "detected_at": "2026-11-27T19:26:21Z"
+    },
+    {
+      "id": "NEW_IR:BUF:tyson kozak:2026-11-27",
+      "type": "NEW_IR",
+      "team": "BUF",
+      "player": "Tyson Kozak",
+      "player_key": "tyson kozak",
+      "detected_at": "2026-11-27T19:26:21Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:BUF:justin danforth:2026-11-27",
+      "type": "RETURNED_FROM_IR",
+      "team": "BUF",
+      "player": "Justin Danforth",
+      "player_key": "justin danforth",
+      "detected_at": "2026-11-27T19:26:21Z"
+    },
     {
       "id": "NEW_IR:ANA:leo carlsson:2026-11-27",
       "type": "NEW_IR",
