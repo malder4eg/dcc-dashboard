@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-27 19:27 МСК",
+  "updated": "2026-11-27 19:44 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "16:27:43 11/27/2026",
+  "report_updated": "16:44:56 11/27/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 722,
-  "ir_count": 78,
+  "active_count": 721,
+  "ir_count": 79,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -875,6 +875,12 @@
           "name": "DREW COMMESSO",
           "name_key": "drew commesso",
           "position": "G"
+        },
+        {
+          "sweater": 36,
+          "name": "DILLON BOUCHER",
+          "name_key": "dillon boucher",
+          "position": "L"
         },
         {
           "sweater": 38,
@@ -3095,12 +3101,6 @@
           "position": "D"
         },
         {
-          "sweater": 54,
-          "name": "TYLER BOUCHER",
-          "name_key": "tyler boucher",
-          "position": "R"
-        },
-        {
           "sweater": 62,
           "name": "PHILIP TOMASINO",
           "name_key": "philip tomasino",
@@ -4024,12 +4024,6 @@
           "position": "C"
         },
         {
-          "sweater": 29,
-          "name": "PONTUS HOLMBERG",
-          "name_key": "pontus holmberg",
-          "position": "R"
-        },
-        {
           "sweater": 35,
           "name": "DENNIS HILDEBY",
           "name_key": "dennis hildeby",
@@ -4127,6 +4121,12 @@
         }
       ],
       "ir": [
+        {
+          "sweater": 29,
+          "name": "PONTUS HOLMBERG",
+          "name_key": "pontus holmberg",
+          "position": "R"
+        },
         {
           "sweater": 94,
           "name": "CONOR GEEKIE",
@@ -5110,6 +5110,30 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_ADDED:CHI:dillon boucher:2026-11-27",
+      "type": "ACTIVE_ADDED",
+      "team": "CHI",
+      "player": "Dillon Boucher",
+      "player_key": "dillon boucher",
+      "detected_at": "2026-11-27T16:44:56Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:OTT:tyler boucher:2026-11-27",
+      "type": "ACTIVE_REMOVED",
+      "team": "OTT",
+      "player": "Tyler Boucher",
+      "player_key": "tyler boucher",
+      "detected_at": "2026-11-27T16:44:56Z"
+    },
+    {
+      "id": "NEW_IR:TBL:pontus holmberg:2026-11-27",
+      "type": "NEW_IR",
+      "team": "TBL",
+      "player": "Pontus Holmberg",
+      "player_key": "pontus holmberg",
+      "detected_at": "2026-11-27T16:44:56Z"
+    },
     {
       "id": "ACTIVE_REMOVED:CHI:dominic toninato:2026-11-27",
       "type": "ACTIVE_REMOVED",
