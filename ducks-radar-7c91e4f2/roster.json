@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-27 19:44 МСК",
+  "updated": "2026-11-27 20:22 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "16:44:56 11/27/2026",
+  "report_updated": "17:22:34 11/27/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 721,
-  "ir_count": 79,
+  "active_count": 723,
+  "ir_count": 78,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -90,6 +90,12 @@
           "position": "C"
         },
         {
+          "sweater": 45,
+          "name": "BECKETT SENNECKE",
+          "name_key": "beckett sennecke",
+          "position": "R"
+        },
+        {
           "sweater": 48,
           "name": "NICO MYATOVIC",
           "name_key": "nico myatovic",
@@ -132,12 +138,6 @@
           "position": "R"
         },
         {
-          "sweater": 91,
-          "name": "LEO CARLSSON",
-          "name_key": "leo carlsson",
-          "position": "C"
-        },
-        {
           "sweater": 95,
           "name": "ROGER MCQUEEN",
           "name_key": "roger mcqueen",
@@ -166,11 +166,11 @@
           "ir_date": "2026-10-13"
         },
         {
-          "sweater": 45,
-          "name": "BECKETT SENNECKE",
-          "name_key": "beckett sennecke",
-          "position": "R",
-          "ir_date": "2026-11-21"
+          "sweater": 91,
+          "name": "LEO CARLSSON",
+          "name_key": "leo carlsson",
+          "position": "C",
+          "ir_date": "2026-11-27"
         }
       ]
     },
@@ -919,16 +919,16 @@
           "position": "R"
         },
         {
+          "sweater": 84,
+          "name": "LANDON SLAGGERT",
+          "name_key": "landon slaggert",
+          "position": "L"
+        },
+        {
           "sweater": 86,
           "name": "TEUVO TERAVAINEN",
           "name_key": "teuvo teravainen",
           "position": "C"
-        },
-        {
-          "sweater": 88,
-          "name": "PATRICK KANE",
-          "name_key": "patrick kane",
-          "position": "R"
         },
         {
           "sweater": 91,
@@ -944,6 +944,12 @@
           "name_key": "bowen byram",
           "position": "D",
           "ir_date": "2026-11-03"
+        },
+        {
+          "sweater": 88,
+          "name": "PATRICK KANE",
+          "name_key": "patrick kane",
+          "position": "R"
         },
         {
           "sweater": 98,
@@ -3095,6 +3101,12 @@
           "position": "G"
         },
         {
+          "sweater": 42,
+          "name": "HAYDEN HODGSON",
+          "name_key": "hayden hodgson",
+          "position": "R"
+        },
+        {
           "sweater": 43,
           "name": "TYLER KLEVEN",
           "name_key": "tyler kleven",
@@ -3125,16 +3137,16 @@
           "position": "D"
         },
         {
-          "sweater": 79,
-          "name": "SAMUEL BLAIS",
-          "name_key": "samuel blais",
-          "position": "L"
-        },
-        {
           "sweater": 85,
           "name": "JAKE SANDERSON",
           "name_key": "jake sanderson",
           "position": "D"
+        },
+        {
+          "sweater": 95,
+          "name": "ANDRE BURAKOVSKY",
+          "name_key": "andre burakovsky",
+          "position": "L"
         }
       ],
       "ir": [
@@ -3151,20 +3163,6 @@
           "name_key": "warren foegele",
           "position": "L",
           "ir_date": "2026-10-30"
-        },
-        {
-          "sweater": 42,
-          "name": "HAYDEN HODGSON",
-          "name_key": "hayden hodgson",
-          "position": "R",
-          "ir_date": "2026-11-23"
-        },
-        {
-          "sweater": 95,
-          "name": "ANDRE BURAKOVSKY",
-          "name_key": "andre burakovsky",
-          "position": "L",
-          "ir_date": "2026-10-31"
         }
       ]
     },
@@ -3441,6 +3439,12 @@
           "sweater": 81,
           "name": "BEN KINDEL",
           "name_key": "ben kindel",
+          "position": "C"
+        },
+        {
+          "sweater": 84,
+          "name": "ATLEY CALVERT",
+          "name_key": "atley calvert",
           "position": "C"
         },
         {
@@ -4125,7 +4129,8 @@
           "sweater": 29,
           "name": "PONTUS HOLMBERG",
           "name_key": "pontus holmberg",
-          "position": "R"
+          "position": "R",
+          "ir_date": "2026-11-27"
         },
         {
           "sweater": 94,
@@ -5111,6 +5116,70 @@
   },
   "events": [
     {
+      "id": "NEW_IR:ANA:leo carlsson:2026-11-27",
+      "type": "NEW_IR",
+      "team": "ANA",
+      "player": "Leo Carlsson",
+      "player_key": "leo carlsson",
+      "detected_at": "2026-11-27T17:22:34Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:ANA:beckett sennecke:2026-11-27",
+      "type": "RETURNED_FROM_IR",
+      "team": "ANA",
+      "player": "Beckett Sennecke",
+      "player_key": "beckett sennecke",
+      "detected_at": "2026-11-27T17:22:34Z"
+    },
+    {
+      "id": "NEW_IR:CHI:patrick kane:2026-11-27",
+      "type": "NEW_IR",
+      "team": "CHI",
+      "player": "Patrick Kane",
+      "player_key": "patrick kane",
+      "detected_at": "2026-11-27T17:22:34Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:CHI:landon slaggert:2026-11-27",
+      "type": "ACTIVE_ADDED",
+      "team": "CHI",
+      "player": "Landon Slaggert",
+      "player_key": "landon slaggert",
+      "detected_at": "2026-11-27T17:22:34Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:OTT:andre burakovsky:2026-11-27",
+      "type": "RETURNED_FROM_IR",
+      "team": "OTT",
+      "player": "Andre Burakovsky",
+      "player_key": "andre burakovsky",
+      "detected_at": "2026-11-27T17:22:34Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:OTT:hayden hodgson:2026-11-27",
+      "type": "RETURNED_FROM_IR",
+      "team": "OTT",
+      "player": "Hayden Hodgson",
+      "player_key": "hayden hodgson",
+      "detected_at": "2026-11-27T17:22:34Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:OTT:samuel blais:2026-11-27",
+      "type": "ACTIVE_REMOVED",
+      "team": "OTT",
+      "player": "Samuel Blais",
+      "player_key": "samuel blais",
+      "detected_at": "2026-11-27T17:22:34Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:PIT:atley calvert:2026-11-27",
+      "type": "ACTIVE_ADDED",
+      "team": "PIT",
+      "player": "Atley Calvert",
+      "player_key": "atley calvert",
+      "detected_at": "2026-11-27T17:22:34Z"
+    },
+    {
       "id": "ACTIVE_ADDED:CHI:dillon boucher:2026-11-27",
       "type": "ACTIVE_ADDED",
       "team": "CHI",
@@ -5989,22 +6058,6 @@
       "player": "Cole McWard",
       "player_key": "cole mcward",
       "detected_at": "2026-11-20T18:32:55Z"
-    },
-    {
-      "id": "NEW_IR:PIT:nick robertson:2026-11-20",
-      "type": "NEW_IR",
-      "team": "PIT",
-      "player": "Nick Robertson",
-      "player_key": "nick robertson",
-      "detected_at": "2026-11-20T16:55:07Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:PIT:avery hayes:2026-11-20",
-      "type": "ACTIVE_ADDED",
-      "team": "PIT",
-      "player": "Avery Hayes",
-      "player_key": "avery hayes",
-      "detected_at": "2026-11-20T16:55:07Z"
     }
   ]
 }
