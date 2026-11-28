@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-28 18:20 МСК",
+  "updated": "2026-11-28 18:37 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "15:20:02 11/28/2026",
+  "report_updated": "15:37:46 11/28/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 722,
+  "active_count": 720,
   "ir_count": 79,
   "teams": {
     "ANA": {
@@ -94,12 +94,6 @@
           "name": "BECKETT SENNECKE",
           "name_key": "beckett sennecke",
           "position": "R"
-        },
-        {
-          "sweater": 48,
-          "name": "NICO MYATOVIC",
-          "name_key": "nico myatovic",
-          "position": "L"
         },
         {
           "sweater": 50,
@@ -424,12 +418,6 @@
           "name": "ALEX LYON",
           "name_key": "alex lyon",
           "position": "G"
-        },
-        {
-          "sweater": 43,
-          "name": "CONOR SHEARY",
-          "name_key": "conor sheary",
-          "position": "L"
         },
         {
           "sweater": 46,
@@ -1499,12 +1487,6 @@
           "position": "D"
         },
         {
-          "sweater": 25,
-          "name": "JACOB BERNARD-DOCKER",
-          "name_key": "jacob bernard docker",
-          "position": "D"
-        },
-        {
           "sweater": 27,
           "name": "MICHAEL RASMUSSEN",
           "name_key": "michael rasmussen",
@@ -1568,6 +1550,12 @@
           "sweater": 72,
           "name": "JUSTIN FAULK",
           "name_key": "justin faulk",
+          "position": "D"
+        },
+        {
+          "sweater": 78,
+          "name": "JACOB BRYSON",
+          "name_key": "jacob bryson",
           "position": "D"
         },
         {
@@ -5118,6 +5106,38 @@
   },
   "events": [
     {
+      "id": "ACTIVE_REMOVED:ANA:nico myatovic:2026-11-28",
+      "type": "ACTIVE_REMOVED",
+      "team": "ANA",
+      "player": "Nico Myatovic",
+      "player_key": "nico myatovic",
+      "detected_at": "2026-11-28T15:37:46Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:BUF:conor sheary:2026-11-28",
+      "type": "ACTIVE_REMOVED",
+      "team": "BUF",
+      "player": "Conor Sheary",
+      "player_key": "conor sheary",
+      "detected_at": "2026-11-28T15:37:46Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:DET:jacob bryson:2026-11-28",
+      "type": "ACTIVE_ADDED",
+      "team": "DET",
+      "player": "Jacob Bryson",
+      "player_key": "jacob bryson",
+      "detected_at": "2026-11-28T15:37:46Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:DET:jacob bernard docker:2026-11-28",
+      "type": "ACTIVE_REMOVED",
+      "team": "DET",
+      "player": "Jacob Bernard-Docker",
+      "player_key": "jacob bernard docker",
+      "detected_at": "2026-11-28T15:37:46Z"
+    },
+    {
       "id": "ACTIVE_ADDED:BUF:conor sheary:2026-11-28",
       "type": "ACTIVE_ADDED",
       "team": "BUF",
@@ -6036,22 +6056,6 @@
       "player": "Brendan Gallagher",
       "player_key": "brendan gallagher",
       "detected_at": "2026-11-21T16:06:18Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:NYR:max sasson:2026-11-21",
-      "type": "ACTIVE_ADDED",
-      "team": "NYR",
-      "player": "Max Sasson",
-      "player_key": "max sasson",
-      "detected_at": "2026-11-21T15:25:52Z"
-    },
-    {
-      "id": "ACTIVE_REMOVED:VAN:max sasson:2026-11-21",
-      "type": "ACTIVE_REMOVED",
-      "team": "VAN",
-      "player": "Max Sasson",
-      "player_key": "max sasson",
-      "detected_at": "2026-11-21T15:25:52Z"
     }
   ]
 }
