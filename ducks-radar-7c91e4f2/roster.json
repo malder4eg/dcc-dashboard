@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-28 19:52 МСК",
+  "updated": "2026-11-28 20:28 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "16:52:31 11/28/2026",
+  "report_updated": "17:28:44 11/28/2026",
   "complete": true,
   "team_count": 32,
   "active_count": 720,
-  "ir_count": 82,
+  "ir_count": 83,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -3725,15 +3725,15 @@
           "position": "D"
         },
         {
-          "sweater": 31,
-          "name": "PHILIPP GRUBAUER",
-          "name_key": "philipp grubauer",
-          "position": "G"
-        },
-        {
           "sweater": 35,
           "name": "JOEY DACCORD",
           "name_key": "joey daccord",
+          "position": "G"
+        },
+        {
+          "sweater": 39,
+          "name": "NIKKE KOKKO",
+          "name_key": "nikke kokko",
           "position": "G"
         },
         {
@@ -3810,6 +3810,12 @@
           "name_key": "jared mccann",
           "position": "L",
           "ir_date": "2026-10-24"
+        },
+        {
+          "sweater": 31,
+          "name": "PHILIPP GRUBAUER",
+          "name_key": "philipp grubauer",
+          "position": "G"
         }
       ]
     },
@@ -5126,6 +5132,22 @@
     }
   },
   "events": [
+    {
+      "id": "NEW_IR:SEA:philipp grubauer:2026-11-28",
+      "type": "NEW_IR",
+      "team": "SEA",
+      "player": "Philipp Grubauer",
+      "player_key": "philipp grubauer",
+      "detected_at": "2026-11-28T17:28:44Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:SEA:nikke kokko:2026-11-28",
+      "type": "ACTIVE_ADDED",
+      "team": "SEA",
+      "player": "Nikke Kokko",
+      "player_key": "nikke kokko",
+      "detected_at": "2026-11-28T17:28:44Z"
+    },
     {
       "id": "ACTIVE_ADDED:VAN:chase wouters:2026-11-28",
       "type": "ACTIVE_ADDED",
