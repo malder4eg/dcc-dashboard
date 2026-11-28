@@ -40,6 +40,7 @@ jobs:
 
     outputs:
       changed: ${{ steps.commit.outputs.changes_detected }}
+      retry_needed: ${{ steps.freshness.outputs.retry_needed }}
 
     steps:
       - uses: actions/checkout@v4
@@ -122,6 +123,19 @@ jobs:
           echo "::error::Could not publish refreshed DCC data after 3 attempts."
           exit 1
 
+      - name: Determine if ESPN needs another check
+        id: freshness
+        shell: bash
+        run: |
+          today=$(TZ=Europe/Moscow date +%F)
+          hour=$(TZ=Europe/Moscow date +%H)
+          updated=$(python -c 'import json; print(json.load(open("data.json")).get("updated", "")[:10])')
+          if [[ "$updated" != "$today" ]] && (( 10#$hour >= 8 && 10#$hour < 16 )); then
+            echo "retry_needed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "retry_needed=false" >> "$GITHUB_OUTPUT"
+          fi
+
   deploy:
     needs: refresh
 
@@ -173,3 +187,112 @@ jobs:
         uses: actions/deploy-pages@v4
         with:
           artifact_name: github-pages-${{ github.run_attempt }}
+
+  retry-totals:
+    # A successful early refresh can receive yesterday's ESPN scores.
+    # Keep one independent runner checking rather than relying on later cron
+    # starts. Roster, radar and the first deployment do not wait for this job.
+    needs: refresh
+    if: needs.refresh.outputs.retry_needed == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    concurrency:
+      group: dcc-totals-retry
+      cancel-in-progress: false
+    outputs:
+      changed: ${{ steps.poll.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Poll ESPN until actual totals change
+        id: poll
+        env:
+          ESPN_S2: ${{ secrets.ESPN_S2 }}
+          ESPN_SWID: ${{ secrets.ESPN_SWID }}
+        shell: bash
+        run: |
+          echo "changed=false" >> "$GITHUB_OUTPUT"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          today=$(TZ=Europe/Moscow date +%F)
+
+          for attempt in {1..31}; do
+            # Never overwrite a newer concurrent refresh. Re-read main
+            # before every attempt, including after a rejected push.
+            git fetch origin main
+            git reset --hard origin/main
+
+            now=$(TZ=Europe/Moscow date +%F)
+            hour=$(TZ=Europe/Moscow date +%H)
+            updated=$(python -c 'import json; print(json.load(open("data.json")).get("updated", "")[:10])')
+            if [[ "$updated" == "$today" ]]; then
+              echo "Today's changed ESPN totals are already on main."
+              exit 0
+            fi
+            if [[ "$now" != "$today" ]] || (( 10#$hour >= 16 )); then
+              echo "::warning::ESPN retry window ended without today's changed totals."
+              exit 0
+            fi
+
+            echo "ESPN retry $attempt/31 at $(TZ=Europe/Moscow date '+%F %T') MSK"
+            if python scrape.py; then
+              git add data.json
+              if ! git diff --cached --quiet; then
+                git commit -m "Update DCC ESPN totals after retry"
+                if git push origin HEAD:main; then
+                  echo "changed=true" >> "$GITHUB_OUTPUT"
+                  exit 0
+                fi
+                echo "::warning::Concurrent push; retrying from current main."
+              fi
+            else
+              echo "::warning::ESPN request failed; retrying."
+            fi
+            if (( attempt < 31 )); then sleep 600; fi
+          done
+          echo "::warning::No changed ESPN totals within the retry window."
+
+  deploy-retried:
+    needs: retry-totals
+    if: needs.retry-totals.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    concurrency:
+      group: pages
+      cancel-in-progress: true
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          name: github-pages-totals-${{ github.run_attempt }}
+          path: .
+      - name: Wait for uploaded Pages artifact to become visible
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PAGE_ARTIFACT: github-pages-totals-${{ github.run_attempt }}
+        shell: bash
+        run: |
+          for attempt in {1..15}; do
+            if gh api "repos/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}/artifacts" --jq '.artifacts[].name' | grep -Fxq "$PAGE_ARTIFACT"; then
+              exit 0
+            fi
+            sleep 3
+          done
+          echo "::error::Retry Pages artifact was not visible."
+          exit 1
+      - name: Deploy retried totals
+        id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages-totals-${{ github.run_attempt }}
