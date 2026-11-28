@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-28 19:11 МСК",
+  "updated": "2026-11-28 19:48 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "16:11:33 11/28/2026",
+  "report_updated": "16:48:37 11/28/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 719,
+  "active_count": 720,
   "ir_count": 82,
   "teams": {
     "ANA": {
@@ -4550,6 +4550,12 @@
           "position": "L"
         },
         {
+          "sweater": 21,
+          "name": "CHASE WOUTERS",
+          "name_key": "chase wouters",
+          "position": "C"
+        },
+        {
           "sweater": 23,
           "name": "MARCO ROSSI",
           "name_key": "marco rossi",
@@ -4640,7 +4646,8 @@
           "sweater": 40,
           "name": "ELIAS PETTERSSON",
           "name_key": "elias pettersson",
-          "position": "C"
+          "position": "C",
+          "ir_date": "2026-11-28"
         },
         {
           "sweater": 35,
@@ -4653,7 +4660,8 @@
           "sweater": 40,
           "name": "ELIAS PETTERSSON",
           "name_key": "elias pettersson",
-          "position": "C"
+          "position": "C",
+          "ir_date": "2026-11-28"
         },
         {
           "sweater": 55,
@@ -5118,6 +5126,14 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_ADDED:VAN:chase wouters:2026-11-28",
+      "type": "ACTIVE_ADDED",
+      "team": "VAN",
+      "player": "Chase Wouters",
+      "player_key": "chase wouters",
+      "detected_at": "2026-11-28T16:48:37Z"
+    },
     {
       "id": "NEW_IR:VAN:elias pettersson:2026-11-28",
       "type": "NEW_IR",
@@ -6069,30 +6085,6 @@
       "player": "Clay Stevenson",
       "player_key": "clay stevenson",
       "detected_at": "2026-11-22T07:02:28Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:VAN:jacob quillan:2026-11-21",
-      "type": "ACTIVE_ADDED",
-      "team": "VAN",
-      "player": "Jacob Quillan",
-      "player_key": "jacob quillan",
-      "detected_at": "2026-11-21T16:43:42Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:VAN:nikita tolopilo:2026-11-21",
-      "type": "ACTIVE_ADDED",
-      "team": "VAN",
-      "player": "Nikita Tolopilo",
-      "player_key": "nikita tolopilo",
-      "detected_at": "2026-11-21T16:43:42Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:VAN:ty mueller:2026-11-21",
-      "type": "ACTIVE_ADDED",
-      "team": "VAN",
-      "player": "Ty Mueller",
-      "player_key": "ty mueller",
-      "detected_at": "2026-11-21T16:43:42Z"
     }
   ]
 }
