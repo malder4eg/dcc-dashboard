@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-27 22:30 МСК",
+  "updated": "2026-11-28 09:11 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "19:30:37 11/27/2026",
+  "report_updated": "06:11:55 11/28/2026",
   "complete": true,
   "team_count": 32,
   "active_count": 722,
@@ -426,6 +426,12 @@
           "position": "G"
         },
         {
+          "sweater": 43,
+          "name": "CONOR SHEARY",
+          "name_key": "conor sheary",
+          "position": "L"
+        },
+        {
           "sweater": 46,
           "name": "LOUIS CREVIER",
           "name_key": "louis crevier",
@@ -474,13 +480,15 @@
           "sweater": 48,
           "name": "TYSON KOZAK",
           "name_key": "tyson kozak",
-          "position": "C"
+          "position": "C",
+          "ir_date": "2026-11-27"
         },
         {
           "sweater": 86,
           "name": "NOAH OSTLUND",
           "name_key": "noah ostlund",
-          "position": "C"
+          "position": "C",
+          "ir_date": "2026-11-27"
         },
         {
           "sweater": 94,
@@ -2569,12 +2577,6 @@
           "name": "TIMO MEIER",
           "name_key": "timo meier",
           "position": "R"
-        },
-        {
-          "sweater": 33,
-          "name": "DAVID RITTICH",
-          "name_key": "david rittich",
-          "position": "G"
         },
         {
           "sweater": 34,
@@ -5115,6 +5117,22 @@
     }
   },
   "events": [
+    {
+      "id": "ACTIVE_ADDED:BUF:conor sheary:2026-11-28",
+      "type": "ACTIVE_ADDED",
+      "team": "BUF",
+      "player": "Conor Sheary",
+      "player_key": "conor sheary",
+      "detected_at": "2026-11-28T06:11:55Z"
+    },
+    {
+      "id": "ACTIVE_REMOVED:NJD:david rittich:2026-11-28",
+      "type": "ACTIVE_REMOVED",
+      "team": "NJD",
+      "player": "David Rittich",
+      "player_key": "david rittich",
+      "detected_at": "2026-11-28T06:11:55Z"
+    },
     {
       "id": "NEW_IR:BUF:noah ostlund:2026-11-27",
       "type": "NEW_IR",
