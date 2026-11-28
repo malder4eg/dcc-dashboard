@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-28 18:37 МСК",
+  "updated": "2026-11-28 19:05 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "15:37:46 11/28/2026",
+  "report_updated": "16:05:30 11/28/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 720,
-  "ir_count": 79,
+  "active_count": 721,
+  "ir_count": 80,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -1026,12 +1026,6 @@
           "position": "D"
         },
         {
-          "sweater": 29,
-          "name": "NATHAN MACKINNON",
-          "name_key": "nathan mackinnon",
-          "position": "C"
-        },
-        {
           "sweater": 34,
           "name": "ADAM BECKMAN",
           "name_key": "adam beckman",
@@ -1054,6 +1048,12 @@
           "name": "NOAH JUULSEN",
           "name_key": "noah juulsen",
           "position": "D"
+        },
+        {
+          "sweater": 50,
+          "name": "TRENT MINER",
+          "name_key": "trent miner",
+          "position": "G"
         },
         {
           "sweater": 62,
@@ -1099,6 +1099,13 @@
         }
       ],
       "ir": [
+        {
+          "sweater": 29,
+          "name": "NATHAN MACKINNON",
+          "name_key": "nathan mackinnon",
+          "position": "C",
+          "ir_date": "2026-11-28"
+        },
         {
           "sweater": 42,
           "name": "JOSH MANSON",
@@ -4066,6 +4073,12 @@
           "position": "D"
         },
         {
+          "sweater": 75,
+          "name": "LUCAS MERCURI",
+          "name_key": "lucas mercuri",
+          "position": "C"
+        },
+        {
           "sweater": 77,
           "name": "VICTOR HEDMAN",
           "name_key": "victor hedman",
@@ -4135,9 +4148,9 @@
       "name": "Toronto Maple Leafs",
       "active": [
         {
-          "sweater": 8,
-          "name": "CHRIS TANEV",
-          "name_key": "chris tanev",
+          "sweater": 3,
+          "name": "NICK BLANKENBURG",
+          "name_key": "nick blankenburg",
           "position": "D"
         },
         {
@@ -4275,11 +4288,11 @@
       ],
       "ir": [
         {
-          "sweater": 3,
-          "name": "NICK BLANKENBURG",
-          "name_key": "nick blankenburg",
+          "sweater": 8,
+          "name": "CHRIS TANEV",
+          "name_key": "chris tanev",
           "position": "D",
-          "ir_date": "2026-10-23"
+          "ir_date": "2026-11-28"
         },
         {
           "sweater": 18,
@@ -5105,6 +5118,46 @@
     }
   },
   "events": [
+    {
+      "id": "NEW_IR:COL:nathan mackinnon:2026-11-28",
+      "type": "NEW_IR",
+      "team": "COL",
+      "player": "Nathan MacKinnon",
+      "player_key": "nathan mackinnon",
+      "detected_at": "2026-11-28T16:05:30Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:COL:trent miner:2026-11-28",
+      "type": "ACTIVE_ADDED",
+      "team": "COL",
+      "player": "Trent Miner",
+      "player_key": "trent miner",
+      "detected_at": "2026-11-28T16:05:30Z"
+    },
+    {
+      "id": "ACTIVE_ADDED:TBL:lucas mercuri:2026-11-28",
+      "type": "ACTIVE_ADDED",
+      "team": "TBL",
+      "player": "Lucas Mercuri",
+      "player_key": "lucas mercuri",
+      "detected_at": "2026-11-28T16:05:30Z"
+    },
+    {
+      "id": "NEW_IR:TOR:chris tanev:2026-11-28",
+      "type": "NEW_IR",
+      "team": "TOR",
+      "player": "Chris Tanev",
+      "player_key": "chris tanev",
+      "detected_at": "2026-11-28T16:05:30Z"
+    },
+    {
+      "id": "RETURNED_FROM_IR:TOR:nick blankenburg:2026-11-28",
+      "type": "RETURNED_FROM_IR",
+      "team": "TOR",
+      "player": "Nick Blankenburg",
+      "player_key": "nick blankenburg",
+      "detected_at": "2026-11-28T16:05:30Z"
+    },
     {
       "id": "ACTIVE_REMOVED:ANA:nico myatovic:2026-11-28",
       "type": "ACTIVE_REMOVED",
