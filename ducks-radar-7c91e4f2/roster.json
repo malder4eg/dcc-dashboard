@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-28 19:05 МСК",
+  "updated": "2026-11-28 19:11 МСК",
   "source": "https://media.nhl.com/site/api/team/reports/roster/public",
-  "report_updated": "16:05:30 11/28/2026",
+  "report_updated": "16:11:33 11/28/2026",
   "complete": true,
   "team_count": 32,
-  "active_count": 721,
-  "ir_count": 80,
+  "active_count": 719,
+  "ir_count": 82,
   "teams": {
     "ANA": {
       "name": "Anaheim Ducks",
@@ -4556,12 +4556,6 @@
           "position": "C"
         },
         {
-          "sweater": 40,
-          "name": "ELIAS PETTERSSON",
-          "name_key": "elias pettersson",
-          "position": "C"
-        },
-        {
           "sweater": 29,
           "name": "COLE REINHARDT",
           "name_key": "cole reinhardt",
@@ -4583,12 +4577,6 @@
           "sweater": 39,
           "name": "TY MUELLER",
           "name_key": "ty mueller",
-          "position": "C"
-        },
-        {
-          "sweater": 40,
-          "name": "ELIAS PETTERSSON",
-          "name_key": "elias pettersson",
           "position": "C"
         },
         {
@@ -4649,11 +4637,23 @@
           "ir_date": "2026-11-21"
         },
         {
+          "sweater": 40,
+          "name": "ELIAS PETTERSSON",
+          "name_key": "elias pettersson",
+          "position": "C"
+        },
+        {
           "sweater": 35,
           "name": "THATCHER DEMKO",
           "name_key": "thatcher demko",
           "position": "G",
           "ir_date": "2026-01-11"
+        },
+        {
+          "sweater": 40,
+          "name": "ELIAS PETTERSSON",
+          "name_key": "elias pettersson",
+          "position": "C"
         },
         {
           "sweater": 55,
@@ -5118,6 +5118,14 @@
     }
   },
   "events": [
+    {
+      "id": "NEW_IR:VAN:elias pettersson:2026-11-28",
+      "type": "NEW_IR",
+      "team": "VAN",
+      "player": "Elias Pettersson",
+      "player_key": "elias pettersson",
+      "detected_at": "2026-11-28T16:11:33Z"
+    },
     {
       "id": "NEW_IR:COL:nathan mackinnon:2026-11-28",
       "type": "NEW_IR",
@@ -6085,30 +6093,6 @@
       "player": "Ty Mueller",
       "player_key": "ty mueller",
       "detected_at": "2026-11-21T16:43:42Z"
-    },
-    {
-      "id": "NEW_IR:NYR:pavel dorofeyev:2026-11-21",
-      "type": "NEW_IR",
-      "team": "NYR",
-      "player": "Pavel Dorofeyev",
-      "player_key": "pavel dorofeyev",
-      "detected_at": "2026-11-21T16:06:18Z"
-    },
-    {
-      "id": "ACTIVE_ADDED:NYR:taylor raddysh:2026-11-21",
-      "type": "ACTIVE_ADDED",
-      "team": "NYR",
-      "player": "Taylor Raddysh",
-      "player_key": "taylor raddysh",
-      "detected_at": "2026-11-21T16:06:18Z"
-    },
-    {
-      "id": "NEW_IR:VAN:brendan gallagher:2026-11-21",
-      "type": "NEW_IR",
-      "team": "VAN",
-      "player": "Brendan Gallagher",
-      "player_key": "brendan gallagher",
-      "detected_at": "2026-11-21T16:06:18Z"
     }
   ]
 }
